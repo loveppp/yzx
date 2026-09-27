@@ -19,10 +19,12 @@ export interface CategoryOptionGroup {
 interface ProductFilterProps {
   products: ProductItem[];
   labels: {
+    filterTitle: string;
     filterIndustry: string;
     filterCategory: string;
     filterMaterial: string;
     all: string;
+    resultCount: string;
     viewDetails: string;
     customTag: string;
   };
@@ -55,61 +57,58 @@ export default function ProductFilter({
     });
   }, [products, industry, category, material]);
 
-  return (
-    <div className="grid gap-8 lg:grid-cols-[220px_1fr]">
-      <aside className="space-y-6">
-        <div>
-          <label className="text-xs uppercase tracking-wider text-borui-steel">{labels.filterIndustry}</label>
-          <select
-            value={industry}
-            onChange={(e) => setIndustry(e.target.value)}
-            className="mt-2 w-full border border-borui-navy/20 bg-white px-3 py-2 text-sm"
-          >
-            <option value="">{labels.all}</option>
-            {industries.map((c) => (
-              <option key={c.value} value={c.value}>
-                {c.label}
-              </option>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label className="text-xs uppercase tracking-wider text-borui-steel">{labels.filterCategory}</label>
-          <select
-            value={category}
-            onChange={(e) => setCategory(e.target.value)}
-            className="mt-2 w-full border border-borui-navy/20 bg-white px-3 py-2 text-sm"
-          >
-            <option value="">{labels.all}</option>
-            {categoryGroups.map((g) => (
-              <optgroup key={g.groupLabel} label={g.groupLabel}>
-                {g.options.map((c) => (
-                  <option key={c.value} value={c.value}>
-                    {c.label}
-                  </option>
-                ))}
-              </optgroup>
-            ))}
-          </select>
-        </div>
-        <div>
-          <label className="text-xs uppercase tracking-wider text-borui-steel">{labels.filterMaterial}</label>
-          <select
-            value={material}
-            onChange={(e) => setMaterial(e.target.value)}
-            className="mt-2 w-full border border-borui-navy/20 bg-white px-3 py-2 text-sm"
-          >
-            <option value="">{labels.all}</option>
-            {materials.map((m) => (
-              <option key={m} value={m}>
-                {m}
-              </option>
-            ))}
-          </select>
-        </div>
-      </aside>
+  const selectClass =
+    'mt-1.5 w-full border border-borui-navy/20 bg-white px-3 py-2.5 text-sm text-borui-navy';
 
-      <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
+  return (
+    <div>
+      <div className="rounded border border-borui-navy/10 bg-white p-4 md:p-5">
+        <h2 className="font-serif text-lg text-borui-navy">{labels.filterTitle}</h2>
+        <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div>
+            <label className="text-sm font-medium text-borui-navy">{labels.filterIndustry}</label>
+            <select value={industry} onChange={(e) => setIndustry(e.target.value)} className={selectClass}>
+              <option value="">{labels.all}</option>
+              {industries.map((c) => (
+                <option key={c.value} value={c.value}>
+                  {c.label}
+                </option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label className="text-sm font-medium text-borui-navy">{labels.filterCategory}</label>
+            <select value={category} onChange={(e) => setCategory(e.target.value)} className={selectClass}>
+              <option value="">{labels.all}</option>
+              {categoryGroups.map((g) => (
+                <optgroup key={g.groupLabel} label={g.groupLabel}>
+                  {g.options.map((c) => (
+                    <option key={c.value} value={c.value}>
+                      {c.label}
+                    </option>
+                  ))}
+                </optgroup>
+              ))}
+            </select>
+          </div>
+          <div className="sm:col-span-2 lg:col-span-1">
+            <label className="text-sm font-medium text-borui-navy">{labels.filterMaterial}</label>
+            <select value={material} onChange={(e) => setMaterial(e.target.value)} className={selectClass}>
+              <option value="">{labels.all}</option>
+              {materials.map((m) => (
+                <option key={m} value={m}>
+                  {m}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
+        <p className="mt-4 text-sm text-borui-steel">
+          {labels.resultCount.replace('{n}', String(filtered.length))}
+        </p>
+      </div>
+
+      <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
         {filtered.map((product) => (
           <a
             key={product.slug}
@@ -126,7 +125,7 @@ export default function ProductFilter({
             </div>
             <div className="p-4">
               <div className="flex items-start justify-between gap-2">
-                <h3 className="font-serif text-lg text-borui-navy">{product.name}</h3>
+                <h3 className="font-serif text-base text-borui-navy">{product.name}</h3>
                 <span className="tag-custom shrink-0 text-[10px]">{labels.customTag}</span>
               </div>
               <p className="mt-1 text-xs text-borui-steel">{product.categoryLabel}</p>

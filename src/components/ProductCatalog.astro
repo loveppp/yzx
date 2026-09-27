@@ -1,0 +1,200 @@
+---
+import {
+  categoryToMoldApplication,
+  groupsForMoldApplication,
+  moldApplicationOrder,
+} from '@/data/product-taxonomy';
+import { getCollection } from 'astro:content';
+import { getLocalizedField, localizedPath, useTranslations, type Locale } from '@/i18n/utils';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+
+const allProducts = await getCollection('products');
+const products = allProducts.map((entry) => {
+  const moldApplication =
+    entry.data.moldApplication ?? categoryToMoldApplication(entry.data.category);
+  return {
+    slug: entry.slug,
+    name: getLocalizedField(entry.data, 'name', locale),
+    category: entry.data.category,
+    categoryLabel: t.products.categories[entry.data.category],
+    moldApplication,
+    materials: entry.data.materials,
+    heroImage: entry.data.heroImage,
+    href: localizedPath(`/products/${entry.data.category}/${entry.slug}/`, locale),
+  };
+});
+
+const industries = moldApplicationOrder.map((value) => ({
+  value,
+  label: t.products.moldApplications[value],
+}));
+
+const categoryGroups = groupsForMoldApplication('').flatMap((group) => ({
+  groupLabel: t.products.taxonomyGroups[group.id],
+  options: group.categorySlugs.map((slug) => ({
+    value: slug,
+    label: t.products.categories[slug],
+  })),
+}));
+
+const materialSet = new Set<string>();
+products.forEach((p) => p.materials.forEach((m) => materialSet.add(m)));
+const materials = Array.from(materialSet).sort();
+
+const categoryLandingLinks = categoryGroups.flatMap((g) => g.options);
+---
+
+<div class="product-catalog" data-product-count={products.length}>
+  <div
+    class="sticky top-[57px] z-40 -mx-5 border-b border-borui-navy/10 bg-borui-paper/95 px-5 py-3 backdrop-blur-sm md:static md:mx-0 md:border md:border-borui-navy/10 md:bg-white md:px-4 md:py-4"
+  >
+    <div class="flex flex-col gap-3 lg:flex-row lg:items-end lg:gap-4">
+      <div class="grid flex-1 gap-3 sm:grid-cols-3">
+        <div>
+          <label for="filter-industry" class="text-xs font-medium text-borui-steel">
+            {t.products.filterIndustry}
+          </label>
+          <select
+            id="filter-industry"
+            class="catalog-filter mt-1 w-full border border-borui-navy/20 bg-white px-2 py-2 text-sm text-borui-navy"
+            data-filter="industry"
+          >
+            <option value="">{t.products.all}</option>
+            {industries.map((ind) => (
+              <option value={ind.value}>{ind.label}</option>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label for="filter-category" class="text-xs font-medium text-borui-steel">
+            {t.products.filterCategory}
+          </label>
+          <select
+            id="filter-category"
+            class="catalog-filter mt-1 w-full border border-borui-navy/20 bg-white px-2 py-2 text-sm text-borui-navy"
+            data-filter="category"
+          >
+            <option value="">{t.products.all}</option>
+            {categoryGroups.map((g) => (
+              <optgroup label={g.groupLabel}>
+                {g.options.map((c) => (
+                  <option value={c.value}>{c.label}</option>
+                ))}
+              </optgroup>
+            ))}
+          </select>
+        </div>
+        <div>
+          <label for="filter-material" class="text-xs font-medium text-borui-steel">
+            {t.products.filterMaterial}
+          </label>
+          <select
+            id="filter-material"
+            class="catalog-filter mt-1 w-full border border-borui-navy/20 bg-white px-2 py-2 text-sm text-borui-navy"
+            data-filter="material"
+          >
+            <option value="">{t.products.all}</option>
+            {materials.map((m) => (
+              <option value={m}>{m}</option>
+            ))}
+          </select>
+        </div>
+      </div>
+      <p class="shrink-0 text-sm text-borui-steel lg:pb-2">
+        <span id="catalog-count">{products.length}</span>
+        {locale === 'zh' ? ' 款' : locale === 'vi' ? ' SP' : ' items'}
+      </p>
+    </div>
+    <p class="mt-2 hidden text-xs text-borui-steel md:block">{t.products.catalogFilterHint}</p>
+  </div>
+
+  <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" id="product-grid">
+    {
+      products.map((product) => (
+        <a
+          href={product.href}
+          class="catalog-card group overflow-hidden border border-borui-navy/10 bg-white transition-shadow hover:shadow-md"
+          data-industry={product.moldApplication}
+          data-category={product.category}
+          data-materials={product.materials.join('|')}
+        >
+          <div class="aspect-[4/3] overflow-hidden bg-borui-light">
+            <img
+              src={product.heroImage}
+              alt={product.name}
+              class="h-full w-full object-cover transition-transform group-hover:scale-105"
+              loading="lazy"
+            />
+          </div>
+          <div class="p-3">
+            <div class="flex items-start justify-between gap-2">
+              <h2 class="line-clamp-2 font-serif text-sm leading-snug text-borui-navy md:text-base">
+                {product.name}
+              </h2>
+              <span class="tag-custom shrink-0 text-[10px]">{t.products.customTag}</span>
+            </div>
+            <p class="mt-1 text-xs text-borui-steel">{product.categoryLabel}</p>
+          </div>
+        </a>
+      ))
+    }
+  </div>
+
+  <p id="catalog-empty" class="mt-8 hidden text-center text-sm text-borui-steel">
+    {t.products.catalogEmpty}
+  </p>
+
+  <details class="mt-10 border-t border-borui-navy/10 pt-6">
+    <summary class="cursor-pointer text-sm font-medium text-borui-navy">
+      {t.products.browseCategoryPages}
+    </summary>
+    <p class="mt-2 text-xs text-borui-steel">{t.products.browseByIndustryHint}</p>
+    <ul class="mt-3 flex flex-wrap gap-2">
+      {
+        categoryLandingLinks.map((c) => (
+          <li>
+            <a
+              href={localizedPath(`/products/${c.value}/`, locale)}
+              class="text-sm text-borui-brass hover:underline"
+            >
+              {c.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </details>
+</div>
+
+<script>
+  function applyCatalogFilters() {
+    const industry = (document.getElementById('filter-industry') as HTMLSelectElement)?.value ?? '';
+    const category = (document.getElementById('filter-category') as HTMLSelectElement)?.value ?? '';
+    const material = (document.getElementById('filter-material') as HTMLSelectElement)?.value ?? '';
+    const cards = document.querySelectorAll<HTMLElement>('.catalog-card');
+    let visible = 0;
+    cards.forEach((card) => {
+      const matchIndustry = !industry || card.dataset.industry === industry;
+      const matchCategory = !category || card.dataset.category === category;
+      const mats = card.dataset.materials?.split('|') ?? [];
+      const matchMaterial = !material || mats.includes(material);
+      const show = matchIndustry && matchCategory && matchMaterial;
+      card.style.display = show ? '' : 'none';
+      if (show) visible += 1;
+    });
+    const countEl = document.getElementById('catalog-count');
+    if (countEl) countEl.textContent = String(visible);
+    const empty = document.getElementById('catalog-empty');
+    if (empty) empty.classList.toggle('hidden', visible > 0);
+  }
+
+  document.querySelectorAll('.catalog-filter').forEach((el) => {
+    el.addEventListener('change', applyCatalogFilters);
+  });
+</script>
