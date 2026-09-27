@@ -1,0 +1,49 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { locales, localizedPath, useTranslations, type Locale } from '@/i18n/utils';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const paths = [];
+  for (const locale of locales) {
+    for (const post of posts) {
+      paths.push({ params: { locale, slug: post.slug } });
+    }
+  }
+  return paths;
+}
+
+const locale = Astro.params.locale as Locale;
+const { slug } = Astro.params;
+const t = useTranslations(locale);
+
+const posts = await getCollection('blog');
+const entry = posts.find((p) => p.slug === slug);
+if (!entry) return Astro.redirect(localizedPath('/blog/', locale));
+
+const title = locale === 'zh' ? entry.data.title_zh : entry.data.title_en;
+const description = locale === 'zh' ? entry.data.description_zh : entry.data.description_en;
+const body = locale === 'zh' ? entry.data.body_zh : entry.data.body_en;
+const path = `/${locale}/blog/${slug}/`;
+const pageTitle = `${title} | ${t.siteNameFull}`;
+---
+
+<Layout title={pageTitle} description={description} path={path}>
+  <article class="section-padding">
+    <div class="content-wrap max-w-3xl">
+      <time class="text-xs text-borui-steel" datetime={entry.data.pubDate.toISOString()}>
+        {entry.data.pubDate.toLocaleDateString(locale === 'zh' ? 'zh-CN' : 'en-US')}
+      </time>
+      <h1 class="mt-4 text-3xl text-borui-navy md:text-4xl">{title}</h1>
+      {
+        entry.data.heroImage && (
+          <img src={entry.data.heroImage} alt="" class="mt-8 aspect-video w-full object-cover" />
+        )
+      }
+      <div class="prose prose-neutral mt-8 max-w-none whitespace-pre-line">
+        {body}
+      </div>
+    </div>
+  </article>
+</Layout>

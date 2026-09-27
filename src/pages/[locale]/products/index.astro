@@ -1,0 +1,82 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import ProductCategoryNav from '@/components/ProductCategoryNav.astro';
+import ProductFilter from '@/components/ProductFilter';
+import {
+  categoryToMoldApplication,
+  groupsForMoldApplication,
+  moldApplicationOrder,
+} from '@/data/product-taxonomy';
+import { getCollection } from 'astro:content';
+import { getLocalizedField, locales, localizedPath, useTranslations, type Locale } from '@/i18n/utils';
+
+export function getStaticPaths() {
+  return locales.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale as Locale;
+const t = useTranslations(locale);
+const path = `/${locale}/products/`;
+const title = `${t.products.title} | ${t.siteNameFull}`;
+
+const allProducts = await getCollection('products');
+const products = allProducts.map((entry) => {
+  const moldApplication =
+    entry.data.moldApplication ?? categoryToMoldApplication(entry.data.category);
+  return {
+    slug: entry.slug,
+    name: getLocalizedField(entry.data, 'name', locale),
+    category: entry.data.category,
+    categoryLabel: t.products.categories[entry.data.category],
+    moldApplication,
+    materials: entry.data.materials,
+    heroImage: entry.data.heroImage,
+    href: localizedPath(`/products/${entry.data.category}/${entry.slug}/`, locale),
+  };
+});
+
+const industries = moldApplicationOrder.map((value) => ({
+  value,
+  label: t.products.moldApplications[value],
+}));
+
+const categoryGroups = groupsForMoldApplication('').flatMap((group) => ({
+  groupLabel: t.products.taxonomyGroups[group.id],
+  options: group.categorySlugs.map((slug) => ({
+    value: slug,
+    label: t.products.categories[slug],
+  })),
+}));
+---
+
+<Layout title={title} description={t.products.subtitle} path={path}>
+  <section class="section-padding border-b border-borui-navy/10">
+    <div class="content-wrap">
+      <h1 class="text-3xl text-borui-navy md:text-4xl">{t.products.title}</h1>
+      <p class="mt-4 max-w-2xl text-borui-steel">{t.products.subtitle}</p>
+      <p class="mt-2 text-sm text-borui-brass">{t.products.disclaimer}</p>
+    </div>
+  </section>
+
+  <section class="section-padding">
+    <div class="content-wrap grid gap-10 lg:grid-cols-[260px_1fr]">
+      <div class="hidden lg:block">
+        <ProductCategoryNav locale={locale} t={t} currentPath={path} />
+      </div>
+      <ProductFilter
+        client:visible
+        products={products}
+        labels={{
+          filterIndustry: t.products.filterIndustry,
+          filterCategory: t.products.filterCategory,
+          filterMaterial: t.products.filterMaterial,
+          all: t.products.all,
+          viewDetails: t.products.viewDetails,
+          customTag: t.products.customTag,
+        }}
+        industries={industries}
+        categoryGroups={categoryGroups}
+      />
+    </div>
+  </section>
+</Layout>

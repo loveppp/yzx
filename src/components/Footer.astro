@@ -1,0 +1,41 @@
+---
+import { localizedPath, type Dictionary, type Locale } from '@/i18n/utils';
+
+interface Props {
+  locale: Locale;
+  t: Dictionary;
+}
+
+const { locale, t } = Astro.props;
+const year = new Date().getFullYear();
+---
+
+<footer class="border-t border-borui-navy/10 bg-borui-navy text-white">
+  <div class="content-wrap section-padding !py-12">
+    <div class="grid gap-10 md:grid-cols-3">
+      <div>
+        <p class="font-serif text-xl">{t.siteNameFull}</p>
+        <p class="mt-3 text-sm text-borui-steel">{t.footer.tagline}</p>
+      </div>
+      <div>
+        <p class="text-xs uppercase tracking-wider text-borui-brass">{t.contact.title}</p>
+        <ul class="mt-3 space-y-2 text-sm text-borui-steel">
+          <li>{t.contact.email}: {t.contact.emailValue}</li>
+          <li>{t.contact.whatsapp}: <a href="https://wa.me/8617788989065" target="_blank" rel="noreferrer" class="hover:text-white">{t.contact.whatsappValue}</a></li>
+          <li>{t.contact.address}: {t.contact.addressValue}</li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-xs uppercase tracking-wider text-borui-brass">{t.nav.products}</p>
+        <ul class="mt-3 space-y-2 text-sm text-borui-steel">
+          <li><a href={localizedPath('/products/punch-pins/', locale)} class="hover:text-white">{t.products.categories['punch-pins']}</a></li>
+          <li><a href={localizedPath('/products/special-shaped-punches/', locale)} class="hover:text-white">{t.products.categories['special-shaped-punches']}</a></li>
+          <li><a href={localizedPath('/custom-oem/', locale)} class="hover:text-white">{t.nav.customOem}</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="mt-10 border-t border-white/10 pt-6 text-xs text-borui-steel">
+      © {year} {t.siteNameFull}. {t.footer.rights}
+    </p>
+  </div>
+</footer>

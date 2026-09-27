@@ -1,0 +1,64 @@
+---
+import LangSwitch from './LangSwitch.astro';
+import { localizedPath, type Dictionary, type Locale } from '@/i18n/utils';
+
+interface Props {
+  locale: Locale;
+  t: Dictionary;
+  currentPath: string;
+}
+
+const { locale, t, currentPath } = Astro.props;
+
+const links = [
+  { href: localizedPath('/products/', locale), label: t.nav.products },
+  { href: localizedPath('/custom-oem/', locale), label: t.nav.customOem },
+  { href: localizedPath('/factory/', locale), label: t.nav.factory },
+  { href: localizedPath('/blog/', locale), label: t.nav.blog },
+  { href: localizedPath('/contact/', locale), label: t.nav.contact },
+];
+---
+
+<header class="sticky top-0 z-50 border-b border-borui-navy/10 bg-borui-paper/95 backdrop-blur-sm">
+  <div class="content-wrap flex items-center justify-between px-5 py-4 md:px-8">
+    <a href={localizedPath('/', locale)} class="group flex items-center gap-3">
+      <img src="/images/brand/logo-icon.svg" alt="" class="h-9 w-9 shrink-0" width="36" height="36" />
+      <span class="hidden min-w-0 sm:block">
+        <span class="block truncate font-serif text-lg font-semibold leading-tight text-borui-navy md:text-xl">
+          {t.siteName}
+        </span>
+        <span class="block truncate text-xs text-borui-steel">{t.siteNameFull}</span>
+      </span>
+    </a>
+
+    <nav class="hidden items-center gap-8 lg:flex" aria-label="Main">
+      {
+        links.map((link) => (
+          <a
+            href={link.href}
+            class="text-sm text-borui-navy/80 transition-colors hover:text-borui-navy"
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="flex items-center gap-4">
+      <LangSwitch locale={locale} currentPath={currentPath} />
+      <a href={localizedPath('/contact/', locale)} class="btn-primary hidden text-xs sm:inline-block">
+        {t.hero.ctaQuote}
+      </a>
+    </div>
+  </div>
+
+  <nav class="flex gap-4 overflow-x-auto border-t border-borui-navy/5 px-5 py-2 lg:hidden" aria-label="Mobile">
+    {
+      links.map((link) => (
+        <a href={link.href} class="whitespace-nowrap text-xs text-borui-navy/70">
+          {link.label}
+        </a>
+      ))
+    }
+  </nav>
+</header>

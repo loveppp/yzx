@@ -1,0 +1,60 @@
+---
+import { localeConfig, locales, type Locale } from '@/i18n/locales';
+
+interface Props {
+  title: string;
+  description: string;
+  locale: Locale;
+  path: string;
+  type?: 'website' | 'article' | 'product';
+}
+
+const { title, description, locale, path, type = 'website' } = Astro.props;
+const site = Astro.site?.href ?? 'https://yzxprecision.com';
+const canonical = new URL(path, site).href;
+
+const orgName =
+  locale === 'zh'
+    ? '深圳市源智信模具配件有限公司'
+    : locale === 'vi'
+      ? 'Công ty TNHH Linh kiện Khuôn Yuanzhixin Thâm Quyến'
+      : 'YZX Precision';
+---
+
+<meta charset="UTF-8" />
+<link rel="icon" type="image/svg+xml" href="/images/brand/logo-icon.svg" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{
+  locales.map((code) => {
+    const altPath = path.replace(`/${locale}/`, `/${code}/`);
+    return (
+      <link rel="alternate" hreflang={localeConfig[code].hreflang} href={new URL(altPath, site).href} />
+    );
+  })
+}
+<link rel="alternate" hreflang="x-default" href={new URL(path.replace(`/${locale}/`, '/en/'), site).href} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonical} />
+<meta property="og:locale" content={localeConfig[locale].hreflang.replace('-', '_')} />
+<meta property="og:image" content={new URL('/images/factory/hero.png', site).href} />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap"
+  rel="stylesheet"
+/>
+
+<script is:inline type="application/ld+json" set:html={JSON.stringify({
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: orgName,
+  url: site,
+  description,
+  logo: new URL('/images/brand/logo.svg', site).href,
+})} />

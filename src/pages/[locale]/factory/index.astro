@@ -1,0 +1,65 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import FactorySlider from '@/components/FactorySlider.astro';
+import { equipmentRows } from '@/data/materials';
+import { locales, useTranslations, type Locale } from '@/i18n/utils';
+
+export function getStaticPaths() {
+  return locales.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale as Locale;
+const t = useTranslations(locale);
+const path = `/${locale}/factory/`;
+const title = locale === 'zh' ? `${t.factory.pageTitle} | 深圳市源智信模具配件有限公司` : `${t.factory.pageTitle} | YZX Precision`;
+---
+
+<Layout title={title} description={t.factory.pageIntro} path={path}>
+  <section class="section-padding border-b border-borui-navy/10">
+    <div class="content-wrap max-w-3xl">
+      <h1 class="text-3xl text-borui-navy md:text-4xl">{t.factory.pageTitle}</h1>
+      <p class="mt-6 text-lg leading-relaxed text-borui-steel">{t.factory.pageIntro}</p>
+    </div>
+  </section>
+
+  <FactorySlider t={t} locale={locale} />
+
+  <section class="section-padding">
+    <div class="content-wrap">
+      <h2 class="text-2xl text-borui-navy">{t.factory.equipmentTitle}</h2>
+      <div class="mt-6 overflow-x-auto">
+        <table class="spec-table">
+          <thead>
+            <tr>
+              <th>{locale === 'zh' ? '设备' : 'Equipment'}</th>
+              <th>{locale === 'zh' ? '数量' : 'Qty'}</th>
+              <th>{locale === 'zh' ? '精度' : 'Precision'}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {
+              equipmentRows.map((row) => (
+                <tr>
+                  <td class="font-medium text-borui-navy">{locale === 'zh' ? row.name_zh : row.name_en}</td>
+                  <td>{row.qty}</td>
+                  <td>{row.precision}</td>
+                </tr>
+              ))
+            }
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mt-12 max-w-2xl">
+        <h2 class="text-2xl text-borui-navy">{t.factory.inspectionTitle}</h2>
+        <p class="mt-4 text-borui-steel">
+          {
+            locale === 'zh'
+              ? '出货前对关键尺寸进行全数检测。投影仪、游标卡尺、千分尺常规使用；三次元测量适用于高精度订单。检测报告可按需提供。'
+              : '100% dimensional check on critical features before shipment. Optical projector, calipers, and micrometers in daily use; CMM available for high-precision orders. Inspection reports on request.'
+          }
+        </p>
+      </div>
+    </div>
+  </section>
+</Layout>

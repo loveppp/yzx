@@ -1,0 +1,50 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import CustomTimeline from '@/components/CustomTimeline.astro';
+import ShapeDiagram from '@/components/ShapeDiagram.astro';
+import QuoteSection from '@/components/QuoteSection.astro';
+import { images } from '@/data/images';
+import { getLocaleFromUrl, locales, useTranslations, type Locale } from '@/i18n/utils';
+
+export function getStaticPaths() {
+  return locales.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale as Locale;
+const t = useTranslations(locale);
+const path = `/${locale}/custom-oem/`;
+const title = locale === 'zh' ? `${t.custom.pageTitle} | 深圳市源智信模具配件有限公司` : `${t.custom.pageTitle} | YZX Precision`;
+const desc = t.custom.pageIntro;
+---
+
+<Layout title={title} description={desc} path={path}>
+  <section class="section-padding border-b border-borui-navy/10">
+    <div class="content-wrap max-w-3xl">
+      <h1 class="text-3xl text-borui-navy md:text-4xl">{t.custom.pageTitle}</h1>
+      <p class="mt-6 text-lg leading-relaxed text-borui-steel">{t.custom.pageIntro}</p>
+    </div>
+  </section>
+
+  <section class="section-padding">
+    <div class="content-wrap grid gap-12 lg:grid-cols-2">
+      <CustomTimeline t={t} />
+      <div class="space-y-4">
+        {
+          images.customProcess.map((src, i) => (
+            <figure class="overflow-hidden">
+              <img src={src} alt="" class="aspect-video w-full object-cover" loading="lazy" />
+            </figure>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section-padding bg-borui-light">
+    <div class="content-wrap">
+      <ShapeDiagram t={t} />
+    </div>
+  </section>
+
+  <QuoteSection t={t} locale={locale} />
+</Layout>

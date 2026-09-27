@@ -1,0 +1,63 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import { locales, localizedPath, useTranslations, type Locale } from '@/i18n/utils';
+
+export function getStaticPaths() {
+  return locales.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale as Locale;
+const t = useTranslations(locale);
+const path = `/${locale}/blog/`;
+const title = locale === 'zh' ? `${t.blog.title} | 深圳市源智信模具配件有限公司` : `${t.blog.title} | YZX Precision`;
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<Layout title={title} description={t.meta.homeDesc} path={path}>
+  <section class="section-padding">
+    <div class="content-wrap">
+      <h1 class="text-3xl text-borui-navy md:text-4xl">{t.blog.title}</h1>
+      <div class="mt-10 divide-y divide-borui-navy/10">
+        {
+          posts.map((post) => (
+            <article class="grid gap-4 py-8 md:grid-cols-[1fr_2fr]">
+              {
+                post.data.heroImage && (
+                  <img
+                    src={post.data.heroImage}
+                    alt=""
+                    class="aspect-video w-full object-cover md:aspect-[4/3]"
+                    loading="lazy"
+                  />
+                )
+              }
+              <div>
+                <time class="text-xs text-borui-steel" datetime={post.data.pubDate.toISOString()}>
+                  {post.data.pubDate.toLocaleDateString(locale === 'zh' ? 'zh-CN' : 'en-US')}
+                </time>
+                <h2 class="mt-2 font-serif text-xl text-borui-navy">
+                  <a href={localizedPath(`/blog/${post.slug}/`, locale)} class="hover:text-borui-brass">
+                    {locale === 'zh' ? post.data.title_zh : post.data.title_en}
+                  </a>
+                </h2>
+                <p class="mt-2 text-sm text-borui-steel">
+                  {locale === 'zh' ? post.data.description_zh : post.data.description_en}
+                </p>
+                <a
+                  href={localizedPath(`/blog/${post.slug}/`, locale)}
+                  class="mt-3 inline-block text-sm text-borui-brass"
+                >
+                  {t.blog.readMore} →
+                </a>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-borui-paper font-sans text-borui-navy antialiased;
+  }
+
+  html[dir='rtl'] body {
+    @apply font-sans;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif font-semibold tracking-tight;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block bg-borui-brass px-6 py-3 text-sm font-medium uppercase tracking-wider text-borui-navy transition-colors hover:bg-[#b8934a];
+  }
+
+  .btn-outline {
+    @apply inline-block border border-borui-navy px-6 py-3 text-sm font-medium uppercase tracking-wider text-borui-navy transition-colors hover:bg-borui-navy hover:text-white;
+  }
+
+  .section-padding {
+    @apply px-5 py-16 md:px-8 md:py-24;
+  }
+
+  .content-wrap {
+    @apply mx-auto max-w-content;
+  }
+
+  .tag-custom {
+    @apply inline-block bg-borui-navy px-2 py-0.5 text-xs uppercase tracking-wider text-borui-brass;
+  }
+
+  .spec-table {
+    @apply w-full border-collapse text-sm;
+  }
+
+  .spec-table th {
+    @apply border-b border-borui-navy/20 bg-borui-light px-4 py-3 text-left font-medium;
+  }
+
+  .spec-table td {
+    @apply border-b border-borui-navy/10 px-4 py-3 text-borui-steel;
+  }
+}

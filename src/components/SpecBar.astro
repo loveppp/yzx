@@ -1,0 +1,25 @@
+---
+import type { Dictionary } from '@/i18n/utils';
+
+interface Props {
+  t: Dictionary;
+}
+
+const { t } = Astro.props;
+const items = [t.specBar.materials, t.specBar.tolerance, t.specBar.moq, t.specBar.input];
+---
+
+<section class="border-b border-borui-navy/10 bg-borui-navy py-4 text-white">
+  <div class="content-wrap">
+    <ul class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs uppercase tracking-wider md:text-sm">
+      {
+        items.map((item, i) => (
+          <>
+            {i > 0 && <li class="hidden text-borui-brass md:inline" aria-hidden="true">·</li>}
+            <li class="text-center text-borui-steel">{item}</li>
+          </>
+        ))
+      }
+    </ul>
+  </div>
+</section>

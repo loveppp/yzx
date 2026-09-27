@@ -1,0 +1,38 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import QuoteSection from '@/components/QuoteSection.astro';
+import { locales, useTranslations, type Locale } from '@/i18n/utils';
+
+export function getStaticPaths() {
+  return locales.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale as Locale;
+const t = useTranslations(locale);
+const path = `/${locale}/contact/`;
+const title = locale === 'zh' ? `${t.contact.title} | 深圳市源智信模具配件有限公司` : `${t.contact.title} | YZX Precision`;
+---
+
+<Layout title={title} description={t.quote.subtitle} path={path}>
+  <section class="section-padding border-b border-borui-navy/10">
+    <div class="content-wrap">
+      <h1 class="text-3xl text-borui-navy md:text-4xl">{t.contact.title}</h1>
+      <div class="mt-8 grid gap-6 sm:grid-cols-3">
+        <div>
+          <p class="text-xs uppercase tracking-wider text-borui-brass">{t.contact.email}</p>
+          <p class="mt-2 text-borui-navy">{t.contact.emailValue}</p>
+        </div>
+        <div>
+          <p class="text-xs uppercase tracking-wider text-borui-brass">{t.contact.whatsapp}</p>
+          <a href="https://wa.me/8617788989065" target="_blank" rel="noreferrer" class="mt-2 inline-block text-borui-navy underline decoration-borui-brass underline-offset-4">{t.contact.whatsappValue}</a>
+        </div>
+        <div>
+          <p class="text-xs uppercase tracking-wider text-borui-brass">{t.contact.address}</p>
+          <p class="mt-2 text-borui-navy">{t.contact.addressValue}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <QuoteSection t={t} locale={locale} />
+</Layout>

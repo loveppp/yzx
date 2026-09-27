@@ -1,0 +1,30 @@
+---
+import type { Dictionary } from '@/i18n/utils';
+
+interface Props {
+  t: Dictionary;
+  compact?: boolean;
+}
+
+const { t, compact = false } = Astro.props;
+const steps = ['1', '2', '3', '4'] as const;
+---
+
+<div class={compact ? '' : 'space-y-0'}>
+  {
+    steps.map((key, index) => (
+      <div class="relative flex gap-6 pb-10 last:pb-0">
+        {index < steps.length - 1 && (
+          <div class="absolute left-[11px] top-8 h-[calc(100%-2rem)] w-px bg-borui-navy/20" aria-hidden="true" />
+        )}
+        <div class="relative z-10 flex h-6 w-6 shrink-0 items-center justify-center rounded-full border-2 border-borui-brass bg-borui-paper text-xs font-medium text-borui-brass">
+          {key}
+        </div>
+        <div>
+          <h3 class="font-serif text-lg text-borui-navy">{t.custom.steps[key].title}</h3>
+          <p class="mt-1 text-sm leading-relaxed text-borui-steel">{t.custom.steps[key].desc}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>

@@ -1,0 +1,169 @@
+{
+  "siteName": "源智信精密",
+  "siteNameFull": "深圳市源智信模具配件有限公司",
+  "nav": {
+    "products": "产品中心",
+    "customOem": "非标定制",
+    "factory": "工厂介绍",
+    "blog": "技术文章",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "模具冲针非标定制，按图加工",
+    "subtitle": "冲针、浮升销、引导针、导柱、导套、A 冲和异型冲针，支持来图、来样、小批量定制。",
+    "ctaQuote": "发送图纸询价",
+    "ctaProducts": "查看产品"
+  },
+  "specBar": {
+    "materials": "SKD61 / SKH51 / Cr12MoV / 硬质合金",
+    "tolerance": "公差 ±0.002mm",
+    "moq": "起订 1 件",
+    "input": "CAD · PDF · 来样 · 尺寸表"
+  },
+  "products": {
+    "title": "产品分类",
+    "subtitle": "以下规格仅供参考，所有产品均可按您的图纸定制",
+    "customTag": "可定制",
+    "disclaimer": "页面规格仅供参考，实际生产以您的图纸为准。",
+    "categories": {
+      "punch-pins": "冲针",
+      "floating-pins": "浮升销",
+      "pilot-pins": "引导针 / 定位针",
+      "guide-posts": "导柱",
+      "guide-bushings": "导套",
+      "a-type-punches": "A 冲",
+      "special-shaped-punches": "异型冲针",
+      "carbide-punches": "硬质合金冲针",
+      "hss-punches": "高速钢冲针",
+      "stepped-punches": "台阶冲针",
+      "stamping-die-punches": "冲压模冲针",
+      "ejector-components": "顶针与司筒",
+      "die-springs": "模具弹簧",
+      "oilless-bushings": "无油衬套",
+      "sprue-bushings": "浇口套",
+      "custom-mold-components": "其他非标模具配件"
+    },
+    "browseByIndustry": "按行业浏览",
+    "filterIndustry": "应用行业",
+    "filterCategory": "产品类型",
+    "filterMaterial": "材质",
+    "all": "全部",
+    "viewDetails": "查看详情",
+    "moldApplications": {
+      "stamping": "冲压模具配件",
+      "plastic": "塑胶模具配件",
+      "standard": "标准件加工",
+      "universal": "通用 / 其他非标"
+    },
+    "taxonomyGroups": {
+      "stamping-punches": "冲针、冲头",
+      "stamping-guides": "导柱、导套",
+      "stamping-feed": "浮料、引导",
+      "plastic-ejector": "顶针、司筒",
+      "plastic-sprue": "浇口、衬套",
+      "shop-supplies": "模房辅材",
+      "other": "其他定制"
+    }
+  },
+  "custom": {
+    "title": "异形、台阶、斜度 — 均可加工",
+    "subtitle": "六角、台阶、斜度、椭圆、扁冲 — 您出图纸，我们出件",
+    "steps": {
+      "1": {
+        "title": "收到图纸或样品",
+        "desc": "CAD、PDF、实物样品或尺寸表，格式不限"
+      },
+      "2": {
+        "title": "工艺评审",
+        "desc": "工程人员评估加工工艺，确认材质与公差方案"
+      },
+      "3": {
+        "title": "试样加工",
+        "desc": "首件 3–7 天，确认后再批量生产"
+      },
+      "4": {
+        "title": "全检出货",
+        "desc": "出货前 100% 尺寸检测"
+      }
+    },
+    "shapesTitle": "可加工截面形状",
+    "pageTitle": "非标定制加工",
+    "pageIntro": "源智信专注模具配件非标定制。您可以发送图纸、样品或尺寸表，我们先进行工艺评审，再确认报价与交期。"
+  },
+  "factory": {
+    "title": "车间与检测",
+    "subtitle": "精密加工，批批检验",
+    "pageTitle": "工厂介绍",
+    "pageIntro": "深圳市源智信模具配件有限公司，专注冲针、浮升销、引导针、导柱导套、A 冲及异型冲针的来图来样加工。",
+    "equipmentTitle": "加工设备",
+    "inspectionTitle": "检测能力"
+  },
+  "materials": {
+    "title": "材质与表面处理",
+    "materialCol": "材质",
+    "useCol": "典型应用",
+    "treatmentCol": "表面处理",
+    "effectCol": "效果"
+  },
+  "faq": {
+    "title": "常见问题",
+    "items": [
+      {
+        "q": "最小起订量是多少？",
+        "a": "非标定制件 1 件起订，批量订单价格更优。"
+      },
+      {
+        "q": "样品交期多久？",
+        "a": "图纸确认后，样品通常 3–7 个工作日，视复杂度而定。"
+      },
+      {
+        "q": "能做多高的精度？",
+        "a": "常规关键尺寸 ±0.002mm，更高精度请在图纸标注，我们评估后报价。"
+      },
+      {
+        "q": "没有图纸，只有样品可以吗？",
+        "a": "可以。寄送样品，我们测绘并出产品图供您确认后再加工。"
+      },
+      {
+        "q": "接受哪些文件格式？",
+        "a": "STEP、IGES、DWG、DXF、PDF 及 JPG/PNG 草图均可。"
+      }
+    ]
+  },
+  "quote": {
+    "title": "发送图纸询价",
+    "subtitle": "上传图纸或描述需求 — 工作时间内 2 小时内回复",
+    "name": "姓名",
+    "company": "公司",
+    "email": "邮箱",
+    "phone": "电话",
+    "whatsapp": "WhatsApp",
+    "category": "产品类别",
+    "message": "留言",
+    "file": "上传图纸（CAD/PDF）",
+    "submit": "提交询盘",
+    "success": "已提交，我们会尽快回复。",
+    "selectCategory": "选择类别"
+  },
+  "contact": {
+    "title": "联系我们",
+    "email": "邮箱",
+    "whatsapp": "WhatsApp",
+    "address": "地址",
+    "addressValue": "深圳市龙岗区宝龙街道龙新社区深汕路103-24号",
+    "emailValue": "sales@yzxprecision.com",
+    "whatsappValue": "+86 177 8898 9065"
+  },
+  "footer": {
+    "tagline": "模具配件非标定制 — 按图加工",
+    "rights": "版权所有。"
+  },
+  "blog": {
+    "title": "技术文章",
+    "readMore": "阅读全文"
+  },
+  "meta": {
+    "homeTitle": "源智信精密 | 模具冲针与非标配件定制",
+    "homeDesc": "深圳模具配件厂家，专业定制冲针、浮升销、引导针、导柱、导套、A 冲及异型冲针，支持来图来样加工。"
+  }
+}

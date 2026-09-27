@@ -1,0 +1,34 @@
+---
+import type { Dictionary } from '@/i18n/utils';
+
+interface Props {
+  t: Dictionary;
+}
+
+const { t } = Astro.props;
+
+const shapes = [
+  { label: 'Round', labelZh: '圆形', d: 'M50,10 A40,40 0 1,1 49.9,10' },
+  { label: 'Square', labelZh: '方形', d: 'M15,15 H85 V85 H15 Z' },
+  { label: 'Hex', labelZh: '六角', d: 'M50,8 L88,28 L88,72 L50,92 L12,72 L12,28 Z' },
+  { label: 'Oval', labelZh: '椭圆', d: 'M50,15 A35,20 0 1,1 49.9,15' },
+  { label: 'Step', labelZh: '台阶', d: 'M30,15 H70 V45 H55 V85 H45 V45 H30 Z' },
+  { label: 'Oblique', labelZh: '斜度', d: 'M25,85 L75,15 L85,25 L35,85 Z M25,85 H35 V75' },
+];
+---
+
+<section>
+  <h3 class="font-serif text-xl text-borui-navy">{t.custom.shapesTitle}</h3>
+  <div class="mt-6 grid grid-cols-3 gap-4 sm:grid-cols-6">
+    {
+      shapes.map((shape) => (
+        <div class="flex flex-col items-center border border-borui-navy/10 bg-white p-3">
+          <svg viewBox="0 0 100 100" class="h-16 w-16" aria-hidden="true">
+            <path d={shape.d} fill="none" stroke="#1A2332" stroke-width="2" />
+          </svg>
+          <span class="mt-2 text-xs text-borui-steel">{shape.label}</span>
+        </div>
+      ))
+    }
+  </div>
+</section>

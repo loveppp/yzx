@@ -1,0 +1,169 @@
+{
+  "siteName": "YZX Precision",
+  "siteNameFull": "Shenzhen Yuanzhixin Mold Components Co., Ltd.",
+  "nav": {
+    "products": "Products",
+    "customOem": "Custom OEM",
+    "factory": "Factory",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Custom Mold Punches, Made to Your Drawing",
+    "subtitle": "Punch pins, lifter pins, pilot pins, guide posts, guide bushings and special-shaped punches for stamping and tooling suppliers.",
+    "ctaQuote": "Send Drawing for Quote",
+    "ctaProducts": "View Products"
+  },
+  "specBar": {
+    "materials": "SKD61 / SKH51 / Cr12MoV / Carbide",
+    "tolerance": "Tolerance ±0.002mm",
+    "moq": "MOQ from 1pc",
+    "input": "CAD · PDF · Sample · Dimension table"
+  },
+  "products": {
+    "title": "Product Categories",
+    "subtitle": "Standard specs shown for reference — all items customizable to your drawing",
+    "customTag": "Custom",
+    "disclaimer": "Dimensions on this page are for reference only. Actual production follows your drawing.",
+    "categories": {
+      "punch-pins": "Punch Pins",
+      "floating-pins": "Floating Pins",
+      "pilot-pins": "Pilot Pins",
+      "guide-posts": "Guide Posts",
+      "guide-bushings": "Guide Bushings",
+      "a-type-punches": "A-Type Punches",
+      "special-shaped-punches": "Special-Shaped Punches",
+      "carbide-punches": "Carbide Punches",
+      "hss-punches": "HSS Punches",
+      "stepped-punches": "Stepped Punches",
+      "stamping-die-punches": "Stamping Die Punches",
+      "ejector-components": "Ejector Components",
+      "die-springs": "Die Springs",
+      "oilless-bushings": "Oilless Bushings",
+      "sprue-bushings": "Sprue Bushings",
+      "custom-mold-components": "Custom Mold Components"
+    },
+    "browseByIndustry": "Browse by application",
+    "filterIndustry": "Mold application",
+    "filterCategory": "Product type",
+    "filterMaterial": "Material",
+    "all": "All",
+    "viewDetails": "View Details",
+    "moldApplications": {
+      "stamping": "Stamping die components",
+      "plastic": "Plastic mold components",
+      "standard": "Standard-series (MISUMI / HASCO style)",
+      "universal": "General / other custom"
+    },
+    "taxonomyGroups": {
+      "stamping-punches": "Punches & punch pins",
+      "stamping-guides": "Guide posts & bushings",
+      "stamping-feed": "Lifter & pilot pins",
+      "plastic-ejector": "Ejector pins & sleeves",
+      "plastic-sprue": "Sprue bushings & inserts",
+      "shop-supplies": "Shop supplies",
+      "other": "Other custom parts"
+    }
+  },
+  "custom": {
+    "title": "Non-Standard Shapes Welcome",
+    "subtitle": "Hex, step, oblique, oval, flat — if you can draw it, we can make it",
+    "steps": {
+      "1": {
+        "title": "Receive Drawing or Sample",
+        "desc": "CAD, PDF, physical sample, or dimension table — any format works"
+      },
+      "2": {
+        "title": "Process Review",
+        "desc": "Our engineers review manufacturability and suggest material / tolerance options"
+      },
+      "3": {
+        "title": "Sample Production",
+        "desc": "First article in 3–7 days for confirmation before batch run"
+      },
+      "4": {
+        "title": "Full Inspection & Ship",
+        "desc": "100% dimensional check before packaging and delivery"
+      }
+    },
+    "shapesTitle": "Cross-Sections We Machine",
+    "pageTitle": "Custom OEM Manufacturing",
+    "pageIntro": "YZX Precision specializes in non-standard mold components. Send a drawing, sample or dimension table and we will review the manufacturability before quoting."
+  },
+  "factory": {
+    "title": "Workshop & Inspection",
+    "subtitle": "Precision machining and quality control on every batch",
+    "pageTitle": "Our Factory",
+    "pageIntro": "Shenzhen Yuanzhixin Mold Components Co., Ltd. focuses on custom punch pins, lifter pins, pilot pins, guide posts, guide bushings and special-shaped punches.",
+    "equipmentTitle": "Equipment",
+    "inspectionTitle": "Quality Control"
+  },
+  "materials": {
+    "title": "Materials & Surface Treatment",
+    "materialCol": "Material",
+    "useCol": "Typical Use",
+    "treatmentCol": "Surface Treatment",
+    "effectCol": "Effect"
+  },
+  "faq": {
+    "title": "Common Questions",
+    "items": [
+      {
+        "q": "What is the minimum order quantity?",
+        "a": "We accept orders from 1 piece for custom items. Batch pricing applies for larger quantities."
+      },
+      {
+        "q": "How long for samples?",
+        "a": "Sample lead time is typically 3–7 working days after drawing confirmation, depending on complexity."
+      },
+      {
+        "q": "What tolerance can you hold?",
+        "a": "We routinely work to ±0.002mm on critical dimensions. Tighter tolerance is available on request — please mark it on your drawing."
+      },
+      {
+        "q": "Can you copy from a physical sample without a drawing?",
+        "a": "Yes. Send the sample — we measure and produce a product drawing for your approval before manufacturing."
+      },
+      {
+        "q": "Which file formats do you accept?",
+        "a": "STEP, IGES, DWG, DXF, PDF, and JPG/PNG sketches. If unsure, email us — we will guide you."
+      }
+    ]
+  },
+  "quote": {
+    "title": "Send Drawing for Quote",
+    "subtitle": "Upload your drawing or describe your requirement — we respond within 2 hours during business hours",
+    "name": "Name",
+    "company": "Company",
+    "email": "Email",
+    "phone": "Phone",
+    "whatsapp": "WhatsApp",
+    "category": "Product Category",
+    "message": "Message",
+    "file": "Upload Drawing (CAD/PDF)",
+    "submit": "Submit Inquiry",
+    "success": "Thank you — we will reply shortly.",
+    "selectCategory": "Select category"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "address": "Address",
+    "addressValue": "No. 103-24, Shenshan Road, Longxin Community, Baolong Subdistrict, Longgang District, Shenzhen, Guangdong, China",
+    "emailValue": "sales@yzxprecision.com",
+    "whatsappValue": "+86 177 8898 9065"
+  },
+  "footer": {
+    "tagline": "Custom mold components — made to your drawing",
+    "rights": "All rights reserved."
+  },
+  "blog": {
+    "title": "Technical Notes",
+    "readMore": "Read more"
+  },
+  "meta": {
+    "homeTitle": "YZX Precision | Custom Mold Punch Pins & Die Components",
+    "homeDesc": "Shenzhen manufacturer of custom punch pins, lifter pins, pilot pins, guide posts, guide bushings and special-shaped die components made to drawing."
+  }
+}

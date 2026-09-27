@@ -1,0 +1,47 @@
+---
+import BrandedImage from './BrandedImage.astro';
+import { images } from '@/data/images';
+import { localizedPath, type Dictionary, type Locale } from '@/i18n/utils';
+
+interface Props {
+  locale: Locale;
+  t: Dictionary;
+}
+
+const { locale, t } = Astro.props;
+---
+
+<section class="section-padding border-b border-borui-navy/10">
+  <div class="content-wrap grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+    <div class="max-w-xl">
+      <p class="mb-4 text-xs uppercase tracking-[0.2em] text-borui-brass">
+        {t.siteNameFull}
+      </p>
+      <h1 class="text-3xl leading-tight text-borui-navy md:text-4xl lg:text-[2.75rem]">
+        {t.hero.title}
+      </h1>
+      <p class="mt-6 text-base leading-relaxed text-borui-steel md:text-lg">
+        {t.hero.subtitle}
+      </p>
+      <div class="mt-8 flex flex-wrap gap-4">
+        <a href={localizedPath('/contact/', locale)} class="btn-primary">
+          {t.hero.ctaQuote}
+        </a>
+        <a href={localizedPath('/products/', locale)} class="btn-outline">
+          {t.hero.ctaProducts}
+        </a>
+      </div>
+    </div>
+    <div class="relative aspect-[4/5] bg-borui-light lg:aspect-[3/4]">
+      <BrandedImage
+        src={images.hero}
+        alt={t.factory.pageIntro}
+        class="h-full"
+        loading="eager"
+        width={800}
+        height={1000}
+      />
+      <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-borui-navy/30 to-transparent"></div>
+    </div>
+  </div>
+</section>

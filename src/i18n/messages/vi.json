@@ -1,0 +1,169 @@
+{
+  "siteName": "YZX Precision",
+  "siteNameFull": "Công ty TNHH Linh kiện Khuôn Yuanzhixin Thâm Quyến",
+  "nav": {
+    "products": "Sản phẩm",
+    "customOem": "OEM theo yêu cầu",
+    "factory": "Nhà máy",
+    "blog": "Bài kỹ thuật",
+    "contact": "Liên hệ"
+  },
+  "hero": {
+    "title": "Gia công chốt đột khuôn theo bản vẽ",
+    "subtitle": "Chốt đột, chốt nâng, chốt dẫn hướng, trụ dẫn, bạc dẫn và chốt định hình gia công theo yêu cầu.",
+    "ctaQuote": "Gửi bản vẽ để báo giá",
+    "ctaProducts": "Xem sản phẩm"
+  },
+  "specBar": {
+    "materials": "SKD61 / SKH51 / Cr12MoV / Hợp kim cứng",
+    "tolerance": "Dung sai ±0,002 mm",
+    "moq": "MOQ từ 1 chiếc",
+    "input": "CAD · PDF · Mẫu vật · Bảng kích thước"
+  },
+  "products": {
+    "title": "Danh mục sản phẩm",
+    "subtitle": "Thông số chuẩn chỉ mang tính tham khảo — mọi mặt hàng đều tùy chỉnh theo bản vẽ của bạn",
+    "customTag": "Tùy chỉnh",
+    "disclaimer": "Kích thước trên trang này chỉ để tham khảo. Sản xuất thực tế theo bản vẽ của bạn.",
+    "categories": {
+      "punch-pins": "Chốt đột khuôn",
+      "floating-pins": "Chốt nâng",
+      "pilot-pins": "Chốt dẫn hướng",
+      "guide-posts": "Trụ dẫn",
+      "guide-bushings": "Bạc dẫn",
+      "a-type-punches": "Chốt đột loại A",
+      "special-shaped-punches": "Chốt đột định hình",
+      "carbide-punches": "Chốt đột carbide",
+      "hss-punches": "Chốt đột HSS",
+      "stepped-punches": "Chốt đột bậc",
+      "stamping-die-punches": "Chốt đột dập",
+      "ejector-components": "Chốt đẩy và ống đẩy",
+      "die-springs": "Lò xo khuôn",
+      "oilless-bushings": "Bạc không dầu",
+      "sprue-bushings": "Bạc cuống phun",
+      "custom-mold-components": "Linh kiện khuôn phi tiêu chuẩn"
+    },
+    "browseByIndustry": "Duyệt theo ứng dụng",
+    "filterIndustry": "Loại khuôn",
+    "filterCategory": "Loại sản phẩm",
+    "filterMaterial": "Vật liệu",
+    "all": "Tất cả",
+    "viewDetails": "Xem chi tiết",
+    "moldApplications": {
+      "stamping": "Khuôn dập",
+      "plastic": "Khuôn nhựa",
+      "standard": "Gia công theo tiêu chuẩn",
+      "universal": "Chung / tùy chỉnh khác"
+    },
+    "taxonomyGroups": {
+      "stamping-punches": "Đục & kim dập",
+      "stamping-guides": "Cột dẫn & ống dẫn",
+      "stamping-feed": "Chốt nổi & chốt dẫn",
+      "plastic-ejector": "Kim đẩy & ống đẩy",
+      "plastic-sprue": "Bushing cổ dẫn",
+      "shop-supplies": "Vật tư xưởng",
+      "other": "Gia công khác"
+    }
+  },
+  "custom": {
+    "title": "Chào đón hình dạng phi tiêu chuẩn",
+    "subtitle": "Lục giác, bậc, xiên, oval, phẳng — vẽ được là gia công được",
+    "steps": {
+      "1": {
+        "title": "Nhận bản vẽ hoặc mẫu",
+        "desc": "CAD, PDF, mẫu vật hoặc bảng kích thước — mọi định dạng đều được"
+      },
+      "2": {
+        "title": "Rà soát quy trình",
+        "desc": "Kỹ sư đánh giá khả năng gia công và đề xuất vật liệu, dung sai"
+      },
+      "3": {
+        "title": "Sản xuất mẫu",
+        "desc": "Chi tiết đầu tiên trong 3–7 ngày để xác nhận trước khi sản xuất hàng loạt"
+      },
+      "4": {
+        "title": "Kiểm tra toàn bộ & giao hàng",
+        "desc": "Kiểm tra kích thước 100% trước đóng gói và giao hàng"
+      }
+    },
+    "shapesTitle": "Mặt cắt ngang chúng tôi gia công",
+    "pageTitle": "Gia công OEM theo yêu cầu",
+    "pageIntro": "YZX Precision chuyên gia công linh kiện khuôn phi tiêu chuẩn. Hãy gửi bản vẽ, mẫu hoặc bảng kích thước để chúng tôi đánh giá trước khi báo giá."
+  },
+  "factory": {
+    "title": "Xưởng & kiểm tra",
+    "subtitle": "Gia công chính xác và kiểm soát chất lượng từng lô",
+    "pageTitle": "Nhà máy",
+    "pageIntro": "Độ chính xác bắt đầu tại xưởng. YZX Precision Factory gia công linh kiện khuôn theo bản vẽ — chốt đẩy, bộ dẫn hướng và đục hình đặc biệt.",
+    "equipmentTitle": "Thiết bị",
+    "inspectionTitle": "Kiểm soát chất lượng"
+  },
+  "materials": {
+    "title": "Vật liệu & xử lý bề mặt",
+    "materialCol": "Vật liệu",
+    "useCol": "Ứng dụng điển hình",
+    "treatmentCol": "Xử lý bề mặt",
+    "effectCol": "Hiệu quả"
+  },
+  "faq": {
+    "title": "Câu hỏi thường gặp",
+    "items": [
+      {
+        "q": "Số lượng đặt hàng tối thiểu là bao nhiêu?",
+        "a": "Nhận đơn từ 1 chiếc cho hàng tùy chỉnh. Đơn số lượng lớn có giá ưu đãi."
+      },
+      {
+        "q": "Mẫu mất bao lâu?",
+        "a": "Sau khi xác nhận bản vẽ, thường 3–7 ngày làm việc, tùy độ phức tạp."
+      },
+      {
+        "q": "Dung sai đạt được là bao nhiêu?",
+        "a": "Kích thước quan trọng thường ±0,002 mm. Dung sai chặt hơn theo yêu cầu — vui lòng ghi trên bản vẽ."
+      },
+      {
+        "q": "Có sao chép từ mẫu vật mà không có bản vẽ không?",
+        "a": "Có. Gửi mẫu — chúng tôi đo và lập bản vẽ sản phẩm để bạn duyệt trước khi sản xuất."
+      },
+      {
+        "q": "Chấp nhận định dạng tệp nào?",
+        "a": "STEP, IGES, DWG, DXF, PDF và phác thảo JPG/PNG. Nếu không chắc, hãy email — chúng tôi hướng dẫn."
+      }
+    ]
+  },
+  "quote": {
+    "title": "Gửi bản vẽ để báo giá",
+    "subtitle": "Tải bản vẽ hoặc mô tả yêu cầu — phản hồi trong 2 giờ trong giờ làm việc",
+    "name": "Họ tên",
+    "company": "Công ty",
+    "email": "Email",
+    "phone": "Điện thoại",
+    "whatsapp": "WhatsApp",
+    "category": "Danh mục sản phẩm",
+    "message": "Tin nhắn",
+    "file": "Tải bản vẽ (CAD/PDF)",
+    "submit": "Gửi yêu cầu",
+    "success": "Cảm ơn — chúng tôi sẽ phản hồi sớm.",
+    "selectCategory": "Chọn danh mục"
+  },
+  "contact": {
+    "title": "Liên hệ",
+    "email": "Email",
+    "whatsapp": "WhatsApp",
+    "address": "Địa chỉ",
+    "addressValue": "Số 103-24, đường Shenshan, cộng đồng Longxin, phường Baolong, quận Longgang, Thâm Quyến, Quảng Đông, Trung Quốc",
+    "emailValue": "sales@yzxprecision.com",
+    "whatsappValue": "+86 177 8898 9065"
+  },
+  "footer": {
+    "tagline": "Linh kiện khuôn tùy chỉnh — gia công theo bản vẽ",
+    "rights": "Bảo lưu mọi quyền."
+  },
+  "blog": {
+    "title": "Ghi chú kỹ thuật",
+    "readMore": "Đọc thêm"
+  },
+  "meta": {
+    "homeTitle": "YZX Precision | Linh kiện khuôn phi tiêu chuẩn theo bản vẽ",
+    "homeDesc": "Nhà sản xuất linh kiện khuôn tại Thâm Quyến, gia công chốt đột, chốt nâng, chốt dẫn hướng, trụ dẫn, bạc dẫn và chốt định hình theo bản vẽ."
+  }
+}

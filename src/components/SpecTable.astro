@@ -1,0 +1,59 @@
+---
+import { materialRows, treatmentRows } from '@/data/materials';
+import type { Dictionary, Locale } from '@/i18n/utils';
+
+interface Props {
+  t: Dictionary;
+  locale: Locale;
+}
+
+const { t, locale } = Astro.props;
+---
+
+<section class="section-padding">
+  <div class="content-wrap">
+    <h2 class="text-2xl text-borui-navy md:text-3xl">{t.materials.title}</h2>
+
+    <div class="mt-8 overflow-x-auto">
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th>{t.materials.materialCol}</th>
+            <th>{t.materials.useCol}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            materialRows.map((row) => (
+              <tr>
+                <td class="font-medium text-borui-navy">{row.material}</td>
+                <td>{locale === 'zh' ? row.use_zh : row.use_en}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <div class="mt-10 overflow-x-auto">
+      <table class="spec-table">
+        <thead>
+          <tr>
+            <th>{t.materials.treatmentCol}</th>
+            <th>{t.materials.effectCol}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            treatmentRows.map((row) => (
+              <tr>
+                <td class="font-medium text-borui-navy">{row.treatment}</td>
+                <td>{locale === 'zh' ? row.effect_zh : row.effect_en}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,63 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import HeroSplit from '@/components/HeroSplit.astro';
+import SpecBar from '@/components/SpecBar.astro';
+import ProductStrip from '@/components/ProductStrip.astro';
+import CustomTimeline from '@/components/CustomTimeline.astro';
+import FactorySlider from '@/components/FactorySlider.astro';
+import SpecTable from '@/components/SpecTable.astro';
+import FAQ from '@/components/FAQ.astro';
+import QuoteSection from '@/components/QuoteSection.astro';
+import { images } from '@/data/images';
+import { locales, useTranslations, type Locale } from '@/i18n/utils';
+
+export function getStaticPaths() {
+  return locales.map((locale) => ({ params: { locale } }));
+}
+
+const locale = Astro.params.locale as Locale;
+if (!locales.includes(locale)) return Astro.redirect('/en/');
+
+const t = useTranslations(locale);
+const path = `/${locale}/`;
+---
+
+<Layout title={t.meta.homeTitle} description={t.meta.homeDesc} path={path}>
+  <HeroSplit locale={locale} t={t} />
+  <SpecBar t={t} />
+
+  <ProductStrip locale={locale} t={t} />
+
+  <section class="section-padding border-t border-borui-navy/10">
+    <div class="content-wrap grid items-start gap-10 lg:grid-cols-[1.2fr_1fr]">
+      <div>
+        <h2 class="text-2xl text-borui-navy md:text-3xl">{t.custom.title}</h2>
+        <p class="mt-3 text-borui-steel">{t.custom.subtitle}</p>
+        <div class="mt-6 columns-2 gap-3 md:columns-3">
+          {
+            images.specialShaped.slice(0, 8).map((src, i) => (
+              <div class="mb-3 break-inside-avoid overflow-hidden bg-borui-light">
+                <img
+                  src={src}
+                  alt={`${locale === 'zh' ? '异形冲针' : 'Special shaped punch'} ${i + 1}`}
+                  class="w-full object-cover"
+                  loading="lazy"
+                  width="600"
+                  height="400"
+                />
+              </div>
+            ))
+          }
+        </div>
+      </div>
+      <div class="lg:pt-16">
+        <CustomTimeline t={t} />
+      </div>
+    </div>
+  </section>
+
+  <FactorySlider t={t} locale={locale} />
+  <SpecTable t={t} locale={locale} />
+  <FAQ t={t} />
+  <QuoteSection t={t} locale={locale} />
+</Layout>

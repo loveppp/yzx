@@ -1,0 +1,42 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  class?: string;
+  loading?: 'lazy' | 'eager';
+  width?: number;
+  height?: number;
+  watermark?: boolean;
+}
+
+const {
+  src,
+  alt,
+  class: className = '',
+  loading = 'lazy',
+  width,
+  height,
+  watermark = true,
+} = Astro.props;
+---
+
+<div class:list={['relative overflow-hidden', className]}>
+  <img
+    src={src}
+    alt={alt}
+    class="h-full w-full object-cover"
+    loading={loading}
+    width={width}
+    height={height}
+  />
+  {
+    watermark && (
+      <img
+        src="/images/brand/logo-watermark.svg"
+        alt=""
+        class="pointer-events-none absolute bottom-3 right-3 h-6 w-auto opacity-70 md:bottom-4 md:right-4 md:h-8"
+        aria-hidden="true"
+      />
+    )
+  }
+</div>

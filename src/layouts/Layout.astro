@@ -1,0 +1,39 @@
+---
+import '@/styles/global.css';
+import Nav from '@/components/Nav.astro';
+import Footer from '@/components/Footer.astro';
+import SeoHead from '@/components/SeoHead.astro';
+import { getHtmlLang, getLocaleFromUrl, getTextDirection, useTranslations } from '@/i18n/utils';
+
+interface Props {
+  title: string;
+  description: string;
+  path?: string;
+}
+
+const { title, description, path } = Astro.props;
+const locale = getLocaleFromUrl(Astro.url);
+const t = useTranslations(locale);
+const currentPath = path ?? Astro.url.pathname;
+---
+
+<!doctype html>
+<html lang={getHtmlLang(locale)} dir={getTextDirection(locale)}>
+  <head>
+    <SeoHead title={title} description={description} locale={locale} path={currentPath} />
+  </head>
+  <body class:list={[getTextDirection(locale) === 'rtl' && 'rtl']}>
+    <Nav locale={locale} t={t} currentPath={currentPath} />
+    <main>
+      <slot />
+    </main>
+    <Footer locale={locale} t={t} />
+
+    <a
+      href={`/${locale}/contact/`}
+      class="fixed bottom-0 left-0 right-0 z-40 bg-borui-brass py-3 text-center text-sm font-medium uppercase tracking-wider text-borui-navy sm:hidden"
+    >
+      {t.hero.ctaQuote}
+    </a>
+  </body>
+</html>

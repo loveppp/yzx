@@ -1,0 +1,158 @@
+[
+  {
+    "level": 3,
+    "sid": "0001,0031",
+    "title": "按行业分类",
+    "href": "/axyfl.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0031,0009",
+    "title": "冲压模具配件",
+    "href": "/cymjx.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0031,0013",
+    "title": "塑胶模具配件",
+    "href": "/sjmjx.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0031,0038",
+    "title": "拉伸模具配件",
+    "href": "/lsmjp.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0031,0039",
+    "title": "压铸模具配件",
+    "href": "/yzmjp.shtml"
+  },
+  {
+    "level": 3,
+    "sid": "0001,0021",
+    "title": "按加工标准分类",
+    "href": "/ajgbz.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0021,0022",
+    "title": "MISUMI标准加工",
+    "href": "/misum.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0021,0026",
+    "title": "HASCO标准加工",
+    "href": "/hasco.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0021,0025",
+    "title": "DME标准加工",
+    "href": "/dmebz.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0021,0033",
+    "title": "JIS标准加工",
+    "href": "/jisbz.shtml"
+  },
+  {
+    "level": 3,
+    "sid": "0001,0027",
+    "title": "模房用品",
+    "href": "/mfyp.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0027,0034",
+    "title": "切削刀具",
+    "href": "/qxdj.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0027,0035",
+    "title": "丝攻钻咀",
+    "href": "/sgzj.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0027,0029",
+    "title": "磨具磨料",
+    "href": "/mjml.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0027,0028",
+    "title": "工具量具",
+    "href": "/gjlj.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0027,0036",
+    "title": "山本弹簧",
+    "href": "/sbdh.shtml"
+  },
+  {
+    "level": 4,
+    "sid": "0001,0027,0037",
+    "title": "其他配件",
+    "href": "/qtpj.shtml"
+  },
+  {
+    "level": 3,
+    "sid": "0001,0040",
+    "title": "圆柱销",
+    "href": "/yzx.shtml"
+  },
+  {
+    "level": 5,
+    "sid": "0001,0031,0009,0010",
+    "title": "冲针、冲头加工",
+    "href": "/czctj.shtml"
+  },
+  {
+    "level": 5,
+    "sid": "0001,0031,0009,0012",
+    "title": "导柱、导套、外导柱加工",
+    "href": "/dzdtw.shtml"
+  },
+  {
+    "level": 5,
+    "sid": "0001,0031,0009,0011",
+    "title": "导料、浮料零件加工",
+    "href": "/dlfll.shtml"
+  },
+  {
+    "level": 5,
+    "sid": "0001,0031,0013,0016",
+    "title": "扁顶针、镶针加工",
+    "href": "/bdxzj.shtml"
+  },
+  {
+    "level": 5,
+    "sid": "0001,0031,0013,0015",
+    "title": "司筒、司针加工",
+    "href": "/stszj.shtml"
+  },
+  {
+    "level": 5,
+    "sid": "0001,0031,0013,0041",
+    "title": "顶针、托针加工",
+    "href": "/dztzj.shtml"
+  },
+  {
+    "level": 5,
+    "sid": "0001,0031,0013,0019",
+    "title": "唧咀、拉杆加工",
+    "href": "/jzlgj.shtml"
+  },
+  {
+    "level": 5,
+    "sid": "0001,0031,0013,0032",
+    "title": "辅助器、定位圈加工",
+    "href": "/fzqdw.shtml"
+  }
+]

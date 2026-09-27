@@ -1,0 +1,98 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import GalleryGrid from '@/components/GalleryGrid.astro';
+import QuoteSection from '@/components/QuoteSection.astro';
+import { getCollection } from 'astro:content';
+import { images } from '@/data/images';
+import {
+  categorySlugs,
+  locales,
+  localizedPath,
+  useTranslations,
+  type CategorySlug,
+  type Locale,
+} from '@/i18n/utils';
+
+export async function getStaticPaths() {
+  const paths = [];
+  for (const locale of locales) {
+    for (const category of categorySlugs) {
+      paths.push({ params: { locale, category } });
+    }
+  }
+  return paths;
+}
+
+const locale = Astro.params.locale as Locale;
+const category = Astro.params.category as CategorySlug;
+const t = useTranslations(locale);
+const path = `/${locale}/products/${category}/`;
+
+if (!categorySlugs.includes(category)) return Astro.redirect(localizedPath('/products/', locale));
+
+const categoryName = t.products.categories[category];
+const title = locale === 'zh' ? `${categoryName} | 深圳市源智信模具配件有限公司` : `${categoryName} | YZX Precision`;
+
+const allProducts = await getCollection('products', ({ data }) => data.category === category);
+const isSpecial = category === 'special-shaped-punches';
+---
+
+<Layout title={title} description={t.products.subtitle} path={path}>
+  <section class="section-padding border-b border-borui-navy/10">
+    <div class="content-wrap">
+      <span class="tag-custom">{t.products.customTag}</span>
+      <h1 class="mt-4 text-3xl text-borui-navy md:text-4xl">{categoryName}</h1>
+      <p class="mt-4 max-w-2xl text-borui-steel">{t.products.disclaimer}</p>
+      {
+        locale === 'zh' ? (
+          <p class="mt-4 max-w-3xl leading-relaxed text-borui-steel">
+            源智信{categoryName}均支持来图、来样定制。以下为常见规格参考，材质、硬度、表面处理方式可按您的模具工况调整。
+          </p>
+        ) : (
+          <p class="mt-4 max-w-3xl leading-relaxed text-borui-steel">
+            All {categoryName.toLowerCase()} are manufactured to your drawing or sample. Reference specs below — material, hardness, and surface treatment adjusted to your mold application.
+          </p>
+        )
+      }
+    </div>
+  </section>
+
+  {
+    isSpecial && (
+      <GalleryGrid
+        images={images.specialShaped}
+        altPrefix={locale === 'zh' ? '异形冲针' : 'Special shaped punch'}
+      />
+    )
+  }
+
+  <section class="section-padding">
+    <div class="content-wrap grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        allProducts.map((entry) => (
+          <a
+            href={localizedPath(`/products/${category}/${entry.slug}/`, locale)}
+            class="group overflow-hidden border border-borui-navy/10 bg-white"
+          >
+            <div class="aspect-[4/3] overflow-hidden bg-borui-light">
+              <img
+                src={entry.data.heroImage}
+                alt={locale === 'zh' ? entry.data.name_zh : entry.data.name_en}
+                class="h-full w-full object-cover transition-transform group-hover:scale-105"
+                loading="lazy"
+              />
+            </div>
+            <div class="p-4">
+              <h2 class="font-serif text-lg text-borui-navy">
+                {locale === 'zh' ? entry.data.name_zh : entry.data.name_en}
+              </h2>
+              <p class="mt-1 text-xs text-borui-steel">{entry.data.materials.join(' · ')}</p>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <QuoteSection t={t} locale={locale} />
+</Layout>

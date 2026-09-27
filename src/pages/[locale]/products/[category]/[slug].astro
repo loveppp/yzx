@@ -1,0 +1,129 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import QuoteSection from '@/components/QuoteSection.astro';
+import { getCollection } from 'astro:content';
+import BrandedImage from '@/components/BrandedImage.astro';
+import { getLocalizedField, locales, localizedPath, useTranslations, type Locale } from '@/i18n/utils';
+
+export async function getStaticPaths() {
+  const products = await getCollection('products');
+  const paths = [];
+  for (const locale of locales) {
+    for (const product of products) {
+      paths.push({
+        params: {
+          locale,
+          category: product.data.category,
+          slug: product.slug,
+        },
+      });
+    }
+  }
+  return paths;
+}
+
+const locale = Astro.params.locale as Locale;
+const { category, slug } = Astro.params;
+const t = useTranslations(locale);
+
+const allProducts = await getCollection('products');
+const entry = allProducts.find((p) => p.slug === slug && p.data.category === category);
+if (!entry) return Astro.redirect(localizedPath('/products/', locale));
+
+const name = getLocalizedField(entry.data, 'name', locale);
+const description = getLocalizedField(entry.data, 'description', locale);
+const seoTitle = getLocalizedField(entry.data, 'seoTitle', locale);
+const seoDesc = getLocalizedField(entry.data, 'seoDescription', locale);
+const path = `/${locale}/products/${category}/${slug}/`;
+
+const productSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name,
+  description: seoDesc,
+  image: entry.data.heroImage,
+  brand: { '@type': 'Brand', name: t.siteNameFull },
+  offers: {
+    '@type': 'Offer',
+    availability: 'https://schema.org/LimitedAvailability',
+    url: new URL(path, Astro.site ?? 'https://yzxprecision.com').href,
+    description: 'Price available on request after drawing review',
+  },
+};
+---
+
+<Layout title={seoTitle} description={seoDesc} path={path}>
+  <article class="section-padding">
+    <div class="content-wrap grid gap-10 lg:grid-cols-2">
+      <div>
+        <div class="aspect-square bg-borui-light">
+          <BrandedImage src={entry.data.heroImage} alt={name} class="h-full" width={800} height={800} />
+        </div>
+        {
+          entry.data.gallery && entry.data.gallery.length > 0 && (
+            <div class="mt-4 grid grid-cols-3 gap-2">
+              {entry.data.gallery.map((src) => (
+                <img src={src} alt="" class="aspect-square object-cover" loading="lazy" />
+              ))}
+            </div>
+          )
+        }
+      </div>
+      <div>
+        <span class="tag-custom">{t.products.customTag}</span>
+        <h1 class="mt-4 text-3xl text-borui-navy">{name}</h1>
+        <p class="mt-2 text-sm text-borui-brass">{t.products.disclaimer}</p>
+
+        <table class="spec-table mt-8">
+          <tbody>
+            <tr>
+              <th>{t.materials.materialCol}</th>
+              <td>{entry.data.materials.join(', ')}</td>
+            </tr>
+            {
+              entry.data.diameterRange && (
+                <tr>
+                  <th>{locale === 'zh' ? '直径范围' : 'Diameter'}</th>
+                  <td>{entry.data.diameterRange}</td>
+                </tr>
+              )
+            }
+            {
+              entry.data.hardness && (
+                <tr>
+                  <th>{locale === 'zh' ? '硬度' : 'Hardness'}</th>
+                  <td>{entry.data.hardness}</td>
+                </tr>
+              )
+            }
+            {
+              entry.data.tolerance && (
+                <tr>
+                  <th>{locale === 'zh' ? '公差' : 'Tolerance'}</th>
+                  <td>{entry.data.tolerance}</td>
+                </tr>
+              )
+            }
+            {
+              entry.data.leadTime && (
+                <tr>
+                  <th>{locale === 'zh' ? '交期' : 'Lead Time'}</th>
+                  <td>{entry.data.leadTime}</td>
+                </tr>
+              )
+            }
+          </tbody>
+        </table>
+
+        {
+          description && (
+            <p class="mt-8 leading-relaxed text-borui-steel">{description}</p>
+          )
+        }
+      </div>
+    </div>
+  </article>
+
+  <QuoteSection t={t} locale={locale} />
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(productSchema)} />
+</Layout>

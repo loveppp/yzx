@@ -1,0 +1,50 @@
+---
+import BrandedImage from './BrandedImage.astro';
+import { images } from '@/data/images';
+import { categorySlugs, localizedPath, type Dictionary, type Locale } from '@/i18n/utils';
+
+interface Props {
+  locale: Locale;
+  t: Dictionary;
+}
+
+const { locale, t } = Astro.props;
+---
+
+<section class="section-padding">
+  <div class="content-wrap">
+    <div class="max-w-2xl">
+      <h2 class="text-2xl text-borui-navy md:text-3xl">{t.products.title}</h2>
+      <p class="mt-3 text-borui-steel">{t.products.subtitle}</p>
+    </div>
+
+    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {
+        categorySlugs.map((slug, index) => (
+          <a
+            href={localizedPath(`/products/${slug}/`, locale)}
+            class:list={[
+              'group relative overflow-hidden bg-borui-light transition-transform hover:-translate-y-0.5',
+              index === 6 ? 'sm:col-span-2 lg:col-span-1 xl:col-span-2' : '',
+            ]}
+          >
+            <div class="aspect-[4/3] overflow-hidden transition-transform duration-500 group-hover:scale-[1.02]">
+              <BrandedImage
+                src={images.categories[slug]}
+                alt={t.products.categories[slug]}
+                class="h-full"
+                loading="lazy"
+                width={800}
+                height={600}
+              />
+            </div>
+            <div class="flex items-start justify-between gap-2 p-4">
+              <h3 class="font-serif text-lg text-borui-navy">{t.products.categories[slug]}</h3>
+              <span class="tag-custom shrink-0">{t.products.customTag}</span>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</section>
