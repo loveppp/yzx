@@ -10,6 +10,7 @@ export type TaxonomyGroupId =
   | 'plastic-ejector'
   | 'plastic-sprue'
   | 'shop-supplies'
+  | 'stamping-pins'
   | 'other';
 
 export interface TaxonomyGroup {
@@ -60,6 +61,11 @@ export const taxonomyGroups: TaxonomyGroup[] = [
     id: 'shop-supplies',
     moldApplication: 'standard',
     categorySlugs: ['die-springs'],
+  },
+  {
+    id: 'stamping-pins',
+    moldApplication: 'stamping',
+    categorySlugs: ['cylindrical-pins'],
   },
   {
     id: 'other',

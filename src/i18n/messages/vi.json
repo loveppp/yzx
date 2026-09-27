@@ -41,6 +41,7 @@
       "die-springs": "Lò xo khuôn",
       "oilless-bushings": "Bạc không dầu",
       "sprue-bushings": "Bạc cuống phun",
+      "cylindrical-pins": "Chốt trụ",
       "custom-mold-components": "Linh kiện khuôn phi tiêu chuẩn"
     },
     "browseByIndustry": "Duyệt theo ứng dụng",
@@ -62,6 +63,7 @@
       "plastic-ejector": "Kim đẩy & ống đẩy",
       "plastic-sprue": "Bushing cổ dẫn",
       "shop-supplies": "Vật tư xưởng",
+      "stamping-pins": "Chốt định vị",
       "other": "Gia công khác"
     }
   },

@@ -67,7 +67,7 @@ export const categorySlugs = [
   'punch-pins', 'floating-pins', 'pilot-pins', 'guide-posts', 'guide-bushings',
   'a-type-punches', 'special-shaped-punches', 'carbide-punches', 'hss-punches',
   'stepped-punches', 'stamping-die-punches', 'ejector-components', 'die-springs',
-  'oilless-bushings', 'sprue-bushings', 'custom-mold-components',
+  'oilless-bushings', 'sprue-bushings', 'cylindrical-pins', 'custom-mold-components',
 ] as const;
 
 export type CategorySlug = (typeof categorySlugs)[number];

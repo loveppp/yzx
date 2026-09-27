@@ -41,6 +41,7 @@
       "die-springs": "模具弹簧",
       "oilless-bushings": "无油衬套",
       "sprue-bushings": "浇口套",
+      "cylindrical-pins": "圆柱销 / 销钉",
       "custom-mold-components": "其他非标模具配件"
     },
     "browseByIndustry": "按行业浏览",
@@ -62,6 +63,7 @@
       "plastic-ejector": "顶针、司筒",
       "plastic-sprue": "浇口、衬套",
       "shop-supplies": "模房辅材",
+      "stamping-pins": "圆柱销 / 定位销",
       "other": "其他定制"
     }
   },

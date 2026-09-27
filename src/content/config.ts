@@ -9,7 +9,7 @@ const products = defineCollection({
       'punch-pins', 'floating-pins', 'pilot-pins', 'guide-posts', 'guide-bushings',
       'a-type-punches', 'special-shaped-punches', 'carbide-punches', 'hss-punches',
       'stepped-punches', 'stamping-die-punches', 'ejector-components', 'die-springs',
-      'oilless-bushings', 'sprue-bushings', 'custom-mold-components',
+      'oilless-bushings', 'sprue-bushings', 'cylindrical-pins', 'custom-mold-components',
     ]),
     /** 对标 htx99 行业维度；未填则按 category 自动推断 */
     moldApplication: z
@@ -24,6 +24,7 @@ const products = defineCollection({
     description_en: z.string(),
     description_zh: z.string(),
     heroImage: z.string(),
+    referenceThumbUrl: z.string().optional(),
     gallery: z.array(z.string()).optional(),
     seoTitle_en: z.string(),
     seoTitle_zh: z.string(),

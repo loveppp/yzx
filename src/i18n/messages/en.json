@@ -41,6 +41,7 @@
       "die-springs": "Die Springs",
       "oilless-bushings": "Oilless Bushings",
       "sprue-bushings": "Sprue Bushings",
+      "cylindrical-pins": "Cylindrical Pins",
       "custom-mold-components": "Custom Mold Components"
     },
     "browseByIndustry": "Browse by application",
@@ -62,6 +63,7 @@
       "plastic-ejector": "Ejector pins & sleeves",
       "plastic-sprue": "Sprue bushings & inserts",
       "shop-supplies": "Shop supplies",
+      "stamping-pins": "Dowel pins",
       "other": "Other custom parts"
     }
   },

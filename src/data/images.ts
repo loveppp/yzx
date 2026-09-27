@@ -36,6 +36,7 @@ export const images = {
     'die-springs': '/images/categories/guide-posts.png',
     'oilless-bushings': '/images/categories/guide-bushings.png',
     'sprue-bushings': '/images/categories/guide-bushings.png',
+    'cylindrical-pins': '/images/categories/guide-pins.png',
     'custom-mold-components': '/images/products/generated/hero-punches.png',
   },
   specialShaped: [
