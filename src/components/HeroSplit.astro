@@ -11,19 +11,21 @@ interface Props {
 const { locale, t } = Astro.props;
 ---
 
-<section class="section-padding border-b border-borui-navy/10">
-  <div class="content-wrap grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
-    <div class="max-w-xl">
-      <p class="mb-4 text-xs uppercase tracking-[0.2em] text-borui-brass">
+<section class="border-b border-borui-navy/10 bg-gradient-to-b from-borui-paper via-borui-paper to-borui-light/40">
+  <div
+    class="content-wrap grid items-center gap-8 px-5 py-10 md:px-8 md:py-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:items-stretch lg:gap-10 lg:py-14 xl:min-h-[calc(100svh-4.5rem)] xl:max-h-[880px]"
+  >
+    <div class="flex max-w-xl flex-col justify-center lg:py-4">
+      <p class="mb-3 text-xs uppercase tracking-[0.2em] text-borui-brass md:mb-4">
         {t.siteNameFull}
       </p>
-      <h1 class="text-3xl leading-tight text-borui-navy md:text-4xl lg:text-[2.75rem]">
+      <h1 class="text-3xl leading-tight text-borui-navy md:text-4xl lg:text-[2.65rem] lg:leading-[1.15]">
         {t.hero.title}
       </h1>
-      <p class="mt-6 text-base leading-relaxed text-borui-steel md:text-lg">
+      <p class="mt-4 text-base leading-relaxed text-borui-steel md:mt-5 md:text-lg">
         {t.hero.subtitle}
       </p>
-      <div class="mt-8 flex flex-wrap gap-4">
+      <div class="mt-6 flex flex-wrap gap-3 md:mt-8 md:gap-4">
         <a href={localizedPath('/contact/', locale)} class="btn-primary">
           {t.hero.ctaQuote}
         </a>
@@ -31,17 +33,30 @@ const { locale, t } = Astro.props;
           {t.hero.ctaProducts}
         </a>
       </div>
+      <ul class="mt-8 hidden gap-4 border-t border-borui-navy/10 pt-6 text-xs text-borui-steel sm:grid sm:grid-cols-2 lg:mt-10">
+        <li>{t.specBar.materials}</li>
+        <li>{t.specBar.tolerance}</li>
+        <li>{t.specBar.moq}</li>
+        <li>{t.specBar.input}</li>
+      </ul>
     </div>
-    <div class="relative aspect-[4/5] bg-borui-light lg:aspect-[3/4]">
+
+    <div
+      class="relative min-h-[220px] w-full overflow-hidden border border-borui-navy/10 bg-borui-light shadow-sm sm:min-h-[280px] lg:min-h-[360px] lg:self-stretch xl:min-h-0 xl:h-full"
+    >
       <BrandedImage
         src={images.hero}
         alt={t.factory.pageIntro}
-        class="h-full"
+        class="absolute inset-0 h-full w-full"
         loading="eager"
-        width={800}
-        height={1000}
+        width={1200}
+        height={750}
+        watermark={false}
       />
-      <div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-borui-navy/30 to-transparent"></div>
+      <div
+        class="pointer-events-none absolute inset-0 bg-gradient-to-r from-borui-navy/15 via-transparent to-transparent lg:from-borui-navy/25"
+      >
+      </div>
     </div>
   </div>
 </section>

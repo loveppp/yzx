@@ -1,7 +1,7 @@
 /** Site images — local assets under /public/images/ */
 
 export const images = {
-  hero: '/images/products/generated/hero-punches.png',
+  hero: '/images/factory/hero-workshop.jpg',
   factory: [
     {
       src: '/images/factory/cnc.png',
