@@ -175,8 +175,9 @@
         "https://htxprecision.com/carbide-punch/",
         "https://htxprecision.com/tungsten-carbide-punch/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/carbide-punches.svg"
+      "image": "/images/products/catalog/carbide-punches-2026-09-29T15-40-17-861Z.webp",
+      "illustration": "/images/catalog/carbide-punches.svg",
+      "imageGenerated": true
     },
     {
       "group": "punch-components",
@@ -228,8 +229,9 @@
       "sourceUrls": [
         "https://htxprecision.com/hss-punch/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/hss-punches.svg"
+      "image": "/images/products/catalog/hss-punches-2026-09-29T15-42-10-376Z.webp",
+      "illustration": "/images/catalog/hss-punches.svg",
+      "imageGenerated": true
     },
     {
       "group": "punch-components",
@@ -280,8 +282,9 @@
       "sourceUrls": [
         "https://htxprecision.com/stepped-punch/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/stepped-punches.svg"
+      "image": "/images/products/catalog/stepped-punches-2026-09-29T15-38-27-429Z.webp",
+      "illustration": "/images/catalog/stepped-punches.svg",
+      "imageGenerated": true
     },
     {
       "group": "punch-components",
@@ -332,8 +335,9 @@
       "sourceUrls": [
         "https://htxprecision.com/stamping-die-punch/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/stamping-die-punches.svg"
+      "image": "/images/products/catalog/stamping-die-punches-2026-09-29T15-43-52-779Z.webp",
+      "illustration": "/images/catalog/stamping-die-punches.svg",
+      "imageGenerated": true
     },
     {
       "group": "punch-components",
@@ -384,8 +388,9 @@
       "sourceUrls": [
         "https://htxprecision.com/punch-components/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/forming-punches.svg"
+      "image": "/images/products/catalog/forming-punches-2026-09-29T15-45-09-192Z.webp",
+      "illustration": "/images/catalog/forming-punches.svg",
+      "imageGenerated": true
     },
     {
       "group": "punch-components",
@@ -433,8 +438,9 @@
         }
       ],
       "sourceUrls": [],
-      "image": null,
-      "illustration": "/images/catalog/a-type-punches.svg"
+      "image": "/images/products/catalog/a-type-punches-2026-09-29T15-47-10-821Z.webp",
+      "illustration": "/images/catalog/a-type-punches.svg",
+      "imageGenerated": true
     },
     {
       "group": "punch-components",
@@ -482,8 +488,9 @@
       "sourceUrls": [
         "https://htxprecision.com/dies-and-punches-for-tableting/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/tableting-punches.svg"
+      "image": "/images/products/catalog/tableting-punches-2026-09-29T15-52-38-341Z.webp",
+      "illustration": "/images/catalog/tableting-punches.svg",
+      "imageGenerated": true
     },
     {
       "group": "ejector-components",

@@ -1,0 +1,145 @@
+{
+  "id": "carbide-punches",
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-29T15:40:17.866Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/blade-ejector-pins/2026-09-29T15-15-40-306Z/style-preview.jpg",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches/2026-09-29T15-40-17-861Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1742622,
+  "usage": {
+    "promptTokenCount": 809,
+    "candidatesTokenCount": 1318,
+    "totalTokenCount": 2297,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 551
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 170,
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1008
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 188
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 170
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1390
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 78
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 1568,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1008
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 188
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 170
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1390
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 78
+          }
+        ]
+      }
+    ]
+  },
+  "publishedAt": "2026-09-29T15:42:07.548Z",
+  "publicPath": "/images/products/catalog/carbide-punches-2026-09-29T15-40-17-861Z.webp",
+  "previousImage": null,
+  "visualReview": {
+    "status": "accepted-as-representative-illustration",
+    "note": "三件独立冲头，两圆一方工作端清晰，主体完整、无文字及异常交叠；作为系列示意发布。"
+  }
+}

@@ -10,5 +10,5 @@ const ui = catalogUI(locale);
   <div class="aspect-[4/3] overflow-hidden bg-borui-light">
     <img src={product.image || product.illustration} alt={catalogText(product.name,locale)} width="800" height="600" loading={eager ? 'eager' : 'lazy'} class="h-full w-full object-contain" />
   </div>
-  {caption && <figcaption class="px-1 py-3 text-xs leading-relaxed text-slate-600">{product.image ? ui.photo : ui.illustration}</figcaption>}
+  {caption && <figcaption class="px-1 py-3 text-xs leading-relaxed text-slate-600">{product.image ? (product.imageGenerated ? ui.aiImage : ui.photo) : ui.illustration}</figcaption>}
 </figure>

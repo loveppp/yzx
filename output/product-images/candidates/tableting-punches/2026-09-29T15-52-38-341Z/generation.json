@@ -1,0 +1,145 @@
+{
+  "id": "tableting-punches",
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-29T15:52:38.345Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/blade-ejector-pins/2026-09-29T15-15-40-306Z/style-preview.jpg",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/tableting-punches/2026-09-29T15-52-38-341Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1820631,
+  "usage": {
+    "promptTokenCount": 808,
+    "candidatesTokenCount": 1366,
+    "totalTokenCount": 2508,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 550
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 334,
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1007
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 236
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 334
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1601
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 98
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 1567,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1007
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 236
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 334
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1601
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 98
+          }
+        ]
+      }
+    ]
+  },
+  "publishedAt": "2026-09-29T15:55:26.403Z",
+  "publicPath": "/images/products/catalog/tableting-punches-2026-09-29T15-52-38-341Z.webp",
+  "previousImage": null,
+  "visualReview": {
+    "status": "accepted-as-representative-illustration",
+    "note": "两件凹面冲头与一件带孔中模分开显示，无刻字、药片或不实型号；作为粉末压制配套件示意，接口按图确认。"
+  }
+}

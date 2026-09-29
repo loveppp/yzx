@@ -1,0 +1,145 @@
+{
+  "id": "a-type-punches",
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-29T15:47:10.825Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/blade-ejector-pins/2026-09-29T15-15-40-306Z/style-preview.jpg",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/a-type-punches/2026-09-29T15-47-10-821Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1814489,
+  "usage": {
+    "promptTokenCount": 793,
+    "candidatesTokenCount": 1334,
+    "totalTokenCount": 2349,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 535
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 222,
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 992
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 204
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 222
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1442
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 73
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 1552,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 992
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 204
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 222
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1442
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 73
+          }
+        ]
+      }
+    ]
+  },
+  "publishedAt": "2026-09-29T15:52:35.501Z",
+  "publicPath": "/images/products/catalog/a-type-punches-2026-09-29T15-47-10-821Z.webp",
+  "previousImage": null,
+  "visualReview": {
+    "status": "accepted-as-representative-illustration",
+    "note": "单件带头圆冲完整，杆部平直，圆形工作端与安装头可见；A型具体系列仍按图确认。"
+  }
+}

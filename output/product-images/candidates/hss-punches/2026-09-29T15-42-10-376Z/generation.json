@@ -1,0 +1,147 @@
+{
+  "id": "hss-punches",
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-29T15:42:10.379Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/blade-ejector-pins/2026-09-29T15-15-40-306Z/style-preview.jpg",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "output/product-images/candidates/hss-punches/2026-09-29T15-42-10-376Z/cleaned.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1811979,
+  "usage": {
+    "promptTokenCount": 804,
+    "candidatesTokenCount": 1301,
+    "totalTokenCount": 2334,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 546
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 229,
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1003
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 171
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 229
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1427
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 74
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 1563,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1003
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 171
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 229
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1427
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 74
+          }
+        ]
+      }
+    ]
+  },
+  "sourceFile": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/hss-punches/2026-09-29T15-42-10-376Z/original.jpg",
+  "preprocessing": "Removed top background ghost by cropping only background; neutralized color and extended clean background edges. Three product silhouettes retained.",
+  "publishedAt": "2026-09-29T15:44:34.090Z",
+  "publicPath": "/images/products/catalog/hss-punches-2026-09-29T15-42-10-376Z.webp",
+  "previousImage": null,
+  "visualReview": {
+    "status": "accepted-as-representative-illustration",
+    "note": "三支带头高速钢冲头工作端完整，清除主体以外残影后数量正确；保留原图和处理版本。"
+  }
+}

@@ -1,0 +1,19 @@
+Use case: product-mockup.
+Create a realistic studio-style product illustration for a precision mold component catalog.
+Use a seamless neutral off-white/light-gray background (#f5f6f7), a matte ground plane, soft diffused upper-left light and a restrained contact shadow to the lower right. Neutral white balance, no dramatic gradient or horizon line.
+Camera: consistent mildly elevated three-quarter view, approximately 85 mm product-photography perspective, no wide-angle distortion. Keep every part sharp.
+Framing: landscape 4:3. Center the complete product or set; occupy approximately 75–82% of the available frame, with at least 8% safe margin on every edge. Preserve all tips, heads and openings. No cropped parts.
+Finish: credible fine machining and grinding texture, controlled metal highlights, clean new components without scratches, oil or rust. Preserve the distinct appearance of steel, bronze, graphite and painted springs.
+This is a representative product illustration, not a dimensional drawing or proof of actual stock. Do not invent dimensions, tolerances, certifications, brands or material-grade markings.
+If an approved image is supplied later, use it ONLY as a lighting, background and photographic-style reference. The product geometry and object count must follow this job, not the style-reference object.
+
+Asset type: shared product listing and product-detail main image.
+Product family: Tableting Punches & Dies.
+Catalog function (context only): Matched upper punches, lower punches and dies for powder compaction. Cup geometry and press compatibility need joint review.
+Selected visible subject: One separated three-part round-tablet tooling set: an upper punch, a lower punch and a cylindrical die with a round through-bore. Punches have substantial heads and narrow cylindrical tips with shallow concave round cup faces. Place all parts separately with cup faces and die bore visible.
+Exact physical object count: 3.
+Composition: A separated matched set. Keep mating interfaces visible and visual scales consistent. Do not fuse or assemble the pieces; no exploded-view arrows.
+Text policy: No text, labels, dimensions, arrows, logos, watermarks or webpage UI anywhere in the image.
+Avoid: No tablets, pills, embossed lettering, machine compatibility labels or closed solid die bore. Also avoid fused geometry, physically impossible intersections, duplicate extra parts and floating shadows.
+Do not attempt to depict every available catalog material or variant; depict only the selected subject above.
+Input image role: provisional style reference from this sample round only. Match its background and lighting, not its product, object count or material. Generate the specified new product.

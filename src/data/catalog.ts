@@ -20,6 +20,7 @@ export interface CatalogProduct {
   variants: LocalizedText[];
   sourceUrls: string[];
   image: string | null;
+  imageGenerated?: boolean;
   illustration: string;
   note?: LocalizedText;
 }

@@ -1,0 +1,145 @@
+{
+  "id": "stepped-punches",
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-29T15:38:27.432Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/blade-ejector-pins/2026-09-29T15-15-40-306Z/style-preview.jpg",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/stepped-punches/2026-09-29T15-38-27-429Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1711821,
+  "usage": {
+    "promptTokenCount": 820,
+    "candidatesTokenCount": 1424,
+    "totalTokenCount": 2487,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 562
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 243,
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1019
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 294
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 243
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1580
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 89
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 1579,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1019
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 294
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 243
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1580
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 89
+          }
+        ]
+      }
+    ]
+  },
+  "publishedAt": "2026-09-29T15:40:14.801Z",
+  "publicPath": "/images/products/catalog/stepped-punches-2026-09-29T15-38-27-429Z.webp",
+  "previousImage": null,
+  "visualReview": {
+    "status": "accepted-as-representative-illustration",
+    "note": "已检查三件数量、单台阶/多台阶/T头及完整轮廓，接受为产品系列示意。"
+  }
+}

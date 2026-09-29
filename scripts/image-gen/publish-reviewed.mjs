@@ -1,0 +1,30 @@
+/** Publish one manually inspected candidate to the shared catalog, preserving versions. */
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import sharp from 'sharp';
+
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
+const [relativeDir, reviewNote] = process.argv.slice(2);
+if (!relativeDir || !reviewNote) throw new Error('Provide a candidate directory and a visual review note.');
+const dir = path.resolve(root, relativeDir);
+if (!dir.startsWith(path.join(root, 'output/product-images/candidates') + path.sep)) throw new Error('Not a candidate directory.');
+const manifestPath = path.join(dir, 'generation.json');
+const record = JSON.parse(await fs.readFile(manifestPath, 'utf8'));
+if (record.status !== 'generated-awaiting-review' || !record.file) throw new Error('Candidate has not completed generation.');
+const catalogPath = path.join(root, 'src/data/catalog.json');
+const catalog = JSON.parse(await fs.readFile(catalogPath, 'utf8'));
+const product = catalog.products.find(p => p.id === record.id);
+if (!product) throw new Error('Unknown product.');
+const version = path.basename(dir).replaceAll(/[^0-9TZ-]/g, '');
+const publicPath = `/images/products/catalog/${product.id}-${version}.webp`;
+const dest = path.join(root, 'public', publicPath);
+await fs.mkdir(path.dirname(dest), {recursive: true});
+const image = await sharp(record.file).rotate().resize(1600,1200,{fit:'contain',background:'#f5f6f7'}).webp({quality:88}).toBuffer();
+await fs.writeFile(dest,image,{flag:'wx'});
+const previousImage = product.image;
+product.image = publicPath;
+product.imageGenerated = true;
+await fs.writeFile(catalogPath, JSON.stringify(catalog,null,2)+'\n');
+await fs.writeFile(manifestPath, JSON.stringify({...record, publication:'local-website', publishedAt:new Date().toISOString(), publicPath, previousImage, visualReview:{status:'accepted-as-representative-illustration',note:reviewNote}},null,2)+'\n');
+console.log(JSON.stringify({id:product.id, image:publicPath, bytes:image.length, website:`http://localhost:4321/zh/products/${product.group}/${product.id}/`}));
