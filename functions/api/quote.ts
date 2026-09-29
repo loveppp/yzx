@@ -37,7 +37,7 @@ export const onRequestPost = async ({ request, env }: { request: Request; env: E
     attachments.push({ filename, content: bytesToBase64(await file.arrayBuffer()) });
   }
 
-  const fields = ['name', 'company', 'email', 'phone', 'whatsapp', 'category', 'message']
+  const fields = ['name', 'company', 'email', 'phone', 'whatsapp', 'category', 'product', 'message']
     .map((key) => `${key}: ${text(form.get(key))}`)
     .join('\n');
   const result = await fetch('https://api.resend.com/emails', {

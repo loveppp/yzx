@@ -1,103 +1,24 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import GalleryGrid from '@/components/GalleryGrid.astro';
+import CatalogCard from '@/components/CatalogCard.astro';
 import QuoteSection from '@/components/QuoteSection.astro';
-import { getCollection } from 'astro:content';
-import { categoryCopy } from '@/data/category-copy';
-import { images } from '@/data/images';
-import {
-  categorySlugs,
-  locales,
-  localizedPath,
-  useTranslations,
-  type CategorySlug,
-  type Locale,
-} from '@/i18n/utils';
-
-export async function getStaticPaths() {
-  const paths = [];
-  for (const locale of locales) {
-    for (const category of categorySlugs) {
-      paths.push({ params: { locale, category } });
-    }
-  }
-  return paths;
-}
-
-const locale = Astro.params.locale as Locale;
-const category = Astro.params.category as CategorySlug;
-const t = useTranslations(locale);
-const path = `/${locale}/products/${category}/`;
-
-if (!categorySlugs.includes(category)) return Astro.redirect(localizedPath('/products/', locale));
-
-const categoryName = t.products.categories[category];
-const title = locale === 'zh' ? `${categoryName} | 深圳市源智信模具配件有限公司` : `${categoryName} | YZX Precision`;
-
-const allProducts = await getCollection('products', ({ data }) => data.category === category);
-const isSpecial = category === 'special-shaped-punches';
-const intro = categoryCopy[category];
+import {catalogGroups,groupProducts,catalogText,legacyCategories,legacyDestination} from '@/data/catalog';
+import {catalogUI} from '@/data/catalog-ui';
+import {locales,useTranslations,type Locale} from '@/i18n/utils';
+export function getStaticPaths(){return locales.flatMap(locale=>[...new Set([...catalogGroups.map(g=>g.id),...Object.keys(legacyCategories)])].map(category=>({params:{locale,category}})));}
+const locale=Astro.params.locale as Locale;
+const category=Astro.params.category!;
+const group=catalogGroups.find(g=>g.id===category);
+if(!group)return Astro.redirect(legacyDestination(legacyCategories[category],locale),301);
+const ui=catalogUI(locale);const t=useTranslations(locale);
+const products=groupProducts(group.id);
 ---
-
-<Layout title={title} description={t.products.subtitle} path={path}>
-  <section class="section-padding border-b border-borui-navy/10">
-    <div class="content-wrap">
-      <span class="tag-custom">{t.products.customTag}</span>
-      <h1 class="mt-4 text-3xl text-borui-navy md:text-4xl">{categoryName}</h1>
-      <p class="mt-4 max-w-2xl text-borui-steel">{t.products.disclaimer}</p>
-      <p class="mt-4 max-w-3xl leading-relaxed text-borui-steel">
-        {locale === 'zh' ? intro.intro_zh : intro.intro_en}
-      </p>
-      {
-        locale === 'zh' ? (
-          <p class="mt-3 max-w-3xl text-sm text-borui-steel">
-            均支持来图、来样定制；下列为常见类型参考，尺寸与材质以您的图纸为准。
-          </p>
-        ) : (
-          <p class="mt-3 max-w-3xl text-sm text-borui-steel">
-            Custom to your drawing or sample — listings below are representative types only.
-          </p>
-        )
-      }
-    </div>
-  </section>
-
-  {
-    isSpecial && (
-      <GalleryGrid
-        images={images.specialShaped}
-        altPrefix={locale === 'zh' ? '异形冲针' : 'Special shaped punch'}
-      />
-    )
-  }
-
-  <section class="section-padding">
-    <div class="content-wrap grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-      {
-        allProducts.map((entry) => (
-          <a
-            href={localizedPath(`/products/${category}/${entry.slug}/`, locale)}
-            class="group overflow-hidden border border-borui-navy/10 bg-white"
-          >
-            <div class="aspect-[4/3] overflow-hidden bg-borui-light">
-              <img
-                src={entry.data.heroImage}
-                alt={locale === 'zh' ? entry.data.name_zh : entry.data.name_en}
-                class="h-full w-full object-cover transition-transform group-hover:scale-105"
-                loading="lazy"
-              />
-            </div>
-            <div class="p-4">
-              <h2 class="font-serif text-lg text-borui-navy">
-                {locale === 'zh' ? entry.data.name_zh : entry.data.name_en}
-              </h2>
-              <p class="mt-1 text-xs text-borui-steel">{entry.data.materials.join(' · ')}</p>
-            </div>
-          </a>
-        ))
-      }
-    </div>
-  </section>
-
-  <QuoteSection t={t} locale={locale} />
+<Layout title={`${catalogText(group.name,locale)} | YZX Precision`} description={catalogText(group.intro,locale)} path={`/${locale}/products/${group.id}/`}>
+  <section class="border-b border-borui-navy/10 px-5 py-9 md:px-8 md:py-14"><div class="content-wrap">
+    <nav aria-label="Breadcrumb" class="mb-7 flex flex-wrap gap-2 text-xs text-slate-600"><a href={`/${locale}/`}>{ui.home}</a><span aria-hidden="true">/</span><a href={`/${locale}/products/`}>{ui.title}</a><span aria-hidden="true">/</span><span aria-current="page">{catalogText(group.name,locale)}</span></nav>
+    <p class="text-xs uppercase tracking-[.18em] text-slate-500">{ui.family}</p>
+    <div class="mt-3 grid gap-6 lg:grid-cols-[1.25fr_1fr]"><div><h1 class="text-3xl md:text-5xl">{catalogText(group.name,locale)}</h1><p class="mt-5 max-w-2xl leading-relaxed text-slate-600">{catalogText(group.intro,locale)}</p><a href="#components" class="mt-6 inline-block text-sm font-medium underline underline-offset-4">{ui.browse} ↓</a></div><div class="border-l-2 border-borui-brass pl-5"><h2 class="text-xl">{ui.select}</h2><ul class="mt-3 space-y-3 text-sm leading-relaxed text-slate-600">{catalogText(group.selection,locale).split(/[;；]/).map(s=><li>{s.trim()}</li>)}</ul></div></div>
+  </div></section>
+  <section class="section-padding !py-10 md:!py-14" id="components"><div class="content-wrap"><div class="mb-6 flex items-center justify-between gap-4"><h2 class="text-xl md:text-2xl">{ui.browse}</h2><span class="text-sm text-slate-600">{products.length} {ui.catalogCount}</span></div><div class="grid grid-cols-2 gap-3 md:gap-5 lg:grid-cols-3">{products.map(product=><CatalogCard product={product} locale={locale}/>)}</div></div></section>
+  <QuoteSection t={t} locale={locale} category={group.id}/>
 </Layout>

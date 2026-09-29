@@ -1,0 +1,1885 @@
+{
+  "groups": [
+    {
+      "id": "punch-components",
+      "name": {
+        "en": "Punch Components",
+        "zh": "冲针与冲头",
+        "vi": "Chày đột & chày tạo hình"
+      },
+      "intro": {
+        "en": "Cutting and forming components for stamping dies. Choose the working profile first, then specify the material and surface treatment for your process.",
+        "zh": "用于冲压模具的冲裁与成型零件。先按工作端形状选型，再根据加工工况确定材质与表面处理。",
+        "vi": "Linh kiện cắt và tạo hình cho khuôn dập. Chọn biên dạng làm việc trước, sau đó xác định vật liệu và xử lý bề mặt."
+      },
+      "selection": {
+        "en": "Workpiece material and thickness; working profile and clearance; mounting dimensions and quantity",
+        "zh": "被加工材料与厚度；工作端轮廓与间隙；安装尺寸与数量",
+        "vi": "Vật liệu và chiều dày phôi; biên dạng và khe hở; kích thước lắp và số lượng"
+      }
+    },
+    {
+      "id": "ejector-components",
+      "name": {
+        "en": "Ejector Components",
+        "zh": "顶出组件",
+        "vi": "Linh kiện đẩy"
+      },
+      "intro": {
+        "en": "Pins, blades, sleeves and air valves for releasing molded parts. Match the contact shape and support length to the part and mold layout.",
+        "zh": "用于制品脱模的顶针、扁顶针、司筒及气顶阀。根据制品接触面和模具布局选择顶出形式与支撑长度。",
+        "vi": "Chốt, lưỡi đẩy, ống đẩy và van khí giúp tháo sản phẩm khỏi khuôn. Chọn hình dạng tiếp xúc và chiều dài đỡ phù hợp."
+      },
+      "selection": {
+        "en": "Mold temperature and resin; tip dimensions and unsupported length; fit, stroke and quantity",
+        "zh": "模温与树脂类型；顶端尺寸与悬伸长度；配合、行程与数量",
+        "vi": "Nhiệt độ khuôn và loại nhựa; kích thước đầu và chiều dài tự do; dung sai lắp, hành trình và số lượng"
+      }
+    },
+    {
+      "id": "guide-components",
+      "name": {
+        "en": "Guide Components",
+        "zh": "导向组件",
+        "vi": "Linh kiện dẫn hướng"
+      },
+      "intro": {
+        "en": "Guide posts, bushings, matched sets and rolling elements for controlled mold movement. Select the complete mating system rather than an isolated diameter.",
+        "zh": "导柱、导套、配套导向组件及滚动元件，用于控制模具运动。选型应考虑整套配合关系，而不只是单个直径。",
+        "vi": "Trụ, bạc, bộ dẫn hướng và phần tử lăn kiểm soát chuyển động khuôn. Cần lựa chọn cả hệ thống lắp ghép."
+      },
+      "selection": {
+        "en": "Post and bushing fit; mounting method and stroke; lubrication, operating load and quantity",
+        "zh": "导柱导套配合；安装方式与行程；润滑方式、工作载荷与数量",
+        "vi": "Độ lắp trụ và bạc; phương pháp lắp và hành trình; bôi trơn, tải làm việc và số lượng"
+      }
+    },
+    {
+      "id": "die-springs",
+      "name": {
+        "en": "Die Springs",
+        "zh": "模具弹簧",
+        "vi": "Lò xo khuôn"
+      },
+      "intro": {
+        "en": "Mechanical die springs and nitrogen gas springs for return and pressure functions. Select by force, working stroke and installation space.",
+        "zh": "用于复位与压料的矩形模具弹簧及氮气弹簧。按所需作用力、工作行程和安装空间选型。",
+        "vi": "Lò xo cơ khí và lò xo khí nitơ dùng để hồi vị và tạo lực ép. Chọn theo lực, hành trình và không gian lắp."
+      },
+      "selection": {
+        "en": "Required force and preload; working stroke and free height; mounting space and reference standard",
+        "zh": "所需作用力与预压；工作行程与自由高度；安装空间与参考标准",
+        "vi": "Lực yêu cầu và tải ban đầu; hành trình và chiều cao tự do; không gian lắp và tiêu chuẩn tham chiếu"
+      }
+    },
+    {
+      "id": "plastic-mold-components",
+      "name": {
+        "en": "Mold Accessories",
+        "zh": "浇注与模具辅助件",
+        "vi": "Phụ kiện khuôn ép nhựa"
+      },
+      "intro": {
+        "en": "Sprue bushings, locating rings, date stamps and mechanical accessories for injection molds. Define each part by its function and mating interface.",
+        "zh": "注塑模具的浇口套、定位圈、日期章及机械辅助件。根据零件作用与配合接口确定规格。",
+        "vi": "Bạc cuống phun, vòng định vị, dấu ngày và phụ kiện cơ khí cho khuôn ép nhựa. Xác định chức năng và bề mặt lắp ghép."
+      },
+      "selection": {
+        "en": "Mold layout and mating dimensions; operating temperature and movement; reference drawing and quantity",
+        "zh": "模具布局与配合尺寸；工作温度与运动要求；参考图纸与数量",
+        "vi": "Bố trí khuôn và kích thước lắp; nhiệt độ và chuyển động; bản vẽ và số lượng"
+      }
+    },
+    {
+      "id": "bronze-components",
+      "name": {
+        "en": "Bushings & Wear Plates",
+        "zh": "自润滑轴套与耐磨件",
+        "vi": "Bạc đồng & tấm chịu mòn"
+      },
+      "intro": {
+        "en": "Bronze bushings, solid-lubricant bearings and wear plates for sliding interfaces. Match the alloy and lubrication approach to the actual duty.",
+        "zh": "用于滑动配合的铜套、固体润滑轴承及耐磨板。根据实际工况选择合金与润滑形式。",
+        "vi": "Bạc đồng, bạc bôi trơn rắn và tấm chịu mòn cho bề mặt trượt. Chọn hợp kim và phương pháp bôi trơn theo điều kiện sử dụng."
+      },
+      "selection": {
+        "en": "Mating shaft and housing dimensions; load, speed and temperature; lubrication and mounting method",
+        "zh": "配合轴与座孔尺寸；载荷、速度与温度；润滑及安装方式",
+        "vi": "Kích thước trục và lỗ lắp; tải, tốc độ và nhiệt độ; bôi trơn và phương pháp lắp"
+      }
+    },
+    {
+      "id": "dowel-pins",
+      "name": {
+        "en": "Locating & Feed Pins",
+        "zh": "定位与送料销件",
+        "vi": "Chốt định vị & nâng phôi"
+      },
+      "intro": {
+        "en": "Dowel pins locate assemblies; pilot and floating pins control strip position and lift in stamping dies. Choose by function before specifying the fit.",
+        "zh": "圆柱销用于装配定位，导正销与浮升销分别用于条料定位和抬料。先区分功能，再确定配合尺寸。",
+        "vi": "Chốt trụ định vị cụm lắp; chốt dẫn và chốt nâng kiểm soát vị trí, độ nâng của dải phôi trong khuôn dập."
+      },
+      "selection": {
+        "en": "Locating or lifting function; working diameter and length; mating fit and installation method",
+        "zh": "定位或抬料功能；工作直径与长度；配合要求与安装方式",
+        "vi": "Chức năng định vị hoặc nâng; đường kính và chiều dài; dung sai lắp và phương pháp lắp"
+      }
+    }
+  ],
+  "products": [
+    {
+      "group": "punch-components",
+      "id": "carbide-punches",
+      "name": {
+        "en": "Carbide Punches",
+        "zh": "硬质合金冲头（钨钢）",
+        "vi": "Chày hợp kim cứng"
+      },
+      "summary": {
+        "en": "Wear-resistant punches with round or profiled working ends for repeat stamping. Carbide grade and edge geometry are selected together.",
+        "zh": "适用于重复冲裁的耐磨冲头，可采用圆形或异形工作端。硬质合金牌号应与刃口结构配合选择。",
+        "vi": "Chày chịu mòn với đầu tròn hoặc biên dạng cho dập lặp lại. Chọn mác hợp kim cùng hình học lưỡi cắt."
+      },
+      "application": {
+        "en": "Precision blanking and piercing, including abrasive sheet materials where wear is a key concern.",
+        "zh": "精密冲孔与落料，适用于重点关注刃口磨损的板材加工。",
+        "vi": "Đột lỗ và cắt chính xác, đặc biệt khi độ mòn lưỡi cắt là yếu tố chính."
+      },
+      "selection": {
+        "en": "Sheet grade and thickness; tip profile and edge support; shank diameter and retention",
+        "zh": "板材牌号与厚度；刃口轮廓与支撑；杆径与固定方式",
+        "vi": "Mác và chiều dày tấm; biên dạng đầu và độ đỡ; đường kính thân và cách giữ"
+      },
+      "materials": [
+        "Tungsten carbide"
+      ],
+      "variants": [
+        {
+          "en": "Solid carbide",
+          "zh": "整体硬质合金",
+          "vi": "Hợp kim nguyên khối"
+        },
+        {
+          "en": "Carbide-tipped",
+          "zh": "镶硬质合金",
+          "vi": "Đầu hợp kim"
+        },
+        {
+          "en": "Profiled tips",
+          "zh": "异形刃口",
+          "vi": "Đầu theo biên dạng"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/carbide-punch/",
+        "https://htxprecision.com/tungsten-carbide-punch/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/carbide-punches.svg"
+    },
+    {
+      "group": "punch-components",
+      "id": "hss-punches",
+      "name": {
+        "en": "HSS Punches",
+        "zh": "高速钢冲头",
+        "vi": "Chày thép gió"
+      },
+      "summary": {
+        "en": "High-speed steel punches for cutting duties that need a balance of wear resistance and toughness.",
+        "zh": "兼顾耐磨性与韧性的高速钢冲头，按冲裁材料及使用工况选择牌号。",
+        "vi": "Chày thép gió cân bằng độ chịu mòn và độ dai theo vật liệu cần dập."
+      },
+      "application": {
+        "en": "Piercing and blanking in progressive dies and repeat-production tooling.",
+        "zh": "级进模及重复生产工装的冲孔、落料。",
+        "vi": "Đột lỗ và cắt trong khuôn liên hoàn và sản xuất lặp lại."
+      },
+      "selection": {
+        "en": "Workpiece grade and thickness; required profile and unsupported length; coating requirements",
+        "zh": "工件材质与厚度；工作轮廓与悬伸长度；涂层要求",
+        "vi": "Vật liệu và chiều dày phôi; biên dạng và chiều dài tự do; yêu cầu phủ"
+      },
+      "materials": [
+        "SKH51",
+        "M2",
+        "ASP23",
+        "ASP30",
+        "ASP60"
+      ],
+      "variants": [
+        {
+          "en": "Conventional HSS",
+          "zh": "常规高速钢",
+          "vi": "Thép gió thông thường"
+        },
+        {
+          "en": "Powder HSS",
+          "zh": "粉末高速钢",
+          "vi": "Thép gió luyện kim bột"
+        },
+        {
+          "en": "Coated punches",
+          "zh": "涂层冲头",
+          "vi": "Chày phủ bề mặt"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/hss-punch/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/hss-punches.svg"
+    },
+    {
+      "group": "punch-components",
+      "id": "stepped-punches",
+      "name": {
+        "en": "Stepped Punches",
+        "zh": "台阶与多级冲头",
+        "vi": "Chày bậc"
+      },
+      "summary": {
+        "en": "Punches with different shank and working diameters. Shoulder position and transition radii are defined by the tool drawing.",
+        "zh": "杆部与工作端具有不同直径的冲头，台阶位置与过渡圆角按模具图纸确定。",
+        "vi": "Chày có đường kính thân và đầu khác nhau; vị trí bậc và bán kính chuyển tiếp theo bản vẽ."
+      },
+      "application": {
+        "en": "Stamping tools that require a reduced working tip with a supported mounting section.",
+        "zh": "需要缩径工作端及支撑安装段的冲压模具。",
+        "vi": "Khuôn dập cần đầu làm việc nhỏ và phần thân lắp có độ đỡ."
+      },
+      "selection": {
+        "en": "Each diameter and step length; transition radii; head style and working clearance",
+        "zh": "各段直径与台阶长度；过渡圆角；头部结构与工作间隙",
+        "vi": "Đường kính và chiều dài từng bậc; bán kính chuyển tiếp; kiểu đầu và khe hở"
+      },
+      "materials": [
+        "SKD11",
+        "DC53",
+        "SKH51",
+        "ASP60"
+      ],
+      "variants": [
+        {
+          "en": "Single shoulder",
+          "zh": "单台阶",
+          "vi": "Một bậc"
+        },
+        {
+          "en": "Multiple steps",
+          "zh": "多台阶",
+          "vi": "Nhiều bậc"
+        },
+        {
+          "en": "T-head",
+          "zh": "T 型头",
+          "vi": "Đầu chữ T"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/stepped-punch/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/stepped-punches.svg"
+    },
+    {
+      "group": "punch-components",
+      "id": "stamping-die-punches",
+      "name": {
+        "en": "Stamping Die Punches",
+        "zh": "冲压模冲头",
+        "vi": "Chày khuôn dập"
+      },
+      "summary": {
+        "en": "Replaceable cutting punches made around the hole profile, die clearance and mounting arrangement of your stamping tool.",
+        "zh": "围绕孔型、凹模间隙及安装结构设计的可更换冲裁零件。",
+        "vi": "Chày cắt thay thế theo biên dạng lỗ, khe hở cối và kiểu lắp của khuôn dập."
+      },
+      "application": {
+        "en": "General punching, blanking and trimming of sheet-metal parts.",
+        "zh": "钣金件的常规冲孔、落料及修边。",
+        "vi": "Đột lỗ, cắt phôi và cắt mép chi tiết tấm."
+      },
+      "selection": {
+        "en": "Cutting profile and mating die; stock thickness; head dimensions and sharpening allowance",
+        "zh": "刃口轮廓与配套凹模；料厚；头部尺寸与修磨余量",
+        "vi": "Biên dạng cắt và cối; chiều dày phôi; kích thước đầu và lượng mài lại"
+      },
+      "materials": [
+        "SKD11",
+        "D2",
+        "Cr12MoV",
+        "DC53"
+      ],
+      "variants": [
+        {
+          "en": "Round punches",
+          "zh": "圆冲",
+          "vi": "Chày tròn"
+        },
+        {
+          "en": "Profile punches",
+          "zh": "轮廓冲头",
+          "vi": "Chày theo biên dạng"
+        },
+        {
+          "en": "Replacement tooling",
+          "zh": "替换冲裁件",
+          "vi": "Dụng cụ thay thế"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/stamping-die-punch/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/stamping-die-punches.svg"
+    },
+    {
+      "group": "punch-components",
+      "id": "forming-punches",
+      "name": {
+        "en": "Forming & Profile Punches",
+        "zh": "异形与成型冲头",
+        "vi": "Chày tạo hình"
+      },
+      "summary": {
+        "en": "Non-round and contoured working ends for shaped openings or forming operations. The working surface is defined from your drawing.",
+        "zh": "用于异形孔及成型工序的非圆、曲面工作端，工作轮廓以图纸为准。",
+        "vi": "Đầu không tròn hoặc có biên dạng để tạo lỗ định hình và tạo hình theo bản vẽ."
+      },
+      "application": {
+        "en": "Hexagonal, square, oblique and other custom profiles; formed features in stamping parts.",
+        "zh": "六角、方形、斜面等定制轮廓，以及冲压件的成型特征。",
+        "vi": "Biên dạng lục giác, vuông, nghiêng và các chi tiết tạo hình theo yêu cầu."
+      },
+      "selection": {
+        "en": "2D profile or 3D model; orientation and datum; radii, finish and mating clearance",
+        "zh": "二维轮廓或三维模型；方向与基准；圆角、表面要求与配合间隙",
+        "vi": "Biên dạng 2D hoặc mô hình 3D; hướng và chuẩn; bán kính, bề mặt và khe hở"
+      },
+      "materials": [
+        "SKD11",
+        "DC53",
+        "SKH51",
+        "Tungsten carbide"
+      ],
+      "variants": [
+        {
+          "en": "Hexagonal / square",
+          "zh": "六角 / 方形",
+          "vi": "Lục giác / vuông"
+        },
+        {
+          "en": "Oblique / oval",
+          "zh": "斜面 / 椭圆",
+          "vi": "Nghiêng / ôvan"
+        },
+        {
+          "en": "Formed profiles",
+          "zh": "曲面成型",
+          "vi": "Biên dạng tạo hình"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/punch-components/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/forming-punches.svg"
+    },
+    {
+      "group": "punch-components",
+      "id": "a-type-punches",
+      "name": {
+        "en": "A-Type Punches",
+        "zh": "A 型冲头",
+        "vi": "Chày loại A"
+      },
+      "summary": {
+        "en": "Headed round punches with an A-type mounting profile. Confirm the reference series before specifying dimensions.",
+        "zh": "采用 A 型安装结构的带头圆冲，选型时需同时确认参考系列及具体尺寸。",
+        "vi": "Chày tròn có đầu lắp kiểu A. Xác nhận dòng tham chiếu trước khi xác định kích thước."
+      },
+      "application": {
+        "en": "Standard-series replacement and drawing-based stamping tools.",
+        "zh": "标准系列替换件及来图定制冲压工装。",
+        "vi": "Thay thế theo dòng tiêu chuẩn và khuôn dập theo bản vẽ."
+      },
+      "selection": {
+        "en": "Reference series or drawing; head and shank diameter; tip length and tolerance",
+        "zh": "参考系列或图纸；头径与杆径；工作端长度与公差",
+        "vi": "Dòng tham chiếu hoặc bản vẽ; đường kính đầu và thân; chiều dài đầu và dung sai"
+      },
+      "materials": [
+        "SKD11",
+        "SKH51",
+        "DC53"
+      ],
+      "variants": [
+        {
+          "en": "Round profile",
+          "zh": "圆形工作端",
+          "vi": "Đầu tròn"
+        },
+        {
+          "en": "Relieved profile",
+          "zh": "削边工作端",
+          "vi": "Đầu vát cạnh"
+        },
+        {
+          "en": "Custom dimensions",
+          "zh": "定制尺寸",
+          "vi": "Kích thước tùy chỉnh"
+        }
+      ],
+      "sourceUrls": [],
+      "image": null,
+      "illustration": "/images/catalog/a-type-punches.svg"
+    },
+    {
+      "group": "punch-components",
+      "id": "tableting-punches",
+      "name": {
+        "en": "Tableting Punches & Dies",
+        "zh": "压片冲模",
+        "vi": "Chày cối dập viên"
+      },
+      "summary": {
+        "en": "Matched upper punches, lower punches and dies for powder compaction. Cup geometry and press compatibility need joint review.",
+        "zh": "用于粉末压制的上冲、下冲及中模配套件，冲面结构与压机接口需共同核对。",
+        "vi": "Bộ chày trên, chày dưới và cối để ép bột; cần kiểm tra hình học mặt chày và khả năng lắp máy."
+      },
+      "application": {
+        "en": "Powder-compaction tooling with defined tablet shape, embossing and machine interfaces.",
+        "zh": "具有指定片形、刻字及设备接口的粉末压制工装。",
+        "vi": "Dụng cụ ép bột với hình dạng viên, chữ dập và giao diện máy xác định."
+      },
+      "selection": {
+        "en": "Press model and tooling standard; tablet profile and cup depth; powder characteristics and engraving",
+        "zh": "压机型号与模具标准；片形与冲面深度；粉末特性与刻字要求",
+        "vi": "Model máy và tiêu chuẩn dụng cụ; hình viên và độ sâu mặt chày; đặc tính bột và chữ dập"
+      },
+      "materials": [
+        "Tool steel"
+      ],
+      "variants": [
+        {
+          "en": "Upper punches",
+          "zh": "上冲",
+          "vi": "Chày trên"
+        },
+        {
+          "en": "Lower punches",
+          "zh": "下冲",
+          "vi": "Chày dưới"
+        },
+        {
+          "en": "Matched dies",
+          "zh": "配套中模",
+          "vi": "Cối đồng bộ"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/dies-and-punches-for-tableting/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/tableting-punches.svg"
+    },
+    {
+      "group": "ejector-components",
+      "id": "straight-ejector-pins",
+      "name": {
+        "en": "Straight Ejector Pins",
+        "zh": "直身顶针",
+        "vi": "Chốt đẩy thẳng"
+      },
+      "summary": {
+        "en": "Round pins transfer ejector-plate movement to the molded part. SKD61 and nitrided configurations are options within this family, not different functions.",
+        "zh": "圆形顶针将顶针板运动传递至制品。SKD61 属于材质选项，氮化属于表面处理，可按实际工况组合。",
+        "vi": "Chốt tròn truyền chuyển động tấm đẩy tới sản phẩm. SKD61 là lựa chọn vật liệu, thấm nitơ là xử lý bề mặt."
+      },
+      "application": {
+        "en": "Round pins transfer ejector-plate movement to the molded part. SKD61 and nitrided configurations are options within this family, not different functions.",
+        "zh": "圆形顶针将顶针板运动传递至制品。SKD61 属于材质选项，氮化属于表面处理，可按实际工况组合。",
+        "vi": "Chốt tròn truyền chuyển động tấm đẩy tới sản phẩm. SKD61 là lựa chọn vật liệu, thấm nitơ là xử lý bề mặt."
+      },
+      "selection": {
+        "en": "Tip diameter and total length; head dimensions and fit; mold temperature and nitriding requirement",
+        "zh": "工作直径与总长；头部尺寸与配合；模温与氮化要求",
+        "vi": "Đường kính và tổng chiều dài; kích thước đầu và độ lắp; nhiệt độ khuôn và yêu cầu thấm nitơ"
+      },
+      "materials": [
+        "SKD61",
+        "H13",
+        "SKH51"
+      ],
+      "variants": [
+        {
+          "en": "SKD61 / H13 options",
+          "zh": "SKD61 / H13 材质选项",
+          "vi": "Lựa chọn SKD61 / H13"
+        },
+        {
+          "en": "Nitrided surface",
+          "zh": "氮化表面",
+          "vi": "Bề mặt thấm nitơ"
+        },
+        {
+          "en": "Metric / inch",
+          "zh": "公制 / 英制",
+          "vi": "Hệ mét / inch"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/ejector-pins-for-injection-molding/",
+        "https://htxprecision.com/straight-ejector-pin/",
+        "https://htxprecision.com/nitrided-ejector-pin/",
+        "https://htxprecision.com/skd61-ejector-pin/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/straight-ejector-pins.svg"
+    },
+    {
+      "group": "ejector-components",
+      "id": "shoulder-ejector-pins",
+      "name": {
+        "en": "Shoulder Ejector Pins",
+        "zh": "带肩顶针",
+        "vi": "Chốt đẩy có vai"
+      },
+      "summary": {
+        "en": "An enlarged shoulder provides a defined mounting or guiding interface. Shoulder position and mating geometry must match the ejector assembly.",
+        "zh": "加大肩部提供明确的安装或导向配合段，肩部位置及配合结构需与顶出系统一致。",
+        "vi": "Phần vai lớn tạo bề mặt lắp hoặc dẫn hướng xác định; vị trí vai phải phù hợp cụm đẩy."
+      },
+      "application": {
+        "en": "An enlarged shoulder provides a defined mounting or guiding interface. Shoulder position and mating geometry must match the ejector assembly.",
+        "zh": "加大肩部提供明确的安装或导向配合段，肩部位置及配合结构需与顶出系统一致。",
+        "vi": "Phần vai lớn tạo bề mặt lắp hoặc dẫn hướng xác định; vị trí vai phải phù hợp cụm đẩy."
+      },
+      "selection": {
+        "en": "Shoulder diameter and position; mating bore and head; support length and operating stroke",
+        "zh": "肩部直径与位置；配合孔与头部；支撑长度与工作行程",
+        "vi": "Đường kính và vị trí vai; lỗ lắp và đầu; chiều dài đỡ và hành trình"
+      },
+      "materials": [
+        "SKD61",
+        "H13",
+        "SKH51"
+      ],
+      "variants": [
+        {
+          "en": "Defined shoulder",
+          "zh": "定位肩部",
+          "vi": "Vai định vị"
+        },
+        {
+          "en": "Custom head",
+          "zh": "定制头部",
+          "vi": "Đầu tùy chỉnh"
+        },
+        {
+          "en": "Optional nitriding",
+          "zh": "可选氮化",
+          "vi": "Tùy chọn thấm nitơ"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/shoulder-ejector-pins/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/shoulder-ejector-pins.svg"
+    },
+    {
+      "group": "ejector-components",
+      "id": "stepped-ejector-pins",
+      "name": {
+        "en": "Stepped Ejector Pins",
+        "zh": "台阶顶针",
+        "vi": "Chốt đẩy bậc"
+      },
+      "summary": {
+        "en": "A reduced ejection tip joins a larger support shaft. Step dimensions are selected to suit the available contact area and mold support.",
+        "zh": "较细顶出端连接较粗支撑杆，按制品接触面积及模具支撑条件确定台阶尺寸。",
+        "vi": "Đầu đẩy nhỏ nối với thân đỡ lớn; kích thước bậc theo diện tích tiếp xúc và độ đỡ trong khuôn."
+      },
+      "application": {
+        "en": "A reduced ejection tip joins a larger support shaft. Step dimensions are selected to suit the available contact area and mold support.",
+        "zh": "较细顶出端连接较粗支撑杆，按制品接触面积及模具支撑条件确定台阶尺寸。",
+        "vi": "Đầu đẩy nhỏ nối với thân đỡ lớn; kích thước bậc theo diện tích tiếp xúc và độ đỡ trong khuôn."
+      },
+      "selection": {
+        "en": "Tip and support diameters; step length and radius; total length and mating fit",
+        "zh": "顶端与支撑段直径；台阶长度与圆角；总长与配合",
+        "vi": "Đường kính đầu và thân; chiều dài bậc và bán kính; tổng chiều dài và độ lắp"
+      },
+      "materials": [
+        "SKD61",
+        "H13",
+        "SKH51"
+      ],
+      "variants": [
+        {
+          "en": "Single step",
+          "zh": "单台阶",
+          "vi": "Một bậc"
+        },
+        {
+          "en": "Multiple steps",
+          "zh": "多台阶",
+          "vi": "Nhiều bậc"
+        },
+        {
+          "en": "Nitrided option",
+          "zh": "氮化选项",
+          "vi": "Tùy chọn thấm nitơ"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/step-ejector-pin/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/stepped-ejector-pins.svg"
+    },
+    {
+      "group": "ejector-components",
+      "id": "blade-ejector-pins",
+      "name": {
+        "en": "Blade Ejector Pins",
+        "zh": "扁顶针",
+        "vi": "Chốt đẩy dẹt"
+      },
+      "summary": {
+        "en": "A thin rectangular working end reaches narrow ribs and restricted ejection areas. Blade orientation and the transition to the shank require close attention.",
+        "zh": "薄矩形工作端用于窄筋及受限顶出区域，需重点确认扁位方向以及与杆部的过渡结构。",
+        "vi": "Đầu chữ nhật mỏng dùng cho gân hẹp và vị trí hạn chế; cần xác định hướng lưỡi và phần chuyển tiếp."
+      },
+      "application": {
+        "en": "A thin rectangular working end reaches narrow ribs and restricted ejection areas. Blade orientation and the transition to the shank require close attention.",
+        "zh": "薄矩形工作端用于窄筋及受限顶出区域，需重点确认扁位方向以及与杆部的过渡结构。",
+        "vi": "Đầu chữ nhật mỏng dùng cho gân hẹp và vị trí hạn chế; cần xác định hướng lưỡi và phần chuyển tiếp."
+      },
+      "selection": {
+        "en": "Blade width and thickness; blade length and orientation; transition radius and tip profile",
+        "zh": "扁位宽度与厚度；扁位长度与方向；过渡圆角与端面形状",
+        "vi": "Chiều rộng và dày lưỡi; chiều dài và hướng; bán kính chuyển tiếp và mặt đầu"
+      },
+      "materials": [
+        "SKH51",
+        "SKD61"
+      ],
+      "variants": [
+        {
+          "en": "Flat tips",
+          "zh": "平面端部",
+          "vi": "Đầu phẳng"
+        },
+        {
+          "en": "Profiled tips",
+          "zh": "成型端部",
+          "vi": "Đầu định hình"
+        },
+        {
+          "en": "Nitrided option",
+          "zh": "氮化选项",
+          "vi": "Tùy chọn thấm nitơ"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/blade-ejector-pin/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/blade-ejector-pins.svg"
+    },
+    {
+      "group": "ejector-components",
+      "id": "square-ejector-pins",
+      "name": {
+        "en": "Square Ejector Pins",
+        "zh": "方顶针",
+        "vi": "Chốt đẩy vuông"
+      },
+      "summary": {
+        "en": "A square working section provides a non-round contact surface. Its orientation must be maintained by the corresponding mold guide geometry.",
+        "zh": "方形工作段提供非圆接触面，方向由相应模具导向结构保持。",
+        "vi": "Phần làm việc vuông tạo mặt tiếp xúc không tròn; hướng được giữ bởi cấu trúc dẫn hướng tương ứng."
+      },
+      "application": {
+        "en": "A square working section provides a non-round contact surface. Its orientation must be maintained by the corresponding mold guide geometry.",
+        "zh": "方形工作段提供非圆接触面，方向由相应模具导向结构保持。",
+        "vi": "Phần làm việc vuông tạo mặt tiếp xúc không tròn; hướng được giữ bởi cấu trúc dẫn hướng tương ứng."
+      },
+      "selection": {
+        "en": "Side lengths and corner radii; guided length and orientation; tip profile and surface finish",
+        "zh": "边长与角部圆角；导向长度与方向；端面形状与表面要求",
+        "vi": "Kích thước cạnh và bán kính góc; chiều dài dẫn và hướng; biên dạng đầu và bề mặt"
+      },
+      "materials": [
+        "SKD61",
+        "Stainless steel"
+      ],
+      "variants": [
+        {
+          "en": "Square section",
+          "zh": "方形截面",
+          "vi": "Tiết diện vuông"
+        },
+        {
+          "en": "Custom section",
+          "zh": "定制截面",
+          "vi": "Tiết diện tùy chỉnh"
+        },
+        {
+          "en": "Optional nitriding",
+          "zh": "可选氮化",
+          "vi": "Tùy chọn thấm nitơ"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/square-ejector-pin/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/square-ejector-pins.svg"
+    },
+    {
+      "group": "ejector-components",
+      "id": "ejector-sleeves",
+      "name": {
+        "en": "Ejector Sleeves",
+        "zh": "司筒与顶出套筒",
+        "vi": "Ống đẩy"
+      },
+      "summary": {
+        "en": "A hollow sleeve moves around a core pin to eject a boss or tubular feature. Concentricity and wall thickness are reviewed with the mating core.",
+        "zh": "空心套筒围绕芯针运动，用于柱位或管状部位顶出，壁厚与同轴关系需结合配套芯针核对。",
+        "vi": "Ống rỗng chuyển động quanh chốt lõi để đẩy trụ hoặc phần ống; kiểm tra đồng tâm và chiều dày cùng lõi."
+      },
+      "application": {
+        "en": "A hollow sleeve moves around a core pin to eject a boss or tubular feature. Concentricity and wall thickness are reviewed with the mating core.",
+        "zh": "空心套筒围绕芯针运动，用于柱位或管状部位顶出，壁厚与同轴关系需结合配套芯针核对。",
+        "vi": "Ống rỗng chuyển động quanh chốt lõi để đẩy trụ hoặc phần ống; kiểm tra đồng tâm và chiều dày cùng lõi."
+      },
+      "selection": {
+        "en": "Bore and outside diameter; working and total length; mating core dimensions and tip form",
+        "zh": "内外径；工作长度与总长；配套芯针尺寸与端部形状",
+        "vi": "Đường kính trong và ngoài; chiều dài làm việc và tổng; kích thước lõi và dạng đầu"
+      },
+      "materials": [
+        "SKD61",
+        "SKH51"
+      ],
+      "variants": [
+        {
+          "en": "Thin-wall / micro",
+          "zh": "薄壁 / 微型",
+          "vi": "Thành mỏng / cỡ nhỏ"
+        },
+        {
+          "en": "Long sleeves",
+          "zh": "加长司筒",
+          "vi": "Ống dài"
+        },
+        {
+          "en": "Stepped sleeves",
+          "zh": "台阶司筒",
+          "vi": "Ống bậc"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/ejector-sleeve/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/ejector-sleeves.svg"
+    },
+    {
+      "group": "ejector-components",
+      "id": "air-poppet-valves",
+      "name": {
+        "en": "Air Poppet Valves",
+        "zh": "气顶阀",
+        "vi": "Van khí hỗ trợ đẩy"
+      },
+      "summary": {
+        "en": "A spring-loaded valve admits air at the mold surface during release to help break a vacuum. It assists demolding without replacing the mechanical ejector design.",
+        "zh": "弹簧复位阀在脱模时向模具表面引入空气，辅助解除真空吸附；应与机械顶出结构配合设计。",
+        "vi": "Van hồi bằng lò xo đưa khí vào bề mặt khuôn để phá chân không khi tháo sản phẩm, phối hợp với cơ cấu đẩy."
+      },
+      "application": {
+        "en": "A spring-loaded valve admits air at the mold surface during release to help break a vacuum. It assists demolding without replacing the mechanical ejector design.",
+        "zh": "弹簧复位阀在脱模时向模具表面引入空气，辅助解除真空吸附；应与机械顶出结构配合设计。",
+        "vi": "Van hồi bằng lò xo đưa khí vào bề mặt khuôn để phá chân không khi tháo sản phẩm, phối hợp với cơ cấu đẩy."
+      },
+      "selection": {
+        "en": "Installation bore and seat; air pressure and passage layout; resin, mold temperature and valve travel",
+        "zh": "安装孔与阀座；供气压力与气路布局；树脂、模温与阀芯行程",
+        "vi": "Lỗ lắp và đế van; áp suất khí và đường khí; nhựa, nhiệt độ khuôn và hành trình van"
+      },
+      "materials": [
+        "Stainless steel"
+      ],
+      "variants": [
+        {
+          "en": "Spring-return valve",
+          "zh": "弹簧复位阀",
+          "vi": "Van hồi lò xo"
+        },
+        {
+          "en": "Custom mounting",
+          "zh": "定制安装结构",
+          "vi": "Kiểu lắp tùy chỉnh"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/Air-Poppet-Valve/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/air-poppet-valves.svg"
+    },
+    {
+      "group": "guide-components",
+      "id": "guide-posts",
+      "name": {
+        "en": "Guide Posts & Pillars",
+        "zh": "导柱",
+        "vi": "Trụ dẫn hướng"
+      },
+      "summary": {
+        "en": "Ground posts align moving mold plates through a mating bushing. Plain and nitrided versions are selected with the complete guide system.",
+        "zh": "磨削导柱通过配套导套对运动模板进行导向，普通及氮化形式应结合整套导向系统选择。",
+        "vi": "Trụ mài dẫn hướng tấm khuôn qua bạc tương ứng; chọn bề mặt thường hoặc thấm nitơ theo hệ dẫn hướng."
+      },
+      "application": {
+        "en": "Ground posts align moving mold plates through a mating bushing. Plain and nitrided versions are selected with the complete guide system.",
+        "zh": "磨削导柱通过配套导套对运动模板进行导向，普通及氮化形式应结合整套导向系统选择。",
+        "vi": "Trụ mài dẫn hướng tấm khuôn qua bạc tương ứng; chọn bề mặt thường hoặc thấm nitơ theo hệ dẫn hướng."
+      },
+      "selection": {
+        "en": "Working and mounting diameters; overall length and stroke; bushing fit and lubrication",
+        "zh": "工作段与安装段直径；总长与行程；导套配合与润滑",
+        "vi": "Đường kính làm việc và lắp; tổng chiều dài và hành trình; độ lắp bạc và bôi trơn"
+      },
+      "materials": [
+        "SUJ2",
+        "Bearing steel",
+        "20Cr"
+      ],
+      "variants": [
+        {
+          "en": "Mold guide posts",
+          "zh": "模架导柱",
+          "vi": "Trụ dẫn khuôn"
+        },
+        {
+          "en": "Stripper guide pins",
+          "zh": "卸料板导柱",
+          "vi": "Trụ dẫn tấm gạt"
+        },
+        {
+          "en": "Nitrided posts",
+          "zh": "氮化导柱",
+          "vi": "Trụ thấm nitơ"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/guide-pin/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/guide-posts.svg"
+    },
+    {
+      "group": "guide-components",
+      "id": "guide-bushings",
+      "name": {
+        "en": "Plain & Steel Guide Bushings",
+        "zh": "滑动导套与钢导套",
+        "vi": "Bạc dẫn hướng trượt"
+      },
+      "summary": {
+        "en": "A replaceable sliding sleeve guides the post and takes wear at the mating interface. Bore finish and installed fit matter together.",
+        "zh": "可更换滑动套为导柱提供导向并承担配合面的磨损，需同时确认内孔表面及安装后配合。",
+        "vi": "Bạc trượt thay thế dẫn trụ và chịu mòn ở bề mặt lắp; độ nhẵn lỗ và độ lắp sau lắp đặt cần đồng bộ."
+      },
+      "application": {
+        "en": "A replaceable sliding sleeve guides the post and takes wear at the mating interface. Bore finish and installed fit matter together.",
+        "zh": "可更换滑动套为导柱提供导向并承担配合面的磨损，需同时确认内孔表面及安装后配合。",
+        "vi": "Bạc trượt thay thế dẫn trụ và chịu mòn ở bề mặt lắp; độ nhẵn lỗ và độ lắp sau lắp đặt cần đồng bộ."
+      },
+      "selection": {
+        "en": "Bore and outer diameter; length and mounting fit; oil grooves and mating post",
+        "zh": "内外径；长度与安装配合；油槽及配套导柱",
+        "vi": "Đường kính trong và ngoài; chiều dài và độ lắp; rãnh dầu và trụ tương ứng"
+      },
+      "materials": [
+        "Bearing steel",
+        "Tool steel"
+      ],
+      "variants": [
+        {
+          "en": "Straight bushings",
+          "zh": "直身导套",
+          "vi": "Bạc thẳng"
+        },
+        {
+          "en": "Stripper bushings",
+          "zh": "卸料板导套",
+          "vi": "Bạc tấm gạt"
+        },
+        {
+          "en": "Ejector guide bushings",
+          "zh": "顶出系统导套",
+          "vi": "Bạc dẫn hệ đẩy"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/guide-bushing/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/guide-bushings.svg"
+    },
+    {
+      "group": "guide-components",
+      "id": "flanged-guide-bushings",
+      "name": {
+        "en": "Flanged Guide Bushings",
+        "zh": "法兰导套",
+        "vi": "Bạc dẫn có bích"
+      },
+      "summary": {
+        "en": "A flange provides an axial locating face for the guide bushing. The mounting face and bore must share the specified alignment.",
+        "zh": "法兰为导套提供轴向定位面，安装面与内孔需满足规定的几何关系。",
+        "vi": "Bích tạo mặt định vị dọc trục cho bạc; mặt lắp và lỗ phải đáp ứng độ thẳng hàng yêu cầu."
+      },
+      "application": {
+        "en": "A flange provides an axial locating face for the guide bushing. The mounting face and bore must share the specified alignment.",
+        "zh": "法兰为导套提供轴向定位面，安装面与内孔需满足规定的几何关系。",
+        "vi": "Bích tạo mặt định vị dọc trục cho bạc; mặt lắp và lỗ phải đáp ứng độ thẳng hàng yêu cầu."
+      },
+      "selection": {
+        "en": "Bore and body diameter; flange thickness and fixing pattern; locating face and fit",
+        "zh": "内孔与本体直径；法兰厚度与固定孔位；定位面与配合",
+        "vi": "Đường kính lỗ và thân; dày bích và lỗ bắt; mặt định vị và độ lắp"
+      },
+      "materials": [
+        "Bearing steel",
+        "Tool steel"
+      ],
+      "variants": [
+        {
+          "en": "Shouldered bushings",
+          "zh": "带肩导套",
+          "vi": "Bạc có vai"
+        },
+        {
+          "en": "Flange mounting",
+          "zh": "法兰安装",
+          "vi": "Lắp bích"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/guide-pillar-and-guide-bush/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/flanged-guide-bushings.svg"
+    },
+    {
+      "group": "guide-components",
+      "id": "guide-sets",
+      "name": {
+        "en": "Guide Post & Bushing Sets",
+        "zh": "导柱导套组件",
+        "vi": "Bộ trụ & bạc dẫn"
+      },
+      "summary": {
+        "en": "Posts and bushings specified as a mating set simplify fit coordination. Sliding and rolling systems use different clearances and assembly requirements.",
+        "zh": "按配套关系提供导柱与导套，便于统一配合要求。滑动与滚动系统的间隙和装配条件应分别确认。",
+        "vi": "Trụ và bạc được xác định thành bộ để phối hợp độ lắp; hệ trượt và hệ lăn có yêu cầu lắp khác nhau."
+      },
+      "application": {
+        "en": "Posts and bushings specified as a mating set simplify fit coordination. Sliding and rolling systems use different clearances and assembly requirements.",
+        "zh": "按配套关系提供导柱与导套，便于统一配合要求。滑动与滚动系统的间隙和装配条件应分别确认。",
+        "vi": "Trụ và bạc được xác định thành bộ để phối hợp độ lắp; hệ trượt và hệ lăn có yêu cầu lắp khác nhau."
+      },
+      "selection": {
+        "en": "Assembly drawing and plate spacing; stroke and mounting details; clearance or preload requirement",
+        "zh": "装配图与模板间距；行程与安装结构；间隙或预压要求",
+        "vi": "Bản vẽ lắp và khoảng cách tấm; hành trình và kiểu lắp; khe hở hoặc tải trước"
+      },
+      "materials": [
+        "Bearing steel",
+        "Bronze"
+      ],
+      "variants": [
+        {
+          "en": "Sliding guide sets",
+          "zh": "滑动导向组件",
+          "vi": "Bộ dẫn trượt"
+        },
+        {
+          "en": "Ball guide sets",
+          "zh": "滚珠导向组件",
+          "vi": "Bộ dẫn bi"
+        },
+        {
+          "en": "Custom assemblies",
+          "zh": "定制总成",
+          "vi": "Cụm tùy chỉnh"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/guide-pillar-and-guide-bush/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/guide-sets.svg"
+    },
+    {
+      "group": "guide-components",
+      "id": "ball-cages",
+      "name": {
+        "en": "Ball Cages & Retainers",
+        "zh": "滚珠保持架",
+        "vi": "Lồng bi dẫn hướng"
+      },
+      "summary": {
+        "en": "The cage spaces and retains bearing balls between a post and bushing. Brass, aluminum and polymer bodies are alternatives selected for mass, temperature and duty.",
+        "zh": "保持架在导柱与导套之间定位滚珠。铜、铝及塑料架体按运动质量、温度和工况选择，不能与实心导套混用。",
+        "vi": "Lồng giữ khoảng cách bi giữa trụ và bạc. Thân đồng, nhôm hoặc nhựa được chọn theo khối lượng, nhiệt độ và điều kiện làm việc."
+      },
+      "application": {
+        "en": "The cage spaces and retains bearing balls between a post and bushing. Brass, aluminum and polymer bodies are alternatives selected for mass, temperature and duty.",
+        "zh": "保持架在导柱与导套之间定位滚珠。铜、铝及塑料架体按运动质量、温度和工况选择，不能与实心导套混用。",
+        "vi": "Lồng giữ khoảng cách bi giữa trụ và bạc. Thân đồng, nhôm hoặc nhựa được chọn theo khối lượng, nhiệt độ và điều kiện làm việc."
+      },
+      "selection": {
+        "en": "Post and bushing diameters; ball size, pattern and preload; cage length, stroke and body material",
+        "zh": "导柱导套直径；滚珠尺寸、排列与预压；架体长度、行程与材质",
+        "vi": "Đường kính trụ và bạc; kích thước bi, bố trí và tải trước; chiều dài, hành trình và vật liệu lồng"
+      },
+      "materials": [
+        "Brass",
+        "Aluminum",
+        "Engineering polymer"
+      ],
+      "variants": [
+        {
+          "en": "Brass ball cages",
+          "zh": "铜珠保持架",
+          "vi": "Lồng bi đồng"
+        },
+        {
+          "en": "Aluminum ball cages",
+          "zh": "铝珠保持架",
+          "vi": "Lồng bi nhôm"
+        },
+        {
+          "en": "Plastic ball cages",
+          "zh": "塑料滚珠保持架",
+          "vi": "Lồng bi nhựa"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/ball-cage/",
+        "https://htxprecision.com/brass-ball-cage/",
+        "https://htxprecision.com/aluminum-ball-cage/",
+        "https://htxprecision.com/plastic-ball-cage/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/ball-cages.svg"
+    },
+    {
+      "group": "guide-components",
+      "id": "ball-bearing-bushings",
+      "name": {
+        "en": "Ball Bearing Bushings",
+        "zh": "滚珠导套",
+        "vi": "Bạc dẫn bi"
+      },
+      "summary": {
+        "en": "A rolling guide unit combines a bushing body and bearing elements around the post. Confirm whether the order includes the cage and mating post.",
+        "zh": "导套本体与滚动元件构成导柱周围的滚动导向单元，订购时需明确是否包含保持架及配套导柱。",
+        "vi": "Cụm dẫn lăn kết hợp thân bạc và phần tử bi quanh trụ; xác nhận phạm vi cung cấp lồng bi và trụ."
+      },
+      "application": {
+        "en": "A rolling guide unit combines a bushing body and bearing elements around the post. Confirm whether the order includes the cage and mating post.",
+        "zh": "导套本体与滚动元件构成导柱周围的滚动导向单元，订购时需明确是否包含保持架及配套导柱。",
+        "vi": "Cụm dẫn lăn kết hợp thân bạc và phần tử bi quanh trụ; xác nhận phạm vi cung cấp lồng bi và trụ."
+      },
+      "selection": {
+        "en": "Mating post diameter; bushing housing and retention; stroke, ball arrangement and supplied scope",
+        "zh": "配套导柱直径；导套座孔与固定方式；行程、滚珠结构与供货范围",
+        "vi": "Đường kính trụ; lỗ lắp và cách giữ bạc; hành trình, bố trí bi và phạm vi cung cấp"
+      },
+      "materials": [
+        "Bearing steel"
+      ],
+      "variants": [
+        {
+          "en": "Rolling guide units",
+          "zh": "滚动导向单元",
+          "vi": "Cụm dẫn lăn"
+        },
+        {
+          "en": "Matched assemblies",
+          "zh": "配套总成",
+          "vi": "Cụm đồng bộ"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/Ball-bearing-bushing/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/ball-bearing-bushings.svg"
+    },
+    {
+      "group": "die-springs",
+      "id": "rectangular-die-springs",
+      "name": {
+        "en": "Rectangular Die Springs",
+        "zh": "矩形模具弹簧",
+        "vi": "Lò xo khuôn tiết diện chữ nhật"
+      },
+      "summary": {
+        "en": "Rectangular-wire compression springs provide force in a compact mold space. Choose the load curve and permitted stroke before choosing the color code.",
+        "zh": "矩形截面压缩弹簧在紧凑模具空间中提供作用力。先核对负荷曲线与允许行程，再确认颜色标识。",
+        "vi": "Lò xo nén dây chữ nhật tạo lực trong không gian khuôn nhỏ. Chọn đường đặc tính lực và hành trình trước mã màu."
+      },
+      "application": {
+        "en": "Rectangular-wire compression springs provide force in a compact mold space. Choose the load curve and permitted stroke before choosing the color code.",
+        "zh": "矩形截面压缩弹簧在紧凑模具空间中提供作用力。先核对负荷曲线与允许行程，再确认颜色标识。",
+        "vi": "Lò xo nén dây chữ nhật tạo lực trong không gian khuôn nhỏ. Chọn đường đặc tính lực và hành trình trước mã màu."
+      },
+      "selection": {
+        "en": "Reference standard and color series; outside/inside diameter and free length; preload, working stroke and force",
+        "zh": "参考标准与颜色系列；内外径与自由长度；预压、工作行程与作用力",
+        "vi": "Tiêu chuẩn và dòng màu; đường kính trong/ngoài và chiều dài tự do; tải trước, hành trình và lực"
+      },
+      "materials": [
+        "Spring steel"
+      ],
+      "variants": [
+        {
+          "en": "Yellow · extra light*",
+          "zh": "黄色 · 超轻载*",
+          "vi": "Vàng · tải rất nhẹ*"
+        },
+        {
+          "en": "Blue · light*",
+          "zh": "蓝色 · 轻载*",
+          "vi": "Xanh dương · tải nhẹ*"
+        },
+        {
+          "en": "Red · medium*",
+          "zh": "红色 · 中载*",
+          "vi": "Đỏ · tải trung bình*"
+        },
+        {
+          "en": "Green · heavy*",
+          "zh": "绿色 · 重载*",
+          "vi": "Xanh lá · tải nặng*"
+        },
+        {
+          "en": "Brown · extra heavy*",
+          "zh": "棕色 · 超重载*",
+          "vi": "Nâu · tải rất nặng*"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/die-springs-mold-springs/",
+        "https://htxprecision.com/red-die-spring/",
+        "https://htxprecision.com/blue-die-spring/",
+        "https://htxprecision.com/green-die-spring/",
+        "https://htxprecision.com/yellow-die-spring/",
+        "https://htxprecision.com/brown-die-spring/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/rectangular-die-springs.svg",
+      "note": {
+        "en": "*Color/load pairing shown for the referenced Japanese-style series. ISO and other series can use different colors; confirm the supplier load chart.",
+        "zh": "*此处颜色与负荷对应参考日系系列；ISO 等其他系列的颜色定义可能不同，须以确认的系列及负荷表为准。",
+        "vi": "*Màu và tải tham khảo dòng kiểu Nhật. ISO và dòng khác có thể dùng mã màu khác; cần xác nhận bảng tải."
+      }
+    },
+    {
+      "group": "die-springs",
+      "id": "nitrogen-gas-springs",
+      "name": {
+        "en": "Nitrogen Gas Springs",
+        "zh": "氮气弹簧",
+        "vi": "Lò xo khí nitơ"
+      },
+      "summary": {
+        "en": "A sealed gas spring produces return or holding force through compressed nitrogen. Select a rated unit and mounting arrangement for the intended tool duty.",
+        "zh": "密封气弹簧通过压缩氮气提供复位或压料力，应根据模具工况选择额定规格及安装形式。",
+        "vi": "Cụm khí kín tạo lực hồi hoặc giữ bằng nitơ nén. Chọn định mức và kiểu lắp phù hợp điều kiện khuôn."
+      },
+      "application": {
+        "en": "A sealed gas spring produces return or holding force through compressed nitrogen. Select a rated unit and mounting arrangement for the intended tool duty.",
+        "zh": "密封气弹簧通过压缩氮气提供复位或压料力，应根据模具工况选择额定规格及安装形式。",
+        "vi": "Cụm khí kín tạo lực hồi hoặc giữ bằng nitơ nén. Chọn định mức và kiểu lắp phù hợp điều kiện khuôn."
+      },
+      "selection": {
+        "en": "Required initial and end force; rated stroke and installation height; mounting style and operating temperature",
+        "zh": "初始与终点作用力；额定行程与安装高度；安装形式与工作温度",
+        "vi": "Lực đầu và cuối; hành trình định mức và chiều cao lắp; kiểu lắp và nhiệt độ"
+      },
+      "materials": [
+        "Per selected model"
+      ],
+      "variants": [
+        {
+          "en": "Compact units",
+          "zh": "紧凑型",
+          "vi": "Loại nhỏ gọn"
+        },
+        {
+          "en": "Mounting accessories",
+          "zh": "安装附件",
+          "vi": "Phụ kiện lắp"
+        },
+        {
+          "en": "Replacement by model",
+          "zh": "按型号替换",
+          "vi": "Thay theo model"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/die-springs-mold-springs/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/nitrogen-gas-springs.svg"
+    },
+    {
+      "group": "plastic-mold-components",
+      "id": "sprue-bushings",
+      "name": {
+        "en": "Sprue Bushings",
+        "zh": "浇口套（唧咀）",
+        "vi": "Bạc cuống phun"
+      },
+      "summary": {
+        "en": "The sprue bushing connects the machine nozzle to the mold runner. Nozzle-seat geometry and the internal taper must suit the injection system.",
+        "zh": "浇口套连接注塑机喷嘴与模具流道，喷嘴接触面及内孔锥度需匹配注塑系统。",
+        "vi": "Bạc nối vòi phun máy với kênh dẫn khuôn; mặt tiếp xúc vòi và độ côn trong phải phù hợp hệ phun."
+      },
+      "application": {
+        "en": "The sprue bushing connects the machine nozzle to the mold runner. Nozzle-seat geometry and the internal taper must suit the injection system.",
+        "zh": "浇口套连接注塑机喷嘴与模具流道，喷嘴接触面及内孔锥度需匹配注塑系统。",
+        "vi": "Bạc nối vòi phun máy với kênh dẫn khuôn; mặt tiếp xúc vòi và độ côn trong phải phù hợp hệ phun."
+      },
+      "selection": {
+        "en": "Nozzle radius and inlet diameter; taper and passage length; flange and mold-plate dimensions",
+        "zh": "喷嘴球面半径与入口孔径；锥度与流道长度；法兰及模板尺寸",
+        "vi": "Bán kính vòi và đường kính vào; độ côn và chiều dài; kích thước bích và tấm khuôn"
+      },
+      "materials": [
+        "Tool steel"
+      ],
+      "variants": [
+        {
+          "en": "A / B / C reference types",
+          "zh": "A / B / C 参考型式",
+          "vi": "Kiểu tham chiếu A / B / C"
+        },
+        {
+          "en": "Custom nozzle seat",
+          "zh": "定制喷嘴接触面",
+          "vi": "Mặt tiếp xúc tùy chỉnh"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/sprue-bushing/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/sprue-bushings.svg"
+    },
+    {
+      "group": "plastic-mold-components",
+      "id": "locating-rings",
+      "name": {
+        "en": "Locating Rings",
+        "zh": "定位圈",
+        "vi": "Vòng định vị"
+      },
+      "summary": {
+        "en": "A locating ring aligns the mold with the machine platen opening. Ring diameter and projection are matched to the press interface.",
+        "zh": "定位圈将模具与注塑机模板定位孔对中，外径与伸出高度需匹配机台接口。",
+        "vi": "Vòng định vị căn khuôn với lỗ bàn máy; đường kính và chiều nhô phải khớp giao diện máy."
+      },
+      "application": {
+        "en": "A locating ring aligns the mold with the machine platen opening. Ring diameter and projection are matched to the press interface.",
+        "zh": "定位圈将模具与注塑机模板定位孔对中，外径与伸出高度需匹配机台接口。",
+        "vi": "Vòng định vị căn khuôn với lỗ bàn máy; đường kính và chiều nhô phải khớp giao diện máy."
+      },
+      "selection": {
+        "en": "Machine locating bore; ring outside/inside diameter and height; fixing-hole pattern",
+        "zh": "机台定位孔；定位圈内外径与高度；固定孔位",
+        "vi": "Lỗ định vị máy; đường kính trong/ngoài và chiều cao; bố trí lỗ bắt"
+      },
+      "materials": [
+        "Steel"
+      ],
+      "variants": [
+        {
+          "en": "Flat rings",
+          "zh": "平面型",
+          "vi": "Vòng phẳng"
+        },
+        {
+          "en": "Stepped rings",
+          "zh": "台阶型",
+          "vi": "Vòng bậc"
+        }
+      ],
+      "sourceUrls": [],
+      "image": null,
+      "illustration": "/images/catalog/locating-rings.svg"
+    },
+    {
+      "group": "plastic-mold-components",
+      "id": "mold-date-stamps",
+      "name": {
+        "en": "Mold Date Stamps",
+        "zh": "模具日期章",
+        "vi": "Dấu ngày khuôn"
+      },
+      "summary": {
+        "en": "A replaceable marking insert places date or identification information on molded parts. The marking layout and adjustment method are specified together.",
+        "zh": "可更换标记镶件在制品上形成日期或识别信息，字符布局与调节方式需同时确定。",
+        "vi": "Lõi dấu thay thế tạo thông tin ngày hoặc nhận dạng trên sản phẩm; xác định bố cục ký hiệu và cách chỉnh."
+      },
+      "application": {
+        "en": "A replaceable marking insert places date or identification information on molded parts. The marking layout and adjustment method are specified together.",
+        "zh": "可更换标记镶件在制品上形成日期或识别信息，字符布局与调节方式需同时确定。",
+        "vi": "Lõi dấu thay thế tạo thông tin ngày hoặc nhận dạng trên sản phẩm; xác định bố cục ký hiệu và cách chỉnh."
+      },
+      "selection": {
+        "en": "Marking layout and character size; insert diameter and depth; rotation method and mold temperature",
+        "zh": "标记内容与字号；外径与深度；调节方式与模温",
+        "vi": "Bố cục và cỡ ký tự; đường kính và chiều sâu; cách chỉnh và nhiệt độ khuôn"
+      },
+      "materials": [
+        "Stainless steel",
+        "Tool steel"
+      ],
+      "variants": [
+        {
+          "en": "Month / year",
+          "zh": "月 / 年",
+          "vi": "Tháng / năm"
+        },
+        {
+          "en": "Custom identification",
+          "zh": "定制识别标记",
+          "vi": "Ký hiệu tùy chỉnh"
+        }
+      ],
+      "sourceUrls": [],
+      "image": null,
+      "illustration": "/images/catalog/mold-date-stamps.svg"
+    },
+    {
+      "group": "plastic-mold-components",
+      "id": "side-locks",
+      "name": {
+        "en": "Side Locks & Interlocks",
+        "zh": "侧锁与精定位块",
+        "vi": "Khóa định vị cạnh"
+      },
+      "summary": {
+        "en": "Interlocking mating faces help locate mold halves at closure. Their mounting datums should be coordinated with the main guide system.",
+        "zh": "相互配合的定位面辅助模具闭合定位，安装基准需与主导向系统协调。",
+        "vi": "Các mặt khóa ăn khớp hỗ trợ định vị hai nửa khuôn khi đóng; chuẩn lắp cần đồng bộ với hệ dẫn chính."
+      },
+      "application": {
+        "en": "Interlocking mating faces help locate mold halves at closure. Their mounting datums should be coordinated with the main guide system.",
+        "zh": "相互配合的定位面辅助模具闭合定位，安装基准需与主导向系统协调。",
+        "vi": "Các mặt khóa ăn khớp hỗ trợ định vị hai nửa khuôn khi đóng; chuẩn lắp cần đồng bộ với hệ dẫn chính."
+      },
+      "selection": {
+        "en": "Locking profile and size; mounting datums and screw holes; closure clearance and temperature",
+        "zh": "定位轮廓与尺寸；安装基准与螺孔；闭合间隙与温度",
+        "vi": "Biên dạng và kích thước khóa; chuẩn lắp và lỗ vít; khe hở đóng và nhiệt độ"
+      },
+      "materials": [
+        "Tool steel"
+      ],
+      "variants": [
+        {
+          "en": "Side interlocks",
+          "zh": "侧面精定位",
+          "vi": "Khóa cạnh"
+        },
+        {
+          "en": "Matched male / female",
+          "zh": "公母配套",
+          "vi": "Cặp đực / cái"
+        }
+      ],
+      "sourceUrls": [],
+      "image": null,
+      "illustration": "/images/catalog/side-locks.svg"
+    },
+    {
+      "group": "plastic-mold-components",
+      "id": "stopper-bolts",
+      "name": {
+        "en": "Stopper Bolts",
+        "zh": "限位螺栓",
+        "vi": "Bu lông giới hạn"
+      },
+      "summary": {
+        "en": "A shoulder or stop face limits plate travel in the designed assembly. Strength and engagement must be checked for the actual load.",
+        "zh": "肩部或止挡面在装配结构中限制模板行程，强度与啮合长度需按实际载荷核对。",
+        "vi": "Vai hoặc mặt chặn giới hạn hành trình tấm; cần kiểm tra độ bền và chiều dài ăn ren theo tải."
+      },
+      "application": {
+        "en": "A shoulder or stop face limits plate travel in the designed assembly. Strength and engagement must be checked for the actual load.",
+        "zh": "肩部或止挡面在装配结构中限制模板行程，强度与啮合长度需按实际载荷核对。",
+        "vi": "Vai hoặc mặt chặn giới hạn hành trình tấm; cần kiểm tra độ bền và chiều dài ăn ren theo tải."
+      },
+      "selection": {
+        "en": "Stop length and shoulder diameter; thread size and engagement; load direction and mounting space",
+        "zh": "限位长度与肩径；螺纹尺寸与啮合长度；载荷方向与安装空间",
+        "vi": "Chiều dài chặn và đường kính vai; cỡ ren và độ ăn ren; hướng tải và không gian lắp"
+      },
+      "materials": [
+        "Alloy steel"
+      ],
+      "variants": [
+        {
+          "en": "Shoulder stop bolts",
+          "zh": "带肩限位螺栓",
+          "vi": "Bu lông vai chặn"
+        },
+        {
+          "en": "Custom travel",
+          "zh": "定制限位行程",
+          "vi": "Hành trình tùy chỉnh"
+        }
+      ],
+      "sourceUrls": [],
+      "image": null,
+      "illustration": "/images/catalog/stopper-bolts.svg"
+    },
+    {
+      "group": "plastic-mold-components",
+      "id": "pull-rods",
+      "name": {
+        "en": "Pull Rods",
+        "zh": "拉杆",
+        "vi": "Thanh kéo khuôn"
+      },
+      "summary": {
+        "en": "Pull rods connect or sequence mold plates according to the opening arrangement. End connections and effective travel are defined by the assembly.",
+        "zh": "拉杆根据开模结构连接或带动模板，端部连接与有效行程以装配要求为准。",
+        "vi": "Thanh kéo nối hoặc điều khiển trình tự tấm theo cấu trúc mở khuôn; đầu nối và hành trình theo cụm lắp."
+      },
+      "application": {
+        "en": "Pull rods connect or sequence mold plates according to the opening arrangement. End connections and effective travel are defined by the assembly.",
+        "zh": "拉杆根据开模结构连接或带动模板，端部连接与有效行程以装配要求为准。",
+        "vi": "Thanh kéo nối hoặc điều khiển trình tự tấm theo cấu trúc mở khuôn; đầu nối và hành trình theo cụm lắp."
+      },
+      "selection": {
+        "en": "Effective length and opening travel; end threads or shoulders; plate sequence and load",
+        "zh": "有效长度与开模行程；端部螺纹或肩部；模板动作顺序与载荷",
+        "vi": "Chiều dài hữu ích và hành trình; ren đầu hoặc vai; trình tự tấm và tải"
+      },
+      "materials": [
+        "Alloy steel"
+      ],
+      "variants": [
+        {
+          "en": "Threaded ends",
+          "zh": "螺纹端",
+          "vi": "Đầu ren"
+        },
+        {
+          "en": "Shouldered ends",
+          "zh": "带肩端",
+          "vi": "Đầu vai"
+        }
+      ],
+      "sourceUrls": [],
+      "image": null,
+      "illustration": "/images/catalog/pull-rods.svg"
+    },
+    {
+      "group": "bronze-components",
+      "id": "graphite-bronze-bushings",
+      "name": {
+        "en": "Graphite Bronze Bushings",
+        "zh": "石墨铜套",
+        "vi": "Bạc đồng gắn graphite"
+      },
+      "summary": {
+        "en": "Solid-lubricant plugs in a copper-alloy body support sliding applications where continuous lubrication is difficult. Suitability depends on load, speed and temperature.",
+        "zh": "铜合金基体内嵌固体润滑块，用于难以连续补充润滑的滑动工况，适用性取决于载荷、速度及温度。",
+        "vi": "Nút bôi trơn rắn trong thân hợp kim đồng dùng khi khó bổ sung dầu liên tục; cần kiểm tra tải, tốc độ và nhiệt độ."
+      },
+      "application": {
+        "en": "Solid-lubricant plugs in a copper-alloy body support sliding applications where continuous lubrication is difficult. Suitability depends on load, speed and temperature.",
+        "zh": "铜合金基体内嵌固体润滑块，用于难以连续补充润滑的滑动工况，适用性取决于载荷、速度及温度。",
+        "vi": "Nút bôi trơn rắn trong thân hợp kim đồng dùng khi khó bổ sung dầu liên tục; cần kiểm tra tải, tốc độ và nhiệt độ."
+      },
+      "selection": {
+        "en": "Bore, housing fit and length; load and sliding speed; lubricant pattern and shaft finish",
+        "zh": "内孔、座孔配合与长度；载荷与滑动速度；润滑块布局与轴面要求",
+        "vi": "Lỗ, độ lắp và chiều dài; tải và tốc độ trượt; bố trí nút và bề mặt trục"
+      },
+      "materials": [
+        "Copper alloy with solid lubricant"
+      ],
+      "variants": [
+        {
+          "en": "Cylindrical",
+          "zh": "圆筒型",
+          "vi": "Dạng trụ"
+        },
+        {
+          "en": "Flanged",
+          "zh": "法兰型",
+          "vi": "Có bích"
+        },
+        {
+          "en": "Square / custom",
+          "zh": "方形 / 定制",
+          "vi": "Vuông / tùy chỉnh"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/graphite-bronze-bushings/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/graphite-bronze-bushings.svg"
+    },
+    {
+      "group": "bronze-components",
+      "id": "bronze-bushings",
+      "name": {
+        "en": "Plain Bronze Bushings",
+        "zh": "普通铜套",
+        "vi": "Bạc đồng trơn"
+      },
+      "summary": {
+        "en": "Machined bronze sleeves provide a replaceable sliding bearing surface. Plain bronze is not automatically self-lubricating; specify the lubrication arrangement.",
+        "zh": "机加工铜套提供可更换滑动轴承面。普通铜套不等于自润滑铜套，需明确润滑方式。",
+        "vi": "Bạc đồng gia công tạo bề mặt trượt thay thế. Đồng trơn không tự động có khả năng tự bôi trơn; cần xác định phương án dầu mỡ."
+      },
+      "application": {
+        "en": "Machined bronze sleeves provide a replaceable sliding bearing surface. Plain bronze is not automatically self-lubricating; specify the lubrication arrangement.",
+        "zh": "机加工铜套提供可更换滑动轴承面。普通铜套不等于自润滑铜套，需明确润滑方式。",
+        "vi": "Bạc đồng gia công tạo bề mặt trượt thay thế. Đồng trơn không tự động có khả năng tự bôi trơn; cần xác định phương án dầu mỡ."
+      },
+      "selection": {
+        "en": "Alloy requirement and mating shaft; bore and outside diameter; lubrication grooves and operating load",
+        "zh": "合金要求与配合轴；内外径；润滑槽与工作载荷",
+        "vi": "Hợp kim và trục lắp; đường kính trong/ngoài; rãnh dầu và tải"
+      },
+      "materials": [
+        "Bronze",
+        "Copper alloy"
+      ],
+      "variants": [
+        {
+          "en": "Plain bore",
+          "zh": "光孔",
+          "vi": "Lỗ trơn"
+        },
+        {
+          "en": "Oil-grooved",
+          "zh": "带油槽",
+          "vi": "Có rãnh dầu"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/guide-pillar-and-guide-bush/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/bronze-bushings.svg"
+    },
+    {
+      "group": "bronze-components",
+      "id": "flanged-bronze-bushings",
+      "name": {
+        "en": "Flanged Bronze Bushings",
+        "zh": "法兰铜套",
+        "vi": "Bạc đồng có bích"
+      },
+      "summary": {
+        "en": "A bronze sleeve with an integral flange adds an axial locating or thrust face. Radial and axial working conditions should both be specified.",
+        "zh": "整体法兰铜套增加轴向定位或承载面，需同时说明径向与轴向工况。",
+        "vi": "Bạc đồng có bích liền tạo mặt định vị hoặc chịu lực dọc trục; cần nêu tải hướng kính và dọc trục."
+      },
+      "application": {
+        "en": "A bronze sleeve with an integral flange adds an axial locating or thrust face. Radial and axial working conditions should both be specified.",
+        "zh": "整体法兰铜套增加轴向定位或承载面，需同时说明径向与轴向工况。",
+        "vi": "Bạc đồng có bích liền tạo mặt định vị hoặc chịu lực dọc trục; cần nêu tải hướng kính và dọc trục."
+      },
+      "selection": {
+        "en": "Bore, outside diameter and length; flange diameter and thickness; radial/axial load and lubrication",
+        "zh": "内外径与长度；法兰外径与厚度；径向 / 轴向载荷与润滑",
+        "vi": "Đường kính trong/ngoài và dài; đường kính và dày bích; tải hướng kính/dọc trục và bôi trơn"
+      },
+      "materials": [
+        "Bronze",
+        "Copper alloy"
+      ],
+      "variants": [
+        {
+          "en": "Plain bronze",
+          "zh": "普通铜合金",
+          "vi": "Đồng trơn"
+        },
+        {
+          "en": "Solid-lubricant option",
+          "zh": "固体润滑选项",
+          "vi": "Tùy chọn bôi trơn rắn"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/graphite-bronze-bushings/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/flanged-bronze-bushings.svg"
+    },
+    {
+      "group": "bronze-components",
+      "id": "wear-plates",
+      "name": {
+        "en": "Wear & Slide Plates",
+        "zh": "耐磨板与滑板",
+        "vi": "Tấm trượt & chịu mòn"
+      },
+      "summary": {
+        "en": "Replaceable plates form a controlled wear surface on mold slides and other moving interfaces. Specify the sliding pair and lubrication requirements.",
+        "zh": "可更换板件为模具滑块等运动配合提供耐磨面，需明确摩擦副及润滑要求。",
+        "vi": "Tấm thay thế tạo mặt chịu mòn cho con trượt khuôn và cơ cấu khác; xác định cặp trượt và bôi trơn."
+      },
+      "application": {
+        "en": "Replaceable plates form a controlled wear surface on mold slides and other moving interfaces. Specify the sliding pair and lubrication requirements.",
+        "zh": "可更换板件为模具滑块等运动配合提供耐磨面，需明确摩擦副及润滑要求。",
+        "vi": "Tấm thay thế tạo mặt chịu mòn cho con trượt khuôn và cơ cấu khác; xác định cặp trượt và bôi trơn."
+      },
+      "selection": {
+        "en": "Length, width and thickness; fixing holes and datum faces; load, mating material and lubrication",
+        "zh": "长宽厚；固定孔与基准面；载荷、配合材质与润滑",
+        "vi": "Dài, rộng và dày; lỗ bắt và mặt chuẩn; tải, vật liệu đối tiếp và bôi trơn"
+      },
+      "materials": [
+        "Bronze",
+        "Copper alloy"
+      ],
+      "variants": [
+        {
+          "en": "Graphite-plugged plates",
+          "zh": "镶石墨耐磨板",
+          "vi": "Tấm gắn graphite"
+        },
+        {
+          "en": "Grooved slide plates",
+          "zh": "油槽滑板",
+          "vi": "Tấm có rãnh dầu"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/graphite-bronze-bushings/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/wear-plates.svg"
+    },
+    {
+      "group": "dowel-pins",
+      "id": "precision-dowel-pins",
+      "name": {
+        "en": "Precision Dowel Pins",
+        "zh": "精密圆柱销",
+        "vi": "Chốt trụ chính xác"
+      },
+      "summary": {
+        "en": "Ground cylindrical pins locate mating parts for repeat assembly. Hardened and custom-length versions remain within the same locating-pin family.",
+        "zh": "磨削圆柱销用于零件重复装配定位，淬硬或定制长度属于同一定位销系列的选项。",
+        "vi": "Chốt trụ mài định vị chi tiết khi lắp lặp lại; loại tôi cứng và chiều dài tùy chỉnh thuộc cùng dòng."
+      },
+      "application": {
+        "en": "Ground cylindrical pins locate mating parts for repeat assembly. Hardened and custom-length versions remain within the same locating-pin family.",
+        "zh": "磨削圆柱销用于零件重复装配定位，淬硬或定制长度属于同一定位销系列的选项。",
+        "vi": "Chốt trụ mài định vị chi tiết khi lắp lặp lại; loại tôi cứng và chiều dài tùy chỉnh thuộc cùng dòng."
+      },
+      "selection": {
+        "en": "Locating diameter and hole fit; length and end form; material, hardness and removal access",
+        "zh": "定位直径与孔配合；长度与端部形式；材质、硬度与拆卸空间",
+        "vi": "Đường kính và độ lắp lỗ; dài và dạng đầu; vật liệu, độ cứng và khả năng tháo"
+      },
+      "materials": [
+        "Bearing steel",
+        "Alloy steel",
+        "Stainless steel"
+      ],
+      "variants": [
+        {
+          "en": "Precision ground",
+          "zh": "精密磨削",
+          "vi": "Mài chính xác"
+        },
+        {
+          "en": "Hardened dowels",
+          "zh": "淬硬圆柱销",
+          "vi": "Chốt tôi cứng"
+        },
+        {
+          "en": "Custom dowels",
+          "zh": "定制圆柱销",
+          "vi": "Chốt tùy chỉnh"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/dowel-pins/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/precision-dowel-pins.svg"
+    },
+    {
+      "group": "dowel-pins",
+      "id": "threaded-dowel-pins",
+      "name": {
+        "en": "Threaded & Pull Dowel Pins",
+        "zh": "螺纹与拔出式定位销",
+        "vi": "Chốt ren & chốt rút"
+      },
+      "summary": {
+        "en": "A cylindrical locating surface is combined with a thread for fitting or extraction. The thread supports handling; the ground diameter controls positioning.",
+        "zh": "定位圆柱面结合安装或拔出螺纹，螺纹服务于装拆，定位精度仍取决于磨削直径与孔的配合。",
+        "vi": "Mặt trụ định vị kết hợp ren để lắp hoặc rút. Ren hỗ trợ thao tác; đường kính mài quyết định định vị."
+      },
+      "application": {
+        "en": "A cylindrical locating surface is combined with a thread for fitting or extraction. The thread supports handling; the ground diameter controls positioning.",
+        "zh": "定位圆柱面结合安装或拔出螺纹，螺纹服务于装拆，定位精度仍取决于磨削直径与孔的配合。",
+        "vi": "Mặt trụ định vị kết hợp ren để lắp hoặc rút. Ren hỗ trợ thao tác; đường kính mài quyết định định vị."
+      },
+      "selection": {
+        "en": "Locating diameter and length; internal/external thread and depth; extraction clearance and end form",
+        "zh": "定位直径与长度；内 / 外螺纹及深度；拔出空间与端部形式",
+        "vi": "Đường kính và dài định vị; ren trong/ngoài và sâu; khoảng rút và dạng đầu"
+      },
+      "materials": [
+        "Alloy steel",
+        "Bearing steel",
+        "Stainless steel"
+      ],
+      "variants": [
+        {
+          "en": "Internal extraction thread",
+          "zh": "内螺纹拔出",
+          "vi": "Ren trong để rút"
+        },
+        {
+          "en": "External threaded section",
+          "zh": "外螺纹段",
+          "vi": "Đoạn ren ngoài"
+        },
+        {
+          "en": "Metric / inch",
+          "zh": "公制 / 英制",
+          "vi": "Hệ mét / inch"
+        }
+      ],
+      "sourceUrls": [
+        "https://htxprecision.com/threaded-dowel-pins/",
+        "https://htxprecision.com/dowel-pins/"
+      ],
+      "image": null,
+      "illustration": "/images/catalog/threaded-dowel-pins.svg"
+    },
+    {
+      "group": "dowel-pins",
+      "id": "pilot-pins",
+      "name": {
+        "en": "Pilot Pins",
+        "zh": "导正销",
+        "vi": "Chốt dẫn định vị phôi"
+      },
+      "summary": {
+        "en": "A shaped lead-in enters a previously pierced hole to locate strip material before the next stamping operation.",
+        "zh": "引导端进入已冲孔位，在后续冲压工序前对条料进行定位。",
+        "vi": "Đầu dẫn vào lỗ đã đột để định vị dải phôi trước công đoạn dập tiếp theo."
+      },
+      "application": {
+        "en": "A shaped lead-in enters a previously pierced hole to locate strip material before the next stamping operation.",
+        "zh": "引导端进入已冲孔位，在后续冲压工序前对条料进行定位。",
+        "vi": "Đầu dẫn vào lỗ đã đột để định vị dải phôi trước công đoạn dập tiếp theo."
+      },
+      "selection": {
+        "en": "Pilot-hole diameter and clearance; nose profile and working length; mounting and strip thickness",
+        "zh": "导正孔径与间隙；引导端形状与工作长度；安装方式与料厚",
+        "vi": "Đường kính lỗ và khe hở; dạng mũi và chiều dài; kiểu lắp và chiều dày phôi"
+      },
+      "materials": [
+        "SKD11",
+        "SKH51",
+        "Tungsten carbide"
+      ],
+      "variants": [
+        {
+          "en": "Round pilots",
+          "zh": "圆形导正销",
+          "vi": "Chốt dẫn tròn"
+        },
+        {
+          "en": "Notched pilots",
+          "zh": "切口导正销",
+          "vi": "Chốt dẫn có khuyết"
+        },
+        {
+          "en": "Custom lead-ins",
+          "zh": "定制引导端",
+          "vi": "Mũi dẫn tùy chỉnh"
+        }
+      ],
+      "sourceUrls": [],
+      "image": null,
+      "illustration": "/images/catalog/pilot-pins.svg"
+    },
+    {
+      "group": "dowel-pins",
+      "id": "floating-pins",
+      "name": {
+        "en": "Floating & Lifter Pins",
+        "zh": "浮升销与浮料销",
+        "vi": "Chốt nâng phôi"
+      },
+      "summary": {
+        "en": "Lifter pins raise or support strip material between stamping operations to provide clearance for feeding.",
+        "zh": "在冲压工序间抬起或支撑条料，为送料提供所需间隙。",
+        "vi": "Chốt nâng đỡ hoặc nâng dải phôi giữa các công đoạn dập để tạo khoảng hở cấp phôi."
+      },
+      "application": {
+        "en": "Lifter pins raise or support strip material between stamping operations to provide clearance for feeding.",
+        "zh": "在冲压工序间抬起或支撑条料，为送料提供所需间隙。",
+        "vi": "Chốt nâng đỡ hoặc nâng dải phôi giữa các công đoạn dập để tạo khoảng hở cấp phôi."
+      },
+      "selection": {
+        "en": "Lift height and strip support profile; body diameter and spring interface; travel and mounting depth",
+        "zh": "抬料高度与支撑轮廓；本体直径与弹簧接口；行程与安装深度",
+        "vi": "Độ nâng và biên dạng đỡ; đường kính và giao diện lò xo; hành trình và chiều sâu lắp"
+      },
+      "materials": [
+        "Cr12MoV",
+        "SKD11"
+      ],
+      "variants": [
+        {
+          "en": "Round lifter pins",
+          "zh": "圆形浮升销",
+          "vi": "Chốt nâng tròn"
+        },
+        {
+          "en": "Profiled strip support",
+          "zh": "成型支撑端",
+          "vi": "Đầu đỡ định hình"
+        }
+      ],
+      "sourceUrls": [],
+      "image": null,
+      "illustration": "/images/catalog/floating-pins.svg"
+    }
+  ]
+}

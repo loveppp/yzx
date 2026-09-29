@@ -1,0 +1,18 @@
+Use case: product-mockup.
+Create a realistic studio-style product illustration for a precision mold component catalog.
+Use a seamless neutral off-white/light-gray background (#f5f6f7), a matte ground plane, soft diffused upper-left light and a restrained contact shadow to the lower right. Neutral white balance, no dramatic gradient or horizon line.
+Camera: consistent mildly elevated three-quarter view, approximately 85 mm product-photography perspective, no wide-angle distortion. Keep every part sharp.
+Framing: landscape 4:3. Center the complete product or set; occupy approximately 75–82% of the available frame, with at least 8% safe margin on every edge. Preserve all tips, heads and openings. No cropped parts.
+Finish: credible fine machining and grinding texture, controlled metal highlights, clean new components without scratches, oil or rust. Preserve the distinct appearance of steel, bronze, graphite and painted springs.
+This is a representative product illustration, not a dimensional drawing or proof of actual stock. Do not invent dimensions, tolerances, certifications, brands or material-grade markings.
+If an approved image is supplied later, use it ONLY as a lighting, background and photographic-style reference. The product geometry and object count must follow this job, not the style-reference object.
+
+Asset type: shared product listing and product-detail main image.
+Product family: Blade Ejector Pins.
+Catalog function (context only): A thin rectangular working end reaches narrow ribs and restricted ejection areas. Blade orientation and the transition to the shank require close attention.
+Selected visible subject: One blade ejector pin resting diagonally, with a round retaining head, cylindrical support shank and a smooth transition into a long thin rectangular blade. The broad blade face and narrow thickness edge are both visible. Flat blunt working end.
+Exact physical object count: 1.
+Composition: One complete component only. Use a diagonal resting pose for long slender parts; expose both working end and mounting end. Compact cylindrical parts may stand or rest with the bore facing the viewer.
+Text policy: No text, labels, dimensions, arrows, logos, watermarks or webpage UI anywhere in the image.
+Avoid: No sharpened knife edge, screwdriver tip, twisted blade or all-square shaft. Also avoid fused geometry, physically impossible intersections, duplicate extra parts and floating shadows.
+Do not attempt to depict every available catalog material or variant; depict only the selected subject above.

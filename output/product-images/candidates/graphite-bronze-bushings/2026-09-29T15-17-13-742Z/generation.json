@@ -1,0 +1,148 @@
+{
+  "id": "graphite-bronze-bushings",
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-29T15:17:13.744Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/blade-ejector-pins/2026-09-29T15-15-40-306Z/style-preview.jpg",
+  "generationAttempts": 1,
+  "publication": "draft-only",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/graphite-bronze-bushings/2026-09-29T15-17-13-742Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1930869,
+  "usage": {
+    "promptTokenCount": 844,
+    "candidatesTokenCount": 1349,
+    "totalTokenCount": 2462,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 586
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 269,
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1043
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 219
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 269
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1555
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 87
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 1603,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1043
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 219
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 269
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1555
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 87
+          }
+        ]
+      }
+    ]
+  },
+  "visualReview": {
+    "status": "needs-geometry-revision",
+    "style": "background/light broadly consistent with steel sample; awaiting user review",
+    "findingsZh": [
+      "两件数量、铜色与通孔清晰，具备风格对比价值",
+      "石墨块主要位于外壁，内孔滑动面缺少可见石墨嵌块；下一版需明确内孔为工作轴承面",
+      "零件距离较近，正式图可增大间距，避免小尺寸时轮廓相连"
+    ],
+    "nextPromptChange": "Depict inner-diameter sliding bearings with separate flush graphite plugs clearly visible on the INNER bore bearing surface; do not place all plugs only on the outer diameter. Keep a visible air gap between the two parts."
+  }
+}

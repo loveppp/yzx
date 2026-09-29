@@ -66,8 +66,8 @@
     }
   },
   "hero": {
-    "title": "Custom Mold Punches, Made to Your Drawing",
-    "subtitle": "Punch pins, lifter pins, pilot pins, guide posts, guide bushings and special-shaped punches for stamping and tooling suppliers.",
+    "title": "Precision Mold Components, Made to Your Drawing",
+    "subtitle": "Punches, ejectors, guide systems, die springs and mold accessories. Explore the right component for your tool, then send us your requirements.",
     "ctaQuote": "Send Drawing for Quote",
     "ctaProducts": "View Products"
   },
@@ -131,8 +131,8 @@
     }
   },
   "custom": {
-    "title": "Non-Standard Shapes Welcome",
-    "subtitle": "Hex, step, oblique, oval, flat — if you can draw it, we can make it",
+    "title": "Custom Components for Your Mold",
+    "subtitle": "Working profiles, mounting details and mating fits — reviewed from your drawing.",
     "steps": {
       "1": {
         "title": "Receive Drawing or Sample",
@@ -228,7 +228,7 @@
     "readMore": "Read more"
   },
   "meta": {
-    "homeTitle": "YZX Precision | Custom Mold Punch Pins & Die Components",
-    "homeDesc": "Shenzhen manufacturer of custom punch pins, lifter pins, pilot pins, guide posts, guide bushings and special-shaped die components made to drawing."
+    "homeTitle": "YZX Precision | Precision Mold Components & Custom Tooling",
+    "homeDesc": "Punches, ejectors, guide systems, die springs and mold accessories. Explore the right component for your tool, then send us your requirements."
   }
 }

@@ -1,0 +1,30 @@
+{
+  "jobs": [
+    {
+      "id": "stepped-skd61",
+      "categorySlug": "stepped-punches",
+      "material": "SKD61"
+    },
+    {
+      "id": "carbide-wc",
+      "categorySlug": "carbide-punches",
+      "material": "Tungsten Carbide"
+    },
+    {
+      "id": "hss-m2",
+      "categorySlug": "hss-punches",
+      "material": "HSS M2"
+    },
+    {
+      "id": "a-type-skd11",
+      "categorySlug": "a-type-punches",
+      "material": "SKD11"
+    },
+    {
+      "id": "special-hex-skh51",
+      "categorySlug": "special-shaped-punches",
+      "material": "SKH51",
+      "shapeNotes": "hexagonal cross-section punch"
+    }
+  ]
+}

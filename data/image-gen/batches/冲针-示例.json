@@ -1,0 +1,36 @@
+{
+  "_说明": "复制本文件改 jobs 即可。categorySlug 可写 slug 或中文种类名；noteZh 仅备注，程序会忽略未知字段。",
+  "jobs": [
+    {
+      "id": "台阶-SKD61",
+      "categorySlug": "台阶冲针",
+      "material": "SKD61",
+      "noteZh": "对应 Mega 菜单：台阶冲针"
+    },
+    {
+      "id": "硬质合金",
+      "categorySlug": "carbide-punches",
+      "material": "Tungsten Carbide",
+      "noteZh": "硬质合金冲针 / 钨钢"
+    },
+    {
+      "id": "高速钢",
+      "categorySlug": "hss-punches",
+      "material": "SKH51",
+      "noteZh": "高速钢冲针"
+    },
+    {
+      "id": "A冲-SKD11",
+      "categorySlug": "a-type-punches",
+      "material": "SKD11",
+      "noteZh": "A 冲"
+    },
+    {
+      "id": "异型六方",
+      "categorySlug": "special-shaped-punches",
+      "material": "SKH51",
+      "shapeNotes": "hexagonal cross-section",
+      "noteZh": "异型冲针，shapeNotes 可写英文形状关键词"
+    }
+  ]
+}

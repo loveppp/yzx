@@ -8,9 +8,12 @@
   "scripts": {
     "dev": "bash scripts/dev.sh",
     "dev:astro": "astro dev",
-    "build": "bash -lc 'source scripts/use-node20.sh && astro check && astro build'",
+    "build": "bash -lc 'source scripts/use-node20.sh && node scripts/prepare-catalog.mjs && node scripts/check-catalog.mjs && astro check && astro build'",
     "preview": "bash -lc 'source scripts/use-node20.sh && astro preview'",
-    "astro": "astro"
+    "astro": "astro",
+    "image-gen": "bash scripts/image-gen/run.sh",
+    "image-gen:help": "npm run image-gen -- 帮助",
+    "catalog:check": "bash -lc 'source scripts/use-node20.sh && node scripts/check-catalog.mjs'"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -25,6 +28,7 @@
   },
   "devDependencies": {
     "@types/react": "^19.0.10",
-    "@types/react-dom": "^19.0.4"
+    "@types/react-dom": "^19.0.4",
+    "tsx": "^4.19.3"
   }
 }

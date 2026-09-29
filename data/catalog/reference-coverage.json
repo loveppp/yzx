@@ -1,0 +1,265 @@
+{
+  "reviewDate": "2026-09-29",
+  "scope": "Public HTX product menu and 35 linked product/group pages. Original copy rewritten for YZX; no HTX business claims or images reused.",
+  "pages": [
+    {
+      "url": "https://htxprecision.com/carbide-punch/",
+      "destinations": [
+        "punch-components/carbide-punches"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/hss-punch/",
+      "destinations": [
+        "punch-components/hss-punches"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/stepped-punch/",
+      "destinations": [
+        "punch-components/stepped-punches"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/stamping-die-punch/",
+      "destinations": [
+        "punch-components/stamping-die-punches"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/tungsten-carbide-punch/",
+      "destinations": [
+        "punch-components/carbide-punches"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/dies-and-punches-for-tableting/",
+      "destinations": [
+        "punch-components/tableting-punches"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/ejector-components/",
+      "destinations": [
+        "ejector-components"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/ejector-pins-for-injection-molding/",
+      "destinations": [
+        "ejector-components/straight-ejector-pins"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/shoulder-ejector-pins/",
+      "destinations": [
+        "ejector-components/shoulder-ejector-pins"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/blade-ejector-pin/",
+      "destinations": [
+        "ejector-components/blade-ejector-pins"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/square-ejector-pin/",
+      "destinations": [
+        "ejector-components/square-ejector-pins"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/step-ejector-pin/",
+      "destinations": [
+        "ejector-components/stepped-ejector-pins"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/straight-ejector-pin/",
+      "destinations": [
+        "ejector-components/straight-ejector-pins"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/nitrided-ejector-pin/",
+      "destinations": [
+        "ejector-components/straight-ejector-pins"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/skd61-ejector-pin/",
+      "destinations": [
+        "ejector-components/straight-ejector-pins"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/ejector-sleeve/",
+      "destinations": [
+        "ejector-components/ejector-sleeves"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/Air-Poppet-Valve/",
+      "destinations": [
+        "ejector-components/air-poppet-valves"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/guide-pin/",
+      "destinations": [
+        "guide-components/guide-posts"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/guide-bushing/",
+      "destinations": [
+        "guide-components/guide-bushings"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/guide-pillar-and-guide-bush/",
+      "destinations": [
+        "guide-components/flanged-guide-bushings",
+        "guide-components/guide-sets",
+        "bronze-components/bronze-bushings"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/ball-cage/",
+      "destinations": [
+        "guide-components/ball-cages"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/brass-ball-cage/",
+      "destinations": [
+        "guide-components/ball-cages"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/aluminum-ball-cage/",
+      "destinations": [
+        "guide-components/ball-cages"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/plastic-ball-cage/",
+      "destinations": [
+        "guide-components/ball-cages"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/Ball-bearing-bushing/",
+      "destinations": [
+        "guide-components/ball-bearing-bushings"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/die-springs-mold-springs/",
+      "destinations": [
+        "die-springs/rectangular-die-springs",
+        "die-springs/nitrogen-gas-springs"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/red-die-spring/",
+      "destinations": [
+        "die-springs/rectangular-die-springs"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/blue-die-spring/",
+      "destinations": [
+        "die-springs/rectangular-die-springs"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/green-die-spring/",
+      "destinations": [
+        "die-springs/rectangular-die-springs"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/yellow-die-spring/",
+      "destinations": [
+        "die-springs/rectangular-die-springs"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/brown-die-spring/",
+      "destinations": [
+        "die-springs/rectangular-die-springs"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/sprue-bushing/",
+      "destinations": [
+        "plastic-mold-components/sprue-bushings"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/graphite-bronze-bushings/",
+      "destinations": [
+        "bronze-components/graphite-bronze-bushings",
+        "bronze-components/flanged-bronze-bushings",
+        "bronze-components/wear-plates"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/dowel-pins/",
+      "destinations": [
+        "dowel-pins/precision-dowel-pins",
+        "dowel-pins/threaded-dowel-pins"
+      ],
+      "reviewed": true
+    },
+    {
+      "url": "https://htxprecision.com/threaded-dowel-pins/",
+      "destinations": [
+        "dowel-pins/threaded-dowel-pins"
+      ],
+      "reviewed": true
+    }
+  ],
+  "menuOnlyProducts": [
+    "Locating Rings",
+    "Mold Date Stamp",
+    "Side Locks",
+    "Stopper Bolts",
+    "Pull Rods"
+  ],
+  "note": "Menu-only products have original functional introductions; numerical specifications require supplier confirmation. Variant labels include colors, cage materials, nitriding, SKD61, hardened, custom and pull dowels."
+}

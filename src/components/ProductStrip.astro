@@ -1,50 +1,24 @@
 ---
-import BrandedImage from './BrandedImage.astro';
-import { images } from '@/data/images';
-import { categorySlugs, localizedPath, type Dictionary, type Locale } from '@/i18n/utils';
-
-interface Props {
-  locale: Locale;
-  t: Dictionary;
-}
-
-const { locale, t } = Astro.props;
+import {catalogGroups,groupProducts,groupPath,catalogText} from '@/data/catalog';
+import {catalogUI} from '@/data/catalog-ui';
+import type {Dictionary,Locale} from '@/i18n/utils';
+import ProductMedia from './ProductMedia.astro';
+interface Props {locale:Locale;t:Dictionary;}
+const {locale}=Astro.props;
+const ui=catalogUI(locale);
 ---
-
 <section class="section-padding">
   <div class="content-wrap">
-    <div class="max-w-2xl">
-      <h2 class="text-2xl text-borui-navy md:text-3xl">{t.products.title}</h2>
-      <p class="mt-3 text-borui-steel">{t.products.subtitle}</p>
+    <div class="flex flex-wrap items-end justify-between gap-5">
+      <div class="max-w-2xl"><p class="text-xs font-medium uppercase tracking-[.18em] text-slate-600">{ui.eyebrow}</p><h2 class="mt-3 text-3xl md:text-4xl">{ui.browse}</h2><p class="mt-4 leading-relaxed text-slate-600">{ui.intro}</p></div>
+      <a class="text-sm font-medium underline underline-offset-4" href={`/${locale}/products/`}>{ui.allProducts} →</a>
     </div>
-
-    <div class="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-      {
-        categorySlugs.map((slug, index) => (
-          <a
-            href={localizedPath(`/products/${slug}/`, locale)}
-            class:list={[
-              'group relative overflow-hidden bg-borui-light transition-transform hover:-translate-y-0.5',
-              index === 6 ? 'sm:col-span-2 lg:col-span-1 xl:col-span-2' : '',
-            ]}
-          >
-            <div class="aspect-[4/3] overflow-hidden transition-transform duration-500 group-hover:scale-[1.02]">
-              <BrandedImage
-                src={images.categories[slug]}
-                alt={t.products.categories[slug]}
-                class="h-full"
-                loading="lazy"
-                width={800}
-                height={600}
-              />
-            </div>
-            <div class="flex items-start justify-between gap-2 p-4">
-              <h3 class="font-serif text-lg text-borui-navy">{t.products.categories[slug]}</h3>
-              <span class="tag-custom shrink-0">{t.products.customTag}</span>
-            </div>
-          </a>
-        ))
-      }
+    <div class="mt-10 grid grid-cols-2 gap-3 md:gap-5 lg:grid-cols-4">
+      {catalogGroups.map((g,i)=><a href={groupPath(g,locale)} class="group min-w-0 overflow-hidden border border-borui-navy/10 bg-white hover:border-borui-brass">
+        <ProductMedia product={groupProducts(g.id)[0]} locale={locale} />
+        <div class="p-4"><p class="text-xs text-slate-500">0{i+1} / {groupProducts(g.id).length} {ui.catalogCount}</p><h3 class="mt-2 text-base leading-snug md:text-xl">{catalogText(g.name,locale)} <span aria-hidden="true">↗</span></h3></div>
+      </a>)}
+      <a href={`/${locale}/custom-oem/`} class="flex min-h-52 flex-col justify-between bg-borui-navy p-5 text-white md:p-7"><span class="text-xs uppercase tracking-wider text-borui-brass">OEM / CUSTOM</span><div><h3 class="text-xl">{ui.customTitle}</h3><p class="mt-3 hidden text-sm leading-relaxed text-slate-300 md:block">{ui.customText}</p><span class="mt-5 inline-block text-sm text-borui-brass">{ui.drawingCta} →</span></div></a>
     </div>
   </div>
 </section>

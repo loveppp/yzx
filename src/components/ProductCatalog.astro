@@ -1,171 +1,64 @@
 ---
-import { productMegaMenuColumns } from '@/data/nav-product-mega-menu';
-import { getCollection } from 'astro:content';
-import { getLocalizedField, localizedPath, useTranslations, type CategorySlug, type Locale } from '@/i18n/utils';
-
-interface Props {
-  locale: Locale;
-}
-
-const { locale } = Astro.props;
-const t = useTranslations(locale);
-
-const allProducts = await getCollection('products');
-const products = allProducts.map((entry) => {
-  return {
-    slug: entry.slug,
-    name: getLocalizedField(entry.data, 'name', locale),
-    category: entry.data.category,
-    categoryLabel: t.products.categories[entry.data.category],
-    heroImage: entry.data.heroImage,
-    href: localizedPath(`/products/${entry.data.category}/${entry.slug}/`, locale),
-  };
-});
-
-/** 与顶栏 Mega Menu 一致的品类顺序，只展示目录里实际有 SKU 的类型 */
-function megaMenuCategoryOrder(): CategorySlug[] {
-  const seen = new Set<CategorySlug>();
-  const order: CategorySlug[] = [];
-  for (const col of productMegaMenuColumns) {
-    for (const link of col.links) {
-      if (link.category && !seen.has(link.category)) {
-        seen.add(link.category);
-        order.push(link.category);
-      }
-    }
-  }
-  return order;
-}
-
-const categoriesWithProducts = new Set(products.map((p) => p.category));
-const categoryOrder = megaMenuCategoryOrder();
-const categoryOptions = [...categoriesWithProducts].sort((a, b) => {
-  const ia = categoryOrder.indexOf(a);
-  const ib = categoryOrder.indexOf(b);
-  if (ia === -1 && ib === -1) return a.localeCompare(b);
-  if (ia === -1) return 1;
-  if (ib === -1) return -1;
-  return ia - ib;
-});
-
-const categoryLandingLinks = categoryOptions.map((slug) => ({
-  value: slug,
-  label: t.products.categories[slug],
-}));
+import {catalogGroups,catalogProducts,catalogText,materialLabel,legacyCategories} from '@/data/catalog';
+import {catalogUI} from '@/data/catalog-ui';
+import type {Locale} from '@/i18n/utils';
+import CatalogCard from './CatalogCard.astro';
+interface Props {locale:Locale;}
+const {locale}=Astro.props;
+const ui=catalogUI(locale);
+const materials=[...new Set(catalogProducts.flatMap(p=>p.materials))].filter(m=>m!=='Per selected model').sort();
 ---
-
-<div class="product-catalog" data-product-count={products.length}>
-  <div
-    class="sticky top-[57px] z-40 -mx-5 border-b border-borui-navy/10 bg-borui-paper/95 px-5 py-3 backdrop-blur-sm md:static md:mx-0 md:border md:border-borui-navy/10 md:bg-white md:px-4 md:py-4"
-  >
-    <div class="flex flex-col gap-3 sm:flex-row sm:items-end sm:gap-4">
-      <div class="max-w-md flex-1">
-        <label for="filter-category" class="text-xs font-medium text-borui-steel">
-          {t.products.filterCategory}
-        </label>
-        <select
-          id="filter-category"
-          class="catalog-filter mt-1 w-full border border-borui-navy/20 bg-white px-2 py-2 text-sm text-borui-navy"
-          data-filter="category"
-        >
-          <option value="">{t.products.all}</option>
-          {categoryOptions.map((slug) => (
-            <option value={slug}>{t.products.categories[slug]}</option>
-          ))}
-        </select>
+<div data-catalog data-legacy={JSON.stringify(legacyCategories)} data-products={JSON.stringify(catalogProducts.map(p=>({id:p.id,group:p.group,name:catalogText(p.name,locale)})))}>
+  <div class="grid items-start gap-7 lg:grid-cols-[230px_minmax(0,1fr)]">
+    <aside class="hidden lg:sticky lg:top-28 lg:block">
+      <h2 class="text-xs font-sans font-semibold uppercase tracking-wider text-slate-500">{ui.category}</h2>
+      <div class="mt-4 flex flex-col gap-1" role="group" aria-label={ui.category}>
+        <button class="catalog-group-button text-left text-sm" type="button" data-group-button="" aria-pressed="true">{ui.all}<span>{catalogProducts.length}</span></button>
+        {catalogGroups.map(g=><button class="catalog-group-button text-left text-sm" type="button" data-group-button={g.id} aria-pressed="false">{catalogText(g.name,locale)}<span>{catalogProducts.filter(p=>p.group===g.id).length}</span></button>)}
       </div>
-      <p class="shrink-0 text-sm text-borui-steel sm:pb-2">
-        <span id="catalog-count">{products.length}</span>
-        {locale === 'zh' ? ' 款' : locale === 'vi' ? ' SP' : ' items'}
-      </p>
+      <div class="mt-8 border-t border-borui-navy/10 pt-6"><p class="font-serif text-lg">{ui.customTitle}</p><a class="mt-3 inline-block text-sm underline underline-offset-4" href={`/${locale}/custom-oem/`}>{ui.drawingCta} →</a></div>
+    </aside>
+    <div class="min-w-0">
+      <form class="grid grid-cols-2 gap-3 rounded-sm border border-borui-navy/10 bg-white p-4" data-catalog-form role="search">
+        <label class="col-span-2 text-xs font-medium text-slate-600 lg:col-span-1"><span>{ui.search}</span><input name="q" type="search" placeholder={ui.searchHint} class="catalog-control mt-2" /></label>
+        <label class="text-xs font-medium text-slate-600 lg:hidden"><span>{ui.category}</span><select name="group" class="catalog-control mt-2"><option value="">{ui.all}</option>{catalogGroups.map(g=><option value={g.id}>{catalogText(g.name,locale)}</option>)}</select></label>
+        <label class="text-xs font-medium text-slate-600"><span>{ui.material}</span><select name="material" class="catalog-control mt-2"><option value="">{ui.allMaterials}</option>{materials.map(m=><option value={m}>{materialLabel(m,locale)}</option>)}</select></label>
+      </form>
+      <div class="flex min-h-16 items-center justify-between gap-3 py-3"><p class="text-sm text-slate-600" role="status" aria-live="polite"><span data-count>{catalogProducts.length}</span> {ui.results}</p><button type="button" data-clear class="min-h-11 text-sm underline underline-offset-4">{ui.clear}</button></div>
+      <div class="grid grid-cols-2 gap-3 md:gap-4 xl:grid-cols-3" data-grid>{catalogProducts.map(p=><CatalogCard product={p} locale={locale} filterable />)}</div>
+      <div hidden data-empty class="border border-dashed border-borui-navy/20 px-5 py-12 text-center"><h2 class="text-xl">{ui.empty}</h2><p class="mx-auto mt-3 max-w-lg text-sm leading-relaxed text-slate-600">{ui.emptyHint}</p><a href={`/${locale}/contact/`} class="btn-primary mt-6">{ui.drawingCta}</a></div>
     </div>
-    <p class="mt-2 hidden text-xs text-borui-steel md:block">{t.products.catalogFilterHint}</p>
   </div>
-
-  <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" id="product-grid">
-    {
-      products.map((product) => (
-        <a
-          href={product.href}
-          class="catalog-card group overflow-hidden border border-borui-navy/10 bg-white transition-shadow hover:shadow-md"
-          data-category={product.category}
-        >
-          <div class="aspect-[4/3] overflow-hidden bg-borui-light">
-            <img
-              src={product.heroImage}
-              alt={product.name}
-              class="h-full w-full object-cover transition-transform group-hover:scale-105"
-              loading="lazy"
-            />
-          </div>
-          <div class="p-3">
-            <div class="flex items-start justify-between gap-2">
-              <h2 class="line-clamp-2 font-serif text-sm leading-snug text-borui-navy md:text-base">
-                {product.name}
-              </h2>
-              <span class="tag-custom shrink-0 text-[10px]">{t.products.customTag}</span>
-            </div>
-            <p class="mt-1 text-xs text-borui-steel">{product.categoryLabel}</p>
-          </div>
-        </a>
-      ))
-    }
-  </div>
-
-  <p id="catalog-empty" class="mt-8 hidden text-center text-sm text-borui-steel">
-    {t.products.catalogEmpty}
-  </p>
-
-  <details class="mt-10 border-t border-borui-navy/10 pt-6">
-    <summary class="cursor-pointer text-sm font-medium text-borui-navy">
-      {t.products.browseCategoryPages}
-    </summary>
-    <p class="mt-2 text-xs text-borui-steel">{t.products.browseByIndustryHint}</p>
-    <ul class="mt-3 flex flex-wrap gap-2">
-      {
-        categoryLandingLinks.map((c) => (
-          <li>
-            <a
-              href={localizedPath(`/products/${c.value}/`, locale)}
-              class="text-sm text-borui-brass hover:underline"
-            >
-              {c.label}
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-  </details>
 </div>
-
+<style>.catalog-group-button{display:flex;justify-content:space-between;align-items:center;gap:12px;min-height:48px;padding:12px}.catalog-group-button span{font-size:12px;opacity:.6}.catalog-group-button[aria-pressed=true]{background:#1a2332;color:white}.catalog-group-button:hover{box-shadow:inset 3px 0 #c8a45c}</style>
 <script>
-  function applyCatalogFilters() {
-    const category = (document.getElementById('filter-category') as HTMLSelectElement)?.value ?? '';
-    const cards = document.querySelectorAll<HTMLElement>('.catalog-card');
-    let visible = 0;
-    cards.forEach((card) => {
-      const matchCategory = !category || card.dataset.category === category;
-      card.style.display = matchCategory ? '' : 'none';
-      if (matchCategory) visible += 1;
-    });
-    const countEl = document.getElementById('catalog-count');
-    if (countEl) countEl.textContent = String(visible);
-    const empty = document.getElementById('catalog-empty');
-    if (empty) empty.classList.toggle('hidden', visible > 0);
-  }
-
-  function initCatalogFromUrl() {
-    const params = new URLSearchParams(window.location.search);
-    const category = params.get('category');
-    const select = document.getElementById('filter-category') as HTMLSelectElement | null;
-    if (category && select && [...select.options].some((o) => o.value === category)) {
-      select.value = category;
+  const root=document.querySelector<HTMLElement>('[data-catalog]');
+  if(root){
+    const form=root.querySelector<HTMLFormElement>('[data-catalog-form]')!;
+    const q=form.elements.namedItem('q') as HTMLInputElement;
+    const group=form.elements.namedItem('group') as HTMLSelectElement;
+    const material=form.elements.namedItem('material') as HTMLSelectElement;
+    const cards=[...root.querySelectorAll<HTMLElement>('[data-catalog-card]')];
+    const normalize=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase().trim();
+    const rows=cards.map(card=>({card,search:normalize(card.dataset.search||''),materials:JSON.parse(card.dataset.materials||'[]') as string[]}));
+    function apply(sync=false){
+      const terms=normalize(q.value).split(/\s+/).filter(Boolean);let count=0;
+      for(const row of rows){const match=(!group.value||row.card.dataset.group===group.value)&&(!material.value||row.materials.includes(material.value))&&terms.every(term=>row.search.includes(term));row.card.hidden=!match;if(match)count++;}
+      root!.querySelector('[data-count]')!.textContent=String(count);
+      (root!.querySelector('[data-empty]') as HTMLElement).hidden=count>0;
+      root!.querySelectorAll<HTMLElement>('[data-group-button]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.groupButton===group.value)));
+      if(sync){const url=new URL(location.href);url.searchParams.delete('category');for(const [key,val] of [['q',q.value],['group',group.value],['material',material.value]]){if(val)url.searchParams.set(key,val);else url.searchParams.delete(key);}history.replaceState(null,'',url);}
     }
-    applyCatalogFilters();
+    function restore(){
+      const params=new URLSearchParams(location.search);q.value=params.get('q')||'';group.value=params.get('group')||'';material.value=params.get('material')||'';
+      const category=params.get('category');
+      if(category){const aliases=JSON.parse(root!.dataset.legacy||'{}') as Record<string,string>;const products=JSON.parse(root!.dataset.products||'[]') as {id:string;group:string;name:string}[];const target=aliases[category]||category;const product=products.find(p=>p.id===target);if(product){group.value=product.group;q.value=product.name;}else group.value=target;}
+      apply();
+    }
+    form.addEventListener('submit',e=>{e.preventDefault();apply(true);});
+    q.addEventListener('input',()=>apply(true));group.addEventListener('change',()=>{material.value='';apply(true);});material.addEventListener('change',()=>apply(true));
+    root.querySelectorAll<HTMLButtonElement>('[data-group-button]').forEach(b=>b.addEventListener('click',()=>{group.value=b.dataset.groupButton||'';material.value='';apply(true);}));
+    root.querySelector('[data-clear]')?.addEventListener('click',()=>{form.reset();apply(true);});
+    window.addEventListener('popstate',restore);restore();
   }
-
-  document.querySelectorAll('.catalog-filter').forEach((el) => {
-    el.addEventListener('change', applyCatalogFilters);
-  });
-  initCatalogFromUrl();
 </script>

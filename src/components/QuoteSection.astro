@@ -1,26 +1,16 @@
 ---
 import QuoteForm from './QuoteForm';
-import { categorySlugs, type Dictionary, type Locale } from '@/i18n/utils';
-
-interface Props {
-  t: Dictionary;
-  locale: Locale;
-}
-
-const { t, locale } = Astro.props;
-
-const categories = categorySlugs.map((slug) => ({
-  value: slug,
-  label: t.products.categories[slug],
-}));
+import {catalogGroups,catalogText} from '@/data/catalog';
+import {catalogUI} from '@/data/catalog-ui';
+import {type Dictionary,type Locale} from '@/i18n/utils';
+interface Props {t:Dictionary;locale:Locale;category?:string;product?:string;}
+const {t,locale,category='',product=''}=Astro.props;
+const ui=catalogUI(locale);
+const categories=catalogGroups.map(g=>({value:g.id,label:catalogText(g.name,locale)}));
 ---
-
 <section class="section-padding border-t border-borui-navy/10" id="quote">
-  <div class="content-wrap grid gap-10 lg:grid-cols-2">
-    <div>
-      <h2 class="text-2xl text-borui-navy md:text-3xl">{t.quote.title}</h2>
-      <p class="mt-3 text-borui-steel">{t.quote.subtitle}</p>
-    </div>
-    <QuoteForm client:visible labels={t.quote} categories={categories} />
+  <div class="content-wrap grid gap-8 lg:grid-cols-[.8fr_1.2fr] lg:gap-12">
+    <div><p class="text-xs uppercase tracking-wider text-slate-500">YZX PRECISION</p><h2 class="mt-3 text-2xl md:text-3xl">{ui.drawingCta}</h2><p class="mt-4 leading-relaxed text-slate-600">{ui.customText}</p><p class="mt-5 text-sm"><a class="break-all underline underline-offset-4" href={`mailto:${t.contact.emailValue}`}>{t.contact.emailValue}</a></p></div>
+    <QuoteForm client:visible labels={{...t.quote,product:ui.product,sending:ui.sending,error:ui.error,messageHint:ui.messageHint}} categories={categories} initialCategory={category} product={product}/>
   </div>
 </section>

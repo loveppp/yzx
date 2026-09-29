@@ -66,8 +66,8 @@
     }
   },
   "hero": {
-    "title": "Gia công chốt đột khuôn theo bản vẽ",
-    "subtitle": "Chốt đột, chốt nâng, chốt dẫn hướng, trụ dẫn, bạc dẫn và chốt định hình gia công theo yêu cầu.",
+    "title": "Linh kiện khuôn chính xác, theo bản vẽ của bạn",
+    "subtitle": "Chày, linh kiện đẩy, dẫn hướng, lò xo và phụ kiện khuôn. Chọn linh kiện theo chức năng và gửi yêu cầu để xác nhận quy cách.",
     "ctaQuote": "Gửi bản vẽ để báo giá",
     "ctaProducts": "Xem sản phẩm"
   },
@@ -131,8 +131,8 @@
     }
   },
   "custom": {
-    "title": "Chào đón hình dạng phi tiêu chuẩn",
-    "subtitle": "Lục giác, bậc, xiên, oval, phẳng — vẽ được là gia công được",
+    "title": "Linh kiện tùy chỉnh cho khuôn của bạn",
+    "subtitle": "Biên dạng, kiểu lắp và độ lắp được kiểm tra từ bản vẽ.",
     "steps": {
       "1": {
         "title": "Nhận bản vẽ hoặc mẫu",
@@ -228,7 +228,7 @@
     "readMore": "Đọc thêm"
   },
   "meta": {
-    "homeTitle": "YZX Precision | Linh kiện khuôn phi tiêu chuẩn theo bản vẽ",
-    "homeDesc": "Nhà sản xuất linh kiện khuôn tại Thâm Quyến, gia công chốt đột, chốt nâng, chốt dẫn hướng, trụ dẫn, bạc dẫn và chốt định hình theo bản vẽ."
+    "homeTitle": "YZX Precision | Linh kiện khuôn chính xác & tùy chỉnh",
+    "homeDesc": "Chày, linh kiện đẩy, dẫn hướng, lò xo và phụ kiện khuôn. Chọn linh kiện theo chức năng và gửi yêu cầu để xác nhận quy cách."
   }
 }

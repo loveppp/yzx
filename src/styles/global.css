@@ -56,3 +56,22 @@
     @apply border-b border-borui-navy/10 px-4 py-3 text-borui-steel;
   }
 }
+
+/* Shared catalog controls and mobile reading/interaction defaults. */
+@layer components {
+  .catalog-control { @apply block min-h-12 w-full min-w-0 border border-borui-navy/20 bg-white px-3 py-3 text-base text-borui-navy; }
+}
+[hidden] { display: none !important; }
+:focus-visible { outline: 2px solid #755719; outline-offset: 4px; }
+#quote, #components { scroll-margin-top: 100px; }
+.mobile-quote { padding-bottom: max(.75rem, env(safe-area-inset-bottom)); }
+@media (max-width: 639px) {
+  body { padding-bottom: calc(52px + env(safe-area-inset-bottom)); }
+  input, select, textarea { font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }
+}
+
+@media (max-width: 359px) { [data-brand-name] { display: none; } }
