@@ -1,0 +1,72 @@
+batch start 2026-09-30T08:02:09Z
+=== hss-punches ===
+
+> borui-mold-components@0.0.1 image-gen
+> bash scripts/image-gen/run.sh 生成 --id hss-punches --style-reference output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp --publish
+
+{"status":"generating-one-image","id":"hss-punches","model":"gemini-3.0-pro-image","directory":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/hss-punches/2026-09-30T08-02-46-371Z","automaticRetries":0}
+{"status":"saved-draft","id":"hss-punches","file":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/hss-punches/2026-09-30T08-02-46-371Z/original.jpg","bytes":1576476}
+{"id":"hss-punches","publishedJobIds":["hss-punches"],"image":"/images/products/catalog/hss-punches-2026-09-30T08-02-46-371Z.jpg","bytes":1576476,"processing":"none"}
+OK hss-punches
+=== stepped-punches ===
+
+> borui-mold-components@0.0.1 image-gen
+> bash scripts/image-gen/run.sh 生成 --id stepped-punches --style-reference output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp --publish
+
+{"status":"generating-one-image","id":"stepped-punches","model":"gemini-3.0-pro-image","directory":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/stepped-punches/2026-09-30T08-04-04-093Z","automaticRetries":0}
+{"status":"saved-draft","id":"stepped-punches","file":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/stepped-punches/2026-09-30T08-04-04-093Z/original.jpg","bytes":1495064}
+{"id":"stepped-punches","publishedJobIds":["stepped-punches"],"image":"/images/products/catalog/stepped-punches-2026-09-30T08-04-04-093Z.jpg","bytes":1495064,"processing":"none"}
+OK stepped-punches
+=== stamping-die-punches ===
+
+> borui-mold-components@0.0.1 image-gen
+> bash scripts/image-gen/run.sh 生成 --id stamping-die-punches --style-reference output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp --publish
+
+{"status":"generating-one-image","id":"stamping-die-punches","model":"gemini-3.0-pro-image","directory":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/stamping-die-punches/2026-09-30T08-05-17-410Z","automaticRetries":0}
+{"status":"saved-draft","id":"stamping-die-punches","file":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/stamping-die-punches/2026-09-30T08-05-17-410Z/original.jpg","bytes":1731575}
+{"id":"stamping-die-punches","publishedJobIds":["stamping-die-punches"],"image":"/images/products/catalog/stamping-die-punches-2026-09-30T08-05-17-410Z.jpg","bytes":1731575,"processing":"none"}
+OK stamping-die-punches
+=== a-type-punches ===
+
+> borui-mold-components@0.0.1 image-gen
+> bash scripts/image-gen/run.sh 生成 --id a-type-punches --style-reference output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp --publish
+
+{"status":"generating-one-image","id":"a-type-punches","model":"gemini-3.0-pro-image","directory":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/a-type-punches/2026-09-30T08-07-22-337Z","automaticRetries":0}
+{"status":"saved-draft","id":"a-type-punches","file":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/a-type-punches/2026-09-30T08-07-22-337Z/original.jpg","bytes":1818774}
+{"id":"a-type-punches","publishedJobIds":["a-type-punches"],"image":"/images/products/catalog/a-type-punches-2026-09-30T08-07-22-337Z.jpg","bytes":1818774,"processing":"none"}
+OK a-type-punches
+=== forming-punches--polygon ===
+
+> borui-mold-components@0.0.1 image-gen
+> bash scripts/image-gen/run.sh 生成 --id forming-punches--polygon --style-reference output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp --publish
+
+{"status":"generating-one-image","id":"forming-punches--polygon","model":"gemini-3.0-pro-image","directory":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/forming-punches--polygon/2026-09-30T08-09-12-644Z","automaticRetries":0}
+{"status":"saved-draft","id":"forming-punches--polygon","file":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/forming-punches--polygon/2026-09-30T08-09-12-644Z/original.jpg","bytes":1607542}
+{"id":"forming-punches--polygon","publishedJobIds":["forming-punches--polygon"],"image":"/images/products/details/forming-punches--polygon-2026-09-30T08-09-12-644Z.jpg","bytes":1607542,"processing":"none"}
+OK forming-punches--polygon
+=== carbide-punches--type-a ===
+
+> borui-mold-components@0.0.1 image-gen
+> bash scripts/image-gen/run.sh 生成 --id carbide-punches--type-a --style-reference output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp --publish
+
+{"status":"generating-one-image","id":"carbide-punches--type-a","model":"gemini-3.0-pro-image","directory":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches--type-a/2026-09-30T08-12-02-312Z","automaticRetries":0}
+{"status":"saved-draft","id":"carbide-punches--type-a","file":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches--type-a/2026-09-30T08-12-02-312Z/original.jpg","bytes":1724769}
+{"id":"carbide-punches--type-a","publishedJobIds":["carbide-punches--type-a","carbide-punches--stepped"],"image":"/images/products/details/carbide-punches--type-a-2026-09-30T08-12-02-312Z.jpg","bytes":1724769,"processing":"none"}
+OK carbide-punches--type-a
+=== carbide-punches--coated ===
+
+> borui-mold-components@0.0.1 image-gen
+> bash scripts/image-gen/run.sh 生成 --id carbide-punches--coated --style-reference output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp --publish
+
+{"status":"generating-one-image","id":"carbide-punches--coated","model":"gemini-3.0-pro-image","directory":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches--coated/2026-09-30T08-13-36-546Z","automaticRetries":0}
+{"status":"saved-draft","id":"carbide-punches--coated","file":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches--coated/2026-09-30T08-13-36-546Z/original.jpg","bytes":1668815}
+{"id":"carbide-punches--coated","publishedJobIds":["carbide-punches--coated"],"image":"/images/products/details/carbide-punches--coated-2026-09-30T08-13-36-546Z.jpg","bytes":1668815,"processing":"none"}
+OK carbide-punches--coated
+=== carbide-punches--profiles ===
+
+> borui-mold-components@0.0.1 image-gen
+> bash scripts/image-gen/run.sh 生成 --id carbide-punches--profiles --style-reference output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp --publish
+
+{"status":"generating-one-image","id":"carbide-punches--profiles","model":"gemini-3.0-pro-image","directory":"/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches--profiles/2026-09-30T08-16-10-275Z","automaticRetries":0}
+generateContent failed HTTP 429: Proxy browser error: Google API returned error: 429 RESOURCE_EXHAUSTED {"error":{"code":429,"message":"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://***.dev/***/***/*** To monitor your current usage, head to: https://***.dev/*** \n* Quota exceeded for metric: ***.***.com/generate_requests_per_model, limit: 20, model: gemini-3-pro-image\nPlease retry in 10.908746599s.","status":"RESOURCE_EXHAUSTED"}}; no automatic retry.
+FAIL carbide-punches--profiles

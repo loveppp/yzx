@@ -1,0 +1,20 @@
+Family boundary: Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
+
+Material scope: hss. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
+
+Individual product styles:
+
+1. A complete headed stepped round punch: a cylindrical support shank reduces through a short shoulder transition to a smaller round working section. Round retaining head, flat circular working face. Plain round support surface.
+
+2. A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.
+
+Distinct-style rule: 支撑杆为完整圆柱面；与削边款区别在杆身定位面。 / 支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 2; physical objects: 2. Each listed style occurs once.
+
+Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
+Input image role: provisional style reference from this sample round only. Match its background and lighting, not its product, object count or material. Generate the specified new product.

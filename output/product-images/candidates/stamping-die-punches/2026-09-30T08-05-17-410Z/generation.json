@@ -1,0 +1,243 @@
+{
+  "id": "stamping-die-punches",
+  "promptVersion": 4,
+  "promptFingerprint": "7139fb448dee7435a2c0de5f2284225a7b90a3ce30f9137091e7ba121dac5003",
+  "visualSignature": "d406fe5010dfbe578bf3e2ee1a1f977363ddc22f2718f2417f27d75f24b395a4",
+  "structuralVariants": [
+    {
+      "id": "round",
+      "nameZh": "圆形工作端冲头",
+      "geometryEn": "A complete precision punch with flat circular working end. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
+      "differenceZh": "圆形闭合工作轮廓",
+      "structuralKey": "round",
+      "verificationStatus": "verified",
+      "references": [
+        {
+          "url": "https://htxprecision.com/hss-punch/",
+          "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
+          "verification": "geometry-reviewed",
+          "reviewedAt": "2026-09-30",
+          "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+        }
+      ],
+      "name": {
+        "zh": "圆形工作端冲头",
+        "en": "Round working end",
+        "vi": "Đầu làm việc tròn"
+      }
+    },
+    {
+      "id": "square",
+      "nameZh": "方形工作端冲头",
+      "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
+      "differenceZh": "四边等长方形工作轮廓",
+      "structuralKey": "square",
+      "verificationStatus": "verified",
+      "references": [
+        {
+          "url": "https://htxprecision.com/hss-punch/",
+          "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
+          "verification": "geometry-reviewed",
+          "reviewedAt": "2026-09-30",
+          "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+        }
+      ],
+      "name": {
+        "zh": "方形工作端冲头",
+        "en": "Square working end",
+        "vi": "Đầu làm việc vuông"
+      }
+    },
+    {
+      "id": "rectangle",
+      "nameZh": "矩形工作端冲头",
+      "geometryEn": "A complete precision punch with flat rectangular working face with unequal adjacent side lengths. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
+      "differenceZh": "长短边不同的矩形工作轮廓",
+      "structuralKey": "rectangle",
+      "verificationStatus": "verified",
+      "references": [
+        {
+          "url": "https://htxprecision.com/hss-punch/",
+          "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
+          "verification": "geometry-reviewed",
+          "reviewedAt": "2026-09-30",
+          "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+        }
+      ],
+      "name": {
+        "zh": "矩形工作端冲头",
+        "en": "Rectangular working end",
+        "vi": "Đầu làm việc chữ nhật"
+      }
+    },
+    {
+      "id": "obround",
+      "nameZh": "长圆工作端冲头",
+      "geometryEn": "A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
+      "differenceZh": "两条平行直边加两端半圆，区别于椭圆",
+      "structuralKey": "obround",
+      "verificationStatus": "verified",
+      "references": [
+        {
+          "url": "https://htxprecision.com/carbide-punch/",
+          "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
+          "verification": "text-supported",
+          "reviewedAt": "2026-09-30"
+        }
+      ],
+      "name": {
+        "zh": "长圆工作端冲头",
+        "en": "Obround working end",
+        "vi": "Đầu làm việc dạng thuôn"
+      }
+    }
+  ],
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-30T08:05:17.412Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/stamping-die-punches/2026-09-30T08-05-17-410Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1731575,
+  "usage": {
+    "promptTokenCount": 789,
+    "candidatesTokenCount": 1355,
+    "totalTokenCount": 2471,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 531
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 327,
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 988
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 225
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 327
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1564
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 84
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 1548,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 988
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 225
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 327
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1564
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 84
+          }
+        ]
+      }
+    ]
+  },
+  "publicationMode": "direct-original-user-requested",
+  "publishedAt": "2026-09-30T08:06:45.520Z",
+  "publicPath": "/images/products/catalog/stamping-die-punches-2026-09-30T08-05-17-410Z.jpg",
+  "previousImages": {
+    "stamping-die-punches": "/images/products/catalog/stamping-die-punches-2026-09-29T15-43-52-779Z.webp"
+  },
+  "publishedJobIds": [
+    "stamping-die-punches"
+  ],
+  "visualReview": {
+    "status": "not-performed",
+    "note": "Direct original publication requested; no iterative inspection or processing."
+  }
+}

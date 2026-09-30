@@ -1,0 +1,200 @@
+{
+  "id": "forming-punches--polygon",
+  "promptVersion": 4,
+  "promptFingerprint": "a5db42851ccf838895a94aebac4b6b2255f8bbded94611849b68383586fd1a5b",
+  "visualSignature": "271d7b393b6934d7fa5abe126e3d3479e8ce6d1f247fb12158b0de834a940034",
+  "structuralVariants": [
+    {
+      "id": "square",
+      "nameZh": "方形工作端冲头",
+      "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
+      "differenceZh": "四边等长方形工作轮廓",
+      "structuralKey": "square",
+      "verificationStatus": "verified",
+      "references": [
+        {
+          "url": "https://htxprecision.com/hss-punch/",
+          "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
+          "verification": "geometry-reviewed",
+          "reviewedAt": "2026-09-30",
+          "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+        }
+      ],
+      "name": {
+        "zh": "方形工作端冲头",
+        "en": "Square working end",
+        "vi": "Đầu làm việc vuông"
+      }
+    },
+    {
+      "id": "hex",
+      "nameZh": "六角工作端冲头",
+      "geometryEn": "A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
+      "differenceZh": "六边形工作轮廓",
+      "structuralKey": "hex",
+      "verificationStatus": "verified",
+      "references": [
+        {
+          "url": "https://htxprecision.com/hss-punch/",
+          "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
+          "verification": "geometry-reviewed",
+          "reviewedAt": "2026-09-30",
+          "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+        }
+      ],
+      "name": {
+        "zh": "六角工作端冲头",
+        "en": "Hexagonal working end",
+        "vi": "Đầu làm việc lục giác"
+      }
+    }
+  ],
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-30T08:09:12.646Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/forming-punches--polygon/2026-09-30T08-09-12-644Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1607542,
+  "usage": {
+    "promptTokenCount": 684,
+    "candidatesTokenCount": 1334,
+    "totalTokenCount": 2219,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 426
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 201,
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 883
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 204
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 201
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1312
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 82
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 1443,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 883
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 204
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 201
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1312
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 82
+          }
+        ]
+      }
+    ]
+  },
+  "publicationMode": "direct-original-user-requested",
+  "publishedAt": "2026-09-30T08:11:25.618Z",
+  "publicPath": "/images/products/details/forming-punches--polygon-2026-09-30T08-09-12-644Z.jpg",
+  "previousImages": {
+    "forming-punches--polygon": null
+  },
+  "publishedJobIds": [
+    "forming-punches--polygon"
+  ],
+  "visualReview": {
+    "status": "not-performed",
+    "note": "Direct original publication requested; no iterative inspection or processing."
+  }
+}

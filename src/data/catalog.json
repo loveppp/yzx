@@ -175,9 +175,14 @@
         "https://htxprecision.com/carbide-punch/",
         "https://htxprecision.com/tungsten-carbide-punch/"
       ],
-      "image": "/images/products/catalog/carbide-punches-2026-09-29T15-40-17-861Z.webp",
+      "image": "/images/products/catalog/carbide-punches-2026-09-30T07-58-03-841Z.jpg",
       "illustration": "/images/catalog/carbide-punches.svg",
-      "imageGenerated": true
+      "imageGenerated": true,
+      "imageCaption": {
+        "zh": "圆形工作端冲头 / 方形工作端冲头 / 六角工作端冲头 / 长圆工作端冲头",
+        "en": "Round working end / Square working end / Hexagonal working end / Obround working end",
+        "vi": "Đầu làm việc tròn / Đầu làm việc vuông / Đầu làm việc lục giác / Đầu làm việc dạng thuôn"
+      }
     },
     {
       "group": "punch-components",
@@ -229,9 +234,14 @@
       "sourceUrls": [
         "https://htxprecision.com/hss-punch/"
       ],
-      "image": "/images/products/catalog/hss-punches-2026-09-29T15-42-10-376Z.webp",
+      "image": "/images/products/catalog/hss-punches-2026-09-30T08-02-46-371Z.jpg",
       "illustration": "/images/catalog/hss-punches.svg",
-      "imageGenerated": true
+      "imageGenerated": true,
+      "imageCaption": {
+        "zh": "圆形工作端冲头 / A型圆杆台阶冲针 / 方形工作端冲头 / 矩形工作端冲头",
+        "en": "Round working end / Plain-shank stepped round punch / Square working end / Rectangular working end",
+        "vi": "Đầu làm việc tròn / Chày bậc thân tròn / Đầu làm việc vuông / Đầu làm việc chữ nhật"
+      }
     },
     {
       "group": "punch-components",
@@ -282,9 +292,14 @@
       "sourceUrls": [
         "https://htxprecision.com/stepped-punch/"
       ],
-      "image": "/images/products/catalog/stepped-punches-2026-09-29T15-38-27-429Z.webp",
+      "image": "/images/products/catalog/stepped-punches-2026-09-30T08-04-04-093Z.jpg",
       "illustration": "/images/catalog/stepped-punches.svg",
-      "imageGenerated": true
+      "imageGenerated": true,
+      "imageCaption": {
+        "zh": "台阶圆形工作端冲头 / 台阶方形工作端冲头 / 台阶六角工作端冲头 / 台阶长圆工作端冲头",
+        "en": "Stepped punch with round working end / Stepped punch with square working end / Stepped punch with hexagonal working end / Stepped punch with obround working end",
+        "vi": "Chày bậc: đầu làm việc tròn / Chày bậc: đầu làm việc vuông / Chày bậc: đầu làm việc lục giác / Chày bậc: đầu làm việc dạng thuôn"
+      }
     },
     {
       "group": "punch-components",
@@ -342,9 +357,14 @@
       "sourceUrls": [
         "https://htxprecision.com/stamping-die-punch/"
       ],
-      "image": "/images/products/catalog/stamping-die-punches-2026-09-29T15-43-52-779Z.webp",
+      "image": "/images/products/catalog/stamping-die-punches-2026-09-30T08-05-17-410Z.jpg",
       "illustration": "/images/catalog/stamping-die-punches.svg",
-      "imageGenerated": true
+      "imageGenerated": true,
+      "imageCaption": {
+        "zh": "圆形工作端冲头 / 方形工作端冲头 / 矩形工作端冲头 / 长圆工作端冲头",
+        "en": "Round working end / Square working end / Rectangular working end / Obround working end",
+        "vi": "Đầu làm việc tròn / Đầu làm việc vuông / Đầu làm việc chữ nhật / Đầu làm việc dạng thuôn"
+      }
     },
     {
       "group": "punch-components",
@@ -447,9 +467,14 @@
       "sourceUrls": [
         "https://htxprecision.com/carbide-punch/"
       ],
-      "image": "/images/products/catalog/a-type-punches-2026-09-30T06-22-03-175Z.jpg",
+      "image": "/images/products/catalog/a-type-punches-2026-09-30T08-07-22-337Z.jpg",
       "illustration": "/images/catalog/a-type-punches.svg",
-      "imageGenerated": true
+      "imageGenerated": true,
+      "imageCaption": {
+        "zh": "A型圆杆台阶冲针 / A型削边台阶冲针",
+        "en": "Plain-shank stepped round punch / Stepped round punch with locating flat",
+        "vi": "Chày bậc thân tròn / Chày bậc có mặt phẳng định vị"
+      }
     },
     {
       "group": "punch-components",

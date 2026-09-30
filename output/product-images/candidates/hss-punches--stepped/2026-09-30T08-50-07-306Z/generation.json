@@ -1,0 +1,214 @@
+{
+  "id": "hss-punches--stepped",
+  "promptVersion": 4,
+  "promptFingerprint": "1b25dae0d9e9d6deaad1a4084a8194958f608290700fd51b98b9c9c162dbbd52",
+  "visualSignature": "96ca8d73fe48879de9818910446548fa2652740a829ee74758713d4b9c2b395b",
+  "structuralVariants": [
+    {
+      "id": "a-round",
+      "nameZh": "A型圆杆台阶冲针",
+      "geometryEn": "A complete headed stepped round punch: a cylindrical support shank reduces through a short shoulder transition to a smaller round working section. Round retaining head, flat circular working face. Plain round support surface.",
+      "differenceZh": "支撑杆为完整圆柱面；与削边款区别在杆身定位面。",
+      "structuralKey": "a-round",
+      "verificationStatus": "verified",
+      "references": [
+        {
+          "url": "https://www.htx99.com/czctj/axcz.html",
+          "evidenceZh": "已查看详情实物图：圆形头部、圆杆、缩径圆工作段、短肩部过渡；不以两支的尺寸区别作为款式。",
+          "verification": "geometry-reviewed",
+          "reviewedAt": "2026-09-30",
+          "imageUrl": "https://www.htx99.com/UploadFiles/FCK/2018-11/%E5%BF%AB%E7%85%A7%2011(1).jpg"
+        },
+        {
+          "url": "https://htxprecision.com/hss-punch/",
+          "evidenceZh": "已查看 Step HSS Punch 图：常规缩径款与杆身有定位削平的缩径款；不采用第三件的复杂多级结构。",
+          "verification": "geometry-reviewed",
+          "reviewedAt": "2026-09-30",
+          "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/5-Step-punch.jpg"
+        }
+      ],
+      "name": {
+        "zh": "A型圆杆台阶冲针",
+        "en": "Plain-shank stepped round punch",
+        "vi": "Chày bậc thân tròn"
+      }
+    },
+    {
+      "id": "a-flat",
+      "nameZh": "A型削边台阶冲针",
+      "geometryEn": "A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.",
+      "differenceZh": "支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。",
+      "structuralKey": "a-flat",
+      "verificationStatus": "verified",
+      "references": [
+        {
+          "url": "https://www.htx99.com/czctj/axxbczct.html",
+          "evidenceZh": "已查看原图：缩径圆工作段、较粗支撑杆上有清楚的纵向削平面、短肩部、底端圆形头部。",
+          "verification": "geometry-reviewed",
+          "reviewedAt": "2026-09-30",
+          "imageUrl": "https://www.htx99.com/UploadFiles/Others/10.jpg"
+        },
+        {
+          "url": "https://htxprecision.com/hss-punch/",
+          "evidenceZh": "已查看 Step HSS Punch 图：常规缩径款与杆身有定位削平的缩径款；不采用第三件的复杂多级结构。",
+          "verification": "geometry-reviewed",
+          "reviewedAt": "2026-09-30",
+          "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/5-Step-punch.jpg"
+        }
+      ],
+      "name": {
+        "zh": "A型削边台阶冲针",
+        "en": "Stepped round punch with locating flat",
+        "vi": "Chày bậc có mặt phẳng định vị"
+      }
+    }
+  ],
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-30T08:50:07.308Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/hss-punches--stepped/2026-09-30T08-50-07-306Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1734594,
+  "usage": {
+    "promptTokenCount": 729,
+    "candidatesTokenCount": 1336,
+    "totalTokenCount": 2210,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 471
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 145,
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 928
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 206
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 145
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1303
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 83
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 1488,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 928
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 206
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 145
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1303
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 83
+          }
+        ]
+      }
+    ]
+  },
+  "publicationMode": "direct-original-user-requested",
+  "publishedAt": "2026-09-30T08:51:24.833Z",
+  "publicPath": "/images/products/details/hss-punches--stepped-2026-09-30T08-50-07-306Z.jpg",
+  "previousImages": {
+    "hss-punches--stepped": null
+  },
+  "publishedJobIds": [
+    "hss-punches--stepped"
+  ],
+  "visualReview": {
+    "status": "not-performed",
+    "note": "Direct original publication requested; no iterative inspection or processing."
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "carbide-punches--profiles",
+  "promptVersion": 4,
+  "promptFingerprint": "16a79adde11ccc17398f0b37afc2aa9dab26a9e34adacad85edf51e264f95d4c",
+  "visualSignature": "80daced88521986ae8fc4a935d1f7b9cf61040ec8198c62d510b3c32a593ed2d",
+  "structuralVariants": [
+    {
+      "id": "square",
+      "nameZh": "方形工作端冲头",
+      "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
+      "differenceZh": "四边等长方形工作轮廓",
+      "structuralKey": "square",
+      "verificationStatus": "verified",
+      "references": [
+        {
+          "url": "https://htxprecision.com/hss-punch/",
+          "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
+          "verification": "geometry-reviewed",
+          "reviewedAt": "2026-09-30",
+          "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+        },
+        {
+          "url": "https://htxprecision.com/carbide-punch/",
+          "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
+          "verification": "text-supported",
+          "reviewedAt": "2026-09-30"
+        }
+      ],
+      "name": {
+        "zh": "方形工作端冲头",
+        "en": "Square working end",
+        "vi": "Đầu làm việc vuông"
+      }
+    },
+    {
+      "id": "rectangle",
+      "nameZh": "矩形工作端冲头",
+      "geometryEn": "A complete precision punch with flat rectangular working face with unequal adjacent side lengths. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
+      "differenceZh": "长短边不同的矩形工作轮廓",
+      "structuralKey": "rectangle",
+      "verificationStatus": "verified",
+      "references": [
+        {
+          "url": "https://htxprecision.com/hss-punch/",
+          "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
+          "verification": "geometry-reviewed",
+          "reviewedAt": "2026-09-30",
+          "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+        },
+        {
+          "url": "https://htxprecision.com/carbide-punch/",
+          "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
+          "verification": "text-supported",
+          "reviewedAt": "2026-09-30"
+        }
+      ],
+      "name": {
+        "zh": "矩形工作端冲头",
+        "en": "Rectangular working end",
+        "vi": "Đầu làm việc chữ nhật"
+      }
+    }
+  ],
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-30T08:16:10.277Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp",
+  "generationAttempts": 1,
+  "publication": "draft-only",
+  "status": "stopped-needs-review",
+  "error": "generateContent failed HTTP 429: Proxy browser error: Google API returned error: 429 RESOURCE_EXHAUSTED {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://***.dev/***/***/*** To monitor your current usage, head to: https://***.dev/*** \\n* Quota exceeded for metric: ***.***.com/generate_requests_per_model, limit: 20, model: gemini-3-pro-image\\nPlease retry in 10.908746599s.\",\"status\":\"RESOURCE_EXHAUSTED\"}}; no automatic retry."
+}
