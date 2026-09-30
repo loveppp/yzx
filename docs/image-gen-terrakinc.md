@@ -1,115 +1,44 @@
-# 冲针出图工具 — 怎么玩（中文）
+# 产品图片生成入口 · V4
 
-> **当前流程（2026-09-30 用户更新）：生成后直接接入，不反复审图或加工。** 先看 [冲头图片计划](./punch-image-production-plan.md)。使用 `source scripts/use-node20.sh` 后运行 `npx tsx scripts/image-gen/sample.ts --id <job-id> --style-reference <已确认风格图路径> --publish`。每次 1 张，每批 2–3 张，无自动重试；保留并直接复制原图，不校色、不裁切、不重新编码。图片、提示词和来源记录在 `output/product-images/candidates`，详情图片通过 `src/data/catalog-detail-media.json` 自动显示到对应配置卡片，主图通过 `src/data/catalog.json` 更新。不要输出或覆盖已有 `.env` 密钥。
->
-> 以下是旧版工具说明，包含 1:1、批量重试和旧 Markdown 路径，**不用于当前目录**。不要用下方“初始化”或“批量”命令执行当前图片计划。
+当前阶段仅重编提示词，不调用生图接口。逐图清单见 [全站计划](./product-image-production-plan.md) 和 [冲头冲针计划](./punch-image-production-plan.md)。历史批次记录只用于追溯，不再作为生成依据。
 
-API 文档：[Terrakinc 图片生成](https://api.terrakinc.com/docs/image-api-reference.html)
+## 规则
 
-**你不需要写英文。** 英文描述在 `scripts/image-gen/prompts.ts` 里由程序自动拼好，是给 AI 模型看的。
+每张至少两种同类、不同结构的款式；不以尺寸、颜色、材料或角度凑数量。成套产品至少两种完整套装。来源不足的任务保留明确缺口并禁止调用接口。提示词完成不等于图片结构已正确，更不等于有库存或符合工程公差。
 
----
+`data/catalog/image-briefs.json` 和 `detail-image-briefs.json` 是权威来源。完整英文结构提示词由逐件清单生成，不手工修改派生的 `image-plan.json`。构建、检查、清单和 dry-run 都不联网、不读取密钥。
 
-## 三步开始
-
-### 第 1 步：填密钥
-
-```bash
-cd /Users/zhanghaitao/projects/foreignTrade   # 项目根目录
-cp .env.example .env
-```
-
-用编辑器打开 **`.env`**，只改这一行：
-
-```env
-TERRAKINC_API_TOKEN=sk-这里粘贴你的令牌
-```
-
-保存。不要把 `.env` 提交到 git。
-
-### 第 2 步：初始化背景（只做一次）
-
-建议先开 Node 20（项目里有脚本）：
+## 离线查看
 
 ```bash
 source scripts/use-node20.sh
-npm run image-gen -- 初始化
-```
-
-成功后会看到：
-
-- `data/image-gen/style-reference.jpg` — 统一灰色棚拍背景样板
-- `data/image-gen/style-ref-uri.txt` — 后续批量都会参考这张图，保证背景差不多一致
-
-### 第 3 步：出图
-
-**单张：**
-
-```bash
-npm run image-gen -- 生成 --种类 台阶冲针 --材料 SKD61
-```
-
-**多张（推荐）：** 复制并修改 `data/image-gen/batches/冲针-示例.json`，然后：
-
-```bash
-npm run image-gen -- 批量 --任务单 data/image-gen/batches/冲针-示例.json
-```
-
-**不知道种类/材料写什么？**
-
-```bash
 npm run image-gen -- 清单
+npm run image-gen -- 生成 --id a-type-punches --dry-run
+node --test scripts/image-gen/image-plan.test.mjs
 ```
 
----
+重新整理计划运行 `node scripts/prepare-catalog.mjs`。旧的 `--种类`、`--材料`、批量任务单和风格初始化入口已停用，不能绕过新版款式清单。
 
-## 生成完怎么用到网站上？
+## 后续逐张生成
 
-1. 打开文件夹 `public/images/products/generated/punches/`，看 JPG 是否满意。  
-2. 打开对应产品的 `src/content/products/某slug.md`。  
-3. 改一行，例如：  
-   `heroImage: /images/products/generated/punches/stepped-punches-skd61.jpg`  
-4. `npm run dev` 刷新产品页查看。
+仅在进入生成阶段后执行，每次1张，每批2–3张。首批目标为A冲与T冲；T冲在第二种真实结构核实之前保持拦截，不用同款尺寸变化代替。
 
-**程序不会自动改 md**，避免你不满意也被覆盖。
+```bash
+npm run image-gen -- 生成 --id <清单ID> --style-reference <已确认风格图路径> --publish
+```
 
----
+使用项目原有 `.env` 中的 `TERRAKINC_API_TOKEN`、`TERRAKINC_BASE_URL`、`TERRAKINC_IMAGE_MODEL`，不输出或覆盖密钥。服务地址只允许 `https://api.terrakinc.com`。不自动切换模型或自动重试。
 
-## 和顶栏「产品中心」菜单的关系
+`sample.ts` 每次重新读取原始清单，先验证款式证据、结构差异、数量、三语说明，再读取凭据。候选保存完整款式清单和提示词指纹。发布前再次对比当前版本，拒绝旧提示词产物。
 
-| 菜单里看到的（中文） | 出图时 --种类 可写 | 对应 slug |
-|---------------------|-------------------|-----------|
-| 硬质合金冲针 / 钨钢冲针 | 硬质合金冲针 | carbide-punches |
-| 高速钢冲针 | 高速钢冲针 | hss-punches |
-| 台阶冲针 | 台阶冲针 | stepped-punches |
-| 冲压模冲头 | 冲压模冲头 | stamping-die-punches |
-| （A 冲等） | A 冲（标准圆冲） | a-type-punches |
-| 异型 | 异型冲针 | special-shaped-punches |
+## 图片接入与复用
 
-**顶针、导柱、弹簧等其它栏** 目前还没做进出图工具，只有 **冲针** 这一栏。以后要加会再扩展 `catalog.ts`。
+原图直接复制，不校色、不裁切、不重编码。发布同时更新图片及三语说明；旧图和旧记录保留。完全相同的款式、材料、类别边界和构图可通过 `reuseOf` 复用，发布来源后同步目标页面。钢制A冲和硬质合金A冲不自动共用。
 
----
+失败不覆盖旧图；已生成但发布失败的候选保留，不重新调用生图。可用以下命令重新发布当前版本的候选：
 
-## 常用命令速查
+```bash
+node scripts/image-gen/publish-reviewed.mjs <候选目录> --direct
+```
 
-| 你输入的 | 作用 |
-|---------|------|
-| `npm run image-gen -- 帮助` | 说明 |
-| `npm run image-gen -- 清单` | 种类 + 材料列表 |
-| `npm run image-gen -- 初始化` | 第一次建背景样板 |
-| `npm run image-gen -- 生成 --种类 … --材料 …` | 出一张 |
-| `npm run image-gen -- 批量 --任务单 …json` | 按 JSON 批量出 |
-| 加 `--试跑` | 不调用 API，只看会生成啥路径 |
-
-记录与错误：`data/image-gen/manifest.json`
-
----
-
-## 出错怎么办？
-
-| 提示 | 处理 |
-|------|------|
-| Missing TERRAKINC_API_TOKEN | 检查 `.env` 是否在项目根、token 是否正确 |
-| 请先运行：初始化 | 先执行第 2 步 |
-| 499 / 超时 | 网络或图太大，稍后重试 |
-| 不认识种类 | 运行 `清单`，用里面的中文名 |
+当前清单准确区分“待核实、提示词完成、已生成、已接入”。已有旧图片不算新版完成。来源证据的文字核对不是自动识图检测，也不能保证生成模型每次正确。

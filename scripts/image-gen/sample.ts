@@ -4,29 +4,31 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {execFileSync} from 'node:child_process';
 import {generateImage, loadConfig} from './terrakinc-client.js';
+import {loadCurrentImagePlan, assertGenerationJob} from '../product-image-plan.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const args = process.argv.slice(2);
 const value = (flag: string) => { const i = args.indexOf(flag); return i < 0 ? undefined : args[i + 1]; };
 
 async function main() {
+  const plan = loadCurrentImagePlan();
+  const id = value('--id');
+  const job = [...plan.jobs, ...plan.detailJobs].find(j => j.id === id);
+  if (!job) throw new Error('Specify one valid main or detail image job using --id.');
+  if (args.includes('--dry-run')) {
+    console.log(JSON.stringify({id, generationReady:job.generationReady, blockingReasons:job.blockingReasons, reuseOf:job.reuseOf ?? null, pieceCount:job.pieceCount, variantCount:job.variantCount, promptFingerprint:job.promptFingerprint, calls:0}));
+    return;
+  }
+  assertGenerationJob(job);
+  if (job.reuseOf) throw new Error(`Generate the shared source ${job.reuseOf}; this destination reuses it. No request sent.`);
+  // All structural checks precede reading the key, creating files, or making any network call.
   const env = await fs.readFile(path.join(root, '.env'), 'utf8');
   for (const line of env.split('\n')) {
     const match = line.trim().match(/^(TERRAKINC_[A-Z_]+)=(.*)$/);
     if (match && process.env[match[1]] === undefined) process.env[match[1]] = match[2].trim().replace(/^(['"])(.*)\1$/, '$2');
   }
   const cfg = loadConfig();
-  // Keep the configured credential on the user-selected provider origin.
   if (new URL(cfg.baseUrl).origin !== 'https://api.terrakinc.com') throw new Error('Unexpected provider origin; stop before transmitting credentials.');
-  const plan = JSON.parse(await fs.readFile(path.join(root, 'data/catalog/image-plan.json'), 'utf8'));
-  const id = value('--id');
-  const job = [...plan.jobs, ...(plan.detailJobs ?? [])].find((j: {id: string}) => j.id === id);
-  if (!job) throw new Error('Specify one valid main or detail image job using --id.');
-  if (job.generationReady === false) throw new Error('Define the distinct structural variants for this series before generating; the size-only composition has been retired. No request sent.');
-  if (args.includes('--dry-run')) {
-    console.log(JSON.stringify({id, model: cfg.model, aspectRatio: job.aspectRatio, imageSize: '2K', pieceCount: job.pieceCount, promptLength: job.prompt.length, tokenPresent: Boolean(cfg.token), calls: 0}));
-    return;
-  }
   if (args.includes('--check-model')) {
     const res = await fetch(`${cfg.baseUrl}/v1/models`, {headers: {Authorization: `Bearer ${cfg.token}`}, signal: AbortSignal.timeout(30_000)});
     if (!res.ok) throw new Error(`Model check HTTP ${res.status}`);
@@ -48,7 +50,7 @@ async function main() {
   await fs.mkdir(dir, {recursive: true});
   const prompt = job.prompt + (refPath ? '\nInput image role: provisional style reference from this sample round only. Match its background and lighting, not its product, object count or material. Generate the specified new product.' : '');
   await fs.writeFile(path.join(dir, 'prompt.txt'), prompt, {flag: 'wx'});
-  const record = {id, model: cfg.model, createdAt: new Date().toISOString(), aspectRatio: job.aspectRatio, imageSize: '2K', reference: refPath ?? null, generationAttempts: 1, publication: 'draft-only'};
+  const record = {id, promptVersion:4, promptFingerprint:job.promptFingerprint, visualSignature:job.visualSignature, structuralVariants:job.structuralVariants, model: cfg.model, createdAt: new Date().toISOString(), aspectRatio: job.aspectRatio, imageSize: '2K', reference: refPath ?? null, generationAttempts: 1, publication: 'draft-only'};
   const saveRecord = (extra: Record<string, unknown>) => fs.writeFile(path.join(dir, 'generation.json'), JSON.stringify({...record, ...extra}, null, 2) + '\n');
   await saveRecord({status: 'request-started'});
   console.log(JSON.stringify({status: 'generating-one-image', id, model: cfg.model, directory: dir, automaticRetries: 0}));

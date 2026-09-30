@@ -21,6 +21,7 @@ export interface CatalogProduct {
   sourceUrls: string[];
   image: string | null;
   imageGenerated?: boolean;
+  imageCaption?: LocalizedText;
   illustration: string;
   note?: LocalizedText;
 }

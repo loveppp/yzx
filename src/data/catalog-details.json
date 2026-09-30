@@ -14,9 +14,9 @@
           "vi": "Chày bậc loại A"
         },
         "description": {
-          "zh": "A 型台阶冲针可采用单台阶、多级阶梯或锥肩缩径等结构。按工作端轮廓、支撑方式与安装要求确定具体款式。",
-          "en": "Type A stepped punches include single-step, multi-stage and tapered-shoulder designs. Select the construction by working profile, support and mounting requirements.",
-          "vi": "Chày bậc loại A gồm kiểu một bậc, nhiều bậc và vai côn. Chọn kết cấu theo biên dạng làm việc, cách đỡ và yêu cầu lắp."
+          "zh": "较粗支撑杆过渡到较细的圆形工作段，保留明确的缩径台阶。可按安装要求选择圆杆或带定位削边的款式；肩部与削边位置按图纸确认。",
+          "en": "A larger support shank transitions to a smaller round working section with a defined step. Plain-shank and locating-flat styles are selected for the mounting requirements; shoulder and flat positions are confirmed from the drawing.",
+          "vi": "Thân đỡ lớn chuyển sang đầu làm việc tròn nhỏ hơn với bậc rõ ràng. Chọn thân tròn hoặc có mặt phẳng định vị theo yêu cầu lắp; xác nhận vị trí vai và mặt phẳng theo bản vẽ."
         },
         "parameters": {
           "zh": "刃径、杆径、工作段长度、台阶圆角与头部尺寸",
@@ -140,9 +140,9 @@
           "vi": "Lớp phủ và chống mài mòn"
         },
         "description": {
-          "zh": "在同一冲头结构上选择未涂层或适配涂层。外观对比用于说明处理方式；耐磨方案需结合合金基体、被冲材料、刃口和重磨要求确定。",
-          "en": "Choose an uncoated or compatible coated finish on the same punch geometry. The appearance comparison illustrates finish options; select for carbide grade, work material, edge condition and regrinding.",
-          "vi": "Chọn bề mặt không phủ hoặc lớp phủ phù hợp trên cùng hình dạng chày. Hình so sánh thể hiện lựa chọn xử lý; chọn theo nền carbide, vật liệu phôi, lưỡi và yêu cầu mài lại."
+          "zh": "不同工作端和安装结构可分别评估适用的表面处理。涂层牌号与耐磨方案以文字和规格确认，不以图片颜色判断；选型需结合合金基体、被冲材料、刃口及重磨要求。",
+          "en": "Surface treatments are evaluated for each working profile and mounting design. Confirm coating grades and wear solutions in the specification, not by image color; selection depends on the carbide substrate, work material, cutting edge and regrinding requirements.",
+          "vi": "Đánh giá xử lý bề mặt cho từng biên dạng và kết cấu lắp. Xác nhận loại lớp phủ bằng thông số, không qua màu ảnh; lựa chọn theo nền hợp kim, vật liệu gia công, lưỡi cắt và yêu cầu mài lại."
         },
         "parameters": {
           "zh": "合金牌号、涂层、成品尺寸与重磨要求",

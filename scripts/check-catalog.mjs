@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict';
+import {loadCurrentImagePlan, assertGenerationJob} from './product-image-plan.mjs';
 import {readFileSync,existsSync,readdirSync} from 'node:fs';
 const root=new URL('../',import.meta.url);
 const read=path=>JSON.parse(readFileSync(new URL(path,root),'utf8'));
@@ -72,5 +73,16 @@ const carbideImages=details['carbide-punches'].variants.map(variant=>{
   assert.equal(assets.length,1,`Expected one matching carbide image for ${variant.id}`);
   return assets[0].image;
 });
-assert.equal(new Set(carbideImages).size,carbideImages.length,'Carbide configurations must use distinct corresponding images');
-console.log(`Detail checks passed: ${notes.size} distinct family guides, ${plan.configurationCoverage.length} configuration plans, ${plannedJobs.length} authored image prompts.`);
+// Shared images are allowed only for explicitly identical recipes/materials, never A/T by accident.
+const livePlan=loadCurrentImagePlan();
+const liveJobs=[...livePlan.jobs,...livePlan.detailJobs];
+assert.deepEqual(plan,livePlan,'Generated image plan is stale; run scripts/prepare-catalog.mjs');
+for(const job of liveJobs) if(job.generationReady) assertGenerationJob(job);
+for(let i=0;i<carbideImages.length;i++) for(let j=i+1;j<carbideImages.length;j++) {
+  if(carbideImages[i]!==carbideImages[j]) continue;
+  const variants=details['carbide-punches'].variants;
+  const a=liveJobs.find(k=>k.kind==='detail'&&k.productId==='carbide-punches'&&k.configurationIds.includes(variants[i].id));
+  const b=liveJobs.find(k=>k.kind==='detail'&&k.productId==='carbide-punches'&&k.configurationIds.includes(variants[j].id));
+  assert(a&&b&&a.visualSignature===b.visualSignature&&(a.reuseOf===b.id||b.reuseOf===a.id),'Different carbide configurations must not share unrelated images');
+}
+console.log(`Detail checks passed: ${notes.size} distinct family guides, ${plan.configurationCoverage.length} configuration plans, ${plannedJobs.length} image recipes (${livePlan.totals.promptReady} ready, ${livePlan.totals.needsVerification} blocked pending evidence).`);
