@@ -10,6 +10,7 @@ import FAQ from '@/components/FAQ.astro';
 import QuoteSection from '@/components/QuoteSection.astro';
 import {productById, productPath, catalogText} from '@/data/catalog';
 import detailMedia from '@/data/catalog-detail-media.json';
+import { catalogUI } from '@/data/catalog-ui';
 import { locales, useTranslations, type Locale } from '@/i18n/utils';
 
 export function getStaticPaths() {
@@ -20,7 +21,9 @@ const locale = Astro.params.locale as Locale;
 if (!locales.includes(locale)) return Astro.redirect('/en/');
 
 const t = useTranslations(locale);
+const ui = catalogUI(locale);
 const path = `/${locale}/`;
+const quoteHref = '#quote';
 const customExamples = [
   {assetId:'carbide-punches--profiles', fallback:'carbide-punches'},
   {assetId:'carbide-punches--stepped', fallback:'stepped-punches'},
@@ -34,7 +37,7 @@ const customExamples = [
 ---
 
 <Layout title={t.meta.homeTitle} description={t.meta.homeDesc} path={path}>
-  <PunchShowcase locale={locale} home />
+  <PunchShowcase locale={locale} home quoteHref={quoteHref} />
   <SpecBar t={t} />
 
 
@@ -48,17 +51,22 @@ const customExamples = [
         <div class="mt-6 grid grid-cols-2 gap-3">
           {
             customExamples.map(example => (
-              <a href={example.href} class="product-visual-card min-w-0 overflow-hidden border border-borui-navy/10 bg-white hover:border-borui-brass">
-                <div class="product-visual-frame overflow-hidden"><img
-                  src={example.image}
-                  alt={example.name}
-                  class="aspect-[4/3] w-full bg-borui-light object-contain"
-                  loading="lazy"
-                  width="1600"
-                  height="1200"
-                /></div>
-                <p class="p-3 text-sm leading-relaxed">{example.name} <span aria-hidden="true">↗</span></p>
-              </a>
+              <article class="product-visual-card flex min-w-0 flex-col overflow-hidden border border-borui-navy/10 bg-white">
+                <a href={example.href} class="min-w-0 flex-1 hover:border-borui-brass">
+                  <div class="product-visual-frame overflow-hidden"><img
+                    src={example.image}
+                    alt={example.name}
+                    class="aspect-[4/3] w-full bg-borui-light object-contain"
+                    loading="lazy"
+                    width="1600"
+                    height="1200"
+                  /></div>
+                  <p class="p-3 text-sm leading-relaxed">{example.name} <span aria-hidden="true">↗</span></p>
+                </a>
+                <div class="border-t border-borui-navy/10 px-3 py-2">
+                  <a href={quoteHref} class="text-xs font-medium text-borui-navy underline underline-offset-4 hover:text-borui-brass">{ui.drawingCta} →</a>
+                </div>
+              </article>
             ))
           }
         </div>

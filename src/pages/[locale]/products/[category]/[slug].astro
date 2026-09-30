@@ -63,7 +63,7 @@ const breadcrumb={'@context':'https://schema.org','@type':'BreadcrumbList',itemL
     <section class="mt-12"><h2 class="text-2xl">{ui.faq}</h2><div class="mt-5 divide-y divide-borui-navy/10 border-y border-borui-navy/10">{[[ui.faqQ,ui.faqA],[ui.faqQ2,ui.faqA2],[ui.faqQ3,ui.faqA3]].map(([q,a])=><details class="py-4"><summary class="cursor-pointer py-1 pr-4 text-sm font-medium">{q}</summary><p class="mt-3 max-w-3xl text-sm leading-relaxed text-slate-600">{a}</p></details>)}</div></section>
   </div></article>
   <QuoteSection t={t} locale={locale} category={product.group} product={name}/>
-  {related.length>0&&<section class="section-padding !pt-6"><div class="content-wrap"><h2 class="text-2xl">{catalogText(detailUI.related,locale)}</h2><div class="mt-6 grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-5">{related.map(p=><CatalogCard product={p} locale={locale}/>)}</div></div></section>}
+  {related.length>0&&<section class="section-padding !pt-6"><div class="content-wrap"><h2 class="text-2xl">{catalogText(detailUI.related,locale)}</h2><div class="mt-6 grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-5">{related.map(p=><CatalogCard product={p} locale={locale} quoteHref="#quote"/>)}</div></div></section>}
   <script is:inline type="application/ld+json" set:html={JSON.stringify(schema).replace(/</g,'\\u003c')}/>
   <script is:inline type="application/ld+json" set:html={JSON.stringify(breadcrumb).replace(/</g,'\\u003c')}/>
 </Layout>

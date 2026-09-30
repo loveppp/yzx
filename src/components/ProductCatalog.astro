@@ -3,8 +3,8 @@ import {catalogGroups,catalogProducts,catalogText,materialLabel,legacyCategories
 import {catalogUI} from '@/data/catalog-ui';
 import type {Locale} from '@/i18n/utils';
 import CatalogCard from './CatalogCard.astro';
-interface Props {locale:Locale;}
-const {locale}=Astro.props;
+interface Props {locale:Locale;quoteHref?:string;}
+const {locale,quoteHref=`/${locale}/contact/`}=Astro.props;
 const ui=catalogUI(locale);
 const materials=[...new Set(catalogProducts.flatMap(p=>p.materials))].filter(m=>m!=='Per selected model').sort();
 ---
@@ -25,7 +25,7 @@ const materials=[...new Set(catalogProducts.flatMap(p=>p.materials))].filter(m=>
         <label class="text-xs font-medium text-slate-600"><span>{ui.material}</span><select name="material" class="catalog-control mt-2"><option value="">{ui.allMaterials}</option>{materials.map(m=><option value={m}>{materialLabel(m,locale)}</option>)}</select></label>
       </form>
       <div class="flex min-h-16 items-center justify-between gap-3 py-3"><p class="text-sm text-slate-600" role="status" aria-live="polite"><span data-count>{catalogProducts.length}</span> {ui.results}</p><button type="button" data-clear class="min-h-11 text-sm underline underline-offset-4">{ui.clear}</button></div>
-      <div class="grid grid-cols-2 gap-3 md:gap-4 xl:grid-cols-3" data-grid>{catalogProducts.map(p=><CatalogCard product={p} locale={locale} filterable />)}</div>
+      <div class="grid grid-cols-2 gap-3 md:gap-4 xl:grid-cols-3" data-grid>{catalogProducts.map(p=><CatalogCard product={p} locale={locale} filterable quoteHref={quoteHref}/>)}</div>
       <div hidden data-empty class="border border-dashed border-borui-navy/20 px-5 py-12 text-center"><h2 class="text-xl">{ui.empty}</h2><p class="mx-auto mt-3 max-w-lg text-sm leading-relaxed text-slate-600">{ui.emptyHint}</p><a href={`/${locale}/contact/`} class="btn-primary mt-6">{ui.drawingCta}</a></div>
     </div>
   </div>

@@ -1,7 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 56" fill="none" role="img" aria-label="YZX Precision">
-  <rect x="2" y="6" width="44" height="44" rx="3" fill="#172333"/>
-  <path d="M14 16h20M14 26h14M14 36h20" stroke="#C8A45C" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="35" cy="26" r="4" fill="#C8A45C"/>
-  <text x="58" y="27" font-family="Georgia,serif" font-size="23" font-weight="700" fill="#172333">YZX Precision</text>
-  <text x="59" y="44" font-family="Arial,sans-serif" font-size="9" letter-spacing="1.4" fill="#697582">CUSTOM MOLD COMPONENTS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 56" fill="none" role="img" aria-label="源智信精密 YZX Precision">
+  <rect x="2" y="4" width="48" height="48" rx="9" fill="#1A2332"/>
+  <path fill="#C8A45C" d="M26 12 14.8 27.2h5.6L26 20.4l5.6 6.8h5.6L26 12z"/>
+  <path fill="#E8EDF2" d="M23 27.2h6v13.8a3 3 0 1 1-6 0V27.2z"/>
+  <path stroke="#C8A45C" stroke-width="2.2" stroke-linecap="round" d="M13.5 42.5h25"/>
+  <circle cx="26" cy="42.5" r="2.15" fill="#1A2332" stroke="#C8A45C" stroke-width="1.6"/>
+  <text x="62" y="27" font-family="Georgia, 'Songti SC', serif" font-size="22" font-weight="700" fill="#1A2332">源智信精密</text>
+  <text x="63" y="43" font-family="Arial, sans-serif" font-size="9.5" letter-spacing="1.35" fill="#697582">YZX PRECISION · MOLD COMPONENTS</text>
 </svg>
