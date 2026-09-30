@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {loadCurrentImagePlan, assertGenerationJob} from './product-image-plan.mjs';
-import {readFileSync,existsSync,readdirSync} from 'node:fs';
+import {readFileSync,existsSync} from 'node:fs';
 const root=new URL('../',import.meta.url);
 const read=path=>JSON.parse(readFileSync(new URL(path,root),'utf8'));
 const {groups,products}=read('src/data/catalog.json');
@@ -27,11 +27,6 @@ for(const p of products){
   if(p.image)assert(existsSync(new URL('public'+p.image,root)),`Missing product image ${p.id}`);
 }
 for(const [from,target] of [...Object.entries(legacy.categories),...Object.entries(legacy.products)])assert(productIds.has(target)||groupIds.has(target),`Broken legacy target ${from}`);
-for(const file of readdirSync(new URL('src/content/products/',root)).filter(f=>f.endsWith('.md'))){
-  const content=readFileSync(new URL('src/content/products/'+file,root),'utf8');
-  const category=content.match(/^category: (.+)$/m)?.[1];
-  assert(legacy.products[`${category}/${file.slice(0,-3)}`],`Missing legacy migration ${file}`);
-}
 const references=read('data/catalog/reference-coverage.json');
 for(const row of references.pages)assert(row.destinations.length>0,`Unmapped reference ${row.url}`);
 assert(products.find(p=>p.id==='ball-cages').variants.length===3,'Ball cage material coverage');

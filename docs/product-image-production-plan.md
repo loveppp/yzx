@@ -2,7 +2,7 @@
 
 > 本文件由参考款式清单生成。当前阶段只重编提示词，不调用生图接口。旧图在线不表示新版已生成或已通过结构核实。
 
-本清单 70 个任务：20 个提示词完成，50 个待核实；新版已生成 14 个，已接入 14 个。
+本清单 70 个任务：20 个提示词完成，50 个待核实；新版已生成 0 个，已接入 0 个。
 
 ## 规则与分批顺序
 
@@ -70,7 +70,7 @@
 
 ### 硬质合金冲头（钨钢） · carbide-punches
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 4 款；已定义 4 款、4 件。按已核实数量生成。
 位置：/zh/products/punch-components/carbide-punches/
 类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
@@ -117,7 +117,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 高速钢冲头 · hss-punches
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 4 款；已定义 4 款、4 件。按已核实数量生成。
 位置：/zh/products/punch-components/hss-punches/
 类别共同特征：Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
@@ -164,7 +164,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 台阶与多级冲头 · stepped-punches
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 4 款；已定义 4 款、4 件。按已核实数量生成。
 位置：/zh/products/punch-components/stepped-punches/
 类别共同特征：Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.
@@ -207,7 +207,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 冲压模冲头 · stamping-die-punches
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 4 款；已定义 4 款、4 件。按已核实数量生成。
 位置：/zh/products/punch-components/stamping-die-punches/
 类别共同特征：Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety.
@@ -293,7 +293,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### A 型台阶冲针 · a-type-punches
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 3 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/punch-components/a-type-punches/
 类别共同特征：Every item is a Type-A stepped punch with a reduced working section; a straight Type-T shank is excluded.
@@ -1408,7 +1408,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### A型台阶冲针 · 圆杆与削边款 · carbide-punches--type-a
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/punch-components/carbide-punches/#configuration-type-a
 类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
@@ -1558,7 +1558,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 表面处理选型 · 方形与六角冲头 · carbide-punches--coated
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/punch-components/carbide-punches/#configuration-coated
 类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
@@ -1595,7 +1595,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 方形与矩形工作端 · carbide-punches--profiles
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/punch-components/carbide-punches/#configuration-profile
 类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
@@ -1632,7 +1632,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 台阶冲头 · 圆杆与削边款 · carbide-punches--stepped
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/punch-components/carbide-punches/#configuration-stepped
 类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
@@ -1705,7 +1705,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 高速钢方形与矩形冲头 · hss-punches--square-rectangle
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/punch-components/hss-punches/#configuration-square
 类别共同特征：Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
@@ -1778,7 +1778,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 高速钢台阶冲头 · 圆杆与削边款 · hss-punches--stepped
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/punch-components/hss-punches/#configuration-stepped
 类别共同特征：Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
@@ -1815,7 +1815,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 高速钢六角与八角工作端 · hss-punches--special
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/punch-components/hss-punches/#configuration-profile
 类别共同特征：Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
@@ -1887,7 +1887,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 台阶六角与长圆工作端 · stepped-punches--special
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/punch-components/stepped-punches/#configuration-custom
 类别共同特征：Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.
@@ -2062,7 +2062,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 方形与六角异形冲头 · forming-punches--polygon
 
-状态：已接入；现有图片：新版已接入。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/punch-components/forming-punches/#configuration-polygon
 类别共同特征：Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.
@@ -2657,7 +2657,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 - **浇注与模具辅助件分类入口**：sprue-bushings、locating-rings、mold-date-stamps、side-locks、stopper-bolts、pull-rods。等待来源新版图片；不额外生图。
 - **自润滑轴套与耐磨件分类入口**：graphite-bronze-bushings、bronze-bushings、flanged-bronze-bushings、wear-plates。等待来源新版图片；不额外生图。
 - **定位与送料销件分类入口**：precision-dowel-pins、threaded-dowel-pins、pilot-pins、floating-pins。等待来源新版图片；不额外生图。
-- **首页产品横幅**：carbide-punches、hss-punches、stepped-punches、a-type-punches。来源新版已接入，可排版；不额外生图。
+- **首页产品横幅**：carbide-punches、hss-punches、stepped-punches、a-type-punches。等待来源新版图片；不额外生图。
 
 ## 配置图文对应
 

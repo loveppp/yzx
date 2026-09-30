@@ -18,7 +18,7 @@
 
 HTX 菜单中部分辅助件没有可打开的独立介绍页，本次按零件功能提供原创选型说明，未编造型号、尺寸范围或认证。精确尺寸、硬度、配合公差及交期在报价审核后确定。
 
-旧 `src/content/products/*.md` 保留作迁移历史，不再驱动当前产品页面。其 65 个旧产品路径通过 `catalog-legacy.json` 映射到新系列；静态兜底跳转和 Cloudflare Pages 301 均已保留。`src/data/product-taxonomy.ts`、`category-copy.ts`、`nav-product-mega-menu.ts` 是旧结构，后续产品维护请使用新目录文件。
+旧产品 URL 仅通过 `src/data/catalog-legacy.json` 映射到新系列；`scripts/prepare-catalog.mjs` 会生成 `public/_redirects` 供 Cloudflare Pages 301。后续产品维护请只改 `catalog.json` 与相关 detail 数据文件。
 
 ## 图片替换
 

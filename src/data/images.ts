@@ -1,7 +1,6 @@
 /** Site images — local assets under /public/images/ */
 
 export const images = {
-  hero: '/images/factory/hero-workshop.jpg',
   factory: [
     {
       src: '/images/factory/cnc.png',
@@ -19,34 +18,6 @@ export const images = {
       src: '/images/factory/inspection.png',
       captionKey: 'inspection' as const,
     },
-  ],
-  categories: {
-    'punch-pins': '/images/products/generated/custom-punches.png',
-    'floating-pins': '/images/products/generated/float-lifter-pins.png',
-    'pilot-pins': '/images/categories/guide-pins.png',
-    'guide-posts': '/images/categories/guide-posts.png',
-    'guide-bushings': '/images/categories/guide-bushings.png',
-    'a-type-punches': '/images/products/generated/a-punch.png',
-    'special-shaped-punches': '/images/products/generated/irregular-shaped-punches.png',
-    'carbide-punches': '/images/products/generated/carbide-punch.png',
-    'hss-punches': '/images/products/generated/hss-punch.png',
-    'stepped-punches': '/images/products/generated/stepped-punch.png',
-    'stamping-die-punches': '/images/products/generated/custom-punches.png',
-    'ejector-components': '/images/products/generated/custom-punches.png',
-    'die-springs': '/images/categories/guide-posts.png',
-    'oilless-bushings': '/images/categories/guide-bushings.png',
-    'sprue-bushings': '/images/categories/guide-bushings.png',
-    'cylindrical-pins': '/images/categories/guide-pins.png',
-    'custom-mold-components': '/images/products/generated/hero-punches.png',
-  },
-  specialShaped: [
-    '/images/products/generated/irregular-shaped-punches.png',
-    '/images/products/generated/stepped-punch.png',
-    '/images/products/generated/custom-punches.png',
-    '/images/products/generated/a-punch.png',
-    '/images/products/generated/carbide-punch.png',
-    '/images/products/generated/hss-punch.png',
-    '/images/products/generated/float-lifter-pins.png',
   ],
   customProcess: [
     '/images/factory/inspection.png',

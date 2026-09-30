@@ -13,14 +13,12 @@ pnpm-debug.log*
 .env
 .env.production
 
-# Local provider responses may contain large inline images or expiring image URLs.
-output/product-images/**/provider-*.json
-
 # macOS
 .DS_Store
 
+# Local image-generation artifacts (candidates, review screenshots, batch logs)
+output/*
+!output/README.md
+
 # htx99 reference thumbnails (URLs kept in CSV only)
 data/htx99-reference/images/
-
-# Local public-reference extracts used for editorial review
-output/catalog-reference-review/

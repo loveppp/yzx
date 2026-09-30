@@ -161,6 +161,5 @@ export function prepareProductImagePlan(catalog) {
   const plan = loadCurrentImagePlan(catalog);
   writeFileSync(new URL('data/catalog/image-plan.json',root),JSON.stringify(plan,null,2)+'\n');
   writeFileSync(new URL('docs/product-image-production-plan.md',root),renderImagePlan(plan));
-  writeFileSync(new URL('docs/punch-image-production-plan.md',root),renderImagePlan(plan,{punchOnly:true}));
   return plan;
 }

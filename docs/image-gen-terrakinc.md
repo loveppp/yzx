@@ -1,6 +1,6 @@
 # 产品图片生成入口 · V4
 
-当前阶段仅重编提示词，不调用生图接口。逐图清单见 [全站计划](./product-image-production-plan.md) 和 [冲头冲针计划](./punch-image-production-plan.md)。历史批次记录只用于追溯，不再作为生成依据。
+当前阶段仅重编提示词，不调用生图接口。逐图清单见 [全站计划](./product-image-production-plan.md)。本地候选图放在 gitignore 的 `output/`，见 `output/README.md`。
 
 ## 规则
 
