@@ -1,0 +1,20 @@
+Use case: product-mockup.
+Create a realistic studio-style product illustration for a precision mold component catalog.
+Use a seamless neutral off-white/light-gray background (#f5f6f7), a matte ground plane, soft diffused upper-left light and a restrained contact shadow to the lower right. Neutral white balance, no dramatic gradient or horizon line.
+Camera: consistent mildly elevated three-quarter view, approximately 85 mm product-photography perspective, no wide-angle distortion. Keep every part sharp.
+Framing: landscape 4:3. Center the complete product or set; occupy approximately 75–82% of the available frame, with at least 8% safe margin on every edge. Preserve all tips, heads and openings. No cropped parts.
+Finish: credible fine machining and grinding texture, controlled metal highlights, clean new components without scratches, oil or rust. Preserve the distinct appearance of steel, bronze, graphite and painted springs.
+This is a representative product illustration, not a dimensional drawing or proof of actual stock. Do not invent dimensions, tolerances, certifications, brands or material-grade markings.
+If an approved image is supplied later, use it ONLY as a lighting, background and photographic-style reference. The product geometry and object count must follow this job, not the style-reference object.
+
+Asset role: family detail image, linked to the specified configurations.
+Product family: Carbide Punches.
+Product function: Wear-resistant punches with round or profiled working ends for repeat stamping. Carbide grade and edge geometry are selected together.
+Configuration context: Hexagonal punch: For hexagonal holes; across-flats size, corners and tip length define the working geometry. Oval and obround punches: An ellipse differs from a straight-sided obround; define the exact outline in the drawing.
+Selected visible subject (takes priority over context): Exactly two complete elongated carbide punches, each with a cylindrical supporting shank, a clearly defined retaining head at the rear and a SHORT profiled working tip at the front. Orient both toward the viewer so the flat end faces are fully readable. First punch: the cutting face is a FLAT REGULAR HEXAGON with exactly six straight edges and six sharp vertices; six planar side walls run back a short distance into the round support shank. The entire end face is hexagonal, NOT a circular disk inside a hexagonal bevel. No corner truncation, no octagon and no broad perimeter chamfer. Second punch: the cutting face is a flat ELLIPSE with a continuous smooth elliptical perimeter, no straight sides; a short elliptical working section is supported by the round shank. Both end faces are perpendicular to their shaft axes. Full bodies and retaining heads visible, two separate objects, supported mechanically plausible proportions, no decorative grooves. Neutral gray metal and the same soft photographic lighting as the style reference.
+Exact physical object count: 2.
+Composition: A separated same-family collection, shallow staggered layout, no overlap or hidden working ends. Long axes stay straight.
+Text policy: No text, labels, dimensions, arrows, logos, grade numbers or watermarks.
+Avoid: No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms. No circular face inside a polygon, no chamfer that erases the six corners, no octagonal tip, no obround or rounded-rectangle substitute for the ellipse, no domed cutting faces. Also avoid fused geometry, cropped tips, floating shadows or extra objects.
+Show only the selected visible subject; context does not authorize additional parts, material colors or mechanisms.
+Input image role: provisional style reference from this sample round only. Match its background and lighting, not its product, object count or material. Generate the specified new product.

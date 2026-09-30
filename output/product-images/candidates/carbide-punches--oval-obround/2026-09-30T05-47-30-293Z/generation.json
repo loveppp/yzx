@@ -1,0 +1,85 @@
+{
+  "id": "carbide-punches--oval-obround",
+  "model": "gemini-3.1-flash-image",
+  "createdAt": "2026-09-30T05:47:30.297Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches--oval-obround/2026-09-30T05-47-30-293Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1354007,
+  "usage": {
+    "promptTokenCount": 917,
+    "candidatesTokenCount": 2095,
+    "totalTokenCount": 3012,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 659
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1680
+      }
+    ],
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1112
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1120
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 417
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 2232,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1112
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1120
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 417
+          }
+        ]
+      }
+    ]
+  },
+  "publishedAt": "2026-09-30T05:48:01.618Z",
+  "publicPath": "/images/products/details/carbide-punches--oval-obround-2026-09-30T05-47-30-293Z.jpg",
+  "previousImage": null,
+  "publicationMode": "direct-original-user-requested",
+  "visualReview": {
+    "status": "not-performed",
+    "note": "User requested direct use without iterative inspection or image processing."
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "carbide-punches--hex-oval",
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-30T05:09:02.023Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp",
+  "generationAttempts": 1,
+  "publication": "draft-only",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches--hex-oval/2026-09-30T05-09-02-020Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1557932,
+  "usage": {
+    "promptTokenCount": 1027,
+    "candidatesTokenCount": 1371,
+    "totalTokenCount": 2674,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 769
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 276,
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1226
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 241
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 276
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1767
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 105
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 1786,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1226
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 241
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 276
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1767
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 105
+          }
+        ]
+      }
+    ]
+  },
+  "visualReview": {
+    "status": "needs-geometry-revision",
+    "publicationDecision": "do-not-publish",
+    "issues": [
+      "The hexagonal cutting face is clearly six-sided, but the intended elliptical punch reads as an ordinary round cylindrical tip. Its profile is not distinct enough to support an elliptical-product caption."
+    ],
+    "nextRevision": "Preserve the six-sided part; show a strongly elongated true elliptical profile with a camera angle that distinguishes it from a circular face in perspective. No straight obround sides.",
+    "reviewScope": "Visual product-geometry plausibility only; no dimensional or material certification."
+  }
+}

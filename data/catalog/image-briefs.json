@@ -1,61 +1,83 @@
 {
-  "version": 1,
+  "version": 3,
   "purpose": "Authoring source for the 36 product-image prompts. No image generation is performed by this file.",
   "referencePolicy": "User supplied three website screenshots as composition inspiration only; no additional product photographs will be supplied. Generate representative product illustrations from catalog descriptions. Do not claim drawing-level dimensional accuracy or actual stock photography.",
   "products": [
     {
       "id": "carbide-punches",
       "composition": "series",
-      "pieceCount": 3,
-      "descriptionZh": "3 支硬质合金冲头：两支圆形工作端、一支方形工作端，短而有支撑的刃口，深银灰色磨削表面。",
-      "subjectEn": "Exactly three solid-carbide punches: two with round cutting tips of different diameters and one with a square cutting tip. Compact supported cutting ends, cylindrical mounting shanks, cool dark-silver ground surfaces. All pieces separate.",
-      "reviewZh": "不要表现成钻头；不添加金色涂层或虚构焊缝。",
-      "avoidEn": "No drill flutes, gold coating or invented brazed joints."
+      "pieceCount": 5,
+      "descriptionZh": "5 支细长硬质合金冲头组合：圆形、方形、六角、长圆及台阶圆冲各一支，展示安装头和工作端。",
+      "subjectEn": "Exactly five complete elongated carbide punches, arranged separately in a shallow fan. All five have cylindrical support shanks and coherent retaining heads. Show their working ends clearly toward the camera. From left to right: (1) a straight round punch with a FLAT circular end face; (2) a cylindrical support shank transitioning to a short square cutting tip with a FLAT square end face; (3) a cylindrical support shank transitioning to a short true hexagonal cutting tip with exactly six straight sides and six corners on its FLAT end face; (4) a cylindrical support shank transitioning to a short obround cutting tip whose FLAT end-face outline has two parallel straight sides joined by two semicircular ends; (5) a round punch with two coaxial diameter reductions and a FLAT circular working face. Each cutting face is planar and perpendicular to its shaft axis, with crisp readable edges. Profiled tips occupy only a short working section ahead of a visibly larger supporting round shank. Do not extend the square, hexagonal or obround profile along the entire shaft. No domed or ball-ended working faces, no rounded screwdriver-like noses, no decorative longitudinal flats and no drill features. Preserve complete heads and tips, neutral cool gray carbide, slender straight bodies.",
+      "reviewZh": "5 件必须对应圆、方、六角、长圆、台阶圆；刃口为平整端面，六角数边、长圆检查两直边加两半圆；异形仅在短工作段，后部为圆柱支撑杆。背景按 #f5f6f7 校正。首稿圆端偏圆钝、长圆近似磨平圆头，未通过结构审核。",
+      "avoidEn": "No drill flutes, gold coating, invented brazed joints, domed cutting ends, soft bulbous edges, full-length polygonal shanks, longitudinally ground spoon-like obround tips or ambiguous polygon counts.",
+      "revisionAction": "refresh-after-sample-review"
     },
     {
       "id": "hss-punches",
       "composition": "series",
-      "pieceCount": 3,
-      "descriptionZh": "3 支高速钢冲头，采用不同长度和工作直径的圆形冲裁结构，统一银灰色。",
-      "subjectEn": "Exactly three high-speed-steel cutting punches, each with a cylindrical shank, a retaining head and a flat-ended round cutting tip; vary length and working diameter moderately. All silver ground metal, no coating.",
-      "reviewZh": "不靠颜色区分 SKH51、M2 或粉末钢牌号。",
-      "avoidEn": "Do not encode alloy grades with different colors or add printed grade labels."
+      "pieceCount": 4,
+      "descriptionZh": "4 支高速钢冲头：直身圆冲、台阶圆冲、矩形冲、六角冲，均为银灰色细长结构。",
+      "subjectEn": "Exactly four complete elongated silver HSS punches: one straight round, one stepped round, one rectangular and one hexagonal. Clear retaining heads and supported cutting ends, separated shallow fan layout, no color coding of grades.",
+      "reviewZh": "不靠颜色区分 SKH51、M2 或粉末钢牌号。 完整细长杆身，重点确认所有工作端轮廓和安装头，不满意则减少同图件数分步重做。",
+      "avoidEn": "Do not encode alloy grades with different colors or add printed grade labels.",
+      "revisionAction": "refresh-after-sample-review"
     },
     {
       "id": "stepped-punches",
       "composition": "series",
-      "pieceCount": 3,
-      "descriptionZh": "3 支台阶冲头：单台阶、多级缩径、T 形安装头各一支，工作端平整，错落但不遮挡台阶。",
-      "subjectEn": "Exactly three stepped cutting punches: one single-shoulder punch, one with two diameter reductions, and one reduced-tip punch with a disk-shaped T retaining head. Straight coaxial cylindrical sections, smaller working tip than support shank, flat cutting end faces and restrained transition radii.",
-      "reviewZh": "不要生成锥形针尖；台阶不能融化或轴线偏移。",
-      "avoidEn": "No needle points, melted shoulders, bent shafts or non-coaxial steps."
+      "pieceCount": 4,
+      "descriptionZh": "4 支台阶冲头：单台阶圆冲、多级圆冲、台阶方冲、T 头缩径冲，完整呈现肩位。",
+      "subjectEn": "Exactly four complete elongated stepped punches: single-step round, multi-step round, stepped square and T-head reduced round. Distinct supported tips, all shoulders visible, straight axes and moderate slenderness.",
+      "reviewZh": "不要生成锥形针尖；台阶不能融化或轴线偏移。 完整细长杆身，重点确认所有工作端轮廓和安装头，不满意则减少同图件数分步重做。",
+      "avoidEn": "No needle points, melted shoulders, bent shafts or non-coaxial steps.",
+      "revisionAction": "refresh-after-sample-review"
     },
     {
       "id": "stamping-die-punches",
       "composition": "series",
-      "pieceCount": 3,
-      "descriptionZh": "3 支冲压模冲头，圆形、矩形、长圆工作端各一支，展示不同孔型。",
-      "subjectEn": "Exactly three replaceable stamping punches with supported shanks and flat cutting faces: one round, one rectangular and one obround working profile. Show the working profiles clearly from the elevated viewing angle.",
-      "reviewZh": "不混入顶针、弹簧或整副模具。",
-      "avoidEn": "No ejector pins, springs, full die assemblies or decorative grooves."
+      "pieceCount": 4,
+      "descriptionZh": "4 件冲压模冲头组合：圆孔、矩形、长圆及切断工作端，安装端完整。",
+      "subjectEn": "Exactly four complete stamping punches: round piercing, rectangular piercing, obround slotting and a robust rectangular cut-off punch. Show supported working ends and mounting interfaces clearly; no die assembly or ejector pins.",
+      "reviewZh": "不混入顶针、弹簧或整副模具。 完整细长杆身，重点确认所有工作端轮廓和安装头，不满意则减少同图件数分步重做。",
+      "avoidEn": "No ejector pins, springs, full die assemblies or decorative grooves.",
+      "revisionAction": "refresh-after-sample-review"
     },
     {
       "id": "forming-punches",
       "composition": "series",
-      "pieceCount": 3,
-      "descriptionZh": "3 支异形冲头：六角、椭圆、圆滑曲面成型端各一支，工作轮廓可辨。",
-      "subjectEn": "Exactly three custom forming/profile punches: one hexagonal working profile, one oval profile and one broad rounded forming nose. Each has a substantial cylindrical mounting shank. Working-end profiles remain distinct and mechanically plausible.",
-      "reviewZh": "不要用任意尖刺表示异形；不要合并六角与圆形轮廓。",
-      "avoidEn": "No fantasy spikes, hybrid end profiles or fragile unsupported fins."
+      "pieceCount": 4,
+      "descriptionZh": "4 支异形与成型冲头：六角、椭圆、长圆、圆弧成型端，突出不同工作面。",
+      "subjectEn": "Exactly four complete supported forming/profile punches: hexagonal, elliptical, straight-sided obround and broad rounded convex forming nose. Slender but supported cylindrical shanks; each working end visually distinct.",
+      "reviewZh": "不要用任意尖刺表示异形；不要合并六角与圆形轮廓。 完整细长杆身，重点确认所有工作端轮廓和安装头，不满意则减少同图件数分步重做。",
+      "avoidEn": "No fantasy spikes, hybrid end profiles or fragile unsupported fins.",
+      "revisionAction": "refresh-after-sample-review"
     },
     {
       "id": "a-type-punches",
-      "composition": "single",
-      "pieceCount": 1,
-      "descriptionZh": "1 支代表性带头圆冲，展示安装头、圆柱杆与圆形工作端；不声称某一标准系列。",
-      "subjectEn": "One representative headed cylindrical round punch with a modest retaining head, straight ground shank and a flat circular cutting end. A generic catalog representation, not a dimensionally specified standard-series model.",
-      "reviewZh": "A 型标准未锁定，不加标准号、尺寸或夸张多级台阶。",
-      "avoidEn": "No standard numbers, dimensions, elaborate multi-step shoulders or invented proprietary details."
+      "composition": "series",
+      "pieceCount": 3,
+      "descriptionZh": "A 冲不同款式组合：单台阶圆冲、多级阶梯圆冲、锥肩缩径细针，各 1 支。",
+      "subjectEn": "Exactly THREE DIFFERENT TYPE-A STEPPED PUNCH DESIGNS in one coherent product-series photograph. The point is different construction styles, not the same design scaled to different lengths or diameters. The required distinct pieces are: LEFT: a conventional single-step round punch. One slim cylindrical cutting section above one larger support shank, with a distinct square annular shoulder and only a tiny root radius. A modest round retaining foot at the bottom. Two body diameters above the foot. No intermediate cylinder. CENTER: a visibly different heavy multi-stage stepped punch, with THREE stacked cylindrical body tiers above a modest retaining foot: a broad lower support barrel, a medium-diameter middle stage, and a slim upper working cylinder. Two widely separated square annular shoulders. The broad barrel is prominent, making a strong architectural staircase silhouette. Not a scaled copy of the left punch. RIGHT: a slender fine-tip punch whose support body transitions through a clearly visible LONG CONICAL SHOULDER to the very thin straight cylindrical working needle. The conical neck is the defining feature, distinct from the square shoulders on the other two. A small retaining foot at the bottom. Flat working end, never a sharp pointed needle. Stand the three separately on their retaining feet in a lightly staggered group, working ends upward, with the bulky multi-tier design in the center. Use a mildly elevated three-quarter view so shoulders and flat working faces are visible. Every complete silhouette must be readable without overlap. Shared neutral silver-gray ground-metal finish and the approved light-gray studio background. These are structural catalog examples, no standard numbers, labels or dimensions. No three copies, no same topology at different scales, no decorative grooves, no extra flanges or fourth object.",
+      "reviewZh": "三件的台阶数量、肩部形状及轮廓明确不同，不能只改变尺寸。",
+      "avoidEn": "No equal-diameter head-and-shank-only pin, no oversized flange, no pointed tip, no decorative rings or standard numbers.",
+      "revisionAction": "refresh-after-sample-review",
+      "status": "structural-styles-authored",
+      "generationReady": true,
+      "structuralVariants": [
+        {
+          "nameZh": "单台阶圆冲",
+          "geometryEn": "LEFT: a conventional single-step round punch. One slim cylindrical cutting section above one larger support shank, with a distinct square annular shoulder and only a tiny root radius. A modest round retaining foot at the bottom. Two body diameters above the foot. No intermediate cylinder."
+        },
+        {
+          "nameZh": "多级阶梯圆冲",
+          "geometryEn": "CENTER: a visibly different heavy multi-stage stepped punch, with THREE stacked cylindrical body tiers above a modest retaining foot: a broad lower support barrel, a medium-diameter middle stage, and a slim upper working cylinder. Two widely separated square annular shoulders. The broad barrel is prominent, making a strong architectural staircase silhouette. Not a scaled copy of the left punch."
+        },
+        {
+          "nameZh": "锥肩缩径细针",
+          "geometryEn": "RIGHT: a slender fine-tip punch whose support body transitions through a clearly visible LONG CONICAL SHOULDER to the very thin straight cylindrical working needle. The conical neck is the defining feature, distinct from the square shoulders on the other two. A small retaining foot at the bottom. Flat working end, never a sharp pointed needle."
+        }
+      ]
     },
     {
       "id": "tableting-punches",
@@ -64,7 +86,8 @@
       "descriptionZh": "1 套压片冲模：上冲、下冲、中模共 3 件，平行分开摆放，展示圆形浅凹冲面与中模通孔。",
       "subjectEn": "One separated three-part round-tablet tooling set: an upper punch, a lower punch and a cylindrical die with a round through-bore. Punches have substantial heads and narrow cylindrical tips with shallow concave round cup faces. Place all parts separately with cup faces and die bore visible.",
       "reviewZh": "不生成药片、刻字或未验证的压机接口；不把中模画成封闭实心块。",
-      "avoidEn": "No tablets, pills, embossed lettering, machine compatibility labels or closed solid die bore."
+      "avoidEn": "No tablets, pills, embossed lettering, machine compatibility labels or closed solid die bore.",
+      "revisionAction": "reuse-approved"
     },
     {
       "id": "straight-ejector-pins",
@@ -73,7 +96,8 @@
       "descriptionZh": "3 支直身顶针，长度适度变化，圆杆直径均匀、尾部扁圆头，顶出端平整。",
       "subjectEn": "Exactly three straight round ejector pins in a small length progression, each with a constant-diameter slender shaft, a flat disk retaining head at the rear and a flat working end. Continuous straight axes, silver polished steel.",
       "reviewZh": "不加冲裁刃口、针尖或钻头纹路。",
-      "avoidEn": "No piercing tips, drill flutes, cutting edges or arbitrary shaft steps."
+      "avoidEn": "No piercing tips, drill flutes, cutting edges or arbitrary shaft steps.",
+      "revisionAction": "new-main"
     },
     {
       "id": "shoulder-ejector-pins",
@@ -82,7 +106,8 @@
       "descriptionZh": "1 支带肩顶针，头部附近有清晰加粗定位肩，后接长直顶出杆。",
       "subjectEn": "One shoulder ejector pin with a flat retaining head, an enlarged locating shoulder immediately beside the head, and a long straight reduced-diameter ejector shaft ending in a flat face. Clearly distinguish the locating shoulder from the head.",
       "reviewZh": "不要将定位肩放到细长工作端中间；不要生成针尖。",
-      "avoidEn": "No pointed tip or enlarged locating collar halfway along the working tip."
+      "avoidEn": "No pointed tip or enlarged locating collar halfway along the working tip.",
+      "revisionAction": "new-main"
     },
     {
       "id": "stepped-ejector-pins",
@@ -91,7 +116,8 @@
       "descriptionZh": "2 支台阶顶针，粗支撑杆连接细顶出端，展示不同缩径长度。",
       "subjectEn": "Exactly two stepped ejector pins with rear retaining heads, thicker support shafts and long thinner round ejection ends. Use different step positions and reduced-tip lengths; both working ends flat and blunt.",
       "reviewZh": "要与带肩顶针区分；不画冲裁尖刃。",
-      "avoidEn": "No needle points or cutting bevels; emphasize the long reduced ejection end rather than a locating collar near the head."
+      "avoidEn": "No needle points or cutting bevels; emphasize the long reduced ejection end rather than a locating collar near the head.",
+      "revisionAction": "new-main"
     },
     {
       "id": "blade-ejector-pins",
@@ -100,7 +126,8 @@
       "descriptionZh": "1 支细长扁顶针，较长圆杆平顺过渡到窄薄矩形扁位；扁位宽度接近杆径，斜向摆放，同时看见宽面与厚度。",
       "subjectEn": "One slender blade ejector pin resting diagonally, with a round retaining head, a long cylindrical support shank and a smooth transition into a narrow thin rectangular blade. Blade width should be approximately equal to the support-shaft diameter, and the cylindrical support section visibly longer than the flat blade section; these are illustrative proportions, not manufacturing dimensions. Both the broad blade face and narrow thickness edge are visible. Flat blunt working end.",
       "reviewZh": "避免初版样图的宽铲状比例：扁位宽度接近杆径，圆杆明显长于扁位；工作端不能是刀刃。",
-      "avoidEn": "No sharpened knife edge, screwdriver tip, twisted blade or all-square shaft."
+      "avoidEn": "No sharpened knife edge, screwdriver tip, twisted blade or all-square shaft.",
+      "revisionAction": "new-main"
     },
     {
       "id": "square-ejector-pins",
@@ -109,7 +136,8 @@
       "descriptionZh": "1 支方顶针，方形工作段的两个侧面和端面可见，后接圆杆及安装头。",
       "subjectEn": "One square ejector pin with a visibly square-section working segment, a supporting round shank and a retaining head. Show two perpendicular flat sides and the square blunt end face, with a plausible transition to the round support.",
       "reviewZh": "不要画成薄片扁顶针；方形段不扭转。",
-      "avoidEn": "No thin blade geometry, twisting square shaft or pointed tip."
+      "avoidEn": "No thin blade geometry, twisting square shaft or pointed tip.",
+      "revisionAction": "new-main"
     },
     {
       "id": "ejector-sleeves",
@@ -118,7 +146,8 @@
       "descriptionZh": "2 支司筒，一支直身、一支台阶，均展示贯通内孔与合理壁厚。",
       "subjectEn": "Exactly two hollow ejector sleeves: one straight-body and one stepped-body sleeve, both with rear mounting shoulders. Tilt their open ends toward the camera so concentric through-bores and credible wall thicknesses are visible. Separate parts, no core pin inserted.",
       "reviewZh": "司筒不能是实心顶针；内外孔须同轴。",
-      "avoidEn": "No solid pins, blind bores, paper-thin walls or eccentric openings."
+      "avoidEn": "No solid pins, blind bores, paper-thin walls or eccentric openings.",
+      "revisionAction": "new-main"
     },
     {
       "id": "air-poppet-valves",
@@ -127,7 +156,8 @@
       "descriptionZh": "1 个闭合状态气顶阀，紧凑圆柱阀体及齐平圆阀面，展示模具安装件外形。",
       "subjectEn": "One compact mold air poppet valve in its closed state: a short cylindrical insert body with a circular flush poppet face and a fine annular separation line around the poppet. Silver machined steel, exterior view only.",
       "reviewZh": "不凭空展示内部气路、外露弹簧或高压气瓶。",
-      "avoidEn": "No internal cutaway, exposed spring, pressure cylinder, invented ports or hoses."
+      "avoidEn": "No internal cutaway, exposed spring, pressure cylinder, invented ports or hoses.",
+      "revisionAction": "new-main"
     },
     {
       "id": "guide-posts",
@@ -136,7 +166,8 @@
       "descriptionZh": "2 根导柱，长圆柱磨削导向段，后端安装肩部，展示不同长度。",
       "subjectEn": "Exactly two mold guide posts with substantial cylindrical ground guide surfaces, modest mounting shoulders and gently chamfered ends, in two lengths. Robust proportions, larger shaft diameter relative to length than ejector pins.",
       "reviewZh": "导柱不能细如顶针；不混入空心导套。",
-      "avoidEn": "No needle-like shafts, hollow tubes, screw threads on the guide surface or arbitrary grooves."
+      "avoidEn": "No needle-like shafts, hollow tubes, screw threads on the guide surface or arbitrary grooves.",
+      "revisionAction": "new-main"
     },
     {
       "id": "guide-bushings",
@@ -145,7 +176,8 @@
       "descriptionZh": "1 个直身钢导套，厚壁圆筒，斜视可见通孔和端面倒角。",
       "subjectEn": "One straight cylindrical steel guide bushing with a thick wall, concentric open through-bore, ground external cylinder and small end chamfers. Angle the bore toward the viewer.",
       "reviewZh": "不加法兰、石墨点或滚珠。",
-      "avoidEn": "No flange, graphite inserts, visible balls or sealed bore."
+      "avoidEn": "No flange, graphite inserts, visible balls or sealed bore.",
+      "revisionAction": "new-main"
     },
     {
       "id": "flanged-guide-bushings",
@@ -154,7 +186,8 @@
       "descriptionZh": "1 个法兰钢导套，筒体与法兰一体，突出法兰定位面及贯通内孔。",
       "subjectEn": "One steel guide bushing with an integral circular locating flange at one end, a cylindrical sleeve body and a concentric through-bore. Show the flange thickness, bore and mounting face clearly.",
       "reviewZh": "不混淆铜套；不随意增加螺孔或滚珠。",
-      "avoidEn": "No bronze coloration, graphite dots, arbitrary flange bolt holes or rolling elements."
+      "avoidEn": "No bronze coloration, graphite dots, arbitrary flange bolt holes or rolling elements.",
+      "revisionAction": "new-main"
     },
     {
       "id": "guide-sets",
@@ -163,7 +196,8 @@
       "descriptionZh": "1 套滑动导向组件：配套导柱与导套共 2 件，分开且同轴对应。",
       "subjectEn": "One matched sliding guide set comprising exactly two separate pieces: one ground steel guide post and one flanged steel guide bushing. Align the components on a shared diagonal axis with a visible gap. Post guide diameter must visually fit the bushing bore.",
       "reviewZh": "此图仅表现滑动式，不混入滚珠保持架或暗示所有组合可互换。",
-      "avoidEn": "No ball cage, mismatched bore diameter, impossible assembly or overlap hiding the fit surfaces."
+      "avoidEn": "No ball cage, mismatched bore diameter, impossible assembly or overlap hiding the fit surfaces.",
+      "revisionAction": "new-main"
     },
     {
       "id": "ball-cages",
@@ -172,7 +206,8 @@
       "descriptionZh": "1 个铜质滚珠保持架，薄壁圆筒架体、规则孔位中的独立钢球，中央贯通。",
       "subjectEn": "One brass ball cage for a mold guide system: an open thin-walled cylindrical brass retainer holding separate polished steel balls in evenly spaced rows. Balls are seated in individual pockets and protrude slightly from inner and outer surfaces. The central cylindrical passage is open.",
       "reviewZh": "钢球不能变成黑色石墨点；不得出现漂浮钢球或封闭实心筒。",
-      "avoidEn": "No black graphite dots, floating balls, solid closed cylinder or fused steel beads."
+      "avoidEn": "No black graphite dots, floating balls, solid closed cylinder or fused steel beads.",
+      "revisionAction": "new-main"
     },
     {
       "id": "ball-bearing-bushings",
@@ -181,7 +216,8 @@
       "descriptionZh": "1 个滚珠导套单元，外部厚壁钢套，开口处露出少量内部滚动元件。",
       "subjectEn": "One complete ball-bearing guide bushing unit with a substantial cylindrical steel outer sleeve and a visible open inner passage. Show only the accessible internal retainer and a few seated steel balls near the opening, with most of the mechanism enclosed by the outer sleeve.",
       "reviewZh": "区别于裸露保持架；不做未经验证的剖面和复杂滚珠回流结构。",
-      "avoidEn": "No bare standalone cage, cutaway, exposed external ball rows or invented recirculating mechanism."
+      "avoidEn": "No bare standalone cage, cutaway, exposed external ball rows or invented recirculating mechanism.",
+      "revisionAction": "new-main"
     },
     {
       "id": "rectangular-die-springs",
@@ -190,7 +226,8 @@
       "descriptionZh": "5 个矩形线材模具弹簧，黄、蓝、红、绿、棕各一个，分开站立，清晰展示矩形线材。",
       "subjectEn": "Exactly five separate compression die springs made from rectangular-section wire, one each yellow, blue, red, green and brown. Upright side-by-side arrangement, modest size variation, visible rectangular wire faces, open helix gaps and finished end coils. Realistic satin painted surfaces.",
       "reviewZh": "不能变成圆线弹簧；颜色仅示系列外观，不通过文字或比例声称负荷标准。",
-      "avoidEn": "No round-wire springs, fused coils, load-rating labels, standardized force claims or arbitrary numeric markings."
+      "avoidEn": "No round-wire springs, fused coils, load-rating labels, standardized force claims or arbitrary numeric markings.",
+      "revisionAction": "new-main"
     },
     {
       "id": "nitrogen-gas-springs",
@@ -199,7 +236,8 @@
       "descriptionZh": "1 个紧凑氮气弹簧，黑色圆柱壳体、顶部导向密封圈和伸出的银色活塞杆。",
       "subjectEn": "One compact nitrogen die gas spring, with a short robust black cylindrical body, a top rod guide/seal collar and one centered polished steel piston rod partially extended. Closed exterior product view.",
       "reviewZh": "不出现外绕螺旋弹簧、气管、压力数值或品牌。",
-      "avoidEn": "No external helical coil, hoses, pressure values, brand marks or exposed internals."
+      "avoidEn": "No external helical coil, hoses, pressure values, brand marks or exposed internals.",
+      "revisionAction": "new-main"
     },
     {
       "id": "sprue-bushings",
@@ -208,7 +246,8 @@
       "descriptionZh": "1 个浇口套，带头部法兰和筒身，喷嘴侧凹球面入口及中心浇口可见。",
       "subjectEn": "One steel injection-mold sprue bushing with a broad head flange, a cylindrical shank and a centered sprue opening in a shallow concave nozzle-contact face. Show the head opening and shank in the same three-quarter view.",
       "reviewZh": "不画成实心螺栓；不虚构透明剖面或内部锥度尺寸。",
-      "avoidEn": "No solid closed inlet, bolt threads, transparent cutaway or taper dimensions."
+      "avoidEn": "No solid closed inlet, bolt threads, transparent cutaway or taper dimensions.",
+      "revisionAction": "new-main"
     },
     {
       "id": "locating-rings",
@@ -217,7 +256,8 @@
       "descriptionZh": "2 个定位圈，平面型和台阶型各一件，中央大孔、环形定位面清楚。",
       "subjectEn": "Exactly two steel mold locating rings: one plain annular ring and one stepped annular ring with a raised locating shoulder. Broad circular central openings and machined annular faces. Keep both openings unobstructed.",
       "reviewZh": "不生成齿轮或滚动轴承；不增加无依据的孔阵列。",
-      "avoidEn": "No gear teeth, bearing balls or arbitrary arrays of mounting holes."
+      "avoidEn": "No gear teeth, bearing balls or arbitrary arrays of mounting holes.",
+      "revisionAction": "new-main"
     },
     {
       "id": "mold-date-stamps",
@@ -226,7 +266,8 @@
       "descriptionZh": "1 个日期章，圆柱外套与可调中心镶件，正面能看清月份刻度及指向关系。",
       "subjectEn": "One cylindrical mold date stamp viewed toward its marking face: a circular steel outer insert with exactly twelve evenly spaced small engraved month numerals 1 through 12, and a separate flush central adjustable insert carrying one simple arrow pointing to a single numeral. Crisp concentric construction.",
       "reviewZh": "仅此产品允许功能性数字；数字错误不得上架，不用整图标语或品牌遮盖。",
-      "avoidEn": "No repeated or missing month numerals, impossible arrow, fake year, decorative text, branding or surrounding captions."
+      "avoidEn": "No repeated or missing month numerals, impossible arrow, fake year, decorative text, branding or surrounding captions.",
+      "revisionAction": "new-main"
     },
     {
       "id": "side-locks",
@@ -235,7 +276,8 @@
       "descriptionZh": "1 对侧锁，公块与母块共 2 件，分开展示可相互配合的凸台和凹槽。",
       "subjectEn": "One two-piece mold side-lock pair: a steel male locating block with a straight raised locating tongue and a matching female block with a complementary open recess. Show both mating surfaces separately at the same scale and alignment.",
       "reviewZh": "不要两块都做成凸块；不凭空悬浮拼装。",
-      "avoidEn": "No two male halves, incompatible mating shapes, floating assembled parts or unnecessary decorative features."
+      "avoidEn": "No two male halves, incompatible mating shapes, floating assembled parts or unnecessary decorative features.",
+      "revisionAction": "new-main"
     },
     {
       "id": "stopper-bolts",
@@ -244,7 +286,8 @@
       "descriptionZh": "1 支带肩限位螺栓，圆头内六角、光滑定位肩与较短外螺纹端。",
       "subjectEn": "One mold stopper shoulder bolt with a cylindrical socket head, a long smooth precision shoulder and a shorter reduced-diameter external threaded end. Show the shoulder-to-thread transition and socket clearly.",
       "reviewZh": "不能全长带螺纹；螺纹不得沿错误方向或融化。",
-      "avoidEn": "No fully threaded shoulder, malformed thread, bent axis or mismatched socket geometry."
+      "avoidEn": "No fully threaded shoulder, malformed thread, bent axis or mismatched socket geometry.",
+      "revisionAction": "new-main"
     },
     {
       "id": "pull-rods",
@@ -253,7 +296,8 @@
       "descriptionZh": "2 支模具拉杆，一支螺纹端式、一支带肩端式，长直杆与连接端清楚可见。",
       "subjectEn": "Exactly two straight mold pull rods, one with a short external threaded connection end and one with a distinct integral shoulder end. Long sturdy cylindrical bodies, clearly visible end connections, silver machined steel.",
       "reviewZh": "不要拉伸成钢丝，不添加螺旋弹簧或不明机构。",
-      "avoidEn": "No flexible wire, spring coils, hooks or invented linked mechanism."
+      "avoidEn": "No flexible wire, spring coils, hooks or invented linked mechanism.",
+      "revisionAction": "new-main"
     },
     {
       "id": "graphite-bronze-bushings",
@@ -262,7 +306,8 @@
       "descriptionZh": "2 个石墨铜套，直筒与法兰各一个；内孔轴承工作面清晰可见规则深灰石墨嵌块，两件之间留有明显间距。",
       "subjectEn": "Exactly two graphite-plugged bronze inner-diameter sliding bushings: one straight sleeve and one integral-flange sleeve. Warm muted bronze matrix, concentric open through-bores, and separate flush dark circular solid-lubricant plugs clearly visible in orderly staggered positions on the INNER bore bearing surface. Do not place all plugs exclusively on the outer cylinder. Orient both openings toward the camera; preserve a visible air gap between the two parts.",
       "reviewZh": "不能像初稿只在外壁有石墨点；核对内孔工作面的嵌块，石墨不能成为通孔或凸起钢球。",
-      "avoidEn": "No drilled-through graphite holes, raised steel balls, random black smears or mirror-gold jewelry finish."
+      "avoidEn": "No drilled-through graphite holes, raised steel balls, random black smears or mirror-gold jewelry finish.",
+      "revisionAction": "new-main"
     },
     {
       "id": "bronze-bushings",
@@ -271,7 +316,8 @@
       "descriptionZh": "1 个普通铜套，光孔厚壁圆筒，暖铜色机加工纹理，无石墨点。",
       "subjectEn": "One plain bronze sleeve bushing with a smooth open concentric bore, thick cylindrical wall, small chamfers and subtle machining marks. Muted warm bronze tone without inserted lubricant plugs.",
       "reviewZh": "不得出现黑色石墨点；不要暗示普通铜套天然自润滑。",
-      "avoidEn": "No graphite plugs, ball elements, gold plating or added self-lubricating labels."
+      "avoidEn": "No graphite plugs, ball elements, gold plating or added self-lubricating labels.",
+      "revisionAction": "new-main"
     },
     {
       "id": "flanged-bronze-bushings",
@@ -280,7 +326,8 @@
       "descriptionZh": "1 个普通法兰铜套，突出法兰环面、筒体和中央贯通孔，采用无石墨代表款。",
       "subjectEn": "One plain bronze flanged bushing with an integral annular flange at one end of a cylindrical sleeve, an open concentric bore, restrained edge chamfers and a warm machined bronze finish. No solid-lubricant inserts in this selected variant.",
       "reviewZh": "法兰与筒体须一体；不添加石墨点、螺栓或钢轴。",
-      "avoidEn": "No separate loose flange, graphite dots, bolts or inserted steel shaft."
+      "avoidEn": "No separate loose flange, graphite dots, bolts or inserted steel shaft.",
+      "revisionAction": "new-main"
     },
     {
       "id": "wear-plates",
@@ -289,7 +336,8 @@
       "descriptionZh": "2 块铜合金耐磨板：一块镶石墨、一块带浅油槽，倾斜展示平面和厚度。",
       "subjectEn": "Exactly two rectangular bronze-alloy wear plates resting separately: one with orderly flush circular graphite plugs on its broad bearing face, the other with shallow machined lubrication grooves. Flat parallel surfaces, modest plate thickness, subtle chamfered edges.",
       "reviewZh": "石墨点不可成为通孔；油槽不可变成贯穿裂缝。",
-      "avoidEn": "No graphite through-holes, deep cracks, warped plates or jewelry-gold reflections."
+      "avoidEn": "No graphite through-holes, deep cracks, warped plates or jewelry-gold reflections.",
+      "revisionAction": "new-main"
     },
     {
       "id": "precision-dowel-pins",
@@ -298,7 +346,8 @@
       "descriptionZh": "3 根精密圆柱销，短实心圆柱、两端轻倒角，长度和直径适度变化。",
       "subjectEn": "Exactly three short solid precision dowel pins with straight constant-diameter ground cylinders, flat ends and small end chamfers. A modest progression in length and diameter, all silver steel.",
       "reviewZh": "不添加安装头、螺纹、孔或锥形针尖。",
-      "avoidEn": "No retaining heads, threads, hollow ends or conical pilot tips."
+      "avoidEn": "No retaining heads, threads, hollow ends or conical pilot tips.",
+      "revisionAction": "new-main"
     },
     {
       "id": "threaded-dowel-pins",
@@ -307,7 +356,8 @@
       "descriptionZh": "2 根定位销，一根端面内螺纹拔出孔、一根短外螺纹端，定位圆柱面保持光滑。",
       "subjectEn": "Exactly two threaded locating dowel pins: one with a clearly visible internal extraction thread in one end face, and one with a short reduced external threaded end. Both retain a substantial smooth ground cylindrical locating body.",
       "reviewZh": "内螺纹孔不能是光孔；不要全杆螺纹或螺栓大头。",
-      "avoidEn": "No smooth unthreaded extraction hole, fully threaded locating body or oversized bolt head."
+      "avoidEn": "No smooth unthreaded extraction hole, fully threaded locating body or oversized bolt head.",
+      "revisionAction": "new-main"
     },
     {
       "id": "pilot-pins",
@@ -316,7 +366,8 @@
       "descriptionZh": "2 根导正销，圆形导入端和带削边导入端各一支，头部短而圆滑，后接定位段。",
       "subjectEn": "Exactly two stamping pilot pins with supported locating bodies: one with a short gently tapered rounded lead-in nose, and one with a small relieved flat on the lead-in region. Show smooth transitions into the cylindrical locating diameters.",
       "reviewZh": "不能成为长尖针或普通平头顶针；削边不能切断杆部。",
-      "avoidEn": "No long needle points, flat-ended ejector tips or broken shaft at the relieved area."
+      "avoidEn": "No long needle points, flat-ended ejector tips or broken shaft at the relieved area.",
+      "revisionAction": "new-main"
     },
     {
       "id": "floating-pins",
@@ -325,7 +376,8 @@
       "descriptionZh": "1 个代表性浮升销，宽圆形承料头、台阶导向杆，展示承料面，不展示内部弹簧。",
       "subjectEn": "One representative stamping-strip lifter pin with a broad flat round stock-supporting head and a stepped cylindrical guide stem. Short robust proportions, flat support surface, exterior component only.",
       "reviewZh": "具体浮料结构按图定制；不要生成外露弹簧、尖头或滚轮。",
-      "avoidEn": "No exposed coil spring, piercing tip, wheel or invented internal actuation mechanism."
+      "avoidEn": "No exposed coil spring, piercing tip, wheel or invented internal actuation mechanism.",
+      "revisionAction": "new-main"
     }
   ],
   "categoryComposites": [

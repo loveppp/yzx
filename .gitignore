@@ -21,3 +21,6 @@ output/product-images/**/provider-*.json
 
 # htx99 reference thumbnails (URLs kept in CSV only)
 data/htx99-reference/images/
+
+# Local public-reference extracts used for editorial review
+output/catalog-reference-review/

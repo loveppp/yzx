@@ -1,0 +1,108 @@
+{
+  "assets": [
+    {
+      "id": "carbide-punches--type-a",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "type-a"
+      ],
+      "image": "/images/products/catalog/a-type-punches-2026-09-30T06-22-03-175Z.jpg",
+      "name": {
+        "zh": "A 冲款式 · 单台阶 / 多级阶梯 / 锥肩",
+        "en": "Type A styles · single-step / multi-stage / tapered shoulder",
+        "vi": "Kiểu chày A · một bậc / nhiều bậc / vai côn"
+      }
+    },
+    {
+      "id": "carbide-punches--profiles",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "profile"
+      ],
+      "image": "/images/products/details/carbide-punches--profiles-2026-09-30T05-22-25-005Z.jpg",
+      "name": {
+        "zh": "方形与矩形刃口",
+        "en": "Square, rectangular and custom profiles",
+        "vi": "Biên dạng vuông, chữ nhật và tùy chỉnh"
+      }
+    },
+    {
+      "id": "carbide-punches--stepped",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "stepped"
+      ],
+      "image": "/images/products/details/carbide-punches--stepped-2026-09-30T05-23-42-282Z.jpg",
+      "name": {
+        "zh": "硬质合金台阶结构",
+        "en": "Stepped and carbide-tipped designs",
+        "vi": "Kết cấu bậc và gắn đầu carbide"
+      }
+    },
+    {
+      "id": "carbide-punches--cutoff",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "cutting"
+      ],
+      "image": "/images/products/details/carbide-punches--cutoff-2026-09-30T05-25-09-322Z.jpg",
+      "name": {
+        "zh": "切断冲头工作端",
+        "en": "Cut-off and precision piercing",
+        "vi": "Cắt đứt và đột chính xác"
+      }
+    },
+    {
+      "id": "carbide-punches--type-t",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "type-t"
+      ],
+      "image": "/images/products/details/carbide-punches--type-t-2026-09-30T06-11-08-393Z.jpg",
+      "name": {
+        "zh": "T 型单肩冲针系列",
+        "en": "Type T single-shoulder punch",
+        "vi": "Chày một vai loại T"
+      }
+    },
+    {
+      "id": "carbide-punches--hexagonal",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "hexagonal"
+      ],
+      "image": "/images/products/details/carbide-punches--hexagonal-2026-09-30T05-46-20-619Z.jpg",
+      "name": {
+        "zh": "六角冲头 · 六边形工作端",
+        "en": "Hexagonal punch",
+        "vi": "Chày lục giác"
+      }
+    },
+    {
+      "id": "carbide-punches--oval-obround",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "oval"
+      ],
+      "image": "/images/products/details/carbide-punches--oval-obround-2026-09-30T05-47-30-293Z.jpg",
+      "name": {
+        "zh": "椭圆与长圆 · 两种工作轮廓",
+        "en": "Oval and obround punches",
+        "vi": "Chày oval và đầu dài bo tròn"
+      }
+    },
+    {
+      "id": "carbide-punches--coated",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "coated"
+      ],
+      "image": "/images/products/details/carbide-punches--coated-2026-09-30T05-49-12-262Z.jpg",
+      "name": {
+        "zh": "未涂层与涂层 · 外观对比",
+        "en": "Coating and wear options",
+        "vi": "Lớp phủ và chống mài mòn"
+      }
+    }
+  ]
+}

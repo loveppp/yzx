@@ -1,7 +1,13 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+import CatalogRangeIndex from '@/components/CatalogRangeIndex.astro';
 import CatalogCard from '@/components/CatalogCard.astro';
 import QuoteSection from '@/components/QuoteSection.astro';
+import PunchShowcase from '@/components/PunchShowcase.astro';
+import PunchProfileGuide from '@/components/PunchProfileGuide.astro';
+import {detailUI} from '@/data/catalog-details';
+import {punchCopy,punchText} from '@/data/punch-specialist';
+import {productById,productPath} from '@/data/catalog';
 import {catalogGroups,groupProducts,catalogText,legacyCategories,legacyDestination} from '@/data/catalog';
 import {catalogUI} from '@/data/catalog-ui';
 import {locales,useTranslations,type Locale} from '@/i18n/utils';
@@ -12,13 +18,21 @@ const group=catalogGroups.find(g=>g.id===category);
 if(!group)return Astro.redirect(legacyDestination(legacyCategories[category],locale),301);
 const ui=catalogUI(locale);const t=useTranslations(locale);
 const products=groupProducts(group.id);
+const punch=group.id==='punch-components';
+const tx=(v:Record<Locale,string>)=>punchText(v,locale);
 ---
 <Layout title={`${catalogText(group.name,locale)} | YZX Precision`} description={catalogText(group.intro,locale)} path={`/${locale}/products/${group.id}/`}>
-  <section class="border-b border-borui-navy/10 px-5 py-9 md:px-8 md:py-14"><div class="content-wrap">
+  {punch?<>
+    <PunchShowcase locale={locale}/>
+    <nav class="border-b border-borui-navy/10 px-5 py-4 md:px-8" aria-label={ui.browse}><div class="content-wrap flex flex-wrap gap-x-6 gap-y-2 text-sm"><a class="py-2 underline underline-offset-4" href="#range-index">{tx(detailUI.overview)}</a><a class="py-2 underline underline-offset-4" href="#materials">{tx(punchCopy.materialTitle)}</a><a class="py-2 underline underline-offset-4" href="#working-profiles">{tx(punchCopy.profiles)}</a><a class="py-2 underline underline-offset-4" href="#mounting-structures">{tx(punchCopy.structures)}</a><a class="py-2 underline underline-offset-4" href="#components">{tx(punchCopy.familyTitle)}</a></div></nav>
+    <section class="section-padding !pb-0" id="materials"><div class="content-wrap"><h2 class="text-2xl md:text-3xl">{tx(punchCopy.materialTitle)}</h2><div class="mt-6 grid gap-4 md:grid-cols-3">{punchCopy.materials.map(m=><a class="border-t-2 border-borui-brass bg-white p-5" href={productPath(productById(m.id)!,locale)}><h3 class="text-xl">{tx(m.label)} ↗</h3><p class="mt-3 text-sm leading-relaxed text-slate-600">{tx(m.desc)}</p></a>)}</div></div></section>
+  </>:<section class="border-b border-borui-navy/10 px-5 py-9 md:px-8 md:py-14"><div class="content-wrap">
     <nav aria-label="Breadcrumb" class="mb-7 flex flex-wrap gap-2 text-xs text-slate-600"><a href={`/${locale}/`}>{ui.home}</a><span aria-hidden="true">/</span><a href={`/${locale}/products/`}>{ui.title}</a><span aria-hidden="true">/</span><span aria-current="page">{catalogText(group.name,locale)}</span></nav>
     <p class="text-xs uppercase tracking-[.18em] text-slate-500">{ui.family}</p>
-    <div class="mt-3 grid gap-6 lg:grid-cols-[1.25fr_1fr]"><div><h1 class="text-3xl md:text-5xl">{catalogText(group.name,locale)}</h1><p class="mt-5 max-w-2xl leading-relaxed text-slate-600">{catalogText(group.intro,locale)}</p><a href="#components" class="mt-6 inline-block text-sm font-medium underline underline-offset-4">{ui.browse} ↓</a></div><div class="border-l-2 border-borui-brass pl-5"><h2 class="text-xl">{ui.select}</h2><ul class="mt-3 space-y-3 text-sm leading-relaxed text-slate-600">{catalogText(group.selection,locale).split(/[;；]/).map(s=><li>{s.trim()}</li>)}</ul></div></div>
-  </div></section>
-  <section class="section-padding !py-10 md:!py-14" id="components"><div class="content-wrap"><div class="mb-6 flex items-center justify-between gap-4"><h2 class="text-xl md:text-2xl">{ui.browse}</h2><span class="text-sm text-slate-600">{products.length} {ui.catalogCount}</span></div><div class="grid grid-cols-2 gap-3 md:gap-5 lg:grid-cols-3">{products.map(product=><CatalogCard product={product} locale={locale}/>)}</div></div></section>
+    <div class="mt-3 grid gap-6 lg:grid-cols-[1.25fr_1fr]"><div><h1 class="text-3xl md:text-5xl">{catalogText(group.name,locale)}</h1><p class="mt-5 max-w-2xl leading-relaxed text-slate-600">{catalogText(group.intro,locale)}</p><a href="#components" class="mt-6 inline-block text-sm font-medium underline underline-offset-4">{ui.browse} ↓</a><a href="#range-index" class="ml-5 mt-6 inline-block text-sm font-medium underline underline-offset-4">{tx(detailUI.overview)} ↓</a></div><div class="border-l-2 border-borui-brass pl-5"><h2 class="text-xl">{ui.select}</h2><ul class="mt-3 space-y-3 text-sm leading-relaxed text-slate-600">{catalogText(group.selection,locale).split(/[;；]/).map(s=><li>{s.trim()}</li>)}</ul></div></div>
+  </div></section>}
+  <section class="section-padding !py-10 md:!py-14" id="components"><div class="content-wrap"><div class="mb-6 flex items-center justify-between gap-4"><h2 class="text-xl md:text-2xl">{punch?tx(punchCopy.familyTitle):ui.browse}</h2><span class="text-sm text-slate-600">{products.length} {ui.catalogCount}</span></div><div class="grid grid-cols-2 gap-3 md:gap-5 lg:grid-cols-3">{products.map(product=><CatalogCard product={product} locale={locale}/>)}</div></div></section>
+  <CatalogRangeIndex products={products} locale={locale}/>
+  {punch&&<section class="section-padding !pt-0"><div class="content-wrap"><PunchProfileGuide locale={locale}/></div></section>}
   <QuoteSection t={t} locale={locale} category={group.id}/>
 </Layout>

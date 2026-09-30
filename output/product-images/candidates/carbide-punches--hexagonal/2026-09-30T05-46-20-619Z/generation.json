@@ -1,0 +1,85 @@
+{
+  "id": "carbide-punches--hexagonal",
+  "model": "gemini-3.1-flash-image",
+  "createdAt": "2026-09-30T05:46:20.621Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches--hexagonal/2026-09-30T05-46-20-619Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1328155,
+  "usage": {
+    "promptTokenCount": 865,
+    "candidatesTokenCount": 2083,
+    "totalTokenCount": 2948,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 607
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1680
+      }
+    ],
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1060
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1120
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 405
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 2180,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1060
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1120
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 405
+          }
+        ]
+      }
+    ]
+  },
+  "publishedAt": "2026-09-30T05:46:52.282Z",
+  "publicPath": "/images/products/details/carbide-punches--hexagonal-2026-09-30T05-46-20-619Z.jpg",
+  "previousImage": null,
+  "publicationMode": "direct-original-user-requested",
+  "visualReview": {
+    "status": "not-performed",
+    "note": "User requested direct use without iterative inspection or image processing."
+  }
+}

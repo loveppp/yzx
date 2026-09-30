@@ -1,0 +1,816 @@
+{
+  "reviewDate": "2026-09-30",
+  "groups": 7,
+  "families": 36,
+  "configurationOptions": 122,
+  "reviewedPublicPages": 35,
+  "notes": [
+    "Carbide and tungsten-carbide public pages map to one material family.",
+    "Pilot pins remain a distinct locating family linked from punch pages.",
+    "A-type, forming and other derived families organize related structures without claiming a separate verified HTX source.",
+    "Menu-only auxiliary parts use original functional guidance; no competitor capacity, stock, tolerance or certification claims are copied."
+  ],
+  "familiesReviewed": [
+    {
+      "productId": "carbide-punches",
+      "group": "punch-components",
+      "configurationIds": [
+        "type-a",
+        "type-t",
+        "stepped",
+        "profile",
+        "hexagonal",
+        "oval",
+        "cutting",
+        "coated"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/carbide-punch/",
+        "https://htxprecision.com/tungsten-carbide-punch/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "hss-punches",
+      "group": "punch-components",
+      "configurationIds": [
+        "round",
+        "flat",
+        "square",
+        "stepped",
+        "profile",
+        "ejecting"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/hss-punch/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "stepped-punches",
+      "group": "punch-components",
+      "configurationIds": [
+        "single",
+        "multiple",
+        "square",
+        "custom",
+        "headed"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/stepped-punch/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "stamping-die-punches",
+      "group": "punch-components",
+      "configurationIds": [
+        "piercing",
+        "profile",
+        "cutoff",
+        "replacement"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/stamping-die-punch/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "forming-punches",
+      "group": "punch-components",
+      "configurationIds": [
+        "polygon",
+        "obround",
+        "angled",
+        "forming"
+      ],
+      "reviewedSourceUrls": [],
+      "referenceBasis": "menu-or-derived-family; original engineering copy, no dedicated HTX detail page verified",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "a-type-punches",
+      "group": "punch-components",
+      "configurationIds": [
+        "round",
+        "flat",
+        "custom"
+      ],
+      "reviewedSourceUrls": [],
+      "referenceBasis": "menu-or-derived-family; original engineering copy, no dedicated HTX detail page verified",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "tableting-punches",
+      "group": "punch-components",
+      "configurationIds": [
+        "upper",
+        "lower",
+        "die",
+        "shape",
+        "engraved",
+        "multi-tip"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/dies-and-punches-for-tableting/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "straight-ejector-pins",
+      "group": "ejector-components",
+      "configurationIds": [
+        "plain",
+        "skd61",
+        "nitrided",
+        "custom"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/ejector-pins-for-injection-molding/",
+        "https://htxprecision.com/straight-ejector-pin/",
+        "https://htxprecision.com/nitrided-ejector-pin/",
+        "https://htxprecision.com/skd61-ejector-pin/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "shoulder-ejector-pins",
+      "group": "ejector-components",
+      "configurationIds": [
+        "locating",
+        "head",
+        "surface"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/shoulder-ejector-pins/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "stepped-ejector-pins",
+      "group": "ejector-components",
+      "configurationIds": [
+        "single",
+        "multi",
+        "shaped"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/step-ejector-pin/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "blade-ejector-pins",
+      "group": "ejector-components",
+      "configurationIds": [
+        "flat",
+        "contoured",
+        "custom"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/blade-ejector-pin/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "square-ejector-pins",
+      "group": "ejector-components",
+      "configurationIds": [
+        "square",
+        "transition",
+        "profile"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/square-ejector-pin/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "ejector-sleeves",
+      "group": "ejector-components",
+      "configurationIds": [
+        "thin",
+        "long",
+        "stepped",
+        "straight",
+        "integrated"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/ejector-sleeve/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "air-poppet-valves",
+      "group": "ejector-components",
+      "configurationIds": [
+        "spring",
+        "mount"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/Air-Poppet-Valve/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "guide-posts",
+      "group": "guide-components",
+      "configurationIds": [
+        "mold",
+        "stripper",
+        "rolling",
+        "nitrided"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/guide-pin/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "guide-bushings",
+      "group": "guide-components",
+      "configurationIds": [
+        "straight",
+        "stripper",
+        "ejector"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/guide-bushing/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "flanged-guide-bushings",
+      "group": "guide-components",
+      "configurationIds": [
+        "shoulder",
+        "flange",
+        "custom"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/guide-pillar-and-guide-bush/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "guide-sets",
+      "group": "guide-components",
+      "configurationIds": [
+        "sliding",
+        "ball",
+        "assembly"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/guide-pillar-and-guide-bush/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "ball-cages",
+      "group": "guide-components",
+      "configurationIds": [
+        "brass",
+        "aluminum",
+        "polymer"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/ball-cage/",
+        "https://htxprecision.com/brass-ball-cage/",
+        "https://htxprecision.com/aluminum-ball-cage/",
+        "https://htxprecision.com/plastic-ball-cage/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "ball-bearing-bushings",
+      "group": "guide-components",
+      "configurationIds": [
+        "unit",
+        "matched"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/Ball-bearing-bushing/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "rectangular-die-springs",
+      "group": "die-springs",
+      "configurationIds": [
+        "yellow",
+        "blue",
+        "red",
+        "green",
+        "brown"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/die-springs-mold-springs/",
+        "https://htxprecision.com/red-die-spring/",
+        "https://htxprecision.com/blue-die-spring/",
+        "https://htxprecision.com/green-die-spring/",
+        "https://htxprecision.com/yellow-die-spring/",
+        "https://htxprecision.com/brown-die-spring/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "nitrogen-gas-springs",
+      "group": "die-springs",
+      "configurationIds": [
+        "compact",
+        "mounting",
+        "replacement"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/die-springs-mold-springs/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "sprue-bushings",
+      "group": "plastic-mold-components",
+      "configurationIds": [
+        "type-a",
+        "type-b",
+        "type-c",
+        "cold",
+        "heated",
+        "compact"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/sprue-bushing/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "locating-rings",
+      "group": "plastic-mold-components",
+      "configurationIds": [
+        "flat",
+        "stepped"
+      ],
+      "reviewedSourceUrls": [],
+      "referenceBasis": "menu-or-derived-family; original engineering copy, no dedicated HTX detail page verified",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "mold-date-stamps",
+      "group": "plastic-mold-components",
+      "configurationIds": [
+        "date",
+        "code"
+      ],
+      "reviewedSourceUrls": [],
+      "referenceBasis": "menu-or-derived-family; original engineering copy, no dedicated HTX detail page verified",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "side-locks",
+      "group": "plastic-mold-components",
+      "configurationIds": [
+        "side",
+        "pair"
+      ],
+      "reviewedSourceUrls": [],
+      "referenceBasis": "menu-or-derived-family; original engineering copy, no dedicated HTX detail page verified",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "stopper-bolts",
+      "group": "plastic-mold-components",
+      "configurationIds": [
+        "shoulder",
+        "travel"
+      ],
+      "reviewedSourceUrls": [],
+      "referenceBasis": "menu-or-derived-family; original engineering copy, no dedicated HTX detail page verified",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "pull-rods",
+      "group": "plastic-mold-components",
+      "configurationIds": [
+        "thread",
+        "shoulder"
+      ],
+      "reviewedSourceUrls": [],
+      "referenceBasis": "menu-or-derived-family; original engineering copy, no dedicated HTX detail page verified",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "graphite-bronze-bushings",
+      "group": "bronze-components",
+      "configurationIds": [
+        "cylindrical",
+        "flange",
+        "square"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/graphite-bronze-bushings/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "bronze-bushings",
+      "group": "bronze-components",
+      "configurationIds": [
+        "plain",
+        "grooved"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/guide-pillar-and-guide-bush/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "flanged-bronze-bushings",
+      "group": "bronze-components",
+      "configurationIds": [
+        "plain",
+        "plugged"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/graphite-bronze-bushings/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "wear-plates",
+      "group": "bronze-components",
+      "configurationIds": [
+        "graphite",
+        "oil"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/graphite-bronze-bushings/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "precision-dowel-pins",
+      "group": "dowel-pins",
+      "configurationIds": [
+        "ground",
+        "hardened",
+        "custom"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/dowel-pins/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "threaded-dowel-pins",
+      "group": "dowel-pins",
+      "configurationIds": [
+        "pull",
+        "external",
+        "units"
+      ],
+      "reviewedSourceUrls": [
+        "https://htxprecision.com/dowel-pins/",
+        "https://htxprecision.com/threaded-dowel-pins/"
+      ],
+      "referenceBasis": "linked-public-page",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "pilot-pins",
+      "group": "dowel-pins",
+      "configurationIds": [
+        "round",
+        "relieved",
+        "tip"
+      ],
+      "reviewedSourceUrls": [],
+      "referenceBasis": "menu-or-derived-family; original engineering copy, no dedicated HTX detail page verified",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    },
+    {
+      "productId": "floating-pins",
+      "group": "dowel-pins",
+      "configurationIds": [
+        "round",
+        "profile",
+        "spring"
+      ],
+      "reviewedSourceUrls": [],
+      "referenceBasis": "menu-or-derived-family; original engineering copy, no dedicated HTX detail page verified",
+      "sections": [
+        "configurations",
+        "why",
+        "materials",
+        "surface",
+        "applications",
+        "faq"
+      ],
+      "imagePlanVersion": 3
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+---
+import media from '@/data/catalog-detail-media.json';
+import {catalogText,type LocalizedText} from '@/data/catalog';
+import {detailsFor,detailUI} from '@/data/catalog-details';
+import type {Locale} from '@/i18n/locales';
+interface Props{productId:string;locale:Locale;}
+interface DetailAsset{id:string;productId:string;configurationIds:string[];image:string;name:LocalizedText;}
+const {productId,locale}=Astro.props;
+const assets=(media.assets as DetailAsset[]).filter(a=>a.productId===productId);
+const detail=detailsFor(productId);
+const notice={zh:'具体尺寸与结构以确认图纸为准。',en:'Dimensions and design follow the agreed drawing.',vi:'Kích thước và kết cấu theo bản vẽ đã thống nhất.'};
+---
+{assets.length>0&&<section class="mb-10" aria-label={catalogText(detailUI.range,locale)}><div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">{assets.map(asset=><figure class="border border-borui-navy/10 bg-white"><img src={asset.image} alt={catalogText(asset.name,locale)} width="1600" height="1200" loading="lazy" class="aspect-[4/3] w-full object-contain"/><figcaption class="p-4"><p class="text-sm font-medium">{catalogText(asset.name,locale)}</p><div class="mt-2 flex flex-wrap gap-3">{asset.configurationIds.map(id=>{const v=detail.variants.find(v=>v.id===id)!;return <a class="py-2 text-xs underline underline-offset-4" href={`#configuration-${id}`}>{catalogText(v.name,locale)}</a>;})}</div></figcaption></figure>)}</div><p class="mt-3 text-xs text-slate-500">{notice[locale]}</p></section>}

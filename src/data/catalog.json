@@ -313,7 +313,14 @@
         "SKD11",
         "D2",
         "Cr12MoV",
-        "DC53"
+        "DC53",
+        "SKH51",
+        "M2",
+        "ASP23",
+        "ASP60",
+        "Tungsten carbide",
+        "SKD61",
+        "H13"
       ],
       "variants": [
         {
@@ -396,14 +403,14 @@
       "group": "punch-components",
       "id": "a-type-punches",
       "name": {
-        "en": "A-Type Punches",
-        "zh": "A 型冲头",
-        "vi": "Chày loại A"
+        "zh": "A 型台阶冲针",
+        "en": "Type A Stepped Punches",
+        "vi": "Chày bậc loại A"
       },
       "summary": {
-        "en": "Headed round punches with an A-type mounting profile. Confirm the reference series before specifying dimensions.",
-        "zh": "采用 A 型安装结构的带头圆冲，选型时需同时确认参考系列及具体尺寸。",
-        "vi": "Chày tròn có đầu lắp kiểu A. Xác nhận dòng tham chiếu trước khi xác định kích thước."
+        "zh": "A 型台阶冲针可采用单台阶、多级阶梯或锥肩缩径等结构。按工作端轮廓、支撑方式与安装要求确定具体款式。",
+        "en": "Type A stepped punches include single-step, multi-stage and tapered-shoulder designs. Select the construction by working profile, support and mounting requirements.",
+        "vi": "Chày bậc loại A gồm kiểu một bậc, nhiều bậc và vai côn. Chọn kết cấu theo biên dạng làm việc, cách đỡ và yêu cầu lắp."
       },
       "application": {
         "en": "Standard-series replacement and drawing-based stamping tools.",
@@ -411,9 +418,9 @@
         "vi": "Thay thế theo dòng tiêu chuẩn và khuôn dập theo bản vẽ."
       },
       "selection": {
-        "en": "Reference series or drawing; head and shank diameter; tip length and tolerance",
-        "zh": "参考系列或图纸；头径与杆径；工作端长度与公差",
-        "vi": "Dòng tham chiếu hoặc bản vẽ; đường kính đầu và thân; chiều dài đầu và dung sai"
+        "zh": "参考系列、图纸与安装配合；刃径、支撑杆径与工作段长度；台阶圆角、头部尺寸与公差",
+        "en": "Reference series, drawing and mounting fit; tip diameter, shank diameter and working length; shoulder radius, head dimensions and tolerances",
+        "vi": "Dòng tham chiếu, bản vẽ và lắp ghép; đường kính đầu/thân và chiều dài làm việc; bán kính vai, kích thước mũ và dung sai"
       },
       "materials": [
         "SKD11",
@@ -437,8 +444,10 @@
           "vi": "Kích thước tùy chỉnh"
         }
       ],
-      "sourceUrls": [],
-      "image": "/images/products/catalog/a-type-punches-2026-09-29T15-47-10-821Z.webp",
+      "sourceUrls": [
+        "https://htxprecision.com/carbide-punch/"
+      ],
+      "image": "/images/products/catalog/a-type-punches-2026-09-30T06-22-03-175Z.jpg",
       "illustration": "/images/catalog/a-type-punches.svg",
       "imageGenerated": true
     },
@@ -466,7 +475,9 @@
         "vi": "Model máy và tiêu chuẩn dụng cụ; hình viên và độ sâu mặt chày; đặc tính bột và chữ dập"
       },
       "materials": [
-        "Tool steel"
+        "Tool steel",
+        "Stainless steel",
+        "Tungsten carbide"
       ],
       "variants": [
         {

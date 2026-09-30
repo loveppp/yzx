@@ -1,0 +1,2522 @@
+{
+  "carbide-punches": {
+    "note": {
+      "zh": "硬质合金与钨钢是本系列的两种常用名称。先确定整体或镶合金结构，再选择刃口和安装形式；耐磨性、抗崩刃与导向条件需要一起评估。",
+      "en": "Carbide and tungsten carbide refer to this same family. Choose solid or tipped construction, then the cutting profile and mounting interface; balance wear, chipping resistance and guidance.",
+      "vi": "Carbide và hợp kim cứng thuộc cùng một dòng. Chọn kết cấu nguyên khối hoặc gắn đầu, sau đó chọn biên dạng và kiểu lắp; cân nhắc mài mòn, sứt cạnh và dẫn hướng."
+    },
+    "variants": [
+      {
+        "id": "type-a",
+        "name": {
+          "zh": "A 型台阶冲针",
+          "en": "Type A stepped punch",
+          "vi": "Chày bậc loại A"
+        },
+        "description": {
+          "zh": "A 型台阶冲针可采用单台阶、多级阶梯或锥肩缩径等结构。按工作端轮廓、支撑方式与安装要求确定具体款式。",
+          "en": "Type A stepped punches include single-step, multi-stage and tapered-shoulder designs. Select the construction by working profile, support and mounting requirements.",
+          "vi": "Chày bậc loại A gồm kiểu một bậc, nhiều bậc và vai côn. Chọn kết cấu theo biên dạng làm việc, cách đỡ và yêu cầu lắp."
+        },
+        "parameters": {
+          "zh": "刃径、杆径、工作段长度、台阶圆角与头部尺寸",
+          "en": "Tip and shank diameters, working length, shoulder radius and head dimensions",
+          "vi": "Đường kính đầu/thân, chiều dài làm việc, bán kính vai và kích thước mũ"
+        }
+      },
+      {
+        "id": "type-t",
+        "name": {
+          "zh": "T 型单肩冲针",
+          "en": "Type T single-shoulder punch",
+          "vi": "Chày một vai loại T"
+        },
+        "description": {
+          "zh": "正常比例的安装头与直身杆部形成一个肩位；杆部至圆形工作端不再缩径。头径、头厚、杆径和长度按安装图纸确认。",
+          "en": "A normally proportioned retaining head forms one shoulder with a straight shank; the shank continues to the round working end without a further diameter reduction. Confirm head diameter, thickness, shank diameter and length against the mounting drawing.",
+          "vi": "Mũ giữ cân đối tạo một vai với thân thẳng; thân kéo dài đến đầu tròn, không giảm đường kính thêm. Xác nhận đường kính mũ, chiều dày, đường kính thân và chiều dài theo bản vẽ lắp."
+        },
+        "parameters": {
+          "zh": "头径、头厚、安装孔与承靠面",
+          "en": "Head diameter, thickness, mounting bore and seat",
+          "vi": "Đường kính mũ, chiều dày, lỗ lắp và mặt tựa"
+        }
+      },
+      {
+        "id": "stepped",
+        "name": {
+          "zh": "台阶与镶合金结构",
+          "en": "Stepped and carbide-tipped designs",
+          "vi": "Kết cấu bậc và gắn đầu carbide"
+        },
+        "description": {
+          "zh": "缩径工作端由较粗杆部支撑；镶合金方案需明确连接与受力结构。",
+          "en": "A larger shank supports the reduced tip; tipped designs require an agreed joint and load path.",
+          "vi": "Thân lớn đỡ đầu nhỏ; kết cấu gắn đầu cần xác định mối nối và đường truyền lực."
+        },
+        "parameters": {
+          "zh": "各段直径、长度、圆角与连接形式",
+          "en": "Section diameters, lengths, radii and joint design",
+          "vi": "Đường kính, chiều dài từng đoạn, bán kính và mối nối"
+        }
+      },
+      {
+        "id": "profile",
+        "name": {
+          "zh": "方形、矩形与定制异形",
+          "en": "Square, rectangular and custom profiles",
+          "vi": "Biên dạng vuông, chữ nhật và tùy chỉnh"
+        },
+        "description": {
+          "zh": "按目标孔型定义刃口，非圆形工作端同时需要防转定位。",
+          "en": "Define the cutting edge from the required hole; non-round tips also need rotational orientation.",
+          "vi": "Xác định lưỡi theo hình lỗ; đầu không tròn cần định hướng chống xoay."
+        },
+        "parameters": {
+          "zh": "轮廓图、内外角 R 与防转基准",
+          "en": "Profile drawing, corner radii and orientation datum",
+          "vi": "Bản vẽ biên dạng, bán kính góc và chuẩn hướng"
+        }
+      },
+      {
+        "id": "hexagonal",
+        "name": {
+          "zh": "六角冲头",
+          "en": "Hexagonal punch",
+          "vi": "Chày lục giác"
+        },
+        "description": {
+          "zh": "用于六角孔型；对边尺寸、角部与刃口长度决定实际工作轮廓。",
+          "en": "For hexagonal holes; across-flats size, corners and tip length define the working geometry.",
+          "vi": "Dùng cho lỗ lục giác; kích thước đối diện, góc và chiều dài đầu quyết định hình học."
+        },
+        "parameters": {
+          "zh": "对边尺寸、角部 R、有效刃长",
+          "en": "Across flats, corner radius and cutting length",
+          "vi": "Kích thước đối diện, bán kính góc, chiều dài cắt"
+        }
+      },
+      {
+        "id": "oval",
+        "name": {
+          "zh": "椭圆与长圆冲头",
+          "en": "Oval and obround punches",
+          "vi": "Chày oval và đầu dài bo tròn"
+        },
+        "description": {
+          "zh": "椭圆与直边加半圆的长圆不是同一轮廓，需用图纸明确。",
+          "en": "An ellipse differs from a straight-sided obround; define the exact outline in the drawing.",
+          "vi": "Ellipse khác với dạng cạnh thẳng hai đầu bán nguyệt; cần bản vẽ chính xác."
+        },
+        "parameters": {
+          "zh": "长短轴或槽宽、端部半径与方向",
+          "en": "Axes or slot width, end radius and orientation",
+          "vi": "Trục dài/ngắn hoặc rộng rãnh, bán kính đầu và hướng"
+        }
+      },
+      {
+        "id": "cutting",
+        "name": {
+          "zh": "切断与精密冲裁",
+          "en": "Cut-off and precision piercing",
+          "vi": "Cắt đứt và đột chính xác"
+        },
+        "description": {
+          "zh": "切断刃与精密小孔分别按受力和尺寸要求定义，不把“精密”当成固定公差承诺。",
+          "en": "Define cut-off edges and precision piercing by load and dimensional requirements; precision is not a fixed tolerance claim.",
+          "vi": "Xác định lưỡi cắt và đột lỗ theo lực và kích thước; độ chính xác không phải cam kết dung sai cố định."
+        },
+        "parameters": {
+          "zh": "料厚、材料、间隙、关键公差",
+          "en": "Stock thickness, material, clearance and critical tolerances",
+          "vi": "Chiều dày phôi, vật liệu, khe hở và dung sai chính"
+        }
+      },
+      {
+        "id": "coated",
+        "name": {
+          "zh": "涂层与耐磨方案",
+          "en": "Coating and wear options",
+          "vi": "Lớp phủ và chống mài mòn"
+        },
+        "description": {
+          "zh": "在同一冲头结构上选择未涂层或适配涂层。外观对比用于说明处理方式；耐磨方案需结合合金基体、被冲材料、刃口和重磨要求确定。",
+          "en": "Choose an uncoated or compatible coated finish on the same punch geometry. The appearance comparison illustrates finish options; select for carbide grade, work material, edge condition and regrinding.",
+          "vi": "Chọn bề mặt không phủ hoặc lớp phủ phù hợp trên cùng hình dạng chày. Hình so sánh thể hiện lựa chọn xử lý; chọn theo nền carbide, vật liệu phôi, lưỡi và yêu cầu mài lại."
+        },
+        "parameters": {
+          "zh": "合金牌号、涂层、成品尺寸与重磨要求",
+          "en": "Carbide grade, coating, finished size and regrinding",
+          "vi": "Mác carbide, lớp phủ, kích thước hoàn thiện và mài lại"
+        }
+      }
+    ]
+  },
+  "hss-punches": {
+    "note": {
+      "zh": "高速钢牌号与刃口形状分开选。常规高速钢、粉末高速钢与涂层方案，应根据被冲材料、磨损或崩刃问题确认。",
+      "en": "Select HSS grade separately from geometry. Conventional HSS, powder HSS and coatings depend on the work material and whether wear or chipping limits service.",
+      "vi": "Chọn mác HSS riêng với hình học. HSS thường, HSS bột và lớp phủ tùy vật liệu phôi, mài mòn hoặc sứt cạnh."
+    },
+    "variants": [
+      {
+        "id": "round",
+        "name": {
+          "zh": "圆形与 T 型圆冲",
+          "en": "Round and T-head punches",
+          "vi": "Chày tròn và mũ T"
+        },
+        "description": {
+          "zh": "圆孔冲裁可配不同安装头；圆形工作端不自动代表某一种 T 型标准。",
+          "en": "Round-hole piercing with alternative heads; a round tip alone does not establish a T-type standard.",
+          "vi": "Đột lỗ tròn với nhiều kiểu mũ; đầu tròn không tự xác định tiêu chuẩn loại T."
+        },
+        "parameters": {
+          "zh": "刃径、刃长、头型",
+          "en": "Tip diameter, cutting length and head style",
+          "vi": "Đường kính đầu, chiều dài cắt, kiểu mũ"
+        }
+      },
+      {
+        "id": "flat",
+        "name": {
+          "zh": "扁形与矩形冲头",
+          "en": "Flat and rectangular punches",
+          "vi": "Chày dẹt và chữ nhật"
+        },
+        "description": {
+          "zh": "窄槽与矩形孔需兼顾薄刃支撑、长边直线度和安装方向。",
+          "en": "Slots and rectangular holes require blade support, straight long edges and controlled orientation.",
+          "vi": "Rãnh và lỗ chữ nhật cần đỡ lưỡi, cạnh thẳng và hướng lắp."
+        },
+        "parameters": {
+          "zh": "宽度、厚度、角 R、支撑长度",
+          "en": "Width, thickness, corner radius and support length",
+          "vi": "Rộng, dày, bán kính góc và chiều dài đỡ"
+        }
+      },
+      {
+        "id": "square",
+        "name": {
+          "zh": "方形冲头",
+          "en": "Square punches",
+          "vi": "Chày vuông"
+        },
+        "description": {
+          "zh": "四边刃口用于方孔；角部半径需与凹模和产品要求匹配。",
+          "en": "Four cutting edges form square holes; match corner radii to the die and part requirements.",
+          "vi": "Bốn cạnh tạo lỗ vuông; bán kính góc phải khớp cối và chi tiết."
+        },
+        "parameters": {
+          "zh": "边长、角部 R、防转位置",
+          "en": "Side length, corner radii and orientation",
+          "vi": "Cạnh, bán kính góc và vị trí chống xoay"
+        }
+      },
+      {
+        "id": "stepped",
+        "name": {
+          "zh": "台阶高速钢冲头",
+          "en": "Stepped HSS punches",
+          "vi": "Chày HSS bậc"
+        },
+        "description": {
+          "zh": "粗杆支撑细工作端，可采用单级或多级缩径；台阶不等于一次冲出多种孔径。",
+          "en": "A larger body supports a reduced tip with one or more steps; steps do not imply piercing several hole diameters at once.",
+          "vi": "Thân lớn đỡ đầu nhỏ với một hoặc nhiều bậc; không có nghĩa đột nhiều đường kính một lần."
+        },
+        "parameters": {
+          "zh": "台阶长度、同轴度、过渡圆角",
+          "en": "Step lengths, coaxiality and transition radii",
+          "vi": "Chiều dài bậc, độ đồng trục, bán kính chuyển tiếp"
+        }
+      },
+      {
+        "id": "profile",
+        "name": {
+          "zh": "六角与特殊轮廓",
+          "en": "Hexagonal and special profiles",
+          "vi": "Lục giác và biên dạng đặc biệt"
+        },
+        "description": {
+          "zh": "按零件孔型加工工作端，复杂轮廓需提供方向基准和角部要求。",
+          "en": "Custom tips follow the part outline, with orientation datums and specified corner details.",
+          "vi": "Đầu tùy chỉnh theo biên dạng chi tiết, chuẩn hướng và yêu cầu góc."
+        },
+        "parameters": {
+          "zh": "二维轮廓、工作长度、关键公差",
+          "en": "2D profile, working length and critical tolerances",
+          "vi": "Biên dạng 2D, chiều dài làm việc và dung sai chính"
+        }
+      },
+      {
+        "id": "ejecting",
+        "name": {
+          "zh": "带退料结构的冲头",
+          "en": "Punches with scrap-ejection features",
+          "vi": "Chày có cơ cấu đẩy phế"
+        },
+        "description": {
+          "zh": "需要退料时单独确认内部孔道或顶料机构，避免把普通模具顶针混入冲裁系列。",
+          "en": "Where scrap ejection is needed, specify the internal bore or ejecting mechanism as part of the punch.",
+          "vi": "Khi cần đẩy phế, xác định lỗ trong hoặc cơ cấu đẩy của chày."
+        },
+        "parameters": {
+          "zh": "退料行程、孔道、装配空间",
+          "en": "Ejection travel, bore and assembly space",
+          "vi": "Hành trình đẩy, lỗ và không gian lắp"
+        }
+      }
+    ]
+  },
+  "stepped-punches": {
+    "note": {
+      "zh": "台阶用于连接工作端、支撑段与安装段。先按每段尺寸确认结构，再选圆形、方形或异形刃口，不能只给一个总长。",
+      "en": "Steps connect the working tip, support and mounting sections. Specify each section before selecting round, square or custom tips; overall length alone is insufficient.",
+      "vi": "Bậc nối đầu làm việc, đoạn đỡ và đoạn lắp. Xác định từng đoạn trước khi chọn đầu tròn, vuông hay tùy chỉnh; chỉ tổng chiều dài là chưa đủ."
+    },
+    "variants": [
+      {
+        "id": "single",
+        "name": {
+          "zh": "单台阶圆冲",
+          "en": "Single-step round punch",
+          "vi": "Chày tròn một bậc"
+        },
+        "description": {
+          "zh": "细刃口与粗支撑杆通过肩部过渡，用于小孔冲裁结构。",
+          "en": "A shoulder joins a small cutting tip to a larger supporting shank.",
+          "vi": "Vai nối đầu cắt nhỏ với thân đỡ lớn."
+        },
+        "parameters": {
+          "zh": "刃径、杆径、缩径长度、圆角",
+          "en": "Tip and shank diameters, reduced length and radius",
+          "vi": "Đường kính đầu/thân, chiều dài thu nhỏ và bán kính"
+        }
+      },
+      {
+        "id": "multiple",
+        "name": {
+          "zh": "多级缩径冲头",
+          "en": "Multi-step punch",
+          "vi": "Chày nhiều bậc"
+        },
+        "description": {
+          "zh": "多个同轴直径段适配不同板位与支撑位置，每个肩位单独标注。",
+          "en": "Multiple coaxial sections suit different plate and support positions; dimension every shoulder.",
+          "vi": "Các đoạn đồng trục khớp vị trí tấm và điểm đỡ; ghi kích thước từng vai."
+        },
+        "parameters": {
+          "zh": "各段 D/L、肩距、同轴度",
+          "en": "Each section D/L, shoulder spacing and coaxiality",
+          "vi": "D/L từng đoạn, khoảng vai và độ đồng trục"
+        }
+      },
+      {
+        "id": "square",
+        "name": {
+          "zh": "台阶方冲",
+          "en": "Stepped square punch",
+          "vi": "Chày vuông có bậc"
+        },
+        "description": {
+          "zh": "圆杆过渡到方形工作端，兼顾轮廓方向和根部支撑。",
+          "en": "A round shank transitions to a square tip with controlled orientation and root support.",
+          "vi": "Thân tròn chuyển sang đầu vuông, kiểm soát hướng và đỡ chân."
+        },
+        "parameters": {
+          "zh": "方边、方段长度、防转平面",
+          "en": "Square size, square-section length and anti-rotation flat",
+          "vi": "Cạnh vuông, chiều dài đoạn vuông và mặt chống xoay"
+        }
+      },
+      {
+        "id": "custom",
+        "name": {
+          "zh": "台阶异形与开槽冲头",
+          "en": "Stepped profile and slot punches",
+          "vi": "Chày bậc biên dạng và rãnh"
+        },
+        "description": {
+          "zh": "六角、长圆或特殊孔型使用独立轮廓图，不能以缩径尺寸代替刃口定义。",
+          "en": "Hexagonal, obround or custom tips need a profile drawing in addition to reduced-section dimensions.",
+          "vi": "Đầu lục giác, dài bo tròn hoặc tùy chỉnh cần bản vẽ biên dạng ngoài kích thước bậc."
+        },
+        "parameters": {
+          "zh": "轮廓、过渡位置、角部与刃长",
+          "en": "Profile, transition position, corners and cutting length",
+          "vi": "Biên dạng, vị trí chuyển tiếp, góc và chiều dài cắt"
+        }
+      },
+      {
+        "id": "headed",
+        "name": {
+          "zh": "T 头与定制安装端",
+          "en": "T-head and custom mounting",
+          "vi": "Mũ T và đầu lắp tùy chỉnh"
+        },
+        "description": {
+          "zh": "台阶杆可配不同固定头；安装头与工作轮廓是两项独立选择。",
+          "en": "Stepped bodies can use different retaining heads; mounting and cutting profiles are separate choices.",
+          "vi": "Thân bậc dùng nhiều mũ giữ; kiểu lắp và biên dạng cắt chọn riêng."
+        },
+        "parameters": {
+          "zh": "头部尺寸、固定板厚、承靠面",
+          "en": "Head dimensions, holder thickness and seating face",
+          "vi": "Kích thước mũ, chiều dày tấm giữ và mặt tựa"
+        }
+      }
+    ]
+  },
+  "stamping-die-punches": {
+    "note": {
+      "zh": "按冲孔、切断或模具替换任务选型，再匹配材料、料厚与冲裁间隙。连续模、单工序模和高速模的安装及导向条件需要分别核对。",
+      "en": "Start with piercing, cut-off or replacement duty, then match stock and cutting clearance. Check mounting and guidance for progressive, single-operation or high-speed dies.",
+      "vi": "Chọn theo đột lỗ, cắt đứt hoặc thay thế, rồi khớp phôi và khe hở cắt. Kiểm tra lắp và dẫn hướng cho từng loại khuôn."
+    },
+    "variants": [
+      {
+        "id": "piercing",
+        "name": {
+          "zh": "圆孔冲裁件",
+          "en": "Round piercing punches",
+          "vi": "Chày đột lỗ tròn"
+        },
+        "description": {
+          "zh": "圆形平刃工作端用于冲孔，需与凹模孔及卸料板共同校核。",
+          "en": "A flat circular cutting face pierces holes; review it with the die opening and stripper.",
+          "vi": "Mặt cắt tròn phẳng đột lỗ; kiểm tra cùng lỗ cối và tấm gạt."
+        },
+        "parameters": {
+          "zh": "孔径、料厚、间隙、导向长度",
+          "en": "Hole diameter, stock thickness, clearance and guidance",
+          "vi": "Đường kính lỗ, dày phôi, khe hở và chiều dài dẫn"
+        }
+      },
+      {
+        "id": "profile",
+        "name": {
+          "zh": "轮廓与槽孔冲头",
+          "en": "Profile and slot punches",
+          "vi": "Chày biên dạng và rãnh"
+        },
+        "description": {
+          "zh": "矩形、长圆及不规则孔型按封闭轮廓和方向基准定义。",
+          "en": "Define rectangular, obround and irregular tips with a closed profile and orientation datum.",
+          "vi": "Định nghĩa đầu chữ nhật, dài bo tròn và bất quy tắc bằng biên dạng kín và chuẩn hướng."
+        },
+        "parameters": {
+          "zh": "轮廓文件、角 R、防转结构",
+          "en": "Profile file, corner radii and anti-rotation feature",
+          "vi": "Tệp biên dạng, bán kính góc, chống xoay"
+        }
+      },
+      {
+        "id": "cutoff",
+        "name": {
+          "zh": "切断与修边冲头",
+          "en": "Cut-off and trimming punches",
+          "vi": "Chày cắt đứt và cắt mép"
+        },
+        "description": {
+          "zh": "用于材料分离或边缘修整，刃口方向与受力面积须与工位匹配。",
+          "en": "For separation or edge trimming, match edge direction and loaded area to the die station.",
+          "vi": "Dùng tách hoặc sửa mép; hướng lưỡi và diện tích chịu lực phải khớp trạm khuôn."
+        },
+        "parameters": {
+          "zh": "刃口形状、剪切角、受力与支撑",
+          "en": "Edge geometry, shear angle, load and support",
+          "vi": "Hình lưỡi, góc cắt, tải và đỡ"
+        }
+      },
+      {
+        "id": "replacement",
+        "name": {
+          "zh": "连续模替换冲头",
+          "en": "Progressive-die replacement punches",
+          "vi": "Chày thay thế khuôn liên hoàn"
+        },
+        "description": {
+          "zh": "根据原工位接口复核肩位、安装头、工作长度及配合尺寸。",
+          "en": "Match shoulder positions, head, working length and fits to the existing die station.",
+          "vi": "Khớp vị trí vai, mũ, chiều dài làm việc và lắp ghép với trạm cũ."
+        },
+        "parameters": {
+          "zh": "原图版本、安装接口、配套凹模",
+          "en": "Drawing revision, mounting interface and mating die",
+          "vi": "Phiên bản bản vẽ, giao diện lắp và cối đi kèm"
+        }
+      }
+    ]
+  },
+  "forming-punches": {
+    "note": {
+      "zh": "异形冲裁通过刃口剪切材料；曲面成型通过接触面改变形状。两种工艺分别定义工作端，不能把所有异形件都当成锋利冲针。",
+      "en": "Profile piercing shears material, while forming changes shape through a contact surface. Define the working end for the actual process.",
+      "vi": "Đột biên dạng cắt vật liệu, còn tạo hình thay đổi hình bằng mặt tiếp xúc. Xác định đầu theo đúng công nghệ."
+    },
+    "variants": [
+      {
+        "id": "polygon",
+        "name": {
+          "zh": "六角、方形与多边形",
+          "en": "Hexagonal, square and polygonal",
+          "vi": "Lục giác, vuông và đa giác"
+        },
+        "description": {
+          "zh": "用于非圆孔型，明确各边尺寸和安装方向。",
+          "en": "For non-round holes, specify each side and mounting orientation.",
+          "vi": "Với lỗ không tròn, xác định các cạnh và hướng lắp."
+        },
+        "parameters": {
+          "zh": "对边、角 R、轮廓基准",
+          "en": "Across flats, corner radii and profile datum",
+          "vi": "Kích thước đối diện, bán kính góc và chuẩn"
+        }
+      },
+      {
+        "id": "obround",
+        "name": {
+          "zh": "椭圆与长圆轮廓",
+          "en": "Oval and obround profiles",
+          "vi": "Biên dạng oval và dài bo tròn"
+        },
+        "description": {
+          "zh": "长轴、短轴或槽宽及端部半径共同定义孔型。",
+          "en": "Axes, slot width and end radii define the exact hole geometry.",
+          "vi": "Các trục, rộng rãnh và bán kính đầu xác định hình lỗ."
+        },
+        "parameters": {
+          "zh": "长宽、端部 R、方向",
+          "en": "Length, width, end radius and orientation",
+          "vi": "Dài, rộng, bán kính đầu và hướng"
+        }
+      },
+      {
+        "id": "angled",
+        "name": {
+          "zh": "斜面与偏置工作端",
+          "en": "Angled and offset working ends",
+          "vi": "Đầu nghiêng và lệch tâm"
+        },
+        "description": {
+          "zh": "工作端偏置或带角度时，需同时检查侧向受力与支撑。",
+          "en": "Angled or offset tips require review of side loads and support.",
+          "vi": "Đầu nghiêng hoặc lệch cần kiểm tra tải ngang và đỡ."
+        },
+        "parameters": {
+          "zh": "角度、偏心量、方向基准",
+          "en": "Angle, offset and orientation datum",
+          "vi": "Góc, độ lệch và chuẩn hướng"
+        }
+      },
+      {
+        "id": "forming",
+        "name": {
+          "zh": "曲面与圆弧成型头",
+          "en": "Contoured forming noses",
+          "vi": "Đầu tạo hình cong"
+        },
+        "description": {
+          "zh": "用于压形或局部成型，以接触曲面和成型深度为重点。",
+          "en": "For pressing or local forming, focus on the contact surface and forming depth.",
+          "vi": "Dùng ép hoặc tạo hình cục bộ; chú trọng mặt tiếp xúc và độ sâu."
+        },
+        "parameters": {
+          "zh": "三维曲面、圆角、成型深度",
+          "en": "3D surface, radii and forming depth",
+          "vi": "Bề mặt 3D, bán kính và độ sâu tạo hình"
+        }
+      }
+    ]
+  },
+  "a-type-punches": {
+    "note": {
+      "zh": "本目录采用 A 型台阶、T 型单肩直身的结构区分。A 型的重点是杆部到工作端的缩径台阶；具体头部、台阶尺寸与材料按选定系列或图纸确认。",
+      "en": "This catalog distinguishes Type A stepped punches from Type T single-shoulder straight punches. Type A features a reduced working tip supported by a larger shank; confirm head geometry, shoulder dimensions and material against the selected series or drawing.",
+      "vi": "Danh mục phân biệt chày bậc A và chày thân thẳng một vai T. Loại A có đầu nhỏ được thân lớn đỡ; xác nhận mũ, kích thước vai và vật liệu theo dòng hoặc bản vẽ."
+    },
+    "variants": [
+      {
+        "id": "round",
+        "name": {
+          "zh": "A 型台阶冲针",
+          "en": "Type A stepped punch",
+          "vi": "Chày bậc loại A"
+        },
+        "description": {
+          "zh": "较粗杆部过渡到较细的工作端，形成清晰的缩径台阶；尾端保留正常比例的安装头。按刃径、杆径、工作段长度和过渡圆角选型。",
+          "en": "A larger support shank steps down to a smaller working tip, with a normally proportioned retaining head at the rear. Specify tip and shank diameters, working length and shoulder radius.",
+          "vi": "Thân đỡ lớn chuyển bậc xuống đầu làm việc nhỏ, phía sau có mũ giữ cân đối. Chọn đường kính đầu/thân, chiều dài làm việc và bán kính vai."
+        },
+        "parameters": {
+          "zh": "标准号、刃径、杆径、头厚",
+          "en": "Standard, tip and shank diameters, head thickness",
+          "vi": "Tiêu chuẩn, đường kính đầu/thân và dày mũ"
+        }
+      },
+      {
+        "id": "flat",
+        "name": {
+          "zh": "带削边或防转位",
+          "en": "Flatted or anti-rotation version",
+          "vi": "Phiên bản có mặt phẳng chống xoay"
+        },
+        "description": {
+          "zh": "削边用于方向保持或安装避让，位置须关联工作端基准。",
+          "en": "Flats provide orientation or mounting clearance and must reference the working end.",
+          "vi": "Mặt phẳng định hướng hoặc tạo khoảng lắp, cần liên hệ chuẩn đầu làm việc."
+        },
+        "parameters": {
+          "zh": "削边深度、角度、定位距离",
+          "en": "Flat depth, angle and locating distance",
+          "vi": "Độ sâu mặt phẳng, góc và khoảng định vị"
+        }
+      },
+      {
+        "id": "custom",
+        "name": {
+          "zh": "非标长度与安装配合",
+          "en": "Custom length and mounting fit",
+          "vi": "Chiều dài và lắp ghép tùy chỉnh"
+        },
+        "description": {
+          "zh": "替换既有冲头时按安装尺寸与配合复核，不仅比较外观。",
+          "en": "For replacements, verify mounting dimensions and fits rather than appearance alone.",
+          "vi": "Khi thay thế, kiểm tra kích thước lắp và lắp ghép, không chỉ hình dáng."
+        },
+        "parameters": {
+          "zh": "总长、工作长、配合段、公差",
+          "en": "Overall and working lengths, fit sections and tolerances",
+          "vi": "Tổng dài, dài làm việc, đoạn lắp và dung sai"
+        }
+      }
+    ]
+  },
+  "tableting-punches": {
+    "note": {
+      "zh": "上冲、下冲和中模共同形成压片系统，不能只按外观配套。压机接口、冲面、粉料特性及清洁要求需共同确认。",
+      "en": "Upper punch, lower punch and die form a tooling system; appearance alone does not establish compatibility. Confirm press interfaces, cups, powder and cleaning requirements.",
+      "vi": "Chày trên, chày dưới và cối tạo thành hệ dụng cụ; hình dáng không chứng minh tương thích. Xác nhận giao diện máy, mặt chày, bột và vệ sinh."
+    },
+    "variants": [
+      {
+        "id": "upper",
+        "name": {
+          "zh": "上冲",
+          "en": "Upper punch",
+          "vi": "Chày trên"
+        },
+        "description": {
+          "zh": "从上方进入中模并施加压力，冲面决定片剂的一侧形状。",
+          "en": "Enters the die from above and compresses powder; the cup defines one tablet face.",
+          "vi": "Đi vào cối từ trên và nén bột; mặt chày tạo một mặt viên."
+        },
+        "parameters": {
+          "zh": "头型、工作长度、冲面深度",
+          "en": "Head style, working length and cup depth",
+          "vi": "Kiểu mũ, chiều dài làm việc và độ sâu mặt chày"
+        }
+      },
+      {
+        "id": "lower",
+        "name": {
+          "zh": "下冲",
+          "en": "Lower punch",
+          "vi": "Chày dưới"
+        },
+        "description": {
+          "zh": "配合填充深度与压制位置，并在压制后顶出成型件。",
+          "en": "Works with fill depth and compression position, then ejects the compact.",
+          "vi": "Phối hợp độ sâu nạp và vị trí nén, sau đó đẩy viên."
+        },
+        "parameters": {
+          "zh": "工作长度、冲面、顶出位置",
+          "en": "Working length, cup and ejection position",
+          "vi": "Chiều dài làm việc, mặt chày và vị trí đẩy"
+        }
+      },
+      {
+        "id": "die",
+        "name": {
+          "zh": "配套中模",
+          "en": "Mating die",
+          "vi": "Cối đi kèm"
+        },
+        "description": {
+          "zh": "中模孔定义成型件外轮廓，并与上下冲保持合适配合。",
+          "en": "The die bore defines the outer profile and must fit both punches.",
+          "vi": "Lỗ cối tạo biên dạng ngoài và phải khớp cả hai chày."
+        },
+        "parameters": {
+          "zh": "外径、高度、型腔、冲模间隙",
+          "en": "Outside diameter, height, cavity and punch clearance",
+          "vi": "Đường kính ngoài, cao, lòng cối và khe hở"
+        }
+      },
+      {
+        "id": "shape",
+        "name": {
+          "zh": "圆形、椭圆与定制片型",
+          "en": "Round, oval and custom shapes",
+          "vi": "Hình tròn, oval và tùy chỉnh"
+        },
+        "description": {
+          "zh": "不同片型需配套冲面和中模孔；凹度及边缘结构单独定义。",
+          "en": "Each tablet shape needs matching cups and die bore, with specified concavity and edge geometry.",
+          "vi": "Mỗi hình viên cần mặt chày và lỗ cối tương ứng, quy định độ lõm và mép."
+        },
+        "parameters": {
+          "zh": "片型轮廓、冲面曲率、边缘",
+          "en": "Tablet profile, cup curvature and edge",
+          "vi": "Biên dạng viên, độ cong mặt chày và mép"
+        }
+      },
+      {
+        "id": "engraved",
+        "name": {
+          "zh": "刻字、标识与分割线",
+          "en": "Engraving and score lines",
+          "vi": "Khắc dấu và rãnh chia"
+        },
+        "description": {
+          "zh": "按可加工的字形、深度和脱模方向确认冲面标识。",
+          "en": "Confirm markings by machinable artwork, depth and release direction.",
+          "vi": "Xác nhận dấu theo mẫu gia công được, độ sâu và hướng tháo."
+        },
+        "parameters": {
+          "zh": "矢量图、刻深、线宽与位置",
+          "en": "Vector artwork, depth, line width and placement",
+          "vi": "Tệp vector, độ sâu, rộng nét và vị trí"
+        }
+      },
+      {
+        "id": "multi-tip",
+        "name": {
+          "zh": "多冲尖与压机专用配置",
+          "en": "Multi-tip and press-specific tooling",
+          "vi": "Nhiều đầu và cấu hình theo máy"
+        },
+        "description": {
+          "zh": "多冲尖需成组对应中模孔，并验证压机空间、载荷及防转结构。",
+          "en": "Multiple tips need matching die bores and checks on press space, load and orientation.",
+          "vi": "Nhiều đầu cần lỗ cối tương ứng và kiểm tra không gian máy, tải và hướng."
+        },
+        "parameters": {
+          "zh": "压机型号、冲尖数量、孔距、接口",
+          "en": "Press model, tip count, pitch and interface",
+          "vi": "Model máy, số đầu, bước lỗ và giao diện"
+        }
+      }
+    ]
+  },
+  "straight-ejector-pins": {
+    "note": {
+      "zh": "直身是结构，SKD61 / H13 是材料选项，氮化是表面处理；三者可以组合。顶出端接触塑件，不作为冲裁刃口。",
+      "en": "Straight describes geometry, SKD61 / H13 describes material options, and nitriding is a treatment; these choices can be combined. The tip ejects the part rather than cutting it.",
+      "vi": "Thân thẳng là kết cấu, SKD61 / H13 là vật liệu, thấm nitơ là xử lý; có thể kết hợp. Đầu dùng đẩy sản phẩm, không cắt."
+    },
+    "variants": [
+      {
+        "id": "plain",
+        "name": {
+          "zh": "直身平端顶针",
+          "en": "Straight flat-end pin",
+          "vi": "Ty thẳng đầu phẳng"
+        },
+        "description": {
+          "zh": "等径圆杆用于常规点位顶出。",
+          "en": "A constant-diameter shaft provides local ejection.",
+          "vi": "Thân tròn đều dùng đẩy tại điểm."
+        },
+        "parameters": {
+          "zh": "直径、长度、头径、顶出位置",
+          "en": "Diameter, length, head size and ejection position",
+          "vi": "Đường kính, dài, cỡ mũ và vị trí đẩy"
+        }
+      },
+      {
+        "id": "skd61",
+        "name": {
+          "zh": "SKD61 / H13 材质方案",
+          "en": "SKD61 / H13 material options",
+          "vi": "Vật liệu SKD61 / H13"
+        },
+        "description": {
+          "zh": "根据模温与韧性需求选择热作钢，替代牌号需核对对应标准。",
+          "en": "Select hot-work steel for temperature and toughness; verify standards before grade substitution.",
+          "vi": "Chọn thép khuôn nóng theo nhiệt và độ dai; đối chiếu tiêu chuẩn khi thay mác."
+        },
+        "parameters": {
+          "zh": "材料标准、热处理、工作温度",
+          "en": "Material standard, heat treatment and temperature",
+          "vi": "Tiêu chuẩn vật liệu, nhiệt luyện và nhiệt độ"
+        }
+      },
+      {
+        "id": "nitrided",
+        "name": {
+          "zh": "氮化直身顶针",
+          "en": "Nitrided straight pin",
+          "vi": "Ty thẳng thấm nitơ"
+        },
+        "description": {
+          "zh": "表层硬化用于改善滑动磨损，仍需检查配合和润滑。",
+          "en": "Surface hardening addresses sliding wear; fit and lubrication still require review.",
+          "vi": "Cứng hóa bề mặt giảm mài mòn trượt; vẫn cần kiểm tra lắp ghép và bôi trơn."
+        },
+        "parameters": {
+          "zh": "层深、处理区、成品直径",
+          "en": "Case depth, treated area and finished diameter",
+          "vi": "Chiều sâu lớp, vùng xử lý và đường kính cuối"
+        }
+      },
+      {
+        "id": "custom",
+        "name": {
+          "zh": "公英制与成型端部",
+          "en": "Metric, inch and shaped ends",
+          "vi": "Hệ mét, inch và đầu tạo hình"
+        },
+        "description": {
+          "zh": "替换件核对单位体系，非平端按塑件接触面定义。",
+          "en": "Verify units for replacements; define shaped tips by the part contact surface.",
+          "vi": "Kiểm tra hệ đơn vị khi thay; định nghĩa đầu theo mặt tiếp xúc sản phẩm."
+        },
+        "parameters": {
+          "zh": "单位、端面轮廓、防转要求",
+          "en": "Units, end profile and anti-rotation needs",
+          "vi": "Đơn vị, biên dạng đầu và chống xoay"
+        }
+      }
+    ]
+  },
+  "shoulder-ejector-pins": {
+    "note": {
+      "zh": "本系列突出头部附近的定位肩。肩位用于安装定位，不能替代对细杆挠曲、顶出力与导向间隙的校核。",
+      "en": "This family emphasizes a locating shoulder near the head. The shoulder does not replace checks on shaft bending, ejection force or guide clearance.",
+      "vi": "Dòng này có vai định vị gần mũ. Vai không thay thế kiểm tra uốn thân, lực đẩy và khe hở dẫn hướng."
+    },
+    "variants": [
+      {
+        "id": "locating",
+        "name": {
+          "zh": "定位肩结构",
+          "en": "Locating shoulder",
+          "vi": "Vai định vị"
+        },
+        "description": {
+          "zh": "加粗肩部与安装座配合，控制轴向位置。",
+          "en": "An enlarged shoulder fits the seat to establish axial position.",
+          "vi": "Vai lớn khớp bệ lắp để định vị theo trục."
+        },
+        "parameters": {
+          "zh": "肩径、肩长、承靠面",
+          "en": "Shoulder diameter, length and seat",
+          "vi": "Đường kính vai, chiều dài và mặt tựa"
+        }
+      },
+      {
+        "id": "head",
+        "name": {
+          "zh": "定制头部与止转位",
+          "en": "Custom head and orientation",
+          "vi": "Mũ và hướng tùy chỉnh"
+        },
+        "description": {
+          "zh": "根据顶针板空间选择头部厚度及止转形式。",
+          "en": "Match head thickness and orientation features to the ejector plate space.",
+          "vi": "Khớp dày mũ và chống xoay với không gian tấm đẩy."
+        },
+        "parameters": {
+          "zh": "头型、槽位、板厚",
+          "en": "Head shape, slot and plate thickness",
+          "vi": "Dạng mũ, rãnh và chiều dày tấm"
+        }
+      },
+      {
+        "id": "surface",
+        "name": {
+          "zh": "氮化滑动段",
+          "en": "Nitrided sliding section",
+          "vi": "Đoạn trượt thấm nitơ"
+        },
+        "description": {
+          "zh": "处理区域应避开不允许尺寸变化的安装基准，按成品配合复核。",
+          "en": "Specify treated areas and verify the finished fit at mounting datums.",
+          "vi": "Xác định vùng xử lý và kiểm tra lắp ghép cuối tại chuẩn lắp."
+        },
+        "parameters": {
+          "zh": "处理长度、层深、配合公差",
+          "en": "Treated length, case depth and fit tolerance",
+          "vi": "Chiều dài xử lý, sâu lớp và dung sai lắp"
+        }
+      }
+    ]
+  },
+  "stepped-ejector-pins": {
+    "note": {
+      "zh": "台阶顶针以粗杆支撑较细顶出端。有效细段越长，越需要核对导向与侧向受力，不能仅因带台阶就认定承载更高。",
+      "en": "A stepped pin supports a small ejection tip with a larger body. Long reduced sections need guidance and side-load checks; a step alone does not establish load capacity.",
+      "vi": "Ty bậc dùng thân lớn đỡ đầu nhỏ. Đoạn nhỏ dài cần kiểm tra dẫn hướng và tải ngang; có bậc không tự bảo đảm tải cao."
+    },
+    "variants": [
+      {
+        "id": "single",
+        "name": {
+          "zh": "单台阶顶针",
+          "en": "Single-step ejector",
+          "vi": "Ty đẩy một bậc"
+        },
+        "description": {
+          "zh": "适合较小顶出接触点，同时保留粗支撑杆。",
+          "en": "A small contact tip is supported by a larger shaft.",
+          "vi": "Đầu tiếp xúc nhỏ được thân lớn đỡ."
+        },
+        "parameters": {
+          "zh": "细段直径、长度、过渡 R",
+          "en": "Reduced diameter, length and transition radius",
+          "vi": "Đường kính đoạn nhỏ, dài và bán kính chuyển"
+        }
+      },
+      {
+        "id": "multi",
+        "name": {
+          "zh": "多台阶顶针",
+          "en": "Multi-step ejector",
+          "vi": "Ty đẩy nhiều bậc"
+        },
+        "description": {
+          "zh": "多段直径适配不同板孔与支撑区域。",
+          "en": "Several diameters fit different plate bores and support zones.",
+          "vi": "Nhiều đường kính khớp lỗ tấm và vùng đỡ khác nhau."
+        },
+        "parameters": {
+          "zh": "各段尺寸、肩距、同轴度",
+          "en": "Section sizes, shoulder spacing and coaxiality",
+          "vi": "Cỡ từng đoạn, khoảng vai và đồng trục"
+        }
+      },
+      {
+        "id": "shaped",
+        "name": {
+          "zh": "成型顶出端与氮化选项",
+          "en": "Shaped ends and nitriding",
+          "vi": "Đầu tạo hình và thấm nitơ"
+        },
+        "description": {
+          "zh": "端面可随塑件曲面定义，材料和处理另行选择。",
+          "en": "The end may follow the molded surface; choose material and treatment separately.",
+          "vi": "Đầu có thể theo mặt sản phẩm; chọn vật liệu và xử lý riêng."
+        },
+        "parameters": {
+          "zh": "端面曲率、方向、处理区",
+          "en": "End curvature, orientation and treated area",
+          "vi": "Độ cong đầu, hướng và vùng xử lý"
+        }
+      }
+    ]
+  },
+  "blade-ejector-pins": {
+    "note": {
+      "zh": "扁顶针服务于窄筋位与有限顶出空间。宽度、厚度和无支撑长度一起影响刚性；工作端应为顶出接触面，不是刀刃。",
+      "en": "Blade ejectors serve narrow ribs and limited spaces. Width, thickness and unsupported length determine stiffness; the end is a contact face, not a knife edge.",
+      "vi": "Ty dẹt dùng cho gân hẹp và không gian nhỏ. Rộng, dày và chiều dài không đỡ quyết định độ cứng; đầu là mặt đẩy, không phải lưỡi dao."
+    },
+    "variants": [
+      {
+        "id": "flat",
+        "name": {
+          "zh": "平端扁顶针",
+          "en": "Flat-ended blade ejector",
+          "vi": "Ty dẹt đầu phẳng"
+        },
+        "description": {
+          "zh": "薄矩形工作段进入窄筋位，后部圆杆提供支撑。",
+          "en": "A thin rectangular section reaches narrow ribs, supported by a round shank.",
+          "vi": "Đoạn chữ nhật mỏng vào gân hẹp, được thân tròn đỡ."
+        },
+        "parameters": {
+          "zh": "扁位宽厚、扁位长度、杆径",
+          "en": "Blade width, thickness, length and shank diameter",
+          "vi": "Rộng, dày, dài phần dẹt và đường kính thân"
+        }
+      },
+      {
+        "id": "contoured",
+        "name": {
+          "zh": "成型端面扁顶针",
+          "en": "Contoured blade end",
+          "vi": "Đầu dẹt theo biên dạng"
+        },
+        "description": {
+          "zh": "端面与塑件接触轮廓相适应，同时确定安装方向。",
+          "en": "The end matches the molded contact surface with fixed orientation.",
+          "vi": "Đầu khớp mặt tiếp xúc sản phẩm với hướng cố định."
+        },
+        "parameters": {
+          "zh": "端面轮廓、角度、防转位",
+          "en": "End profile, angle and anti-rotation feature",
+          "vi": "Biên dạng đầu, góc và chống xoay"
+        }
+      },
+      {
+        "id": "custom",
+        "name": {
+          "zh": "非标截面与处理",
+          "en": "Custom section and treatment",
+          "vi": "Tiết diện và xử lý tùy chỉnh"
+        },
+        "description": {
+          "zh": "依模具空间调整扁位，表面处理需考虑薄截面的变形。",
+          "en": "Adapt the blade to mold space; consider thin-section distortion during treatment.",
+          "vi": "Điều chỉnh phần dẹt theo khuôn; cân nhắc biến dạng khi xử lý tiết diện mỏng."
+        },
+        "parameters": {
+          "zh": "过渡圆角、直线度、热处理",
+          "en": "Transition radius, straightness and heat treatment",
+          "vi": "Bán kính chuyển, độ thẳng và nhiệt luyện"
+        }
+      }
+    ]
+  },
+  "square-ejector-pins": {
+    "note": {
+      "zh": "方形工作段便于对非圆接触面顶出，但仍需通过安装结构锁定方向。角部留量与配合孔同时确认。",
+      "en": "A square working section suits non-round contact areas, but mounting must still control orientation. Confirm corners with the mating hole.",
+      "vi": "Đoạn vuông phù hợp mặt tiếp xúc không tròn, nhưng kết cấu lắp vẫn phải giữ hướng. Xác nhận góc cùng lỗ ghép."
+    },
+    "variants": [
+      {
+        "id": "square",
+        "name": {
+          "zh": "方形工作段",
+          "en": "Square working section",
+          "vi": "Đoạn làm việc vuông"
+        },
+        "description": {
+          "zh": "两个边向分别与塑件和孔位匹配。",
+          "en": "Match both side directions to the part and guide opening.",
+          "vi": "Khớp hai hướng cạnh với sản phẩm và lỗ dẫn."
+        },
+        "parameters": {
+          "zh": "边长、工作长、角 R",
+          "en": "Side length, working length and corner radius",
+          "vi": "Cạnh, chiều dài làm việc và bán kính góc"
+        }
+      },
+      {
+        "id": "transition",
+        "name": {
+          "zh": "圆杆转方端",
+          "en": "Round-to-square transition",
+          "vi": "Chuyển thân tròn sang đầu vuông"
+        },
+        "description": {
+          "zh": "圆杆便于安装，方形前端承担定向顶出。",
+          "en": "A round shank supports mounting while the square end provides oriented ejection.",
+          "vi": "Thân tròn để lắp, đầu vuông đẩy theo hướng."
+        },
+        "parameters": {
+          "zh": "过渡长度、杆径、防转基准",
+          "en": "Transition length, shank diameter and orientation datum",
+          "vi": "Chiều dài chuyển, đường kính thân và chuẩn hướng"
+        }
+      },
+      {
+        "id": "profile",
+        "name": {
+          "zh": "定制端面与耐磨处理",
+          "en": "Custom face and wear treatment",
+          "vi": "Mặt tùy chỉnh và chống mòn"
+        },
+        "description": {
+          "zh": "特殊接触面与处理范围依塑件与滑动区域分别定义。",
+          "en": "Define the contact face and treatment zones from the molded part and sliding surfaces.",
+          "vi": "Xác định mặt tiếp xúc và vùng xử lý theo sản phẩm và mặt trượt."
+        },
+        "parameters": {
+          "zh": "接触轮廓、表面粗糙度、处理区",
+          "en": "Contact profile, roughness and treated area",
+          "vi": "Biên dạng tiếp xúc, độ nhám và vùng xử lý"
+        }
+      }
+    ]
+  },
+  "ejector-sleeves": {
+    "note": {
+      "zh": "司筒围绕配套芯针顶出环形部位。内外径、同轴度及端面一起决定壁厚与受力，需将司筒和芯针作为配合系统核对。",
+      "en": "A sleeve ejects an annular area around a core pin. Bore, outside diameter, coaxiality and end face govern wall thickness and load; review sleeve and pin together.",
+      "vi": "Ống đẩy đẩy vùng vành quanh ty lõi. Đường kính, đồng trục và mặt đầu quyết định thành và tải; kiểm tra ống cùng ty."
+    },
+    "variants": [
+      {
+        "id": "thin",
+        "name": {
+          "zh": "薄壁与微型司筒",
+          "en": "Thin-wall and miniature sleeves",
+          "vi": "Ống mỏng và cỡ nhỏ"
+        },
+        "description": {
+          "zh": "用于较小柱位，重点控制壁厚与环形顶出接触面。",
+          "en": "For small bosses, focus on wall thickness and annular contact area.",
+          "vi": "Dùng cho trụ nhỏ; chú trọng thành và mặt đẩy vành."
+        },
+        "parameters": {
+          "zh": "内外径、壁厚、端面",
+          "en": "Bore, outside diameter, wall and end face",
+          "vi": "Đường kính trong/ngoài, thành và mặt đầu"
+        }
+      },
+      {
+        "id": "long",
+        "name": {
+          "zh": "加长司筒",
+          "en": "Long sleeves",
+          "vi": "Ống đẩy dài"
+        },
+        "description": {
+          "zh": "长孔滑动配合需校核直线度、导向与清洁条件。",
+          "en": "Long sliding bores require straightness, guidance and cleanliness checks.",
+          "vi": "Lỗ trượt dài cần kiểm tra độ thẳng, dẫn hướng và sạch."
+        },
+        "parameters": {
+          "zh": "总长、孔直线度、芯针配合",
+          "en": "Length, bore straightness and core-pin fit",
+          "vi": "Dài, độ thẳng lỗ và lắp ty lõi"
+        }
+      },
+      {
+        "id": "stepped",
+        "name": {
+          "zh": "台阶与定制司筒",
+          "en": "Stepped and custom sleeves",
+          "vi": "Ống bậc và tùy chỉnh"
+        },
+        "description": {
+          "zh": "外部台阶或头部适配顶针板与安装空间。",
+          "en": "External steps and heads adapt to ejector plates and mounting space.",
+          "vi": "Bậc ngoài và mũ khớp tấm đẩy và không gian lắp."
+        },
+        "parameters": {
+          "zh": "肩位、头厚、行程与孔径",
+          "en": "Shoulders, head thickness, travel and bore",
+          "vi": "Vai, dày mũ, hành trình và đường kính lỗ"
+        }
+      },
+      {
+        "id": "straight",
+        "name": {
+          "zh": "直身精磨司筒",
+          "en": "Straight precision-ground sleeve",
+          "vi": "Ống thẳng mài chính xác"
+        },
+        "description": {
+          "zh": "圆筒形套身用于常规环形顶出，按内外径配合、同轴度和端面要求精加工。",
+          "en": "A cylindrical sleeve serves conventional annular ejection, finished to specified inner and outer fits, coaxiality and end-face requirements.",
+          "vi": "Ống trụ dùng đẩy vành thông thường, gia công theo lắp trong/ngoài, đồng trục và mặt đầu."
+        },
+        "parameters": {
+          "zh": "内外径、同轴度、端面、热处理",
+          "en": "Bore, outside diameter, coaxiality, end face and heat treatment",
+          "vi": "Đường kính trong/ngoài, đồng trục, mặt đầu và nhiệt luyện"
+        }
+      },
+      {
+        "id": "integrated",
+        "name": {
+          "zh": "一体式带头司筒",
+          "en": "Integral-head ejector sleeve",
+          "vi": "Ống đẩy mũ liền"
+        },
+        "description": {
+          "zh": "安装头与套身作为一体结构加工，核对头部承靠、安装板与配套芯针。",
+          "en": "The retaining head and sleeve body form one piece; verify the head seat, mounting plate and core pin.",
+          "vi": "Mũ giữ và thân ống là một khối; kiểm tra mặt tựa mũ, tấm lắp và ty lõi."
+        },
+        "parameters": {
+          "zh": "头径、头厚、肩位、配套芯针",
+          "en": "Head diameter, thickness, shoulder and core pin",
+          "vi": "Đường kính mũ, dày, vai và ty lõi"
+        }
+      }
+    ]
+  },
+  "air-poppet-valves": {
+    "note": {
+      "zh": "气顶阀通过引入空气帮助释放真空吸附，通常配合机械顶出。它不等同于依靠气缸行程顶出的气动顶针。",
+      "en": "Air poppet valves admit air to relieve vacuum adhesion, usually alongside mechanical ejection. They are not pneumatic ejector cylinders.",
+      "vi": "Van khí đưa không khí vào để giảm bám chân không, thường kết hợp đẩy cơ khí; không phải xi lanh đẩy khí."
+    },
+    "variants": [
+      {
+        "id": "spring",
+        "name": {
+          "zh": "弹簧复位气顶阀",
+          "en": "Spring-return air poppet",
+          "vi": "Van khí hồi lò xo"
+        },
+        "description": {
+          "zh": "气压打开阀面，停止供气后由弹簧复位。",
+          "en": "Air opens the valve face; a spring returns it when supply stops.",
+          "vi": "Khí mở mặt van; lò xo hồi khi ngừng cấp."
+        },
+        "parameters": {
+          "zh": "安装径、阀面、复位与行程",
+          "en": "Mounting diameter, face, return and travel",
+          "vi": "Đường kính lắp, mặt van, hồi và hành trình"
+        }
+      },
+      {
+        "id": "mount",
+        "name": {
+          "zh": "定制安装与气路接口",
+          "en": "Custom mounting and air interface",
+          "vi": "Lắp và giao diện khí tùy chỉnh"
+        },
+        "description": {
+          "zh": "结合模腔表面、气路和冷却孔位布置安装。",
+          "en": "Coordinate the cavity surface, air route and cooling channels.",
+          "vi": "Phối hợp mặt lòng khuôn, đường khí và kênh làm mát."
+        },
+        "parameters": {
+          "zh": "孔深、进气位置、压力与密封",
+          "en": "Bore depth, inlet, pressure and sealing",
+          "vi": "Sâu lỗ, cửa khí, áp suất và làm kín"
+        }
+      }
+    ]
+  },
+  "guide-posts": {
+    "note": {
+      "zh": "导柱控制模具相对运动，与导套共同形成导向副。模架导向、卸料板导向和顶出板导向的行程与受力应分别核对。",
+      "en": "Guide posts work with bushings to control relative motion. Check travel and load separately for mold bases, strippers and ejector plates.",
+      "vi": "Trụ cùng bạc kiểm soát chuyển động tương đối. Kiểm tra hành trình và tải riêng cho đế khuôn, tấm gạt và tấm đẩy."
+    },
+    "variants": [
+      {
+        "id": "mold",
+        "name": {
+          "zh": "模架与注塑模导柱",
+          "en": "Mold-base guide posts",
+          "vi": "Trụ dẫn đế khuôn"
+        },
+        "description": {
+          "zh": "用于动定模或上下模对准，确认安装段与工作导向段。",
+          "en": "Align mold halves and define mounting versus guiding sections.",
+          "vi": "Căn hai nửa khuôn, xác định đoạn lắp và đoạn dẫn."
+        },
+        "parameters": {
+          "zh": "安装径、导向径、长度、配套导套",
+          "en": "Mounting and guide diameters, length and bushing",
+          "vi": "Đường kính lắp/dẫn, dài và bạc đi kèm"
+        }
+      },
+      {
+        "id": "stripper",
+        "name": {
+          "zh": "卸料板导柱",
+          "en": "Stripper guide posts",
+          "vi": "Trụ dẫn tấm gạt"
+        },
+        "description": {
+          "zh": "为卸料板相对运动提供导向，核对工作行程与干涉。",
+          "en": "Guide stripper motion and check travel and interference.",
+          "vi": "Dẫn tấm gạt, kiểm tra hành trình và va chạm."
+        },
+        "parameters": {
+          "zh": "板厚、导向长、安装位置",
+          "en": "Plate thickness, guide length and position",
+          "vi": "Dày tấm, chiều dài dẫn và vị trí"
+        }
+      },
+      {
+        "id": "rolling",
+        "name": {
+          "zh": "滚珠导向用导柱",
+          "en": "Posts for ball guidance",
+          "vi": "Trụ cho dẫn hướng bi"
+        },
+        "description": {
+          "zh": "需与滚珠保持架及导套配套，不按普通滑动间隙直接替换。",
+          "en": "Match to the ball cage and bushing, not a plain sliding fit.",
+          "vi": "Khớp lồng bi và bạc, không thay trực tiếp theo khe hở trượt."
+        },
+        "parameters": {
+          "zh": "配套系列、表面、预压与行程",
+          "en": "Mating series, surface, preload and travel",
+          "vi": "Dòng đi kèm, bề mặt, tải trước và hành trình"
+        }
+      },
+      {
+        "id": "nitrided",
+        "name": {
+          "zh": "氮化与表面强化导柱",
+          "en": "Nitrided and surface-hardened posts",
+          "vi": "Trụ thấm nitơ và cứng bề mặt"
+        },
+        "description": {
+          "zh": "针对滑动耐磨要求评估处理；氮化与氮气弹簧无关。",
+          "en": "Consider treatment for sliding wear; nitriding is unrelated to nitrogen gas springs.",
+          "vi": "Xem xét xử lý chống mòn trượt; thấm nitơ khác lò xo khí nitơ."
+        },
+        "parameters": {
+          "zh": "处理区、层深、成品配合",
+          "en": "Treated zone, case depth and finished fit",
+          "vi": "Vùng xử lý, sâu lớp và lắp ghép cuối"
+        }
+      }
+    ]
+  },
+  "guide-bushings": {
+    "note": {
+      "zh": "滑动导套依靠内孔与导柱配合工作。按导向位置选择结构，再明确润滑方式；需要滚动导向时应选配套滚珠系统。",
+      "en": "Plain bushings guide by sliding contact with the post. Choose the mounting location and lubrication; rolling guidance requires a matched ball system.",
+      "vi": "Bạc trượt dẫn bằng tiếp xúc với trụ. Chọn vị trí lắp và bôi trơn; dẫn bi cần hệ đồng bộ."
+    },
+    "variants": [
+      {
+        "id": "straight",
+        "name": {
+          "zh": "直身滑动导套",
+          "en": "Straight plain bushing",
+          "vi": "Bạc trượt thân thẳng"
+        },
+        "description": {
+          "zh": "圆筒外形适合孔内安装，内外配合分别标注。",
+          "en": "A cylindrical body fits a mounting bore; specify inner and outer fits separately.",
+          "vi": "Thân trụ lắp trong lỗ; quy định lắp trong và ngoài riêng."
+        },
+        "parameters": {
+          "zh": "内径、外径、长度、配合",
+          "en": "Bore, outside diameter, length and fits",
+          "vi": "Đường kính trong/ngoài, dài và lắp ghép"
+        }
+      },
+      {
+        "id": "stripper",
+        "name": {
+          "zh": "卸料板导套",
+          "en": "Stripper guide bushing",
+          "vi": "Bạc dẫn tấm gạt"
+        },
+        "description": {
+          "zh": "与卸料板导柱配合，关注板厚及有效接触长度。",
+          "en": "Pairs with stripper posts; check plate thickness and contact length.",
+          "vi": "Ghép trụ tấm gạt; kiểm tra dày tấm và chiều dài tiếp xúc."
+        },
+        "parameters": {
+          "zh": "安装高度、行程、润滑槽",
+          "en": "Mounting height, travel and lubrication grooves",
+          "vi": "Cao lắp, hành trình và rãnh dầu"
+        }
+      },
+      {
+        "id": "ejector",
+        "name": {
+          "zh": "顶出系统导套",
+          "en": "Ejector-system guide bushing",
+          "vi": "Bạc dẫn hệ đẩy"
+        },
+        "description": {
+          "zh": "用于顶出板导向，不能替代直接接触塑件的司筒。",
+          "en": "Guides ejector plates; it is not a sleeve that directly ejects the molded part.",
+          "vi": "Dẫn tấm đẩy, không phải ống trực tiếp đẩy sản phẩm."
+        },
+        "parameters": {
+          "zh": "板孔、导柱匹配、润滑方式",
+          "en": "Plate bore, post match and lubrication",
+          "vi": "Lỗ tấm, trụ phù hợp và bôi trơn"
+        }
+      }
+    ]
+  },
+  "flanged-guide-bushings": {
+    "note": {
+      "zh": "法兰与肩部用于轴向定位或固定，内孔仍需匹配导柱。固定方式和导向方式是两项独立选择。",
+      "en": "Flanges and shoulders locate or retain the bushing axially; the bore must still match the post. Mounting and guidance are separate choices.",
+      "vi": "Bích và vai định vị hoặc giữ bạc theo trục; lỗ vẫn phải khớp trụ. Kiểu lắp và dẫn hướng chọn riêng."
+    },
+    "variants": [
+      {
+        "id": "shoulder",
+        "name": {
+          "zh": "带肩导套",
+          "en": "Shouldered bushing",
+          "vi": "Bạc có vai"
+        },
+        "description": {
+          "zh": "肩部承靠在板面上，控制安装深度。",
+          "en": "A shoulder seats against the plate to set mounting depth.",
+          "vi": "Vai tựa mặt tấm để xác định sâu lắp."
+        },
+        "parameters": {
+          "zh": "肩径、肩厚、承靠面",
+          "en": "Shoulder diameter, thickness and seat",
+          "vi": "Đường kính vai, dày và mặt tựa"
+        }
+      },
+      {
+        "id": "flange",
+        "name": {
+          "zh": "法兰固定导套",
+          "en": "Flange-mounted bushing",
+          "vi": "Bạc lắp bích"
+        },
+        "description": {
+          "zh": "法兰提供螺钉或压板固定位置，须避免孔位干涉。",
+          "en": "A flange accommodates screws or clamps; check mounting-hole interference.",
+          "vi": "Bích bố trí vít hoặc kẹp; kiểm tra va chạm lỗ."
+        },
+        "parameters": {
+          "zh": "孔距、法兰厚度、安装外形",
+          "en": "Hole pitch, flange thickness and mounting envelope",
+          "vi": "Bước lỗ, dày bích và kích thước bao"
+        }
+      },
+      {
+        "id": "custom",
+        "name": {
+          "zh": "定制内孔与润滑",
+          "en": "Custom bore and lubrication",
+          "vi": "Lỗ và bôi trơn tùy chỉnh"
+        },
+        "description": {
+          "zh": "配合段与油槽根据导向行程布置。",
+          "en": "Lay out fit sections and grooves for the guiding travel.",
+          "vi": "Bố trí đoạn lắp và rãnh theo hành trình dẫn."
+        },
+        "parameters": {
+          "zh": "孔径公差、油槽、有效长度",
+          "en": "Bore tolerance, grooves and effective length",
+          "vi": "Dung sai lỗ, rãnh và chiều dài hữu hiệu"
+        }
+      }
+    ]
+  },
+  "guide-sets": {
+    "note": {
+      "zh": "组件按导柱、导套与安装接口成套匹配。滑动副与滚珠副的尺寸链、润滑和行程限制不同，应在总成层面确认。",
+      "en": "Match posts, bushings and mounting interfaces as a set. Plain and ball systems differ in fits, lubrication and travel limits.",
+      "vi": "Ghép trụ, bạc và giao diện lắp thành bộ. Hệ trượt và bi khác về lắp ghép, bôi trơn và giới hạn hành trình."
+    },
+    "variants": [
+      {
+        "id": "sliding",
+        "name": {
+          "zh": "滑动导向组件",
+          "en": "Plain guide set",
+          "vi": "Bộ dẫn trượt"
+        },
+        "description": {
+          "zh": "导柱与滑动导套配套，适配既定安装孔与润滑方式。",
+          "en": "Post and plain bushing are matched to mounting bores and lubrication.",
+          "vi": "Trụ và bạc trượt khớp lỗ lắp và bôi trơn."
+        },
+        "parameters": {
+          "zh": "安装孔、配合、有效行程",
+          "en": "Mounting bores, fits and effective travel",
+          "vi": "Lỗ lắp, lắp ghép và hành trình"
+        }
+      },
+      {
+        "id": "ball",
+        "name": {
+          "zh": "滚珠导向组件",
+          "en": "Ball guide set",
+          "vi": "Bộ dẫn bi"
+        },
+        "description": {
+          "zh": "导柱、滚珠保持架、导套共同核对预压和保持架运动。",
+          "en": "Check post, cage and bushing together for preload and cage travel.",
+          "vi": "Kiểm tra trụ, lồng bi và bạc cùng tải trước và hành trình lồng."
+        },
+        "parameters": {
+          "zh": "预压、球径、保持架行程",
+          "en": "Preload, ball size and cage travel",
+          "vi": "Tải trước, cỡ bi và hành trình lồng"
+        }
+      },
+      {
+        "id": "assembly",
+        "name": {
+          "zh": "定制安装总成",
+          "en": "Custom guide assembly",
+          "vi": "Cụm dẫn tùy chỉnh"
+        },
+        "description": {
+          "zh": "按模架布置统一安装基准和组件高度。",
+          "en": "Coordinate mounting datums and component heights with the mold layout.",
+          "vi": "Thống nhất chuẩn lắp và cao cụm với bố trí khuôn."
+        },
+        "parameters": {
+          "zh": "装配图、中心距、闭合高度",
+          "en": "Assembly drawing, center spacing and closed height",
+          "vi": "Bản vẽ lắp, khoảng tâm và cao đóng"
+        }
+      }
+    ]
+  },
+  "ball-cages": {
+    "note": {
+      "zh": "保持架负责定位钢球，不是普通铜套。材料选择需结合温度、惯性和环境，同时核对球径、排布及配套导向副。",
+      "en": "The cage retains steel balls; it is not a plain bushing. Select material for temperature, inertia and environment, then match ball size and layout to the guide pair.",
+      "vi": "Lồng giữ bi thép, không phải bạc trượt. Chọn vật liệu theo nhiệt, quán tính và môi trường, rồi khớp cỡ và bố trí bi."
+    },
+    "variants": [
+      {
+        "id": "brass",
+        "name": {
+          "zh": "黄铜滚珠保持架",
+          "en": "Brass ball cage",
+          "vi": "Lồng bi đồng thau"
+        },
+        "description": {
+          "zh": "金属保持架用于重复导向工况，需与实际温度和载荷匹配。",
+          "en": "A metal cage for repeated guidance, matched to actual temperature and load.",
+          "vi": "Lồng kim loại cho dẫn lặp lại, khớp nhiệt và tải thực tế."
+        },
+        "parameters": {
+          "zh": "球径、孔位、壁厚、长度",
+          "en": "Ball diameter, pockets, wall and length",
+          "vi": "Cỡ bi, vị trí ổ, thành và dài"
+        }
+      },
+      {
+        "id": "aluminum",
+        "name": {
+          "zh": "铝合金滚珠保持架",
+          "en": "Aluminum ball cage",
+          "vi": "Lồng bi nhôm"
+        },
+        "description": {
+          "zh": "适合关注运动质量的方案，减重不代表可忽略保持强度。",
+          "en": "For designs sensitive to moving mass; weight reduction still requires retention-strength checks.",
+          "vi": "Dùng khi chú trọng khối lượng chuyển động; giảm nặng vẫn cần kiểm tra độ bền giữ bi."
+        },
+        "parameters": {
+          "zh": "合金、球列、速度与行程",
+          "en": "Alloy, ball rows, speed and travel",
+          "vi": "Hợp kim, hàng bi, tốc độ và hành trình"
+        }
+      },
+      {
+        "id": "polymer",
+        "name": {
+          "zh": "工程塑料滚珠保持架",
+          "en": "Polymer ball cage",
+          "vi": "Lồng bi nhựa kỹ thuật"
+        },
+        "description": {
+          "zh": "用于合适的轻载与温度环境，核对树脂、润滑剂及尺寸稳定性。",
+          "en": "For suitable light-load and temperature conditions; verify resin, lubricant and dimensional stability.",
+          "vi": "Cho tải nhẹ và nhiệt phù hợp; kiểm tra nhựa, dầu và ổn định kích thước."
+        },
+        "parameters": {
+          "zh": "树脂牌号、温度、介质、配合",
+          "en": "Resin grade, temperature, media and fit",
+          "vi": "Mác nhựa, nhiệt độ, môi chất và lắp ghép"
+        }
+      }
+    ]
+  },
+  "ball-bearing-bushings": {
+    "note": {
+      "zh": "滚珠导套通过滚动接触导向，与普通滑动导套不能仅凭外径互换。确认结构是保持架式还是其他直线滚动形式，并匹配整套系统。",
+      "en": "Ball bushings guide through rolling contact and are not interchangeable with plain bushings by outside diameter alone. Confirm the rolling architecture and matched system.",
+      "vi": "Bạc bi dẫn qua lăn, không thể đổi bạc trượt chỉ theo đường kính ngoài. Xác nhận kết cấu lăn và cả hệ."
+    },
+    "variants": [
+      {
+        "id": "unit",
+        "name": {
+          "zh": "滚动导向单元",
+          "en": "Rolling guide unit",
+          "vi": "Đơn vị dẫn lăn"
+        },
+        "description": {
+          "zh": "以内置滚动结构实现轴向导向，依据选定系列确认安装形式。",
+          "en": "An internal rolling structure guides axial travel; confirm mounting for the selected series.",
+          "vi": "Kết cấu lăn trong dẫn theo trục; xác nhận lắp theo dòng chọn."
+        },
+        "parameters": {
+          "zh": "内外径、长度、保持方式",
+          "en": "Bore, outside diameter, length and retention",
+          "vi": "Đường kính trong/ngoài, dài và giữ"
+        }
+      },
+      {
+        "id": "matched",
+        "name": {
+          "zh": "配套导柱与总成",
+          "en": "Matched post and assembly",
+          "vi": "Trụ và cụm đồng bộ"
+        },
+        "description": {
+          "zh": "把预压、行程及端部限位一起作为系统参数核对。",
+          "en": "Review preload, travel and end stops as system parameters.",
+          "vi": "Kiểm tra tải trước, hành trình và chặn đầu như thông số hệ."
+        },
+        "parameters": {
+          "zh": "配套轴、预压、行程、润滑",
+          "en": "Mating shaft, preload, travel and lubrication",
+          "vi": "Trục ghép, tải trước, hành trình và bôi trơn"
+        }
+      }
+    ]
+  },
+  "rectangular-die-springs": {
+    "note": {
+      "zh": "以下颜色对应本目录采用的日系载荷标识习惯，不代表所有标准。必须先锁定系列，再按力—行程曲线选型，不能只按颜色互换。",
+      "en": "The colors below follow the Japanese-style load convention used in this catalog, not every standard. Identify the series and select from its force–travel curve, not color alone.",
+      "vi": "Màu dưới đây theo quy ước tải kiểu Nhật của danh mục, không áp dụng mọi tiêu chuẩn. Chọn dòng và đường lực–hành trình, không chỉ màu."
+    },
+    "variants": [
+      {
+        "id": "yellow",
+        "name": {
+          "zh": "黄色 · 超轻载",
+          "en": "Yellow · extra light load",
+          "vi": "Vàng · tải rất nhẹ"
+        },
+        "description": {
+          "zh": "适合较轻复位需求，仍需检查预压和允许压缩量。",
+          "en": "For lighter return duties; verify preload and allowable compression.",
+          "vi": "Cho hồi tải nhẹ; kiểm tra tải trước và độ nén cho phép."
+        },
+        "parameters": {
+          "zh": "系列、安装长、预压、工作行程",
+          "en": "Series, installed length, preload and travel",
+          "vi": "Dòng, dài lắp, tải trước và hành trình"
+        }
+      },
+      {
+        "id": "blue",
+        "name": {
+          "zh": "蓝色 · 轻载",
+          "en": "Blue · light load",
+          "vi": "Xanh dương · tải nhẹ"
+        },
+        "description": {
+          "zh": "用于轻载模具机构，结合寿命目标确定压缩行程。",
+          "en": "For light-load mechanisms; choose compression travel with the life target.",
+          "vi": "Cho cơ cấu tải nhẹ; chọn hành trình nén theo tuổi thọ yêu cầu."
+        },
+        "parameters": {
+          "zh": "弹簧孔、导杆径、力—行程",
+          "en": "Pocket, rod diameter and force–travel curve",
+          "vi": "Lỗ chứa, đường kính ty và đường lực–hành trình"
+        }
+      },
+      {
+        "id": "red",
+        "name": {
+          "zh": "红色 · 中载",
+          "en": "Red · medium load",
+          "vi": "Đỏ · tải trung bình"
+        },
+        "description": {
+          "zh": "平衡复位力与安装空间，不能脱离具体规格比较载荷。",
+          "en": "Balance return force and space; compare loads only for specified sizes.",
+          "vi": "Cân bằng lực hồi và không gian; so tải theo kích thước cụ thể."
+        },
+        "parameters": {
+          "zh": "外径、内径、自由长、刚度",
+          "en": "Outside and inside diameters, free length and rate",
+          "vi": "Đường kính ngoài/trong, dài tự do và độ cứng"
+        }
+      },
+      {
+        "id": "green",
+        "name": {
+          "zh": "绿色 · 重载",
+          "en": "Green · heavy load",
+          "vi": "Xanh lá · tải nặng"
+        },
+        "description": {
+          "zh": "较高载荷工况需同时关注压缩比例、热量与导向。",
+          "en": "Higher loads require checks on compression ratio, heat and guidance.",
+          "vi": "Tải cao cần kiểm tra tỷ lệ nén, nhiệt và dẫn hướng."
+        },
+        "parameters": {
+          "zh": "实际载荷、允许行程、循环频率",
+          "en": "Actual load, permissible travel and cycle rate",
+          "vi": "Tải thực tế, hành trình cho phép và tần suất"
+        }
+      },
+      {
+        "id": "brown",
+        "name": {
+          "zh": "棕色 · 超重载",
+          "en": "Brown · extra heavy load",
+          "vi": "Nâu · tải rất nặng"
+        },
+        "description": {
+          "zh": "高刚度方案须以选定系列的允许行程为边界。",
+          "en": "High-rate options must stay within the selected series travel limits.",
+          "vi": "Phương án độ cứng cao phải trong giới hạn hành trình dòng chọn."
+        },
+        "parameters": {
+          "zh": "最小安装空间、峰值力、安全余量",
+          "en": "Installation space, peak force and travel margin",
+          "vi": "Không gian lắp, lực cực đại và dự phòng hành trình"
+        }
+      }
+    ]
+  },
+  "nitrogen-gas-springs": {
+    "note": {
+      "zh": "氮气弹簧按型号、初始力与工作行程选型。外形相近不代表可替换，安装方式、回程限制和维护要求均需按选定产品确认。",
+      "en": "Select gas springs by model, initial force and working stroke. Similar appearance does not establish interchangeability; verify mounting, return limits and service requirements.",
+      "vi": "Chọn lò xo khí theo model, lực đầu và hành trình. Hình giống không bảo đảm thay thế; kiểm tra lắp, giới hạn hồi và bảo trì."
+    },
+    "variants": [
+      {
+        "id": "compact",
+        "name": {
+          "zh": "紧凑型氮气弹簧",
+          "en": "Compact gas spring",
+          "vi": "Lò xo khí nhỏ gọn"
+        },
+        "description": {
+          "zh": "在有限高度内提供压缩力，核对闭合高度和杆部行程。",
+          "en": "Provides compressive force in limited height; check closed height and rod stroke.",
+          "vi": "Cung cấp lực nén trong chiều cao nhỏ; kiểm tra cao đóng và hành trình ty."
+        },
+        "parameters": {
+          "zh": "型号、初始力、全行程、总高",
+          "en": "Model, initial force, full stroke and height",
+          "vi": "Model, lực đầu, toàn hành trình và cao"
+        }
+      },
+      {
+        "id": "mounting",
+        "name": {
+          "zh": "安装附件与固定方式",
+          "en": "Mounting accessories",
+          "vi": "Phụ kiện lắp"
+        },
+        "description": {
+          "zh": "通过法兰或底部固定等方式保持位置，避免侧向载荷。",
+          "en": "Flanges or base mounts retain position while avoiding side loads.",
+          "vi": "Bích hoặc gá đáy giữ vị trí, tránh tải ngang."
+        },
+        "parameters": {
+          "zh": "底孔、法兰、受力方向",
+          "en": "Base holes, flange and load direction",
+          "vi": "Lỗ đáy, bích và hướng tải"
+        }
+      },
+      {
+        "id": "replacement",
+        "name": {
+          "zh": "按型号替换",
+          "en": "Model-based replacement",
+          "vi": "Thay theo model"
+        },
+        "description": {
+          "zh": "核对原型号的力、行程和接口后再确认替代。",
+          "en": "Check original force, stroke and interface before substitution.",
+          "vi": "Kiểm tra lực, hành trình và giao diện gốc trước khi thay."
+        },
+        "parameters": {
+          "zh": "原型号、安装图、工作温度",
+          "en": "Original model, mounting drawing and temperature",
+          "vi": "Model gốc, bản vẽ lắp và nhiệt độ"
+        }
+      }
+    ]
+  },
+  "sprue-bushings": {
+    "note": {
+      "zh": "浇口套连接注塑机喷嘴与模具流道。A/B/C 等型式需核对对应尺寸图；冷流道、加热与紧凑结构分别评估，不以字母型式推定接口。",
+      "en": "Sprue bushings connect the nozzle to the mold runner. Verify A/B/C styles against their drawings; assess cold-runner, heated and compact designs separately.",
+      "vi": "Bạc cuống nối vòi phun với kênh khuôn. Kiểm tra loại A/B/C theo bản vẽ; đánh giá riêng kênh nguội, gia nhiệt và nhỏ gọn."
+    },
+    "variants": [
+      {
+        "id": "type-a",
+        "name": {
+          "zh": "A 型参考结构",
+          "en": "Type A configuration",
+          "vi": "Cấu hình loại A"
+        },
+        "description": {
+          "zh": "按照选定目录核对头部及安装段结构。",
+          "en": "Check head and mounting geometry against the selected catalog.",
+          "vi": "Kiểm tra mũ và đoạn lắp theo danh mục chọn."
+        },
+        "parameters": {
+          "zh": "头径、安装径、头厚、总长",
+          "en": "Head and mounting diameters, thickness and length",
+          "vi": "Đường kính mũ/lắp, dày và dài"
+        }
+      },
+      {
+        "id": "type-b",
+        "name": {
+          "zh": "B 型参考结构",
+          "en": "Type B configuration",
+          "vi": "Cấu hình loại B"
+        },
+        "description": {
+          "zh": "更换已有浇口套时按尺寸匹配，不仅按型式名称下单。",
+          "en": "Match dimensions when replacing a bushing rather than ordering by type name alone.",
+          "vi": "Khi thay cần khớp kích thước, không chỉ tên loại."
+        },
+        "parameters": {
+          "zh": "安装孔、头厚、喷嘴接触面",
+          "en": "Mounting bore, head thickness and nozzle seat",
+          "vi": "Lỗ lắp, dày mũ và mặt tựa vòi"
+        }
+      },
+      {
+        "id": "type-c",
+        "name": {
+          "zh": "C 型参考结构",
+          "en": "Type C configuration",
+          "vi": "Cấu hình loại C"
+        },
+        "description": {
+          "zh": "独立确认头部、流道与安装长度组合。",
+          "en": "Confirm the combination of head, runner and installation length.",
+          "vi": "Xác nhận tổ hợp mũ, kênh và chiều dài lắp."
+        },
+        "parameters": {
+          "zh": "流道锥度、孔径、长度",
+          "en": "Runner taper, bore and length",
+          "vi": "Độ côn kênh, đường kính và dài"
+        }
+      },
+      {
+        "id": "cold",
+        "name": {
+          "zh": "冷流道浇口套",
+          "en": "Cold-runner sprue bushing",
+          "vi": "Bạc cuống kênh nguội"
+        },
+        "description": {
+          "zh": "普通冷流道方案关注喷嘴贴合、脱料锥度和流道衔接。",
+          "en": "Check nozzle contact, release taper and runner transition.",
+          "vi": "Kiểm tra tiếp xúc vòi, độ côn tháo và nối kênh."
+        },
+        "parameters": {
+          "zh": "球面半径、入口孔、出口孔",
+          "en": "Seat radius, inlet and outlet bores",
+          "vi": "Bán kính tựa, lỗ vào và ra"
+        }
+      },
+      {
+        "id": "heated",
+        "name": {
+          "zh": "加热浇口套方案",
+          "en": "Heated sprue configuration",
+          "vi": "Cấu hình bạc cuống gia nhiệt"
+        },
+        "description": {
+          "zh": "带加热需求时，应同时确认温控、接线空间和热隔离。",
+          "en": "Heating requires review of temperature control, wiring space and thermal isolation.",
+          "vi": "Gia nhiệt cần kiểm tra điều khiển nhiệt, chỗ dây và cách nhiệt."
+        },
+        "parameters": {
+          "zh": "温控方式、加热接口、温度",
+          "en": "Control method, heater interface and temperature",
+          "vi": "Điều khiển, giao diện gia nhiệt và nhiệt độ"
+        }
+      },
+      {
+        "id": "compact",
+        "name": {
+          "zh": "U 系列与紧凑定制",
+          "en": "U-series and compact designs",
+          "vi": "Dòng U và thiết kế gọn"
+        },
+        "description": {
+          "zh": "紧凑模具需按对应接口图确认结构与可用空间。",
+          "en": "Compact molds require interface drawings and space checks.",
+          "vi": "Khuôn gọn cần bản vẽ giao diện và kiểm tra không gian."
+        },
+        "parameters": {
+          "zh": "系列图、安装高度、喷嘴中心",
+          "en": "Series drawing, height and nozzle center",
+          "vi": "Bản vẽ dòng, cao lắp và tâm vòi"
+        }
+      }
+    ]
+  },
+  "locating-rings": {
+    "note": {
+      "zh": "定位圈使模具与注塑机定位孔对中，不承担替代锁模机构的作用。按设备孔径与模具安装面共同确认。",
+      "en": "Locating rings align the mold with the machine locating bore; they do not replace clamping. Match the machine bore and mold mounting face.",
+      "vi": "Vòng định vị căn khuôn với lỗ máy, không thay cơ cấu kẹp. Khớp lỗ máy và mặt lắp khuôn."
+    },
+    "variants": [
+      {
+        "id": "flat",
+        "name": {
+          "zh": "平面定位圈",
+          "en": "Flat locating ring",
+          "vi": "Vòng định vị phẳng"
+        },
+        "description": {
+          "zh": "用于平面安装结构，核对中心孔与喷嘴通道。",
+          "en": "For flat mounting faces; check the center opening and nozzle path.",
+          "vi": "Cho mặt lắp phẳng; kiểm tra lỗ tâm và đường vòi."
+        },
+        "parameters": {
+          "zh": "外径、内孔、厚度、孔距",
+          "en": "Outside diameter, bore, thickness and hole pitch",
+          "vi": "Đường kính ngoài, lỗ, dày và bước lỗ"
+        }
+      },
+      {
+        "id": "stepped",
+        "name": {
+          "zh": "台阶定位圈",
+          "en": "Stepped locating ring",
+          "vi": "Vòng định vị bậc"
+        },
+        "description": {
+          "zh": "台阶适配不同安装高度及定位深度。",
+          "en": "A step adapts to mounting height and locating depth.",
+          "vi": "Bậc khớp cao lắp và sâu định vị."
+        },
+        "parameters": {
+          "zh": "台阶外径、深度、承靠面",
+          "en": "Step diameter, depth and seating face",
+          "vi": "Đường kính bậc, sâu và mặt tựa"
+        }
+      }
+    ]
+  },
+  "mold-date-stamps": {
+    "note": {
+      "zh": "日期章用于在塑件上形成追溯标记。应先定义成型后的可读方向，再确认模具端刻字方向及更换方式。",
+      "en": "Date stamps mold traceability marks into the part. Define the readable part orientation before specifying engraving and replacement access.",
+      "vi": "Dấu ngày tạo dấu truy xuất trên sản phẩm. Xác định hướng đọc trên sản phẩm trước hướng khắc và cách thay."
+    },
+    "variants": [
+      {
+        "id": "date",
+        "name": {
+          "zh": "年月与月份标记",
+          "en": "Year and month markings",
+          "vi": "Dấu năm và tháng"
+        },
+        "description": {
+          "zh": "按生产追溯周期选择数字环和中心指示结构。",
+          "en": "Choose the numeral ring and center indicator for the traceability cycle.",
+          "vi": "Chọn vòng số và chỉ thị tâm theo chu kỳ truy xuất."
+        },
+        "parameters": {
+          "zh": "数字内容、读向、外径、深度",
+          "en": "Markings, reading direction, diameter and depth",
+          "vi": "Nội dung, hướng đọc, đường kính và sâu"
+        }
+      },
+      {
+        "id": "code",
+        "name": {
+          "zh": "定制识别与批次标记",
+          "en": "Custom identification marks",
+          "vi": "Dấu nhận diện tùy chỉnh"
+        },
+        "description": {
+          "zh": "标识、班次或批次编码需明确字形与切换方式。",
+          "en": "Define artwork and changeover method for IDs, shifts or batch codes.",
+          "vi": "Xác định ký tự và cách đổi cho mã, ca hoặc lô."
+        },
+        "parameters": {
+          "zh": "字形、刻深、可更换部位",
+          "en": "Artwork, engraving depth and replaceable insert",
+          "vi": "Mẫu chữ, sâu khắc và lõi thay được"
+        }
+      }
+    ]
+  },
+  "side-locks": {
+    "note": {
+      "zh": "侧锁与精定位块用于合模阶段的重复定位，不能替代整套导向和锁模设计。公母件按装配基准成对确认。",
+      "en": "Side locks provide repeatable final alignment; they do not replace the full guiding or clamping system. Confirm male and female parts as a pair.",
+      "vi": "Khóa bên định vị lặp lại khi đóng, không thay cả hệ dẫn và kẹp. Xác nhận cặp đực/cái theo chuẩn lắp."
+    },
+    "variants": [
+      {
+        "id": "side",
+        "name": {
+          "zh": "侧面精定位结构",
+          "en": "Side alignment lock",
+          "vi": "Khóa định vị bên"
+        },
+        "description": {
+          "zh": "安装于模具侧面，控制接近闭合时的相对位置。",
+          "en": "Mounted at the mold side to control final closing alignment.",
+          "vi": "Lắp bên khuôn để kiểm soát định vị cuối khi đóng."
+        },
+        "parameters": {
+          "zh": "安装方向、孔距、闭合间隙",
+          "en": "Orientation, hole pitch and closed clearance",
+          "vi": "Hướng, bước lỗ và khe hở đóng"
+        }
+      },
+      {
+        "id": "pair",
+        "name": {
+          "zh": "公母配套定位块",
+          "en": "Matched male/female blocks",
+          "vi": "Cặp khối đực/cái"
+        },
+        "description": {
+          "zh": "定位接触面成对匹配，核对热膨胀与接触区域。",
+          "en": "Match contact faces as a pair, considering thermal expansion and contact area.",
+          "vi": "Ghép mặt tiếp xúc thành cặp, xét giãn nhiệt và vùng tiếp xúc."
+        },
+        "parameters": {
+          "zh": "配合面、装配基准、工作温度",
+          "en": "Mating faces, assembly datum and temperature",
+          "vi": "Mặt ghép, chuẩn lắp và nhiệt độ"
+        }
+      }
+    ]
+  },
+  "stopper-bolts": {
+    "note": {
+      "zh": "限位螺栓用于约束机构行程。安装肩、螺纹与受冲击面分别定义，不把普通紧固螺栓直接作为限位替代。",
+      "en": "Stopper bolts limit mechanism travel. Define shoulder, thread and impact face separately; an ordinary fastener is not automatically a substitute.",
+      "vi": "Bu lông chặn giới hạn hành trình. Xác định vai, ren và mặt chịu va riêng; bu lông thường không tự thay được."
+    },
+    "variants": [
+      {
+        "id": "shoulder",
+        "name": {
+          "zh": "带肩限位螺栓",
+          "en": "Shoulder stopper bolt",
+          "vi": "Bu lông chặn có vai"
+        },
+        "description": {
+          "zh": "光杆肩部控制滑动段与机械止挡位置。",
+          "en": "The plain shoulder sets the sliding section and stop position.",
+          "vi": "Vai trơn xác định đoạn trượt và vị trí chặn."
+        },
+        "parameters": {
+          "zh": "肩径、肩长、螺纹、承靠面",
+          "en": "Shoulder diameter, length, thread and seat",
+          "vi": "Đường kính vai, dài, ren và mặt tựa"
+        }
+      },
+      {
+        "id": "travel",
+        "name": {
+          "zh": "定制限位行程",
+          "en": "Custom travel stop",
+          "vi": "Chặn hành trình tùy chỉnh"
+        },
+        "description": {
+          "zh": "通过有效长度匹配机构开合行程，检查缓冲与冲击载荷。",
+          "en": "Match opening travel by effective length and review cushioning and impact load.",
+          "vi": "Khớp hành trình mở bằng chiều dài hữu hiệu, kiểm tra giảm chấn và tải va."
+        },
+        "parameters": {
+          "zh": "工作行程、有效长度、冲击工况",
+          "en": "Travel, effective length and impact duty",
+          "vi": "Hành trình, dài hữu hiệu và điều kiện va"
+        }
+      }
+    ]
+  },
+  "pull-rods": {
+    "note": {
+      "zh": "拉杆连接并带动模具活动部件，必须区分受拉段、导向段与螺纹连接。长度和载荷需结合机构动作顺序确认。",
+      "en": "Pull rods connect and move mold members. Distinguish tension, guiding and threaded sections, and match length and load to the motion sequence.",
+      "vi": "Thanh kéo nối và kéo bộ phận khuôn. Phân biệt đoạn chịu kéo, dẫn và ren; khớp dài/tải với trình tự chuyển động."
+    },
+    "variants": [
+      {
+        "id": "thread",
+        "name": {
+          "zh": "螺纹端拉杆",
+          "en": "Threaded-end pull rod",
+          "vi": "Thanh kéo đầu ren"
+        },
+        "description": {
+          "zh": "通过端部螺纹连接机构，确认旋合长度与防松方式。",
+          "en": "End threads connect the mechanism; specify engagement and locking.",
+          "vi": "Ren đầu nối cơ cấu; xác định chiều dài ăn ren và chống lỏng."
+        },
+        "parameters": {
+          "zh": "螺纹规格、旋合长、杆径",
+          "en": "Thread, engagement length and rod diameter",
+          "vi": "Ren, dài ăn ren và đường kính thanh"
+        }
+      },
+      {
+        "id": "shoulder",
+        "name": {
+          "zh": "带肩与限位端拉杆",
+          "en": "Shouldered pull rod",
+          "vi": "Thanh kéo có vai"
+        },
+        "description": {
+          "zh": "肩部提供承靠或限位，按动作顺序确定台阶位置。",
+          "en": "Shoulders provide seats or stops, positioned for the motion sequence.",
+          "vi": "Vai làm tựa hoặc chặn, đặt theo trình tự chuyển động."
+        },
+        "parameters": {
+          "zh": "肩位、总长、行程、连接形式",
+          "en": "Shoulders, length, travel and connection",
+          "vi": "Vai, dài, hành trình và kiểu nối"
+        }
+      }
+    ]
+  },
+  "graphite-bronze-bushings": {
+    "note": {
+      "zh": "铜合金基体承载，嵌入的固体润滑材料在滑动接触中发挥作用。它不同于含油烧结轴套；润滑布点需覆盖实际工作面。",
+      "en": "The copper-alloy matrix carries load while solid lubricant acts at sliding contacts. This differs from oil-impregnated sintered bearings; plug layout must serve the working surface.",
+      "vi": "Nền hợp kim đồng chịu tải, chất bôi trơn rắn tác dụng tại mặt trượt. Khác bạc thiêu kết ngậm dầu; bố trí nút theo mặt làm việc."
+    },
+    "variants": [
+      {
+        "id": "cylindrical",
+        "name": {
+          "zh": "圆筒石墨铜套",
+          "en": "Cylindrical graphite bushing",
+          "vi": "Bạc graphite hình trụ"
+        },
+        "description": {
+          "zh": "内孔滑动面按运动方向配置固体润滑点。",
+          "en": "Place lubricant plugs on the sliding bore for the actual motion.",
+          "vi": "Bố trí nút bôi trơn trên lỗ trượt theo chuyển động."
+        },
+        "parameters": {
+          "zh": "内外径、长度、载荷与速度",
+          "en": "Bore, outside diameter, length, load and speed",
+          "vi": "Đường kính trong/ngoài, dài, tải và tốc độ"
+        }
+      },
+      {
+        "id": "flange",
+        "name": {
+          "zh": "法兰石墨铜套",
+          "en": "Flanged graphite bushing",
+          "vi": "Bạc graphite có bích"
+        },
+        "description": {
+          "zh": "兼有径向导向与端面定位需求时确认法兰承载区域。",
+          "en": "For radial guidance and axial location, confirm the loaded flange face.",
+          "vi": "Khi dẫn hướng kính và định vị trục, xác nhận mặt bích chịu tải."
+        },
+        "parameters": {
+          "zh": "法兰尺寸、端面载荷、润滑面",
+          "en": "Flange dimensions, axial load and lubrication faces",
+          "vi": "Kích thước bích, tải trục và mặt bôi trơn"
+        }
+      },
+      {
+        "id": "square",
+        "name": {
+          "zh": "方形与定制石墨导向块",
+          "en": "Square and custom graphite blocks",
+          "vi": "Khối graphite vuông và tùy chỉnh"
+        },
+        "description": {
+          "zh": "用于非圆安装外形或特定导向面，按实际滑动面布点。",
+          "en": "For non-round mounting or guide faces, place plugs at the actual sliding surfaces.",
+          "vi": "Cho ngoài không tròn hoặc mặt dẫn riêng, đặt nút tại mặt trượt thực."
+        },
+        "parameters": {
+          "zh": "安装外形、滑动面、孔位",
+          "en": "Mounting envelope, sliding faces and holes",
+          "vi": "Ngoài lắp, mặt trượt và lỗ"
+        }
+      }
+    ]
+  },
+  "bronze-bushings": {
+    "note": {
+      "zh": "普通铜套不因使用铜合金就自动具有自润滑能力。材料、油槽及供油方式须结合配套轴、载荷和运动形式选择。",
+      "en": "A plain bronze bushing is not automatically self-lubricating. Select alloy, grooves and oil supply for the shaft, load and motion.",
+      "vi": "Bạc đồng thường không tự có tính tự bôi trơn. Chọn hợp kim, rãnh và cấp dầu theo trục, tải và chuyển động."
+    },
+    "variants": [
+      {
+        "id": "plain",
+        "name": {
+          "zh": "光孔铜套",
+          "en": "Plain-bore bronze bushing",
+          "vi": "Bạc đồng lỗ trơn"
+        },
+        "description": {
+          "zh": "连续内孔作为滑动接触面，配合与润滑另行定义。",
+          "en": "A continuous bore forms the sliding contact; specify fit and lubrication.",
+          "vi": "Lỗ liên tục tạo mặt trượt; quy định lắp ghép và bôi trơn."
+        },
+        "parameters": {
+          "zh": "轴径、配合、长度、供油",
+          "en": "Shaft size, fit, length and oil supply",
+          "vi": "Cỡ trục, lắp, dài và cấp dầu"
+        }
+      },
+      {
+        "id": "grooved",
+        "name": {
+          "zh": "带油槽铜套",
+          "en": "Oil-grooved bronze bushing",
+          "vi": "Bạc đồng có rãnh dầu"
+        },
+        "description": {
+          "zh": "油槽分配润滑介质，其方向和出口应匹配安装位置。",
+          "en": "Grooves distribute lubricant; align their paths and outlets with mounting.",
+          "vi": "Rãnh phân phối dầu; hướng và cửa ra phải khớp lắp."
+        },
+        "parameters": {
+          "zh": "油槽形状、供油孔、负载区",
+          "en": "Groove geometry, oil holes and loaded zone",
+          "vi": "Hình rãnh, lỗ dầu và vùng tải"
+        }
+      }
+    ]
+  },
+  "flanged-bronze-bushings": {
+    "note": {
+      "zh": "法兰可提供轴向定位或端面承载，需分别确认径向与轴向负荷。普通铜合金和镶固体润滑结构按润滑条件选择。",
+      "en": "A flange provides axial location or thrust support; check radial and axial loads separately. Choose plain or solid-lubricant construction for the lubrication conditions.",
+      "vi": "Bích định vị trục hoặc đỡ lực dọc; kiểm tra tải hướng kính và dọc riêng. Chọn thường hoặc bôi trơn rắn theo điều kiện."
+    },
+    "variants": [
+      {
+        "id": "plain",
+        "name": {
+          "zh": "普通法兰铜套",
+          "en": "Plain flanged bronze bushing",
+          "vi": "Bạc đồng bích thường"
+        },
+        "description": {
+          "zh": "通过法兰面定位，滑动面需有明确润滑方案。",
+          "en": "The flange locates the bushing; sliding faces require a lubrication plan.",
+          "vi": "Bích định vị bạc; mặt trượt cần phương án bôi trơn."
+        },
+        "parameters": {
+          "zh": "法兰径厚、内孔、轴向间隙",
+          "en": "Flange diameter/thickness, bore and axial clearance",
+          "vi": "Đường kính/dày bích, lỗ và khe hở trục"
+        }
+      },
+      {
+        "id": "plugged",
+        "name": {
+          "zh": "镶固体润滑法兰铜套",
+          "en": "Solid-lubricant flanged bushing",
+          "vi": "Bạc bích bôi trơn rắn"
+        },
+        "description": {
+          "zh": "根据实际接触面决定内孔与法兰端面的润滑点。",
+          "en": "Locate plugs on the bore and thrust face according to actual contact.",
+          "vi": "Đặt nút trên lỗ và mặt chặn theo tiếp xúc thực."
+        },
+        "parameters": {
+          "zh": "润滑面、布点、端面载荷",
+          "en": "Lubricated faces, plug layout and thrust load",
+          "vi": "Mặt bôi trơn, bố trí nút và tải dọc"
+        }
+      }
+    ]
+  },
+  "wear-plates": {
+    "note": {
+      "zh": "耐磨板以平面滑动为主，关注承载面积、润滑与固定孔避让。板厚之外，还需给出接触面方向与运动行程。",
+      "en": "Wear plates serve flat sliding contacts. Review bearing area, lubrication and fastener clearance, plus contact orientation and travel.",
+      "vi": "Tấm mòn dùng cho trượt phẳng. Xem diện tích tải, bôi trơn, tránh vít, hướng mặt và hành trình."
+    },
+    "variants": [
+      {
+        "id": "graphite",
+        "name": {
+          "zh": "镶石墨耐磨板",
+          "en": "Graphite-plugged wear plate",
+          "vi": "Tấm mòn gắn graphite"
+        },
+        "description": {
+          "zh": "在有效滑动区域布置固体润滑点，适应供油不便的部位。",
+          "en": "Place solid-lubricant plugs in the working zone where oil supply is difficult.",
+          "vi": "Đặt nút rắn trong vùng làm việc khó cấp dầu."
+        },
+        "parameters": {
+          "zh": "长宽厚、孔位、滑动区、载荷",
+          "en": "Length, width, thickness, holes, sliding zone and load",
+          "vi": "Dài, rộng, dày, lỗ, vùng trượt và tải"
+        }
+      },
+      {
+        "id": "oil",
+        "name": {
+          "zh": "油槽滑板",
+          "en": "Oil-grooved slide plate",
+          "vi": "Tấm trượt rãnh dầu"
+        },
+        "description": {
+          "zh": "依靠油槽和供油维持润滑，槽道应与供油口连通。",
+          "en": "Grooves and oil supply maintain lubrication; connect groove paths to the inlet.",
+          "vi": "Rãnh và cấp dầu duy trì bôi trơn; nối rãnh tới cửa cấp."
+        },
+        "parameters": {
+          "zh": "槽道、油口、接触面、平面度",
+          "en": "Grooves, inlet, contact face and flatness",
+          "vi": "Rãnh, cửa dầu, mặt tiếp xúc và độ phẳng"
+        }
+      }
+    ]
+  },
+  "precision-dowel-pins": {
+    "note": {
+      "zh": "圆柱销用于重复定位，紧固力仍由相应紧固件提供。定位配合、拆装方式和热处理要求需分别定义。",
+      "en": "Dowel pins provide repeatable location; fasteners provide clamping. Define locating fits, removal method and heat treatment separately.",
+      "vi": "Chốt trụ định vị lặp lại; lực kẹp do chi tiết kẹp cung cấp. Xác định lắp định vị, tháo và nhiệt luyện riêng."
+    },
+    "variants": [
+      {
+        "id": "ground",
+        "name": {
+          "zh": "精密磨削圆柱销",
+          "en": "Precision-ground dowel",
+          "vi": "Chốt mài chính xác"
+        },
+        "description": {
+          "zh": "磨削外圆配合定位孔，实现装配基准重复。",
+          "en": "A ground diameter fits locating holes for repeatable assembly datums.",
+          "vi": "Đường kính mài khớp lỗ định vị để lặp chuẩn lắp."
+        },
+        "parameters": {
+          "zh": "直径公差、长度、孔配合",
+          "en": "Diameter tolerance, length and hole fit",
+          "vi": "Dung sai đường kính, dài và lắp lỗ"
+        }
+      },
+      {
+        "id": "hardened",
+        "name": {
+          "zh": "淬硬圆柱销",
+          "en": "Hardened dowel",
+          "vi": "Chốt tôi cứng"
+        },
+        "description": {
+          "zh": "在磨损工况下选择硬化方案，硬度按材料与配套孔确认。",
+          "en": "Select hardening for wear duty, with hardness matched to material and mating holes.",
+          "vi": "Chọn tôi cho mài mòn, độ cứng theo vật liệu và lỗ ghép."
+        },
+        "parameters": {
+          "zh": "材料、硬度、成品直径",
+          "en": "Material, hardness and finished diameter",
+          "vi": "Vật liệu, độ cứng và đường kính cuối"
+        }
+      },
+      {
+        "id": "custom",
+        "name": {
+          "zh": "定制长度与端部",
+          "en": "Custom length and ends",
+          "vi": "Chiều dài và đầu tùy chỉnh"
+        },
+        "description": {
+          "zh": "倒角、圆弧端和非标长度按插入与装配要求定义。",
+          "en": "Define chamfers, rounded ends and custom lengths for insertion and assembly.",
+          "vi": "Quy định vát, đầu tròn và dài tùy chỉnh theo lắp."
+        },
+        "parameters": {
+          "zh": "端部、长度、装配方向",
+          "en": "Ends, length and assembly direction",
+          "vi": "Đầu, dài và hướng lắp"
+        }
+      }
+    ]
+  },
+  "threaded-dowel-pins": {
+    "note": {
+      "zh": "圆柱配合段负责定位，螺纹用于拔出、安装或保持，具体作用由结构决定。拆卸螺纹不应误作主要定位面。",
+      "en": "The cylindrical fit locates the part; threads serve extraction, installation or retention according to design. Extraction threads are not the main locating surface.",
+      "vi": "Đoạn trụ định vị; ren dùng rút, lắp hoặc giữ theo thiết kế. Ren rút không phải mặt định vị chính."
+    },
+    "variants": [
+      {
+        "id": "pull",
+        "name": {
+          "zh": "内螺纹拔出销",
+          "en": "Internally threaded pull dowel",
+          "vi": "Chốt rút ren trong"
+        },
+        "description": {
+          "zh": "内螺纹便于从盲孔拆卸，需保留足够的孔底空间。",
+          "en": "Internal threads enable blind-hole removal; allow clearance below the pin.",
+          "vi": "Ren trong giúp tháo khỏi lỗ mù; chừa khoảng dưới chốt."
+        },
+        "parameters": {
+          "zh": "螺纹规格、深度、圆柱配合段",
+          "en": "Thread, depth and cylindrical fit section",
+          "vi": "Ren, sâu và đoạn trụ lắp"
+        }
+      },
+      {
+        "id": "external",
+        "name": {
+          "zh": "外螺纹段定位销",
+          "en": "Externally threaded dowel",
+          "vi": "Chốt có đoạn ren ngoài"
+        },
+        "description": {
+          "zh": "螺纹端负责保持或安装，光杆段建立定位。",
+          "en": "The threaded end retains or installs; the plain section locates.",
+          "vi": "Đầu ren giữ hoặc lắp; đoạn trơn định vị."
+        },
+        "parameters": {
+          "zh": "螺纹、肩位、光杆公差",
+          "en": "Thread, shoulder and plain-section tolerance",
+          "vi": "Ren, vai và dung sai đoạn trơn"
+        }
+      },
+      {
+        "id": "units",
+        "name": {
+          "zh": "公英制替换与定制",
+          "en": "Metric, inch and custom replacements",
+          "vi": "Thay hệ mét, inch và tùy chỉnh"
+        },
+        "description": {
+          "zh": "螺纹制式与圆柱配合分别核对，防止近似尺寸混用。",
+          "en": "Check thread system and cylindrical fit independently to avoid near-size substitutions.",
+          "vi": "Kiểm tra hệ ren và lắp trụ riêng, tránh dùng cỡ gần giống."
+        },
+        "parameters": {
+          "zh": "单位、牙距、有效旋合长",
+          "en": "Units, pitch and engagement length",
+          "vi": "Đơn vị, bước ren và dài ăn ren"
+        }
+      }
+    ]
+  },
+  "pilot-pins": {
+    "note": {
+      "zh": "导正销进入已经冲出的导正孔来校正料带位置，不负责先冲出导正孔。先确定孔与送料误差，再选择引导端和让位结构。",
+      "en": "Pilots enter previously pierced holes to correct strip position; they do not create those holes. Select the entry and relief geometry from the hole and feed error.",
+      "vi": "Chốt dẫn vào lỗ đã đột để chỉnh vị trí băng, không tạo lỗ. Chọn đầu dẫn và phần thoát theo lỗ và sai số cấp."
+    },
+    "variants": [
+      {
+        "id": "round",
+        "name": {
+          "zh": "圆形导正销",
+          "en": "Round pilot",
+          "vi": "Chốt dẫn tròn"
+        },
+        "description": {
+          "zh": "圆柱定位段与引导端配合，将料带带入正确位置。",
+          "en": "The lead-in and cylindrical locating section bring the strip into position.",
+          "vi": "Đầu dẫn và đoạn trụ đưa băng về vị trí."
+        },
+        "parameters": {
+          "zh": "导正孔径、引导长度、配合",
+          "en": "Pilot-hole size, entry length and fit",
+          "vi": "Cỡ lỗ dẫn, dài đầu dẫn và lắp"
+        }
+      },
+      {
+        "id": "relieved",
+        "name": {
+          "zh": "切口与让位导正销",
+          "en": "Relieved pilot",
+          "vi": "Chốt dẫn có phần thoát"
+        },
+        "description": {
+          "zh": "让位结构按定位自由度与送料条件定义，避免过约束。",
+          "en": "Define relief for locating freedom and feed conditions to avoid overconstraint.",
+          "vi": "Xác định phần thoát theo bậc tự do và cấp liệu, tránh ràng buộc quá mức."
+        },
+        "parameters": {
+          "zh": "让位方向、定位面、送料误差",
+          "en": "Relief direction, locating face and feed error",
+          "vi": "Hướng thoát, mặt định vị và sai số cấp"
+        }
+      },
+      {
+        "id": "tip",
+        "name": {
+          "zh": "定制引导端",
+          "en": "Custom pilot entry",
+          "vi": "Đầu dẫn tùy chỉnh"
+        },
+        "description": {
+          "zh": "锥形或圆弧引导端按可用高度与进入过程确定。",
+          "en": "Choose tapered or radiused entry for available height and engagement motion.",
+          "vi": "Chọn đầu côn hoặc bo theo cao có sẵn và quá trình vào."
+        },
+        "parameters": {
+          "zh": "引导角、端 R、伸出量",
+          "en": "Entry angle, tip radius and projection",
+          "vi": "Góc dẫn, bán kính đầu và độ nhô"
+        }
+      }
+    ]
+  },
+  "floating-pins": {
+    "note": {
+      "zh": "浮升销支撑或抬升料带，为送料及模内运动让出空间。定位功能与浮升支撑分开评估，弹簧与行程须配套。",
+      "en": "Lifter pins support or raise the strip for feeding and die motion. Assess locating separately from lifting, and match spring force to travel.",
+      "vi": "Chốt nâng đỡ hoặc nâng băng để cấp và chuyển động khuôn. Đánh giá định vị riêng với nâng; khớp lực lò xo và hành trình."
+    },
+    "variants": [
+      {
+        "id": "round",
+        "name": {
+          "zh": "圆形浮升销",
+          "en": "Round strip lifter",
+          "vi": "Chốt nâng tròn"
+        },
+        "description": {
+          "zh": "圆形支撑端抬升料带，布置位置应避免干涉冲裁区域。",
+          "en": "A round support raises the strip without interfering with cutting stations.",
+          "vi": "Đầu đỡ tròn nâng băng, tránh vùng đột cắt."
+        },
+        "parameters": {
+          "zh": "支撑径、浮升量、布置位置",
+          "en": "Support diameter, lift and position",
+          "vi": "Đường kính đỡ, độ nâng và vị trí"
+        }
+      },
+      {
+        "id": "profile",
+        "name": {
+          "zh": "成型支撑端浮料销",
+          "en": "Profiled strip lifter",
+          "vi": "Chốt nâng đầu định hình"
+        },
+        "description": {
+          "zh": "凹槽或成型端适配料带边缘和局部轮廓。",
+          "en": "Grooved or shaped ends suit strip edges and local profiles.",
+          "vi": "Đầu rãnh hoặc định hình khớp mép băng và biên dạng."
+        },
+        "parameters": {
+          "zh": "槽宽、支撑轮廓、料厚",
+          "en": "Groove width, support profile and stock thickness",
+          "vi": "Rộng rãnh, biên dạng đỡ và dày phôi"
+        }
+      },
+      {
+        "id": "spring",
+        "name": {
+          "zh": "弹簧配套与限位结构",
+          "en": "Spring and travel-stop arrangement",
+          "vi": "Lò xo và chặn hành trình"
+        },
+        "description": {
+          "zh": "复位力、预压与最大伸出量共同决定工作状态。",
+          "en": "Return force, preload and maximum projection define operation.",
+          "vi": "Lực hồi, tải trước và độ nhô tối đa quyết định hoạt động."
+        },
+        "parameters": {
+          "zh": "弹簧力、预压、有效行程",
+          "en": "Spring force, preload and effective travel",
+          "vi": "Lực lò xo, tải trước và hành trình"
+        }
+      }
+    ]
+  }
+}

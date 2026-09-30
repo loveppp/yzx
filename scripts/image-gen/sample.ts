@@ -1,7 +1,8 @@
-/** One catalog sample per invocation. Never publishes or retries a generation. */
+/** One image per invocation; --publish copies the result to the website without image processing. No retries. */
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {execFileSync} from 'node:child_process';
 import {generateImage, loadConfig} from './terrakinc-client.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
@@ -19,8 +20,9 @@ async function main() {
   if (new URL(cfg.baseUrl).origin !== 'https://api.terrakinc.com') throw new Error('Unexpected provider origin; stop before transmitting credentials.');
   const plan = JSON.parse(await fs.readFile(path.join(root, 'data/catalog/image-plan.json'), 'utf8'));
   const id = value('--id');
-  const job = plan.jobs.find((j: {id: string}) => j.id === id);
-  if (!job) throw new Error('Specify one valid catalog product using --id.');
+  const job = [...plan.jobs, ...(plan.detailJobs ?? [])].find((j: {id: string}) => j.id === id);
+  if (!job) throw new Error('Specify one valid main or detail image job using --id.');
+  if (job.generationReady === false) throw new Error('Define the distinct structural variants for this series before generating; the size-only composition has been retired. No request sent.');
   if (args.includes('--dry-run')) {
     console.log(JSON.stringify({id, model: cfg.model, aspectRatio: job.aspectRatio, imageSize: '2K', pieceCount: job.pieceCount, promptLength: job.prompt.length, tokenPresent: Boolean(cfg.token), calls: 0}));
     return;
@@ -70,6 +72,10 @@ async function main() {
     const message = error instanceof Error ? error.message.replaceAll(cfg.token, '[redacted]') : 'Request failed';
     await saveRecord({status: 'stopped-needs-review', error: message});
     throw new Error(message);
+  }
+  // A publication failure must preserve the completed image and must never regenerate it.
+  if (args.includes('--publish')) {
+    execFileSync(process.execPath, [path.join(root, 'scripts/image-gen/publish-reviewed.mjs'), dir, '--direct'], {stdio: 'inherit'});
   }
 }
 

@@ -1,14 +1,18 @@
 ---
 import { catalogText, type CatalogProduct } from '@/data/catalog';
 import { catalogUI } from '@/data/catalog-ui';
+import {catalogVisuals} from '@/data/catalog-visuals';
 import type { Locale } from '@/i18n/locales';
-interface Props { product: CatalogProduct; locale: Locale; caption?: boolean; eager?: boolean; }
-const {product, locale, caption = false, eager = false} = Astro.props;
+interface Props { product: CatalogProduct; locale: Locale; caption?: boolean; eager?: boolean; visualCaption?: boolean; }
+const {product, locale, caption = false, eager = false, visualCaption = false} = Astro.props;
 const ui = catalogUI(locale);
 ---
 <figure class="min-w-0">
-  <div class="aspect-[4/3] overflow-hidden bg-borui-light">
+  <div class="product-visual-frame aspect-[4/3] overflow-hidden bg-borui-light">
     <img src={product.image || product.illustration} alt={catalogText(product.name,locale)} width="800" height="600" loading={eager ? 'eager' : 'lazy'} class="h-full w-full object-contain" />
   </div>
-  {caption && <figcaption class="px-1 py-3 text-xs leading-relaxed text-slate-600">{product.image ? (product.imageGenerated ? ui.aiImage : ui.photo) : ui.illustration}</figcaption>}
+  {(caption||(visualCaption&&catalogVisuals[product.id]))&&<figcaption class="px-4 py-3 text-xs leading-relaxed text-slate-600">
+    {catalogVisuals[product.id]&&<span class="block">{locale==='zh'?'图中：':locale==='vi'?'Trong hình: ':'Shown: '}{catalogText(catalogVisuals[product.id],locale)}</span>}
+    {caption&&<span class="mt-1 block">{product.image ? ui.photo : ui.illustration}</span>}
+  </figcaption>}
 </figure>

@@ -1,0 +1,169 @@
+{
+  "id": "carbide-punches--heads",
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-30T05:05:52.045Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches--heads/2026-09-30T05-05-52-043Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1650220,
+  "usage": {
+    "promptTokenCount": 932,
+    "candidatesTokenCount": 1375,
+    "totalTokenCount": 2543,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 674
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1120
+      }
+    ],
+    "thoughtsTokenCount": 236,
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1131
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 245
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 236
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1636
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 77
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 1691,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1131
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 560
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 245
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 236
+          }
+        ]
+      },
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1636
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1080
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "thoughtsTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 77
+          }
+        ]
+      }
+    ]
+  },
+  "preparedImage": {
+    "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches--heads/2026-09-30T05-05-52-043Z/prepared.webp",
+    "source": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/carbide-punches--heads/2026-09-30T05-05-52-043Z/original.jpg",
+    "operation": "Global RGB gain to neutralize the verified empty background; contain export; no geometry changes",
+    "samplePatch": {
+      "left": 48,
+      "top": 36,
+      "width": 192,
+      "height": 143
+    },
+    "sampledRGB": [
+      245.16692162004662,
+      245.79742132867133,
+      247.49821532634033
+    ],
+    "rgbGain": [
+      0.9993191511361174,
+      1.000824169229415,
+      0.9979869942670763
+    ],
+    "targetBackground": "#f5f6f7",
+    "width": 1600,
+    "height": 1200
+  },
+  "publishedAt": "2026-09-30T05:09:35.531Z",
+  "publicPath": "/images/products/details/carbide-punches--heads-2026-09-30T05-05-52-043Z.webp",
+  "previousImage": null,
+  "visualReview": {
+    "status": "accepted-as-representative-illustration",
+    "note": "Two complete straight punches; modest head and broader disk head are distinguishable; round working faces are planar; no merged geometry or labels. Background normalized to the approved neutral style. Representative mounting forms only, not a standard-specific dimension claim."
+  }
+}

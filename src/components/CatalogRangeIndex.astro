@@ -1,0 +1,8 @@
+---
+import {detailsFor,detailUI} from '@/data/catalog-details';
+import {catalogText,productPath,type CatalogProduct} from '@/data/catalog';
+import type {Locale} from '@/i18n/locales';
+interface Props{products:CatalogProduct[];locale:Locale;}
+const {products,locale}=Astro.props;
+---
+<section class="section-padding !pt-0 scroll-mt-28" id="range-index"><div class="content-wrap"><h2 class="text-2xl md:text-3xl">{catalogText(detailUI.overview,locale)}</h2><div class="mt-6 divide-y divide-borui-navy/10 border-y border-borui-navy/10">{products.map(product=><article class="grid gap-4 py-6 md:grid-cols-[.7fr_1.3fr]" data-range-family={product.id}><div><h3 class="text-xl"><a class="hover:underline" href={productPath(product,locale)}>{catalogText(product.name,locale)} ↗</a></h3><p class="mt-2 text-sm leading-relaxed text-slate-600">{catalogText(product.summary,locale)}</p></div><nav class="flex flex-wrap content-start gap-2" aria-label={catalogText(product.name,locale)}>{detailsFor(product.id).variants.map(v=><a class="flex min-h-11 items-center border border-borui-navy/15 bg-white px-3 py-2 text-sm hover:border-borui-brass" href={`${productPath(product,locale)}#configuration-${v.id}`}>{catalogText(v.name,locale)} <span aria-hidden="true" class="ml-2 text-borui-brass">↗</span></a>)}</nav></article>)}</div></div></section>

@@ -1,0 +1,558 @@
+{
+  "version": 3,
+  "purpose": "Optional staged detail-image plan after the 36-family content expansion. No generation authorization implied.",
+  "assets": [
+    {
+      "id": "carbide-punches--type-a",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "type-a"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "A 冲款式 · 单台阶 / 多级阶梯 / 锥肩",
+      "descriptionZh": "A 冲不同款式组合：单台阶圆冲、多级阶梯圆冲、锥肩缩径细针，各 1 支。",
+      "subjectEn": "Exactly THREE DIFFERENT TYPE-A STEPPED PUNCH DESIGNS in one coherent product-series photograph. The point is different construction styles, not the same design scaled to different lengths or diameters. The required distinct pieces are: LEFT: a conventional single-step round punch. One slim cylindrical cutting section above one larger support shank, with a distinct square annular shoulder and only a tiny root radius. A modest round retaining foot at the bottom. Two body diameters above the foot. No intermediate cylinder. CENTER: a visibly different heavy multi-stage stepped punch, with THREE stacked cylindrical body tiers above a modest retaining foot: a broad lower support barrel, a medium-diameter middle stage, and a slim upper working cylinder. Two widely separated square annular shoulders. The broad barrel is prominent, making a strong architectural staircase silhouette. Not a scaled copy of the left punch. RIGHT: a slender fine-tip punch whose support body transitions through a clearly visible LONG CONICAL SHOULDER to the very thin straight cylindrical working needle. The conical neck is the defining feature, distinct from the square shoulders on the other two. A small retaining foot at the bottom. Flat working end, never a sharp pointed needle. Stand the three separately on their retaining feet in a lightly staggered group, working ends upward, with the bulky multi-tier design in the center. Use a mildly elevated three-quarter view so shoulders and flat working faces are visible. Every complete silhouette must be readable without overlap. Shared neutral silver-gray ground-metal finish and the approved light-gray studio background. These are structural catalog examples, no standard numbers, labels or dimensions. No three copies, no same topology at different scales, no decorative grooves, no extra flanges or fourth object.",
+      "reviewZh": "三件的台阶数量、肩部形状及轮廓明确不同，不能只改变尺寸。",
+      "avoidEn": "No text, logos, watermarks, dimension labels, extra parts, fused geometry or decorative grooves.",
+      "status": "structural-styles-authored",
+      "revisionAction": "reuse-approved",
+      "generationReady": true,
+      "structuralVariants": [
+        {
+          "nameZh": "单台阶圆冲",
+          "geometryEn": "LEFT: a conventional single-step round punch. One slim cylindrical cutting section above one larger support shank, with a distinct square annular shoulder and only a tiny root radius. A modest round retaining foot at the bottom. Two body diameters above the foot. No intermediate cylinder."
+        },
+        {
+          "nameZh": "多级阶梯圆冲",
+          "geometryEn": "CENTER: a visibly different heavy multi-stage stepped punch, with THREE stacked cylindrical body tiers above a modest retaining foot: a broad lower support barrel, a medium-diameter middle stage, and a slim upper working cylinder. Two widely separated square annular shoulders. The broad barrel is prominent, making a strong architectural staircase silhouette. Not a scaled copy of the left punch."
+        },
+        {
+          "nameZh": "锥肩缩径细针",
+          "geometryEn": "RIGHT: a slender fine-tip punch whose support body transitions through a clearly visible LONG CONICAL SHOULDER to the very thin straight cylindrical working needle. The conical neck is the defining feature, distinct from the square shoulders on the other two. A small retaining foot at the bottom. Flat working end, never a sharp pointed needle."
+        }
+      ]
+    },
+    {
+      "id": "carbide-punches--type-t",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "type-t"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "T 型单肩冲针系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "Type T SINGLE-SHOULDER round punch. A compact cylindrical retaining head is only modestly wider than a long straight ground cylindrical shank. There is exactly ONE diameter shoulder, at the junction between the retaining head and the shank. The shank continues at a CONSTANT diameter all the way to the flat circular working end, with NO reduced working tip and NO additional body steps. Use a normally proportioned modest head, never an oversized flat disk. Diagonal pose, full head and working end visible. Neutral metal, no text, no dimensions or standard markings.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, logos, watermarks, dimension labels, extra parts, fused geometry or decorative grooves.",
+      "status": "needs-structural-variant-list",
+      "revisionAction": "new-detail",
+      "generationReady": false
+    },
+    {
+      "id": "carbide-punches--hexagonal",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "hexagonal"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "六角冲头 · 六边形工作端系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "elongated punch with a SHORT six-sided prism working section supported by a thicker cylindrical shank and a modest rear retaining head. The working end faces lower left toward camera: the ENTIRE planar cutting face is a regular HEXAGON with exactly SIX straight edges and SIX corners. Six planar side walls. Minimal edge break only, no circular inset disk, no octagon and no broad chamfer. Camera looking toward the working face enough to see all six edges. Fully visible shaft and mounting head.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, logos, watermarks, dimension labels, extra parts, fused geometry or decorative grooves.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "carbide-punches--oval-obround",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "oval"
+      ],
+      "composition": "series",
+      "pieceCount": 2,
+      "titleZh": "椭圆与长圆 · 两种工作轮廓",
+      "descriptionZh": "椭圆与长圆 · 两种工作轮廓，独立对应结构配图。",
+      "subjectEn": "Exactly TWO separate complete slender punches lying side by side, with their flat working faces presented almost front-on toward the camera and shanks receding upward. LEFT punch: strongly elongated TRUE ELLIPTICAL end face, long axis about 2.5 times short axis, continuous curved outline, NO straight sides. RIGHT punch: elongated OBROUND end face with TWO clearly straight parallel long sides joined by two semicircular ends, long axis about 2.5 times width. Both have short profiled cutting sections supported by thicker cylindrical shafts and complete modest retaining heads. The distinct ellipse versus straight-sided capsule outlines must be visible. No ordinary round working tip. Same metal and light for both. Entire two bodies visible, no overlap.",
+      "reviewZh": "图片与该卡片的结构名称对应，直接使用生成原图。",
+      "avoidEn": "No text, logos, watermarks, dimension labels, extra parts, fused geometry or decorative grooves.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "carbide-punches--coated",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "coated"
+      ],
+      "composition": "series",
+      "pieceCount": 2,
+      "titleZh": "未涂层与涂层 · 外观对比",
+      "descriptionZh": "未涂层与涂层 · 外观对比，独立对应结构配图。",
+      "subjectEn": "Exactly TWO complete punches with IDENTICAL geometry: long straight round shank, short reduced round tip, modest retaining head, flat circular cutting end. One is uncoated neutral silver-gray; the other has a restrained satin warm gold coating across its working section, with a neutral silver mounting head. Parallel separated arrangement, same size and perspective. Clearly show an optional surface finish on the same structural design, NOT two different shapes. Smooth industrial coating without peeling, flakes or decorative gold texture. No performance claims or text.",
+      "reviewZh": "图片与该卡片的结构名称对应，直接使用生成原图。",
+      "avoidEn": "No text, logos, watermarks, dimension labels, extra parts, fused geometry or decorative grooves.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "carbide-punches--profiles",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "profile"
+      ],
+      "composition": "series",
+      "pieceCount": 2,
+      "titleZh": "方形与矩形刃口",
+      "descriptionZh": "方形与矩形刃口，2 件代表性结构。",
+      "subjectEn": "Two elongated carbide punches, one square and one rectangular cutting tip, each backed by a substantial round support shank. A close three-quarter view reveals the complete heads and cutting profiles.",
+      "reviewZh": "方形与矩形可辨，刃口不能变为螺丝刀或钻头。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "carbide-punches--stepped",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "stepped"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "硬质合金台阶结构系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "solid-carbide stepped punch with a long cylindrical mounting body, one reduced round cutting tip and a mechanically plausible shoulder. Flat tip, no pointed end.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "carbide-punches--cutoff",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "cutting"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "切断冲头工作端系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "representative carbide cut-off punch with a rectangular supported cutting section, a broad straight end edge and a robust mounting body. Show the working end and the complete mounting section.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "hss-punches--square-rectangle",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "square",
+        "flat"
+      ],
+      "composition": "series",
+      "pieceCount": 2,
+      "titleZh": "高速钢方形与矩形冲头",
+      "descriptionZh": "高速钢方形与矩形冲头，2 件代表性结构。",
+      "subjectEn": "Two elongated silver HSS punches with round mounting shafts, one square and one rectangular flat cutting face. Staggered parallel composition without overlap.",
+      "reviewZh": "两种截面清楚，不通过颜色表示不同钢号。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "hss-punches--blade",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "flat"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "窄扁冲裁工作段系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "HSS cutting punch with a narrow flat rectangular working section supported by a long round shank. The thin edge and broad face are both visible; straight flat cutting end.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "hss-punches--stepped",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "stepped"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "高速钢单台阶冲头系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "elongated silver HSS punch with a modest retaining head, substantial round support shank and a shorter reduced round tip, all coaxial.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "hss-punches--special",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "profile"
+      ],
+      "composition": "series",
+      "pieceCount": 2,
+      "titleZh": "高速钢六角与八角冲头",
+      "descriptionZh": "高速钢六角与八角冲头，2 件代表性结构。",
+      "subjectEn": "Two HSS profile punches with complete round shanks and heads; one six-sided and one eight-sided flat cutting profile, visible from an elevated end-facing perspective.",
+      "reviewZh": "逐一核对六边和八边；边数不对即不发布。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "stepped-punches--square",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "square"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "台阶方冲系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "elongated stepped punch: round retaining head and cylindrical support shank transitioning to a shorter square working section. Show the flat square end and two side faces.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "stepped-punches--special",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "custom"
+      ],
+      "composition": "series",
+      "pieceCount": 2,
+      "titleZh": "台阶异形与长圆冲头",
+      "descriptionZh": "台阶异形与长圆冲头，2 件代表性结构。",
+      "subjectEn": "Two stepped punches with round support shanks; one has a hexagonal tip, one a straight-sided obround tip with semicircular ends. Flat cutting faces and entire heads visible.",
+      "reviewZh": "长圆直边与半圆端清晰，不能混成椭圆。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "stepped-punches--multi",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "multiple"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "多级台阶结构系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "elongated multi-step punch with exactly three coaxial cylindrical shaft diameters decreasing toward a flat round working tip, plus one modest retaining head. Side-biased view showing all shoulders.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "stamping-die-punches--cutoff",
+      "productId": "stamping-die-punches",
+      "configurationIds": [
+        "cutoff"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "冲压切断件系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "representative steel cut-off punch with a stout rectangular cutting section and a supported mounting body. Flat straight cutting end, no decorative bevels or drill features.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "stamping-die-punches--mount",
+      "productId": "stamping-die-punches",
+      "configurationIds": [
+        "replacement"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "可更换冲裁件安装端系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "replacement stamping punch, elongated round mounting shank with a clear retaining head, locating flat on the mounting shank and shorter round cutting tip. Whole part visible.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "stamping-die-punches--slot",
+      "productId": "stamping-die-punches",
+      "configurationIds": [
+        "profile"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "长圆槽冲头系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "supported obround stamping punch, with two straight parallel sides and semicircular ends on its flat cutting face, cylindrical support shank and retaining head. Elevated view emphasizes the tip without cropping the body.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "forming-punches--polygon",
+      "productId": "forming-punches",
+      "configurationIds": [
+        "polygon"
+      ],
+      "composition": "series",
+      "pieceCount": 2,
+      "titleZh": "方形与六角轮廓",
+      "descriptionZh": "方形与六角轮廓，2 件代表性结构。",
+      "subjectEn": "Two custom steel profile punches, one square and one hexagonal, with substantial cylindrical shanks and separate distinct flat end faces.",
+      "reviewZh": "几何边数与直线度正确。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "forming-punches--oval-obround",
+      "productId": "forming-punches",
+      "configurationIds": [
+        "obround"
+      ],
+      "composition": "series",
+      "pieceCount": 2,
+      "titleZh": "椭圆与长圆对比",
+      "descriptionZh": "椭圆与长圆对比，2 件代表性结构。",
+      "subjectEn": "Two complete elongated steel punches. One has a true elliptical tip; the other a straight-sided obround tip with semicircular ends. Equal visual prominence, clearly visible working faces.",
+      "reviewZh": "两种轮廓必须确实不同。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "forming-punches--contour",
+      "productId": "forming-punches",
+      "configurationIds": [
+        "forming",
+        "angled"
+      ],
+      "composition": "series",
+      "pieceCount": 2,
+      "titleZh": "曲面成型与斜面工作端",
+      "descriptionZh": "曲面成型与斜面工作端，2 件代表性结构。",
+      "subjectEn": "Two supported forming punches: one has a broad smooth convex rounded forming nose, the other a simple angled planar working face on a robust cylindrical shank. Separate complete pieces.",
+      "reviewZh": "圆弧成型端不应生成锋利尖刺，斜面件不能弯曲。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "a-type-punches--flat",
+      "productId": "a-type-punches",
+      "configurationIds": [
+        "flat"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "带削边安装位的圆冲系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "Type A stepped round punch with a modest retaining head, thick support shank, and a distinctly reduced round working tip with a flat end face. Add a shallow locating flat on the mounting shank only. Preserve the visible diameter step between support shank and working tip. No standard designation.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "tableting-punches--cup-shapes",
+      "productId": "tableting-punches",
+      "configurationIds": [
+        "shape",
+        "upper",
+        "lower"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "三种压片冲面系列",
+      "descriptionZh": "三种压片冲面，3 件代表性结构。",
+      "subjectEn": "Exactly three complete representative tablet punches with substantial heads and narrow working tips. Round, elliptical and capsule-shaped shallow concave cups, one each. Show all cups clearly; no tablets.",
+      "reviewZh": "冲面是浅凹面，不是实心平冲裁刃；不虚构压机型号。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "tableting-punches--score",
+      "productId": "tableting-punches",
+      "configurationIds": [
+        "engraved"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "分割线冲面系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "representative round tablet punch with a shallow concave cup and a single clean raised straight rib across its center, representing tooling that forms a recessed score line. Keep the whole punch visible.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "tableting-punches--multi",
+      "productId": "tableting-punches",
+      "configurationIds": [
+        "multi-tip"
+      ],
+      "composition": "series",
+      "pieceCount": 3,
+      "titleZh": "双冲尖代表结构系列",
+      "descriptionZh": "系列图的具体款式待逐件定义；不能以同款长短粗细变化代替不同产品。",
+      "subjectEn": "representative multi-tip tablet punch body with exactly two parallel separated cylindrical working tips mounted to one substantial common head/body. Each tip has a shallow round cup. Illustrative external geometry only.",
+      "reviewZh": "先明确每件不同的结构款式，再生成；不使用同款缩放组合。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "needs-structural-variant-list",
+      "generationReady": false
+    },
+    {
+      "id": "blade-ejector-pins--transition",
+      "productId": "blade-ejector-pins",
+      "configurationIds": [
+        "flat",
+        "custom"
+      ],
+      "composition": "single",
+      "pieceCount": 1,
+      "titleZh": "扁顶针过渡与厚度",
+      "descriptionZh": "扁顶针过渡与厚度，1 件代表性结构。",
+      "subjectEn": "One complete long blade ejector with a disk head, round support shank and narrow rectangular blade approximately as wide as the shank diameter. Side-biased three-quarter view shows blade thickness and smooth root transition.",
+      "reviewZh": "圆杆明显长于扁位，不能是宽铲，工作端平钝。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "square-ejector-pins--square-tip",
+      "productId": "square-ejector-pins",
+      "configurationIds": [
+        "square",
+        "transition"
+      ],
+      "composition": "single",
+      "pieceCount": 1,
+      "titleZh": "方顶针的圆方过渡",
+      "descriptionZh": "方顶针的圆方过渡，1 件代表性结构。",
+      "subjectEn": "One complete square ejector pin with a long round support shank, disk head and a square working section with a blunt flat end. Two square side faces visible, smooth supported transition.",
+      "reviewZh": "与锋利方冲区别开，不能添加切削槽。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "ejector-sleeves--core-pair",
+      "productId": "ejector-sleeves",
+      "configurationIds": [
+        "thin",
+        "long"
+      ],
+      "composition": "matched-set",
+      "pieceCount": 2,
+      "titleZh": "司筒与芯针配套关系",
+      "descriptionZh": "司筒与芯针配套关系，2 件代表性结构。",
+      "subjectEn": "One separated ejector sleeve and its slender matching core pin. Sleeve has a clearly open through-bore visible at both ends by perspective, a modest retaining head and plausible wall thickness. Pin lies parallel beside it.",
+      "reviewZh": "2 件分开，司筒必须空心，避免合并成实心杆。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "flanged-guide-bushings--mount",
+      "productId": "flanged-guide-bushings",
+      "configurationIds": [
+        "flange",
+        "shoulder"
+      ],
+      "composition": "single",
+      "pieceCount": 1,
+      "titleZh": "法兰安装面与通孔",
+      "descriptionZh": "法兰安装面与通孔，1 件代表性结构。",
+      "subjectEn": "One flanged steel guide bushing with a clearly open cylindrical bore, a substantial mounting flange and a simple regular bolt-hole arrangement. Show flange face and body length.",
+      "reviewZh": "安装孔不穿透内孔，具体孔位为代表结构。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "guide-sets--ball-set",
+      "productId": "guide-sets",
+      "configurationIds": [
+        "ball"
+      ],
+      "composition": "matched-set",
+      "pieceCount": 3,
+      "titleZh": "导柱、滚珠保持架、导套",
+      "descriptionZh": "导柱、滚珠保持架、导套，3 件代表性结构。",
+      "subjectEn": "Exactly three separated parts of a representative mold ball guide: one polished guide post, one brass cylindrical cage with clearly retained steel balls, and one open steel guide bushing. Side-by-side with coherent mating proportions.",
+      "reviewZh": "保持架钢球不可悬浮，三个件不得融合；不画爆炸箭头。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "nitrogen-gas-springs--mount",
+      "productId": "nitrogen-gas-springs",
+      "configurationIds": [
+        "mounting"
+      ],
+      "composition": "matched-set",
+      "pieceCount": 2,
+      "titleZh": "气弹簧与安装法兰",
+      "descriptionZh": "气弹簧与安装法兰，2 件代表性结构。",
+      "subjectEn": "One sealed compact gas spring with a polished piston rod and one separate matching mounting flange ring. Neutral industrial finish without labels, ports hidden if uncertain; no section view.",
+      "reviewZh": "不展示未经确认的内部结构、充气步骤或压力数值。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "sprue-bushings--nozzle-seat",
+      "productId": "sprue-bushings",
+      "configurationIds": [
+        "cold",
+        "type-a",
+        "type-b",
+        "type-c"
+      ],
+      "composition": "single",
+      "pieceCount": 1,
+      "titleZh": "喷嘴接触面与进料孔",
+      "descriptionZh": "喷嘴接触面与进料孔，1 件代表性结构。",
+      "subjectEn": "One cold-runner steel sprue bushing with a broad head, shallow spherical nozzle seat and a visible central inlet opening. Show the complete cylindrical body and open outlet at a plausible angle, no cutaway.",
+      "reviewZh": "喷嘴座是凹面且有贯通孔，不按示意宣称 A/B/C 尺寸。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "graphite-bronze-bushings--working-bore",
+      "productId": "graphite-bronze-bushings",
+      "configurationIds": [
+        "cylindrical"
+      ],
+      "composition": "single",
+      "pieceCount": 1,
+      "titleZh": "内孔石墨润滑点",
+      "descriptionZh": "内孔石墨润滑点，1 件代表性结构。",
+      "subjectEn": "One cylindrical warm-bronze bushing with solid dark graphite plugs distributed visibly on the inner sliding bore. Large open bore faces the camera; complete outside silhouette and realistic wall thickness.",
+      "reviewZh": "石墨必须在实际内孔滑动面可见，不能只布置在外圆。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    },
+    {
+      "id": "threaded-dowel-pins--pull-thread",
+      "productId": "threaded-dowel-pins",
+      "configurationIds": [
+        "pull"
+      ],
+      "composition": "single",
+      "pieceCount": 1,
+      "titleZh": "拔出式定位销内螺纹",
+      "descriptionZh": "拔出式定位销内螺纹，1 件代表性结构。",
+      "subjectEn": "One precision cylindrical steel dowel pin with an axial internally threaded extraction hole on the visible end and a smooth ground outer locating surface. Complete short cylindrical pin, subtle end chamfer.",
+      "reviewZh": "内孔是螺纹孔，外圆应保持光滑；不画普通全螺纹螺钉。",
+      "avoidEn": "No text, dimensions, logos, grade markings, impossible intersections, decorative grooves or invented internal mechanisms.",
+      "status": "planned-not-generated"
+    }
+  ]
+}

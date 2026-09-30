@@ -12,9 +12,10 @@ const otherLinks=[{href:localizedPath('/custom-oem/',locale),label:t.nav.customO
   <div class="content-wrap flex min-h-[76px] items-center justify-between gap-3 px-5 py-3 md:px-8">
     <a href={localizedPath('/',locale)} class="flex min-w-0 items-center gap-2.5" aria-label={t.siteName}>
       <img src="/images/brand/logo-icon.svg" alt="" width="34" height="34" class="h-[34px] w-[34px] shrink-0" />
-      <span data-brand-name class="font-serif text-base font-semibold whitespace-nowrap xl:text-xl">{t.siteName}</span>
+      <span data-brand-name class="font-serif text-base font-semibold whitespace-nowrap max-[380px]:text-sm xl:text-xl">{t.siteName}</span>
     </a>
     <nav class="hidden items-center gap-5 lg:flex" aria-label={ui.menu}>
+      <a class="hidden py-3 text-sm font-semibold text-borui-navy xl:block" href={localizedPath('/products/punch-components/',locale)}>{locale==='zh'?'冲头冲针':locale==='vi'?'Chày chính xác':'Precision punches'}</a>
       <details class="desktop-products" data-nav-panel>
         <summary class="cursor-pointer list-none py-3 text-sm font-medium">{t.nav.products} <span aria-hidden="true" class="ml-1">⌄</span></summary>
         <div data-desktop-products-panel class="absolute inset-x-0 top-full max-h-[calc(100dvh-90px)] overflow-y-auto border-y border-borui-navy/10 bg-white">
@@ -41,6 +42,7 @@ const otherLinks=[{href:localizedPath('/custom-oem/',locale),label:t.nav.customO
         <summary class="flex min-h-11 min-w-11 cursor-pointer list-none items-center justify-center border border-borui-navy/20 px-2 text-sm" aria-label={ui.menu}><span aria-hidden="true">☰</span><span class="sr-only">{ui.menu}</span></summary>
         <nav class="absolute inset-x-0 top-full max-h-[calc(100dvh-140px)] overflow-y-auto overscroll-contain border-b border-borui-navy/20 bg-white p-5" aria-label={ui.menu}>
           <div class="flex items-center justify-between gap-3 border-b border-borui-navy/10 pb-3"><a href={localizedPath('/products/',locale)} class="py-3 font-semibold">{ui.allProducts} →</a><button type="button" class="min-h-11 px-3 text-sm" data-close-menu>{ui.close} ×</button></div>
+          <a class="my-3 block bg-borui-navy px-4 py-4 text-sm font-medium text-white" href={localizedPath('/products/punch-components/',locale)}>{locale==='zh'?'主营产品 · 冲头冲针专区':locale==='vi'?'Sản phẩm chủ lực · Chày chính xác':'Core range · Precision punches'} →</a>
           {catalogGroups.map(g=><details class="border-b border-borui-navy/10">
             <summary class="cursor-pointer py-4 text-sm font-medium">{catalogText(g.name,locale)}</summary>
             <ul class="pb-3 pl-3 text-sm">

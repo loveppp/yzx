@@ -1,0 +1,85 @@
+{
+  "id": "a-type-punches",
+  "model": "gemini-3.1-flash-image",
+  "createdAt": "2026-09-30T05:59:42.958Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp",
+  "generationAttempts": 1,
+  "publication": "local-website",
+  "status": "generated-awaiting-review",
+  "file": "/Users/zhanghaitao/projects/foreignTrade/output/product-images/candidates/a-type-punches/2026-09-30T05-59-42-953Z/original.jpg",
+  "mimeType": "image/jpeg",
+  "bytes": 1350783,
+  "usage": {
+    "promptTokenCount": 1027,
+    "candidatesTokenCount": 2113,
+    "totalTokenCount": 3140,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 769
+      },
+      {
+        "modality": "IMAGE",
+        "tokenCount": 258
+      }
+    ],
+    "candidatesTokensDetails": [
+      {
+        "modality": "IMAGE",
+        "tokenCount": 1680
+      }
+    ],
+    "serviceTier": "SERVICE_TIER_STANDARD",
+    "modelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1222
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1120
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 435
+          }
+        ]
+      }
+    ],
+    "rawPromptTokenCount": 2342,
+    "nonGroundingModelInvocationTokenCounts": [
+      {
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1222
+          },
+          {
+            "modality": "IMAGE",
+            "tokenCount": 1120
+          }
+        ],
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 435
+          }
+        ]
+      }
+    ]
+  },
+  "publishedAt": "2026-09-30T06:00:17.884Z",
+  "publicPath": "/images/products/catalog/a-type-punches-2026-09-30T05-59-42-953Z.jpg",
+  "previousImage": "/images/products/catalog/a-type-punches-2026-09-29T15-47-10-821Z.webp",
+  "publicationMode": "direct-original-user-requested",
+  "visualReview": {
+    "status": "not-performed",
+    "note": "User requested direct use without iterative inspection or image processing."
+  }
+}

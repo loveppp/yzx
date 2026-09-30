@@ -1,0 +1,26 @@
+{
+  "source": "original.jpg",
+  "output": "preview-neutral.webp",
+  "operation": "Global RGB gain from an empty background patch followed by contain export; no geometry changes",
+  "backgroundSample": [
+    237.97720238095238,
+    237.2123511904762,
+    234.7596130952381
+  ],
+  "rgbGain": [
+    1.0295103797707714,
+    1.037045494323639,
+    1.0521400880814886
+  ],
+  "targetBackground": [
+    245,
+    246,
+    247
+  ],
+  "verifiedBackgroundMean": [
+    245.28452380952382,
+    245.46845238095239,
+    247.41339285714287
+  ],
+  "newGenerationCalls": 0
+}

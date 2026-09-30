@@ -1,14 +1,15 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import HeroSplit from '@/components/HeroSplit.astro';
 import SpecBar from '@/components/SpecBar.astro';
 import ProductStrip from '@/components/ProductStrip.astro';
+import PunchShowcase from '@/components/PunchShowcase.astro';
 import CustomTimeline from '@/components/CustomTimeline.astro';
 import FactorySlider from '@/components/FactorySlider.astro';
 import SpecTable from '@/components/SpecTable.astro';
 import FAQ from '@/components/FAQ.astro';
 import QuoteSection from '@/components/QuoteSection.astro';
-import { images } from '@/data/images';
+import {productById, productPath, catalogText} from '@/data/catalog';
+import detailMedia from '@/data/catalog-detail-media.json';
 import { locales, useTranslations, type Locale } from '@/i18n/utils';
 
 export function getStaticPaths() {
@@ -20,11 +21,22 @@ if (!locales.includes(locale)) return Astro.redirect('/en/');
 
 const t = useTranslations(locale);
 const path = `/${locale}/`;
+const customExamples = [
+  {assetId:'carbide-punches--profiles', fallback:'carbide-punches'},
+  {assetId:'carbide-punches--stepped', fallback:'stepped-punches'},
+  {assetId:'carbide-punches--cutoff', fallback:'stamping-die-punches'},
+  {assetId:null, fallback:'forming-punches'},
+].map(item=>{
+  const asset=detailMedia.assets.find(a=>a.id===item.assetId);
+  const product=productById(asset?.productId??item.fallback)!;
+  return {image:asset?.image??product.image??product.illustration,name:catalogText(asset?.name??product.name,locale),href:productPath(product,locale)+(asset?`#configuration-${asset.configurationIds[0]}`:'')};
+});
 ---
 
 <Layout title={t.meta.homeTitle} description={t.meta.homeDesc} path={path}>
-  <HeroSplit locale={locale} t={t} />
+  <PunchShowcase locale={locale} home />
   <SpecBar t={t} />
+
 
   <ProductStrip locale={locale} t={t} />
 
@@ -33,19 +45,20 @@ const path = `/${locale}/`;
       <div>
         <h2 class="text-2xl text-borui-navy md:text-3xl">{t.custom.title}</h2>
         <p class="mt-3 text-borui-steel">{t.custom.subtitle}</p>
-        <div class="mt-6 columns-2 gap-3 md:columns-3">
+        <div class="mt-6 grid grid-cols-2 gap-3">
           {
-            images.specialShaped.slice(0, 8).map((src, i) => (
-              <div class="mb-3 break-inside-avoid overflow-hidden bg-borui-light">
-                <img
-                  src={src}
-                  alt={`${locale === 'zh' ? '异形冲针' : 'Special shaped punch'} ${i + 1}`}
-                  class="w-full object-cover"
+            customExamples.map(example => (
+              <a href={example.href} class="product-visual-card min-w-0 overflow-hidden border border-borui-navy/10 bg-white hover:border-borui-brass">
+                <div class="product-visual-frame overflow-hidden"><img
+                  src={example.image}
+                  alt={example.name}
+                  class="aspect-[4/3] w-full bg-borui-light object-contain"
                   loading="lazy"
-                  width="600"
-                  height="400"
-                />
-              </div>
+                  width="1600"
+                  height="1200"
+                /></div>
+                <p class="p-3 text-sm leading-relaxed">{example.name} <span aria-hidden="true">↗</span></p>
+              </a>
             ))
           }
         </div>

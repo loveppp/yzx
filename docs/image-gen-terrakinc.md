@@ -1,6 +1,8 @@
 # 冲针出图工具 — 怎么玩（中文）
 
-> **旧版工具说明，当前 36 系列图片制作请先看 [完整图片计划](./product-image-production-plan.md)。** 下方命令仍是旧冲针流程：1:1、自动重试和旧文件路径，不符合当前单张审核方案。请勿用“初始化”或“批量”执行当前计划。新目录单张草稿入口是 `scripts/image-gen/sample.ts --id <product-id>`；每次只出一张，保存到 output/product-images/candidates，支持 --dry-run、--check-model 和 --style-reference（小于 1 MB 的样图）。本地密钥已有时不要再次复制覆盖 `.env`。当前产品图入口为 `src/data/catalog.json` 的 `image`，不是旧 Markdown 的 `heroImage`。
+> **当前流程（2026-09-30 用户更新）：生成后直接接入，不反复审图或加工。** 先看 [冲头图片计划](./punch-image-production-plan.md)。使用 `source scripts/use-node20.sh` 后运行 `npx tsx scripts/image-gen/sample.ts --id <job-id> --style-reference <已确认风格图路径> --publish`。每次 1 张，每批 2–3 张，无自动重试；保留并直接复制原图，不校色、不裁切、不重新编码。图片、提示词和来源记录在 `output/product-images/candidates`，详情图片通过 `src/data/catalog-detail-media.json` 自动显示到对应配置卡片，主图通过 `src/data/catalog.json` 更新。不要输出或覆盖已有 `.env` 密钥。
+>
+> 以下是旧版工具说明，包含 1:1、批量重试和旧 Markdown 路径，**不用于当前目录**。不要用下方“初始化”或“批量”命令执行当前图片计划。
 
 API 文档：[Terrakinc 图片生成](https://api.terrakinc.com/docs/image-api-reference.html)
 

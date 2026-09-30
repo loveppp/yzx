@@ -1,0 +1,20 @@
+Use case: product-mockup.
+Create a realistic studio-style product illustration for a precision mold component catalog.
+Use a seamless neutral off-white/light-gray background (#f5f6f7), a matte ground plane, soft diffused upper-left light and a restrained contact shadow to the lower right. Neutral white balance, no dramatic gradient or horizon line.
+Camera: consistent mildly elevated three-quarter view, approximately 85 mm product-photography perspective, no wide-angle distortion. Keep every part sharp.
+Framing: landscape 4:3. Center the complete product or set; occupy approximately 75–82% of the available frame, with at least 8% safe margin on every edge. Preserve all tips, heads and openings. No cropped parts.
+Finish: credible fine machining and grinding texture, controlled metal highlights, clean new components without scratches, oil or rust. Preserve the distinct appearance of steel, bronze, graphite and painted springs.
+This is a representative product illustration, not a dimensional drawing or proof of actual stock. Do not invent dimensions, tolerances, certifications, brands or material-grade markings.
+If an approved image is supplied later, use it ONLY as a lighting, background and photographic-style reference. The product geometry and object count must follow this job, not the style-reference object.
+
+Asset role: family detail image, linked to the specified configurations.
+Product family: Carbide Punches.
+Product function: Wear-resistant punches with round or profiled working ends for repeat stamping. Carbide grade and edge geometry are selected together.
+Configuration context: Type T headed round punch: An enlarged retaining head provides axial retention; check the underside seat against the holder.
+Selected visible subject (takes priority over context): ONE long round punch with a very distinctive BROAD THIN FLAT DISK retaining head at the rear, about twice the shaft width, forming a clear T silhouette. Long straight cylindrical shaft of constant diameter, flat circular working end facing lower left, broad T flange visible at upper right. Fine neutral silver-gray ground metal. Entire object visible. The broad flat rear flange is the main distinguishing feature; no reduced tip and no dome. Representative drawing-dependent mounting form.
+Exact physical object count: 1.
+Composition: One complete part only, with a diagonal pose for long components and visible working and mounting ends.
+Text policy: No text, labels, dimensions, arrows, logos, grade numbers or watermarks.
+Avoid: No text, logos, watermarks, dimension labels, extra parts, fused geometry or decorative grooves. Also avoid fused geometry, cropped tips, floating shadows or extra objects.
+Show only the selected visible subject; context does not authorize additional parts, material colors or mechanisms.
+Input image role: provisional style reference from this sample round only. Match its background and lighting, not its product, object count or material. Generate the specified new product.

@@ -1,0 +1,12 @@
+{
+  "id": "carbide-punches--type-t",
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-30T05:41:53.242Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp",
+  "generationAttempts": 1,
+  "publication": "draft-only",
+  "status": "stopped-needs-review",
+  "error": "generateContent failed HTTP 429: Proxy browser error: Google API returned error: 429 RESOURCE_EXHAUSTED {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://***.dev/***/***/*** To monitor your current usage, head to: https://***.dev/*** \\n* Quota exceeded for metric: ***.***.com/generate_requests_per_model, limit: 20, model: gemini-3-pro-image\\nPlease retry in 55.023930452s.\",\"status\":\"RESOURCE_EXHAUSTED\"}}; no automatic retry."
+}

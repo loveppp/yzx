@@ -1,0 +1,12 @@
+{
+  "id": "carbide-punches--type-t",
+  "model": "gemini-3.0-pro-image",
+  "createdAt": "2026-09-30T05:35:57.837Z",
+  "aspectRatio": "4:3",
+  "imageSize": "2K",
+  "reference": "output/product-images/candidates/carbide-punches/2026-09-30T04-58-54-043Z/preview-neutral.webp",
+  "generationAttempts": 1,
+  "publication": "draft-only",
+  "status": "stopped-needs-review",
+  "error": "generateContent failed HTTP 429; no automatic retry. Check the provider request log before retrying."
+}

@@ -2,6 +2,7 @@
 import Layout from '@/layouts/Layout.astro';
 import ProductCatalog from '@/components/ProductCatalog.astro';
 import {catalogUI} from '@/data/catalog-ui';
+import {punchCopy,punchText} from '@/data/punch-specialist';
 import {locales,type Locale} from '@/i18n/utils';
 export function getStaticPaths(){return locales.map(locale=>({params:{locale}}));}
 const locale=Astro.params.locale as Locale;
@@ -9,5 +10,7 @@ const ui=catalogUI(locale);
 ---
 <Layout title={`${ui.title} | YZX Precision`} description={ui.intro} path={`/${locale}/products/`}>
   <section class="border-b border-borui-navy/10 px-5 py-10 md:px-8 md:py-14"><div class="content-wrap"><p class="text-xs font-medium uppercase tracking-[.18em] text-slate-500">{ui.eyebrow}</p><h1 class="mt-3 text-3xl md:text-5xl">{ui.title}</h1><p class="mt-5 max-w-2xl leading-relaxed text-slate-600">{ui.intro}</p></div></section>
-  <section class="section-padding !py-8 md:!py-12"><div class="content-wrap"><ProductCatalog locale={locale}/></div></section>
+  <section class="section-padding !py-8 md:!py-12"><div class="content-wrap">
+    <a href={`/${locale}/products/punch-components/`} class="mb-8 flex flex-col justify-between gap-4 border-l-4 border-borui-brass bg-borui-navy p-5 text-white sm:flex-row sm:items-center md:p-6"><div><p class="text-xs tracking-wider text-borui-brass">{punchText(punchCopy.eyebrow,locale)}</p><p class="mt-2 text-lg">{punchText(punchCopy.title,locale)}</p></div><span class="shrink-0 text-sm">{punchText(punchCopy.view,locale)} →</span></a>
+    <ProductCatalog locale={locale}/></div></section>
 </Layout>

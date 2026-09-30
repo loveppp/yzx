@@ -183,7 +183,13 @@ export async function generateImage(
 
   const text = await res.text();
   if (!res.ok) {
-    throw new Error(`generateContent failed HTTP ${res.status}; no automatic retry. Check the provider request log before retrying.`);
+    let detail = '';
+    try {
+      const body = JSON.parse(text) as {error?: {message?: string; code?: string}; message?: string};
+      detail = String(body.error?.message ?? body.message ?? body.error?.code ?? '')
+        .replaceAll(cfg.token, '[redacted]').replace(/sk-[\w-]+/g, '[redacted]').slice(0, 800);
+    } catch { /* Non-JSON error bodies may contain proxy internals; do not log them. */ }
+    throw new Error(`generateContent failed HTTP ${res.status}${detail ? ': '+detail : ''}; no automatic retry.`);
   }
 
   let json: unknown;
