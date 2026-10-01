@@ -4,7 +4,6 @@ import SpecBar from '@/components/SpecBar.astro';
 import ProductStrip from '@/components/ProductStrip.astro';
 import PunchShowcase from '@/components/PunchShowcase.astro';
 import CustomTimeline from '@/components/CustomTimeline.astro';
-import FactorySlider from '@/components/FactorySlider.astro';
 import SpecTable from '@/components/SpecTable.astro';
 import FAQ from '@/components/FAQ.astro';
 import QuoteSection from '@/components/QuoteSection.astro';
@@ -39,7 +38,6 @@ const customExamples = [
 <Layout title={t.meta.homeTitle} description={t.meta.homeDesc} path={path}>
   <PunchShowcase locale={locale} home quoteHref={quoteHref} />
   <SpecBar t={t} />
-
 
   <ProductStrip locale={locale} t={t} />
 
@@ -77,7 +75,6 @@ const customExamples = [
     </div>
   </section>
 
-  <FactorySlider t={t} locale={locale} />
   <SpecTable t={t} locale={locale} />
   <FAQ t={t} />
   <QuoteSection t={t} locale={locale} />

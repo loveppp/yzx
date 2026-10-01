@@ -158,10 +158,52 @@
   "factory": {
     "title": "Xưởng & kiểm tra",
     "subtitle": "Gia công chính xác và kiểm soát chất lượng từng lô",
+    "photosTitle": "Ảnh xưởng thực tế",
+    "realPhotoNote": "Ảnh xưởng thực tế",
+    "realPhotoAlt": "Ảnh xưởng YZX Precision",
     "pageTitle": "Nhà máy",
-    "pageIntro": "Độ chính xác bắt đầu tại xưởng. YZX Precision Factory gia công linh kiện khuôn theo bản vẽ — chốt đẩy, bộ dẫn hướng và đục hình đặc biệt.",
+    "pageIntro": "Công ty TNHH Linh kiện Khuôn Yuanzhixin Thâm Quyến tại Longgang — chày đột, chày và linh kiện khuôn theo bản vẽ hoặc mẫu.",
+    "registeredAddressLabel": "Địa chỉ đăng ký",
+    "registeredAddress": "Phòng 101, số 2 đường Dishan Longshan 5, cộng đồng Xinsheng, phường Longgang, quận Longgang, Thâm Quyến, Trung Quốc",
+    "legalRepresentativeLabel": "Người đại diện pháp luật",
+    "legalRepresentative": "Yang Anwen",
     "equipmentTitle": "Thiết bị",
-    "inspectionTitle": "Kiểm soát chất lượng"
+    "inspectionTitle": "Kiểm soát chất lượng",
+    "inspectionBody": "Kiểm tra 100% kích thước then chốt trước khi giao. Máy chiếu, thước cặp và panme dùng hàng ngày; CMM cho đơn hàng độ chính xác cao. Báo cáo kiểm tra theo yêu cầu.",
+    "about": {
+      "eyebrow": "Xưởng Thâm Quyến · YZX Precision",
+      "quoteCta": "Gửi bản vẽ báo giá",
+      "scaleTitle": "Tổng quan",
+      "stats": [
+        { "value": "±0,002mm", "label": "Dung sai then chốt thông thường" },
+        { "value": "1 chiếc", "label": "MOQ gia công theo yêu cầu" },
+        { "value": "3–7 ngày", "label": "Thời gian mẫu điển hình" },
+        { "value": "2 giờ", "label": "Phản hồi báo giá trong giờ làm" }
+      ],
+      "manufacturerTitle": "Gia công linh kiện khuôn",
+      "manufacturerBody": [
+        "Chày hợp kim, HSS và thép dụng cụ; kèm đẩy, dẫn hướng và lò xo. Gửi CAD, PDF, mẫu hoặc bảng kích thước — kỹ thuật đánh giá quy trình trước khi báo giá.",
+        "Phạm vi đăng ký kinh doanh gồm mua bán phụ kiện khuôn, kim loại và nhựa; gia công kim loại tại xưởng Thâm Quyến phục vụ khách trong nước và xuất khẩu."
+      ],
+      "heroImageAlt": "Ảnh xưởng YZX Precision",
+      "inspectionImageAlt": "Khu kiểm tra kích thước — ảnh xưởng",
+      "inspectionCaption": "Khu kiểm tra · ảnh xưởng",
+      "trustTitle": "Vì sao hợp tác với chúng tôi",
+      "trustItems": [
+        {
+          "title": "Đánh giá trước khi gia công",
+          "desc": "Xác nhận vật liệu, dung sai và lộ trình từ bản vẽ hoặc mẫu trước khi làm mẫu hoặc sản xuất hàng loạt."
+        },
+        {
+          "title": "Kiểm soát kích thước then chốt",
+          "desc": "Kiểm tra 100% trước khi giao; ±0,002mm thông thường. Ghi yêu cầu cao hơn trên bản vẽ để đánh giá."
+        },
+        {
+          "title": "MOQ & lead time linh hoạt",
+          "desc": "Gia công từ 1 chiếc; mẫu thường 3–7 ngày làm việc sau khi chốt bản vẽ, tùy độ phức tạp."
+        }
+      ]
+    }
   },
   "materials": {
     "title": "Vật liệu & xử lý bề mặt",
@@ -215,7 +257,7 @@
     "email": "Email",
     "whatsapp": "WhatsApp",
     "address": "Địa chỉ",
-    "addressValue": "Số 103-24, đường Shenshan, cộng đồng Longxin, phường Baolong, quận Longgang, Thâm Quyến, Quảng Đông, Trung Quốc",
+    "addressValue": "Phòng 101, số 2 đường Dishan Longshan 5, cộng đồng Xinsheng, phường Longgang, quận Longgang, Thâm Quyến, Trung Quốc",
     "emailValue": "sales@yzxprecision.com",
     "whatsappValue": "+86 177 8898 9065"
   },

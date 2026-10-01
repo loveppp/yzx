@@ -7,6 +7,7 @@ interface Props {
   width?: number;
   height?: number;
   watermark?: boolean;
+  objectFit?: 'cover' | 'contain';
 }
 
 const {
@@ -17,6 +18,7 @@ const {
   width,
   height,
   watermark = true,
+  objectFit = 'cover',
 } = Astro.props;
 ---
 
@@ -24,7 +26,7 @@ const {
   <img
     src={src}
     alt={alt}
-    class="h-full w-full object-cover"
+    class:list={['h-full w-full', objectFit === 'contain' ? 'object-contain bg-borui-light' : 'object-cover']}
     loading={loading}
     width={width}
     height={height}

@@ -158,10 +158,52 @@
   "factory": {
     "title": "车间与检测",
     "subtitle": "精密加工，批批检验",
+    "photosTitle": "工厂实拍",
+    "realPhotoNote": "工厂实拍",
+    "realPhotoAlt": "源智信精密车间工厂实拍",
     "pageTitle": "工厂介绍",
-    "pageIntro": "深圳市源智信模具配件有限公司，专注冲针、浮升销、引导针、导柱导套、A 冲及异型冲针的来图来样加工。",
+    "pageIntro": "深圳市源智信模具配件有限公司位于深圳龙岗，专注冲针、冲头及模具配件的来图来样加工与配套供应。",
+    "registeredAddressLabel": "注册地址",
+    "registeredAddress": "深圳市龙岗区龙岗街道新生社区低山龙山五路2号101",
+    "legalRepresentativeLabel": "法定代表人",
+    "legalRepresentative": "杨安文",
     "equipmentTitle": "加工设备",
-    "inspectionTitle": "检测能力"
+    "inspectionTitle": "检测能力",
+    "inspectionBody": "出货前对关键尺寸进行全数检测。投影仪、游标卡尺、千分尺常规使用；三次元测量适用于高精度订单。检测报告可按需提供。",
+    "about": {
+      "eyebrow": "深圳工厂 · 源智信精密",
+      "quoteCta": "发送图纸询价",
+      "scaleTitle": "工厂概况",
+      "stats": [
+        { "value": "±0.002mm", "label": "常规关键尺寸" },
+        { "value": "1 件", "label": "非标起订量" },
+        { "value": "3–7 天", "label": "样品典型交期" },
+        { "value": "2 小时", "label": "工作时间内询盘回复" }
+      ],
+      "manufacturerTitle": "模具配件制造与定制",
+      "manufacturerBody": [
+        "我们主营硬质合金、高速钢及工具钢冲针与冲头，并配套顶出、导向、弹簧等模具标准件。支持 CAD、PDF、样品或尺寸表询价，工程人员先评审工艺与公差，再确认报价与交期。",
+        "公司注册经营范围包括模具配件、五金制品、塑胶制品的购销，以及五金制品生产加工。以深圳车间为依托，面向国内模具厂与外贸客户提供小批量试样与批量供货。"
+      ],
+      "heroImageAlt": "源智信精密车间工厂实拍",
+      "inspectionImageAlt": "尺寸检测区域工厂实拍",
+      "inspectionCaption": "检测区域 · 工厂实拍",
+      "trustTitle": "为什么与我们合作",
+      "trustItems": [
+        {
+          "title": "工艺评审先行",
+          "desc": "收到图纸或样品后，先确认材质、公差与加工路线，再安排试样或批量，减少返工。"
+        },
+        {
+          "title": "关键尺寸管控",
+          "desc": "出货前对关键尺寸全数检测，常规能力 ±0.002mm；更高精度需求请在图纸标注，我们评估后报价。"
+        },
+        {
+          "title": "灵活起订与交期",
+          "desc": "非标定制 1 件起订；样品确认后批量生产，样品交期通常 3–7 个工作日（视复杂度而定）。"
+        }
+      ]
+    }
   },
   "materials": {
     "title": "材质与表面处理",
@@ -215,7 +257,7 @@
     "email": "邮箱",
     "whatsapp": "WhatsApp",
     "address": "地址",
-    "addressValue": "深圳市龙岗区宝龙街道龙新社区深汕路103-24号",
+    "addressValue": "深圳市龙岗区龙岗街道新生社区低山龙山五路2号101",
     "emailValue": "sales@yzxprecision.com",
     "whatsappValue": "+86 177 8898 9065"
   },

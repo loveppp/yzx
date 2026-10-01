@@ -1,0 +1,96 @@
+---
+import BrandedImage from './BrandedImage.astro';
+import { images } from '@/data/images';
+import { localizedPath, type Dictionary, type Locale } from '@/i18n/utils';
+
+interface Props {
+  t: Dictionary;
+  locale: Locale;
+}
+
+const { t, locale } = Astro.props;
+const a = t.factory.about;
+---
+<section class="section-padding border-b border-borui-navy/10">
+  <div class="content-wrap grid items-center gap-10 lg:grid-cols-[1.05fr_1fr]">
+    <div>
+      <p class="text-xs font-semibold uppercase tracking-[.14em] text-borui-brass">{a.eyebrow}</p>
+      <h1 class="mt-3 text-3xl text-borui-navy md:text-4xl">{t.factory.pageTitle}</h1>
+      <p class="mt-5 text-lg leading-relaxed text-borui-steel">{t.factory.pageIntro}</p>
+      <dl class="mt-6 border-l-2 border-borui-brass pl-4 text-sm text-slate-700">
+        <dt class="font-medium text-borui-navy">{t.factory.registeredAddressLabel}</dt>
+        <dd class="mt-1 leading-relaxed">{t.factory.registeredAddress}</dd>
+      </dl>
+      <a class="btn-primary mt-8 inline-block" href={localizedPath('/contact/', locale)}>{a.quoteCta}</a>
+    </div>
+    <figure class="overflow-hidden border border-borui-navy/10 bg-borui-light">
+      <BrandedImage
+        src={images.factoryAbout.hero}
+        alt={a.heroImageAlt}
+        class="aspect-[4/3]"
+        width={1280}
+        height={720}
+        watermark={false}
+        objectFit="cover"
+      />
+      <figcaption class="border-t border-borui-navy/10 bg-white px-3 py-2 text-center text-xs text-slate-500">
+        {t.factory.realPhotoNote}
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="border-b border-borui-navy/10 bg-borui-navy py-10 text-white">
+  <div class="content-wrap">
+    <h2 class="text-center text-sm font-semibold uppercase tracking-[.16em] text-borui-brass">{a.scaleTitle}</h2>
+    <ul class="mt-8 grid grid-cols-2 gap-6 md:grid-cols-4">
+      {
+        a.stats.map((item) => (
+          <li class="text-center">
+            <p class="font-serif text-3xl text-borui-brass md:text-4xl">{item.value}</p>
+            <p class="mt-2 text-sm leading-relaxed text-slate-300">{item.label}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>
+
+<section class="section-padding border-b border-borui-navy/10">
+  <div class="content-wrap grid items-start gap-8 lg:grid-cols-[1fr_1.05fr] lg:gap-12">
+    <div>
+      <h2 class="text-2xl text-borui-navy md:text-3xl">{a.manufacturerTitle}</h2>
+      {a.manufacturerBody.map((p) => <p class="mt-4 leading-relaxed text-slate-600">{p}</p>)}
+    </div>
+    <figure class="overflow-hidden border border-borui-navy/10 bg-white">
+      <BrandedImage
+        src={images.factoryAbout.inspection}
+        alt={a.inspectionImageAlt}
+        class="aspect-[4/3]"
+        width={1200}
+        height={900}
+        watermark={false}
+        objectFit="cover"
+      />
+      <figcaption class="border-t border-borui-navy/10 px-3 py-2 text-center text-xs text-slate-500">
+        {a.inspectionCaption}
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section-padding border-b border-borui-navy/10 bg-borui-paper">
+  <div class="content-wrap">
+    <h2 class="text-2xl text-borui-navy md:text-3xl">{a.trustTitle}</h2>
+    <ul class="mt-8 grid gap-6 md:grid-cols-3">
+      {
+        a.trustItems.map((item) => (
+          <li class="border-t-2 border-borui-brass bg-white p-6">
+            <h3 class="text-lg font-semibold text-borui-navy">{item.title}</h3>
+            <p class="mt-3 text-sm leading-relaxed text-slate-600">{item.desc}</p>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>

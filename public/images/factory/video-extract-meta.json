@@ -1,0 +1,45 @@
+{
+  "source": "/Users/zhanghaitao/Desktop/1790787336536552.mp4",
+  "durationSec": 64.77,
+  "fps": 30.000001907348633,
+  "resolution": [
+    1280,
+    720
+  ],
+  "frames": [
+    {
+      "file": "/images/factory/punch-workshop-1.jpg",
+      "timeSec": 12.23,
+      "sharpness": 204.4,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "/images/factory/punch-workshop-2.jpg",
+      "timeSec": 19.43,
+      "sharpness": 91.4,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "/images/factory/punch-workshop-3.jpg",
+      "timeSec": 41.03,
+      "sharpness": 233.7,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "file": "/images/factory/punch-workshop-4.jpg",
+      "timeSec": 48.23,
+      "sharpness": 165.1,
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "clip": {
+    "path": "/videos/factory-punch.mp4",
+    "startSec": 39.03,
+    "durationSec": 22.0,
+    "ok": true
+  }
+}

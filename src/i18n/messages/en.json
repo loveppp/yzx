@@ -158,10 +158,52 @@
   "factory": {
     "title": "Workshop & Inspection",
     "subtitle": "Precision machining and quality control on every batch",
+    "photosTitle": "Workshop photos",
+    "realPhotoNote": "Workshop photo",
+    "realPhotoAlt": "YZX Precision workshop photo",
     "pageTitle": "Our Factory",
-    "pageIntro": "Shenzhen Yuanzhixin Mold Components Co., Ltd. focuses on custom punch pins, lifter pins, pilot pins, guide posts, guide bushings and special-shaped punches.",
+    "pageIntro": "Shenzhen Yuanzhixin Mold Components Co., Ltd. is based in Longgang, Shenzhen. We build custom punch pins, punches and supporting mold components to your drawing or sample.",
+    "registeredAddressLabel": "Registered address",
+    "registeredAddress": "Room 101, No. 2 Dishan Longshan 5th Road, Xinsheng Community, Longgang Subdistrict, Longgang District, Shenzhen, China",
+    "legalRepresentativeLabel": "Legal representative",
+    "legalRepresentative": "Yang Anwen",
     "equipmentTitle": "Equipment",
-    "inspectionTitle": "Quality Control"
+    "inspectionTitle": "Quality Control",
+    "inspectionBody": "100% dimensional check on critical features before shipment. Optical projector, calipers, and micrometers in daily use; CMM available for high-precision orders. Inspection reports on request.",
+    "about": {
+      "eyebrow": "Shenzhen workshop · YZX Precision",
+      "quoteCta": "Send drawing for quote",
+      "scaleTitle": "At a glance",
+      "stats": [
+        { "value": "±0.002mm", "label": "Typical critical tolerance" },
+        { "value": "1 pc", "label": "Custom MOQ" },
+        { "value": "3–7 days", "label": "Typical sample lead time" },
+        { "value": "2 hours", "label": "Quote reply in business hours" }
+      ],
+      "manufacturerTitle": "Mold components & custom manufacturing",
+      "manufacturerBody": [
+        "We supply carbide, HSS and tool-steel punches and pins, plus ejector, guide and spring families for complete mold support. Send CAD, PDF, a sample or a dimension table — engineering reviews process and tolerance before we quote.",
+        "Our registered scope covers trading and production of mold accessories, hardware and plastic products, with hardware machining in our Shenzhen workshop for domestic tool shops and export customers."
+      ],
+      "heroImageAlt": "YZX Precision workshop photo",
+      "inspectionImageAlt": "Dimensional inspection area — workshop photo",
+      "inspectionCaption": "Inspection area · workshop photo",
+      "trustTitle": "Why work with us",
+      "trustItems": [
+        {
+          "title": "Review before cutting",
+          "desc": "We confirm material, tolerance and routing from your drawing or sample before samples or batch production."
+        },
+        {
+          "title": "Critical dimension control",
+          "desc": "100% check on critical features; ±0.002mm typical. Note higher precision needs on the drawing for evaluation."
+        },
+        {
+          "title": "Flexible MOQ & lead time",
+          "desc": "Custom from 1 piece; samples usually ship in 3–7 working days after drawing sign-off, depending on complexity."
+        }
+      ]
+    }
   },
   "materials": {
     "title": "Materials & Surface Treatment",
@@ -215,7 +257,7 @@
     "email": "Email",
     "whatsapp": "WhatsApp",
     "address": "Address",
-    "addressValue": "No. 103-24, Shenshan Road, Longxin Community, Baolong Subdistrict, Longgang District, Shenzhen, Guangdong, China",
+    "addressValue": "Room 101, No. 2 Dishan Longshan 5th Road, Xinsheng Community, Longgang Subdistrict, Longgang District, Shenzhen, China",
     "emailValue": "sales@yzxprecision.com",
     "whatsappValue": "+86 177 8898 9065"
   },
