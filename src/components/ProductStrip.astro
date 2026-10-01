@@ -23,12 +23,15 @@ const ui = catalogUI(locale);
     </div>
     <div class="mt-10 grid grid-cols-2 gap-3 md:gap-5 lg:grid-cols-4">
       {
-        catalogGroups.map((g, i) => (
+        catalogGroups.map((g, i) => {
+          const lead = groupProducts(g.id)[0];
+          const stripProduct = g.coverImage ? { ...lead, image: g.coverImage } : lead;
+          return (
           <a
             href={groupPath(g, locale)}
             class="product-visual-card group min-w-0 overflow-hidden border border-borui-navy/10 bg-white hover:border-borui-brass"
           >
-            <ProductMedia product={groupProducts(g.id)[0]} locale={locale} />
+            <ProductMedia product={stripProduct} locale={locale} />
             <div class="p-4">
               <p class="text-xs text-slate-500">
                 0{i + 1} / {groupProducts(g.id).length} {ui.catalogCount}
@@ -38,7 +41,8 @@ const ui = catalogUI(locale);
               </h3>
             </div>
           </a>
-        ))
+          );
+        })
       }
       <a
         href={`/${locale}/custom-oem/`}

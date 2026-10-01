@@ -18,6 +18,8 @@ const ui = catalogUI(locale);
 const photos = ['stepped-punches', 'carbide-punches', 'forming-punches', 'stamping-die-punches'].map(
   (id) => productById(id)!,
 );
+const homeHeroImage = '/images/home/punch-showcase-hero.png';
+const punchHubHref = `/${locale}/products/punch-components/`;
 const cardQuoteHref = quoteHref ?? (home ? `/${locale}/#quote` : '#quote');
 ---
 <section class:list={['border-b border-borui-navy/10 bg-white', compact ? 'section-padding' : 'px-5 py-10 md:px-8 md:py-14']}>
@@ -62,38 +64,69 @@ const cardQuoteHref = quoteHref ?? (home ? `/${locale}/#quote` : '#quote');
       }
     </div>
     <div class="min-w-0">
-      <div class="grid grid-cols-2 gap-2 md:gap-3">
-        {
-          photos.map((p) => (
-            <article class="product-visual-card flex min-w-0 flex-col overflow-hidden border border-borui-navy/10 bg-borui-paper">
-              <a class="group min-w-0 flex-1 hover:border-borui-brass" href={productPath(p, locale)}>
-                <div class="product-visual-frame overflow-hidden">
-                  <img
-                    src={p.image || p.illustration}
-                    alt={catalogText(p.name, locale)}
-                    width="800"
-                    height="600"
-                    loading={compact ? 'lazy' : 'eager'}
-                    class="aspect-[4/3] w-full object-contain"
-                  />
-                </div>
-                <p class:list={['px-3 font-medium text-borui-navy', home ? 'py-3 text-sm md:text-base' : 'pb-1 pt-1 text-xs md:text-sm']}>
-                  {catalogText(p.name, locale)} <span aria-hidden="true">↗</span>
-                </p>
-              </a>
-              <div class="border-t border-borui-navy/10 px-3 py-2">
-                <a
-                  href={cardQuoteHref}
-                  class="text-xs font-medium text-borui-navy underline underline-offset-4 hover:text-borui-brass"
-                >
-                  {ui.drawingCta} →
-                </a>
-              </div>
-            </article>
-          ))
-        }
-      </div>
-      {!home && <p class="mt-3 text-xs leading-relaxed text-slate-500">{tx(punchCopy.imageNote)}</p>}
+      {
+        home ? (
+          <a
+            href={punchHubHref}
+            class="product-visual-card group block overflow-hidden border border-borui-navy/10 bg-borui-paper hover:border-borui-brass"
+          >
+            <div class="product-visual-frame aspect-[4/3] overflow-hidden bg-borui-light">
+              <img
+                src={homeHeroImage}
+                alt={
+                  locale === 'zh'
+                    ? '冲针、冲头与精密模具配件示意'
+                    : locale === 'vi'
+                      ? 'Chày, kim đột và linh kiện khuôn chính xác'
+                      : 'Punches, pins and precision mold components'
+                }
+                width="1024"
+                height="765"
+                loading="eager"
+                class="h-full w-full object-contain"
+              />
+            </div>
+            <p class="px-4 py-3 text-sm font-medium text-borui-navy group-hover:text-borui-brass md:text-base">
+              {homeT ? homeT.hero.ctaProducts : tx(punchCopy.familyTitle)} <span aria-hidden="true">↗</span>
+            </p>
+          </a>
+        ) : (
+          <>
+            <div class="grid grid-cols-2 gap-2 md:gap-3">
+              {
+                photos.map((p) => (
+                  <article class="product-visual-card flex min-w-0 flex-col overflow-hidden border border-borui-navy/10 bg-borui-paper">
+                    <a class="group min-w-0 flex-1 hover:border-borui-brass" href={productPath(p, locale)}>
+                      <div class="product-visual-frame aspect-[4/3] overflow-hidden bg-borui-light">
+                        <img
+                          src={p.image || p.illustration}
+                          alt={catalogText(p.name, locale)}
+                          width="800"
+                          height="600"
+                          loading={compact ? 'lazy' : 'eager'}
+                          class="h-full w-full object-contain"
+                        />
+                      </div>
+                      <p class="pb-1 pt-1 px-3 text-xs font-medium text-borui-navy md:text-sm">
+                        {catalogText(p.name, locale)} <span aria-hidden="true">↗</span>
+                      </p>
+                    </a>
+                    <div class="border-t border-borui-navy/10 px-3 py-2">
+                      <a
+                        href={cardQuoteHref}
+                        class="text-xs font-medium text-borui-navy underline underline-offset-4 hover:text-borui-brass"
+                      >
+                        {ui.drawingCta} →
+                      </a>
+                    </div>
+                  </article>
+                ))
+              }
+            </div>
+            <p class="mt-3 text-xs leading-relaxed text-slate-500">{tx(punchCopy.imageNote)}</p>
+          </>
+        )
+      }
     </div>
   </div>
 </section>

@@ -8,6 +8,8 @@ export interface CatalogGroup {
   name: LocalizedText;
   intro: LocalizedText;
   selection: LocalizedText;
+  /** Homepage / category strip tile when set; does not change individual product images. */
+  coverImage?: string;
 }
 export interface CatalogProduct {
   id: string;

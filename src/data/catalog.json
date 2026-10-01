@@ -2,6 +2,7 @@
   "groups": [
     {
       "id": "punch-components",
+      "coverImage": "/images/home/punch-showcase-hero.png",
       "name": {
         "en": "Punch Components",
         "zh": "冲针与冲头",
