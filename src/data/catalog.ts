@@ -30,7 +30,7 @@ export interface CatalogProduct {
 
 export const catalogGroups: CatalogGroup[] = data.groups;
 export const catalogProducts: CatalogProduct[] = data.products;
-/** Hidden on /products/ catalog hub only; routes and nav may still list the group. */
+/** Hidden from product hub, homepage strip, and nav product menu; direct URLs may still exist. */
 export const productCenterExcludedGroupIds = ['plastic-mold-components'] as const;
 export const productCenterGroups = catalogGroups.filter(
   (g) => !productCenterExcludedGroupIds.includes(g.id as (typeof productCenterExcludedGroupIds)[number]),
