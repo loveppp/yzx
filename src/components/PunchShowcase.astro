@@ -1,51 +1,99 @@
 ---
-import {productById,productPath,catalogText} from '@/data/catalog';
-import {catalogVisuals} from '@/data/catalog-visuals';
-import {punchCopy,punchText} from '@/data/punch-specialist';
-import {catalogUI} from '@/data/catalog-ui';
+import { productById, productPath, catalogText } from '@/data/catalog';
+import { punchCopy, punchText } from '@/data/punch-specialist';
+import { catalogUI } from '@/data/catalog-ui';
 import { useTranslations, type Locale } from '@/i18n/utils';
-interface Props {locale:Locale;compact?:boolean;home?:boolean;quoteHref?:string;}
-const {locale,compact=false,home=false,quoteHref}=Astro.props;
+
+interface Props {
+  locale: Locale;
+  compact?: boolean;
+  home?: boolean;
+  quoteHref?: string;
+}
+
+const { locale, compact = false, home = false, quoteHref } = Astro.props;
 const homeT = home ? useTranslations(locale) : null;
-const tx=(v:Record<Locale,string>)=>punchText(v,locale);
-const ui=catalogUI(locale);
-const photos=['stepped-punches','carbide-punches','forming-punches','stamping-die-punches'].map(id=>productById(id)!);
-const cardQuoteHref=quoteHref??(home?`/${locale}/#quote`:'#quote');
+const tx = (v: Record<Locale, string>) => punchText(v, locale);
+const ui = catalogUI(locale);
+const photos = ['stepped-punches', 'carbide-punches', 'forming-punches', 'stamping-die-punches'].map(
+  (id) => productById(id)!,
+);
+const cardQuoteHref = quoteHref ?? (home ? `/${locale}/#quote` : '#quote');
 ---
-<section class:list={['border-b border-borui-navy/10 bg-white',compact?'section-padding':'px-5 py-10 md:px-8 md:py-14']}>
- <div class="content-wrap grid items-center gap-8 lg:grid-cols-[.95fr_1.05fr] lg:gap-12">
-  <div class="min-w-0">
-   <p class="text-xs font-semibold uppercase tracking-[.14em] text-borui-brass">{home && homeT ? homeT.hero.eyebrow : tx(punchCopy.eyebrow)}</p>
-   {home && homeT ? (
-     <h1 class="mt-4 text-3xl leading-tight md:text-5xl">{homeT.hero.title}</h1>
-   ) : compact ? (
-     <h2 class="mt-4 text-3xl leading-tight md:text-4xl">{tx(punchCopy.title)}</h2>
-   ) : (
-     <h1 class="mt-4 text-3xl leading-tight md:text-5xl">{tx(punchCopy.title)}</h1>
-   )}
-   <p class="mt-5 max-w-xl leading-relaxed text-slate-600">{home && homeT ? homeT.hero.subtitle : tx(punchCopy.intro)}</p>
-   <div class="mt-7 flex flex-wrap gap-3">
-     <a class="btn-primary text-center" href={home && homeT ? `/${locale}/products/` : (compact || home) ? `/${locale}/products/punch-components/` : '#components'}>
-       {home && homeT ? `${homeT.hero.ctaProducts} →` : `${(compact || home) ? tx(punchCopy.view) : tx(punchCopy.familyTitle)} →`}
-     </a>
-     <a class="btn-outline text-center" href={cardQuoteHref}>{ui.drawingCta}</a>
-   </div>
-   <p class="mt-6 border-t border-borui-navy/10 pt-4 text-xs leading-relaxed text-slate-500">
-     {home && homeT
-       ? homeT.hero.homeFootnote
-       : locale === 'zh'
-         ? '材质 × 工作端形状 × 安装结构，组合定义你的冲头。'
-         : locale === 'vi'
-           ? 'Vật liệu × biên dạng × kiểu lắp xác định chày phù hợp.'
-           : 'Material × working profile × mounting geometry define the right punch.'}
-   </p>
+<section class:list={['border-b border-borui-navy/10 bg-white', compact ? 'section-padding' : 'px-5 py-10 md:px-8 md:py-14']}>
+  <div class="content-wrap grid items-center gap-8 lg:grid-cols-[.95fr_1.05fr] lg:gap-12">
+    <div class="min-w-0">
+      <p class="text-xs font-semibold uppercase tracking-[.14em] text-borui-brass">
+        {home && homeT ? homeT.hero.eyebrow : tx(punchCopy.eyebrow)}
+      </p>
+      {
+        home && homeT ? (
+          <h1 class="mt-4 text-3xl leading-tight md:text-5xl">{homeT.hero.title}</h1>
+        ) : compact ? (
+          <h2 class="mt-4 text-3xl leading-tight md:text-4xl">{tx(punchCopy.title)}</h2>
+        ) : (
+          <h1 class="mt-4 text-3xl leading-tight md:text-5xl">{tx(punchCopy.title)}</h1>
+        )
+      }
+      <p class="mt-5 max-w-xl leading-relaxed text-slate-600">
+        {home && homeT ? homeT.hero.subtitle : tx(punchCopy.intro)}
+      </p>
+      <div class="mt-7 flex flex-wrap gap-3">
+        <a
+          class="btn-primary text-center"
+          href={home && homeT ? `/${locale}/products/` : '#components'}
+        >
+          {home && homeT ? `${homeT.hero.ctaProducts} →` : `${tx(punchCopy.familyTitle)} →`}
+        </a>
+        <a class="btn-outline text-center" href={cardQuoteHref}>{ui.drawingCta}</a>
+      </div>
+      {
+        !home && (
+          <p class="mt-6 border-t border-borui-navy/10 pt-4 text-xs leading-relaxed text-slate-500">
+            {
+              locale === 'zh'
+                ? '材质 × 工作端形状 × 安装结构，组合定义你的冲头。'
+                : locale === 'vi'
+                  ? 'Vật liệu × biên dạng × kiểu lắp xác định chày phù hợp.'
+                  : 'Material × working profile × mounting geometry define the right punch.'
+            }
+          </p>
+        )
+      }
+    </div>
+    <div class="min-w-0">
+      <div class="grid grid-cols-2 gap-2 md:gap-3">
+        {
+          photos.map((p) => (
+            <article class="product-visual-card flex min-w-0 flex-col overflow-hidden border border-borui-navy/10 bg-borui-paper">
+              <a class="group min-w-0 flex-1 hover:border-borui-brass" href={productPath(p, locale)}>
+                <div class="product-visual-frame overflow-hidden">
+                  <img
+                    src={p.image || p.illustration}
+                    alt={catalogText(p.name, locale)}
+                    width="800"
+                    height="600"
+                    loading={compact ? 'lazy' : 'eager'}
+                    class="aspect-[4/3] w-full object-contain"
+                  />
+                </div>
+                <p class:list={['px-3 font-medium text-borui-navy', home ? 'py-3 text-sm md:text-base' : 'pb-1 pt-1 text-xs md:text-sm']}>
+                  {catalogText(p.name, locale)} <span aria-hidden="true">↗</span>
+                </p>
+              </a>
+              <div class="border-t border-borui-navy/10 px-3 py-2">
+                <a
+                  href={cardQuoteHref}
+                  class="text-xs font-medium text-borui-navy underline underline-offset-4 hover:text-borui-brass"
+                >
+                  {ui.drawingCta} →
+                </a>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+      {!home && <p class="mt-3 text-xs leading-relaxed text-slate-500">{tx(punchCopy.imageNote)}</p>}
+    </div>
   </div>
-  <div class="min-w-0">
-   <div class="grid grid-cols-2 gap-2 md:gap-3">{photos.map(p=><article class="product-visual-card flex min-w-0 flex-col overflow-hidden border border-borui-navy/10 bg-borui-paper">
-     <a class="group min-w-0 flex-1 hover:border-borui-brass" href={productPath(p,locale)}><div class="product-visual-frame overflow-hidden"><img src={p.image||p.illustration} alt={catalogText(p.name,locale)} width="800" height="600" loading={compact?'lazy':'eager'} class="aspect-[4/3] w-full object-contain"/></div><p class="px-3 pb-1 pt-1 text-xs font-medium md:text-sm">{catalogText(p.name,locale)} <span aria-hidden="true">↗</span></p><p class="px-3 pb-3 text-xs leading-relaxed text-slate-500">{catalogText(catalogVisuals[p.id],locale)}</p></a>
-     <div class="border-t border-borui-navy/10 px-3 py-2"><a href={cardQuoteHref} class="text-xs font-medium text-borui-navy underline underline-offset-4 hover:text-borui-brass">{ui.drawingCta} →</a></div>
-   </article>)}</div>
-   <p class="mt-3 text-xs leading-relaxed text-slate-500">{home && homeT ? homeT.hero.homeImageNote : tx(punchCopy.imageNote)}</p>
-  </div>
- </div>
 </section>

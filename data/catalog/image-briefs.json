@@ -6,136 +6,235 @@
     {
       "id": "carbide-punches",
       "composition": "series",
-      "targetVariantCount": 4,
-      "variantCount": 4,
-      "pieceCount": 4,
+      "targetVariantCount": 10,
+      "variantCount": 10,
+      "pieceCount": 10,
       "materialClass": "carbide",
       "familyInvariantEn": "Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.",
       "structuralVariants": [
         {
           "id": "round",
           "nameZh": "圆形工作端冲头",
-          "geometryEn": "A complete precision punch with flat circular working end. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
+          "geometryEn": "A complete carbide punch with flat circular working end on a straight cylindrical shank.",
           "differenceZh": "圆形闭合工作轮廓",
           "structuralKey": "round",
           "verificationStatus": "verified",
           "references": [
             {
               "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
               "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "圆形工作端冲头",
-            "en": "Round working end",
-            "vi": "Đầu làm việc tròn"
+            "en": "圆形工作端冲头",
+            "vi": "圆形工作端冲头"
           }
         },
         {
           "id": "square",
           "nameZh": "方形工作端冲头",
-          "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
+          "geometryEn": "A complete carbide punch with flat square working face on a straight cylindrical shank.",
           "differenceZh": "四边等长方形工作轮廓",
           "structuralKey": "square",
           "verificationStatus": "verified",
           "references": [
             {
               "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
               "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "方形工作端冲头",
-            "en": "Square working end",
-            "vi": "Đầu làm việc vuông"
+            "en": "方形工作端冲头",
+            "vi": "方形工作端冲头"
           }
         },
         {
           "id": "hex",
           "nameZh": "六角工作端冲头",
-          "geometryEn": "A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
+          "geometryEn": "A complete carbide punch with flat regular hexagonal working face on a straight cylindrical shank.",
           "differenceZh": "六边形工作轮廓",
           "structuralKey": "hex",
           "verificationStatus": "verified",
           "references": [
             {
               "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
               "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "六角工作端冲头",
-            "en": "Hexagonal working end",
-            "vi": "Đầu làm việc lục giác"
+            "en": "六角工作端冲头",
+            "vi": "六角工作端冲头"
           }
         },
         {
           "id": "obround",
           "nameZh": "长圆工作端冲头",
-          "geometryEn": "A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "两条平行直边加两端半圆，区别于椭圆",
+          "geometryEn": "A complete carbide punch with obround working face (parallel straights plus semicircular ends) on a straight shank.",
+          "differenceZh": "长圆工作轮廓",
           "structuralKey": "obround",
           "verificationStatus": "verified",
           "references": [
             {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
               "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "长圆工作端冲头",
-            "en": "Obround working end",
-            "vi": "Đầu làm việc dạng thuôn"
+            "en": "长圆工作端冲头",
+            "vi": "长圆工作端冲头"
+          }
+        },
+        {
+          "id": "rect",
+          "nameZh": "矩形工作端冲头",
+          "geometryEn": "A complete carbide punch with flat rectangular working face (longer than wide) on a straight cylindrical shank.",
+          "differenceZh": "矩形工作轮廓",
+          "structuralKey": "rect",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "矩形工作端冲头",
+            "en": "矩形工作端冲头",
+            "vi": "矩形工作端冲头"
+          }
+        },
+        {
+          "id": "oct",
+          "nameZh": "八角工作端冲头",
+          "geometryEn": "A complete carbide punch with flat regular octagonal working face on a straight cylindrical shank.",
+          "differenceZh": "八边形工作轮廓",
+          "structuralKey": "oct",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "八角工作端冲头",
+            "en": "八角工作端冲头",
+            "vi": "八角工作端冲头"
+          }
+        },
+        {
+          "id": "oval",
+          "nameZh": "椭圆工作端冲头",
+          "geometryEn": "A complete carbide punch with elliptical working end (smooth oval, not obround) on a straight shank.",
+          "differenceZh": "椭圆工作轮廓",
+          "structuralKey": "oval",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "椭圆工作端冲头",
+            "en": "椭圆工作端冲头",
+            "vi": "椭圆工作端冲头"
+          }
+        },
+        {
+          "id": "tipped",
+          "nameZh": "镶合金圆冲头",
+          "geometryEn": "A complete punch with steel shank and visibly distinct carbide insert at the working end, round profile.",
+          "differenceZh": "镶合金工作端结构",
+          "structuralKey": "tipped-round",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "镶合金圆冲头",
+            "en": "镶合金圆冲头",
+            "vi": "镶合金圆冲头"
+          }
+        },
+        {
+          "id": "thead",
+          "nameZh": "T 型头圆冲头",
+          "geometryEn": "A complete round carbide punch with a T-shaped retention head and straight shank below the head.",
+          "differenceZh": "T 型安装头",
+          "structuralKey": "t-head-round",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "T 型头圆冲头",
+            "en": "T 型头圆冲头",
+            "vi": "T 型头圆冲头"
+          }
+        },
+        {
+          "id": "shoulder",
+          "nameZh": "单台阶圆冲头",
+          "geometryEn": "A complete round punch with one visible shoulder step between larger shank and smaller working section.",
+          "differenceZh": "单台阶杆部结构",
+          "structuralKey": "single-shoulder-round",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "单台阶圆冲头",
+            "en": "单台阶圆冲头",
+            "vi": "单台阶圆冲头"
           }
         }
       ],
       "missingEvidenceZh": [],
       "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "圆形工作端冲头；方形工作端冲头；六角工作端冲头；长圆工作端冲头。每款各一件/套，差异见逐件清单。",
+      "revisionAction": "expand-to-ten-styles-home-tiles",
+      "descriptionZh": "约 10 款同系列冲头/冲针，不同工作端与杆部结构；见逐件清单。",
       "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
       "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
+      "layoutEn": "One catalog photograph with about ten separate complete punches from this family only. Arrange in a balanced loose grid (about two rows), each item fully visible with working end readable. Show distinct working-end profiles and/or mounting structures (straight shank, single shoulder, T-head, tipped insert). Moderate shank length and diameter differences are allowed when the head geometry differs — not ten copies of the same profile at different scales. No overlap hiding tips, no text labels.",
       "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
       "caption": {
-        "zh": "圆形工作端冲头 / 方形工作端冲头 / 六角工作端冲头 / 长圆工作端冲头",
-        "en": "Round working end / Square working end / Hexagonal working end / Obround working end",
-        "vi": "Đầu làm việc tròn / Đầu làm việc vuông / Đầu làm việc lục giác / Đầu làm việc dạng thuôn"
+        "zh": "约10款硬质合金冲头（多种轮廓与结构）",
+        "en": "About 10 distinct punches in this family (mixed profiles and shanks)",
+        "vi": "Khoảng 10 chày trong cùng dòng (nhiều biên dạng và thân)"
       }
     },
     {
@@ -281,307 +380,706 @@
     {
       "id": "stepped-punches",
       "composition": "series",
-      "targetVariantCount": 4,
-      "variantCount": 4,
-      "pieceCount": 4,
+      "targetVariantCount": 10,
+      "variantCount": 10,
+      "pieceCount": 10,
       "materialClass": "steel",
       "familyInvariantEn": "Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.",
       "structuralVariants": [
         {
           "id": "step-round",
           "nameZh": "台阶圆形工作端冲头",
-          "geometryEn": "A complete precision punch with flat circular working end. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.",
-          "differenceZh": "圆形闭合工作轮廓，保持缩径台阶。",
+          "geometryEn": "Stepped punch: smaller round working section supported by a larger shank with one clear shoulder.",
+          "differenceZh": "台阶圆头",
           "structuralKey": "step-round",
           "verificationStatus": "verified",
           "references": [
             {
-              "url": "https://htxprecision.com/stepped-punch/",
-              "evidenceZh": "正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。",
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
               "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "台阶圆形工作端冲头",
-            "en": "Stepped punch with round working end",
-            "vi": "Chày bậc: đầu làm việc tròn"
+            "en": "台阶圆形工作端冲头",
+            "vi": "台阶圆形工作端冲头"
           }
         },
         {
           "id": "step-square",
           "nameZh": "台阶方形工作端冲头",
-          "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.",
-          "differenceZh": "四边等长方形工作轮廓，保持缩径台阶。",
+          "geometryEn": "Stepped punch: square working face with one shoulder step on the shank.",
+          "differenceZh": "台阶方头",
           "structuralKey": "step-square",
           "verificationStatus": "verified",
           "references": [
             {
-              "url": "https://htxprecision.com/stepped-punch/",
-              "evidenceZh": "正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。",
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
               "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "台阶方形工作端冲头",
-            "en": "Stepped punch with square working end",
-            "vi": "Chày bậc: đầu làm việc vuông"
+            "en": "台阶方形工作端冲头",
+            "vi": "台阶方形工作端冲头"
           }
         },
         {
           "id": "step-hex",
           "nameZh": "台阶六角工作端冲头",
-          "geometryEn": "A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.",
-          "differenceZh": "六边形工作轮廓，保持缩径台阶。",
+          "geometryEn": "Stepped punch: hexagonal working face with one shoulder step.",
+          "differenceZh": "台阶六角头",
           "structuralKey": "step-hex",
           "verificationStatus": "verified",
           "references": [
             {
-              "url": "https://htxprecision.com/stepped-punch/",
-              "evidenceZh": "正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。",
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
               "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "台阶六角工作端冲头",
-            "en": "Stepped punch with hexagonal working end",
-            "vi": "Chày bậc: đầu làm việc lục giác"
+            "en": "台阶六角工作端冲头",
+            "vi": "台阶六角工作端冲头"
           }
         },
         {
           "id": "step-obround",
           "nameZh": "台阶长圆工作端冲头",
-          "geometryEn": "A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.",
-          "differenceZh": "两条平行直边加两端半圆，区别于椭圆，保持缩径台阶。",
+          "geometryEn": "Stepped punch: obround working face with one shoulder step.",
+          "differenceZh": "台阶长圆头",
           "structuralKey": "step-obround",
           "verificationStatus": "verified",
           "references": [
             {
-              "url": "https://htxprecision.com/stepped-punch/",
-              "evidenceZh": "正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。",
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
               "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "台阶长圆工作端冲头",
-            "en": "Stepped punch with obround working end",
-            "vi": "Chày bậc: đầu làm việc dạng thuôn"
+            "en": "台阶长圆工作端冲头",
+            "vi": "台阶长圆工作端冲头"
+          }
+        },
+        {
+          "id": "step-rect",
+          "nameZh": "台阶矩形工作端冲头",
+          "geometryEn": "Stepped punch: rectangular working face with one shoulder step.",
+          "differenceZh": "台阶矩形头",
+          "structuralKey": "step-rect",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "台阶矩形工作端冲头",
+            "en": "台阶矩形工作端冲头",
+            "vi": "台阶矩形工作端冲头"
+          }
+        },
+        {
+          "id": "multi-step",
+          "nameZh": "多级台阶冲头",
+          "geometryEn": "Punch with two or three visible diameter steps along the shank before the working end.",
+          "differenceZh": "多级直径台阶",
+          "structuralKey": "multi-step",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "多级台阶冲头",
+            "en": "多级台阶冲头",
+            "vi": "多级台阶冲头"
+          }
+        },
+        {
+          "id": "step-t-head",
+          "nameZh": "T 型头台阶冲头",
+          "geometryEn": "Stepped punch with T-head retention and stepped working section.",
+          "differenceZh": "T 头加台阶",
+          "structuralKey": "step-t-head",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "T 型头台阶冲头",
+            "en": "T 型头台阶冲头",
+            "vi": "T 型头台阶冲头"
+          }
+        },
+        {
+          "id": "step-offset",
+          "nameZh": "偏置台阶冲头",
+          "geometryEn": "Stepped punch whose working axis is slightly offset from the shank centerline.",
+          "differenceZh": "偏置工作端",
+          "structuralKey": "step-offset",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "偏置台阶冲头",
+            "en": "偏置台阶冲头",
+            "vi": "偏置台阶冲头"
+          }
+        },
+        {
+          "id": "step-slot",
+          "nameZh": "开槽台阶冲头",
+          "geometryEn": "Stepped punch with a narrow slot or key feature at the working end (still a punch, not a die).",
+          "differenceZh": "开槽工作端",
+          "structuralKey": "step-slot",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "开槽台阶冲头",
+            "en": "开槽台阶冲头",
+            "vi": "开槽台阶冲头"
+          }
+        },
+        {
+          "id": "step-long",
+          "nameZh": "细长台阶冲头",
+          "geometryEn": "Stepped punch with long slender working section and short shoulder transition (structurally distinct proportions).",
+          "differenceZh": "细长工作段",
+          "structuralKey": "step-long-tip",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "细长台阶冲头",
+            "en": "细长台阶冲头",
+            "vi": "细长台阶冲头"
           }
         }
       ],
       "missingEvidenceZh": [],
       "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "台阶圆形工作端冲头；台阶方形工作端冲头；台阶六角工作端冲头；台阶长圆工作端冲头。每款各一件/套，差异见逐件清单。",
+      "revisionAction": "expand-to-ten-styles-home-tiles",
+      "descriptionZh": "约 10 款同系列冲头/冲针，不同工作端与杆部结构；见逐件清单。",
       "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
       "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
+      "layoutEn": "One catalog photograph with about ten separate complete punches from this family only. Arrange in a balanced loose grid (about two rows), each item fully visible with working end readable. Show distinct working-end profiles and/or mounting structures (straight shank, single shoulder, T-head, tipped insert). Moderate shank length and diameter differences are allowed when the head geometry differs — not ten copies of the same profile at different scales. No overlap hiding tips, no text labels.",
       "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
       "caption": {
-        "zh": "台阶圆形工作端冲头 / 台阶方形工作端冲头 / 台阶六角工作端冲头 / 台阶长圆工作端冲头",
-        "en": "Stepped punch with round working end / Stepped punch with square working end / Stepped punch with hexagonal working end / Stepped punch with obround working end",
-        "vi": "Chày bậc: đầu làm việc tròn / Chày bậc: đầu làm việc vuông / Chày bậc: đầu làm việc lục giác / Chày bậc: đầu làm việc dạng thuôn"
+        "zh": "约10款台阶冲头（多种轮廓与结构）",
+        "en": "About 10 distinct punches in this family (mixed profiles and shanks)",
+        "vi": "Khoảng 10 chày trong cùng dòng (nhiều biên dạng và thân)"
       }
     },
     {
       "id": "stamping-die-punches",
       "composition": "series",
-      "targetVariantCount": 4,
-      "variantCount": 4,
-      "pieceCount": 4,
+      "targetVariantCount": 10,
+      "variantCount": 10,
+      "pieceCount": 10,
       "materialClass": "steel",
       "familyInvariantEn": "Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety.",
       "structuralVariants": [
         {
           "id": "round",
           "nameZh": "圆形工作端冲头",
-          "geometryEn": "A complete precision punch with flat circular working end. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "圆形闭合工作轮廓",
-          "structuralKey": "round",
+          "geometryEn": "Stamping punch with round cutting/working end and straight shank.",
+          "differenceZh": "圆冲",
+          "structuralKey": "stamp-round",
           "verificationStatus": "verified",
           "references": [
             {
               "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "圆形工作端冲头",
-            "en": "Round working end",
-            "vi": "Đầu làm việc tròn"
+            "en": "圆形工作端冲头",
+            "vi": "圆形工作端冲头"
           }
         },
         {
           "id": "square",
           "nameZh": "方形工作端冲头",
-          "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "四边等长方形工作轮廓",
-          "structuralKey": "square",
+          "geometryEn": "Stamping punch with square working end.",
+          "differenceZh": "方冲",
+          "structuralKey": "stamp-square",
           "verificationStatus": "verified",
           "references": [
             {
               "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "方形工作端冲头",
-            "en": "Square working end",
-            "vi": "Đầu làm việc vuông"
+            "en": "方形工作端冲头",
+            "vi": "方形工作端冲头"
           }
         },
         {
-          "id": "rectangle",
+          "id": "rect",
           "nameZh": "矩形工作端冲头",
-          "geometryEn": "A complete precision punch with flat rectangular working face with unequal adjacent side lengths. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "长短边不同的矩形工作轮廓",
-          "structuralKey": "rectangle",
+          "geometryEn": "Stamping punch with rectangular working end.",
+          "differenceZh": "矩形冲",
+          "structuralKey": "stamp-rect",
           "verificationStatus": "verified",
           "references": [
             {
               "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "矩形工作端冲头",
-            "en": "Rectangular working end",
-            "vi": "Đầu làm việc chữ nhật"
+            "en": "矩形工作端冲头",
+            "vi": "矩形工作端冲头"
           }
         },
         {
           "id": "obround",
           "nameZh": "长圆工作端冲头",
-          "geometryEn": "A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "两条平行直边加两端半圆，区别于椭圆",
-          "structuralKey": "obround",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "长圆工作端冲头",
-            "en": "Obround working end",
-            "vi": "Đầu làm việc dạng thuôn"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "圆形工作端冲头；方形工作端冲头；矩形工作端冲头；长圆工作端冲头。每款各一件/套，差异见逐件清单。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
-      "caption": {
-        "zh": "圆形工作端冲头 / 方形工作端冲头 / 矩形工作端冲头 / 长圆工作端冲头",
-        "en": "Round working end / Square working end / Rectangular working end / Obround working end",
-        "vi": "Đầu làm việc tròn / Đầu làm việc vuông / Đầu làm việc chữ nhật / Đầu làm việc dạng thuôn"
-      }
-    },
-    {
-      "id": "forming-punches",
-      "composition": "series",
-      "targetVariantCount": 4,
-      "variantCount": 3,
-      "pieceCount": 3,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "square",
-          "nameZh": "方形工作端冲头",
-          "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "四边等长方形工作轮廓",
-          "structuralKey": "square",
+          "geometryEn": "Stamping punch with obround working end.",
+          "differenceZh": "长圆冲",
+          "structuralKey": "stamp-obround",
           "verificationStatus": "verified",
           "references": [
             {
               "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
-            "zh": "方形工作端冲头",
-            "en": "Square working end",
-            "vi": "Đầu làm việc vuông"
+            "zh": "长圆工作端冲头",
+            "en": "长圆工作端冲头",
+            "vi": "长圆工作端冲头"
           }
         },
         {
           "id": "hex",
           "nameZh": "六角工作端冲头",
-          "geometryEn": "A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "六边形工作轮廓",
-          "structuralKey": "hex",
+          "geometryEn": "Stamping punch with hexagonal working end.",
+          "differenceZh": "六角冲",
+          "structuralKey": "stamp-hex",
           "verificationStatus": "verified",
           "references": [
             {
               "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
             "zh": "六角工作端冲头",
-            "en": "Hexagonal working end",
-            "vi": "Đầu làm việc lục giác"
+            "en": "六角工作端冲头",
+            "vi": "六角工作端冲头"
           }
         },
         {
-          "id": "obround",
-          "nameZh": "长圆工作端冲头",
-          "geometryEn": "A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "两条平行直边加两端半圆，区别于椭圆",
-          "structuralKey": "obround",
+          "id": "profile",
+          "nameZh": "轮廓冲头",
+          "geometryEn": "Stamping punch with simple custom closed profile working end (non-standard but symmetric).",
+          "differenceZh": "异形轮廓",
+          "structuralKey": "stamp-profile",
           "verificationStatus": "verified",
           "references": [
             {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
               "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
+              "reviewedAt": "2026-10-01"
             }
           ],
           "name": {
-            "zh": "长圆工作端冲头",
-            "en": "Obround working end",
-            "vi": "Đầu làm việc dạng thuôn"
+            "zh": "轮廓冲头",
+            "en": "轮廓冲头",
+            "vi": "轮廓冲头"
+          }
+        },
+        {
+          "id": "cutoff",
+          "nameZh": "切断刀冲头",
+          "geometryEn": "Flat elongated cutoff punch blade profile for trimming (complete punch silhouette).",
+          "differenceZh": "切断刃形",
+          "structuralKey": "stamp-cutoff",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "切断刀冲头",
+            "en": "切断刀冲头",
+            "vi": "切断刀冲头"
+          }
+        },
+        {
+          "id": "pierce-small",
+          "nameZh": "小孔冲针",
+          "geometryEn": "Short fine round piercing punch with minimal shank (fine blanking style silhouette).",
+          "differenceZh": "细径冲孔",
+          "structuralKey": "stamp-fine-round",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "小孔冲针",
+            "en": "小孔冲针",
+            "vi": "小孔冲针"
+          }
+        },
+        {
+          "id": "heavy",
+          "nameZh": "厚料冲头",
+          "geometryEn": "Robust round punch with thicker shank proportion for heavy stock (distinct silhouette vs fine punch).",
+          "differenceZh": "粗杆圆冲",
+          "structuralKey": "stamp-heavy-round",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "厚料冲头",
+            "en": "厚料冲头",
+            "vi": "厚料冲头"
+          }
+        },
+        {
+          "id": "headed",
+          "nameZh": "带头冲头",
+          "geometryEn": "Round stamping punch with visible flanged or headed top for retention.",
+          "differenceZh": "带头结构",
+          "structuralKey": "stamp-headed-round",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "带头冲头",
+            "en": "带头冲头",
+            "vi": "带头冲头"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": true,
+      "revisionAction": "expand-to-ten-styles-home-tiles",
+      "descriptionZh": "约 10 款同系列冲头/冲针，不同工作端与杆部结构；见逐件清单。",
+      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
+      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
+      "layoutEn": "One catalog photograph with about ten separate complete punches from this family only. Arrange in a balanced loose grid (about two rows), each item fully visible with working end readable. Show distinct working-end profiles and/or mounting structures (straight shank, single shoulder, T-head, tipped insert). Moderate shank length and diameter differences are allowed when the head geometry differs — not ten copies of the same profile at different scales. No overlap hiding tips, no text labels.",
+      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
+      "caption": {
+        "zh": "约10款冲压模冲头（多种轮廓与结构）",
+        "en": "About 10 distinct punches in this family (mixed profiles and shanks)",
+        "vi": "Khoảng 10 chày trong cùng dòng (nhiều biên dạng và thân)"
+      }
+    },
+    {
+      "id": "forming-punches",
+      "composition": "series",
+      "targetVariantCount": 10,
+      "variantCount": 10,
+      "pieceCount": 10,
+      "materialClass": "steel",
+      "familyInvariantEn": "Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.",
+      "structuralVariants": [
+        {
+          "id": "form-square",
+          "nameZh": "成型方冲",
+          "geometryEn": "Forming punch with square working face for bending/forming contact.",
+          "differenceZh": "方形成型面",
+          "structuralKey": "form-square",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "成型方冲",
+            "en": "成型方冲",
+            "vi": "成型方冲"
+          }
+        },
+        {
+          "id": "form-round",
+          "nameZh": "成型圆冲",
+          "geometryEn": "Forming punch with domed or flat round forming face.",
+          "differenceZh": "圆形成型面",
+          "structuralKey": "form-round",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "成型圆冲",
+            "en": "成型圆冲",
+            "vi": "成型圆冲"
+          }
+        },
+        {
+          "id": "form-arc",
+          "nameZh": "弧面成型冲",
+          "geometryEn": "Forming punch with cylindrical arc forming surface along the tip.",
+          "differenceZh": "弧面成型",
+          "structuralKey": "form-arc",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "弧面成型冲",
+            "en": "弧面成型冲",
+            "vi": "弧面成型冲"
+          }
+        },
+        {
+          "id": "form-angle",
+          "nameZh": "斜面成型冲",
+          "geometryEn": "Forming punch with angled planar forming face.",
+          "differenceZh": "斜面成型",
+          "structuralKey": "form-angle",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "斜面成型冲",
+            "en": "斜面成型冲",
+            "vi": "斜面成型冲"
+          }
+        },
+        {
+          "id": "form-profile",
+          "nameZh": "异形成型冲",
+          "geometryEn": "Forming punch with irregular but smooth closed forming profile.",
+          "differenceZh": "异形成型",
+          "structuralKey": "form-profile",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "异形成型冲",
+            "en": "异形成型冲",
+            "vi": "异形成型冲"
+          }
+        },
+        {
+          "id": "form-slot",
+          "nameZh": "压筋成型冲",
+          "geometryEn": "Forming punch with narrow rib/slot forming tip.",
+          "differenceZh": "压筋/槽成型",
+          "structuralKey": "form-rib",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "压筋成型冲",
+            "en": "压筋成型冲",
+            "vi": "压筋成型冲"
+          }
+        },
+        {
+          "id": "form-curl",
+          "nameZh": "卷边成型冲",
+          "geometryEn": "Forming punch tip shaped for curl/flange forming (hooked smooth radius).",
+          "differenceZh": "卷边成型",
+          "structuralKey": "form-curl",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "卷边成型冲",
+            "en": "卷边成型冲",
+            "vi": "卷边成型冲"
+          }
+        },
+        {
+          "id": "form-pilot",
+          "nameZh": "导正成型冲",
+          "geometryEn": "Pilot-style forming punch with guided cylindrical lead and formed end.",
+          "differenceZh": "导正成型",
+          "structuralKey": "form-pilot",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "导正成型冲",
+            "en": "导正成型冲",
+            "vi": "导正成型冲"
+          }
+        },
+        {
+          "id": "form-step",
+          "nameZh": "台阶成型冲",
+          "geometryEn": "Forming punch combining shoulder step with shaped forming end.",
+          "differenceZh": "台阶成型",
+          "structuralKey": "form-step",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "台阶成型冲",
+            "en": "台阶成型冲",
+            "vi": "台阶成型冲"
+          }
+        },
+        {
+          "id": "form-compound",
+          "nameZh": "复合轮廓成型冲",
+          "geometryEn": "Forming punch with two-level forming surfaces on one tip (compound profile).",
+          "differenceZh": "复合成型面",
+          "structuralKey": "form-compound",
+          "verificationStatus": "verified",
+          "references": [
+            {
+              "url": "https://htxprecision.com/hss-punch/",
+              "evidenceZh": "分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。",
+              "verification": "text-supported",
+              "reviewedAt": "2026-10-01"
+            }
+          ],
+          "name": {
+            "zh": "复合轮廓成型冲",
+            "en": "复合轮廓成型冲",
+            "vi": "复合轮廓成型冲"
           }
         }
       ],
       "missingEvidenceZh": [
         "当前组合仅覆盖异形冲裁轮廓，不代表曲面成型结构；曲面款另行核实。"
       ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "方形工作端冲头；六角工作端冲头；长圆工作端冲头。待补充：当前组合仅覆盖异形冲裁轮廓，不代表曲面成型结构；曲面款另行核实。",
+      "generationReady": true,
+      "revisionAction": "expand-to-ten-styles-home-tiles",
+      "descriptionZh": "约 10 款同系列冲头/冲针，不同工作端与杆部结构；见逐件清单。",
       "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
       "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
+      "layoutEn": "One catalog photograph with about ten separate complete punches from this family only. Arrange in a balanced loose grid (about two rows), each item fully visible with working end readable. Show distinct working-end profiles and/or mounting structures (straight shank, single shoulder, T-head, tipped insert). Moderate shank length and diameter differences are allowed when the head geometry differs — not ten copies of the same profile at different scales. No overlap hiding tips, no text labels.",
+      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
+      "caption": {
+        "zh": "约10款成型冲头（多种轮廓与结构）",
+        "en": "About 10 distinct punches in this family (mixed profiles and shanks)",
+        "vi": "Khoảng 10 chày trong cùng dòng (nhiều biên dạng và thân)"
+      }
     },
     {
       "id": "a-type-punches",

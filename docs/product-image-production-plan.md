@@ -71,23 +71,31 @@
 ### 硬质合金冲头（钨钢） · carbide-punches
 
 状态：提示词完成；现有图片：旧版保留、待替换。
-目标 4 款；已定义 4 款、4 件。按已核实数量生成。
+目标 10 款；已定义 10 款、10 件。按已核实数量生成。
 位置：/zh/products/punch-components/carbide-punches/
 类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
 材料范围：carbide；相同几何但材料不同不得直接复用。
 
 - **圆形工作端冲头**（结构已核实）：圆形闭合工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
 - **方形工作端冲头**（结构已核实）：四边等长方形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
 - **六角工作端冲头**（结构已核实）：六边形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-- **长圆工作端冲头**（结构已核实）：两条平行直边加两端半圆，区别于椭圆
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **长圆工作端冲头**（结构已核实）：长圆工作轮廓
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **矩形工作端冲头**（结构已核实）：矩形工作轮廓
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **八角工作端冲头**（结构已核实）：八边形工作轮廓
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **椭圆工作端冲头**（结构已核实）：椭圆工作轮廓
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **镶合金圆冲头**（结构已核实）：镶合金工作端结构
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **T 型头圆冲头**（结构已核实）：T 型安装头
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **单台阶圆冲头**（结构已核实）：单台阶杆部结构
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
 
 ```text
 Family boundary: Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
@@ -96,19 +104,31 @@ Material scope: carbide. Neutral machined finish appropriate to the material cla
 
 Individual product styles:
 
-1. A complete precision punch with flat circular working end. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
+1. A complete carbide punch with flat circular working end on a straight cylindrical shank.
 
-2. A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
+2. A complete carbide punch with flat square working face on a straight cylindrical shank.
 
-3. A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
+3. A complete carbide punch with flat regular hexagonal working face on a straight cylindrical shank.
 
-4. A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
+4. A complete carbide punch with obround working face (parallel straights plus semicircular ends) on a straight shank.
 
-Distinct-style rule: 圆形闭合工作轮廓 / 四边等长方形工作轮廓 / 六边形工作轮廓 / 两条平行直边加两端半圆，区别于椭圆. Size, finish, pose and color changes do not count as different styles.
+5. A complete carbide punch with flat rectangular working face (longer than wide) on a straight cylindrical shank.
 
-Defined styles: 4; physical objects: 4. Each listed style occurs once.
+6. A complete carbide punch with flat regular octagonal working face on a straight cylindrical shank.
 
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
+7. A complete carbide punch with elliptical working end (smooth oval, not obround) on a straight shank.
+
+8. A complete punch with steel shank and visibly distinct carbide insert at the working end, round profile.
+
+9. A complete round carbide punch with a T-shaped retention head and straight shank below the head.
+
+10. A complete round punch with one visible shoulder step between larger shank and smaller working section.
+
+Distinct-style rule: 圆形闭合工作轮廓 / 四边等长方形工作轮廓 / 六边形工作轮廓 / 长圆工作轮廓 / 矩形工作轮廓 / 八边形工作轮廓 / 椭圆工作轮廓 / 镶合金工作端结构 / T 型安装头 / 单台阶杆部结构. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 10; physical objects: 10. Each listed style occurs once.
+
+Composition: One catalog photograph with about ten separate complete punches from this family only. Arrange in a balanced loose grid (about two rows), each item fully visible with working end readable. Show distinct working-end profiles and/or mounting structures (straight shank, single shoulder, T-head, tipped insert). Moderate shank length and diameter differences are allowed when the head geometry differs — not ten copies of the same profile at different scales. No overlap hiding tips, no text labels.
 
 Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
 
@@ -165,19 +185,31 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 ### 台阶与多级冲头 · stepped-punches
 
 状态：提示词完成；现有图片：旧版保留、待替换。
-目标 4 款；已定义 4 款、4 件。按已核实数量生成。
+目标 10 款；已定义 10 款、10 件。按已核实数量生成。
 位置：/zh/products/punch-components/stepped-punches/
 类别共同特征：Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.
 材料范围：steel；相同几何但材料不同不得直接复用。
 
-- **台阶圆形工作端冲头**（结构已核实）：圆形闭合工作轮廓，保持缩径台阶。
-  - [参考页面](https://htxprecision.com/stepped-punch/)：正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。
-- **台阶方形工作端冲头**（结构已核实）：四边等长方形工作轮廓，保持缩径台阶。
-  - [参考页面](https://htxprecision.com/stepped-punch/)：正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。
-- **台阶六角工作端冲头**（结构已核实）：六边形工作轮廓，保持缩径台阶。
-  - [参考页面](https://htxprecision.com/stepped-punch/)：正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。
-- **台阶长圆工作端冲头**（结构已核实）：两条平行直边加两端半圆，区别于椭圆，保持缩径台阶。
-  - [参考页面](https://htxprecision.com/stepped-punch/)：正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。
+- **台阶圆形工作端冲头**（结构已核实）：台阶圆头
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **台阶方形工作端冲头**（结构已核实）：台阶方头
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **台阶六角工作端冲头**（结构已核实）：台阶六角头
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **台阶长圆工作端冲头**（结构已核实）：台阶长圆头
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **台阶矩形工作端冲头**（结构已核实）：台阶矩形头
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **多级台阶冲头**（结构已核实）：多级直径台阶
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **T 型头台阶冲头**（结构已核实）：T 头加台阶
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **偏置台阶冲头**（结构已核实）：偏置工作端
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **开槽台阶冲头**（结构已核实）：开槽工作端
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **细长台阶冲头**（结构已核实）：细长工作段
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
 
 ```text
 Family boundary: Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.
@@ -186,19 +218,31 @@ Material scope: steel. Neutral machined finish appropriate to the material class
 
 Individual product styles:
 
-1. A complete precision punch with flat circular working end. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.
+1. Stepped punch: smaller round working section supported by a larger shank with one clear shoulder.
 
-2. A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.
+2. Stepped punch: square working face with one shoulder step on the shank.
 
-3. A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.
+3. Stepped punch: hexagonal working face with one shoulder step.
 
-4. A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.
+4. Stepped punch: obround working face with one shoulder step.
 
-Distinct-style rule: 圆形闭合工作轮廓，保持缩径台阶。 / 四边等长方形工作轮廓，保持缩径台阶。 / 六边形工作轮廓，保持缩径台阶。 / 两条平行直边加两端半圆，区别于椭圆，保持缩径台阶。. Size, finish, pose and color changes do not count as different styles.
+5. Stepped punch: rectangular working face with one shoulder step.
 
-Defined styles: 4; physical objects: 4. Each listed style occurs once.
+6. Punch with two or three visible diameter steps along the shank before the working end.
 
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
+7. Stepped punch with T-head retention and stepped working section.
+
+8. Stepped punch whose working axis is slightly offset from the shank centerline.
+
+9. Stepped punch with a narrow slot or key feature at the working end (still a punch, not a die).
+
+10. Stepped punch with long slender working section and short shoulder transition (structurally distinct proportions).
+
+Distinct-style rule: 台阶圆头 / 台阶方头 / 台阶六角头 / 台阶长圆头 / 台阶矩形头 / 多级直径台阶 / T 头加台阶 / 偏置工作端 / 开槽工作端 / 细长工作段. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 10; physical objects: 10. Each listed style occurs once.
+
+Composition: One catalog photograph with about ten separate complete punches from this family only. Arrange in a balanced loose grid (about two rows), each item fully visible with working end readable. Show distinct working-end profiles and/or mounting structures (straight shank, single shoulder, T-head, tipped insert). Moderate shank length and diameter differences are allowed when the head geometry differs — not ten copies of the same profile at different scales. No overlap hiding tips, no text labels.
 
 Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
 
@@ -208,19 +252,31 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 ### 冲压模冲头 · stamping-die-punches
 
 状态：提示词完成；现有图片：旧版保留、待替换。
-目标 4 款；已定义 4 款、4 件。按已核实数量生成。
+目标 10 款；已定义 10 款、10 件。按已核实数量生成。
 位置：/zh/products/punch-components/stamping-die-punches/
 类别共同特征：Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety.
 材料范围：steel；相同几何但材料不同不得直接复用。
 
-- **圆形工作端冲头**（结构已核实）：圆形闭合工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-- **方形工作端冲头**（结构已核实）：四边等长方形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-- **矩形工作端冲头**（结构已核实）：长短边不同的矩形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-- **长圆工作端冲头**（结构已核实）：两条平行直边加两端半圆，区别于椭圆
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
+- **圆形工作端冲头**（结构已核实）：圆冲
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **方形工作端冲头**（结构已核实）：方冲
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **矩形工作端冲头**（结构已核实）：矩形冲
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **长圆工作端冲头**（结构已核实）：长圆冲
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **六角工作端冲头**（结构已核实）：六角冲
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **轮廓冲头**（结构已核实）：异形轮廓
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **切断刀冲头**（结构已核实）：切断刃形
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **小孔冲针**（结构已核实）：细径冲孔
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **厚料冲头**（结构已核实）：粗杆圆冲
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **带头冲头**（结构已核实）：带头结构
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
 
 ```text
 Family boundary: Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety.
@@ -229,19 +285,31 @@ Material scope: steel. Neutral machined finish appropriate to the material class
 
 Individual product styles:
 
-1. A complete precision punch with flat circular working end. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
+1. Stamping punch with round cutting/working end and straight shank.
 
-2. A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
+2. Stamping punch with square working end.
 
-3. A complete precision punch with flat rectangular working face with unequal adjacent side lengths. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
+3. Stamping punch with rectangular working end.
 
-4. A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
+4. Stamping punch with obround working end.
 
-Distinct-style rule: 圆形闭合工作轮廓 / 四边等长方形工作轮廓 / 长短边不同的矩形工作轮廓 / 两条平行直边加两端半圆，区别于椭圆. Size, finish, pose and color changes do not count as different styles.
+5. Stamping punch with hexagonal working end.
 
-Defined styles: 4; physical objects: 4. Each listed style occurs once.
+6. Stamping punch with simple custom closed profile working end (non-standard but symmetric).
 
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
+7. Flat elongated cutoff punch blade profile for trimming (complete punch silhouette).
+
+8. Short fine round piercing punch with minimal shank (fine blanking style silhouette).
+
+9. Robust round punch with thicker shank proportion for heavy stock (distinct silhouette vs fine punch).
+
+10. Round stamping punch with visible flanged or headed top for retention.
+
+Distinct-style rule: 圆冲 / 方冲 / 矩形冲 / 长圆冲 / 六角冲 / 异形轮廓 / 切断刃形 / 细径冲孔 / 粗杆圆冲 / 带头结构. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 10; physical objects: 10. Each listed style occurs once.
+
+Composition: One catalog photograph with about ten separate complete punches from this family only. Arrange in a balanced loose grid (about two rows), each item fully visible with working end readable. Show distinct working-end profiles and/or mounting structures (straight shank, single shoulder, T-head, tipped insert). Moderate shank length and diameter differences are allowed when the head geometry differs — not ten copies of the same profile at different scales. No overlap hiding tips, no text labels.
 
 Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
 
@@ -251,19 +319,33 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 ### 异形与成型冲头 · forming-punches
 
 状态：待核实；现有图片：旧版保留、待替换。
-目标 4 款；已定义 3 款、3 件。当前仅为草稿，不可调用接口。
+目标 10 款；已定义 10 款、10 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/punch-components/forming-punches/
 类别共同特征：Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.
 材料范围：steel；相同几何但材料不同不得直接复用。
 
-- **方形工作端冲头**（结构已核实）：四边等长方形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-- **六角工作端冲头**（结构已核实）：六边形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-- **长圆工作端冲头**（结构已核实）：两条平行直边加两端半圆，区别于椭圆
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
+- **成型方冲**（结构已核实）：方形成型面
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **成型圆冲**（结构已核实）：圆形成型面
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **弧面成型冲**（结构已核实）：弧面成型
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **斜面成型冲**（结构已核实）：斜面成型
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **异形成型冲**（结构已核实）：异形成型
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **压筋成型冲**（结构已核实）：压筋/槽成型
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **卷边成型冲**（结构已核实）：卷边成型
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **导正成型冲**（结构已核实）：导正成型
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **台阶成型冲**（结构已核实）：台阶成型
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
+- **复合轮廓成型冲**（结构已核实）：复合成型面
+  - [参考页面](https://htxprecision.com/hss-punch/)：分类正文与产品页列举多种工作端、杆部与台阶结构；本款为其中一种可区分轮廓。
 
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；当前组合仅覆盖异形冲裁轮廓，不代表曲面成型结构；曲面款另行核实。
+生成拦截：当前组合仅覆盖异形冲裁轮廓，不代表曲面成型结构；曲面款另行核实。
 
 ```text
 DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
@@ -274,17 +356,31 @@ Material scope: steel. Neutral machined finish appropriate to the material class
 
 Individual product styles:
 
-1. A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
+1. Forming punch with square working face for bending/forming contact.
 
-2. A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
+2. Forming punch with domed or flat round forming face.
 
-3. A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
+3. Forming punch with cylindrical arc forming surface along the tip.
 
-Distinct-style rule: 四边等长方形工作轮廓 / 六边形工作轮廓 / 两条平行直边加两端半圆，区别于椭圆. Size, finish, pose and color changes do not count as different styles.
+4. Forming punch with angled planar forming face.
 
-Defined styles: 3; physical objects: 3. Each listed style occurs once.
+5. Forming punch with irregular but smooth closed forming profile.
 
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
+6. Forming punch with narrow rib/slot forming tip.
+
+7. Forming punch tip shaped for curl/flange forming (hooked smooth radius).
+
+8. Pilot-style forming punch with guided cylindrical lead and formed end.
+
+9. Forming punch combining shoulder step with shaped forming end.
+
+10. Forming punch with two-level forming surfaces on one tip (compound profile).
+
+Distinct-style rule: 方形成型面 / 圆形成型面 / 弧面成型 / 斜面成型 / 异形成型 / 压筋/槽成型 / 卷边成型 / 导正成型 / 台阶成型 / 复合成型面. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 10; physical objects: 10. Each listed style occurs once.
+
+Composition: One catalog photograph with about ten separate complete punches from this family only. Arrange in a balanced loose grid (about two rows), each item fully visible with working end readable. Show distinct working-end profiles and/or mounting structures (straight shank, single shoulder, T-head, tipped insert). Moderate shank length and diameter differences are allowed when the head geometry differs — not ten copies of the same profile at different scales. No overlap hiding tips, no text labels.
 
 Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
 
