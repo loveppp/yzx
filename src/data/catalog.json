@@ -21,6 +21,7 @@
     },
     {
       "id": "ejector-components",
+      "coverImage": "/images/catalog/ejector-components-cover.png",
       "name": {
         "en": "Ejector Components",
         "zh": "顶出组件",
@@ -39,6 +40,7 @@
     },
     {
       "id": "guide-components",
+      "coverImage": "/images/catalog/guide-components-cover.png",
       "name": {
         "en": "Guide Components",
         "zh": "导向组件",
@@ -57,6 +59,7 @@
     },
     {
       "id": "die-springs",
+      "coverImage": "/images/catalog/die-springs-cover.png",
       "name": {
         "en": "Die Springs",
         "zh": "模具弹簧",
@@ -75,6 +78,7 @@
     },
     {
       "id": "plastic-mold-components",
+      "coverImage": "/images/products/catalog/sprue-bushings-2026-10-01T08-50-36-912Z.jpg",
       "name": {
         "en": "Mold Accessories",
         "zh": "浇注与模具辅助件",
@@ -93,6 +97,7 @@
     },
     {
       "id": "bronze-components",
+      "coverImage": "/images/catalog/bronze-components-cover.png",
       "name": {
         "en": "Bushings & Wear Plates",
         "zh": "自润滑轴套与耐磨件",
@@ -125,7 +130,8 @@
         "en": "Locating or lifting function; working diameter and length; mating fit and installation method",
         "zh": "定位或抬料功能；工作直径与长度；配合要求与安装方式",
         "vi": "Chức năng định vị hoặc nâng; đường kính và chiều dài; dung sai lắp và phương pháp lắp"
-      }
+      },
+      "coverImage": "/images/catalog/dowel-pins-cover.png"
     }
   ],
   "products": [
@@ -631,8 +637,14 @@
       "sourceUrls": [
         "https://htxprecision.com/shoulder-ejector-pins/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/shoulder-ejector-pins.svg"
+      "image": "/images/products/catalog/shoulder-ejector-pins-2026-10-01T08-44-29-092Z.jpg",
+      "illustration": "/images/catalog/shoulder-ejector-pins.svg",
+      "imageGenerated": true,
+      "imageCaption": {
+        "zh": "平肩托针 / 锥肩托针 / 圆弧肩托针",
+        "en": "Flat-shoulder ejector / Tapered-shoulder ejector / Radiused-shoulder ejector",
+        "vi": "Chốt đẩy vai phẳng / Chốt đẩy vai côn / Chốt đẩy vai bo tròn"
+      }
     },
     {
       "group": "ejector-components",
@@ -927,8 +939,14 @@
       "sourceUrls": [
         "https://htxprecision.com/guide-pin/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/guide-posts.svg"
+      "image": "/images/products/catalog/guide-posts-2026-10-01T08-46-34-839Z.jpg",
+      "illustration": "/images/catalog/guide-posts.svg",
+      "imageGenerated": true,
+      "imageCaption": {
+        "zh": "注塑/冲压用直身导柱 / 卸料板用带肩导柱",
+        "en": "Straight mold guide post / Shouldered stripper guide pin",
+        "vi": "Trụ dẫn thẳng / Trụ dẫn vai tấm đẩy"
+      }
     },
     {
       "group": "guide-components",
@@ -1234,12 +1252,18 @@
         "https://htxprecision.com/yellow-die-spring/",
         "https://htxprecision.com/brown-die-spring/"
       ],
-      "image": null,
+      "image": "/images/products/catalog/rectangular-die-springs-2026-10-01T08-48-34-499Z.jpg",
       "illustration": "/images/catalog/rectangular-die-springs.svg",
       "note": {
         "en": "*Color/load pairing shown for the referenced Japanese-style series. ISO and other series can use different colors; confirm the supplier load chart.",
         "zh": "*此处颜色与负荷对应参考日系系列；ISO 等其他系列的颜色定义可能不同，须以确认的系列及负荷表为准。",
         "vi": "*Màu và tải tham khảo dòng kiểu Nhật. ISO và dòng khác có thể dùng mã màu khác; cần xác nhận bảng tải."
+      },
+      "imageGenerated": true,
+      "imageCaption": {
+        "zh": "矩形截面压缩弹簧 / 带磨平端头矩形弹簧",
+        "en": "Rectangular-wire die spring / Rectangular spring with ground ends",
+        "vi": "Lò xo dập tiết diện chữ nhật / Lò xo có mài đầu"
       }
     },
     {
@@ -1332,8 +1356,14 @@
       "sourceUrls": [
         "https://htxprecision.com/sprue-bushing/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/sprue-bushings.svg"
+      "image": "/images/products/catalog/sprue-bushings-2026-10-01T08-50-36-912Z.jpg",
+      "illustration": "/images/catalog/sprue-bushings.svg",
+      "imageGenerated": true,
+      "imageCaption": {
+        "zh": "A 型浇口套 / B 型浇口套",
+        "en": "Type-A sprue bushing / Type-B sprue bushing",
+        "vi": "Bạc cuống loại A / loại B"
+      }
     },
     {
       "group": "plastic-mold-components",
@@ -1592,8 +1622,14 @@
       "sourceUrls": [
         "https://htxprecision.com/graphite-bronze-bushings/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/graphite-bronze-bushings.svg"
+      "image": "/images/products/catalog/graphite-bronze-bushings-2026-10-01T08-43-26-693Z.jpg",
+      "illustration": "/images/catalog/graphite-bronze-bushings.svg",
+      "imageGenerated": true,
+      "imageCaption": {
+        "zh": "直筒石墨铜套 / 法兰石墨铜套",
+        "en": "Cylindrical graphite bronze bushing / Flanged graphite bronze bushing",
+        "vi": "Bạc đồng graphite dạng trụ / Bạc đồng graphite có bích"
+      }
     },
     {
       "group": "bronze-components",
@@ -1778,8 +1814,14 @@
       "sourceUrls": [
         "https://htxprecision.com/dowel-pins/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/precision-dowel-pins.svg"
+      "image": "/images/products/catalog/precision-dowel-pins-2026-10-01T08-52-38-277Z.jpg",
+      "illustration": "/images/catalog/precision-dowel-pins.svg",
+      "imageGenerated": true,
+      "imageCaption": {
+        "zh": "双倒角圆柱销 / 单端倒角定位销",
+        "en": "Double-chamfer dowel / Single-chamfer locating pin",
+        "vi": "Chốt trụ hai vát / Chốt trụ một vát"
+      }
     },
     {
       "group": "dowel-pins",

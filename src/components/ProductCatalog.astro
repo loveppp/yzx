@@ -1,31 +1,31 @@
 ---
-import {catalogGroups,catalogProducts,catalogText,materialLabel,legacyCategories} from '@/data/catalog';
+import {productCenterGroups,productCenterProducts,catalogText,materialLabel,legacyCategories} from '@/data/catalog';
 import {catalogUI} from '@/data/catalog-ui';
 import type {Locale} from '@/i18n/utils';
 import CatalogCard from './CatalogCard.astro';
 interface Props {locale:Locale;quoteHref?:string;}
 const {locale,quoteHref=`/${locale}/contact/`}=Astro.props;
 const ui=catalogUI(locale);
-const materials=[...new Set(catalogProducts.flatMap(p=>p.materials))].filter(m=>m!=='Per selected model').sort();
+const materials=[...new Set(productCenterProducts.flatMap(p=>p.materials))].filter(m=>m!=='Per selected model').sort();
 ---
-<div data-catalog data-legacy={JSON.stringify(legacyCategories)} data-products={JSON.stringify(catalogProducts.map(p=>({id:p.id,group:p.group,name:catalogText(p.name,locale)})))}>
+<div data-catalog data-legacy={JSON.stringify(legacyCategories)} data-products={JSON.stringify(productCenterProducts.map(p=>({id:p.id,group:p.group,name:catalogText(p.name,locale)})))}>
   <div class="grid items-start gap-7 lg:grid-cols-[230px_minmax(0,1fr)]">
     <aside class="hidden lg:sticky lg:top-28 lg:block">
       <h2 class="text-xs font-sans font-semibold uppercase tracking-wider text-slate-500">{ui.category}</h2>
       <div class="mt-4 flex flex-col gap-1" role="group" aria-label={ui.category}>
-        <button class="catalog-group-button text-left text-sm" type="button" data-group-button="" aria-pressed="true">{ui.all}<span>{catalogProducts.length}</span></button>
-        {catalogGroups.map(g=><button class="catalog-group-button text-left text-sm" type="button" data-group-button={g.id} aria-pressed="false">{catalogText(g.name,locale)}<span>{catalogProducts.filter(p=>p.group===g.id).length}</span></button>)}
+        <button class="catalog-group-button text-left text-sm" type="button" data-group-button="" aria-pressed="true">{ui.all}<span>{productCenterProducts.length}</span></button>
+        {productCenterGroups.map(g=><button class="catalog-group-button text-left text-sm" type="button" data-group-button={g.id} aria-pressed="false">{catalogText(g.name,locale)}<span>{productCenterProducts.filter(p=>p.group===g.id).length}</span></button>)}
       </div>
       <div class="mt-8 border-t border-borui-navy/10 pt-6"><p class="font-serif text-lg">{ui.customTitle}</p><a class="mt-3 inline-block text-sm underline underline-offset-4" href={`/${locale}/custom-oem/`}>{ui.drawingCta} →</a></div>
     </aside>
     <div class="min-w-0">
       <form class="grid grid-cols-2 gap-3 rounded-sm border border-borui-navy/10 bg-white p-4" data-catalog-form role="search">
         <label class="col-span-2 text-xs font-medium text-slate-600 lg:col-span-1"><span>{ui.search}</span><input name="q" type="search" placeholder={ui.searchHint} class="catalog-control mt-2" /></label>
-        <label class="text-xs font-medium text-slate-600 lg:hidden"><span>{ui.category}</span><select name="group" class="catalog-control mt-2"><option value="">{ui.all}</option>{catalogGroups.map(g=><option value={g.id}>{catalogText(g.name,locale)}</option>)}</select></label>
+        <label class="text-xs font-medium text-slate-600 lg:hidden"><span>{ui.category}</span><select name="group" class="catalog-control mt-2"><option value="">{ui.all}</option>{productCenterGroups.map(g=><option value={g.id}>{catalogText(g.name,locale)}</option>)}</select></label>
         <label class="text-xs font-medium text-slate-600"><span>{ui.material}</span><select name="material" class="catalog-control mt-2"><option value="">{ui.allMaterials}</option>{materials.map(m=><option value={m}>{materialLabel(m,locale)}</option>)}</select></label>
       </form>
-      <div class="flex min-h-16 items-center justify-between gap-3 py-3"><p class="text-sm text-slate-600" role="status" aria-live="polite"><span data-count>{catalogProducts.length}</span> {ui.results}</p><button type="button" data-clear class="min-h-11 text-sm underline underline-offset-4">{ui.clear}</button></div>
-      <div class="grid grid-cols-2 gap-3 md:gap-4 xl:grid-cols-3" data-grid>{catalogProducts.map(p=><CatalogCard product={p} locale={locale} filterable quoteHref={quoteHref}/>)}</div>
+      <div class="flex min-h-16 items-center justify-between gap-3 py-3"><p class="text-sm text-slate-600" role="status" aria-live="polite"><span data-count>{productCenterProducts.length}</span> {ui.results}</p><button type="button" data-clear class="min-h-11 text-sm underline underline-offset-4">{ui.clear}</button></div>
+      <div class="grid grid-cols-2 gap-3 md:gap-4 xl:grid-cols-3" data-grid>{productCenterProducts.map(p=><CatalogCard product={p} locale={locale} filterable quoteHref={quoteHref}/>)}</div>
       <div hidden data-empty class="border border-dashed border-borui-navy/20 px-5 py-12 text-center"><h2 class="text-xl">{ui.empty}</h2><p class="mx-auto mt-3 max-w-lg text-sm leading-relaxed text-slate-600">{ui.emptyHint}</p><a href={`/${locale}/contact/`} class="btn-primary mt-6">{ui.drawingCta}</a></div>
     </div>
   </div>

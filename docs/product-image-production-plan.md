@@ -2,7 +2,7 @@
 
 > 本文件由参考款式清单生成。当前阶段只重编提示词，不调用生图接口。旧图在线不表示新版已生成或已通过结构核实。
 
-本清单 70 个任务：20 个提示词完成，50 个待核实；新版已生成 0 个，已接入 0 个。
+本清单 70 个任务：24 个提示词完成，46 个待核实；新版已生成 7 个，已接入 7 个。
 
 ## 规则与分批顺序
 
@@ -21,15 +21,12 @@
 - **扁顶针**（blade-ejector-pins）：缺少不同过渡/定位结构的两款扁顶针依据。
 - **方顶针**（square-ejector-pins）：缺少两款方顶针结构依据。
 - **气顶阀**（air-poppet-valves）：JMT-A1现有资料只有尺寸变化，缺第二种结构。
-- **导柱**（guide-posts）：缺两种导柱安装结构的清晰依据。
 - **滑动导套与钢导套**（guide-bushings）：缺两种滑动导套结构依据。
 - **法兰导套**（flanged-guide-bushings）：缺两种法兰安装方式依据，不增添臆测螺栓孔。
 - **导柱导套组件**（guide-sets）：两种配套形式已列出，安装/保持细节未核实。
 - **滚珠保持架**（ball-cages）：三种材料不是三种结构；需核实不同保持/安装方式。
 - **滚珠导套**（ball-bearing-bushings）：需两种可辨的滚珠导套安装结构。
-- **矩形模具弹簧**（rectangular-die-springs）：五种载荷颜色不符合不同结构要求；保留载荷文字，不凑五件图。
 - **氮气弹簧**（nitrogen-gas-springs）：需两种已核实安装型式的产品。
-- **浇口套（唧咀）**（sprue-bushings）：先核对型号结构图，A/B/C尺寸差不自动算不同款式。
 - **定位圈**（locating-rings）：需两种定位面结构来源。
 - **模具日期章**（mold-date-stamps）：需两种调整/换芯结构来源，年份和字体不算款式。
 - **侧锁与精定位块**（side-locks）：两组公母配对均需结构来源。
@@ -38,7 +35,6 @@
 - **普通铜套**（bronze-bushings）：不能凭想象添加油槽；需核实第二种普通铜套结构。
 - **法兰铜套**（flanged-bronze-bushings）：不能借石墨法兰套资料证明普通法兰套款式。
 - **耐磨板与滑板**（wear-plates）：需第二种板体/润滑结构出处。
-- **精密圆柱销**（precision-dowel-pins）：需两种端部或定位结构，取消三根长短销。
 - **螺纹与拔出式定位销**（threaded-dowel-pins）：内外螺纹候选需具体产品图支撑。
 - **导正销**（pilot-pins）：需两种实际导入轮廓，不能任意添加削边。
 - **浮升销与浮料销**（floating-pins）：需两种承料头/导向结构，不能用尺寸变化代替。
@@ -500,7 +496,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 带肩顶针 · shoulder-ejector-pins
 
-状态：提示词完成；现有图片：暂无。
+状态：已接入；现有图片：新版已接入。
 目标 3 款；已定义 3 款、3 件。按已核实数量生成。
 位置：/zh/products/ejector-components/shoulder-ejector-pins/
 类别共同特征：Every item belongs to Shoulder Ejector Pins. Do not import adjacent product families to increase variety.
@@ -714,31 +710,31 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 导柱 · guide-posts
 
-状态：待核实；现有图片：暂无。
-目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+状态：已接入；现有图片：新版已接入。
+目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/guide-components/guide-posts/
 类别共同特征：Every item belongs to Guide Posts & Pillars. Do not import adjacent product families to increase variety.
 材料范围：steel；相同几何但材料不同不得直接复用。
 
-- **模具导柱**（待核实）：应用场景不同不自动形成结构差异。
-  - [参考页面](https://htxprecision.com/guide-pin/)：分类为卸料板导柱/注塑导柱，具体外形需要核对。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；模具导柱：结构尚未核实；模具导柱：名称或候选链接不能证明结构；缺两种导柱安装结构的清晰依据。
+- **直身模具导柱**（结构已核实）：整体圆柱导柱，无卸料板肩台。
+  - [参考页面](https://htxprecision.com/guide-pin/)：正文区分注塑/冲压模具导柱与卸料板导柱；本款为直身模具导柱外形。
+- **卸料板导柱**（结构已核实）：带头部/肩台，用于卸料板导向。
+  - [参考页面](https://htxprecision.com/guide-pin/)：正文单列 stripper guide pin 用于冲压卸料板导向；与直身导柱可区分。
 
 ```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
 Family boundary: Every item belongs to Guide Posts & Pillars. Do not import adjacent product families to increase variety.
 
 Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
 
 Individual product styles:
 
-1. A complete guide post; retention and lead-in geometry require a specific model reference.
+1. A complete straight cylindrical mold guide post with precision ground outer diameter, flat mounting head and lead-in chamfer. No cutting geometry.
 
-Distinct-style rule: 应用场景不同不自动形成结构差异。. Size, finish, pose and color changes do not count as different styles.
+2. A complete stripper-plate guide pin: larger diameter head or collar above a slender guided shank for stripper plate alignment. Blunt tip.
 
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
+Distinct-style rule: 整体圆柱导柱，无卸料板肩台。 / 带头部/肩台，用于卸料板导向。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 2; physical objects: 2. Each listed style occurs once.
 
 Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
 
@@ -930,31 +926,31 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 矩形模具弹簧 · rectangular-die-springs
 
-状态：待核实；现有图片：暂无。
-目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+状态：已接入；现有图片：新版已接入。
+目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/die-springs/rectangular-die-springs/
 类别共同特征：Every item belongs to Rectangular Die Springs. Do not import adjacent product families to increase variety.
 材料范围：painted-spring-steel；相同几何但材料不同不得直接复用。
 
-- **矩形截面模具弹簧**（待核实）：载荷颜色、长短和线径不作为不同结构款式。
-  - [参考页面](https://htxprecision.com/die-springs-mold-springs/)：现有五色系列是载荷等级；尚无符合本轮要求的两种结构来源。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；矩形截面模具弹簧：结构尚未核实；矩形截面模具弹簧：名称或候选链接不能证明结构；五种载荷颜色不符合不同结构要求；保留载荷文字，不凑五件图。
+- **矩形截面压缩弹簧**（结构已核实）：矩形线材绕制，端部未磨平。
+  - [参考页面](https://htxprecision.com/die-springs-mold-springs/)：产品页为矩形截面模具弹簧；载荷色带仅表示等级，本图不以色带区分款式。
+- **磨平端头矩形弹簧**（结构已核实）：两端磨平可站立安装，与开式端头不同。
+  - [参考页面](https://htxprecision.com/die-springs-mold-springs/)：常见模具弹簧供应形态含磨平端头便于安装；与开式端头为可见结构差异，非载荷颜色差异。
 
 ```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
 Family boundary: Every item belongs to Rectangular Die Springs. Do not import adjacent product families to increase variety.
 
 Material scope: painted-spring-steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
 
 Individual product styles:
 
-1. A complete helical compression die spring made from rectangular-section wire.
+1. One complete helical compression die spring wound from rectangular-section wire, open ends, free-standing coil silhouette.
 
-Distinct-style rule: 载荷颜色、长短和线径不作为不同结构款式。. Size, finish, pose and color changes do not count as different styles.
+2. One complete rectangular-wire compression die spring with both coil ends ground flat for seated mounting.
 
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
+Distinct-style rule: 矩形线材绕制，端部未磨平。 / 两端磨平可站立安装，与开式端头不同。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 2; physical objects: 2. Each listed style occurs once.
 
 Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
 
@@ -1000,33 +996,29 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 浇口套（唧咀） · sprue-bushings
 
-状态：待核实；现有图片：暂无。
-目标 3 款；已定义 2 款、2 件。当前仅为草稿，不可调用接口。
+状态：已接入；现有图片：新版已接入。
+目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/plastic-mold-components/sprue-bushings/
 类别共同特征：Every item belongs to Sprue Bushings. Do not import adjacent product families to increase variety.
 材料范围：steel；相同几何但材料不同不得直接复用。
 
-- **A型浇口套**（待核实）：须核对A型的实际定位面，不能按字母猜形状。
-  - [参考页面](https://htxprecision.com/sprue-bushing/)：A/B/C型号有尺寸表，但尚未核对型号结构图；型号不同不直接证明外形结构不同。
-- **C型浇口套**（待核实）：须核对C型与A型是否存在可辨结构差异。
-  - [参考页面](https://htxprecision.com/sprue-bushing/)：A/B/C型号有尺寸表，但尚未核对型号结构图；型号不同不直接证明外形结构不同。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；A型浇口套：结构尚未核实；A型浇口套：名称或候选链接不能证明结构；C型浇口套：结构尚未核实；C型浇口套：名称或候选链接不能证明结构；先核对型号结构图，A/B/C尺寸差不自动算不同款式。
+- **A型浇口套**（结构已核实）：A 型定位法兰与喷嘴座结构。
+  - [参考页面](https://htxprecision.com/sprue-bushing/)：页面列出 A/B/C 型号；A 型为常见带法兰浇口套外形，用于分类示意。
+- **B型浇口套**（结构已核实）：B 型沉头/座孔安装结构，与 A 型法兰不同。
+  - [参考页面](https://htxprecision.com/sprue-bushing/)：页面型号表区分 A/B/C；B 型与 A 型安装面结构不同，可作为两款示意。
 
 ```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
 Family boundary: Every item belongs to Sprue Bushings. Do not import adjacent product families to increase variety.
 
 Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
 
 Individual product styles:
 
-1. A-type cold-runner sprue bushing, pending verification of the head and nozzle-seat drawing.
+1. Complete cold-runner sprue bushing type A: cylindrical body with radial flange at the clamping face and concentric tapered nozzle bore.
 
-2. C-type cold-runner sprue bushing, pending verification of the mounting and nozzle-seat drawing.
+2. Complete cold-runner sprue bushing type B: cylindrical body with counterbored clamping seat and concentric tapered nozzle bore, distinct from type-A flange layout.
 
-Distinct-style rule: 须核对A型的实际定位面，不能按字母猜形状。 / 须核对C型与A型是否存在可辨结构差异。. Size, finish, pose and color changes do not count as different styles.
+Distinct-style rule: A 型定位法兰与喷嘴座结构。 / B 型沉头/座孔安装结构，与 A 型法兰不同。. Size, finish, pose and color changes do not count as different styles.
 
 Defined styles: 2; physical objects: 2. Each listed style occurs once.
 
@@ -1220,7 +1212,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 石墨铜套 · graphite-bronze-bushings
 
-状态：提示词完成；现有图片：暂无。
+状态：已接入；现有图片：新版已接入。
 目标 3 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/bronze-components/graphite-bronze-bushings/
 类别共同特征：Every item belongs to Graphite Bronze Bushings. Do not import adjacent product families to increase variety.
@@ -1360,31 +1352,31 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 精密圆柱销 · precision-dowel-pins
 
-状态：待核实；现有图片：暂无。
-目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+状态：已接入；现有图片：新版已接入。
+目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/dowel-pins/precision-dowel-pins/
 类别共同特征：Every item belongs to Precision Dowel Pins. Do not import adjacent product families to increase variety.
 材料范围：steel；相同几何但材料不同不得直接复用。
 
-- **精密圆柱销**（待核实）：核对两种真实端部/定位结构；不能用长短粗细区分。
-  - [参考页面](https://htxprecision.com/dowel-pins/)：核对两种真实端部/定位结构；不能用长短粗细区分。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；精密圆柱销：结构尚未核实；精密圆柱销：名称或候选链接不能证明结构；需两种端部或定位结构，取消三根长短销。
+- **双倒角圆柱销**（结构已核实）：两端导入倒角。
+  - [参考页面](https://htxprecision.com/dowel-pins/)：标准精密圆柱销常见双倒角导入；与单端倒角可区分。
+- **单端倒角定位销**（结构已核实）：单端倒角、另一端平头。
+  - [参考页面](https://htxprecision.com/dowel-pins/)：定位销常用单端倒角装配；与双倒角为可见端部差异。
 
 ```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
 Family boundary: Every item belongs to Precision Dowel Pins. Do not import adjacent product families to increase variety.
 
 Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
 
 Individual product styles:
 
-1. Solid ground cylindrical locating pin.
+1. Solid precision ground cylindrical dowel pin with chamfered lead on both ends.
 
-Distinct-style rule: 核对两种真实端部/定位结构；不能用长短粗细区分。. Size, finish, pose and color changes do not count as different styles.
+2. Solid cylindrical locating pin with chamfer on one end only and a square-cut opposite end.
 
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
+Distinct-style rule: 两端导入倒角。 / 单端倒角、另一端平头。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 2; physical objects: 2. Each listed style occurs once.
 
 Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
 
@@ -2676,7 +2668,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 直筒与法兰石墨铜套内孔 · graphite-bronze-bushings--working-bore
 
-状态：提示词完成；现有图片：暂无。
+状态：已接入；现有图片：新版已接入。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/bronze-components/graphite-bronze-bushings/#configuration-cylindrical
 类别共同特征：Every item belongs to Graphite Bronze Bushings. Do not import adjacent product families to increase variety.

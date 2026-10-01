@@ -28,6 +28,8 @@ async function main() {
     if (match && process.env[match[1]] === undefined) process.env[match[1]] = match[2].trim().replace(/^(['"])(.*)\1$/, '$2');
   }
   const cfg = loadConfig();
+  const modelOverride = value('--model');
+  if (modelOverride) cfg.model = modelOverride;
   if (new URL(cfg.baseUrl).origin !== 'https://api.terrakinc.com') throw new Error('Unexpected provider origin; stop before transmitting credentials.');
   if (args.includes('--check-model')) {
     const res = await fetch(`${cfg.baseUrl}/v1/models`, {headers: {Authorization: `Bearer ${cfg.token}`}, signal: AbortSignal.timeout(30_000)});

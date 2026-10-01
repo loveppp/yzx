@@ -187,6 +187,21 @@
       },
       "promptFingerprint": "d89524f6cdade86fc94250215524388740a374387b4eca2a921a77dd76dfaecb",
       "visualSignature": "919c45d035889240fbf2dbe520e89fe8621d784591032e71abe940aee2f4f6e8"
+    },
+    {
+      "id": "graphite-bronze-bushings--working-bore",
+      "productId": "graphite-bronze-bushings",
+      "configurationIds": [
+        "cylindrical"
+      ],
+      "image": "/images/products/catalog/graphite-bronze-bushings-2026-10-01T08-43-26-693Z.jpg",
+      "name": {
+        "zh": "直筒石墨铜套 / 法兰石墨铜套",
+        "en": "Cylindrical graphite bronze bushing / Flanged graphite bronze bushing",
+        "vi": "Bạc đồng graphite dạng trụ / Bạc đồng graphite có bích"
+      },
+      "promptFingerprint": "2377dfb85d88a7420d6fc3a111925ab011452c8a05a216728e5fbc802bd2edd0",
+      "visualSignature": "5bda62737a2b0bab536412fb604b658e62f6d035cf8b2d8971ae3df38f082846"
     }
   ]
 }

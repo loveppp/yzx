@@ -1,5 +1,5 @@
 ---
-import { catalogGroups, groupProducts, groupPath, catalogText } from '@/data/catalog';
+import { productCenterGroups, groupProducts, groupPath, catalogText } from '@/data/catalog';
 import { catalogUI } from '@/data/catalog-ui';
 import type { Dictionary, Locale } from '@/i18n/utils';
 import ProductMedia from './ProductMedia.astro';
@@ -23,7 +23,7 @@ const ui = catalogUI(locale);
     </div>
     <div class="mt-10 grid grid-cols-2 gap-3 md:gap-5 lg:grid-cols-4">
       {
-        catalogGroups.map((g, i) => {
+        productCenterGroups.map((g, i) => {
           const lead = groupProducts(g.id)[0];
           const stripProduct = g.coverImage ? { ...lead, image: g.coverImage } : lead;
           return (
