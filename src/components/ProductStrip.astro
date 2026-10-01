@@ -1,27 +1,56 @@
 ---
-import {catalogGroups,groupProducts,groupPath,catalogText} from '@/data/catalog';
-import {catalogUI} from '@/data/catalog-ui';
-import type {Dictionary,Locale} from '@/i18n/utils';
+import { catalogGroups, groupProducts, groupPath, catalogText } from '@/data/catalog';
+import { catalogUI } from '@/data/catalog-ui';
+import type { Dictionary, Locale } from '@/i18n/utils';
 import ProductMedia from './ProductMedia.astro';
-interface Props {locale:Locale;t:Dictionary;}
-const {locale}=Astro.props;
-const ui=catalogUI(locale);
-const supportingGroups=catalogGroups.filter(g=>g.id!=='punch-components');
-const supportingTitle=locale==='zh'?'模具配套产品':locale==='vi'?'Linh kiện khuôn bổ trợ':'Supporting mold components';
-const supportingIntro=locale==='zh'?'除冲头冲针外，提供顶出、导向、弹簧及模具辅助配件，便于按整套模具需求配套选型。':locale==='vi'?'Ngoài chày, lựa chọn linh kiện đẩy, dẫn hướng, lò xo và phụ kiện phù hợp với bộ khuôn.':'Complement your punch tooling with ejector, guide, spring and accessory families selected for the complete mold.';
+
+interface Props {
+  locale: Locale;
+  t: Dictionary;
+}
+
+const { locale, t } = Astro.props;
+const ui = catalogUI(locale);
 ---
 <section class="section-padding">
   <div class="content-wrap">
     <div class="flex flex-wrap items-end justify-between gap-5">
-      <div class="max-w-2xl"><p class="text-xs font-medium uppercase tracking-[.18em] text-slate-600">{ui.eyebrow}</p><h2 class="mt-3 text-3xl md:text-4xl">{supportingTitle}</h2><p class="mt-4 leading-relaxed text-slate-600">{supportingIntro}</p></div>
+      <div class="max-w-2xl">
+        <p class="text-xs font-medium uppercase tracking-[.18em] text-slate-600">{ui.eyebrow}</p>
+        <h2 class="mt-3 text-3xl md:text-4xl">{t.products.title}</h2>
+      </div>
       <a class="text-sm font-medium underline underline-offset-4" href={`/${locale}/products/`}>{ui.allProducts} →</a>
     </div>
     <div class="mt-10 grid grid-cols-2 gap-3 md:gap-5 lg:grid-cols-4">
-      {supportingGroups.map((g,i)=><a href={groupPath(g,locale)} class="product-visual-card group min-w-0 overflow-hidden border border-borui-navy/10 bg-white hover:border-borui-brass">
-        <ProductMedia product={groupProducts(g.id)[0]} locale={locale} />
-        <div class="p-4"><p class="text-xs text-slate-500">0{i+1} / {groupProducts(g.id).length} {ui.catalogCount}</p><h3 class="mt-2 text-base leading-snug md:text-xl">{catalogText(g.name,locale)} <span aria-hidden="true">↗</span></h3></div>
-      </a>)}
-      <a href={`/${locale}/custom-oem/`} class="flex min-h-52 flex-col justify-between bg-borui-navy p-5 text-white md:p-7"><span class="text-xs uppercase tracking-wider text-borui-brass">OEM / CUSTOM</span><div><h3 class="text-xl">{ui.customTitle}</h3><p class="mt-3 hidden text-sm leading-relaxed text-slate-300 md:block">{ui.customText}</p><span class="mt-5 inline-block text-sm text-borui-brass">{ui.drawingCta} →</span></div></a>
+      {
+        catalogGroups.map((g, i) => (
+          <a
+            href={groupPath(g, locale)}
+            class="product-visual-card group min-w-0 overflow-hidden border border-borui-navy/10 bg-white hover:border-borui-brass"
+          >
+            <ProductMedia product={groupProducts(g.id)[0]} locale={locale} />
+            <div class="p-4">
+              <p class="text-xs text-slate-500">
+                0{i + 1} / {groupProducts(g.id).length} {ui.catalogCount}
+              </p>
+              <h3 class="mt-2 text-base leading-snug md:text-xl">
+                {catalogText(g.name, locale)} <span aria-hidden="true">↗</span>
+              </h3>
+            </div>
+          </a>
+        ))
+      }
+      <a
+        href={`/${locale}/custom-oem/`}
+        class="flex min-h-52 flex-col justify-between bg-borui-navy p-5 text-white md:p-7"
+      >
+        <span class="text-xs uppercase tracking-wider text-borui-brass">OEM / CUSTOM</span>
+        <div>
+          <h3 class="text-xl">{ui.customTitle}</h3>
+          <p class="mt-3 hidden text-sm leading-relaxed text-slate-300 md:block">{ui.customText}</p>
+          <span class="mt-5 inline-block text-sm text-borui-brass">{ui.drawingCta} →</span>
+        </div>
+      </a>
     </div>
   </div>
 </section>

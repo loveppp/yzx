@@ -66,8 +66,11 @@
     }
   },
   "hero": {
+    "eyebrow": "Mold components · to your drawing",
     "title": "Precision Mold Components, Made to Your Drawing",
-    "subtitle": "Punches, ejectors, guide systems, die springs and mold accessories. Explore the right component for your tool, then send us your requirements.",
+    "subtitle": "Shenzhen — custom mold components from your drawing or sample: punch pins, punches, ejector pins, guide posts and bushings, die springs and common accessories, quoted together for one tooling package. Specs follow your drawing; send CAD, PDF, STEP or a sample to confirm material, tolerance and lead time.",
+    "homeFootnote": "Punch families shown at right; ejector, guide, spring and more below.",
+    "homeImageNote": "Punch range · custom to drawing",
     "ctaQuote": "Send Drawing for Quote",
     "ctaProducts": "View Products"
   },
@@ -278,6 +281,6 @@
   },
   "meta": {
     "homeTitle": "YZX Precision | Precision Mold Components & Custom Tooling",
-    "homeDesc": "Punches, ejectors, guide systems, die springs and mold accessories. Explore the right component for your tool, then send us your requirements."
+    "homeDesc": "Shenzhen mold components to drawing — punches, ejector, guide, springs and accessories on one inquiry. MOQ from 1 pc."
   }
 }
