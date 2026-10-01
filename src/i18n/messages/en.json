@@ -159,50 +159,51 @@
     "title": "Workshop & Inspection",
     "subtitle": "Precision machining and quality control on every batch",
     "photosTitle": "Workshop photos",
+    "photosIntro": "Additional shop-floor frames from our workshop video.",
     "realPhotoNote": "Workshop photo",
     "realPhotoAlt": "YZX Precision workshop photo",
     "pageTitle": "Our Factory",
-    "pageIntro": "Shenzhen Yuanzhixin Mold Components Co., Ltd. is based in Longgang, Shenzhen. We build custom punch pins, punches and supporting mold components to your drawing or sample.",
+    "pageIntro": "Longgang, Shenzhen — custom mold punch pins; 30+ staff with grinding, wire EDM, supporting CNC and inspection for tool shops and export buyers.",
     "registeredAddressLabel": "Registered address",
     "registeredAddress": "Room 101, No. 2 Dishan Longshan 5th Road, Xinsheng Community, Longgang Subdistrict, Longgang District, Shenzhen, China",
-    "legalRepresentativeLabel": "Legal representative",
-    "legalRepresentative": "Yang Anwen",
-    "equipmentTitle": "Equipment",
-    "inspectionTitle": "Quality Control",
-    "inspectionBody": "100% dimensional check on critical features before shipment. Optical projector, calipers, and micrometers in daily use; CMM available for high-precision orders. Inspection reports on request.",
+    "inspectionTitle": "Quality control",
+    "inspectionBody": "Our QC area uses optical projectors, digital gauges and routine metrology tools for 100% check on critical dimensions. CMM or dedicated fixtures are used when the project requires it.",
     "about": {
+      "metaDescription": "YZX Precision — ~15 years Shenzhen punch pin factory, 30+ team, custom punches, MOQ from 1 pc.",
       "eyebrow": "Shenzhen workshop · YZX Precision",
+      "lead": "YZX Precision centers on mold punch pins and punches — 15 years serving stamping and progressive die shops, with ejector, guide and spring lines for add-on sourcing.",
       "quoteCta": "Send drawing for quote",
       "scaleTitle": "At a glance",
       "stats": [
+        { "value": "15+", "label": "Years in punch pins" },
+        { "value": "30+", "label": "Team members" },
         { "value": "±0.002mm", "label": "Typical critical tolerance" },
-        { "value": "1 pc", "label": "Custom MOQ" },
-        { "value": "3–7 days", "label": "Typical sample lead time" },
-        { "value": "2 hours", "label": "Quote reply in business hours" }
+        { "value": "1 pc", "label": "Punch custom MOQ" }
       ],
-      "manufacturerTitle": "Mold components & custom manufacturing",
+      "manufacturerTitle": "Your punch pin manufacturing partner",
       "manufacturerBody": [
-        "We supply carbide, HSS and tool-steel punches and pins, plus ejector, guide and spring families for complete mold support. Send CAD, PDF, a sample or a dimension table — engineering reviews process and tolerance before we quote.",
-        "Our registered scope covers trading and production of mold accessories, hardware and plastic products, with hardware machining in our Shenzhen workshop for domestic tool shops and export customers."
+        "Custom mold punch pins and punches in carbide, HSS and tool steel — round, square, stepped and special profiles, A-type and pilot-style pins — plus ejector, guide, spring and bronze catalog lines for the same mold project.",
+        "Flow: drawing review → sample approval → batch → 100% critical check. Send CAD, PDF, STEP/DWG or a sample; we confirm material, tolerance and routing before quote."
       ],
+      "productHighlights": [
+        "Punches: carbide, HSS, stepped, special, stamping and tableting tooling",
+        "Ejection: straight, shoulder, stepped, blade pins, sleeves, air valves",
+        "Guiding: posts, bushings, sets, ball cages and bearing bushings",
+        "Accessories: die springs, gas springs, sprue bushings, dowel pins, bronze wear parts"
+      ],
+      "capabilitiesTitle": "Shop-floor capabilities",
+      "videoTitle": "Workshop video",
       "heroImageAlt": "YZX Precision workshop photo",
       "inspectionImageAlt": "Dimensional inspection area — workshop photo",
       "inspectionCaption": "Inspection area · workshop photo",
-      "trustTitle": "Why work with us",
-      "trustItems": [
-        {
-          "title": "Review before cutting",
-          "desc": "We confirm material, tolerance and routing from your drawing or sample before samples or batch production."
-        },
-        {
-          "title": "Critical dimension control",
-          "desc": "100% check on critical features; ±0.002mm typical. Note higher precision needs on the drawing for evaluation."
-        },
-        {
-          "title": "Flexible MOQ & lead time",
-          "desc": "Custom from 1 piece; samples usually ship in 3–7 working days after drawing sign-off, depending on complexity."
-        }
-      ]
+      "inspectionPoints": [
+        "Optical projectors for profile and angle checks",
+        "Calipers, micrometers and height gauges in daily use",
+        "100% check on critical dimensions before shipment; reports on request",
+        "Special tolerances and GD&T noted on your drawing — confirmed before production"
+      ],
+      "recommendedTitle": "Popular mold components",
+      "recommendedAll": "View all products"
     }
   },
   "materials": {
@@ -251,6 +252,12 @@
     "submit": "Submit Inquiry",
     "success": "Thank you — we will reply shortly.",
     "selectCategory": "Select category"
+  },
+  "quickContact": {
+    "openLabel": "Quick contact",
+    "panelLabel": "Quick contact",
+    "whatsapp": "Chat on WhatsApp",
+    "inquiry": "Send drawing for quote"
   },
   "contact": {
     "title": "Contact Us",

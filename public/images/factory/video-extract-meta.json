@@ -9,15 +9,15 @@
   "frames": [
     {
       "file": "/images/factory/punch-workshop-1.jpg",
-      "timeSec": 12.23,
-      "sharpness": 204.4,
+      "timeSec": 12.37,
+      "sharpness": 206.8,
       "width": 1280,
       "height": 720
     },
     {
       "file": "/images/factory/punch-workshop-2.jpg",
-      "timeSec": 19.43,
-      "sharpness": 91.4,
+      "timeSec": 32.27,
+      "sharpness": 181.4,
       "width": 1280,
       "height": 720
     },
@@ -30,16 +30,17 @@
     },
     {
       "file": "/images/factory/punch-workshop-4.jpg",
-      "timeSec": 48.23,
-      "sharpness": 165.1,
+      "timeSec": 56.0,
+      "sharpness": 283.0,
       "width": 1280,
       "height": 720
     }
   ],
+  "jpegQuality": 96,
   "clip": {
     "path": "/videos/factory-punch.mp4",
-    "startSec": 39.03,
-    "durationSec": 22.0,
-    "ok": true
+    "startSec": 0.0,
+    "durationSec": 0.0,
+    "ok": false
   }
 }

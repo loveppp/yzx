@@ -1,0 +1,83 @@
+---
+import { localizedPath, type Dictionary, type Locale } from '@/i18n/utils';
+
+interface Props {
+  t: Dictionary;
+  locale: Locale;
+}
+
+const { t, locale } = Astro.props;
+const contactHref = localizedPath('/contact/', locale);
+const whatsappHref = 'https://wa.me/8617788989065';
+const whatsappIcon = '/images/contact/whatsapp-icon.svg';
+---
+<div class="quick-contact-fab pointer-events-none fixed bottom-6 right-6 z-50 hidden sm:block">
+  <div class="pointer-events-auto relative">
+    <div
+      id="quick-contact-panel"
+      class="quick-contact-panel mb-3 hidden w-52 overflow-hidden rounded-lg border border-borui-navy/10 bg-white shadow-lg"
+      role="region"
+      aria-label={t.quickContact.panelLabel}
+    >
+      <a
+        class="flex items-center gap-3 border-b border-borui-navy/10 px-4 py-3 text-sm text-borui-navy transition hover:bg-borui-paper"
+        href={whatsappHref}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img src={whatsappIcon} alt="" class="h-9 w-9 shrink-0" width="36" height="36" />
+        {t.quickContact.whatsapp}
+      </a>
+      <a
+        class="flex items-center gap-3 px-4 py-3 text-sm font-medium text-borui-navy transition hover:bg-borui-paper"
+        href={contactHref}
+      >
+        <span class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-borui-brass/25 text-borui-navy" aria-hidden="true">
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+          </svg>
+        </span>
+        {t.quickContact.inquiry}
+      </a>
+    </div>
+    <button
+      type="button"
+      id="quick-contact-toggle"
+      class="block h-14 w-14 overflow-hidden rounded-full shadow-md transition hover:scale-105 hover:shadow-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#25D366]"
+      aria-expanded="false"
+      aria-controls="quick-contact-panel"
+      aria-label={t.quickContact.openLabel}
+    >
+      <img src={whatsappIcon} alt="" class="h-full w-full" width="56" height="56" />
+    </button>
+  </div>
+</div>
+
+<script>
+  const toggle = document.getElementById('quick-contact-toggle');
+  const panel = document.getElementById('quick-contact-panel');
+  if (toggle && panel) {
+    const close = () => {
+      panel.classList.add('hidden');
+      toggle.setAttribute('aria-expanded', 'false');
+    };
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const open = panel.classList.contains('hidden');
+      if (open) {
+        panel.classList.remove('hidden');
+        toggle.setAttribute('aria-expanded', 'true');
+      } else {
+        close();
+      }
+    });
+    document.addEventListener('click', (e) => {
+      if (!panel.classList.contains('hidden') && !panel.contains(e.target as Node) && e.target !== toggle) {
+        close();
+      }
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') close();
+    });
+  }
+</script>

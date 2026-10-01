@@ -159,50 +159,52 @@
     "title": "Xưởng & kiểm tra",
     "subtitle": "Gia công chính xác và kiểm soát chất lượng từng lô",
     "photosTitle": "Ảnh xưởng thực tế",
+    "photosIntro": "Thêm hình ảnh từ video xưởng thực tế.",
     "realPhotoNote": "Ảnh xưởng thực tế",
     "realPhotoAlt": "Ảnh xưởng YZX Precision",
     "pageTitle": "Nhà máy",
-    "pageIntro": "Công ty TNHH Linh kiện Khuôn Yuanzhixin Thâm Quyến tại Longgang — chày đột, chày và linh kiện khuôn theo bản vẽ hoặc mẫu.",
+    "pageIntro": "Longgang, Thâm Quyến — gia công chày đột khuôn theo bản vẽ; hơn 30 nhân sự, mài, EDM dây, CNC hỗ trợ và kiểm tra.",
     "registeredAddressLabel": "Địa chỉ đăng ký",
     "registeredAddress": "Phòng 101, số 2 đường Dishan Longshan 5, cộng đồng Xinsheng, phường Longgang, quận Longgang, Thâm Quyến, Trung Quốc",
-    "legalRepresentativeLabel": "Người đại diện pháp luật",
-    "legalRepresentative": "Yang Anwen",
-    "equipmentTitle": "Thiết bị",
     "inspectionTitle": "Kiểm soát chất lượng",
-    "inspectionBody": "Kiểm tra 100% kích thước then chốt trước khi giao. Máy chiếu, thước cặp và panme dùng hàng ngày; CMM cho đơn hàng độ chính xác cao. Báo cáo kiểm tra theo yêu cầu.",
+    "inspectionBody": "Khu QC có máy chiếu, dụng cụ số và đo lường thường ngày; kiểm tra 100% kích thước then chốt. CMM/đồ gá riêng theo từng đơn.",
     "about": {
+      "metaDescription": "YZX Precision — xưởng Longgang, chày đột và linh kiện khuôn theo bản vẽ, MOQ từ 1 chiếc.",
       "eyebrow": "Xưởng Thâm Quyến · YZX Precision",
+      "lead": "YZX Precision tập trung chày đột / chày khuôn — ~15 năm phục vụ xưởng khuôn dập, kèm linh kiện catalog.",
       "quoteCta": "Gửi bản vẽ báo giá",
       "scaleTitle": "Tổng quan",
       "stats": [
-        { "value": "±0,002mm", "label": "Dung sai then chốt thông thường" },
-        { "value": "1 chiếc", "label": "MOQ gia công theo yêu cầu" },
-        { "value": "3–7 ngày", "label": "Thời gian mẫu điển hình" },
-        { "value": "2 giờ", "label": "Phản hồi báo giá trong giờ làm" }
+        { "value": "15+", "label": "Năm chày đột" },
+        { "value": "30+", "label": "Nhân sự" },
+        { "value": "±0,002mm", "label": "Dung sai then chốt" },
+        { "value": "1 chiếc", "label": "MOQ chày đột" }
       ],
-      "manufacturerTitle": "Gia công linh kiện khuôn",
+      "manufacturerTitle": "Đối tác gia công linh kiện khuôn",
       "manufacturerBody": [
-        "Chày hợp kim, HSS và thép dụng cụ; kèm đẩy, dẫn hướng và lò xo. Gửi CAD, PDF, mẫu hoặc bảng kích thước — kỹ thuật đánh giá quy trình trước khi báo giá.",
-        "Phạm vi đăng ký kinh doanh gồm mua bán phụ kiện khuôn, kim loại và nhựa; gia công kim loại tại xưởng Thâm Quyến phục vụ khách trong nước và xuất khẩu."
+        "Chày hợp kim, HSS, chày bậc, hình đặc biệt; kim đẩy, trụ dẫn, lò xo, bạc đồng graphite và các dòng catalog đi kèm.",
+        "Làm theo bản vẽ, PDF, STEP/DWG hoặc mẫu — kỹ thuật đánh giá vật liệu và quy trình trước báo giá.",
+        "Phạm vi đăng ký: mua bán phụ kiện khuôn, kim loại, nhựa; gia công kim loại tại xưởng phục vụ nội địa và xuất khẩu."
       ],
+      "productHighlights": [
+        "Chày: carbide, HSS, bậc, dập, dập viên",
+        "Đẩy: thẳng, vai, bậc, dẹt, ống, van khí",
+        "Dẫn hướng: trụ, bạc, bộ, lồng bi",
+        "Phụ kiện: lò xo, bạc đồng, chốt định vị"
+      ],
+      "capabilitiesTitle": "Năng lực xưởng",
+      "videoTitle": "Video xưởng",
       "heroImageAlt": "Ảnh xưởng YZX Precision",
-      "inspectionImageAlt": "Khu kiểm tra kích thước — ảnh xưởng",
+      "inspectionImageAlt": "Khu kiểm tra — ảnh xưởng",
       "inspectionCaption": "Khu kiểm tra · ảnh xưởng",
-      "trustTitle": "Vì sao hợp tác với chúng tôi",
-      "trustItems": [
-        {
-          "title": "Đánh giá trước khi gia công",
-          "desc": "Xác nhận vật liệu, dung sai và lộ trình từ bản vẽ hoặc mẫu trước khi làm mẫu hoặc sản xuất hàng loạt."
-        },
-        {
-          "title": "Kiểm soát kích thước then chốt",
-          "desc": "Kiểm tra 100% trước khi giao; ±0,002mm thông thường. Ghi yêu cầu cao hơn trên bản vẽ để đánh giá."
-        },
-        {
-          "title": "MOQ & lead time linh hoạt",
-          "desc": "Gia công từ 1 chiếc; mẫu thường 3–7 ngày làm việc sau khi chốt bản vẽ, tùy độ phức tạp."
-        }
-      ]
+      "inspectionPoints": [
+        "Máy chiếu kiểm tra biên dạng",
+        "Thước cặp, panme hàng ngày",
+        "Kiểm tra 100% trước giao hàng",
+        "Dung sai đặc biệt — xác nhận trước sản xuất"
+      ],
+      "recommendedTitle": "Linh kiện phổ biến",
+      "recommendedAll": "Xem tất cả"
     }
   },
   "materials": {
@@ -251,6 +253,12 @@
     "submit": "Gửi yêu cầu",
     "success": "Cảm ơn — chúng tôi sẽ phản hồi sớm.",
     "selectCategory": "Chọn danh mục"
+  },
+  "quickContact": {
+    "openLabel": "Liên hệ nhanh",
+    "panelLabel": "Liên hệ nhanh",
+    "whatsapp": "WhatsApp",
+    "inquiry": "Gửi bản vẽ báo giá"
   },
   "contact": {
     "title": "Liên hệ",

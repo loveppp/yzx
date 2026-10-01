@@ -1,8 +1,7 @@
 ---
 import Layout from '@/layouts/Layout.astro';
 import FactoryAboutSections from '@/components/FactoryAboutSections.astro';
-import FactoryPhotoGallery from '@/components/FactoryPhotoGallery.astro';
-import { equipmentRows } from '@/data/materials';
+import FactoryRecommendedProducts from '@/components/FactoryRecommendedProducts.astro';
 import { locales, useTranslations, type Locale } from '@/i18n/utils';
 
 export function getStaticPaths() {
@@ -18,40 +17,7 @@ const title =
     : `${t.factory.pageTitle} | YZX Precision`;
 ---
 
-<Layout title={title} description={t.factory.pageIntro} path={path}>
+<Layout title={title} description={t.factory.about.metaDescription} path={path}>
   <FactoryAboutSections t={t} locale={locale} />
-  <FactoryPhotoGallery t={t} />
-
-  <section class="section-padding">
-    <div class="content-wrap">
-      <h2 class="text-2xl text-borui-navy">{t.factory.equipmentTitle}</h2>
-      <div class="mt-6 overflow-x-auto">
-        <table class="spec-table">
-          <thead>
-            <tr>
-              <th>{locale === 'zh' ? '设备' : locale === 'vi' ? 'Thiết bị' : 'Equipment'}</th>
-              <th>{locale === 'zh' ? '数量' : locale === 'vi' ? 'Số lượng' : 'Qty'}</th>
-              <th>{locale === 'zh' ? '精度' : locale === 'vi' ? 'Độ chính xác' : 'Precision'}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {
-              equipmentRows.map((row) => (
-                <tr>
-                  <td class="font-medium text-borui-navy">{locale === 'zh' ? row.name_zh : row.name_en}</td>
-                  <td>{row.qty}</td>
-                  <td>{row.precision}</td>
-                </tr>
-              ))
-            }
-          </tbody>
-        </table>
-      </div>
-
-      <div class="mt-12 max-w-2xl">
-        <h2 class="text-2xl text-borui-navy">{t.factory.inspectionTitle}</h2>
-        <p class="mt-4 text-borui-steel">{t.factory.inspectionBody}</p>
-      </div>
-    </div>
-  </section>
+  <FactoryRecommendedProducts t={t} locale={locale} />
 </Layout>

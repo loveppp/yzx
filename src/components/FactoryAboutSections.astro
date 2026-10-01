@@ -1,6 +1,7 @@
 ---
 import BrandedImage from './BrandedImage.astro';
 import { images } from '@/data/images';
+import { factoryYoutubeVideoId } from '@/lib/youtube';
 import { localizedPath, type Dictionary, type Locale } from '@/i18n/utils';
 
 interface Props {
@@ -10,24 +11,27 @@ interface Props {
 
 const { t, locale } = Astro.props;
 const a = t.factory.about;
+const workshopPhotos = images.factoryWorkshop;
+const youtubeId = factoryYoutubeVideoId();
 ---
 <section class="section-padding border-b border-borui-navy/10">
   <div class="content-wrap grid items-center gap-10 lg:grid-cols-[1.05fr_1fr]">
     <div>
       <p class="text-xs font-semibold uppercase tracking-[.14em] text-borui-brass">{a.eyebrow}</p>
       <h1 class="mt-3 text-3xl text-borui-navy md:text-4xl">{t.factory.pageTitle}</h1>
-      <p class="mt-5 text-lg leading-relaxed text-borui-steel">{t.factory.pageIntro}</p>
+      <p class="mt-5 text-lg leading-relaxed text-borui-steel">{a.lead}</p>
+      <p class="mt-4 leading-relaxed text-slate-600">{t.factory.pageIntro}</p>
       <dl class="mt-6 border-l-2 border-borui-brass pl-4 text-sm text-slate-700">
         <dt class="font-medium text-borui-navy">{t.factory.registeredAddressLabel}</dt>
         <dd class="mt-1 leading-relaxed">{t.factory.registeredAddress}</dd>
       </dl>
       <a class="btn-primary mt-8 inline-block" href={localizedPath('/contact/', locale)}>{a.quoteCta}</a>
     </div>
-    <figure class="overflow-hidden border border-borui-navy/10 bg-borui-light">
+    <figure class="overflow-hidden border border-borui-navy/10 bg-borui-light shadow-sm">
       <BrandedImage
         src={images.factoryAbout.hero}
         alt={a.heroImageAlt}
-        class="aspect-[4/3]"
+        class="aspect-video"
         width={1280}
         height={720}
         watermark={false}
@@ -56,13 +60,50 @@ const a = t.factory.about;
   </div>
 </section>
 
-<section class="section-padding border-b border-borui-navy/10">
-  <div class="content-wrap grid items-start gap-8 lg:grid-cols-[1fr_1.05fr] lg:gap-12">
-    <div>
-      <h2 class="text-2xl text-borui-navy md:text-3xl">{a.manufacturerTitle}</h2>
-      {a.manufacturerBody.map((p) => <p class="mt-4 leading-relaxed text-slate-600">{p}</p>)}
-    </div>
-    <figure class="overflow-hidden border border-borui-navy/10 bg-white">
+<section class="section-padding border-b border-borui-navy/10 bg-borui-paper">
+  <div class="content-wrap max-w-4xl">
+    <h2 class="text-2xl text-borui-navy md:text-3xl">{a.manufacturerTitle}</h2>
+    {a.manufacturerBody.map((p) => <p class="mt-5 leading-relaxed text-slate-600">{p}</p>)}
+    <ul class="mt-8 grid gap-3 sm:grid-cols-2">
+      {a.productHighlights.map((item) => (
+        <li class="flex gap-2 text-sm leading-relaxed text-slate-700">
+          <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-borui-brass" aria-hidden="true" />
+          {item}
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+<section class="section-padding border-b border-borui-navy/10 bg-borui-paper">
+  <div class="content-wrap max-w-5xl">
+    <h2 class="text-center text-2xl text-borui-navy md:text-3xl">{a.capabilitiesTitle}</h2>
+    <ul class="mt-8 grid grid-cols-2 gap-3 md:gap-4">
+      {
+        workshopPhotos.map((src) => (
+          <li class="overflow-hidden border border-borui-navy/10 bg-white">
+            <div class="aspect-video bg-borui-light">
+              <BrandedImage
+                src={src}
+                alt={t.factory.realPhotoAlt}
+                class="h-full"
+                width={1280}
+                height={720}
+                watermark={false}
+                objectFit="cover"
+              />
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+    <p class="mt-4 text-center text-xs text-slate-500">{t.factory.realPhotoNote}</p>
+  </div>
+</section>
+
+<section class="border-b border-borui-navy/10 bg-borui-navy px-5 py-10 text-white md:px-8 md:py-14">
+  <div class="content-wrap grid items-center gap-8 lg:grid-cols-2 lg:gap-10">
+    <figure class="order-2 overflow-hidden border border-white/15 lg:order-1">
       <BrandedImage
         src={images.factoryAbout.inspection}
         alt={a.inspectionImageAlt}
@@ -72,25 +113,45 @@ const a = t.factory.about;
         watermark={false}
         objectFit="cover"
       />
-      <figcaption class="border-t border-borui-navy/10 px-3 py-2 text-center text-xs text-slate-500">
+      <figcaption class="border-t border-white/15 bg-borui-navy px-3 py-2 text-center text-xs text-slate-400">
         {a.inspectionCaption}
       </figcaption>
     </figure>
+    <div class="order-1 lg:order-2">
+      <h2 class="text-2xl md:text-3xl">{t.factory.inspectionTitle}</h2>
+      <p class="mt-3 text-sm leading-relaxed text-slate-300 md:text-base">{t.factory.inspectionBody}</p>
+      <ul class="mt-4 grid gap-2 sm:grid-cols-2 sm:gap-x-4">
+        {a.inspectionPoints.map((point) => (
+          <li class="flex gap-2 text-sm leading-snug text-slate-300">
+            <span class="mt-0.5 shrink-0 text-borui-brass" aria-hidden="true">✓</span>
+            {point}
+          </li>
+        ))}
+      </ul>
+    </div>
   </div>
 </section>
 
-<section class="section-padding border-b border-borui-navy/10 bg-borui-paper">
-  <div class="content-wrap">
-    <h2 class="text-2xl text-borui-navy md:text-3xl">{a.trustTitle}</h2>
-    <ul class="mt-8 grid gap-6 md:grid-cols-3">
-      {
-        a.trustItems.map((item) => (
-          <li class="border-t-2 border-borui-brass bg-white p-6">
-            <h3 class="text-lg font-semibold text-borui-navy">{item.title}</h3>
-            <p class="mt-3 text-sm leading-relaxed text-slate-600">{item.desc}</p>
-          </li>
-        ))
-      }
-    </ul>
-  </div>
-</section>
+{
+  youtubeId && (
+    <section class="border-b border-borui-navy/10 bg-borui-paper px-5 py-10 md:px-8 md:py-12">
+      <div class="content-wrap grid items-center gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.35fr)] lg:gap-10">
+        <div>
+          <h2 class="text-2xl text-borui-navy md:text-3xl">{a.videoTitle}</h2>
+        </div>
+        <div class="overflow-hidden border border-borui-navy/10 bg-black shadow-sm">
+          <div class="aspect-video">
+            <iframe
+              class="h-full w-full"
+              src={`https://www.youtube-nocookie.com/embed/${youtubeId}?rel=0`}
+              title={a.videoTitle}
+              loading="lazy"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}

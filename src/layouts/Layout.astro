@@ -2,6 +2,7 @@
 import '@/styles/global.css';
 import Nav from '@/components/Nav.astro';
 import Footer from '@/components/Footer.astro';
+import QuickContactFab from '@/components/QuickContactFab.astro';
 import SeoHead from '@/components/SeoHead.astro';
 import { getHtmlLang, getLocaleFromUrl, getTextDirection, useTranslations } from '@/i18n/utils';
 
@@ -29,6 +30,7 @@ const currentPath = path ?? Astro.url.pathname;
       <slot />
     </main>
     <Footer locale={locale} t={t} />
+    <QuickContactFab t={t} locale={locale} />
 
     <a
       href={quoteHref ?? `/${locale}/contact/`}

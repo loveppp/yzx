@@ -48,10 +48,3 @@ export const treatmentRows = [
     effect_zh: '芯部硬度按材质规范',
   },
 ];
-
-export const equipmentRows = [
-  { name_en: 'Wire EDM (slow)', name_zh: '慢走丝线切割', qty: '[待填]', precision: '±0.002mm' },
-  { name_en: 'CNC machining center', name_zh: 'CNC 加工中心', qty: '[待填]', precision: '—' },
-  { name_en: 'Surface / cylindrical grinder', name_zh: '平面磨 / 外圆磨', qty: '[待填]', precision: '—' },
-  { name_en: 'CMM / optical projector', name_zh: '三次元 / 投影仪', qty: '[待填]', precision: '100% inspection' },
-];

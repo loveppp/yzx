@@ -1,0 +1,51 @@
+---
+import { catalogText, productById, productPath } from '@/data/catalog';
+import ProductMedia from './ProductMedia.astro';
+import { localizedPath, type Dictionary, type Locale } from '@/i18n/utils';
+
+interface Props {
+  t: Dictionary;
+  locale: Locale;
+}
+
+const { t, locale } = Astro.props;
+const ids = [
+  'carbide-punches',
+  'stepped-punches',
+  'straight-ejector-pins',
+  'guide-posts',
+  'rectangular-die-springs',
+  'graphite-bronze-bushings',
+] as const;
+const title = t.factory.about.recommendedTitle;
+---
+<section class="section-padding border-t border-borui-navy/10 bg-white">
+  <div class="content-wrap">
+    <div class="flex flex-wrap items-end justify-between gap-4">
+      <h2 class="text-2xl text-borui-navy md:text-3xl">{title}</h2>
+      <a class="text-sm font-medium underline underline-offset-4" href={localizedPath('/products/', locale)}>
+        {t.factory.about.recommendedAll} →
+      </a>
+    </div>
+    <ul class="mt-8 grid grid-cols-2 gap-3 md:grid-cols-3 md:gap-5 lg:grid-cols-6">
+      {
+        ids.map((id) => {
+          const product = productById(id)!;
+          return (
+            <li>
+              <a
+                href={productPath(product, locale)}
+                class="product-visual-card flex h-full flex-col overflow-hidden border border-borui-navy/10 bg-white hover:border-borui-brass"
+              >
+                <ProductMedia product={product} locale={locale} />
+                <p class="flex flex-1 items-center p-3 text-sm leading-snug text-borui-navy">
+                  {catalogText(product.name, locale)}
+                </p>
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</section>
