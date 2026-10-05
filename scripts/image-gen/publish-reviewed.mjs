@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {loadCurrentImagePlan, assertGenerationJob, prepareProductImagePlan} from '../product-image-plan.mjs';
+import {readWatermarkSvg, watermarkImageBytes} from '../watermark/lib.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const [relativeDir, mode] = process.argv.slice(2);
 if (!relativeDir || mode !== '--direct') throw new Error('Provide a candidate directory and --direct; original files are published without processing.');
@@ -50,7 +51,12 @@ for (const target of targets) {
 }
 const dest = path.join(root,'public',publicPath);
 await fs.mkdir(path.dirname(dest),{recursive:true});
-await fs.writeFile(dest,bytes,{flag:'wx'});
+const watermarkSvgBytes = await readWatermarkSvg(root);
+const watermarked = await watermarkImageBytes(bytes, watermarkSvgBytes);
+const backupPath = path.join(root,'output/watermark-backups',publicPath.replace(/^\//,''));
+await fs.mkdir(path.dirname(backupPath),{recursive:true});
+await fs.writeFile(backupPath,bytes);
+await fs.writeFile(dest,watermarked,{flag:'wx'});
 const atomicWrite = async (file,text) => {const temporary=file+`.${process.pid}.tmp`;await fs.writeFile(temporary,text);await fs.rename(temporary,file);};
 try {
   await atomicWrite(catalogPath,JSON.stringify(catalog,null,2)+'\n');
@@ -61,4 +67,4 @@ try {
   throw error;
 }
 prepareProductImagePlan(catalog);
-console.log(JSON.stringify({id:job.id,publishedJobIds:targets.map(j=>j.id),image:publicPath,bytes:bytes.length,processing:'none'}));
+console.log(JSON.stringify({id:job.id,publishedJobIds:targets.map(j=>j.id),image:publicPath,bytes:watermarked.length,processing:'watermark'}));

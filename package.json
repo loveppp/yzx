@@ -13,7 +13,8 @@
     "astro": "astro",
     "image-gen": "bash scripts/image-gen/run.sh",
     "image-gen:help": "npm run image-gen -- 帮助",
-    "catalog:check": "bash -lc 'source scripts/use-node20.sh && node scripts/check-catalog.mjs'"
+    "catalog:check": "bash -lc 'source scripts/use-node20.sh && node scripts/check-catalog.mjs'",
+    "images:watermark": "bash -lc 'source scripts/use-node20.sh && node scripts/watermark-images.mjs'"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
@@ -29,6 +30,7 @@
   "devDependencies": {
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "sharp": "^0.34.4",
     "tsx": "^4.19.3"
   }
 }
