@@ -1,194 +1,6 @@
 {
   "assets": [
     {
-      "id": "carbide-punches--type-a",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "type-a"
-      ],
-      "image": "/images/products/details/carbide-punches--type-a-2026-09-30T08-12-02-312Z.jpg",
-      "name": {
-        "zh": "A型圆杆台阶冲针 / A型削边台阶冲针",
-        "en": "Plain-shank stepped round punch / Stepped round punch with locating flat",
-        "vi": "Chày bậc thân tròn / Chày bậc có mặt phẳng định vị"
-      },
-      "promptFingerprint": "fb4635cdc0bc5b097a9f39203bbfdbff58310ceeab56728eaf21602d63411bfb",
-      "visualSignature": "2ba7d007724cde6b2689247560c251cbea2c39afaf426a7fcfa6a2380c5e6d8e"
-    },
-    {
-      "id": "carbide-punches--profiles",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "profile"
-      ],
-      "image": "/images/products/details/carbide-punches--profiles-2026-09-30T08-44-43-136Z.jpg",
-      "name": {
-        "zh": "方形工作端冲头 / 矩形工作端冲头",
-        "en": "Square working end / Rectangular working end",
-        "vi": "Đầu làm việc vuông / Đầu làm việc chữ nhật"
-      },
-      "promptFingerprint": "16a79adde11ccc17398f0b37afc2aa9dab26a9e34adacad85edf51e264f95d4c",
-      "visualSignature": "80daced88521986ae8fc4a935d1f7b9cf61040ec8198c62d510b3c32a593ed2d"
-    },
-    {
-      "id": "carbide-punches--stepped",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "stepped"
-      ],
-      "image": "/images/products/details/carbide-punches--type-a-2026-09-30T08-12-02-312Z.jpg",
-      "name": {
-        "zh": "A型圆杆台阶冲针 / A型削边台阶冲针",
-        "en": "Plain-shank stepped round punch / Stepped round punch with locating flat",
-        "vi": "Chày bậc thân tròn / Chày bậc có mặt phẳng định vị"
-      },
-      "promptFingerprint": "7c6d202b46bca4a84568a572082c58f1c5ff5fb0cfefb16a675961798323a543",
-      "visualSignature": "2ba7d007724cde6b2689247560c251cbea2c39afaf426a7fcfa6a2380c5e6d8e"
-    },
-    {
-      "id": "carbide-punches--cutoff",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "cutting"
-      ],
-      "image": "/images/products/details/carbide-punches--cutoff-2026-09-30T05-25-09-322Z.jpg",
-      "name": {
-        "zh": "切断冲头工作端",
-        "en": "Cut-off and precision piercing",
-        "vi": "Cắt đứt và đột chính xác"
-      }
-    },
-    {
-      "id": "carbide-punches--type-t",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "type-t"
-      ],
-      "image": "/images/products/details/carbide-punches--type-t-2026-09-30T06-11-08-393Z.jpg",
-      "name": {
-        "zh": "T 型单肩冲针系列",
-        "en": "Type T single-shoulder punch",
-        "vi": "Chày một vai loại T"
-      }
-    },
-    {
-      "id": "carbide-punches--hexagonal",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "hexagonal"
-      ],
-      "image": "/images/products/details/carbide-punches--hexagonal-2026-09-30T05-46-20-619Z.jpg",
-      "name": {
-        "zh": "六角冲头 · 六边形工作端",
-        "en": "Hexagonal punch",
-        "vi": "Chày lục giác"
-      }
-    },
-    {
-      "id": "carbide-punches--oval-obround",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "oval"
-      ],
-      "image": "/images/products/details/carbide-punches--oval-obround-2026-09-30T05-47-30-293Z.jpg",
-      "name": {
-        "zh": "椭圆与长圆 · 两种工作轮廓",
-        "en": "Oval and obround punches",
-        "vi": "Chày oval và đầu dài bo tròn"
-      }
-    },
-    {
-      "id": "carbide-punches--coated",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "coated"
-      ],
-      "image": "/images/products/details/carbide-punches--coated-2026-09-30T08-13-36-546Z.jpg",
-      "name": {
-        "zh": "方形工作端冲头 / 六角工作端冲头",
-        "en": "Square working end / Hexagonal working end",
-        "vi": "Đầu làm việc vuông / Đầu làm việc lục giác"
-      },
-      "promptFingerprint": "06354314b09073f87bc7116dc7bfe4c53f038d8f1c277009d37fe12a009035cc",
-      "visualSignature": "7f6503d1b7d5cda26e6c63d7822e33dba26c178065afc8db1fcf8d8bbf6205c8"
-    },
-    {
-      "id": "forming-punches--polygon",
-      "productId": "forming-punches",
-      "configurationIds": [
-        "polygon"
-      ],
-      "image": "/images/products/details/forming-punches--polygon-2026-09-30T08-09-12-644Z.jpg",
-      "name": {
-        "zh": "方形工作端冲头 / 六角工作端冲头",
-        "en": "Square working end / Hexagonal working end",
-        "vi": "Đầu làm việc vuông / Đầu làm việc lục giác"
-      },
-      "promptFingerprint": "a5db42851ccf838895a94aebac4b6b2255f8bbded94611849b68383586fd1a5b",
-      "visualSignature": "271d7b393b6934d7fa5abe126e3d3479e8ce6d1f247fb12158b0de834a940034"
-    },
-    {
-      "id": "hss-punches--square-rectangle",
-      "productId": "hss-punches",
-      "configurationIds": [
-        "square",
-        "flat"
-      ],
-      "image": "/images/products/details/hss-punches--square-rectangle-2026-09-30T08-48-00-707Z.jpg",
-      "name": {
-        "zh": "方形工作端冲头 / 矩形工作端冲头",
-        "en": "Square working end / Rectangular working end",
-        "vi": "Đầu làm việc vuông / Đầu làm việc chữ nhật"
-      },
-      "promptFingerprint": "74dc63ac7e793418a56b5fb784965cc6df91e24276ac867a6546d9db5385317d",
-      "visualSignature": "805932707a86fff00d0041b3a2985eabde04c9a261ed80a1ac8d711925efac7f"
-    },
-    {
-      "id": "hss-punches--stepped",
-      "productId": "hss-punches",
-      "configurationIds": [
-        "stepped"
-      ],
-      "image": "/images/products/details/hss-punches--stepped-2026-09-30T08-50-07-306Z.jpg",
-      "name": {
-        "zh": "A型圆杆台阶冲针 / A型削边台阶冲针",
-        "en": "Plain-shank stepped round punch / Stepped round punch with locating flat",
-        "vi": "Chày bậc thân tròn / Chày bậc có mặt phẳng định vị"
-      },
-      "promptFingerprint": "1b25dae0d9e9d6deaad1a4084a8194958f608290700fd51b98b9c9c162dbbd52",
-      "visualSignature": "96ca8d73fe48879de9818910446548fa2652740a829ee74758713d4b9c2b395b"
-    },
-    {
-      "id": "hss-punches--special",
-      "productId": "hss-punches",
-      "configurationIds": [
-        "profile"
-      ],
-      "image": "/images/products/details/hss-punches--special-2026-09-30T10-14-06-844Z.jpg",
-      "name": {
-        "zh": "六角工作端冲头 / 八角工作端冲头",
-        "en": "Hexagonal working end / Octagonal working end",
-        "vi": "Đầu làm việc lục giác / Đầu làm việc bát giác"
-      },
-      "promptFingerprint": "c88128d70838c4be041fdffb501c903310c21c2e0454bc41ae12e1238c7b1f85",
-      "visualSignature": "d03ae335fe73a974bedfc5f3800a2c2fcb1ae805d20748d74c9fd5e26d1ee6fa"
-    },
-    {
-      "id": "stepped-punches--special",
-      "productId": "stepped-punches",
-      "configurationIds": [
-        "custom"
-      ],
-      "image": "/images/products/details/stepped-punches--special-2026-09-30T10-16-55-307Z.jpg",
-      "name": {
-        "zh": "台阶六角工作端冲头 / 台阶长圆工作端冲头",
-        "en": "Stepped punch with hexagonal working end / Stepped punch with obround working end",
-        "vi": "Chày bậc: đầu làm việc lục giác / Chày bậc: đầu làm việc dạng thuôn"
-      },
-      "promptFingerprint": "d89524f6cdade86fc94250215524388740a374387b4eca2a921a77dd76dfaecb",
-      "visualSignature": "919c45d035889240fbf2dbe520e89fe8621d784591032e71abe940aee2f4f6e8"
-    },
-    {
       "id": "graphite-bronze-bushings--working-bore",
       "productId": "graphite-bronze-bushings",
       "configurationIds": [
@@ -202,6 +14,422 @@
       },
       "promptFingerprint": "2377dfb85d88a7420d6fc3a111925ab011452c8a05a216728e5fbc802bd2edd0",
       "visualSignature": "5bda62737a2b0bab536412fb604b658e62f6d035cf8b2d8971ae3df38f082846"
+    },
+    {
+      "id": "carbide-punches--type-a",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "type-a"
+      ],
+      "image": "/images/products/details/carbide-punches--type-a-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "A 型圆柱直身冲针",
+        "en": "A 型圆柱直身冲针",
+        "vi": "A 型圆柱直身冲针"
+      }
+    },
+    {
+      "id": "carbide-punches--type-t",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "type-t"
+      ],
+      "image": "/images/products/details/carbide-punches--type-t-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "T 型圆柱直身冲针",
+        "en": "T 型圆柱直身冲针",
+        "vi": "T 型圆柱直身冲针"
+      }
+    },
+    {
+      "id": "carbide-punches--profile",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "profile"
+      ],
+      "image": "/images/products/details/carbide-punches--profile-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "定制异形直身冲针",
+        "en": "定制异形直身冲针",
+        "vi": "定制异形直身冲针"
+      }
+    },
+    {
+      "id": "carbide-punches--cutting",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "cutting"
+      ],
+      "image": "/images/products/details/carbide-punches--cutting-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "切断冲头",
+        "en": "切断冲头",
+        "vi": "切断冲头"
+      }
+    },
+    {
+      "id": "carbide-punches--precision",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "precision"
+      ],
+      "image": "/images/products/details/carbide-punches--precision-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "精密冲头",
+        "en": "精密冲头",
+        "vi": "精密冲头"
+      }
+    },
+    {
+      "id": "carbide-punches--hexagonal",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "hexagonal"
+      ],
+      "image": "/images/products/details/carbide-punches--hexagonal-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "六角冲头",
+        "en": "六角冲头",
+        "vi": "六角冲头"
+      }
+    },
+    {
+      "id": "carbide-punches--pilot",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "pilot"
+      ],
+      "image": "/images/products/details/carbide-punches--pilot-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "引导冲头 / 导正冲",
+        "en": "引导冲头 / 导正冲",
+        "vi": "引导冲头 / 导正冲"
+      }
+    },
+    {
+      "id": "carbide-punches--oval",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "oval"
+      ],
+      "image": "/images/products/details/carbide-punches--oval-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "椭圆冲头",
+        "en": "椭圆冲头",
+        "vi": "椭圆冲头"
+      }
+    },
+    {
+      "id": "hss-punches--ejector",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "ejector"
+      ],
+      "image": "/images/products/details/hss-punches--ejector-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "带退料 HSS 冲头",
+        "en": "带退料 HSS 冲头",
+        "vi": "带退料 HSS 冲头"
+      }
+    },
+    {
+      "id": "hss-punches--flat",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "flat"
+      ],
+      "image": "/images/products/details/hss-punches--flat-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "扁形 HSS 冲头",
+        "en": "扁形 HSS 冲头",
+        "vi": "扁形 HSS 冲头"
+      }
+    },
+    {
+      "id": "hss-punches--square",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "square"
+      ],
+      "image": "/images/products/details/hss-punches--square-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "方形 HSS 冲头",
+        "en": "方形 HSS 冲头",
+        "vi": "方形 HSS 冲头"
+      }
+    },
+    {
+      "id": "hss-punches--rectangular",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "rectangular"
+      ],
+      "image": "/images/products/details/hss-punches--rectangular-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "矩形 HSS 冲头",
+        "en": "矩形 HSS 冲头",
+        "vi": "矩形 HSS 冲头"
+      }
+    },
+    {
+      "id": "hss-punches--step",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "step"
+      ],
+      "image": "/images/products/details/hss-punches--step-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "台阶 HSS 冲头",
+        "en": "台阶 HSS 冲头",
+        "vi": "台阶 HSS 冲头"
+      }
+    },
+    {
+      "id": "hss-punches--special-shaped",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "special-shaped"
+      ],
+      "image": "/images/products/details/hss-punches--special-shaped-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "异形 HSS 冲头",
+        "en": "异形 HSS 冲头",
+        "vi": "异形 HSS 冲头"
+      }
+    },
+    {
+      "id": "hss-punches--round",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "round"
+      ],
+      "image": "/images/products/details/hss-punches--round-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "圆形 HSS 冲头",
+        "en": "圆形 HSS 冲头",
+        "vi": "圆形 HSS 冲头"
+      }
+    },
+    {
+      "id": "hss-punches--guide",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "guide"
+      ],
+      "image": "/images/products/details/hss-punches--guide-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "引导 HSS 冲头",
+        "en": "引导 HSS 冲头",
+        "vi": "引导 HSS 冲头"
+      }
+    },
+    {
+      "id": "stepped-punches--special-shaped",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "special-shaped"
+      ],
+      "image": "/images/products/details/stepped-punches--special-shaped-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "异形台阶冲头",
+        "en": "异形台阶冲头",
+        "vi": "异形台阶冲头"
+      }
+    },
+    {
+      "id": "stepped-punches--stepped-round",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "stepped-round"
+      ],
+      "image": "/images/products/details/stepped-punches--stepped-round-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "台阶圆冲",
+        "en": "台阶圆冲",
+        "vi": "台阶圆冲"
+      }
+    },
+    {
+      "id": "stepped-punches--stepped-square",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "stepped-square"
+      ],
+      "image": "/images/products/details/stepped-punches--stepped-square-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "台阶方冲",
+        "en": "台阶方冲",
+        "vi": "台阶方冲"
+      }
+    },
+    {
+      "id": "stepped-punches--multi-diameter",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "multi-diameter"
+      ],
+      "image": "/images/products/details/stepped-punches--multi-diameter-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "多级缩径台阶冲头",
+        "en": "多级缩径台阶冲头",
+        "vi": "多级缩径台阶冲头"
+      }
+    },
+    {
+      "id": "stepped-punches--custom-shaped",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "custom-shaped"
+      ],
+      "image": "/images/products/details/stepped-punches--custom-shaped-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "来图定制台阶冲头",
+        "en": "来图定制台阶冲头",
+        "vi": "来图定制台阶冲头"
+      }
+    },
+    {
+      "id": "stamping-die-punches--custom-stamping",
+      "productId": "stamping-die-punches",
+      "configurationIds": [
+        "custom-stamping"
+      ],
+      "image": "/images/products/details/stamping-die-punches--custom-stamping-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "定制冲压模冲头",
+        "en": "定制冲压模冲头",
+        "vi": "定制冲压模冲头"
+      }
+    },
+    {
+      "id": "stamping-die-punches--materials",
+      "productId": "stamping-die-punches",
+      "configurationIds": [
+        "materials"
+      ],
+      "image": "/images/products/details/stamping-die-punches--materials-2026-10-07T13-17-57-118Z.jpg",
+      "name": {
+        "zh": "冲压模冲头材料",
+        "en": "冲压模冲头材料",
+        "vi": "冲压模冲头材料"
+      }
+    },
+    {
+      "id": "stamping-die-punches--manufacturer-range",
+      "productId": "stamping-die-punches",
+      "configurationIds": [
+        "manufacturer-range"
+      ],
+      "image": "/images/products/details/stamping-die-punches--manufacturer-range-2026-10-07T13-17-57-118Z.png",
+      "name": {
+        "zh": "冲压模冲头系列",
+        "en": "冲压模冲头系列",
+        "vi": "冲压模冲头系列"
+      }
+    },
+    {
+      "id": "tableting-punches--tablet-shapes",
+      "productId": "tableting-punches",
+      "configurationIds": [
+        "tablet-shapes"
+      ],
+      "image": "/images/products/details/tableting-punches--tablet-shapes-2026-10-07T13-17-57-118Z.png",
+      "name": {
+        "zh": "定制片形与冲模轮廓",
+        "en": "定制片形与冲模轮廓",
+        "vi": "定制片形与冲模轮廓"
+      }
+    },
+    {
+      "id": "tableting-punches--engraved",
+      "productId": "tableting-punches",
+      "configurationIds": [
+        "engraved"
+      ],
+      "image": "/images/products/details/tableting-punches--engraved-2026-10-07T13-17-57-118Z.png",
+      "name": {
+        "zh": "刻字与标识冲模",
+        "en": "刻字与标识冲模",
+        "vi": "刻字与标识冲模"
+      }
+    },
+    {
+      "id": "tableting-punches--multi-tip",
+      "productId": "tableting-punches",
+      "configurationIds": [
+        "multi-tip"
+      ],
+      "image": "/images/products/details/tableting-punches--multi-tip-2026-10-07T13-17-57-118Z.png",
+      "name": {
+        "zh": "多冲尖压片工装",
+        "en": "多冲尖压片工装",
+        "vi": "多冲尖压片工装"
+      }
+    },
+    {
+      "id": "tableting-punches--press-specific",
+      "productId": "tableting-punches",
+      "configurationIds": [
+        "press-specific"
+      ],
+      "image": "/images/products/details/tableting-punches--press-specific-2026-10-07T13-17-57-118Z.png",
+      "name": {
+        "zh": "压机专用定制工装",
+        "en": "压机专用定制工装",
+        "vi": "压机专用定制工装"
+      }
+    },
+    {
+      "id": "tungsten-carbide-punches--straight",
+      "productId": "tungsten-carbide-punches",
+      "configurationIds": [
+        "straight"
+      ],
+      "image": "/images/products/details/tungsten-carbide-punches--straight-2026-10-07T13-17-57-118Z.png",
+      "name": {
+        "zh": "直身钨钢冲头",
+        "en": "直身钨钢冲头",
+        "vi": "直身钨钢冲头"
+      }
+    },
+    {
+      "id": "tungsten-carbide-punches--step",
+      "productId": "tungsten-carbide-punches",
+      "configurationIds": [
+        "step"
+      ],
+      "image": "/images/products/details/tungsten-carbide-punches--step-2026-10-07T13-17-57-118Z.png",
+      "name": {
+        "zh": "台阶钨钢冲头",
+        "en": "台阶钨钢冲头",
+        "vi": "台阶钨钢冲头"
+      }
+    },
+    {
+      "id": "tungsten-carbide-punches--precision",
+      "productId": "tungsten-carbide-punches",
+      "configurationIds": [
+        "precision"
+      ],
+      "image": "/images/products/details/tungsten-carbide-punches--precision-2026-10-07T13-17-57-118Z.png",
+      "name": {
+        "zh": "精密钨钢冲头",
+        "en": "精密钨钢冲头",
+        "vi": "精密钨钢冲头"
+      }
+    },
+    {
+      "id": "tungsten-carbide-punches--coated",
+      "productId": "tungsten-carbide-punches",
+      "configurationIds": [
+        "coated"
+      ],
+      "image": "/images/products/details/tungsten-carbide-punches--coated-2026-10-07T13-17-57-118Z.png",
+      "name": {
+        "zh": "涂层冲头系列",
+        "en": "涂层冲头系列",
+        "vi": "涂层冲头系列"
+      }
     }
   ]
 }

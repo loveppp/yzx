@@ -846,7 +846,7 @@
       }
     },
     {
-      "id": "forming-punches",
+      "id": "tungsten-carbide-punches",
       "composition": "series",
       "targetVariantCount": 10,
       "variantCount": 10,
@@ -1079,74 +1079,6 @@
         "zh": "约10款成型冲头（多种轮廓与结构）",
         "en": "About 10 distinct punches in this family (mixed profiles and shanks)",
         "vi": "Khoảng 10 chày trong cùng dòng (nhiều biên dạng và thân)"
-      }
-    },
-    {
-      "id": "a-type-punches",
-      "composition": "series",
-      "targetVariantCount": 3,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item is a Type-A stepped punch with a reduced working section; a straight Type-T shank is excluded.",
-      "structuralVariants": [
-        {
-          "id": "a-round",
-          "nameZh": "A型圆杆台阶冲针",
-          "geometryEn": "A complete headed stepped round punch: a cylindrical support shank reduces through a short shoulder transition to a smaller round working section. Round retaining head, flat circular working face. Plain round support surface.",
-          "differenceZh": "支撑杆为完整圆柱面；与削边款区别在杆身定位面。",
-          "structuralKey": "a-round",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://www.htx99.com/czctj/axcz.html",
-              "evidenceZh": "已查看详情实物图：圆形头部、圆杆、缩径圆工作段、短肩部过渡；不以两支的尺寸区别作为款式。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://www.htx99.com/UploadFiles/FCK/2018-11/%E5%BF%AB%E7%85%A7%2011(1).jpg"
-            }
-          ],
-          "name": {
-            "zh": "A型圆杆台阶冲针",
-            "en": "Plain-shank stepped round punch",
-            "vi": "Chày bậc thân tròn"
-          }
-        },
-        {
-          "id": "a-flat",
-          "nameZh": "A型削边台阶冲针",
-          "geometryEn": "A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.",
-          "differenceZh": "支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。",
-          "structuralKey": "a-flat",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://www.htx99.com/czctj/axxbczct.html",
-              "evidenceZh": "已查看原图：缩径圆工作段、较粗支撑杆上有清楚的纵向削平面、短肩部、底端圆形头部。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://www.htx99.com/UploadFiles/Others/10.jpg"
-            }
-          ],
-          "name": {
-            "zh": "A型削边台阶冲针",
-            "en": "Stepped round punch with locating flat",
-            "vi": "Chày bậc có mặt phẳng định vị"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "A型圆杆台阶冲针；A型削边台阶冲针。每款各一件/套，差异见逐件清单。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
-      "caption": {
-        "zh": "A型圆杆台阶冲针 / A型削边台阶冲针",
-        "en": "Plain-shank stepped round punch / Stepped round punch with locating flat",
-        "vi": "Chày bậc thân tròn / Chày bậc có mặt phẳng định vị"
       }
     },
     {
@@ -1992,293 +1924,6 @@
       "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
     },
     {
-      "id": "sprue-bushings",
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Sprue Bushings. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "sprue-a",
-          "nameZh": "A型浇口套",
-          "geometryEn": "Complete cold-runner sprue bushing type A: cylindrical body with radial flange at the clamping face and concentric tapered nozzle bore.",
-          "differenceZh": "A 型定位法兰与喷嘴座结构。",
-          "structuralKey": "sprue-a",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/sprue-bushing/",
-              "evidenceZh": "页面列出 A/B/C 型号；A 型为常见带法兰浇口套外形，用于分类示意。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-10-01"
-            }
-          ],
-          "name": {
-            "zh": "A型浇口套",
-            "en": "Type-A sprue bushing",
-            "vi": "Bạc cuống A"
-          }
-        },
-        {
-          "id": "sprue-b",
-          "nameZh": "B型浇口套",
-          "geometryEn": "Complete cold-runner sprue bushing type B: cylindrical body with counterbored clamping seat and concentric tapered nozzle bore, distinct from type-A flange layout.",
-          "differenceZh": "B 型沉头/座孔安装结构，与 A 型法兰不同。",
-          "structuralKey": "sprue-b",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/sprue-bushing/",
-              "evidenceZh": "页面型号表区分 A/B/C；B 型与 A 型安装面结构不同，可作为两款示意。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-10-01"
-            }
-          ],
-          "name": {
-            "zh": "B型浇口套",
-            "en": "Type-B sprue bushing",
-            "vi": "Bạc cuống B"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "A型浇口套；C型浇口套。待补充：先核对型号结构图，A/B/C尺寸差不自动算不同款式。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
-      "caption": {
-        "zh": "A 型浇口套 / B 型浇口套",
-        "en": "Type-A sprue bushing / Type-B sprue bushing",
-        "vi": "Bạc cuống loại A / loại B"
-      }
-    },
-    {
-      "id": "locating-rings",
-      "composition": "series",
-      "targetVariantCount": 3,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Locating Rings. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "locating-ring",
-          "nameZh": "定位圈",
-          "geometryEn": "Open annular mold locating ring.",
-          "differenceZh": "核对平面型与台阶型定位圈的真实产品出处和定位面。",
-          "structuralKey": "locating-ring",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/",
-              "evidenceZh": "核对平面型与台阶型定位圈的真实产品出处和定位面。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需两种定位面结构来源。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "定位圈。待补充：需两种定位面结构来源。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "mold-date-stamps",
-      "composition": "series",
-      "targetVariantCount": 3,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Mold Date Stamps. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "date-stamp",
-          "nameZh": "模具日期章",
-          "geometryEn": "Mold date insert with an adjustable marking face.",
-          "differenceZh": "核对整体式与可换芯式；不能用年份/月数字不同当不同结构。",
-          "structuralKey": "date-stamp",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/",
-              "evidenceZh": "核对整体式与可换芯式；不能用年份/月数字不同当不同结构。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需两种调整/换芯结构来源，年份和字体不算款式。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "模具日期章。待补充：需两种调整/换芯结构来源，年份和字体不算款式。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "side-locks",
-      "composition": "matched-set",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 4,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Side Locks & Interlocks. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "lock-straight-set",
-          "nameZh": "直面侧锁套装",
-          "geometryEn": "One matching male/female side-lock pair; tongue and recess need a geometry reference.",
-          "differenceZh": "两套必须在配合或安装结构上不同，内部的配对零件不算不同款式。",
-          "structuralKey": "lock-straight-set",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/",
-              "evidenceZh": "核对两种完整配对结构；公块和母块不算两种产品款式。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "members": [
-            {
-              "nameZh": "公块",
-              "quantity": 1
-            },
-            {
-              "nameZh": "母块",
-              "quantity": 1
-            }
-          ]
-        },
-        {
-          "id": "lock-taper-set",
-          "nameZh": "锥面侧锁套装",
-          "geometryEn": "One matching tapered male/female side-lock pair; taper and retention need a geometry reference.",
-          "differenceZh": "两套必须在配合或安装结构上不同，内部的配对零件不算不同款式。",
-          "structuralKey": "lock-taper-set",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/",
-              "evidenceZh": "核对两种完整配对结构；公块和母块不算两种产品款式。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "members": [
-            {
-              "nameZh": "公块",
-              "quantity": 1
-            },
-            {
-              "nameZh": "母块",
-              "quantity": 1
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "两组公母配对均需结构来源。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "直面侧锁套装；锥面侧锁套装。待补充：两组公母配对均需结构来源。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Two distinct matched sets in separate groups; no shared mating components between sets. Show all working and mating faces.",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "stopper-bolts",
-      "composition": "series",
-      "targetVariantCount": 3,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Stopper Bolts. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "stopper",
-          "nameZh": "限位螺栓",
-          "geometryEn": "Shouldered mold stop bolt with a smooth locating section and threaded end.",
-          "differenceZh": "核对两种头部或限位连接结构；不能只改螺纹长度。",
-          "structuralKey": "stopper",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/",
-              "evidenceZh": "核对两种头部或限位连接结构；不能只改螺纹长度。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需两种不同限位连接结构。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "限位螺栓。待补充：需两种不同限位连接结构。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "pull-rods",
-      "composition": "series",
-      "targetVariantCount": 3,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Pull Rods. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "pull-rod",
-          "nameZh": "模具拉杆",
-          "geometryEn": "Straight mold pull rod with defined end connections.",
-          "differenceZh": "核对螺纹连接与肩部连接具体外形，不能自行发明机构。",
-          "structuralKey": "pull-rod",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/",
-              "evidenceZh": "核对螺纹连接与肩部连接具体外形，不能自行发明机构。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需两种已核实连接端结构。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "模具拉杆。待补充：需两种已核实连接端结构。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
       "id": "graphite-bronze-bushings",
       "composition": "series",
       "targetVariantCount": 3,
@@ -2573,80 +2218,6 @@
       "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
       "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
       "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "pilot-pins",
-      "composition": "series",
-      "targetVariantCount": 3,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Pilot Pins. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "pilot",
-          "nameZh": "导正销",
-          "geometryEn": "A pilot pin with a supported lead-in nose and cylindrical locating region.",
-          "differenceZh": "现有尖端示意不充分，需确认圆导入与削边导入的真实轮廓。",
-          "structuralKey": "pilot",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "现有尖端示意不充分，需确认圆导入与削边导入的真实轮廓。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需两种实际导入轮廓，不能任意添加削边。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "导正销。待补充：需两种实际导入轮廓，不能任意添加削边。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "floating-pins",
-      "composition": "series",
-      "targetVariantCount": 3,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Floating & Lifter Pins. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "float",
-          "nameZh": "浮升销",
-          "geometryEn": "A stock-supporting lifter pin, exterior only.",
-          "differenceZh": "核对两种承料面/导向结构；不显示未核实的内置弹簧。",
-          "structuralKey": "float",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://www.htx99.com/dlfll/fsx.html",
-              "evidenceZh": "核对两种承料面/导向结构；不显示未核实的内置弹簧。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需两种承料头/导向结构，不能用尺寸变化代替。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "浮升销。待补充：需两种承料头/导向结构，不能用尺寸变化代替。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
     }
   ],
   "categoryComposites": [
@@ -2656,8 +2227,8 @@
         "carbide-punches",
         "hss-punches",
         "stepped-punches",
-        "forming-punches",
-        "a-type-punches",
+        "stamping-die-punches",
+        "tungsten-carbide-punches",
         "tableting-punches"
       ],
       "descriptionZh": "使用所列系列的新版完整多款产品图进行卡片拼排，保留对应名称与链接；不从图中抠出单件、不额外生成零件。",
@@ -2703,20 +2274,6 @@
       "readinessPolicy": "Use only current-revision published sources with matching captions; blocked until source jobs are published. No new generated parts."
     },
     {
-      "group": "plastic-mold-components",
-      "sourceProductIds": [
-        "sprue-bushings",
-        "locating-rings",
-        "mold-date-stamps",
-        "side-locks",
-        "stopper-bolts",
-        "pull-rods"
-      ],
-      "descriptionZh": "使用所列系列的新版完整多款产品图进行卡片拼排，保留对应名称与链接；不从图中抠出单件、不额外生成零件。",
-      "method": "layout-existing-complete-assets",
-      "readinessPolicy": "Use only current-revision published sources with matching captions; blocked until source jobs are published. No new generated parts."
-    },
-    {
       "group": "bronze-components",
       "sourceProductIds": [
         "graphite-bronze-bushings",
@@ -2732,9 +2289,7 @@
       "group": "dowel-pins",
       "sourceProductIds": [
         "precision-dowel-pins",
-        "threaded-dowel-pins",
-        "pilot-pins",
-        "floating-pins"
+        "threaded-dowel-pins"
       ],
       "descriptionZh": "使用所列系列的新版完整多款产品图进行卡片拼排，保留对应名称与链接；不从图中抠出单件、不额外生成零件。",
       "method": "layout-existing-complete-assets",
@@ -2746,13 +2301,13 @@
       "carbide-punches",
       "hss-punches",
       "stepped-punches",
-      "a-type-punches"
+      "tungsten-carbide-punches"
     ],
     "descriptionZh": "首页以冲头冲针四个主力系列的新版完整图片为主，桌面拼排、手机两列；配套类别保留独立入口，不在主图混入无关产品。",
     "readinessPolicy": "Use current-revision published punch-family tiles first; companion families only where relevant. Preserve complete silhouettes on mobile. No extra generation."
   },
   "sampleOrder": [
-    "a-type-punches",
+    "carbide-punches--type-a",
     "carbide-punches--type-t"
   ]
 }

@@ -1,0 +1,450 @@
+{
+  "version": 2,
+  "updatedAt": "2026-10-07T12:48:33.777Z",
+  "entries": [
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-42-Custom-Carbide-Punch-Pin-Supplier.png",
+      "productId": "carbide-punches",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【硬质合金冲头（钨钢） · 品类主图】HTX 品类页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-02-Straight-Punch-Cylindrical-Type-A.jpg",
+      "productId": "carbide-punches",
+      "role": "detail",
+      "detailAssetId": "carbide-punches--type-a",
+      "configurationIds": [
+        "type-a"
+      ],
+      "variantNameZh": "A 型圆柱直身冲针",
+      "descriptionZh": "【硬质合金冲头（钨钢） · A 型圆柱直身冲针】HTX 分类图。详情锚点 #configuration-type-a。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-03-Straight-Punch-Cylindrical-Type-T.jpg",
+      "productId": "carbide-punches",
+      "role": "detail",
+      "detailAssetId": "carbide-punches--type-t",
+      "configurationIds": [
+        "type-t"
+      ],
+      "variantNameZh": "T 型圆柱直身冲针",
+      "descriptionZh": "【硬质合金冲头（钨钢） · T 型圆柱直身冲针】HTX 分类图。详情锚点 #configuration-type-t。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-04-Custom-shaped-Punches.jpg",
+      "productId": "carbide-punches",
+      "role": "detail",
+      "detailAssetId": "carbide-punches--profile",
+      "configurationIds": [
+        "profile"
+      ],
+      "variantNameZh": "定制异形直身冲针",
+      "descriptionZh": "【硬质合金冲头（钨钢） · 定制异形直身冲针】HTX 分类图。详情锚点 #configuration-profile。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-05-Cutting-Punch.jpg",
+      "productId": "carbide-punches",
+      "role": "detail",
+      "detailAssetId": "carbide-punches--cutting",
+      "configurationIds": [
+        "cutting"
+      ],
+      "variantNameZh": "切断冲头",
+      "descriptionZh": "【硬质合金冲头（钨钢） · 切断冲头】HTX 分类图。详情锚点 #configuration-cutting。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-06-Precision-Punch.jpg",
+      "productId": "carbide-punches",
+      "role": "detail",
+      "detailAssetId": "carbide-punches--precision",
+      "configurationIds": [
+        "precision"
+      ],
+      "variantNameZh": "精密冲头",
+      "descriptionZh": "【硬质合金冲头（钨钢） · 精密冲头】HTX 分类图。详情锚点 #configuration-precision。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-07-Hexagonal-Punch.jpg",
+      "productId": "carbide-punches",
+      "role": "detail",
+      "detailAssetId": "carbide-punches--hexagonal",
+      "configurationIds": [
+        "hexagonal"
+      ],
+      "variantNameZh": "六角冲头",
+      "descriptionZh": "【硬质合金冲头（钨钢） · 六角冲头】HTX 分类图。详情锚点 #configuration-hexagonal。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-08-Pilot-Punch.jpg",
+      "productId": "carbide-punches",
+      "role": "detail",
+      "detailAssetId": "carbide-punches--pilot",
+      "configurationIds": [
+        "pilot"
+      ],
+      "variantNameZh": "引导冲头 / 导正冲",
+      "descriptionZh": "【硬质合金冲头（钨钢） · 引导冲头 / 导正冲】HTX 分类图。详情锚点 #configuration-pilot。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-09-Oval-Punch.jpg",
+      "productId": "carbide-punches",
+      "role": "detail",
+      "detailAssetId": "carbide-punches--oval",
+      "configurationIds": [
+        "oval"
+      ],
+      "variantNameZh": "椭圆冲头",
+      "descriptionZh": "【硬质合金冲头（钨钢） · 椭圆冲头】HTX 分类图。详情锚点 #configuration-oval。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/hss-punches/source-25-HSS-Punch-Manufacturer.png",
+      "productId": "hss-punches",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【高速钢冲头 · 品类主图】HTX 品类页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/hss-punches/source-02-1-Ejector-punch.jpg",
+      "productId": "hss-punches",
+      "role": "detail",
+      "detailAssetId": "hss-punches--ejector",
+      "configurationIds": [
+        "ejector"
+      ],
+      "variantNameZh": "带退料 HSS 冲头",
+      "descriptionZh": "【高速钢冲头 · 带退料 HSS 冲头】HTX 分类图。详情锚点 #configuration-ejector。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/hss-punches/source-03-2-Flat-punch.jpg",
+      "productId": "hss-punches",
+      "role": "detail",
+      "detailAssetId": "hss-punches--flat",
+      "configurationIds": [
+        "flat"
+      ],
+      "variantNameZh": "扁形 HSS 冲头",
+      "descriptionZh": "【高速钢冲头 · 扁形 HSS 冲头】HTX 分类图。详情锚点 #configuration-flat。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/hss-punches/source-04-3-Square-punch.jpg",
+      "productId": "hss-punches",
+      "role": "detail",
+      "detailAssetId": "hss-punches--square",
+      "configurationIds": [
+        "square"
+      ],
+      "variantNameZh": "方形 HSS 冲头",
+      "descriptionZh": "【高速钢冲头 · 方形 HSS 冲头】HTX 分类图。详情锚点 #configuration-square。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/hss-punches/source-05-4-Rectangular-punch.jpg",
+      "productId": "hss-punches",
+      "role": "detail",
+      "detailAssetId": "hss-punches--rectangular",
+      "configurationIds": [
+        "rectangular"
+      ],
+      "variantNameZh": "矩形 HSS 冲头",
+      "descriptionZh": "【高速钢冲头 · 矩形 HSS 冲头】HTX 分类图。详情锚点 #configuration-rectangular。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/hss-punches/source-06-5-Step-punch.jpg",
+      "productId": "hss-punches",
+      "role": "detail",
+      "detailAssetId": "hss-punches--step",
+      "configurationIds": [
+        "step"
+      ],
+      "variantNameZh": "台阶 HSS 冲头",
+      "descriptionZh": "【高速钢冲头 · 台阶 HSS 冲头】HTX 分类图。详情锚点 #configuration-step。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/hss-punches/source-07-6-Special-shaped-punch.jpg",
+      "productId": "hss-punches",
+      "role": "detail",
+      "detailAssetId": "hss-punches--special-shaped",
+      "configurationIds": [
+        "special-shaped"
+      ],
+      "variantNameZh": "异形 HSS 冲头",
+      "descriptionZh": "【高速钢冲头 · 异形 HSS 冲头】HTX 分类图。详情锚点 #configuration-special-shaped。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/hss-punches/source-08-7-Round-punch.jpg",
+      "productId": "hss-punches",
+      "role": "detail",
+      "detailAssetId": "hss-punches--round",
+      "configurationIds": [
+        "round"
+      ],
+      "variantNameZh": "圆形 HSS 冲头",
+      "descriptionZh": "【高速钢冲头 · 圆形 HSS 冲头】HTX 分类图。详情锚点 #configuration-round。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/hss-punches/source-09-8-Guide-punch.jpg",
+      "productId": "hss-punches",
+      "role": "detail",
+      "detailAssetId": "hss-punches--guide",
+      "configurationIds": [
+        "guide"
+      ],
+      "variantNameZh": "引导 HSS 冲头",
+      "descriptionZh": "【高速钢冲头 · 引导 HSS 冲头】HTX 分类图。详情锚点 #configuration-guide。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/stepped-punches/source-25-Stepped-Punch-Supplier.png",
+      "productId": "stepped-punches",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【台阶与多级冲头 · 品类主图】HTX 品类页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/stepped-punches/source-03-1-Special-shaped-punches.jpg",
+      "productId": "stepped-punches",
+      "role": "detail",
+      "detailAssetId": "stepped-punches--special-shaped",
+      "configurationIds": [
+        "special-shaped"
+      ],
+      "variantNameZh": "异形台阶冲头",
+      "descriptionZh": "【台阶与多级冲头 · 异形台阶冲头】HTX 分类图。详情锚点 #configuration-special-shaped。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/stepped-punches/source-04-2-Stepped-round-punches.jpg",
+      "productId": "stepped-punches",
+      "role": "detail",
+      "detailAssetId": "stepped-punches--stepped-round",
+      "configurationIds": [
+        "stepped-round"
+      ],
+      "variantNameZh": "台阶圆冲",
+      "descriptionZh": "【台阶与多级冲头 · 台阶圆冲】HTX 分类图。详情锚点 #configuration-stepped-round。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/stepped-punches/source-05-3-Stepped-square-punches.jpg",
+      "productId": "stepped-punches",
+      "role": "detail",
+      "detailAssetId": "stepped-punches--stepped-square",
+      "configurationIds": [
+        "stepped-square"
+      ],
+      "variantNameZh": "台阶方冲",
+      "descriptionZh": "【台阶与多级冲头 · 台阶方冲】HTX 分类图。详情锚点 #configuration-stepped-square。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/stepped-punches/source-06-4-Multi-diameter-step-punches.jpg",
+      "productId": "stepped-punches",
+      "role": "detail",
+      "detailAssetId": "stepped-punches--multi-diameter",
+      "configurationIds": [
+        "multi-diameter"
+      ],
+      "variantNameZh": "多级缩径台阶冲头",
+      "descriptionZh": "【台阶与多级冲头 · 多级缩径台阶冲头】HTX 分类图。详情锚点 #configuration-multi-diameter。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/stepped-punches/source-07-5-Custom-shaped-stepped-punches.jpg",
+      "productId": "stepped-punches",
+      "role": "detail",
+      "detailAssetId": "stepped-punches--custom-shaped",
+      "configurationIds": [
+        "custom-shaped"
+      ],
+      "variantNameZh": "来图定制台阶冲头",
+      "descriptionZh": "【台阶与多级冲头 · 来图定制台阶冲头】HTX 分类图。详情锚点 #configuration-custom-shaped。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/stamping-die-punches/source-14-Stamping-Die-Punches-Manufacturer.png",
+      "productId": "stamping-die-punches",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【冲压模冲头 · 品类主图】HTX 品类页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/stamping-die-punches/source-06-Custom-Stamping-Die-Punches-1.jpg",
+      "productId": "stamping-die-punches",
+      "role": "detail",
+      "detailAssetId": "stamping-die-punches--custom-stamping",
+      "configurationIds": [
+        "custom-stamping"
+      ],
+      "variantNameZh": "定制冲压模冲头",
+      "descriptionZh": "【冲压模冲头 · 定制冲压模冲头】HTX 分类图。详情锚点 #configuration-custom-stamping。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/stamping-die-punches/source-07-Materials-for-Stamping-Die-Punches.jpg",
+      "productId": "stamping-die-punches",
+      "role": "detail",
+      "detailAssetId": "stamping-die-punches--materials",
+      "configurationIds": [
+        "materials"
+      ],
+      "variantNameZh": "冲压模冲头材料",
+      "descriptionZh": "【冲压模冲头 · 冲压模冲头材料】HTX 分类图。详情锚点 #configuration-materials。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/stamping-die-punches/source-14-Stamping-Die-Punches-Manufacturer.png",
+      "productId": "stamping-die-punches",
+      "role": "detail",
+      "detailAssetId": "stamping-die-punches--manufacturer-range",
+      "configurationIds": [
+        "manufacturer-range"
+      ],
+      "variantNameZh": "冲压模冲头系列",
+      "descriptionZh": "【冲压模冲头 · 冲压模冲头系列】HTX 分类图。详情锚点 #configuration-manufacturer-range。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/tableting-punches/source-22-Custom-Dies-and-Punches-for-Tableting-Manufacturer-1.png",
+      "productId": "tableting-punches",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【压片冲模 · 品类主图】HTX 品类页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/tableting-punches/source-03-1-Standard-Punches-and-Dies.png",
+      "productId": "tableting-punches",
+      "role": "detail",
+      "detailAssetId": "tableting-punches--tablet-shapes",
+      "configurationIds": [
+        "tablet-shapes"
+      ],
+      "variantNameZh": "定制片形与冲模轮廓",
+      "descriptionZh": "【压片冲模 · 定制片形与冲模轮廓】HTX 分类图。详情锚点 #configuration-tablet-shapes。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/tableting-punches/source-04-2-Specialty-Punches-and-Dies.png",
+      "productId": "tableting-punches",
+      "role": "detail",
+      "detailAssetId": "tableting-punches--engraved",
+      "configurationIds": [
+        "engraved"
+      ],
+      "variantNameZh": "刻字与标识冲模",
+      "descriptionZh": "【压片冲模 · 刻字与标识冲模】HTX 分类图。详情锚点 #configuration-engraved。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/tableting-punches/source-05-3-Multi-tip-Punches-and-Dies.png",
+      "productId": "tableting-punches",
+      "role": "detail",
+      "detailAssetId": "tableting-punches--multi-tip",
+      "configurationIds": [
+        "multi-tip"
+      ],
+      "variantNameZh": "多冲尖压片工装",
+      "descriptionZh": "【压片冲模 · 多冲尖压片工装】HTX 分类图。详情锚点 #configuration-multi-tip。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/tableting-punches/source-06-Press-Specific-Custom-Tooling.png",
+      "productId": "tableting-punches",
+      "role": "detail",
+      "detailAssetId": "tableting-punches--press-specific",
+      "configurationIds": [
+        "press-specific"
+      ],
+      "variantNameZh": "压机专用定制工装",
+      "descriptionZh": "【压片冲模 · 压机专用定制工装】HTX 分类图。详情锚点 #configuration-press-specific。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/forming-punches/source-06-Tungsten-Carbide-Punch-Manufacturer-1.png",
+      "productId": "tungsten-carbide-punches",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【钨钢冲头 · 品类主图】HTX 品类页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-27-1-Straight-Punch.png",
+      "productId": "tungsten-carbide-punches",
+      "role": "detail",
+      "detailAssetId": "tungsten-carbide-punches--straight",
+      "configurationIds": [
+        "straight"
+      ],
+      "variantNameZh": "直身钨钢冲头",
+      "descriptionZh": "【钨钢冲头 · 直身钨钢冲头】HTX 分类图。详情锚点 #configuration-straight。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-28-2-Step-punch.png",
+      "productId": "tungsten-carbide-punches",
+      "role": "detail",
+      "detailAssetId": "tungsten-carbide-punches--step",
+      "configurationIds": [
+        "step"
+      ],
+      "variantNameZh": "台阶钨钢冲头",
+      "descriptionZh": "【钨钢冲头 · 台阶钨钢冲头】HTX 分类图。详情锚点 #configuration-step。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-29-3-Precision-punch.png",
+      "productId": "tungsten-carbide-punches",
+      "role": "detail",
+      "detailAssetId": "tungsten-carbide-punches--precision",
+      "configurationIds": [
+        "precision"
+      ],
+      "variantNameZh": "精密钨钢冲头",
+      "descriptionZh": "【钨钢冲头 · 精密钨钢冲头】HTX 分类图。详情锚点 #configuration-precision。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-30-4-Coated-Punch-Series.png",
+      "productId": "tungsten-carbide-punches",
+      "role": "detail",
+      "detailAssetId": "tungsten-carbide-punches--coated",
+      "configurationIds": [
+        "coated"
+      ],
+      "variantNameZh": "涂层冲头系列",
+      "descriptionZh": "【钨钢冲头 · 涂层冲头系列】HTX 分类图。详情锚点 #configuration-coated。",
+      "status": "selected"
+    }
+  ]
+}

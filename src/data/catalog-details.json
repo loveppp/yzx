@@ -9,9 +9,9 @@
       {
         "id": "type-a",
         "name": {
-          "zh": "A 型台阶冲针",
-          "en": "Type A stepped punch",
-          "vi": "Chày bậc loại A"
+          "en": "Straight punch (cylindrical) Type A",
+          "zh": "A 型圆柱直身冲针",
+          "vi": "Chày thân trụ loại A"
         },
         "description": {
           "zh": "较粗支撑杆过渡到较细的圆形工作段，保留明确的缩径台阶。可按安装要求选择圆杆或带定位削边的款式；肩部与削边位置按图纸确认。",
@@ -27,9 +27,9 @@
       {
         "id": "type-t",
         "name": {
-          "zh": "T 型单肩冲针",
-          "en": "Type T single-shoulder punch",
-          "vi": "Chày một vai loại T"
+          "en": "Straight punch (cylindrical) Type T",
+          "zh": "T 型圆柱直身冲针",
+          "vi": "Chày thân trụ loại T"
         },
         "description": {
           "zh": "正常比例的安装头与直身杆部形成一个肩位；杆部至圆形工作端不再缩径。头径、头厚、杆径和长度按安装图纸确认。",
@@ -43,29 +43,11 @@
         }
       },
       {
-        "id": "stepped",
-        "name": {
-          "zh": "台阶与镶合金结构",
-          "en": "Stepped and carbide-tipped designs",
-          "vi": "Kết cấu bậc và gắn đầu carbide"
-        },
-        "description": {
-          "zh": "缩径工作端由较粗杆部支撑；镶合金方案需明确连接与受力结构。",
-          "en": "A larger shank supports the reduced tip; tipped designs require an agreed joint and load path.",
-          "vi": "Thân lớn đỡ đầu nhỏ; kết cấu gắn đầu cần xác định mối nối và đường truyền lực."
-        },
-        "parameters": {
-          "zh": "各段直径、长度、圆角与连接形式",
-          "en": "Section diameters, lengths, radii and joint design",
-          "vi": "Đường kính, chiều dài từng đoạn, bán kính và mối nối"
-        }
-      },
-      {
         "id": "profile",
         "name": {
-          "zh": "方形、矩形与定制异形",
-          "en": "Square, rectangular and custom profiles",
-          "vi": "Biên dạng vuông, chữ nhật và tùy chỉnh"
+          "en": "Custom special shaped straight punches",
+          "zh": "定制异形直身冲针",
+          "vi": "Chày thẳng biên dạng tùy chỉnh"
         },
         "description": {
           "zh": "按目标孔型定义刃口，非圆形工作端同时需要防转定位。",
@@ -79,10 +61,46 @@
         }
       },
       {
+        "id": "cutting",
+        "name": {
+          "en": "Cutting punch",
+          "zh": "切断冲头",
+          "vi": "Chày cắt"
+        },
+        "description": {
+          "zh": "切断刃与精密小孔分别按受力和尺寸要求定义，不把“精密”当成固定公差承诺。",
+          "en": "Define cut-off edges and precision piercing by load and dimensional requirements; precision is not a fixed tolerance claim.",
+          "vi": "Xác định lưỡi cắt và đột lỗ theo lực và kích thước; độ chính xác không phải cam kết dung sai cố định."
+        },
+        "parameters": {
+          "zh": "料厚、材料、间隙、关键公差",
+          "en": "Stock thickness, material, clearance and critical tolerances",
+          "vi": "Chiều dày phôi, vật liệu, khe hở và dung sai chính"
+        }
+      },
+      {
+        "id": "precision",
+        "name": {
+          "en": "Precision punch",
+          "zh": "精密冲头",
+          "vi": "Chày chính xác"
+        },
+        "description": {
+          "zh": "与 HTX 产品分类「Precision punch」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Precision punch”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Precision punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+        },
+        "parameters": {
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
+        }
+      },
+      {
         "id": "hexagonal",
         "name": {
-          "zh": "六角冲头",
           "en": "Hexagonal punch",
+          "zh": "六角冲头",
           "vi": "Chày lục giác"
         },
         "description": {
@@ -97,11 +115,29 @@
         }
       },
       {
+        "id": "pilot",
+        "name": {
+          "en": "Guide / pilot punch",
+          "zh": "引导冲头 / 导正冲",
+          "vi": "Chày dẫn / chày pilot"
+        },
+        "description": {
+          "zh": "与 HTX 产品分类「Guide / pilot punch」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Guide / pilot punch”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Guide / pilot punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+        },
+        "parameters": {
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
+        }
+      },
+      {
         "id": "oval",
         "name": {
-          "zh": "椭圆与长圆冲头",
-          "en": "Oval and obround punches",
-          "vi": "Chày oval và đầu dài bo tròn"
+          "en": "Oval punch",
+          "zh": "椭圆冲头",
+          "vi": "Chày oval"
         },
         "description": {
           "zh": "椭圆与直边加半圆的长圆不是同一轮廓，需用图纸明确。",
@@ -112,42 +148,6 @@
           "zh": "长短轴或槽宽、端部半径与方向",
           "en": "Axes or slot width, end radius and orientation",
           "vi": "Trục dài/ngắn hoặc rộng rãnh, bán kính đầu và hướng"
-        }
-      },
-      {
-        "id": "cutting",
-        "name": {
-          "zh": "切断与精密冲裁",
-          "en": "Cut-off and precision piercing",
-          "vi": "Cắt đứt và đột chính xác"
-        },
-        "description": {
-          "zh": "切断刃与精密小孔分别按受力和尺寸要求定义，不把“精密”当成固定公差承诺。",
-          "en": "Define cut-off edges and precision piercing by load and dimensional requirements; precision is not a fixed tolerance claim.",
-          "vi": "Xác định lưỡi cắt và đột lỗ theo lực và kích thước; độ chính xác không phải cam kết dung sai cố định."
-        },
-        "parameters": {
-          "zh": "料厚、材料、间隙、关键公差",
-          "en": "Stock thickness, material, clearance and critical tolerances",
-          "vi": "Chiều dày phôi, vật liệu, khe hở và dung sai chính"
-        }
-      },
-      {
-        "id": "coated",
-        "name": {
-          "zh": "涂层与耐磨方案",
-          "en": "Coating and wear options",
-          "vi": "Lớp phủ và chống mài mòn"
-        },
-        "description": {
-          "zh": "不同工作端和安装结构可分别评估适用的表面处理。涂层牌号与耐磨方案以文字和规格确认，不以图片颜色判断；选型需结合合金基体、被冲材料、刃口及重磨要求。",
-          "en": "Surface treatments are evaluated for each working profile and mounting design. Confirm coating grades and wear solutions in the specification, not by image color; selection depends on the carbide substrate, work material, cutting edge and regrinding requirements.",
-          "vi": "Đánh giá xử lý bề mặt cho từng biên dạng và kết cấu lắp. Xác nhận loại lớp phủ bằng thông số, không qua màu ảnh; lựa chọn theo nền hợp kim, vật liệu gia công, lưỡi cắt và yêu cầu mài lại."
-        },
-        "parameters": {
-          "zh": "合金牌号、涂层、成品尺寸与重磨要求",
-          "en": "Carbide grade, coating, finished size and regrinding",
-          "vi": "Mác carbide, lớp phủ, kích thước hoàn thiện và mài lại"
         }
       }
     ]
@@ -160,29 +160,29 @@
     },
     "variants": [
       {
-        "id": "round",
+        "id": "ejector",
         "name": {
-          "zh": "圆形与 T 型圆冲",
-          "en": "Round and T-head punches",
-          "vi": "Chày tròn và mũ T"
+          "en": "Ejector HSS punch",
+          "zh": "带退料 HSS 冲头",
+          "vi": "Chày HSS có đẩy phế"
         },
         "description": {
-          "zh": "圆孔冲裁可配不同安装头；圆形工作端不自动代表某一种 T 型标准。",
-          "en": "Round-hole piercing with alternative heads; a round tip alone does not establish a T-type standard.",
-          "vi": "Đột lỗ tròn với nhiều kiểu mũ; đầu tròn không tự xác định tiêu chuẩn loại T."
+          "zh": "与 HTX 产品分类「Ejector HSS punch」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Ejector HSS punch”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Ejector HSS punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "刃径、刃长、头型",
-          "en": "Tip diameter, cutting length and head style",
-          "vi": "Đường kính đầu, chiều dài cắt, kiểu mũ"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
         "id": "flat",
         "name": {
-          "zh": "扁形与矩形冲头",
-          "en": "Flat and rectangular punches",
-          "vi": "Chày dẹt và chữ nhật"
+          "en": "Flat HSS punch",
+          "zh": "扁形 HSS 冲头",
+          "vi": "Chày HSS dẹt"
         },
         "description": {
           "zh": "窄槽与矩形孔需兼顾薄刃支撑、长边直线度和安装方向。",
@@ -198,9 +198,9 @@
       {
         "id": "square",
         "name": {
-          "zh": "方形冲头",
-          "en": "Square punches",
-          "vi": "Chày vuông"
+          "en": "Square HSS punch",
+          "zh": "方形 HSS 冲头",
+          "vi": "Chày HSS vuông"
         },
         "description": {
           "zh": "四边刃口用于方孔；角部半径需与凹模和产品要求匹配。",
@@ -214,57 +214,93 @@
         }
       },
       {
-        "id": "stepped",
+        "id": "rectangular",
         "name": {
-          "zh": "台阶高速钢冲头",
-          "en": "Stepped HSS punches",
+          "en": "Rectangular HSS punch",
+          "zh": "矩形 HSS 冲头",
+          "vi": "Chày HSS chữ nhật"
+        },
+        "description": {
+          "zh": "与 HTX 产品分类「Rectangular HSS punch」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Rectangular HSS punch”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Rectangular HSS punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+        },
+        "parameters": {
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
+        }
+      },
+      {
+        "id": "step",
+        "name": {
+          "en": "Step HSS punch",
+          "zh": "台阶 HSS 冲头",
           "vi": "Chày HSS bậc"
         },
         "description": {
-          "zh": "粗杆支撑细工作端，可采用单级或多级缩径；台阶不等于一次冲出多种孔径。",
-          "en": "A larger body supports a reduced tip with one or more steps; steps do not imply piercing several hole diameters at once.",
-          "vi": "Thân lớn đỡ đầu nhỏ với một hoặc nhiều bậc; không có nghĩa đột nhiều đường kính một lần."
+          "zh": "与 HTX 产品分类「Step HSS punch」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Step HSS punch”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Step HSS punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "台阶长度、同轴度、过渡圆角",
-          "en": "Step lengths, coaxiality and transition radii",
-          "vi": "Chiều dài bậc, độ đồng trục, bán kính chuyển tiếp"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
-        "id": "profile",
+        "id": "special-shaped",
         "name": {
-          "zh": "六角与特殊轮廓",
-          "en": "Hexagonal and special profiles",
-          "vi": "Lục giác và biên dạng đặc biệt"
+          "en": "Special-shaped HSS punch",
+          "zh": "异形 HSS 冲头",
+          "vi": "Chày HSS biên dạng đặc biệt"
         },
         "description": {
-          "zh": "按零件孔型加工工作端，复杂轮廓需提供方向基准和角部要求。",
-          "en": "Custom tips follow the part outline, with orientation datums and specified corner details.",
-          "vi": "Đầu tùy chỉnh theo biên dạng chi tiết, chuẩn hướng và yêu cầu góc."
+          "zh": "与 HTX 产品分类「Special-shaped HSS punch」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Special-shaped HSS punch”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Special-shaped HSS punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "二维轮廓、工作长度、关键公差",
-          "en": "2D profile, working length and critical tolerances",
-          "vi": "Biên dạng 2D, chiều dài làm việc và dung sai chính"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
-        "id": "ejecting",
+        "id": "round",
         "name": {
-          "zh": "带退料结构的冲头",
-          "en": "Punches with scrap-ejection features",
-          "vi": "Chày có cơ cấu đẩy phế"
+          "en": "Round HSS punch",
+          "zh": "圆形 HSS 冲头",
+          "vi": "Chày HSS tròn"
         },
         "description": {
-          "zh": "需要退料时单独确认内部孔道或顶料机构，避免把普通模具顶针混入冲裁系列。",
-          "en": "Where scrap ejection is needed, specify the internal bore or ejecting mechanism as part of the punch.",
-          "vi": "Khi cần đẩy phế, xác định lỗ trong hoặc cơ cấu đẩy của chày."
+          "zh": "圆孔冲裁可配不同安装头；圆形工作端不自动代表某一种 T 型标准。",
+          "en": "Round-hole piercing with alternative heads; a round tip alone does not establish a T-type standard.",
+          "vi": "Đột lỗ tròn với nhiều kiểu mũ; đầu tròn không tự xác định tiêu chuẩn loại T."
         },
         "parameters": {
-          "zh": "退料行程、孔道、装配空间",
-          "en": "Ejection travel, bore and assembly space",
-          "vi": "Hành trình đẩy, lỗ và không gian lắp"
+          "zh": "刃径、刃长、头型",
+          "en": "Tip diameter, cutting length and head style",
+          "vi": "Đường kính đầu, chiều dài cắt, kiểu mũ"
+        }
+      },
+      {
+        "id": "guide",
+        "name": {
+          "en": "Guide HSS punch",
+          "zh": "引导 HSS 冲头",
+          "vi": "Chày HSS dẫn hướng"
+        },
+        "description": {
+          "zh": "与 HTX 产品分类「Guide HSS punch」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Guide HSS punch”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Guide HSS punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+        },
+        "parameters": {
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       }
     ]
@@ -277,93 +313,93 @@
     },
     "variants": [
       {
-        "id": "single",
+        "id": "special-shaped",
         "name": {
-          "zh": "单台阶圆冲",
-          "en": "Single-step round punch",
-          "vi": "Chày tròn một bậc"
+          "en": "Special-shaped stepped punches",
+          "zh": "异形台阶冲头",
+          "vi": "Chày bậc biên dạng đặc biệt"
         },
         "description": {
-          "zh": "细刃口与粗支撑杆通过肩部过渡，用于小孔冲裁结构。",
-          "en": "A shoulder joins a small cutting tip to a larger supporting shank.",
-          "vi": "Vai nối đầu cắt nhỏ với thân đỡ lớn."
+          "zh": "与 HTX 产品分类「Special-shaped stepped punches」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Special-shaped stepped punches”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Special-shaped stepped punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "刃径、杆径、缩径长度、圆角",
-          "en": "Tip and shank diameters, reduced length and radius",
-          "vi": "Đường kính đầu/thân, chiều dài thu nhỏ và bán kính"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
-        "id": "multiple",
+        "id": "stepped-round",
         "name": {
-          "zh": "多级缩径冲头",
-          "en": "Multi-step punch",
-          "vi": "Chày nhiều bậc"
+          "en": "Stepped round punches",
+          "zh": "台阶圆冲",
+          "vi": "Chày bậc tròn"
         },
         "description": {
-          "zh": "多个同轴直径段适配不同板位与支撑位置，每个肩位单独标注。",
-          "en": "Multiple coaxial sections suit different plate and support positions; dimension every shoulder.",
-          "vi": "Các đoạn đồng trục khớp vị trí tấm và điểm đỡ; ghi kích thước từng vai."
+          "zh": "与 HTX 产品分类「Stepped round punches」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Stepped round punches”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Stepped round punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "各段 D/L、肩距、同轴度",
-          "en": "Each section D/L, shoulder spacing and coaxiality",
-          "vi": "D/L từng đoạn, khoảng vai và độ đồng trục"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
-        "id": "square",
+        "id": "stepped-square",
         "name": {
+          "en": "Stepped square punches",
           "zh": "台阶方冲",
-          "en": "Stepped square punch",
-          "vi": "Chày vuông có bậc"
+          "vi": "Chày bậc vuông"
         },
         "description": {
-          "zh": "圆杆过渡到方形工作端，兼顾轮廓方向和根部支撑。",
-          "en": "A round shank transitions to a square tip with controlled orientation and root support.",
-          "vi": "Thân tròn chuyển sang đầu vuông, kiểm soát hướng và đỡ chân."
+          "zh": "与 HTX 产品分类「Stepped square punches」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Stepped square punches”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Stepped square punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "方边、方段长度、防转平面",
-          "en": "Square size, square-section length and anti-rotation flat",
-          "vi": "Cạnh vuông, chiều dài đoạn vuông và mặt chống xoay"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
-        "id": "custom",
+        "id": "multi-diameter",
         "name": {
-          "zh": "台阶异形与开槽冲头",
-          "en": "Stepped profile and slot punches",
-          "vi": "Chày bậc biên dạng và rãnh"
+          "en": "Multi-diameter step punches",
+          "zh": "多级缩径台阶冲头",
+          "vi": "Chày bậc nhiều đường kính"
         },
         "description": {
-          "zh": "六角、长圆或特殊孔型使用独立轮廓图，不能以缩径尺寸代替刃口定义。",
-          "en": "Hexagonal, obround or custom tips need a profile drawing in addition to reduced-section dimensions.",
-          "vi": "Đầu lục giác, dài bo tròn hoặc tùy chỉnh cần bản vẽ biên dạng ngoài kích thước bậc."
+          "zh": "与 HTX 产品分类「Multi-diameter step punches」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Multi-diameter step punches”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Multi-diameter step punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "轮廓、过渡位置、角部与刃长",
-          "en": "Profile, transition position, corners and cutting length",
-          "vi": "Biên dạng, vị trí chuyển tiếp, góc và chiều dài cắt"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
-        "id": "headed",
+        "id": "custom-shaped",
         "name": {
-          "zh": "T 头与定制安装端",
-          "en": "T-head and custom mounting",
-          "vi": "Mũ T và đầu lắp tùy chỉnh"
+          "en": "Custom-shaped stepped punches",
+          "zh": "来图定制台阶冲头",
+          "vi": "Chày bậc tùy chỉnh theo bản vẽ"
         },
         "description": {
-          "zh": "台阶杆可配不同固定头；安装头与工作轮廓是两项独立选择。",
-          "en": "Stepped bodies can use different retaining heads; mounting and cutting profiles are separate choices.",
-          "vi": "Thân bậc dùng nhiều mũ giữ; kiểu lắp và biên dạng cắt chọn riêng."
+          "zh": "与 HTX 产品分类「Custom-shaped stepped punches」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Custom-shaped stepped punches”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Custom-shaped stepped punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "头部尺寸、固定板厚、承靠面",
-          "en": "Head dimensions, holder thickness and seating face",
-          "vi": "Kích thước mũ, chiều dày tấm giữ và mặt tựa"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       }
     ]
@@ -376,219 +412,57 @@
     },
     "variants": [
       {
-        "id": "piercing",
+        "id": "custom-stamping",
         "name": {
-          "zh": "圆孔冲裁件",
-          "en": "Round piercing punches",
-          "vi": "Chày đột lỗ tròn"
+          "en": "Custom stamping die punches",
+          "zh": "定制冲压模冲头",
+          "vi": "Chày khuôn dập tùy chỉnh"
         },
         "description": {
-          "zh": "圆形平刃工作端用于冲孔，需与凹模孔及卸料板共同校核。",
-          "en": "A flat circular cutting face pierces holes; review it with the die opening and stripper.",
-          "vi": "Mặt cắt tròn phẳng đột lỗ; kiểm tra cùng lỗ cối và tấm gạt."
+          "zh": "与 HTX 产品分类「Custom stamping die punches」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Custom stamping die punches”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Custom stamping die punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "孔径、料厚、间隙、导向长度",
-          "en": "Hole diameter, stock thickness, clearance and guidance",
-          "vi": "Đường kính lỗ, dày phôi, khe hở và chiều dài dẫn"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
-        "id": "profile",
+        "id": "materials",
         "name": {
-          "zh": "轮廓与槽孔冲头",
-          "en": "Profile and slot punches",
-          "vi": "Chày biên dạng và rãnh"
+          "en": "Materials for stamping die punches",
+          "zh": "冲压模冲头材料",
+          "vi": "Vật liệu chày khuôn dập"
         },
         "description": {
-          "zh": "矩形、长圆及不规则孔型按封闭轮廓和方向基准定义。",
-          "en": "Define rectangular, obround and irregular tips with a closed profile and orientation datum.",
-          "vi": "Định nghĩa đầu chữ nhật, dài bo tròn và bất quy tắc bằng biên dạng kín và chuẩn hướng."
+          "zh": "与 HTX 产品分类「Materials for stamping die punches」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Materials for stamping die punches”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Materials for stamping die punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "轮廓文件、角 R、防转结构",
-          "en": "Profile file, corner radii and anti-rotation feature",
-          "vi": "Tệp biên dạng, bán kính góc, chống xoay"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
-        "id": "cutoff",
+        "id": "manufacturer-range",
         "name": {
-          "zh": "切断与修边冲头",
-          "en": "Cut-off and trimming punches",
-          "vi": "Chày cắt đứt và cắt mép"
+          "en": "Stamping die punch range",
+          "zh": "冲压模冲头系列",
+          "vi": "Dòng chày khuôn dập"
         },
         "description": {
-          "zh": "用于材料分离或边缘修整，刃口方向与受力面积须与工位匹配。",
-          "en": "For separation or edge trimming, match edge direction and loaded area to the die station.",
-          "vi": "Dùng tách hoặc sửa mép; hướng lưỡi và diện tích chịu lực phải khớp trạm khuôn."
+          "zh": "与 HTX 产品分类「Stamping die punch range」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Stamping die punch range”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Stamping die punch range”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "刃口形状、剪切角、受力与支撑",
-          "en": "Edge geometry, shear angle, load and support",
-          "vi": "Hình lưỡi, góc cắt, tải và đỡ"
-        }
-      },
-      {
-        "id": "replacement",
-        "name": {
-          "zh": "连续模替换冲头",
-          "en": "Progressive-die replacement punches",
-          "vi": "Chày thay thế khuôn liên hoàn"
-        },
-        "description": {
-          "zh": "根据原工位接口复核肩位、安装头、工作长度及配合尺寸。",
-          "en": "Match shoulder positions, head, working length and fits to the existing die station.",
-          "vi": "Khớp vị trí vai, mũ, chiều dài làm việc và lắp ghép với trạm cũ."
-        },
-        "parameters": {
-          "zh": "原图版本、安装接口、配套凹模",
-          "en": "Drawing revision, mounting interface and mating die",
-          "vi": "Phiên bản bản vẽ, giao diện lắp và cối đi kèm"
-        }
-      }
-    ]
-  },
-  "forming-punches": {
-    "note": {
-      "zh": "异形冲裁通过刃口剪切材料；曲面成型通过接触面改变形状。两种工艺分别定义工作端，不能把所有异形件都当成锋利冲针。",
-      "en": "Profile piercing shears material, while forming changes shape through a contact surface. Define the working end for the actual process.",
-      "vi": "Đột biên dạng cắt vật liệu, còn tạo hình thay đổi hình bằng mặt tiếp xúc. Xác định đầu theo đúng công nghệ."
-    },
-    "variants": [
-      {
-        "id": "polygon",
-        "name": {
-          "zh": "六角、方形与多边形",
-          "en": "Hexagonal, square and polygonal",
-          "vi": "Lục giác, vuông và đa giác"
-        },
-        "description": {
-          "zh": "用于非圆孔型，明确各边尺寸和安装方向。",
-          "en": "For non-round holes, specify each side and mounting orientation.",
-          "vi": "Với lỗ không tròn, xác định các cạnh và hướng lắp."
-        },
-        "parameters": {
-          "zh": "对边、角 R、轮廓基准",
-          "en": "Across flats, corner radii and profile datum",
-          "vi": "Kích thước đối diện, bán kính góc và chuẩn"
-        }
-      },
-      {
-        "id": "obround",
-        "name": {
-          "zh": "椭圆与长圆轮廓",
-          "en": "Oval and obround profiles",
-          "vi": "Biên dạng oval và dài bo tròn"
-        },
-        "description": {
-          "zh": "长轴、短轴或槽宽及端部半径共同定义孔型。",
-          "en": "Axes, slot width and end radii define the exact hole geometry.",
-          "vi": "Các trục, rộng rãnh và bán kính đầu xác định hình lỗ."
-        },
-        "parameters": {
-          "zh": "长宽、端部 R、方向",
-          "en": "Length, width, end radius and orientation",
-          "vi": "Dài, rộng, bán kính đầu và hướng"
-        }
-      },
-      {
-        "id": "angled",
-        "name": {
-          "zh": "斜面与偏置工作端",
-          "en": "Angled and offset working ends",
-          "vi": "Đầu nghiêng và lệch tâm"
-        },
-        "description": {
-          "zh": "工作端偏置或带角度时，需同时检查侧向受力与支撑。",
-          "en": "Angled or offset tips require review of side loads and support.",
-          "vi": "Đầu nghiêng hoặc lệch cần kiểm tra tải ngang và đỡ."
-        },
-        "parameters": {
-          "zh": "角度、偏心量、方向基准",
-          "en": "Angle, offset and orientation datum",
-          "vi": "Góc, độ lệch và chuẩn hướng"
-        }
-      },
-      {
-        "id": "forming",
-        "name": {
-          "zh": "曲面与圆弧成型头",
-          "en": "Contoured forming noses",
-          "vi": "Đầu tạo hình cong"
-        },
-        "description": {
-          "zh": "用于压形或局部成型，以接触曲面和成型深度为重点。",
-          "en": "For pressing or local forming, focus on the contact surface and forming depth.",
-          "vi": "Dùng ép hoặc tạo hình cục bộ; chú trọng mặt tiếp xúc và độ sâu."
-        },
-        "parameters": {
-          "zh": "三维曲面、圆角、成型深度",
-          "en": "3D surface, radii and forming depth",
-          "vi": "Bề mặt 3D, bán kính và độ sâu tạo hình"
-        }
-      }
-    ]
-  },
-  "a-type-punches": {
-    "note": {
-      "zh": "本目录采用 A 型台阶、T 型单肩直身的结构区分。A 型的重点是杆部到工作端的缩径台阶；具体头部、台阶尺寸与材料按选定系列或图纸确认。",
-      "en": "This catalog distinguishes Type A stepped punches from Type T single-shoulder straight punches. Type A features a reduced working tip supported by a larger shank; confirm head geometry, shoulder dimensions and material against the selected series or drawing.",
-      "vi": "Danh mục phân biệt chày bậc A và chày thân thẳng một vai T. Loại A có đầu nhỏ được thân lớn đỡ; xác nhận mũ, kích thước vai và vật liệu theo dòng hoặc bản vẽ."
-    },
-    "variants": [
-      {
-        "id": "round",
-        "name": {
-          "zh": "A 型台阶冲针",
-          "en": "Type A stepped punch",
-          "vi": "Chày bậc loại A"
-        },
-        "description": {
-          "zh": "较粗杆部过渡到较细的工作端，形成清晰的缩径台阶；尾端保留正常比例的安装头。按刃径、杆径、工作段长度和过渡圆角选型。",
-          "en": "A larger support shank steps down to a smaller working tip, with a normally proportioned retaining head at the rear. Specify tip and shank diameters, working length and shoulder radius.",
-          "vi": "Thân đỡ lớn chuyển bậc xuống đầu làm việc nhỏ, phía sau có mũ giữ cân đối. Chọn đường kính đầu/thân, chiều dài làm việc và bán kính vai."
-        },
-        "parameters": {
-          "zh": "标准号、刃径、杆径、头厚",
-          "en": "Standard, tip and shank diameters, head thickness",
-          "vi": "Tiêu chuẩn, đường kính đầu/thân và dày mũ"
-        }
-      },
-      {
-        "id": "flat",
-        "name": {
-          "zh": "带削边或防转位",
-          "en": "Flatted or anti-rotation version",
-          "vi": "Phiên bản có mặt phẳng chống xoay"
-        },
-        "description": {
-          "zh": "削边用于方向保持或安装避让，位置须关联工作端基准。",
-          "en": "Flats provide orientation or mounting clearance and must reference the working end.",
-          "vi": "Mặt phẳng định hướng hoặc tạo khoảng lắp, cần liên hệ chuẩn đầu làm việc."
-        },
-        "parameters": {
-          "zh": "削边深度、角度、定位距离",
-          "en": "Flat depth, angle and locating distance",
-          "vi": "Độ sâu mặt phẳng, góc và khoảng định vị"
-        }
-      },
-      {
-        "id": "custom",
-        "name": {
-          "zh": "非标长度与安装配合",
-          "en": "Custom length and mounting fit",
-          "vi": "Chiều dài và lắp ghép tùy chỉnh"
-        },
-        "description": {
-          "zh": "替换既有冲头时按安装尺寸与配合复核，不仅比较外观。",
-          "en": "For replacements, verify mounting dimensions and fits rather than appearance alone.",
-          "vi": "Khi thay thế, kiểm tra kích thước lắp và lắp ghép, không chỉ hình dáng."
-        },
-        "parameters": {
-          "zh": "总长、工作长、配合段、公差",
-          "en": "Overall and working lengths, fit sections and tolerances",
-          "vi": "Tổng dài, dài làm việc, đoạn lắp và dung sai"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       }
     ]
@@ -601,83 +475,29 @@
     },
     "variants": [
       {
-        "id": "upper",
+        "id": "tablet-shapes",
         "name": {
-          "zh": "上冲",
-          "en": "Upper punch",
-          "vi": "Chày trên"
+          "en": "Custom tablet shapes & punch profiles",
+          "zh": "定制片形与冲模轮廓",
+          "vi": "Hình viên và biên dạng chày tùy chỉnh"
         },
         "description": {
-          "zh": "从上方进入中模并施加压力，冲面决定片剂的一侧形状。",
-          "en": "Enters the die from above and compresses powder; the cup defines one tablet face.",
-          "vi": "Đi vào cối từ trên và nén bột; mặt chày tạo một mặt viên."
+          "zh": "与 HTX 产品分类「Custom tablet shapes & punch profiles」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Custom tablet shapes & punch profiles”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Custom tablet shapes & punch profiles”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "头型、工作长度、冲面深度",
-          "en": "Head style, working length and cup depth",
-          "vi": "Kiểu mũ, chiều dài làm việc và độ sâu mặt chày"
-        }
-      },
-      {
-        "id": "lower",
-        "name": {
-          "zh": "下冲",
-          "en": "Lower punch",
-          "vi": "Chày dưới"
-        },
-        "description": {
-          "zh": "配合填充深度与压制位置，并在压制后顶出成型件。",
-          "en": "Works with fill depth and compression position, then ejects the compact.",
-          "vi": "Phối hợp độ sâu nạp và vị trí nén, sau đó đẩy viên."
-        },
-        "parameters": {
-          "zh": "工作长度、冲面、顶出位置",
-          "en": "Working length, cup and ejection position",
-          "vi": "Chiều dài làm việc, mặt chày và vị trí đẩy"
-        }
-      },
-      {
-        "id": "die",
-        "name": {
-          "zh": "配套中模",
-          "en": "Mating die",
-          "vi": "Cối đi kèm"
-        },
-        "description": {
-          "zh": "中模孔定义成型件外轮廓，并与上下冲保持合适配合。",
-          "en": "The die bore defines the outer profile and must fit both punches.",
-          "vi": "Lỗ cối tạo biên dạng ngoài và phải khớp cả hai chày."
-        },
-        "parameters": {
-          "zh": "外径、高度、型腔、冲模间隙",
-          "en": "Outside diameter, height, cavity and punch clearance",
-          "vi": "Đường kính ngoài, cao, lòng cối và khe hở"
-        }
-      },
-      {
-        "id": "shape",
-        "name": {
-          "zh": "圆形、椭圆与定制片型",
-          "en": "Round, oval and custom shapes",
-          "vi": "Hình tròn, oval và tùy chỉnh"
-        },
-        "description": {
-          "zh": "不同片型需配套冲面和中模孔；凹度及边缘结构单独定义。",
-          "en": "Each tablet shape needs matching cups and die bore, with specified concavity and edge geometry.",
-          "vi": "Mỗi hình viên cần mặt chày và lỗ cối tương ứng, quy định độ lõm và mép."
-        },
-        "parameters": {
-          "zh": "片型轮廓、冲面曲率、边缘",
-          "en": "Tablet profile, cup curvature and edge",
-          "vi": "Biên dạng viên, độ cong mặt chày và mép"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
         "id": "engraved",
         "name": {
-          "zh": "刻字、标识与分割线",
-          "en": "Engraving and score lines",
-          "vi": "Khắc dấu và rãnh chia"
+          "en": "Custom engraved punches and dies",
+          "zh": "刻字与标识冲模",
+          "vi": "Chày cối khắc chữ tùy chỉnh"
         },
         "description": {
           "zh": "按可加工的字形、深度和脱模方向确认冲面标识。",
@@ -693,9 +513,9 @@
       {
         "id": "multi-tip",
         "name": {
-          "zh": "多冲尖与压机专用配置",
-          "en": "Multi-tip and press-specific tooling",
-          "vi": "Nhiều đầu và cấu hình theo máy"
+          "en": "Multi-tip tablet tooling",
+          "zh": "多冲尖压片工装",
+          "vi": "Dụng cụ viên đa đầu"
         },
         "description": {
           "zh": "多冲尖需成组对应中模孔，并验证压机空间、载荷及防转结构。",
@@ -706,6 +526,24 @@
           "zh": "压机型号、冲尖数量、孔距、接口",
           "en": "Press model, tip count, pitch and interface",
           "vi": "Model máy, số đầu, bước lỗ và giao diện"
+        }
+      },
+      {
+        "id": "press-specific",
+        "name": {
+          "en": "Press-specific custom tooling",
+          "zh": "压机专用定制工装",
+          "vi": "Dụng cụ theo máy ép"
+        },
+        "description": {
+          "zh": "与 HTX 产品分类「Press-specific custom tooling」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Press-specific custom tooling”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Press-specific custom tooling”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+        },
+        "parameters": {
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       }
     ]
@@ -1727,348 +1565,6 @@
       }
     ]
   },
-  "sprue-bushings": {
-    "note": {
-      "zh": "浇口套连接注塑机喷嘴与模具流道。A/B/C 等型式需核对对应尺寸图；冷流道、加热与紧凑结构分别评估，不以字母型式推定接口。",
-      "en": "Sprue bushings connect the nozzle to the mold runner. Verify A/B/C styles against their drawings; assess cold-runner, heated and compact designs separately.",
-      "vi": "Bạc cuống nối vòi phun với kênh khuôn. Kiểm tra loại A/B/C theo bản vẽ; đánh giá riêng kênh nguội, gia nhiệt và nhỏ gọn."
-    },
-    "variants": [
-      {
-        "id": "type-a",
-        "name": {
-          "zh": "A 型参考结构",
-          "en": "Type A configuration",
-          "vi": "Cấu hình loại A"
-        },
-        "description": {
-          "zh": "按照选定目录核对头部及安装段结构。",
-          "en": "Check head and mounting geometry against the selected catalog.",
-          "vi": "Kiểm tra mũ và đoạn lắp theo danh mục chọn."
-        },
-        "parameters": {
-          "zh": "头径、安装径、头厚、总长",
-          "en": "Head and mounting diameters, thickness and length",
-          "vi": "Đường kính mũ/lắp, dày và dài"
-        }
-      },
-      {
-        "id": "type-b",
-        "name": {
-          "zh": "B 型参考结构",
-          "en": "Type B configuration",
-          "vi": "Cấu hình loại B"
-        },
-        "description": {
-          "zh": "更换已有浇口套时按尺寸匹配，不仅按型式名称下单。",
-          "en": "Match dimensions when replacing a bushing rather than ordering by type name alone.",
-          "vi": "Khi thay cần khớp kích thước, không chỉ tên loại."
-        },
-        "parameters": {
-          "zh": "安装孔、头厚、喷嘴接触面",
-          "en": "Mounting bore, head thickness and nozzle seat",
-          "vi": "Lỗ lắp, dày mũ và mặt tựa vòi"
-        }
-      },
-      {
-        "id": "type-c",
-        "name": {
-          "zh": "C 型参考结构",
-          "en": "Type C configuration",
-          "vi": "Cấu hình loại C"
-        },
-        "description": {
-          "zh": "独立确认头部、流道与安装长度组合。",
-          "en": "Confirm the combination of head, runner and installation length.",
-          "vi": "Xác nhận tổ hợp mũ, kênh và chiều dài lắp."
-        },
-        "parameters": {
-          "zh": "流道锥度、孔径、长度",
-          "en": "Runner taper, bore and length",
-          "vi": "Độ côn kênh, đường kính và dài"
-        }
-      },
-      {
-        "id": "cold",
-        "name": {
-          "zh": "冷流道浇口套",
-          "en": "Cold-runner sprue bushing",
-          "vi": "Bạc cuống kênh nguội"
-        },
-        "description": {
-          "zh": "普通冷流道方案关注喷嘴贴合、脱料锥度和流道衔接。",
-          "en": "Check nozzle contact, release taper and runner transition.",
-          "vi": "Kiểm tra tiếp xúc vòi, độ côn tháo và nối kênh."
-        },
-        "parameters": {
-          "zh": "球面半径、入口孔、出口孔",
-          "en": "Seat radius, inlet and outlet bores",
-          "vi": "Bán kính tựa, lỗ vào và ra"
-        }
-      },
-      {
-        "id": "heated",
-        "name": {
-          "zh": "加热浇口套方案",
-          "en": "Heated sprue configuration",
-          "vi": "Cấu hình bạc cuống gia nhiệt"
-        },
-        "description": {
-          "zh": "带加热需求时，应同时确认温控、接线空间和热隔离。",
-          "en": "Heating requires review of temperature control, wiring space and thermal isolation.",
-          "vi": "Gia nhiệt cần kiểm tra điều khiển nhiệt, chỗ dây và cách nhiệt."
-        },
-        "parameters": {
-          "zh": "温控方式、加热接口、温度",
-          "en": "Control method, heater interface and temperature",
-          "vi": "Điều khiển, giao diện gia nhiệt và nhiệt độ"
-        }
-      },
-      {
-        "id": "compact",
-        "name": {
-          "zh": "U 系列与紧凑定制",
-          "en": "U-series and compact designs",
-          "vi": "Dòng U và thiết kế gọn"
-        },
-        "description": {
-          "zh": "紧凑模具需按对应接口图确认结构与可用空间。",
-          "en": "Compact molds require interface drawings and space checks.",
-          "vi": "Khuôn gọn cần bản vẽ giao diện và kiểm tra không gian."
-        },
-        "parameters": {
-          "zh": "系列图、安装高度、喷嘴中心",
-          "en": "Series drawing, height and nozzle center",
-          "vi": "Bản vẽ dòng, cao lắp và tâm vòi"
-        }
-      }
-    ]
-  },
-  "locating-rings": {
-    "note": {
-      "zh": "定位圈使模具与注塑机定位孔对中，不承担替代锁模机构的作用。按设备孔径与模具安装面共同确认。",
-      "en": "Locating rings align the mold with the machine locating bore; they do not replace clamping. Match the machine bore and mold mounting face.",
-      "vi": "Vòng định vị căn khuôn với lỗ máy, không thay cơ cấu kẹp. Khớp lỗ máy và mặt lắp khuôn."
-    },
-    "variants": [
-      {
-        "id": "flat",
-        "name": {
-          "zh": "平面定位圈",
-          "en": "Flat locating ring",
-          "vi": "Vòng định vị phẳng"
-        },
-        "description": {
-          "zh": "用于平面安装结构，核对中心孔与喷嘴通道。",
-          "en": "For flat mounting faces; check the center opening and nozzle path.",
-          "vi": "Cho mặt lắp phẳng; kiểm tra lỗ tâm và đường vòi."
-        },
-        "parameters": {
-          "zh": "外径、内孔、厚度、孔距",
-          "en": "Outside diameter, bore, thickness and hole pitch",
-          "vi": "Đường kính ngoài, lỗ, dày và bước lỗ"
-        }
-      },
-      {
-        "id": "stepped",
-        "name": {
-          "zh": "台阶定位圈",
-          "en": "Stepped locating ring",
-          "vi": "Vòng định vị bậc"
-        },
-        "description": {
-          "zh": "台阶适配不同安装高度及定位深度。",
-          "en": "A step adapts to mounting height and locating depth.",
-          "vi": "Bậc khớp cao lắp và sâu định vị."
-        },
-        "parameters": {
-          "zh": "台阶外径、深度、承靠面",
-          "en": "Step diameter, depth and seating face",
-          "vi": "Đường kính bậc, sâu và mặt tựa"
-        }
-      }
-    ]
-  },
-  "mold-date-stamps": {
-    "note": {
-      "zh": "日期章用于在塑件上形成追溯标记。应先定义成型后的可读方向，再确认模具端刻字方向及更换方式。",
-      "en": "Date stamps mold traceability marks into the part. Define the readable part orientation before specifying engraving and replacement access.",
-      "vi": "Dấu ngày tạo dấu truy xuất trên sản phẩm. Xác định hướng đọc trên sản phẩm trước hướng khắc và cách thay."
-    },
-    "variants": [
-      {
-        "id": "date",
-        "name": {
-          "zh": "年月与月份标记",
-          "en": "Year and month markings",
-          "vi": "Dấu năm và tháng"
-        },
-        "description": {
-          "zh": "按生产追溯周期选择数字环和中心指示结构。",
-          "en": "Choose the numeral ring and center indicator for the traceability cycle.",
-          "vi": "Chọn vòng số và chỉ thị tâm theo chu kỳ truy xuất."
-        },
-        "parameters": {
-          "zh": "数字内容、读向、外径、深度",
-          "en": "Markings, reading direction, diameter and depth",
-          "vi": "Nội dung, hướng đọc, đường kính và sâu"
-        }
-      },
-      {
-        "id": "code",
-        "name": {
-          "zh": "定制识别与批次标记",
-          "en": "Custom identification marks",
-          "vi": "Dấu nhận diện tùy chỉnh"
-        },
-        "description": {
-          "zh": "标识、班次或批次编码需明确字形与切换方式。",
-          "en": "Define artwork and changeover method for IDs, shifts or batch codes.",
-          "vi": "Xác định ký tự và cách đổi cho mã, ca hoặc lô."
-        },
-        "parameters": {
-          "zh": "字形、刻深、可更换部位",
-          "en": "Artwork, engraving depth and replaceable insert",
-          "vi": "Mẫu chữ, sâu khắc và lõi thay được"
-        }
-      }
-    ]
-  },
-  "side-locks": {
-    "note": {
-      "zh": "侧锁与精定位块用于合模阶段的重复定位，不能替代整套导向和锁模设计。公母件按装配基准成对确认。",
-      "en": "Side locks provide repeatable final alignment; they do not replace the full guiding or clamping system. Confirm male and female parts as a pair.",
-      "vi": "Khóa bên định vị lặp lại khi đóng, không thay cả hệ dẫn và kẹp. Xác nhận cặp đực/cái theo chuẩn lắp."
-    },
-    "variants": [
-      {
-        "id": "side",
-        "name": {
-          "zh": "侧面精定位结构",
-          "en": "Side alignment lock",
-          "vi": "Khóa định vị bên"
-        },
-        "description": {
-          "zh": "安装于模具侧面，控制接近闭合时的相对位置。",
-          "en": "Mounted at the mold side to control final closing alignment.",
-          "vi": "Lắp bên khuôn để kiểm soát định vị cuối khi đóng."
-        },
-        "parameters": {
-          "zh": "安装方向、孔距、闭合间隙",
-          "en": "Orientation, hole pitch and closed clearance",
-          "vi": "Hướng, bước lỗ và khe hở đóng"
-        }
-      },
-      {
-        "id": "pair",
-        "name": {
-          "zh": "公母配套定位块",
-          "en": "Matched male/female blocks",
-          "vi": "Cặp khối đực/cái"
-        },
-        "description": {
-          "zh": "定位接触面成对匹配，核对热膨胀与接触区域。",
-          "en": "Match contact faces as a pair, considering thermal expansion and contact area.",
-          "vi": "Ghép mặt tiếp xúc thành cặp, xét giãn nhiệt và vùng tiếp xúc."
-        },
-        "parameters": {
-          "zh": "配合面、装配基准、工作温度",
-          "en": "Mating faces, assembly datum and temperature",
-          "vi": "Mặt ghép, chuẩn lắp và nhiệt độ"
-        }
-      }
-    ]
-  },
-  "stopper-bolts": {
-    "note": {
-      "zh": "限位螺栓用于约束机构行程。安装肩、螺纹与受冲击面分别定义，不把普通紧固螺栓直接作为限位替代。",
-      "en": "Stopper bolts limit mechanism travel. Define shoulder, thread and impact face separately; an ordinary fastener is not automatically a substitute.",
-      "vi": "Bu lông chặn giới hạn hành trình. Xác định vai, ren và mặt chịu va riêng; bu lông thường không tự thay được."
-    },
-    "variants": [
-      {
-        "id": "shoulder",
-        "name": {
-          "zh": "带肩限位螺栓",
-          "en": "Shoulder stopper bolt",
-          "vi": "Bu lông chặn có vai"
-        },
-        "description": {
-          "zh": "光杆肩部控制滑动段与机械止挡位置。",
-          "en": "The plain shoulder sets the sliding section and stop position.",
-          "vi": "Vai trơn xác định đoạn trượt và vị trí chặn."
-        },
-        "parameters": {
-          "zh": "肩径、肩长、螺纹、承靠面",
-          "en": "Shoulder diameter, length, thread and seat",
-          "vi": "Đường kính vai, dài, ren và mặt tựa"
-        }
-      },
-      {
-        "id": "travel",
-        "name": {
-          "zh": "定制限位行程",
-          "en": "Custom travel stop",
-          "vi": "Chặn hành trình tùy chỉnh"
-        },
-        "description": {
-          "zh": "通过有效长度匹配机构开合行程，检查缓冲与冲击载荷。",
-          "en": "Match opening travel by effective length and review cushioning and impact load.",
-          "vi": "Khớp hành trình mở bằng chiều dài hữu hiệu, kiểm tra giảm chấn và tải va."
-        },
-        "parameters": {
-          "zh": "工作行程、有效长度、冲击工况",
-          "en": "Travel, effective length and impact duty",
-          "vi": "Hành trình, dài hữu hiệu và điều kiện va"
-        }
-      }
-    ]
-  },
-  "pull-rods": {
-    "note": {
-      "zh": "拉杆连接并带动模具活动部件，必须区分受拉段、导向段与螺纹连接。长度和载荷需结合机构动作顺序确认。",
-      "en": "Pull rods connect and move mold members. Distinguish tension, guiding and threaded sections, and match length and load to the motion sequence.",
-      "vi": "Thanh kéo nối và kéo bộ phận khuôn. Phân biệt đoạn chịu kéo, dẫn và ren; khớp dài/tải với trình tự chuyển động."
-    },
-    "variants": [
-      {
-        "id": "thread",
-        "name": {
-          "zh": "螺纹端拉杆",
-          "en": "Threaded-end pull rod",
-          "vi": "Thanh kéo đầu ren"
-        },
-        "description": {
-          "zh": "通过端部螺纹连接机构，确认旋合长度与防松方式。",
-          "en": "End threads connect the mechanism; specify engagement and locking.",
-          "vi": "Ren đầu nối cơ cấu; xác định chiều dài ăn ren và chống lỏng."
-        },
-        "parameters": {
-          "zh": "螺纹规格、旋合长、杆径",
-          "en": "Thread, engagement length and rod diameter",
-          "vi": "Ren, dài ăn ren và đường kính thanh"
-        }
-      },
-      {
-        "id": "shoulder",
-        "name": {
-          "zh": "带肩与限位端拉杆",
-          "en": "Shouldered pull rod",
-          "vi": "Thanh kéo có vai"
-        },
-        "description": {
-          "zh": "肩部提供承靠或限位，按动作顺序确定台阶位置。",
-          "en": "Shoulders provide seats or stops, positioned for the motion sequence.",
-          "vi": "Vai làm tựa hoặc chặn, đặt theo trình tự chuyển động."
-        },
-        "parameters": {
-          "zh": "肩位、总长、行程、连接形式",
-          "en": "Shoulders, length, travel and connection",
-          "vi": "Vai, dài, hành trình và kiểu nối"
-        }
-      }
-    ]
-  },
   "graphite-bronze-bushings": {
     "note": {
       "zh": "铜合金基体承载，嵌入的固体润滑材料在滑动接触中发挥作用。它不同于含油烧结轴套；润滑布点需覆盖实际工作面。",
@@ -2393,128 +1889,83 @@
       }
     ]
   },
-  "pilot-pins": {
+  "tungsten-carbide-punches": {
     "note": {
-      "zh": "导正销进入已经冲出的导正孔来校正料带位置，不负责先冲出导正孔。先确定孔与送料误差，再选择引导端和让位结构。",
-      "en": "Pilots enter previously pierced holes to correct strip position; they do not create those holes. Select the entry and relief geometry from the hole and feed error.",
-      "vi": "Chốt dẫn vào lỗ đã đột để chỉnh vị trí băng, không tạo lỗ. Chọn đầu dẫn và phần thoát theo lỗ và sai số cấp."
+      "zh": "异形冲裁通过刃口剪切材料；曲面成型通过接触面改变形状。两种工艺分别定义工作端，不能把所有异形件都当成锋利冲针。",
+      "en": "Profile piercing shears material, while forming changes shape through a contact surface. Define the working end for the actual process.",
+      "vi": "Đột biên dạng cắt vật liệu, còn tạo hình thay đổi hình bằng mặt tiếp xúc. Xác định đầu theo đúng công nghệ."
     },
     "variants": [
       {
-        "id": "round",
+        "id": "straight",
         "name": {
-          "zh": "圆形导正销",
-          "en": "Round pilot",
-          "vi": "Chốt dẫn tròn"
+          "en": "Straight tungsten carbide punch",
+          "zh": "直身钨钢冲头",
+          "vi": "Chày hợp kim thẳng"
         },
         "description": {
-          "zh": "圆柱定位段与引导端配合，将料带带入正确位置。",
-          "en": "The lead-in and cylindrical locating section bring the strip into position.",
-          "vi": "Đầu dẫn và đoạn trụ đưa băng về vị trí."
+          "zh": "与 HTX 产品分类「Straight tungsten carbide punch」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Straight tungsten carbide punch”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Straight tungsten carbide punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "导正孔径、引导长度、配合",
-          "en": "Pilot-hole size, entry length and fit",
-          "vi": "Cỡ lỗ dẫn, dài đầu dẫn và lắp"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
-        "id": "relieved",
+        "id": "step",
         "name": {
-          "zh": "切口与让位导正销",
-          "en": "Relieved pilot",
-          "vi": "Chốt dẫn có phần thoát"
+          "en": "Step tungsten carbide punch",
+          "zh": "台阶钨钢冲头",
+          "vi": "Chày hợp kim bậc"
         },
         "description": {
-          "zh": "让位结构按定位自由度与送料条件定义，避免过约束。",
-          "en": "Define relief for locating freedom and feed conditions to avoid overconstraint.",
-          "vi": "Xác định phần thoát theo bậc tự do và cấp liệu, tránh ràng buộc quá mức."
+          "zh": "与 HTX 产品分类「Step tungsten carbide punch」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Step tungsten carbide punch”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Step tungsten carbide punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "让位方向、定位面、送料误差",
-          "en": "Relief direction, locating face and feed error",
-          "vi": "Hướng thoát, mặt định vị và sai số cấp"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
-        "id": "tip",
+        "id": "precision",
         "name": {
-          "zh": "定制引导端",
-          "en": "Custom pilot entry",
-          "vi": "Đầu dẫn tùy chỉnh"
+          "en": "Precision tungsten carbide punch",
+          "zh": "精密钨钢冲头",
+          "vi": "Chày hợp kim chính xác"
         },
         "description": {
-          "zh": "锥形或圆弧引导端按可用高度与进入过程确定。",
-          "en": "Choose tapered or radiused entry for available height and engagement motion.",
-          "vi": "Chọn đầu côn hoặc bo theo cao có sẵn và quá trình vào."
+          "zh": "与 HTX 产品分类「Precision tungsten carbide punch」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Precision tungsten carbide punch”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Precision tungsten carbide punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "引导角、端 R、伸出量",
-          "en": "Entry angle, tip radius and projection",
-          "vi": "Góc dẫn, bán kính đầu và độ nhô"
-        }
-      }
-    ]
-  },
-  "floating-pins": {
-    "note": {
-      "zh": "浮升销支撑或抬升料带，为送料及模内运动让出空间。定位功能与浮升支撑分开评估，弹簧与行程须配套。",
-      "en": "Lifter pins support or raise the strip for feeding and die motion. Assess locating separately from lifting, and match spring force to travel.",
-      "vi": "Chốt nâng đỡ hoặc nâng băng để cấp và chuyển động khuôn. Đánh giá định vị riêng với nâng; khớp lực lò xo và hành trình."
-    },
-    "variants": [
-      {
-        "id": "round",
-        "name": {
-          "zh": "圆形浮升销",
-          "en": "Round strip lifter",
-          "vi": "Chốt nâng tròn"
-        },
-        "description": {
-          "zh": "圆形支撑端抬升料带，布置位置应避免干涉冲裁区域。",
-          "en": "A round support raises the strip without interfering with cutting stations.",
-          "vi": "Đầu đỡ tròn nâng băng, tránh vùng đột cắt."
-        },
-        "parameters": {
-          "zh": "支撑径、浮升量、布置位置",
-          "en": "Support diameter, lift and position",
-          "vi": "Đường kính đỡ, độ nâng và vị trí"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       },
       {
-        "id": "profile",
+        "id": "coated",
         "name": {
-          "zh": "成型支撑端浮料销",
-          "en": "Profiled strip lifter",
-          "vi": "Chốt nâng đầu định hình"
+          "en": "Coated punch series",
+          "zh": "涂层冲头系列",
+          "vi": "Dòng chày có lớp phủ"
         },
         "description": {
-          "zh": "凹槽或成型端适配料带边缘和局部轮廓。",
-          "en": "Grooved or shaped ends suit strip edges and local profiles.",
-          "vi": "Đầu rãnh hoặc định hình khớp mép băng và biên dạng."
+          "zh": "与 HTX 产品分类「Coated punch series」对应，具体尺寸、材料与安装形式以图纸确认。",
+          "en": "Matches the HTX product category “Coated punch series”. Confirm dimensions, material and mounting from your drawing.",
+          "vi": "Tương ứng danh mục HTX “Coated punch series”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
         },
         "parameters": {
-          "zh": "槽宽、支撑轮廓、料厚",
-          "en": "Groove width, support profile and stock thickness",
-          "vi": "Rộng rãnh, biên dạng đỡ và dày phôi"
-        }
-      },
-      {
-        "id": "spring",
-        "name": {
-          "zh": "弹簧配套与限位结构",
-          "en": "Spring and travel-stop arrangement",
-          "vi": "Lò xo và chặn hành trình"
-        },
-        "description": {
-          "zh": "复位力、预压与最大伸出量共同决定工作状态。",
-          "en": "Return force, preload and maximum projection define operation.",
-          "vi": "Lực hồi, tải trước và độ nhô tối đa quyết định hoạt động."
-        },
-        "parameters": {
-          "zh": "弹簧力、预压、有效行程",
-          "en": "Spring force, preload and effective travel",
-          "vi": "Lực lò xo, tải trước và hành trình"
+          "zh": "工作端轮廓、杆径、总长、公差与材料",
+          "en": "Working profile, shank, overall length, tolerances and material",
+          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
         }
       }
     ]

@@ -27,7 +27,7 @@ const customExamples = [
   {assetId:'carbide-punches--profiles', fallback:'carbide-punches'},
   {assetId:'carbide-punches--stepped', fallback:'stepped-punches'},
   {assetId:'carbide-punches--cutoff', fallback:'stamping-die-punches'},
-  {assetId:null, fallback:'forming-punches'},
+  {assetId:null, fallback:'tungsten-carbide-punches'},
 ].map(item=>{
   const asset=detailMedia.assets.find(a=>a.id===item.assetId);
   const product=productById(asset?.productId??item.fallback)!;
@@ -51,14 +51,16 @@ const customExamples = [
             customExamples.map(example => (
               <article class="product-visual-card flex min-w-0 flex-col overflow-hidden border border-borui-navy/10 bg-white">
                 <a href={example.href} class="min-w-0 flex-1 hover:border-borui-brass">
-                  <div class="product-visual-frame overflow-hidden"><img
-                    src={example.image}
-                    alt={example.name}
-                    class="aspect-[4/3] w-full bg-borui-light object-contain"
-                    loading="lazy"
-                    width="1600"
-                    height="1200"
-                  /></div>
+                  <div class="product-visual-frame aspect-square overflow-hidden bg-borui-light">
+                    <img
+                      src={example.image}
+                      alt={example.name}
+                      class="h-full w-full object-contain"
+                      loading="lazy"
+                      width="800"
+                      height="800"
+                    />
+                  </div>
                   <p class="p-3 text-sm leading-relaxed">{example.name} <span aria-hidden="true">↗</span></p>
                 </a>
                 <div class="border-t border-borui-navy/10 px-3 py-2">

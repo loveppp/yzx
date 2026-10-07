@@ -7,8 +7,7 @@ const legacyVisuals:Record<string,LocalizedText>={
  'hss-punches':{zh:'带头圆冲与缩径工作端',en:'Headed round punches with reduced tips',vi:'Chày tròn có mũ và đầu giảm đường kính'},
  'stepped-punches':{zh:'不同杆径与台阶组合',en:'Shank diameters and stepped designs',vi:'Đường kính thân và kết cấu bậc'},
  'stamping-die-punches':{zh:'圆形、矩形与长圆冲裁端',en:'Round, rectangular and obround cutting ends',vi:'Đầu cắt tròn, chữ nhật và thuôn'},
- 'forming-punches':{zh:'非圆工作端组合 · 成型轮廓另按图定制',en:'Non-round cutting profiles · forming contours made to drawing',vi:'Đầu cắt không tròn · biên dạng tạo hình theo bản vẽ'},
- 'a-type-punches':{zh:'台阶冲针系列',en:'Stepped punch family',vi:'Dòng chày bậc'},
+ 'tungsten-carbide-punches':{zh:'钨钢直身 · 台阶 · 精密 · 涂层系列',en:'Straight, stepped, precision and coated tungsten carbide punches',vi:'Chày hợp kim thẳng, bậc, chính xác và có lớp phủ'},
  'tableting-punches':{zh:'上冲、下冲与中模组合',en:'Upper punch, lower punch and die set',vi:'Bộ chày trên, chày dưới và cối'},
 };
 

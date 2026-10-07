@@ -27,12 +27,11 @@ const detail=detailsFor(product.id);
 const sectionLinks=[['configurations',detailUI.range],['why-this-family',detailUI.choice],['material-options',detailUI.material],['surface-options',detailUI.surface],['applications',detailUI.application],['family-faq',detailUI.faq]] as const;
 const criteria=catalogText(product.selection,locale).split(/[;；]/).map(s=>s.trim());
 const relatedIds:Record<string,string[]>={
- 'carbide-punches':['hss-punches','stepped-punches','pilot-pins'],
- 'hss-punches':['carbide-punches','stepped-punches','pilot-pins'],
+ 'carbide-punches':['hss-punches','stepped-punches','tungsten-carbide-punches'],
+ 'hss-punches':['carbide-punches','stepped-punches','stamping-die-punches'],
  'graphite-bronze-bushings':['flanged-bronze-bushings','wear-plates','bronze-bushings'],
  'ball-cages':['guide-sets','ball-bearing-bushings','guide-posts'],
  'guide-sets':['guide-posts','guide-bushings','ball-cages'],
- 'pilot-pins':['stamping-die-punches','floating-pins','carbide-punches'],
 };
 const related=relatedIds[product.id]?relatedIds[product.id].map(id=>catalogProducts.find(p=>p.id===id)!):catalogProducts.filter(p=>p.group===product.group&&p.id!==product.id).slice(0,3);
 const site=Astro.site??new URL('https://yzxprecision.com');

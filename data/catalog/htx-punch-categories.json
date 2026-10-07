@@ -1,0 +1,324 @@
+{
+  "version": 1,
+  "source": "https://htxprecision.com/punch-components/",
+  "products": {
+    "carbide-punches": {
+      "catalogMainFile": "output/htx-sources/punch-components/carbide-punches/source-01-Carbide-Punch-Manufacturer-1.jpg",
+      "variants": [
+        {
+          "id": "type-a",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-02-Straight-Punch-Cylindrical-Type-A.jpg",
+          "name": {
+            "en": "Straight punch (cylindrical) Type A",
+            "zh": "A 型圆柱直身冲针",
+            "vi": "Chày thân trụ loại A"
+          }
+        },
+        {
+          "id": "type-t",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-03-Straight-Punch-Cylindrical-Type-T.jpg",
+          "name": {
+            "en": "Straight punch (cylindrical) Type T",
+            "zh": "T 型圆柱直身冲针",
+            "vi": "Chày thân trụ loại T"
+          }
+        },
+        {
+          "id": "profile",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-04-Custom-shaped-Punches.jpg",
+          "name": {
+            "en": "Custom special shaped straight punches",
+            "zh": "定制异形直身冲针",
+            "vi": "Chày thẳng biên dạng tùy chỉnh"
+          }
+        },
+        {
+          "id": "cutting",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-05-Cutting-Punch.jpg",
+          "name": {
+            "en": "Cutting punch",
+            "zh": "切断冲头",
+            "vi": "Chày cắt"
+          }
+        },
+        {
+          "id": "precision",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-06-Precision-Punch.jpg",
+          "name": {
+            "en": "Precision punch",
+            "zh": "精密冲头",
+            "vi": "Chày chính xác"
+          }
+        },
+        {
+          "id": "hexagonal",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-07-Hexagonal-Punch.jpg",
+          "name": {
+            "en": "Hexagonal punch",
+            "zh": "六角冲头",
+            "vi": "Chày lục giác"
+          }
+        },
+        {
+          "id": "pilot",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-08-Pilot-Punch.jpg",
+          "name": {
+            "en": "Guide / pilot punch",
+            "zh": "引导冲头 / 导正冲",
+            "vi": "Chày dẫn / chày pilot"
+          }
+        },
+        {
+          "id": "oval",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-09-Oval-Punch.jpg",
+          "name": {
+            "en": "Oval punch",
+            "zh": "椭圆冲头",
+            "vi": "Chày oval"
+          }
+        }
+      ]
+    },
+    "hss-punches": {
+      "catalogMainFile": "output/htx-sources/punch-components/hss-punches/source-01-HSS-Punch-Manufacturer-1.jpg",
+      "variants": [
+        {
+          "id": "ejector",
+          "sourceFile": "output/htx-sources/punch-components/hss-punches/source-02-1-Ejector-punch.jpg",
+          "name": {
+            "en": "Ejector HSS punch",
+            "zh": "带退料 HSS 冲头",
+            "vi": "Chày HSS có đẩy phế"
+          }
+        },
+        {
+          "id": "flat",
+          "sourceFile": "output/htx-sources/punch-components/hss-punches/source-03-2-Flat-punch.jpg",
+          "name": {
+            "en": "Flat HSS punch",
+            "zh": "扁形 HSS 冲头",
+            "vi": "Chày HSS dẹt"
+          }
+        },
+        {
+          "id": "square",
+          "sourceFile": "output/htx-sources/punch-components/hss-punches/source-04-3-Square-punch.jpg",
+          "name": {
+            "en": "Square HSS punch",
+            "zh": "方形 HSS 冲头",
+            "vi": "Chày HSS vuông"
+          }
+        },
+        {
+          "id": "rectangular",
+          "sourceFile": "output/htx-sources/punch-components/hss-punches/source-05-4-Rectangular-punch.jpg",
+          "name": {
+            "en": "Rectangular HSS punch",
+            "zh": "矩形 HSS 冲头",
+            "vi": "Chày HSS chữ nhật"
+          }
+        },
+        {
+          "id": "step",
+          "sourceFile": "output/htx-sources/punch-components/hss-punches/source-06-5-Step-punch.jpg",
+          "name": {
+            "en": "Step HSS punch",
+            "zh": "台阶 HSS 冲头",
+            "vi": "Chày HSS bậc"
+          }
+        },
+        {
+          "id": "special-shaped",
+          "sourceFile": "output/htx-sources/punch-components/hss-punches/source-07-6-Special-shaped-punch.jpg",
+          "name": {
+            "en": "Special-shaped HSS punch",
+            "zh": "异形 HSS 冲头",
+            "vi": "Chày HSS biên dạng đặc biệt"
+          }
+        },
+        {
+          "id": "round",
+          "sourceFile": "output/htx-sources/punch-components/hss-punches/source-08-7-Round-punch.jpg",
+          "name": {
+            "en": "Round HSS punch",
+            "zh": "圆形 HSS 冲头",
+            "vi": "Chày HSS tròn"
+          }
+        },
+        {
+          "id": "guide",
+          "sourceFile": "output/htx-sources/punch-components/hss-punches/source-09-8-Guide-punch.jpg",
+          "name": {
+            "en": "Guide HSS punch",
+            "zh": "引导 HSS 冲头",
+            "vi": "Chày HSS dẫn hướng"
+          }
+        }
+      ]
+    },
+    "stepped-punches": {
+      "catalogMainFile": "output/htx-sources/punch-components/stepped-punches/source-01-Custom-Stepped-Punch-Manufacturer-1.jpg",
+      "variants": [
+        {
+          "id": "special-shaped",
+          "sourceFile": "output/htx-sources/punch-components/stepped-punches/source-03-1-Special-shaped-punches.jpg",
+          "name": {
+            "en": "Special-shaped stepped punches",
+            "zh": "异形台阶冲头",
+            "vi": "Chày bậc biên dạng đặc biệt"
+          }
+        },
+        {
+          "id": "stepped-round",
+          "sourceFile": "output/htx-sources/punch-components/stepped-punches/source-04-2-Stepped-round-punches.jpg",
+          "name": {
+            "en": "Stepped round punches",
+            "zh": "台阶圆冲",
+            "vi": "Chày bậc tròn"
+          }
+        },
+        {
+          "id": "stepped-square",
+          "sourceFile": "output/htx-sources/punch-components/stepped-punches/source-05-3-Stepped-square-punches.jpg",
+          "name": {
+            "en": "Stepped square punches",
+            "zh": "台阶方冲",
+            "vi": "Chày bậc vuông"
+          }
+        },
+        {
+          "id": "multi-diameter",
+          "sourceFile": "output/htx-sources/punch-components/stepped-punches/source-06-4-Multi-diameter-step-punches.jpg",
+          "name": {
+            "en": "Multi-diameter step punches",
+            "zh": "多级缩径台阶冲头",
+            "vi": "Chày bậc nhiều đường kính"
+          }
+        },
+        {
+          "id": "custom-shaped",
+          "sourceFile": "output/htx-sources/punch-components/stepped-punches/source-07-5-Custom-shaped-stepped-punches.jpg",
+          "name": {
+            "en": "Custom-shaped stepped punches",
+            "zh": "来图定制台阶冲头",
+            "vi": "Chày bậc tùy chỉnh theo bản vẽ"
+          }
+        }
+      ]
+    },
+    "stamping-die-punches": {
+      "catalogMainFile": "output/htx-sources/punch-components/stamping-die-punches/source-15-Tungsten-Carbide-Punch-Manufacturer-1.png",
+      "variants": [
+        {
+          "id": "custom-stamping",
+          "sourceFile": "output/htx-sources/punch-components/stamping-die-punches/source-06-Custom-Stamping-Die-Punches-1.jpg",
+          "name": {
+            "en": "Custom stamping die punches",
+            "zh": "定制冲压模冲头",
+            "vi": "Chày khuôn dập tùy chỉnh"
+          }
+        },
+        {
+          "id": "materials",
+          "sourceFile": "output/htx-sources/punch-components/stamping-die-punches/source-07-Materials-for-Stamping-Die-Punches.jpg",
+          "name": {
+            "en": "Materials for stamping die punches",
+            "zh": "冲压模冲头材料",
+            "vi": "Vật liệu chày khuôn dập"
+          }
+        },
+        {
+          "id": "manufacturer-range",
+          "sourceFile": "output/htx-sources/punch-components/stamping-die-punches/source-14-Stamping-Die-Punches-Manufacturer.png",
+          "name": {
+            "en": "Stamping die punch range",
+            "zh": "冲压模冲头系列",
+            "vi": "Dòng chày khuôn dập"
+          }
+        }
+      ]
+    },
+    "tableting-punches": {
+      "catalogMainFile": "output/htx-sources/punch-components/tableting-punches/source-21-Tungsten-Carbide-Punch-Manufacturer-1.png",
+      "variants": [
+        {
+          "id": "tablet-shapes",
+          "sourceFile": "output/htx-sources/punch-components/tableting-punches/source-03-1-Standard-Punches-and-Dies.png",
+          "name": {
+            "en": "Custom tablet shapes & punch profiles",
+            "zh": "定制片形与冲模轮廓",
+            "vi": "Hình viên và biên dạng chày tùy chỉnh"
+          }
+        },
+        {
+          "id": "engraved",
+          "sourceFile": "output/htx-sources/punch-components/tableting-punches/source-04-2-Specialty-Punches-and-Dies.png",
+          "name": {
+            "en": "Custom engraved punches and dies",
+            "zh": "刻字与标识冲模",
+            "vi": "Chày cối khắc chữ tùy chỉnh"
+          }
+        },
+        {
+          "id": "multi-tip",
+          "sourceFile": "output/htx-sources/punch-components/tableting-punches/source-05-3-Multi-tip-Punches-and-Dies.png",
+          "name": {
+            "en": "Multi-tip tablet tooling",
+            "zh": "多冲尖压片工装",
+            "vi": "Dụng cụ viên đa đầu"
+          }
+        },
+        {
+          "id": "press-specific",
+          "sourceFile": "output/htx-sources/punch-components/tableting-punches/source-06-Press-Specific-Custom-Tooling.png",
+          "name": {
+            "en": "Press-specific custom tooling",
+            "zh": "压机专用定制工装",
+            "vi": "Dụng cụ theo máy ép"
+          }
+        }
+      ]
+    },
+    "tungsten-carbide-punches": {
+      "catalogMainFile": "output/htx-sources/punch-components/forming-punches/source-06-Tungsten-Carbide-Punch-Manufacturer-1.png",
+      "variants": [
+        {
+          "id": "straight",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-27-1-Straight-Punch.png",
+          "name": {
+            "en": "Straight tungsten carbide punch",
+            "zh": "直身钨钢冲头",
+            "vi": "Chày hợp kim thẳng"
+          }
+        },
+        {
+          "id": "step",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-28-2-Step-punch.png",
+          "name": {
+            "en": "Step tungsten carbide punch",
+            "zh": "台阶钨钢冲头",
+            "vi": "Chày hợp kim bậc"
+          }
+        },
+        {
+          "id": "precision",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-29-3-Precision-punch.png",
+          "name": {
+            "en": "Precision tungsten carbide punch",
+            "zh": "精密钨钢冲头",
+            "vi": "Chày hợp kim chính xác"
+          }
+        },
+        {
+          "id": "coated",
+          "sourceFile": "output/htx-sources/punch-components/carbide-punches/source-30-4-Coated-Punch-Series.png",
+          "name": {
+            "en": "Coated punch series",
+            "zh": "涂层冲头系列",
+            "vi": "Dòng chày có lớp phủ"
+          }
+        }
+      ]
+    }
+  }
+}

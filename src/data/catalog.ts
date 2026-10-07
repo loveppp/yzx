@@ -30,14 +30,8 @@ export interface CatalogProduct {
 
 export const catalogGroups: CatalogGroup[] = data.groups;
 export const catalogProducts: CatalogProduct[] = data.products;
-/** Hidden from product hub, homepage strip, and nav product menu; direct URLs may still exist. */
-export const productCenterExcludedGroupIds = ['plastic-mold-components'] as const;
-export const productCenterGroups = catalogGroups.filter(
-  (g) => !productCenterExcludedGroupIds.includes(g.id as (typeof productCenterExcludedGroupIds)[number]),
-);
-export const productCenterProducts = catalogProducts.filter(
-  (p) => !productCenterExcludedGroupIds.includes(p.group as (typeof productCenterExcludedGroupIds)[number]),
-);
+export const productCenterGroups = catalogGroups;
+export const productCenterProducts = catalogProducts;
 export const legacyCategories: Record<string, string> = legacy.categories;
 export const legacyProducts: Record<string, string> = legacy.products;
 export const catalogText = (value: LocalizedText, locale: Locale) => value[locale] || value.en;

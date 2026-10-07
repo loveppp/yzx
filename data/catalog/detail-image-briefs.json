@@ -3,1580 +3,6 @@
   "purpose": "Reference-backed, distinct-style product image briefs. No paid generation by planning/build scripts.",
   "assets": [
     {
-      "id": "carbide-punches--type-a",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "type-a"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "carbide",
-      "familyInvariantEn": "Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.",
-      "structuralVariants": [
-        {
-          "id": "a-round",
-          "nameZh": "A型圆杆台阶冲针",
-          "geometryEn": "A complete headed stepped round punch: a cylindrical support shank reduces through a short shoulder transition to a smaller round working section. Round retaining head, flat circular working face. Plain round support surface.",
-          "differenceZh": "支撑杆为完整圆柱面；与削边款区别在杆身定位面。",
-          "structuralKey": "a-round",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://www.htx99.com/czctj/axcz.html",
-              "evidenceZh": "已查看详情实物图：圆形头部、圆杆、缩径圆工作段、短肩部过渡；不以两支的尺寸区别作为款式。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://www.htx99.com/UploadFiles/FCK/2018-11/%E5%BF%AB%E7%85%A7%2011(1).jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "A型圆杆台阶冲针",
-            "en": "Plain-shank stepped round punch",
-            "vi": "Chày bậc thân tròn"
-          }
-        },
-        {
-          "id": "a-flat",
-          "nameZh": "A型削边台阶冲针",
-          "geometryEn": "A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.",
-          "differenceZh": "支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。",
-          "structuralKey": "a-flat",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://www.htx99.com/czctj/axxbczct.html",
-              "evidenceZh": "已查看原图：缩径圆工作段、较粗支撑杆上有清楚的纵向削平面、短肩部、底端圆形头部。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://www.htx99.com/UploadFiles/Others/10.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "A型削边台阶冲针",
-            "en": "Stepped round punch with locating flat",
-            "vi": "Chày bậc có mặt phẳng định vị"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "A型圆杆台阶冲针；A型削边台阶冲针。每款各一件/套，差异见逐件清单。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "A型台阶冲针 · 圆杆与削边款",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
-      "caption": {
-        "zh": "A型圆杆台阶冲针 / A型削边台阶冲针",
-        "en": "Plain-shank stepped round punch / Stepped round punch with locating flat",
-        "vi": "Chày bậc thân tròn / Chày bậc có mặt phẳng định vị"
-      }
-    },
-    {
-      "id": "carbide-punches--type-t",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "type-t"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "carbide",
-      "familyInvariantEn": "Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides. All items must retain exactly one head-to-shank shoulder and a constant-diameter working shank; no reduced A-type tip.",
-      "structuralVariants": [
-        {
-          "id": "t-round",
-          "nameZh": "T型单肩直身圆冲",
-          "geometryEn": "A complete single-shoulder round punch: one modest retaining head and a constant-diameter cylindrical working shank ending in a flat circular face. No reduced tip or additional body shoulder.",
-          "differenceZh": "目前仅核实一种单肩直身款；同款长短变化不能成为第二款。",
-          "structuralKey": "t-round",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://www.htx99.com/czctj/txczct.html",
-              "evidenceZh": "已查看原图：同一单肩直身结构的多件展示；不能证明存在多个不同结构款式。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://www.htx99.com/UploadFiles/Others/08(4).jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "T型单肩直身圆冲",
-            "en": "Single-shoulder straight round punch",
-            "vi": "Chày tròn thân thẳng một vai"
-          }
-        }
-      ],
-      "missingEvidenceZh": [
-        "已核实T冲单肩直身，但未找到第二种不同结构；不可画成A冲。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "T型单肩直身圆冲。待补充：已核实T冲单肩直身，但未找到第二种不同结构；不可画成A冲。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "T型单肩直身冲针款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "carbide-punches--hexagonal",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "hexagonal"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "carbide",
-      "familyInvariantEn": "Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides. Every cutting profile must have exactly six sides.",
-      "structuralVariants": [
-        {
-          "id": "hex",
-          "nameZh": "六角工作端冲头",
-          "geometryEn": "A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "六边形工作轮廓",
-          "structuralKey": "hex",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "六角工作端冲头",
-            "en": "Hexagonal working end",
-            "vi": "Đầu làm việc lục giác"
-          }
-        }
-      ],
-      "missingEvidenceZh": [
-        "第二款也必须是六角工作端，需要安装/过渡差异依据；八角不能凑入。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "六角工作端冲头。待补充：第二款也必须是六角工作端，需要安装/过渡差异依据；八角不能凑入。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "六角冲头款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "carbide-punches--oval-obround",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "oval"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "carbide",
-      "familyInvariantEn": "Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.",
-      "structuralVariants": [
-        {
-          "id": "ellipse",
-          "nameZh": "椭圆工作端冲头",
-          "geometryEn": "A complete precision punch with flat true elliptical working face, continuously curved with no straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "连续曲线椭圆轮廓",
-          "structuralKey": "ellipse",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "Oval文字未充分区分椭圆与长圆；参考图端面不可辨，需补充清晰端面来源。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        },
-        {
-          "id": "obround",
-          "nameZh": "长圆工作端冲头",
-          "geometryEn": "A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "两条平行直边加两端半圆，区别于椭圆",
-          "structuralKey": "obround",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "长圆工作端冲头",
-            "en": "Obround working end",
-            "vi": "Đầu làm việc dạng thuôn"
-          }
-        }
-      ],
-      "missingEvidenceZh": [
-        "椭圆端面参考不清；确认连续曲线与两直边长圆的区别。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "椭圆工作端冲头；长圆工作端冲头。待补充：椭圆端面参考不清；确认连续曲线与两直边长圆的区别。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "椭圆与长圆工作端",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "carbide-punches--coated",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "coated"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "carbide",
-      "familyInvariantEn": "Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.",
-      "structuralVariants": [
-        {
-          "id": "square",
-          "nameZh": "方形工作端冲头",
-          "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "四边等长方形工作轮廓",
-          "structuralKey": "square",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "方形工作端冲头",
-            "en": "Square working end",
-            "vi": "Đầu làm việc vuông"
-          }
-        },
-        {
-          "id": "hex",
-          "nameZh": "六角工作端冲头",
-          "geometryEn": "A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "六边形工作轮廓",
-          "structuralKey": "hex",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "六角工作端冲头",
-            "en": "Hexagonal working end",
-            "vi": "Đầu làm việc lục giác"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "方形与六角两款不同结构，用作表面处理选型配图；均使用中性金属外观，具体涂层用文字说明。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "表面处理选型 · 方形与六角冲头",
-      "finishEn": "Use the same neutral uncoated finish on both different profiles. This image accompanies surface-treatment selection text; do not encode a coating grade or claim performance using color.",
-      "caption": {
-        "zh": "方形工作端冲头 / 六角工作端冲头",
-        "en": "Square working end / Hexagonal working end",
-        "vi": "Đầu làm việc vuông / Đầu làm việc lục giác"
-      }
-    },
-    {
-      "id": "carbide-punches--profiles",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "profile"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "carbide",
-      "familyInvariantEn": "Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.",
-      "structuralVariants": [
-        {
-          "id": "square",
-          "nameZh": "方形工作端冲头",
-          "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "四边等长方形工作轮廓",
-          "structuralKey": "square",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "方形工作端冲头",
-            "en": "Square working end",
-            "vi": "Đầu làm việc vuông"
-          }
-        },
-        {
-          "id": "rectangle",
-          "nameZh": "矩形工作端冲头",
-          "geometryEn": "A complete precision punch with flat rectangular working face with unequal adjacent side lengths. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "长短边不同的矩形工作轮廓",
-          "structuralKey": "rectangle",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "矩形工作端冲头",
-            "en": "Rectangular working end",
-            "vi": "Đầu làm việc chữ nhật"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "方形工作端冲头；矩形工作端冲头。每款各一件/套，差异见逐件清单。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "方形与矩形工作端",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
-      "caption": {
-        "zh": "方形工作端冲头 / 矩形工作端冲头",
-        "en": "Square working end / Rectangular working end",
-        "vi": "Đầu làm việc vuông / Đầu làm việc chữ nhật"
-      }
-    },
-    {
-      "id": "carbide-punches--stepped",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "stepped"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "carbide",
-      "familyInvariantEn": "Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.",
-      "structuralVariants": [
-        {
-          "id": "a-round",
-          "nameZh": "A型圆杆台阶冲针",
-          "geometryEn": "A complete headed stepped round punch: a cylindrical support shank reduces through a short shoulder transition to a smaller round working section. Round retaining head, flat circular working face. Plain round support surface.",
-          "differenceZh": "支撑杆为完整圆柱面；与削边款区别在杆身定位面。",
-          "structuralKey": "a-round",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://www.htx99.com/czctj/axcz.html",
-              "evidenceZh": "已查看详情实物图：圆形头部、圆杆、缩径圆工作段、短肩部过渡；不以两支的尺寸区别作为款式。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://www.htx99.com/UploadFiles/FCK/2018-11/%E5%BF%AB%E7%85%A7%2011(1).jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "A型圆杆台阶冲针",
-            "en": "Plain-shank stepped round punch",
-            "vi": "Chày bậc thân tròn"
-          }
-        },
-        {
-          "id": "a-flat",
-          "nameZh": "A型削边台阶冲针",
-          "geometryEn": "A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.",
-          "differenceZh": "支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。",
-          "structuralKey": "a-flat",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://www.htx99.com/czctj/axxbczct.html",
-              "evidenceZh": "已查看原图：缩径圆工作段、较粗支撑杆上有清楚的纵向削平面、短肩部、底端圆形头部。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://www.htx99.com/UploadFiles/Others/10.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "A型削边台阶冲针",
-            "en": "Stepped round punch with locating flat",
-            "vi": "Chày bậc có mặt phẳng định vị"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "A型圆杆台阶冲针；A型削边台阶冲针。每款各一件/套，差异见逐件清单。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "台阶冲头 · 圆杆与削边款",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
-      "caption": {
-        "zh": "A型圆杆台阶冲针 / A型削边台阶冲针",
-        "en": "Plain-shank stepped round punch / Stepped round punch with locating flat",
-        "vi": "Chày bậc thân tròn / Chày bậc có mặt phẳng định vị"
-      },
-      "reuseOf": "carbide-punches--type-a"
-    },
-    {
-      "id": "carbide-punches--cutoff",
-      "productId": "carbide-punches",
-      "configurationIds": [
-        "cutting"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "carbide",
-      "familyInvariantEn": "Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.",
-      "structuralVariants": [
-        {
-          "id": "cutoff",
-          "nameZh": "切断冲头",
-          "geometryEn": "A supported straight-edge cut-off punch. Mounting body and cutting-edge geometry must be confirmed from a specific reference before generation.",
-          "differenceZh": "切断功能与冲孔不同；切口和安装端的两款结构待核对。",
-          "structuralKey": "cutoff",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/stamping-die-punch/",
-              "evidenceZh": "正文说明按图定制冲裁件，未提供切断端和可更换安装端的两种确定几何。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            },
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "缺两种切断端结构，不以冲孔件代替。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "切断冲头。待补充：缺两种切断端结构，不以冲孔件代替。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "切断冲头款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "hss-punches--square-rectangle",
-      "productId": "hss-punches",
-      "configurationIds": [
-        "square",
-        "flat"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "hss",
-      "familyInvariantEn": "Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.",
-      "structuralVariants": [
-        {
-          "id": "square",
-          "nameZh": "方形工作端冲头",
-          "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "四边等长方形工作轮廓",
-          "structuralKey": "square",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            }
-          ],
-          "name": {
-            "zh": "方形工作端冲头",
-            "en": "Square working end",
-            "vi": "Đầu làm việc vuông"
-          }
-        },
-        {
-          "id": "rectangle",
-          "nameZh": "矩形工作端冲头",
-          "geometryEn": "A complete precision punch with flat rectangular working face with unequal adjacent side lengths. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "长短边不同的矩形工作轮廓",
-          "structuralKey": "rectangle",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            }
-          ],
-          "name": {
-            "zh": "矩形工作端冲头",
-            "en": "Rectangular working end",
-            "vi": "Đầu làm việc chữ nhật"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "方形工作端冲头；矩形工作端冲头。每款各一件/套，差异见逐件清单。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "高速钢方形与矩形冲头",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
-      "caption": {
-        "zh": "方形工作端冲头 / 矩形工作端冲头",
-        "en": "Square working end / Rectangular working end",
-        "vi": "Đầu làm việc vuông / Đầu làm việc chữ nhật"
-      }
-    },
-    {
-      "id": "hss-punches--blade",
-      "productId": "hss-punches",
-      "configurationIds": [
-        "flat"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "hss",
-      "familyInvariantEn": "Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.",
-      "structuralVariants": [
-        {
-          "id": "flat-blade",
-          "nameZh": "窄扁工作段冲头",
-          "geometryEn": "A flat rectangular working section supported by a round shank; locating and root geometry await the detailed reference.",
-          "differenceZh": "扁平工作段；需确认第二款的安装/过渡差异。",
-          "structuralKey": "flat-blade",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看 Flat HSS Punch 图：两件有安装杆削平/圆杆差异，仍需更清晰资料核对削平位置与过渡。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/2-Flat-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需要核实两款扁冲的根部和定位结构。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "窄扁工作段冲头。待补充：需要核实两款扁冲的根部和定位结构。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "高速钢窄扁冲头款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "hss-punches--stepped",
-      "productId": "hss-punches",
-      "configurationIds": [
-        "stepped"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "hss",
-      "familyInvariantEn": "Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.",
-      "structuralVariants": [
-        {
-          "id": "a-round",
-          "nameZh": "A型圆杆台阶冲针",
-          "geometryEn": "A complete headed stepped round punch: a cylindrical support shank reduces through a short shoulder transition to a smaller round working section. Round retaining head, flat circular working face. Plain round support surface.",
-          "differenceZh": "支撑杆为完整圆柱面；与削边款区别在杆身定位面。",
-          "structuralKey": "a-round",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://www.htx99.com/czctj/axcz.html",
-              "evidenceZh": "已查看详情实物图：圆形头部、圆杆、缩径圆工作段、短肩部过渡；不以两支的尺寸区别作为款式。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://www.htx99.com/UploadFiles/FCK/2018-11/%E5%BF%AB%E7%85%A7%2011(1).jpg"
-            },
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看 Step HSS Punch 图：常规缩径款与杆身有定位削平的缩径款；不采用第三件的复杂多级结构。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/5-Step-punch.jpg"
-            }
-          ],
-          "name": {
-            "zh": "A型圆杆台阶冲针",
-            "en": "Plain-shank stepped round punch",
-            "vi": "Chày bậc thân tròn"
-          }
-        },
-        {
-          "id": "a-flat",
-          "nameZh": "A型削边台阶冲针",
-          "geometryEn": "A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.",
-          "differenceZh": "支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。",
-          "structuralKey": "a-flat",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://www.htx99.com/czctj/axxbczct.html",
-              "evidenceZh": "已查看原图：缩径圆工作段、较粗支撑杆上有清楚的纵向削平面、短肩部、底端圆形头部。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://www.htx99.com/UploadFiles/Others/10.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看 Step HSS Punch 图：常规缩径款与杆身有定位削平的缩径款；不采用第三件的复杂多级结构。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/5-Step-punch.jpg"
-            }
-          ],
-          "name": {
-            "zh": "A型削边台阶冲针",
-            "en": "Stepped round punch with locating flat",
-            "vi": "Chày bậc có mặt phẳng định vị"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "A型圆杆台阶冲针；A型削边台阶冲针。每款各一件/套，差异见逐件清单。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "高速钢台阶冲头 · 圆杆与削边款",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
-      "caption": {
-        "zh": "A型圆杆台阶冲针 / A型削边台阶冲针",
-        "en": "Plain-shank stepped round punch / Stepped round punch with locating flat",
-        "vi": "Chày bậc thân tròn / Chày bậc có mặt phẳng định vị"
-      }
-    },
-    {
-      "id": "hss-punches--special",
-      "productId": "hss-punches",
-      "configurationIds": [
-        "profile"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "hss",
-      "familyInvariantEn": "Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.",
-      "structuralVariants": [
-        {
-          "id": "hex",
-          "nameZh": "六角工作端冲头",
-          "geometryEn": "A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "六边形工作轮廓",
-          "structuralKey": "hex",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            }
-          ],
-          "name": {
-            "zh": "六角工作端冲头",
-            "en": "Hexagonal working end",
-            "vi": "Đầu làm việc lục giác"
-          }
-        },
-        {
-          "id": "octagon",
-          "nameZh": "八角工作端冲头",
-          "geometryEn": "A complete precision punch with flat octagonal working face with exactly eight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "八边形工作轮廓",
-          "structuralKey": "octagon",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            },
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            }
-          ],
-          "name": {
-            "zh": "八角工作端冲头",
-            "en": "Octagonal working end",
-            "vi": "Đầu làm việc bát giác"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "六角工作端冲头；八角工作端冲头。每款各一件/套，差异见逐件清单。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "高速钢六角与八角工作端",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
-      "caption": {
-        "zh": "六角工作端冲头 / 八角工作端冲头",
-        "en": "Hexagonal working end / Octagonal working end",
-        "vi": "Đầu làm việc lục giác / Đầu làm việc bát giác"
-      }
-    },
-    {
-      "id": "stepped-punches--square",
-      "productId": "stepped-punches",
-      "configurationIds": [
-        "square"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "step-square",
-          "nameZh": "台阶方形工作端冲头",
-          "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.",
-          "differenceZh": "四边等长方形工作轮廓，保持缩径台阶。",
-          "structuralKey": "step-square",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/stepped-punch/",
-              "evidenceZh": "正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "台阶方形工作端冲头",
-            "en": "Stepped punch with square working end",
-            "vi": "Chày bậc: đầu làm việc vuông"
-          }
-        }
-      ],
-      "missingEvidenceZh": [
-        "第二款仍须方形端，待核实不同安装结构，不混入矩形。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "台阶方形工作端冲头。待补充：第二款仍须方形端，待核实不同安装结构，不混入矩形。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "台阶方冲款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "stepped-punches--special",
-      "productId": "stepped-punches",
-      "configurationIds": [
-        "custom"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "step-hex",
-          "nameZh": "台阶六角工作端冲头",
-          "geometryEn": "A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.",
-          "differenceZh": "六边形工作轮廓，保持缩径台阶。",
-          "structuralKey": "step-hex",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/stepped-punch/",
-              "evidenceZh": "正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "台阶六角工作端冲头",
-            "en": "Stepped punch with hexagonal working end",
-            "vi": "Chày bậc: đầu làm việc lục giác"
-          }
-        },
-        {
-          "id": "step-obround",
-          "nameZh": "台阶长圆工作端冲头",
-          "geometryEn": "A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.",
-          "differenceZh": "两条平行直边加两端半圆，区别于椭圆，保持缩径台阶。",
-          "structuralKey": "step-obround",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/stepped-punch/",
-              "evidenceZh": "正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "台阶长圆工作端冲头",
-            "en": "Stepped punch with obround working end",
-            "vi": "Chày bậc: đầu làm việc dạng thuôn"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "台阶六角工作端冲头；台阶长圆工作端冲头。每款各一件/套，差异见逐件清单。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "台阶六角与长圆工作端",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
-      "caption": {
-        "zh": "台阶六角工作端冲头 / 台阶长圆工作端冲头",
-        "en": "Stepped punch with hexagonal working end / Stepped punch with obround working end",
-        "vi": "Chày bậc: đầu làm việc lục giác / Chày bậc: đầu làm việc dạng thuôn"
-      }
-    },
-    {
-      "id": "stepped-punches--multi",
-      "productId": "stepped-punches",
-      "configurationIds": [
-        "multiple"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "multi-round",
-          "nameZh": "多级圆形台阶冲头",
-          "geometryEn": "A complete round punch with multiple coaxial diameter sections and a flat circular working end. Exact tier count and retaining geometry await a specific reference.",
-          "differenceZh": "多级圆形结构已列名，但未核实两款具体多级结构。",
-          "structuralKey": "multi-round",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/stepped-punch/",
-              "evidenceZh": "正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需两种实际多级台阶结构，不能任意增加轴肩。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "多级圆形台阶冲头。待补充：需两种实际多级台阶结构，不能任意增加轴肩。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "多级台阶冲头款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "stamping-die-punches--cutoff",
-      "productId": "stamping-die-punches",
-      "configurationIds": [
-        "cutoff"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "cutoff",
-          "nameZh": "切断冲头",
-          "geometryEn": "A supported straight-edge cut-off punch. Mounting body and cutting-edge geometry must be confirmed from a specific reference before generation.",
-          "differenceZh": "切断功能与冲孔不同；切口和安装端的两款结构待核对。",
-          "structuralKey": "cutoff",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/stamping-die-punch/",
-              "evidenceZh": "正文说明按图定制冲裁件，未提供切断端和可更换安装端的两种确定几何。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "缺两种可核实切断结构。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "切断冲头。待补充：缺两种可核实切断结构。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "冲压切断件款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "stamping-die-punches--mount",
-      "productId": "stamping-die-punches",
-      "configurationIds": [
-        "replacement"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "mount-flat",
-          "nameZh": "带定位削平的可更换冲裁件",
-          "geometryEn": "A replaceable punch with a locating flat; mounting and retention details are not yet verified.",
-          "differenceZh": "安装定位结构，不以工作长度区分款式。",
-          "structuralKey": "mount-flat",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/stamping-die-punch/",
-              "evidenceZh": "正文说明按图定制冲裁件，未提供切断端和可更换安装端的两种确定几何。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需两种实际安装/更换结构。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "带定位削平的可更换冲裁件。待补充：需两种实际安装/更换结构。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "冲裁件安装端款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "stamping-die-punches--slot",
-      "productId": "stamping-die-punches",
-      "configurationIds": [
-        "profile"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety. Every cutting face is obround, not elliptical.",
-      "structuralVariants": [
-        {
-          "id": "obround",
-          "nameZh": "长圆工作端冲头",
-          "geometryEn": "A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "两条平行直边加两端半圆，区别于椭圆",
-          "structuralKey": "obround",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "长圆工作端冲头",
-            "en": "Obround working end",
-            "vi": "Đầu làm việc dạng thuôn"
-          }
-        }
-      ],
-      "missingEvidenceZh": [
-        "两件均须长圆槽工作端，需不同安装/支撑结构依据。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "长圆工作端冲头。待补充：两件均须长圆槽工作端，需不同安装/支撑结构依据。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "长圆槽冲头款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "forming-punches--polygon",
-      "productId": "forming-punches",
-      "configurationIds": [
-        "polygon"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "square",
-          "nameZh": "方形工作端冲头",
-          "geometryEn": "A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "四边等长方形工作轮廓",
-          "structuralKey": "square",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            }
-          ],
-          "name": {
-            "zh": "方形工作端冲头",
-            "en": "Square working end",
-            "vi": "Đầu làm việc vuông"
-          }
-        },
-        {
-          "id": "hex",
-          "nameZh": "六角工作端冲头",
-          "geometryEn": "A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "六边形工作轮廓",
-          "structuralKey": "hex",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/hss-punch/",
-              "evidenceZh": "已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg"
-            }
-          ],
-          "name": {
-            "zh": "六角工作端冲头",
-            "en": "Hexagonal working end",
-            "vi": "Đầu làm việc lục giác"
-          }
-        }
-      ],
-      "missingEvidenceZh": [],
-      "generationReady": true,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "方形工作端冲头；六角工作端冲头。每款各一件/套，差异见逐件清单。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "方形与六角异形冲头",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.",
-      "caption": {
-        "zh": "方形工作端冲头 / 六角工作端冲头",
-        "en": "Square working end / Hexagonal working end",
-        "vi": "Đầu làm việc vuông / Đầu làm việc lục giác"
-      }
-    },
-    {
-      "id": "forming-punches--oval-obround",
-      "productId": "forming-punches",
-      "configurationIds": [
-        "obround"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "ellipse",
-          "nameZh": "椭圆工作端冲头",
-          "geometryEn": "A complete precision punch with flat true elliptical working face, continuously curved with no straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "连续曲线椭圆轮廓",
-          "structuralKey": "ellipse",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "Oval文字未充分区分椭圆与长圆；参考图端面不可辨，需补充清晰端面来源。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        },
-        {
-          "id": "obround",
-          "nameZh": "长圆工作端冲头",
-          "geometryEn": "A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.",
-          "differenceZh": "两条平行直边加两端半圆，区别于椭圆",
-          "structuralKey": "obround",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://htxprecision.com/carbide-punch/",
-              "evidenceZh": "正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。",
-              "verification": "text-supported",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "name": {
-            "zh": "长圆工作端冲头",
-            "en": "Obround working end",
-            "vi": "Đầu làm việc dạng thuôn"
-          }
-        }
-      ],
-      "missingEvidenceZh": [
-        "椭圆资料不足，不能把长圆缩放当成椭圆。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "椭圆工作端冲头；长圆工作端冲头。待补充：椭圆资料不足，不能把长圆缩放当成椭圆。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "椭圆与长圆异形冲头",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "forming-punches--contour",
-      "productId": "forming-punches",
-      "configurationIds": [
-        "forming",
-        "angled"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "contour",
-          "nameZh": "曲面成型冲头",
-          "geometryEn": "A forming punch whose non-planar working surface must be specified from a confirmed forming profile.",
-          "differenceZh": "成型面不是任意圆头；缺少具体成型轮廓依据。",
-          "structuralKey": "contour",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/stamping-die-punch/",
-              "evidenceZh": "正文说明按图定制冲裁件，未提供切断端和可更换安装端的两种确定几何。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需两种明确成型轮廓；取消臆造球头与斜端固定组合。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "曲面成型冲头。待补充：需两种明确成型轮廓；取消臆造球头与斜端固定组合。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "曲面成型冲头款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "a-type-punches--flat",
-      "productId": "a-type-punches",
-      "configurationIds": [
-        "flat"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item is a Type-A stepped punch with a reduced working section; a straight Type-T shank is excluded. Every member must be a stepped A punch with a verified locating flat.",
-      "structuralVariants": [
-        {
-          "id": "a-flat",
-          "nameZh": "A型削边台阶冲针",
-          "geometryEn": "A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.",
-          "differenceZh": "支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。",
-          "structuralKey": "a-flat",
-          "verificationStatus": "verified",
-          "references": [
-            {
-              "url": "https://www.htx99.com/czctj/axxbczct.html",
-              "evidenceZh": "已查看原图：缩径圆工作段、较粗支撑杆上有清楚的纵向削平面、短肩部、底端圆形头部。",
-              "verification": "geometry-reviewed",
-              "reviewedAt": "2026-09-30",
-              "imageUrl": "https://www.htx99.com/UploadFiles/Others/10.jpg"
-            }
-          ],
-          "name": {
-            "zh": "A型削边台阶冲针",
-            "en": "Stepped round punch with locating flat",
-            "vi": "Chày bậc có mặt phẳng định vị"
-          }
-        }
-      ],
-      "missingEvidenceZh": [
-        "现只核实一种削边A冲；第二件也须削边款，不能拿普通圆杆凑数。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "A型削边台阶冲针。待补充：现只核实一种削边A冲；第二件也须削边款，不能拿普通圆杆凑数。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "A型削边冲针款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "tableting-punches--cup-shapes",
-      "productId": "tableting-punches",
-      "configurationIds": [
-        "shape",
-        "upper",
-        "lower"
-      ],
-      "composition": "matched-set",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 6,
-      "materialClass": "steel",
-      "familyInvariantEn": "Only tablet tooling of the selected face family; matched sets must have compatible upper punch, lower punch and die.",
-      "structuralVariants": [
-        {
-          "id": "tablet-round",
-          "nameZh": "圆形压片冲模套装",
-          "geometryEn": "One matched upper punch, lower punch and die with round working profiles.",
-          "differenceZh": "圆形工作轮廓的一套。",
-          "structuralKey": "tablet-round",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/dies-and-punches-for-tableting/",
-              "evidenceZh": "需要核实上下冲接口、杯面与中模轮廓；不能凭旧生成图认定。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "members": [
-            {
-              "nameZh": "上冲",
-              "quantity": 1
-            },
-            {
-              "nameZh": "下冲",
-              "quantity": 1
-            },
-            {
-              "nameZh": "中模",
-              "quantity": 1
-            }
-          ]
-        },
-        {
-          "id": "tablet-obround",
-          "nameZh": "长圆压片冲模套装",
-          "geometryEn": "One matched upper punch, lower punch and die with obround working profiles.",
-          "differenceZh": "长圆工作轮廓的一套。",
-          "structuralKey": "tablet-obround",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/dies-and-punches-for-tableting/",
-              "evidenceZh": "需核实长圆工作端的上下冲和匹配中模，不能用圆套装换尺寸。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ],
-          "members": [
-            {
-              "nameZh": "上冲",
-              "quantity": 1
-            },
-            {
-              "nameZh": "下冲",
-              "quantity": 1
-            },
-            {
-              "nameZh": "中模",
-              "quantity": 1
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需核实完整套装及两种杯面，不能仅改冲头长度。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "圆形压片冲模套装；长圆压片冲模套装。待补充：需核实完整套装及两种杯面，不能仅改冲头长度。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Two distinct matched sets in separate groups; no shared mating components between sets. Show all working and mating faces.",
-      "titleZh": "圆形与长圆压片冲模套装",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "tableting-punches--score",
-      "productId": "tableting-punches",
-      "configurationIds": [
-        "engraved"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Only tablet tooling of the selected face family; matched sets must have compatible upper punch, lower punch and die.",
-      "structuralVariants": [
-        {
-          "id": "tablet-score",
-          "nameZh": "分割线冲面压片冲头",
-          "geometryEn": "A complete tablet punch with a scored-cup tooling face; ridge polarity requires a reference.",
-          "differenceZh": "单线/十字线属于候选差异，尚无具体杯面依据。",
-          "structuralKey": "tablet-score",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/dies-and-punches-for-tableting/",
-              "evidenceZh": "单线/十字线属于候选差异，尚无具体杯面依据。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需两种真实分割线杯面；单线与十字线目前未核实。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "分割线冲面压片冲头。待补充：需两种真实分割线杯面；单线与十字线目前未核实。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "分割线冲面款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
-      "id": "tableting-punches--multi",
-      "productId": "tableting-punches",
-      "configurationIds": [
-        "multi-tip"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 1,
-      "pieceCount": 1,
-      "materialClass": "steel",
-      "familyInvariantEn": "Only tablet tooling of the selected face family; matched sets must have compatible upper punch, lower punch and die.",
-      "structuralVariants": [
-        {
-          "id": "tablet-multi",
-          "nameZh": "多冲尖压片冲头",
-          "geometryEn": "A complete multi-tip tablet punch; tip attachment and cup shape require a reference.",
-          "differenceZh": "双冲尖/不同轮廓组合待核实，不凭空增添尖头。",
-          "structuralKey": "tablet-multi",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/dies-and-punches-for-tableting/",
-              "evidenceZh": "双冲尖/不同轮廓组合待核实，不凭空增添尖头。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需两种多冲尖结构，核实各冲尖支撑与杯面。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "多冲尖压片冲头。待补充：需两种多冲尖结构，核实各冲尖支撑与杯面。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "多冲尖压片冲头款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
       "id": "blade-ejector-pins--transition",
       "productId": "blade-ejector-pins",
       "configurationIds": [
@@ -1962,67 +388,6 @@
       "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
     },
     {
-      "id": "sprue-bushings--nozzle-seat",
-      "productId": "sprue-bushings",
-      "configurationIds": [
-        "cold",
-        "type-a",
-        "type-b",
-        "type-c"
-      ],
-      "composition": "series",
-      "targetVariantCount": 2,
-      "variantCount": 2,
-      "pieceCount": 2,
-      "materialClass": "steel",
-      "familyInvariantEn": "Every item belongs to Sprue Bushings. Do not import adjacent product families to increase variety.",
-      "structuralVariants": [
-        {
-          "id": "sprue-a",
-          "nameZh": "A型浇口套",
-          "geometryEn": "A-type cold-runner sprue bushing, pending verification of the head and nozzle-seat drawing.",
-          "differenceZh": "须核对A型的实际定位面，不能按字母猜形状。",
-          "structuralKey": "sprue-a",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/sprue-bushing/",
-              "evidenceZh": "A/B/C型号有尺寸表，但尚未核对型号结构图；型号不同不直接证明外形结构不同。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        },
-        {
-          "id": "sprue-c",
-          "nameZh": "C型浇口套",
-          "geometryEn": "C-type cold-runner sprue bushing, pending verification of the mounting and nozzle-seat drawing.",
-          "differenceZh": "须核对C型与A型是否存在可辨结构差异。",
-          "structuralKey": "sprue-c",
-          "verificationStatus": "needs-evidence",
-          "references": [
-            {
-              "url": "https://htxprecision.com/sprue-bushing/",
-              "evidenceZh": "A/B/C型号有尺寸表，但尚未核对型号结构图；型号不同不直接证明外形结构不同。",
-              "verification": "name-only",
-              "reviewedAt": "2026-09-30"
-            }
-          ]
-        }
-      ],
-      "missingEvidenceZh": [
-        "需确认两种完整浇口套的喷嘴座结构；不同球面半径不单独算款式。"
-      ],
-      "generationReady": false,
-      "revisionAction": "rewrite-all-prompts",
-      "descriptionZh": "A型浇口套；C型浇口套。待补充：需确认两种完整浇口套的喷嘴座结构；不同球面半径不单独算款式。",
-      "reviewZh": "确认每件属于本图类别且与逐件清单对应；尺寸、颜色、摆放角度不计款式。不得添加未核实结构。",
-      "avoidEn": "No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
-      "titleZh": "浇口套喷嘴接触面款式",
-      "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
-    },
-    {
       "id": "graphite-bronze-bushings--working-bore",
       "productId": "graphite-bronze-bushings",
       "configurationIds": [
@@ -2135,6 +500,1606 @@
       "layoutEn": "Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.",
       "titleZh": "内螺纹拔出式定位销款式",
       "finishEn": "Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments."
+    },
+    {
+      "id": "carbide-punches--type-a",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "type-a"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "type-a",
+          "nameZh": "A 型圆柱直身冲针",
+          "geometryEn": "Representative Straight punch (cylindrical) Type A per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "type-a",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Straight punch (cylindrical) Type A",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Straight punch (cylindrical) Type A",
+            "zh": "A 型圆柱直身冲针",
+            "vi": "Chày thân trụ loại A"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "A 型圆柱直身冲针",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "A 型圆柱直身冲针",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Straight punch (cylindrical) Type A",
+        "zh": "A 型圆柱直身冲针",
+        "vi": "Chày thân trụ loại A"
+      }
+    },
+    {
+      "id": "carbide-punches--type-t",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "type-t"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "type-t",
+          "nameZh": "T 型圆柱直身冲针",
+          "geometryEn": "Representative Straight punch (cylindrical) Type T per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "type-t",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Straight punch (cylindrical) Type T",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Straight punch (cylindrical) Type T",
+            "zh": "T 型圆柱直身冲针",
+            "vi": "Chày thân trụ loại T"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "T 型圆柱直身冲针",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "T 型圆柱直身冲针",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Straight punch (cylindrical) Type T",
+        "zh": "T 型圆柱直身冲针",
+        "vi": "Chày thân trụ loại T"
+      }
+    },
+    {
+      "id": "carbide-punches--profile",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "profile"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "profile",
+          "nameZh": "定制异形直身冲针",
+          "geometryEn": "Representative Custom special shaped straight punches per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "profile",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Custom special shaped straight punches",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Custom special shaped straight punches",
+            "zh": "定制异形直身冲针",
+            "vi": "Chày thẳng biên dạng tùy chỉnh"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "定制异形直身冲针",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "定制异形直身冲针",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Custom special shaped straight punches",
+        "zh": "定制异形直身冲针",
+        "vi": "Chày thẳng biên dạng tùy chỉnh"
+      }
+    },
+    {
+      "id": "carbide-punches--cutting",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "cutting"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "cutting",
+          "nameZh": "切断冲头",
+          "geometryEn": "Representative Cutting punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "cutting",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Cutting punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Cutting punch",
+            "zh": "切断冲头",
+            "vi": "Chày cắt"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "切断冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "切断冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Cutting punch",
+        "zh": "切断冲头",
+        "vi": "Chày cắt"
+      }
+    },
+    {
+      "id": "carbide-punches--precision",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "precision"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "precision",
+          "nameZh": "精密冲头",
+          "geometryEn": "Representative Precision punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "precision",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Precision punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Precision punch",
+            "zh": "精密冲头",
+            "vi": "Chày chính xác"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "精密冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "精密冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Precision punch",
+        "zh": "精密冲头",
+        "vi": "Chày chính xác"
+      }
+    },
+    {
+      "id": "carbide-punches--hexagonal",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "hexagonal"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "hexagonal",
+          "nameZh": "六角冲头",
+          "geometryEn": "Representative Hexagonal punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "hexagonal",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Hexagonal punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Hexagonal punch",
+            "zh": "六角冲头",
+            "vi": "Chày lục giác"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "六角冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "六角冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Hexagonal punch",
+        "zh": "六角冲头",
+        "vi": "Chày lục giác"
+      }
+    },
+    {
+      "id": "carbide-punches--pilot",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "pilot"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "pilot",
+          "nameZh": "引导冲头 / 导正冲",
+          "geometryEn": "Representative Guide / pilot punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "pilot",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Guide / pilot punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Guide / pilot punch",
+            "zh": "引导冲头 / 导正冲",
+            "vi": "Chày dẫn / chày pilot"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "引导冲头 / 导正冲",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "引导冲头 / 导正冲",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Guide / pilot punch",
+        "zh": "引导冲头 / 导正冲",
+        "vi": "Chày dẫn / chày pilot"
+      }
+    },
+    {
+      "id": "carbide-punches--oval",
+      "productId": "carbide-punches",
+      "configurationIds": [
+        "oval"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "oval",
+          "nameZh": "椭圆冲头",
+          "geometryEn": "Representative Oval punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "oval",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Oval punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Oval punch",
+            "zh": "椭圆冲头",
+            "vi": "Chày oval"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "椭圆冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "椭圆冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Oval punch",
+        "zh": "椭圆冲头",
+        "vi": "Chày oval"
+      }
+    },
+    {
+      "id": "hss-punches--ejector",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "ejector"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "hss",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "ejector",
+          "nameZh": "带退料 HSS 冲头",
+          "geometryEn": "Representative Ejector HSS punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "ejector",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Ejector HSS punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Ejector HSS punch",
+            "zh": "带退料 HSS 冲头",
+            "vi": "Chày HSS có đẩy phế"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "带退料 HSS 冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "带退料 HSS 冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Ejector HSS punch",
+        "zh": "带退料 HSS 冲头",
+        "vi": "Chày HSS có đẩy phế"
+      }
+    },
+    {
+      "id": "hss-punches--flat",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "flat"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "hss",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "flat",
+          "nameZh": "扁形 HSS 冲头",
+          "geometryEn": "Representative Flat HSS punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "flat",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Flat HSS punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Flat HSS punch",
+            "zh": "扁形 HSS 冲头",
+            "vi": "Chày HSS dẹt"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "扁形 HSS 冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "扁形 HSS 冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Flat HSS punch",
+        "zh": "扁形 HSS 冲头",
+        "vi": "Chày HSS dẹt"
+      }
+    },
+    {
+      "id": "hss-punches--square",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "square"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "hss",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "square",
+          "nameZh": "方形 HSS 冲头",
+          "geometryEn": "Representative Square HSS punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "square",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Square HSS punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Square HSS punch",
+            "zh": "方形 HSS 冲头",
+            "vi": "Chày HSS vuông"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "方形 HSS 冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "方形 HSS 冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Square HSS punch",
+        "zh": "方形 HSS 冲头",
+        "vi": "Chày HSS vuông"
+      }
+    },
+    {
+      "id": "hss-punches--rectangular",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "rectangular"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "hss",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "rectangular",
+          "nameZh": "矩形 HSS 冲头",
+          "geometryEn": "Representative Rectangular HSS punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "rectangular",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Rectangular HSS punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Rectangular HSS punch",
+            "zh": "矩形 HSS 冲头",
+            "vi": "Chày HSS chữ nhật"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "矩形 HSS 冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "矩形 HSS 冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Rectangular HSS punch",
+        "zh": "矩形 HSS 冲头",
+        "vi": "Chày HSS chữ nhật"
+      }
+    },
+    {
+      "id": "hss-punches--step",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "step"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "hss",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "step",
+          "nameZh": "台阶 HSS 冲头",
+          "geometryEn": "Representative Step HSS punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "step",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Step HSS punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Step HSS punch",
+            "zh": "台阶 HSS 冲头",
+            "vi": "Chày HSS bậc"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "台阶 HSS 冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "台阶 HSS 冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Step HSS punch",
+        "zh": "台阶 HSS 冲头",
+        "vi": "Chày HSS bậc"
+      }
+    },
+    {
+      "id": "hss-punches--special-shaped",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "special-shaped"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "hss",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "special-shaped",
+          "nameZh": "异形 HSS 冲头",
+          "geometryEn": "Representative Special-shaped HSS punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "special-shaped",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Special-shaped HSS punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Special-shaped HSS punch",
+            "zh": "异形 HSS 冲头",
+            "vi": "Chày HSS biên dạng đặc biệt"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "异形 HSS 冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "异形 HSS 冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Special-shaped HSS punch",
+        "zh": "异形 HSS 冲头",
+        "vi": "Chày HSS biên dạng đặc biệt"
+      }
+    },
+    {
+      "id": "hss-punches--round",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "round"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "hss",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "round",
+          "nameZh": "圆形 HSS 冲头",
+          "geometryEn": "Representative Round HSS punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "round",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Round HSS punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Round HSS punch",
+            "zh": "圆形 HSS 冲头",
+            "vi": "Chày HSS tròn"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "圆形 HSS 冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "圆形 HSS 冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Round HSS punch",
+        "zh": "圆形 HSS 冲头",
+        "vi": "Chày HSS tròn"
+      }
+    },
+    {
+      "id": "hss-punches--guide",
+      "productId": "hss-punches",
+      "configurationIds": [
+        "guide"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "hss",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "guide",
+          "nameZh": "引导 HSS 冲头",
+          "geometryEn": "Representative Guide HSS punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "guide",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Guide HSS punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Guide HSS punch",
+            "zh": "引导 HSS 冲头",
+            "vi": "Chày HSS dẫn hướng"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "引导 HSS 冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "引导 HSS 冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Guide HSS punch",
+        "zh": "引导 HSS 冲头",
+        "vi": "Chày HSS dẫn hướng"
+      }
+    },
+    {
+      "id": "stepped-punches--special-shaped",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "special-shaped"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "special-shaped",
+          "nameZh": "异形台阶冲头",
+          "geometryEn": "Representative Special-shaped stepped punches per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "special-shaped",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Special-shaped stepped punches",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Special-shaped stepped punches",
+            "zh": "异形台阶冲头",
+            "vi": "Chày bậc biên dạng đặc biệt"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "异形台阶冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "异形台阶冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Special-shaped stepped punches",
+        "zh": "异形台阶冲头",
+        "vi": "Chày bậc biên dạng đặc biệt"
+      }
+    },
+    {
+      "id": "stepped-punches--stepped-round",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "stepped-round"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "stepped-round",
+          "nameZh": "台阶圆冲",
+          "geometryEn": "Representative Stepped round punches per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "stepped-round",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Stepped round punches",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Stepped round punches",
+            "zh": "台阶圆冲",
+            "vi": "Chày bậc tròn"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "台阶圆冲",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "台阶圆冲",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Stepped round punches",
+        "zh": "台阶圆冲",
+        "vi": "Chày bậc tròn"
+      }
+    },
+    {
+      "id": "stepped-punches--stepped-square",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "stepped-square"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "stepped-square",
+          "nameZh": "台阶方冲",
+          "geometryEn": "Representative Stepped square punches per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "stepped-square",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Stepped square punches",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Stepped square punches",
+            "zh": "台阶方冲",
+            "vi": "Chày bậc vuông"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "台阶方冲",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "台阶方冲",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Stepped square punches",
+        "zh": "台阶方冲",
+        "vi": "Chày bậc vuông"
+      }
+    },
+    {
+      "id": "stepped-punches--multi-diameter",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "multi-diameter"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "multi-diameter",
+          "nameZh": "多级缩径台阶冲头",
+          "geometryEn": "Representative Multi-diameter step punches per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "multi-diameter",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Multi-diameter step punches",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Multi-diameter step punches",
+            "zh": "多级缩径台阶冲头",
+            "vi": "Chày bậc nhiều đường kính"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "多级缩径台阶冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "多级缩径台阶冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Multi-diameter step punches",
+        "zh": "多级缩径台阶冲头",
+        "vi": "Chày bậc nhiều đường kính"
+      }
+    },
+    {
+      "id": "stepped-punches--custom-shaped",
+      "productId": "stepped-punches",
+      "configurationIds": [
+        "custom-shaped"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "custom-shaped",
+          "nameZh": "来图定制台阶冲头",
+          "geometryEn": "Representative Custom-shaped stepped punches per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "custom-shaped",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Custom-shaped stepped punches",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Custom-shaped stepped punches",
+            "zh": "来图定制台阶冲头",
+            "vi": "Chày bậc tùy chỉnh theo bản vẽ"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "来图定制台阶冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "来图定制台阶冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Custom-shaped stepped punches",
+        "zh": "来图定制台阶冲头",
+        "vi": "Chày bậc tùy chỉnh theo bản vẽ"
+      }
+    },
+    {
+      "id": "stamping-die-punches--custom-stamping",
+      "productId": "stamping-die-punches",
+      "configurationIds": [
+        "custom-stamping"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "custom-stamping",
+          "nameZh": "定制冲压模冲头",
+          "geometryEn": "Representative Custom stamping die punches per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "custom-stamping",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Custom stamping die punches",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Custom stamping die punches",
+            "zh": "定制冲压模冲头",
+            "vi": "Chày khuôn dập tùy chỉnh"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "定制冲压模冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "定制冲压模冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Custom stamping die punches",
+        "zh": "定制冲压模冲头",
+        "vi": "Chày khuôn dập tùy chỉnh"
+      }
+    },
+    {
+      "id": "stamping-die-punches--materials",
+      "productId": "stamping-die-punches",
+      "configurationIds": [
+        "materials"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "materials",
+          "nameZh": "冲压模冲头材料",
+          "geometryEn": "Representative Materials for stamping die punches per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "materials",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Materials for stamping die punches",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Materials for stamping die punches",
+            "zh": "冲压模冲头材料",
+            "vi": "Vật liệu chày khuôn dập"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "冲压模冲头材料",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "冲压模冲头材料",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Materials for stamping die punches",
+        "zh": "冲压模冲头材料",
+        "vi": "Vật liệu chày khuôn dập"
+      }
+    },
+    {
+      "id": "stamping-die-punches--manufacturer-range",
+      "productId": "stamping-die-punches",
+      "configurationIds": [
+        "manufacturer-range"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "manufacturer-range",
+          "nameZh": "冲压模冲头系列",
+          "geometryEn": "Representative Stamping die punch range per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "manufacturer-range",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Stamping die punch range",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Stamping die punch range",
+            "zh": "冲压模冲头系列",
+            "vi": "Dòng chày khuôn dập"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "冲压模冲头系列",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "冲压模冲头系列",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Stamping die punch range",
+        "zh": "冲压模冲头系列",
+        "vi": "Dòng chày khuôn dập"
+      }
+    },
+    {
+      "id": "tableting-punches--tablet-shapes",
+      "productId": "tableting-punches",
+      "configurationIds": [
+        "tablet-shapes"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "tool-steel",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "tablet-shapes",
+          "nameZh": "定制片形与冲模轮廓",
+          "geometryEn": "Representative Custom tablet shapes & punch profiles per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "tablet-shapes",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Custom tablet shapes & punch profiles",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Custom tablet shapes & punch profiles",
+            "zh": "定制片形与冲模轮廓",
+            "vi": "Hình viên và biên dạng chày tùy chỉnh"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "定制片形与冲模轮廓",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "定制片形与冲模轮廓",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Custom tablet shapes & punch profiles",
+        "zh": "定制片形与冲模轮廓",
+        "vi": "Hình viên và biên dạng chày tùy chỉnh"
+      }
+    },
+    {
+      "id": "tableting-punches--engraved",
+      "productId": "tableting-punches",
+      "configurationIds": [
+        "engraved"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "tool-steel",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "engraved",
+          "nameZh": "刻字与标识冲模",
+          "geometryEn": "Representative Custom engraved punches and dies per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "engraved",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Custom engraved punches and dies",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Custom engraved punches and dies",
+            "zh": "刻字与标识冲模",
+            "vi": "Chày cối khắc chữ tùy chỉnh"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "刻字与标识冲模",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "刻字与标识冲模",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Custom engraved punches and dies",
+        "zh": "刻字与标识冲模",
+        "vi": "Chày cối khắc chữ tùy chỉnh"
+      }
+    },
+    {
+      "id": "tableting-punches--multi-tip",
+      "productId": "tableting-punches",
+      "configurationIds": [
+        "multi-tip"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "tool-steel",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "multi-tip",
+          "nameZh": "多冲尖压片工装",
+          "geometryEn": "Representative Multi-tip tablet tooling per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "multi-tip",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Multi-tip tablet tooling",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Multi-tip tablet tooling",
+            "zh": "多冲尖压片工装",
+            "vi": "Dụng cụ viên đa đầu"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "多冲尖压片工装",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "多冲尖压片工装",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Multi-tip tablet tooling",
+        "zh": "多冲尖压片工装",
+        "vi": "Dụng cụ viên đa đầu"
+      }
+    },
+    {
+      "id": "tableting-punches--press-specific",
+      "productId": "tableting-punches",
+      "configurationIds": [
+        "press-specific"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "tool-steel",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "press-specific",
+          "nameZh": "压机专用定制工装",
+          "geometryEn": "Representative Press-specific custom tooling per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "press-specific",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Press-specific custom tooling",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Press-specific custom tooling",
+            "zh": "压机专用定制工装",
+            "vi": "Dụng cụ theo máy ép"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "压机专用定制工装",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "压机专用定制工装",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Press-specific custom tooling",
+        "zh": "压机专用定制工装",
+        "vi": "Dụng cụ theo máy ép"
+      }
+    },
+    {
+      "id": "tungsten-carbide-punches--straight",
+      "productId": "tungsten-carbide-punches",
+      "configurationIds": [
+        "straight"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "straight",
+          "nameZh": "直身钨钢冲头",
+          "geometryEn": "Representative Straight tungsten carbide punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "straight",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Straight tungsten carbide punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Straight tungsten carbide punch",
+            "zh": "直身钨钢冲头",
+            "vi": "Chày hợp kim thẳng"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "直身钨钢冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "直身钨钢冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Straight tungsten carbide punch",
+        "zh": "直身钨钢冲头",
+        "vi": "Chày hợp kim thẳng"
+      }
+    },
+    {
+      "id": "tungsten-carbide-punches--step",
+      "productId": "tungsten-carbide-punches",
+      "configurationIds": [
+        "step"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "step",
+          "nameZh": "台阶钨钢冲头",
+          "geometryEn": "Representative Step tungsten carbide punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "step",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Step tungsten carbide punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Step tungsten carbide punch",
+            "zh": "台阶钨钢冲头",
+            "vi": "Chày hợp kim bậc"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "台阶钨钢冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "台阶钨钢冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Step tungsten carbide punch",
+        "zh": "台阶钨钢冲头",
+        "vi": "Chày hợp kim bậc"
+      }
+    },
+    {
+      "id": "tungsten-carbide-punches--precision",
+      "productId": "tungsten-carbide-punches",
+      "configurationIds": [
+        "precision"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "precision",
+          "nameZh": "精密钨钢冲头",
+          "geometryEn": "Representative Precision tungsten carbide punch per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "precision",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Precision tungsten carbide punch",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Precision tungsten carbide punch",
+            "zh": "精密钨钢冲头",
+            "vi": "Chày hợp kim chính xác"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "精密钨钢冲头",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "精密钨钢冲头",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Precision tungsten carbide punch",
+        "zh": "精密钨钢冲头",
+        "vi": "Chày hợp kim chính xác"
+      }
+    },
+    {
+      "id": "tungsten-carbide-punches--coated",
+      "productId": "tungsten-carbide-punches",
+      "configurationIds": [
+        "coated"
+      ],
+      "composition": "single",
+      "targetVariantCount": 1,
+      "variantCount": 1,
+      "pieceCount": 1,
+      "materialClass": "carbide",
+      "familyInvariantEn": "HTX punch-components category; image published from HTX reference grid.",
+      "structuralVariants": [
+        {
+          "id": "coated",
+          "nameZh": "涂层冲头系列",
+          "geometryEn": "Representative Coated punch series per HTX product page category tile.",
+          "differenceZh": "与 HTX 站该分类展示图一致，不以 AI 臆造结构。",
+          "structuralKey": "coated",
+          "verificationStatus": "htx-grid",
+          "references": [
+            {
+              "url": "https://htxprecision.com/punch-components/",
+              "evidenceZh": "HTX 分类：Coated punch series",
+              "verification": "htx-published",
+              "reviewedAt": "2026-10-07"
+            }
+          ],
+          "name": {
+            "en": "Coated punch series",
+            "zh": "涂层冲头系列",
+            "vi": "Dòng chày có lớp phủ"
+          }
+        }
+      ],
+      "missingEvidenceZh": [],
+      "generationReady": false,
+      "revisionAction": "htx-direct-publish",
+      "descriptionZh": "涂层冲头系列",
+      "reviewZh": "已用 HTX 原图直发；不再要求 Terrakinc 生图覆盖。",
+      "avoidEn": "No AI restyle required when HTX source is used.",
+      "layoutEn": "Single product photo as on HTX category grid.",
+      "titleZh": "涂层冲头系列",
+      "finishEn": "As photographed on HTX reference.",
+      "caption": {
+        "en": "Coated punch series",
+        "zh": "涂层冲头系列",
+        "vi": "Dòng chày có lớp phủ"
+      }
     }
   ],
   "referencePolicy": "References establish visible product geometry only, not specifications, performance or stock. Names, sizes, colors and material options alone never establish different structural styles. Unverified jobs are blocked."

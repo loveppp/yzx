@@ -2,7 +2,7 @@
 
 > 本文件由参考款式清单生成。当前阶段只重编提示词，不调用生图接口。旧图在线不表示新版已生成或已通过结构核实。
 
-本清单 70 个任务：24 个提示词完成，46 个待核实；新版已生成 7 个，已接入 7 个。
+本清单 67 个任务：13 个提示词完成，54 个待核实；新版已生成 6 个，已接入 6 个。
 
 ## 规则与分批顺序
 
@@ -15,7 +15,7 @@
 
 ## 待核实任务与具体缺口
 
-- **异形与成型冲头**（forming-punches）：当前组合仅覆盖异形冲裁轮廓，不代表曲面成型结构；曲面款另行核实。
+- **钨钢冲头**（tungsten-carbide-punches）：当前组合仅覆盖异形冲裁轮廓，不代表曲面成型结构；曲面款另行核实。
 - **压片冲模**（tableting-punches）：核对两种完整套装的各配合件。
 - **直身顶针**（straight-ejector-pins）：缺少第二种直身顶针结构；热处理和公英制不计入。
 - **扁顶针**（blade-ejector-pins）：缺少不同过渡/定位结构的两款扁顶针依据。
@@ -27,40 +27,48 @@
 - **滚珠保持架**（ball-cages）：三种材料不是三种结构；需核实不同保持/安装方式。
 - **滚珠导套**（ball-bearing-bushings）：需两种可辨的滚珠导套安装结构。
 - **氮气弹簧**（nitrogen-gas-springs）：需两种已核实安装型式的产品。
-- **定位圈**（locating-rings）：需两种定位面结构来源。
-- **模具日期章**（mold-date-stamps）：需两种调整/换芯结构来源，年份和字体不算款式。
-- **侧锁与精定位块**（side-locks）：两组公母配对均需结构来源。
-- **限位螺栓**（stopper-bolts）：需两种不同限位连接结构。
-- **拉杆**（pull-rods）：需两种已核实连接端结构。
 - **普通铜套**（bronze-bushings）：不能凭想象添加油槽；需核实第二种普通铜套结构。
 - **法兰铜套**（flanged-bronze-bushings）：不能借石墨法兰套资料证明普通法兰套款式。
 - **耐磨板与滑板**（wear-plates）：需第二种板体/润滑结构出处。
 - **螺纹与拔出式定位销**（threaded-dowel-pins）：内外螺纹候选需具体产品图支撑。
-- **导正销**（pilot-pins）：需两种实际导入轮廓，不能任意添加削边。
-- **浮升销与浮料销**（floating-pins）：需两种承料头/导向结构，不能用尺寸变化代替。
-- **T型单肩直身冲针款式**（carbide-punches--type-t）：已核实T冲单肩直身，但未找到第二种不同结构；不可画成A冲。
-- **六角冲头款式**（carbide-punches--hexagonal）：第二款也必须是六角工作端，需要安装/过渡差异依据；八角不能凑入。
-- **椭圆与长圆工作端**（carbide-punches--oval-obround）：椭圆端面参考不清；确认连续曲线与两直边长圆的区别。
-- **切断冲头款式**（carbide-punches--cutoff）：缺两种切断端结构，不以冲孔件代替。
-- **高速钢窄扁冲头款式**（hss-punches--blade）：需要核实两款扁冲的根部和定位结构。
-- **台阶方冲款式**（stepped-punches--square）：第二款仍须方形端，待核实不同安装结构，不混入矩形。
-- **多级台阶冲头款式**（stepped-punches--multi）：需两种实际多级台阶结构，不能任意增加轴肩。
-- **冲压切断件款式**（stamping-die-punches--cutoff）：缺两种可核实切断结构。
-- **冲裁件安装端款式**（stamping-die-punches--mount）：需两种实际安装/更换结构。
-- **长圆槽冲头款式**（stamping-die-punches--slot）：两件均须长圆槽工作端，需不同安装/支撑结构依据。
-- **椭圆与长圆异形冲头**（forming-punches--oval-obround）：椭圆资料不足，不能把长圆缩放当成椭圆。
-- **曲面成型冲头款式**（forming-punches--contour）：需两种明确成型轮廓；取消臆造球头与斜端固定组合。
-- **A型削边冲针款式**（a-type-punches--flat）：现只核实一种削边A冲；第二件也须削边款，不能拿普通圆杆凑数。
-- **圆形与长圆压片冲模套装**（tableting-punches--cup-shapes）：需核实完整套装及两种杯面，不能仅改冲头长度。
-- **分割线冲面款式**（tableting-punches--score）：需两种真实分割线杯面；单线与十字线目前未核实。
-- **多冲尖压片冲头款式**（tableting-punches--multi）：需两种多冲尖结构，核实各冲尖支撑与杯面。
 - **扁顶针过渡款式**（blade-ejector-pins--transition）：需两种不同根部过渡；不能同款旋转展示当两款。
 - **方顶针圆方过渡款式**（square-ejector-pins--square-tip）：需两种方形顶出端的支撑/过渡结构。
 - **法兰导套安装款式**（flanged-guide-bushings--mount）：需两种法兰安装结构，不编造孔数。
 - **滚动导向配套款式**（guide-sets--ball-set）：两组均须完整滚动导向件，第二组法兰形式尚未核实。
 - **氮气弹簧安装套装**（nitrogen-gas-springs--mount）：需两种经核实的完整安装配套；不混入普通模具弹簧。
-- **浇口套喷嘴接触面款式**（sprue-bushings--nozzle-seat）：需确认两种完整浇口套的喷嘴座结构；不同球面半径不单独算款式。
 - **内螺纹拔出式定位销款式**（threaded-dowel-pins--pull-thread）：第二款仍须内螺纹拔出式，不能加入外螺纹款；需端部/泄气结构依据。
+- **A 型圆柱直身冲针**（carbide-punches--type-a）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；A 型圆柱直身冲针：结构尚未核实；A 型圆柱直身冲针：名称或候选链接不能证明结构
+- **T 型圆柱直身冲针**（carbide-punches--type-t）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；T 型圆柱直身冲针：结构尚未核实；T 型圆柱直身冲针：名称或候选链接不能证明结构
+- **定制异形直身冲针**（carbide-punches--profile）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；定制异形直身冲针：结构尚未核实；定制异形直身冲针：名称或候选链接不能证明结构
+- **切断冲头**（carbide-punches--cutting）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；切断冲头：结构尚未核实；切断冲头：名称或候选链接不能证明结构
+- **精密冲头**（carbide-punches--precision）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；精密冲头：结构尚未核实；精密冲头：名称或候选链接不能证明结构
+- **六角冲头**（carbide-punches--hexagonal）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；六角冲头：结构尚未核实；六角冲头：名称或候选链接不能证明结构
+- **引导冲头 / 导正冲**（carbide-punches--pilot）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；引导冲头 / 导正冲：结构尚未核实；引导冲头 / 导正冲：名称或候选链接不能证明结构
+- **椭圆冲头**（carbide-punches--oval）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；椭圆冲头：结构尚未核实；椭圆冲头：名称或候选链接不能证明结构
+- **带退料 HSS 冲头**（hss-punches--ejector）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；带退料 HSS 冲头：结构尚未核实；带退料 HSS 冲头：名称或候选链接不能证明结构
+- **扁形 HSS 冲头**（hss-punches--flat）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；扁形 HSS 冲头：结构尚未核实；扁形 HSS 冲头：名称或候选链接不能证明结构
+- **方形 HSS 冲头**（hss-punches--square）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；方形 HSS 冲头：结构尚未核实；方形 HSS 冲头：名称或候选链接不能证明结构
+- **矩形 HSS 冲头**（hss-punches--rectangular）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；矩形 HSS 冲头：结构尚未核实；矩形 HSS 冲头：名称或候选链接不能证明结构
+- **台阶 HSS 冲头**（hss-punches--step）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；台阶 HSS 冲头：结构尚未核实；台阶 HSS 冲头：名称或候选链接不能证明结构
+- **异形 HSS 冲头**（hss-punches--special-shaped）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；异形 HSS 冲头：结构尚未核实；异形 HSS 冲头：名称或候选链接不能证明结构
+- **圆形 HSS 冲头**（hss-punches--round）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；圆形 HSS 冲头：结构尚未核实；圆形 HSS 冲头：名称或候选链接不能证明结构
+- **引导 HSS 冲头**（hss-punches--guide）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；引导 HSS 冲头：结构尚未核实；引导 HSS 冲头：名称或候选链接不能证明结构
+- **异形台阶冲头**（stepped-punches--special-shaped）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；异形台阶冲头：结构尚未核实；异形台阶冲头：名称或候选链接不能证明结构
+- **台阶圆冲**（stepped-punches--stepped-round）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；台阶圆冲：结构尚未核实；台阶圆冲：名称或候选链接不能证明结构
+- **台阶方冲**（stepped-punches--stepped-square）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；台阶方冲：结构尚未核实；台阶方冲：名称或候选链接不能证明结构
+- **多级缩径台阶冲头**（stepped-punches--multi-diameter）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；多级缩径台阶冲头：结构尚未核实；多级缩径台阶冲头：名称或候选链接不能证明结构
+- **来图定制台阶冲头**（stepped-punches--custom-shaped）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；来图定制台阶冲头：结构尚未核实；来图定制台阶冲头：名称或候选链接不能证明结构
+- **定制冲压模冲头**（stamping-die-punches--custom-stamping）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；定制冲压模冲头：结构尚未核实；定制冲压模冲头：名称或候选链接不能证明结构
+- **冲压模冲头材料**（stamping-die-punches--materials）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；冲压模冲头材料：结构尚未核实；冲压模冲头材料：名称或候选链接不能证明结构
+- **冲压模冲头系列**（stamping-die-punches--manufacturer-range）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；冲压模冲头系列：结构尚未核实；冲压模冲头系列：名称或候选链接不能证明结构
+- **定制片形与冲模轮廓**（tableting-punches--tablet-shapes）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；定制片形与冲模轮廓：结构尚未核实；定制片形与冲模轮廓：名称或候选链接不能证明结构
+- **刻字与标识冲模**（tableting-punches--engraved）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；刻字与标识冲模：结构尚未核实；刻字与标识冲模：名称或候选链接不能证明结构
+- **多冲尖压片工装**（tableting-punches--multi-tip）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；多冲尖压片工装：结构尚未核实；多冲尖压片工装：名称或候选链接不能证明结构
+- **压机专用定制工装**（tableting-punches--press-specific）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；压机专用定制工装：结构尚未核实；压机专用定制工装：名称或候选链接不能证明结构
+- **直身钨钢冲头**（tungsten-carbide-punches--straight）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；直身钨钢冲头：结构尚未核实；直身钨钢冲头：名称或候选链接不能证明结构
+- **台阶钨钢冲头**（tungsten-carbide-punches--step）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；台阶钨钢冲头：结构尚未核实；台阶钨钢冲头：名称或候选链接不能证明结构
+- **精密钨钢冲头**（tungsten-carbide-punches--precision）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；精密钨钢冲头：结构尚未核实；精密钨钢冲头：名称或候选链接不能证明结构
+- **涂层冲头系列**（tungsten-carbide-punches--coated）：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；涂层冲头系列：结构尚未核实；涂层冲头系列：名称或候选链接不能证明结构
 
 ## 逐图款式、出处与完整提示词
 
@@ -312,11 +320,11 @@ Create a realistic studio product illustration. Seamless neutral light-gray back
 Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
 ```
 
-### 异形与成型冲头 · forming-punches
+### 钨钢冲头 · tungsten-carbide-punches
 
 状态：待核实；现有图片：旧版保留、待替换。
 目标 10 款；已定义 10 款、10 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/forming-punches/
+位置：/zh/products/punch-components/tungsten-carbide-punches/
 类别共同特征：Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.
 材料范围：steel；相同几何但材料不同不得直接复用。
 
@@ -377,41 +385,6 @@ Distinct-style rule: 方形成型面 / 圆形成型面 / 弧面成型 / 斜面�
 Defined styles: 10; physical objects: 10. Each listed style occurs once.
 
 Composition: One catalog photograph with about ten separate complete punches from this family only. Arrange in a balanced loose grid (about two rows), each item fully visible with working end readable. Show distinct working-end profiles and/or mounting structures (straight shank, single shoulder, T-head, tipped insert). Moderate shank length and diameter differences are allowed when the head geometry differs — not ten copies of the same profile at different scales. No overlap hiding tips, no text labels.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### A 型台阶冲针 · a-type-punches
-
-状态：提示词完成；现有图片：旧版保留、待替换。
-目标 3 款；已定义 2 款、2 件。按已核实数量生成。
-位置：/zh/products/punch-components/a-type-punches/
-类别共同特征：Every item is a Type-A stepped punch with a reduced working section; a straight Type-T shank is excluded.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **A型圆杆台阶冲针**（结构已核实）：支撑杆为完整圆柱面；与削边款区别在杆身定位面。
-  - [参考页面](https://www.htx99.com/czctj/axcz.html) · [参考图](https://www.htx99.com/UploadFiles/FCK/2018-11/%E5%BF%AB%E7%85%A7%2011(1).jpg)：已查看详情实物图：圆形头部、圆杆、缩径圆工作段、短肩部过渡；不以两支的尺寸区别作为款式。
-- **A型削边台阶冲针**（结构已核实）：支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。
-  - [参考页面](https://www.htx99.com/czctj/axxbczct.html) · [参考图](https://www.htx99.com/UploadFiles/Others/10.jpg)：已查看原图：缩径圆工作段、较粗支撑杆上有清楚的纵向削平面、短肩部、底端圆形头部。
-
-```text
-Family boundary: Every item is a Type-A stepped punch with a reduced working section; a straight Type-T shank is excluded.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete headed stepped round punch: a cylindrical support shank reduces through a short shoulder transition to a smaller round working section. Round retaining head, flat circular working face. Plain round support surface.
-
-2. A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.
-
-Distinct-style rule: 支撑杆为完整圆柱面；与削边款区别在杆身定位面。 / 支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
 
 Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
 
@@ -994,222 +967,6 @@ Create a realistic studio product illustration. Seamless neutral light-gray back
 Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
 ```
 
-### 浇口套（唧咀） · sprue-bushings
-
-状态：已接入；现有图片：新版已接入。
-目标 2 款；已定义 2 款、2 件。按已核实数量生成。
-位置：/zh/products/plastic-mold-components/sprue-bushings/
-类别共同特征：Every item belongs to Sprue Bushings. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **A型浇口套**（结构已核实）：A 型定位法兰与喷嘴座结构。
-  - [参考页面](https://htxprecision.com/sprue-bushing/)：页面列出 A/B/C 型号；A 型为常见带法兰浇口套外形，用于分类示意。
-- **B型浇口套**（结构已核实）：B 型沉头/座孔安装结构，与 A 型法兰不同。
-  - [参考页面](https://htxprecision.com/sprue-bushing/)：页面型号表区分 A/B/C；B 型与 A 型安装面结构不同，可作为两款示意。
-
-```text
-Family boundary: Every item belongs to Sprue Bushings. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. Complete cold-runner sprue bushing type A: cylindrical body with radial flange at the clamping face and concentric tapered nozzle bore.
-
-2. Complete cold-runner sprue bushing type B: cylindrical body with counterbored clamping seat and concentric tapered nozzle bore, distinct from type-A flange layout.
-
-Distinct-style rule: A 型定位法兰与喷嘴座结构。 / B 型沉头/座孔安装结构，与 A 型法兰不同。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 定位圈 · locating-rings
-
-状态：待核实；现有图片：暂无。
-目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/plastic-mold-components/locating-rings/
-类别共同特征：Every item belongs to Locating Rings. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **定位圈**（待核实）：核对平面型与台阶型定位圈的真实产品出处和定位面。
-  - [参考页面](https://htxprecision.com/)：核对平面型与台阶型定位圈的真实产品出处和定位面。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；定位圈：结构尚未核实；定位圈：名称或候选链接不能证明结构；需两种定位面结构来源。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Locating Rings. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. Open annular mold locating ring.
-
-Distinct-style rule: 核对平面型与台阶型定位圈的真实产品出处和定位面。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 模具日期章 · mold-date-stamps
-
-状态：待核实；现有图片：暂无。
-目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/plastic-mold-components/mold-date-stamps/
-类别共同特征：Every item belongs to Mold Date Stamps. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **模具日期章**（待核实）：核对整体式与可换芯式；不能用年份/月数字不同当不同结构。
-  - [参考页面](https://htxprecision.com/)：核对整体式与可换芯式；不能用年份/月数字不同当不同结构。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；模具日期章：结构尚未核实；模具日期章：名称或候选链接不能证明结构；需两种调整/换芯结构来源，年份和字体不算款式。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Mold Date Stamps. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. Mold date insert with an adjustable marking face.
-
-Distinct-style rule: 核对整体式与可换芯式；不能用年份/月数字不同当不同结构。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 侧锁与精定位块 · side-locks
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 2 款、4 件（按完整套装分组）。当前仅为草稿，不可调用接口。
-位置：/zh/products/plastic-mold-components/side-locks/
-类别共同特征：Every item belongs to Side Locks & Interlocks. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **直面侧锁套装**（待核实）：两套必须在配合或安装结构上不同，内部的配对零件不算不同款式。
-  - [参考页面](https://htxprecision.com/)：核对两种完整配对结构；公块和母块不算两种产品款式。
-  - 配套件：公块×1、母块×1。
-- **锥面侧锁套装**（待核实）：两套必须在配合或安装结构上不同，内部的配对零件不算不同款式。
-  - [参考页面](https://htxprecision.com/)：核对两种完整配对结构；公块和母块不算两种产品款式。
-  - 配套件：公块×1、母块×1。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；直面侧锁套装：结构尚未核实；直面侧锁套装：名称或候选链接不能证明结构；锥面侧锁套装：结构尚未核实；锥面侧锁套装：名称或候选链接不能证明结构；两组公母配对均需结构来源。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Side Locks & Interlocks. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. One matching male/female side-lock pair; tongue and recess need a geometry reference. Complete set members: 公块 x 1, 母块 x 1.
-
-2. One matching tapered male/female side-lock pair; taper and retention need a geometry reference. Complete set members: 公块 x 1, 母块 x 1.
-
-Distinct-style rule: 两套必须在配合或安装结构上不同，内部的配对零件不算不同款式。 / 两套必须在配合或安装结构上不同，内部的配对零件不算不同款式。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 4. Each listed style occurs once.
-
-Composition: Two distinct matched sets in separate groups; no shared mating components between sets. Show all working and mating faces.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 限位螺栓 · stopper-bolts
-
-状态：待核实；现有图片：暂无。
-目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/plastic-mold-components/stopper-bolts/
-类别共同特征：Every item belongs to Stopper Bolts. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **限位螺栓**（待核实）：核对两种头部或限位连接结构；不能只改螺纹长度。
-  - [参考页面](https://htxprecision.com/)：核对两种头部或限位连接结构；不能只改螺纹长度。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；限位螺栓：结构尚未核实；限位螺栓：名称或候选链接不能证明结构；需两种不同限位连接结构。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Stopper Bolts. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. Shouldered mold stop bolt with a smooth locating section and threaded end.
-
-Distinct-style rule: 核对两种头部或限位连接结构；不能只改螺纹长度。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 拉杆 · pull-rods
-
-状态：待核实；现有图片：暂无。
-目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/plastic-mold-components/pull-rods/
-类别共同特征：Every item belongs to Pull Rods. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **模具拉杆**（待核实）：核对螺纹连接与肩部连接具体外形，不能自行发明机构。
-  - [参考页面](https://htxprecision.com/)：核对螺纹连接与肩部连接具体外形，不能自行发明机构。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；模具拉杆：结构尚未核实；模具拉杆：名称或候选链接不能证明结构；需两种已核实连接端结构。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Pull Rods. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. Straight mold pull rod with defined end connections.
-
-Distinct-style rule: 核对螺纹连接与肩部连接具体外形，不能自行发明机构。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
 ### 石墨铜套 · graphite-bronze-bushings
 
 状态：已接入；现有图片：新版已接入。
@@ -1416,985 +1173,6 @@ Individual product styles:
 Distinct-style rule: 内螺纹位于端面，须核实出处。 / 外螺纹连接端与内螺纹孔不同，尚未核实具体产品。. Size, finish, pose and color changes do not count as different styles.
 
 Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 导正销 · pilot-pins
-
-状态：待核实；现有图片：暂无。
-目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/dowel-pins/pilot-pins/
-类别共同特征：Every item belongs to Pilot Pins. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **导正销**（待核实）：现有尖端示意不充分，需确认圆导入与削边导入的真实轮廓。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：现有尖端示意不充分，需确认圆导入与削边导入的真实轮廓。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；导正销：结构尚未核实；导正销：名称或候选链接不能证明结构；需两种实际导入轮廓，不能任意添加削边。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Pilot Pins. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A pilot pin with a supported lead-in nose and cylindrical locating region.
-
-Distinct-style rule: 现有尖端示意不充分，需确认圆导入与削边导入的真实轮廓。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 浮升销与浮料销 · floating-pins
-
-状态：待核实；现有图片：暂无。
-目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/dowel-pins/floating-pins/
-类别共同特征：Every item belongs to Floating & Lifter Pins. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **浮升销**（待核实）：核对两种承料面/导向结构；不显示未核实的内置弹簧。
-  - [参考页面](https://www.htx99.com/dlfll/fsx.html)：核对两种承料面/导向结构；不显示未核实的内置弹簧。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；浮升销：结构尚未核实；浮升销：名称或候选链接不能证明结构；需两种承料头/导向结构，不能用尺寸变化代替。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Floating & Lifter Pins. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A stock-supporting lifter pin, exterior only.
-
-Distinct-style rule: 核对两种承料面/导向结构；不显示未核实的内置弹簧。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### A型台阶冲针 · 圆杆与削边款 · carbide-punches--type-a
-
-状态：提示词完成；现有图片：旧版保留、待替换。
-目标 2 款；已定义 2 款、2 件。按已核实数量生成。
-位置：/zh/products/punch-components/carbide-punches/#configuration-type-a
-类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-材料范围：carbide；相同几何但材料不同不得直接复用。
-
-- **A型圆杆台阶冲针**（结构已核实）：支撑杆为完整圆柱面；与削边款区别在杆身定位面。
-  - [参考页面](https://www.htx99.com/czctj/axcz.html) · [参考图](https://www.htx99.com/UploadFiles/FCK/2018-11/%E5%BF%AB%E7%85%A7%2011(1).jpg)：已查看详情实物图：圆形头部、圆杆、缩径圆工作段、短肩部过渡；不以两支的尺寸区别作为款式。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-- **A型削边台阶冲针**（结构已核实）：支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。
-  - [参考页面](https://www.htx99.com/czctj/axxbczct.html) · [参考图](https://www.htx99.com/UploadFiles/Others/10.jpg)：已查看原图：缩径圆工作段、较粗支撑杆上有清楚的纵向削平面、短肩部、底端圆形头部。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-
-```text
-Family boundary: Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-
-Material scope: carbide. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete headed stepped round punch: a cylindrical support shank reduces through a short shoulder transition to a smaller round working section. Round retaining head, flat circular working face. Plain round support surface.
-
-2. A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.
-
-Distinct-style rule: 支撑杆为完整圆柱面；与削边款区别在杆身定位面。 / 支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### T型单肩直身冲针款式 · carbide-punches--type-t
-
-状态：待核实；现有图片：旧版保留、待替换。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/carbide-punches/#configuration-type-t
-类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides. All items must retain exactly one head-to-shank shoulder and a constant-diameter working shank; no reduced A-type tip.
-材料范围：carbide；相同几何但材料不同不得直接复用。
-
-- **T型单肩直身圆冲**（结构已核实）：目前仅核实一种单肩直身款；同款长短变化不能成为第二款。
-  - [参考页面](https://www.htx99.com/czctj/txczct.html) · [参考图](https://www.htx99.com/UploadFiles/Others/08(4).jpg)：已查看原图：同一单肩直身结构的多件展示；不能证明存在多个不同结构款式。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；已核实T冲单肩直身，但未找到第二种不同结构；不可画成A冲。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides. All items must retain exactly one head-to-shank shoulder and a constant-diameter working shank; no reduced A-type tip.
-
-Material scope: carbide. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete single-shoulder round punch: one modest retaining head and a constant-diameter cylindrical working shank ending in a flat circular face. No reduced tip or additional body shoulder.
-
-Distinct-style rule: 目前仅核实一种单肩直身款；同款长短变化不能成为第二款。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 六角冲头款式 · carbide-punches--hexagonal
-
-状态：待核实；现有图片：旧版保留、待替换。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/carbide-punches/#configuration-hexagonal
-类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides. Every cutting profile must have exactly six sides.
-材料范围：carbide；相同几何但材料不同不得直接复用。
-
-- **六角工作端冲头**（结构已核实）：六边形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；第二款也必须是六角工作端，需要安装/过渡差异依据；八角不能凑入。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides. Every cutting profile must have exactly six sides.
-
-Material scope: carbide. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-Distinct-style rule: 六边形工作轮廓. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 椭圆与长圆工作端 · carbide-punches--oval-obround
-
-状态：待核实；现有图片：旧版保留、待替换。
-目标 2 款；已定义 2 款、2 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/carbide-punches/#configuration-oval
-类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-材料范围：carbide；相同几何但材料不同不得直接复用。
-
-- **椭圆工作端冲头**（待核实）：连续曲线椭圆轮廓
-  - [参考页面](https://htxprecision.com/carbide-punch/)：Oval文字未充分区分椭圆与长圆；参考图端面不可辨，需补充清晰端面来源。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-- **长圆工作端冲头**（结构已核实）：两条平行直边加两端半圆，区别于椭圆
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；椭圆工作端冲头：结构尚未核实；椭圆端面参考不清；确认连续曲线与两直边长圆的区别。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-
-Material scope: carbide. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete precision punch with flat true elliptical working face, continuously curved with no straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-2. A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-Distinct-style rule: 连续曲线椭圆轮廓 / 两条平行直边加两端半圆，区别于椭圆. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 表面处理选型 · 方形与六角冲头 · carbide-punches--coated
-
-状态：提示词完成；现有图片：旧版保留、待替换。
-目标 2 款；已定义 2 款、2 件。按已核实数量生成。
-位置：/zh/products/punch-components/carbide-punches/#configuration-coated
-类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-材料范围：carbide；相同几何但材料不同不得直接复用。
-
-- **方形工作端冲头**（结构已核实）：四边等长方形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-- **六角工作端冲头**（结构已核实）：六边形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-
-```text
-Family boundary: Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-
-Material scope: carbide. Use the same neutral uncoated finish on both different profiles. This image accompanies surface-treatment selection text; do not encode a coating grade or claim performance using color.
-
-Individual product styles:
-
-1. A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-2. A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-Distinct-style rule: 四边等长方形工作轮廓 / 六边形工作轮廓. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 方形与矩形工作端 · carbide-punches--profiles
-
-状态：提示词完成；现有图片：旧版保留、待替换。
-目标 2 款；已定义 2 款、2 件。按已核实数量生成。
-位置：/zh/products/punch-components/carbide-punches/#configuration-profile
-类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-材料范围：carbide；相同几何但材料不同不得直接复用。
-
-- **方形工作端冲头**（结构已核实）：四边等长方形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-- **矩形工作端冲头**（结构已核实）：长短边不同的矩形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-
-```text
-Family boundary: Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-
-Material scope: carbide. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-2. A complete precision punch with flat rectangular working face with unequal adjacent side lengths. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-Distinct-style rule: 四边等长方形工作轮廓 / 长短边不同的矩形工作轮廓. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 台阶冲头 · 圆杆与削边款 · carbide-punches--stepped
-
-状态：提示词完成；现有图片：旧版保留、待替换。
-目标 2 款；已定义 2 款、2 件。按已核实数量生成。
-位置：/zh/products/punch-components/carbide-punches/#configuration-stepped
-类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-材料范围：carbide；相同几何但材料不同不得直接复用。
-
-- **A型圆杆台阶冲针**（结构已核实）：支撑杆为完整圆柱面；与削边款区别在杆身定位面。
-  - [参考页面](https://www.htx99.com/czctj/axcz.html) · [参考图](https://www.htx99.com/UploadFiles/FCK/2018-11/%E5%BF%AB%E7%85%A7%2011(1).jpg)：已查看详情实物图：圆形头部、圆杆、缩径圆工作段、短肩部过渡；不以两支的尺寸区别作为款式。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-- **A型削边台阶冲针**（结构已核实）：支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。
-  - [参考页面](https://www.htx99.com/czctj/axxbczct.html) · [参考图](https://www.htx99.com/UploadFiles/Others/10.jpg)：已查看原图：缩径圆工作段、较粗支撑杆上有清楚的纵向削平面、短肩部、底端圆形头部。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-
-```text
-Family boundary: Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-
-Material scope: carbide. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete headed stepped round punch: a cylindrical support shank reduces through a short shoulder transition to a smaller round working section. Round retaining head, flat circular working face. Plain round support surface.
-
-2. A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.
-
-Distinct-style rule: 支撑杆为完整圆柱面；与削边款区别在杆身定位面。 / 支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 切断冲头款式 · carbide-punches--cutoff
-
-状态：待核实；现有图片：旧版保留、待替换。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/carbide-punches/#configuration-cutting
-类别共同特征：Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-材料范围：carbide；相同几何但材料不同不得直接复用。
-
-- **切断冲头**（待核实）：切断功能与冲孔不同；切口和安装端的两款结构待核对。
-  - [参考页面](https://htxprecision.com/stamping-die-punch/)：正文说明按图定制冲裁件，未提供切断端和可更换安装端的两种确定几何。
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；切断冲头：结构尚未核实；缺两种切断端结构，不以冲孔件代替。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item is a carbide punch of the specified subfamily; do not show steel ejectors, dies or unrelated guides.
-
-Material scope: carbide. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A supported straight-edge cut-off punch. Mounting body and cutting-edge geometry must be confirmed from a specific reference before generation.
-
-Distinct-style rule: 切断功能与冲孔不同；切口和安装端的两款结构待核对。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 高速钢方形与矩形冲头 · hss-punches--square-rectangle
-
-状态：提示词完成；现有图片：旧版保留、待替换。
-目标 2 款；已定义 2 款、2 件。按已核实数量生成。
-位置：/zh/products/punch-components/hss-punches/#configuration-square
-类别共同特征：Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
-材料范围：hss；相同几何但材料不同不得直接复用。
-
-- **方形工作端冲头**（结构已核实）：四边等长方形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-- **矩形工作端冲头**（结构已核实）：长短边不同的矩形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-
-```text
-Family boundary: Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
-
-Material scope: hss. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-2. A complete precision punch with flat rectangular working face with unequal adjacent side lengths. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-Distinct-style rule: 四边等长方形工作轮廓 / 长短边不同的矩形工作轮廓. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 高速钢窄扁冲头款式 · hss-punches--blade
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/hss-punches/#configuration-flat
-类别共同特征：Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
-材料范围：hss；相同几何但材料不同不得直接复用。
-
-- **窄扁工作段冲头**（待核实）：扁平工作段；需确认第二款的安装/过渡差异。
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/2-Flat-punch.jpg)：已查看 Flat HSS Punch 图：两件有安装杆削平/圆杆差异，仍需更清晰资料核对削平位置与过渡。
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；窄扁工作段冲头：结构尚未核实；需要核实两款扁冲的根部和定位结构。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
-
-Material scope: hss. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A flat rectangular working section supported by a round shank; locating and root geometry await the detailed reference.
-
-Distinct-style rule: 扁平工作段；需确认第二款的安装/过渡差异。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 高速钢台阶冲头 · 圆杆与削边款 · hss-punches--stepped
-
-状态：提示词完成；现有图片：旧版保留、待替换。
-目标 2 款；已定义 2 款、2 件。按已核实数量生成。
-位置：/zh/products/punch-components/hss-punches/#configuration-stepped
-类别共同特征：Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
-材料范围：hss；相同几何但材料不同不得直接复用。
-
-- **A型圆杆台阶冲针**（结构已核实）：支撑杆为完整圆柱面；与削边款区别在杆身定位面。
-  - [参考页面](https://www.htx99.com/czctj/axcz.html) · [参考图](https://www.htx99.com/UploadFiles/FCK/2018-11/%E5%BF%AB%E7%85%A7%2011(1).jpg)：已查看详情实物图：圆形头部、圆杆、缩径圆工作段、短肩部过渡；不以两支的尺寸区别作为款式。
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/5-Step-punch.jpg)：已查看 Step HSS Punch 图：常规缩径款与杆身有定位削平的缩径款；不采用第三件的复杂多级结构。
-- **A型削边台阶冲针**（结构已核实）：支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。
-  - [参考页面](https://www.htx99.com/czctj/axxbczct.html) · [参考图](https://www.htx99.com/UploadFiles/Others/10.jpg)：已查看原图：缩径圆工作段、较粗支撑杆上有清楚的纵向削平面、短肩部、底端圆形头部。
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/5-Step-punch.jpg)：已查看 Step HSS Punch 图：常规缩径款与杆身有定位削平的缩径款；不采用第三件的复杂多级结构。
-
-```text
-Family boundary: Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
-
-Material scope: hss. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete headed stepped round punch: a cylindrical support shank reduces through a short shoulder transition to a smaller round working section. Round retaining head, flat circular working face. Plain round support surface.
-
-2. A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.
-
-Distinct-style rule: 支撑杆为完整圆柱面；与削边款区别在杆身定位面。 / 支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 高速钢六角与八角工作端 · hss-punches--special
-
-状态：提示词完成；现有图片：旧版保留、待替换。
-目标 2 款；已定义 2 款、2 件。按已核实数量生成。
-位置：/zh/products/punch-components/hss-punches/#configuration-profile
-类别共同特征：Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
-材料范围：hss；相同几何但材料不同不得直接复用。
-
-- **六角工作端冲头**（结构已核实）：六边形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-- **八角工作端冲头**（结构已核实）：八边形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-
-```text
-Family boundary: Every item is an HSS punch of the selected working-profile family, not an injection-mold ejector.
-
-Material scope: hss. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-2. A complete precision punch with flat octagonal working face with exactly eight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-Distinct-style rule: 六边形工作轮廓 / 八边形工作轮廓. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 台阶方冲款式 · stepped-punches--square
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/stepped-punches/#configuration-square
-类别共同特征：Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **台阶方形工作端冲头**（结构已核实）：四边等长方形工作轮廓，保持缩径台阶。
-  - [参考页面](https://htxprecision.com/stepped-punch/)：正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；第二款仍须方形端，待核实不同安装结构，不混入矩形。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.
-
-Distinct-style rule: 四边等长方形工作轮廓，保持缩径台阶。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 台阶六角与长圆工作端 · stepped-punches--special
-
-状态：提示词完成；现有图片：旧版保留、待替换。
-目标 2 款；已定义 2 款、2 件。按已核实数量生成。
-位置：/zh/products/punch-components/stepped-punches/#configuration-custom
-类别共同特征：Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **台阶六角工作端冲头**（结构已核实）：六边形工作轮廓，保持缩径台阶。
-  - [参考页面](https://htxprecision.com/stepped-punch/)：正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。
-- **台阶长圆工作端冲头**（结构已核实）：两条平行直边加两端半圆，区别于椭圆，保持缩径台阶。
-  - [参考页面](https://htxprecision.com/stepped-punch/)：正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。
-
-```text
-Family boundary: Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.
-
-2. A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves. Include one visible section reduction between support body and working section; no arbitrary intermediate tiers.
-
-Distinct-style rule: 六边形工作轮廓，保持缩径台阶。 / 两条平行直边加两端半圆，区别于椭圆，保持缩径台阶。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 多级台阶冲头款式 · stepped-punches--multi
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/stepped-punches/#configuration-multiple
-类别共同特征：Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **多级圆形台阶冲头**（待核实）：多级圆形结构已列名，但未核实两款具体多级结构。
-  - [参考页面](https://htxprecision.com/stepped-punch/)：正文明确圆、方、六角和开槽台阶工作端，以及多段直径结构；不把任意多级件归为A冲。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；多级圆形台阶冲头：结构尚未核实；需两种实际多级台阶结构，不能任意增加轴肩。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Stepped Punches. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete round punch with multiple coaxial diameter sections and a flat circular working end. Exact tier count and retaining geometry await a specific reference.
-
-Distinct-style rule: 多级圆形结构已列名，但未核实两款具体多级结构。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 冲压切断件款式 · stamping-die-punches--cutoff
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/stamping-die-punches/#configuration-cutoff
-类别共同特征：Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **切断冲头**（待核实）：切断功能与冲孔不同；切口和安装端的两款结构待核对。
-  - [参考页面](https://htxprecision.com/stamping-die-punch/)：正文说明按图定制冲裁件，未提供切断端和可更换安装端的两种确定几何。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；切断冲头：结构尚未核实；切断冲头：名称或候选链接不能证明结构；缺两种可核实切断结构。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A supported straight-edge cut-off punch. Mounting body and cutting-edge geometry must be confirmed from a specific reference before generation.
-
-Distinct-style rule: 切断功能与冲孔不同；切口和安装端的两款结构待核对。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 冲裁件安装端款式 · stamping-die-punches--mount
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/stamping-die-punches/#configuration-replacement
-类别共同特征：Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **带定位削平的可更换冲裁件**（待核实）：安装定位结构，不以工作长度区分款式。
-  - [参考页面](https://htxprecision.com/stamping-die-punch/)：正文说明按图定制冲裁件，未提供切断端和可更换安装端的两种确定几何。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；带定位削平的可更换冲裁件：结构尚未核实；带定位削平的可更换冲裁件：名称或候选链接不能证明结构；需两种实际安装/更换结构。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A replaceable punch with a locating flat; mounting and retention details are not yet verified.
-
-Distinct-style rule: 安装定位结构，不以工作长度区分款式。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 长圆槽冲头款式 · stamping-die-punches--slot
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/stamping-die-punches/#configuration-profile
-类别共同特征：Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety. Every cutting face is obround, not elliptical.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **长圆工作端冲头**（结构已核实）：两条平行直边加两端半圆，区别于椭圆
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；两件均须长圆槽工作端，需不同安装/支撑结构依据。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Stamping Die Punches. Do not import adjacent product families to increase variety. Every cutting face is obround, not elliptical.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-Distinct-style rule: 两条平行直边加两端半圆，区别于椭圆. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 方形与六角异形冲头 · forming-punches--polygon
-
-状态：提示词完成；现有图片：旧版保留、待替换。
-目标 2 款；已定义 2 款、2 件。按已核实数量生成。
-位置：/zh/products/punch-components/forming-punches/#configuration-polygon
-类别共同特征：Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **方形工作端冲头**（结构已核实）：四边等长方形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-- **六角工作端冲头**（结构已核实）：六边形工作轮廓
-  - [参考页面](https://htxprecision.com/hss-punch/) · [参考图](https://htxprecision.com/wp-content/uploads/2026/03/3-Square-punch.jpg)：已查看分类图及正文：圆、方、矩形、台阶、六角和八角工作端；不复制图中未解释的孔槽。
-
-```text
-Family boundary: Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete precision punch with flat square working face with four equal straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-2. A complete precision punch with flat regular hexagonal working face with exactly six sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-Distinct-style rule: 四边等长方形工作轮廓 / 六边形工作轮廓. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 椭圆与长圆异形冲头 · forming-punches--oval-obround
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 2 款、2 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/forming-punches/#configuration-obround
-类别共同特征：Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **椭圆工作端冲头**（待核实）：连续曲线椭圆轮廓
-  - [参考页面](https://htxprecision.com/carbide-punch/)：Oval文字未充分区分椭圆与长圆；参考图端面不可辨，需补充清晰端面来源。
-- **长圆工作端冲头**（结构已核实）：两条平行直边加两端半圆，区别于椭圆
-  - [参考页面](https://htxprecision.com/carbide-punch/)：正文明确圆形、方形、六角和长圆类；参考缩略图与部分标题不严密一致，不从图中臆造安装机构。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；椭圆工作端冲头：结构尚未核实；椭圆工作端冲头：名称或候选链接不能证明结构；椭圆资料不足，不能把长圆缩放当成椭圆。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete precision punch with flat true elliptical working face, continuously curved with no straight sides. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-2. A complete precision punch with flat obround working face: two parallel straight sides joined by semicircular ends. Show the working section supported by a cylindrical mounting shank. No invented holes, fasteners or decorative grooves.
-
-Distinct-style rule: 连续曲线椭圆轮廓 / 两条平行直边加两端半圆，区别于椭圆. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 曲面成型冲头款式 · forming-punches--contour
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/forming-punches/#configuration-forming
-类别共同特征：Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **曲面成型冲头**（待核实）：成型面不是任意圆头；缺少具体成型轮廓依据。
-  - [参考页面](https://htxprecision.com/stamping-die-punch/)：正文说明按图定制冲裁件，未提供切断端和可更换安装端的两种确定几何。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；曲面成型冲头：结构尚未核实；曲面成型冲头：名称或候选链接不能证明结构；需两种明确成型轮廓；取消臆造球头与斜端固定组合。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Forming & Profile Punches. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A forming punch whose non-planar working surface must be specified from a confirmed forming profile.
-
-Distinct-style rule: 成型面不是任意圆头；缺少具体成型轮廓依据。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### A型削边冲针款式 · a-type-punches--flat
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/a-type-punches/#configuration-flat
-类别共同特征：Every item is a Type-A stepped punch with a reduced working section; a straight Type-T shank is excluded. Every member must be a stepped A punch with a verified locating flat.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **A型削边台阶冲针**（结构已核实）：支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。
-  - [参考页面](https://www.htx99.com/czctj/axxbczct.html) · [参考图](https://www.htx99.com/UploadFiles/Others/10.jpg)：已查看原图：缩径圆工作段、较粗支撑杆上有清楚的纵向削平面、短肩部、底端圆形头部。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；现只核实一种削边A冲；第二件也须削边款，不能拿普通圆杆凑数。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item is a Type-A stepped punch with a reduced working section; a straight Type-T shank is excluded. Every member must be a stepped A punch with a verified locating flat.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete stepped round punch with one clearly visible longitudinal locating flat on the larger support shank. Retain the reduced round working section, short shoulder transition and modest round head. The flat is on the support shank, not on the round cutting face.
-
-Distinct-style rule: 支撑杆具有参考图可见的纵向削平面，不是改变长度或直径。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 圆形与长圆压片冲模套装 · tableting-punches--cup-shapes
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 2 款、6 件（按完整套装分组）。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/tableting-punches/#configuration-shape
-类别共同特征：Only tablet tooling of the selected face family; matched sets must have compatible upper punch, lower punch and die.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **圆形压片冲模套装**（待核实）：圆形工作轮廓的一套。
-  - [参考页面](https://htxprecision.com/dies-and-punches-for-tableting/)：需要核实上下冲接口、杯面与中模轮廓；不能凭旧生成图认定。
-  - 配套件：上冲×1、下冲×1、中模×1。
-- **长圆压片冲模套装**（待核实）：长圆工作轮廓的一套。
-  - [参考页面](https://htxprecision.com/dies-and-punches-for-tableting/)：需核实长圆工作端的上下冲和匹配中模，不能用圆套装换尺寸。
-  - 配套件：上冲×1、下冲×1、中模×1。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；圆形压片冲模套装：结构尚未核实；圆形压片冲模套装：名称或候选链接不能证明结构；长圆压片冲模套装：结构尚未核实；长圆压片冲模套装：名称或候选链接不能证明结构；需核实完整套装及两种杯面，不能仅改冲头长度。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Only tablet tooling of the selected face family; matched sets must have compatible upper punch, lower punch and die.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. One matched upper punch, lower punch and die with round working profiles. Complete set members: 上冲 x 1, 下冲 x 1, 中模 x 1.
-
-2. One matched upper punch, lower punch and die with obround working profiles. Complete set members: 上冲 x 1, 下冲 x 1, 中模 x 1.
-
-Distinct-style rule: 圆形工作轮廓的一套。 / 长圆工作轮廓的一套。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 6. Each listed style occurs once.
-
-Composition: Two distinct matched sets in separate groups; no shared mating components between sets. Show all working and mating faces.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 分割线冲面款式 · tableting-punches--score
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/tableting-punches/#configuration-engraved
-类别共同特征：Only tablet tooling of the selected face family; matched sets must have compatible upper punch, lower punch and die.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **分割线冲面压片冲头**（待核实）：单线/十字线属于候选差异，尚无具体杯面依据。
-  - [参考页面](https://htxprecision.com/dies-and-punches-for-tableting/)：单线/十字线属于候选差异，尚无具体杯面依据。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；分割线冲面压片冲头：结构尚未核实；分割线冲面压片冲头：名称或候选链接不能证明结构；需两种真实分割线杯面；单线与十字线目前未核实。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Only tablet tooling of the selected face family; matched sets must have compatible upper punch, lower punch and die.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete tablet punch with a scored-cup tooling face; ridge polarity requires a reference.
-
-Distinct-style rule: 单线/十字线属于候选差异，尚无具体杯面依据。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
-### 多冲尖压片冲头款式 · tableting-punches--multi
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/punch-components/tableting-punches/#configuration-multi-tip
-类别共同特征：Only tablet tooling of the selected face family; matched sets must have compatible upper punch, lower punch and die.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **多冲尖压片冲头**（待核实）：双冲尖/不同轮廓组合待核实，不凭空增添尖头。
-  - [参考页面](https://htxprecision.com/dies-and-punches-for-tableting/)：双冲尖/不同轮廓组合待核实，不凭空增添尖头。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；不足两种可核实款式；多冲尖压片冲头：结构尚未核实；多冲尖压片冲头：名称或候选链接不能证明结构；需两种多冲尖结构，核实各冲尖支撑与杯面。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Only tablet tooling of the selected face family; matched sets must have compatible upper punch, lower punch and die.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A complete multi-tip tablet punch; tip attachment and cup shape require a reference.
-
-Distinct-style rule: 双冲尖/不同轮廓组合待核实，不凭空增添尖头。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 1; physical objects: 1. Each listed style occurs once.
 
 Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
 
@@ -2627,45 +1405,6 @@ Create a realistic studio product illustration. Seamless neutral light-gray back
 Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
 ```
 
-### 浇口套喷嘴接触面款式 · sprue-bushings--nozzle-seat
-
-状态：待核实；现有图片：暂无。
-目标 2 款；已定义 2 款、2 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/plastic-mold-components/sprue-bushings/#configuration-cold
-类别共同特征：Every item belongs to Sprue Bushings. Do not import adjacent product families to increase variety.
-材料范围：steel；相同几何但材料不同不得直接复用。
-
-- **A型浇口套**（待核实）：须核对A型的实际定位面，不能按字母猜形状。
-  - [参考页面](https://htxprecision.com/sprue-bushing/)：A/B/C型号有尺寸表，但尚未核对型号结构图；型号不同不直接证明外形结构不同。
-- **C型浇口套**（待核实）：须核对C型与A型是否存在可辨结构差异。
-  - [参考页面](https://htxprecision.com/sprue-bushing/)：A/B/C型号有尺寸表，但尚未核对型号结构图；型号不同不直接证明外形结构不同。
-
-生成拦截：未明确核定为可生成；缺少与款式对应的三语图片说明；A型浇口套：结构尚未核实；A型浇口套：名称或候选链接不能证明结构；C型浇口套：结构尚未核实；C型浇口套：名称或候选链接不能证明结构；需确认两种完整浇口套的喷嘴座结构；不同球面半径不单独算款式。
-
-```text
-DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
-
-Family boundary: Every item belongs to Sprue Bushings. Do not import adjacent product families to increase variety.
-
-Material scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.
-
-Individual product styles:
-
-1. A-type cold-runner sprue bushing, pending verification of the head and nozzle-seat drawing.
-
-2. C-type cold-runner sprue bushing, pending verification of the mounting and nozzle-seat drawing.
-
-Distinct-style rule: 须核对A型的实际定位面，不能按字母猜形状。 / 须核对C型与A型是否存在可辨结构差异。. Size, finish, pose and color changes do not count as different styles.
-
-Defined styles: 2; physical objects: 2. Each listed style occurs once.
-
-Composition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.
-
-Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
-
-Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
-```
-
 ### 直筒与法兰石墨铜套内孔 · graphite-bronze-bushings--working-bore
 
 状态：已接入；现有图片：新版已接入。
@@ -2736,55 +1475,1170 @@ Create a realistic studio product illustration. Seamless neutral light-gray back
 Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
 ```
 
+### A 型圆柱直身冲针 · carbide-punches--type-a
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/carbide-punches/#configuration-type-a
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **A 型圆柱直身冲针**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Straight punch (cylindrical) Type A
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；A 型圆柱直身冲针：结构尚未核实；A 型圆柱直身冲针：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Straight punch (cylindrical) Type A per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### T 型圆柱直身冲针 · carbide-punches--type-t
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/carbide-punches/#configuration-type-t
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **T 型圆柱直身冲针**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Straight punch (cylindrical) Type T
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；T 型圆柱直身冲针：结构尚未核实；T 型圆柱直身冲针：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Straight punch (cylindrical) Type T per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 定制异形直身冲针 · carbide-punches--profile
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/carbide-punches/#configuration-profile
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **定制异形直身冲针**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Custom special shaped straight punches
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；定制异形直身冲针：结构尚未核实；定制异形直身冲针：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Custom special shaped straight punches per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 切断冲头 · carbide-punches--cutting
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/carbide-punches/#configuration-cutting
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **切断冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Cutting punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；切断冲头：结构尚未核实；切断冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Cutting punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 精密冲头 · carbide-punches--precision
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/carbide-punches/#configuration-precision
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **精密冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Precision punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；精密冲头：结构尚未核实；精密冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Precision punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 六角冲头 · carbide-punches--hexagonal
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/carbide-punches/#configuration-hexagonal
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **六角冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Hexagonal punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；六角冲头：结构尚未核实；六角冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Hexagonal punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 引导冲头 / 导正冲 · carbide-punches--pilot
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/carbide-punches/#configuration-pilot
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **引导冲头 / 导正冲**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Guide / pilot punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；引导冲头 / 导正冲：结构尚未核实；引导冲头 / 导正冲：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Guide / pilot punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 椭圆冲头 · carbide-punches--oval
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/carbide-punches/#configuration-oval
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **椭圆冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Oval punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；椭圆冲头：结构尚未核实；椭圆冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Oval punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 带退料 HSS 冲头 · hss-punches--ejector
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/hss-punches/#configuration-ejector
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：hss；相同几何但材料不同不得直接复用。
+
+- **带退料 HSS 冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Ejector HSS punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；带退料 HSS 冲头：结构尚未核实；带退料 HSS 冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: hss. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Ejector HSS punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 扁形 HSS 冲头 · hss-punches--flat
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/hss-punches/#configuration-flat
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：hss；相同几何但材料不同不得直接复用。
+
+- **扁形 HSS 冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Flat HSS punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；扁形 HSS 冲头：结构尚未核实；扁形 HSS 冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: hss. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Flat HSS punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 方形 HSS 冲头 · hss-punches--square
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/hss-punches/#configuration-square
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：hss；相同几何但材料不同不得直接复用。
+
+- **方形 HSS 冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Square HSS punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；方形 HSS 冲头：结构尚未核实；方形 HSS 冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: hss. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Square HSS punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 矩形 HSS 冲头 · hss-punches--rectangular
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/hss-punches/#configuration-rectangular
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：hss；相同几何但材料不同不得直接复用。
+
+- **矩形 HSS 冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Rectangular HSS punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；矩形 HSS 冲头：结构尚未核实；矩形 HSS 冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: hss. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Rectangular HSS punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 台阶 HSS 冲头 · hss-punches--step
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/hss-punches/#configuration-step
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：hss；相同几何但材料不同不得直接复用。
+
+- **台阶 HSS 冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Step HSS punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；台阶 HSS 冲头：结构尚未核实；台阶 HSS 冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: hss. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Step HSS punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 异形 HSS 冲头 · hss-punches--special-shaped
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/hss-punches/#configuration-special-shaped
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：hss；相同几何但材料不同不得直接复用。
+
+- **异形 HSS 冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Special-shaped HSS punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；异形 HSS 冲头：结构尚未核实；异形 HSS 冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: hss. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Special-shaped HSS punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 圆形 HSS 冲头 · hss-punches--round
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/hss-punches/#configuration-round
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：hss；相同几何但材料不同不得直接复用。
+
+- **圆形 HSS 冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Round HSS punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；圆形 HSS 冲头：结构尚未核实；圆形 HSS 冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: hss. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Round HSS punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 引导 HSS 冲头 · hss-punches--guide
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/hss-punches/#configuration-guide
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：hss；相同几何但材料不同不得直接复用。
+
+- **引导 HSS 冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Guide HSS punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；引导 HSS 冲头：结构尚未核实；引导 HSS 冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: hss. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Guide HSS punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 异形台阶冲头 · stepped-punches--special-shaped
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/stepped-punches/#configuration-special-shaped
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **异形台阶冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Special-shaped stepped punches
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；异形台阶冲头：结构尚未核实；异形台阶冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Special-shaped stepped punches per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 台阶圆冲 · stepped-punches--stepped-round
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/stepped-punches/#configuration-stepped-round
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **台阶圆冲**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Stepped round punches
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；台阶圆冲：结构尚未核实；台阶圆冲：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Stepped round punches per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 台阶方冲 · stepped-punches--stepped-square
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/stepped-punches/#configuration-stepped-square
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **台阶方冲**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Stepped square punches
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；台阶方冲：结构尚未核实；台阶方冲：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Stepped square punches per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 多级缩径台阶冲头 · stepped-punches--multi-diameter
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/stepped-punches/#configuration-multi-diameter
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **多级缩径台阶冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Multi-diameter step punches
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；多级缩径台阶冲头：结构尚未核实；多级缩径台阶冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Multi-diameter step punches per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 来图定制台阶冲头 · stepped-punches--custom-shaped
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/stepped-punches/#configuration-custom-shaped
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **来图定制台阶冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Custom-shaped stepped punches
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；来图定制台阶冲头：结构尚未核实；来图定制台阶冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Custom-shaped stepped punches per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 定制冲压模冲头 · stamping-die-punches--custom-stamping
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/stamping-die-punches/#configuration-custom-stamping
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **定制冲压模冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Custom stamping die punches
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；定制冲压模冲头：结构尚未核实；定制冲压模冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Custom stamping die punches per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 冲压模冲头材料 · stamping-die-punches--materials
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/stamping-die-punches/#configuration-materials
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **冲压模冲头材料**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Materials for stamping die punches
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；冲压模冲头材料：结构尚未核实；冲压模冲头材料：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Materials for stamping die punches per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 冲压模冲头系列 · stamping-die-punches--manufacturer-range
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/stamping-die-punches/#configuration-manufacturer-range
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **冲压模冲头系列**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Stamping die punch range
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；冲压模冲头系列：结构尚未核实；冲压模冲头系列：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Stamping die punch range per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 定制片形与冲模轮廓 · tableting-punches--tablet-shapes
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/tableting-punches/#configuration-tablet-shapes
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：tool-steel；相同几何但材料不同不得直接复用。
+
+- **定制片形与冲模轮廓**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Custom tablet shapes & punch profiles
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；定制片形与冲模轮廓：结构尚未核实；定制片形与冲模轮廓：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: tool-steel. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Custom tablet shapes & punch profiles per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 刻字与标识冲模 · tableting-punches--engraved
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/tableting-punches/#configuration-engraved
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：tool-steel；相同几何但材料不同不得直接复用。
+
+- **刻字与标识冲模**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Custom engraved punches and dies
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；刻字与标识冲模：结构尚未核实；刻字与标识冲模：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: tool-steel. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Custom engraved punches and dies per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 多冲尖压片工装 · tableting-punches--multi-tip
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/tableting-punches/#configuration-multi-tip
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：tool-steel；相同几何但材料不同不得直接复用。
+
+- **多冲尖压片工装**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Multi-tip tablet tooling
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；多冲尖压片工装：结构尚未核实；多冲尖压片工装：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: tool-steel. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Multi-tip tablet tooling per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 压机专用定制工装 · tableting-punches--press-specific
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/tableting-punches/#configuration-press-specific
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：tool-steel；相同几何但材料不同不得直接复用。
+
+- **压机专用定制工装**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Press-specific custom tooling
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；压机专用定制工装：结构尚未核实；压机专用定制工装：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: tool-steel. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Press-specific custom tooling per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 直身钨钢冲头 · tungsten-carbide-punches--straight
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/tungsten-carbide-punches/#configuration-straight
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **直身钨钢冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Straight tungsten carbide punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；直身钨钢冲头：结构尚未核实；直身钨钢冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Straight tungsten carbide punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 台阶钨钢冲头 · tungsten-carbide-punches--step
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/tungsten-carbide-punches/#configuration-step
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **台阶钨钢冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Step tungsten carbide punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；台阶钨钢冲头：结构尚未核实；台阶钨钢冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Step tungsten carbide punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 精密钨钢冲头 · tungsten-carbide-punches--precision
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/tungsten-carbide-punches/#configuration-precision
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **精密钨钢冲头**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Precision tungsten carbide punch
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；精密钨钢冲头：结构尚未核实；精密钨钢冲头：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Precision tungsten carbide punch per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
+### 涂层冲头系列 · tungsten-carbide-punches--coated
+
+状态：待核实；现有图片：旧版保留、待替换。
+目标 1 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
+位置：/zh/products/punch-components/tungsten-carbide-punches/#configuration-coated
+类别共同特征：HTX punch-components category; image published from HTX reference grid.
+材料范围：carbide；相同几何但材料不同不得直接复用。
+
+- **涂层冲头系列**（待核实）：与 HTX 站该分类展示图一致，不以 AI 臆造结构。
+  - [参考页面](https://htxprecision.com/punch-components/)：HTX 分类：Coated punch series
+
+生成拦截：未明确核定为可生成；必须使用不同款式组合；不足两种可核实款式；缺少至少两款的构图目标；涂层冲头系列：结构尚未核实；涂层冲头系列：名称或候选链接不能证明结构
+
+```text
+DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.
+
+Family boundary: HTX punch-components category; image published from HTX reference grid.
+
+Material scope: carbide. As photographed on HTX reference.
+
+Individual product styles:
+
+1. Representative Coated punch series per HTX product page category tile.
+
+Distinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.
+
+Defined styles: 1; physical objects: 1. Each listed style occurs once.
+
+Composition: Single product photo as on HTX category grid.
+
+Create a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.
+
+Exclude: No AI restyle required when HTX source is used.
+```
+
 ## 分类入口与首页横幅
 
-- **冲针与冲头分类入口**：carbide-punches、hss-punches、stepped-punches、forming-punches、a-type-punches、tableting-punches。等待来源新版图片；不额外生图。
+- **冲针与冲头分类入口**：carbide-punches、hss-punches、stepped-punches、stamping-die-punches、tungsten-carbide-punches、tableting-punches。等待来源新版图片；不额外生图。
 - **顶出组件分类入口**：straight-ejector-pins、shoulder-ejector-pins、stepped-ejector-pins、blade-ejector-pins、square-ejector-pins、ejector-sleeves、air-poppet-valves。等待来源新版图片；不额外生图。
 - **导向组件分类入口**：guide-posts、guide-bushings、flanged-guide-bushings、ball-cages、ball-bearing-bushings。等待来源新版图片；不额外生图。
 - **模具弹簧分类入口**：rectangular-die-springs、nitrogen-gas-springs。等待来源新版图片；不额外生图。
-- **浇注与模具辅助件分类入口**：sprue-bushings、locating-rings、mold-date-stamps、side-locks、stopper-bolts、pull-rods。等待来源新版图片；不额外生图。
 - **自润滑轴套与耐磨件分类入口**：graphite-bronze-bushings、bronze-bushings、flanged-bronze-bushings、wear-plates。等待来源新版图片；不额外生图。
-- **定位与送料销件分类入口**：precision-dowel-pins、threaded-dowel-pins、pilot-pins、floating-pins。等待来源新版图片；不额外生图。
-- **首页产品横幅**：carbide-punches、hss-punches、stepped-punches、a-type-punches。等待来源新版图片；不额外生图。
+- **定位与送料销件分类入口**：precision-dowel-pins、threaded-dowel-pins。等待来源新版图片；不额外生图。
+- **首页产品横幅**：carbide-punches、hss-punches、stepped-punches、tungsten-carbide-punches。等待来源新版图片；不额外生图。
 
 ## 配置图文对应
 
-- carbide-punches / A 型台阶冲针：carbide-punches--type-a。
-- carbide-punches / T 型单肩冲针：carbide-punches--type-t。
-- carbide-punches / 台阶与镶合金结构：carbide-punches--stepped。
-- carbide-punches / 方形、矩形与定制异形：carbide-punches--profiles。
+- carbide-punches / A 型圆柱直身冲针：carbide-punches--type-a。
+- carbide-punches / T 型圆柱直身冲针：carbide-punches--type-t。
+- carbide-punches / 定制异形直身冲针：carbide-punches--profile。
+- carbide-punches / 切断冲头：carbide-punches--cutting。
+- carbide-punches / 精密冲头：carbide-punches--precision。
 - carbide-punches / 六角冲头：carbide-punches--hexagonal。
-- carbide-punches / 椭圆与长圆冲头：carbide-punches--oval-obround。
-- carbide-punches / 切断与精密冲裁：carbide-punches--cutoff。
-- carbide-punches / 涂层与耐磨方案：carbide-punches--coated。
-- hss-punches / 圆形与 T 型圆冲：hss-punches。
-- hss-punches / 扁形与矩形冲头：hss-punches--square-rectangle、hss-punches--blade。
-- hss-punches / 方形冲头：hss-punches--square-rectangle。
-- hss-punches / 台阶高速钢冲头：hss-punches--stepped。
-- hss-punches / 六角与特殊轮廓：hss-punches--special。
-- hss-punches / 带退料结构的冲头：hss-punches。
-- stepped-punches / 单台阶圆冲：stepped-punches。
-- stepped-punches / 多级缩径冲头：stepped-punches--multi。
-- stepped-punches / 台阶方冲：stepped-punches--square。
-- stepped-punches / 台阶异形与开槽冲头：stepped-punches--special。
-- stepped-punches / T 头与定制安装端：stepped-punches。
-- stamping-die-punches / 圆孔冲裁件：stamping-die-punches。
-- stamping-die-punches / 轮廓与槽孔冲头：stamping-die-punches--slot。
-- stamping-die-punches / 切断与修边冲头：stamping-die-punches--cutoff。
-- stamping-die-punches / 连续模替换冲头：stamping-die-punches--mount。
-- forming-punches / 六角、方形与多边形：forming-punches--polygon。
-- forming-punches / 椭圆与长圆轮廓：forming-punches--oval-obround。
-- forming-punches / 斜面与偏置工作端：forming-punches--contour。
-- forming-punches / 曲面与圆弧成型头：forming-punches--contour。
-- a-type-punches / A 型台阶冲针：a-type-punches。
-- a-type-punches / 带削边或防转位：a-type-punches--flat。
-- a-type-punches / 非标长度与安装配合：文字说明。
-- tableting-punches / 上冲：tableting-punches--cup-shapes。
-- tableting-punches / 下冲：tableting-punches--cup-shapes。
-- tableting-punches / 配套中模：tableting-punches。
-- tableting-punches / 圆形、椭圆与定制片型：tableting-punches--cup-shapes。
-- tableting-punches / 刻字、标识与分割线：tableting-punches--score。
-- tableting-punches / 多冲尖与压机专用配置：tableting-punches--multi。
+- carbide-punches / 引导冲头 / 导正冲：carbide-punches--pilot。
+- carbide-punches / 椭圆冲头：carbide-punches--oval。
+- hss-punches / 带退料 HSS 冲头：hss-punches--ejector。
+- hss-punches / 扁形 HSS 冲头：hss-punches--flat。
+- hss-punches / 方形 HSS 冲头：hss-punches--square。
+- hss-punches / 矩形 HSS 冲头：hss-punches--rectangular。
+- hss-punches / 台阶 HSS 冲头：hss-punches--step。
+- hss-punches / 异形 HSS 冲头：hss-punches--special-shaped。
+- hss-punches / 圆形 HSS 冲头：hss-punches--round。
+- hss-punches / 引导 HSS 冲头：hss-punches--guide。
+- stepped-punches / 异形台阶冲头：stepped-punches--special-shaped。
+- stepped-punches / 台阶圆冲：stepped-punches--stepped-round。
+- stepped-punches / 台阶方冲：stepped-punches--stepped-square。
+- stepped-punches / 多级缩径台阶冲头：stepped-punches--multi-diameter。
+- stepped-punches / 来图定制台阶冲头：stepped-punches--custom-shaped。
+- stamping-die-punches / 定制冲压模冲头：stamping-die-punches--custom-stamping。
+- stamping-die-punches / 冲压模冲头材料：stamping-die-punches--materials。
+- stamping-die-punches / 冲压模冲头系列：stamping-die-punches--manufacturer-range。
+- tungsten-carbide-punches / 直身钨钢冲头：tungsten-carbide-punches--straight。
+- tungsten-carbide-punches / 台阶钨钢冲头：tungsten-carbide-punches--step。
+- tungsten-carbide-punches / 精密钨钢冲头：tungsten-carbide-punches--precision。
+- tungsten-carbide-punches / 涂层冲头系列：tungsten-carbide-punches--coated。
+- tableting-punches / 定制片形与冲模轮廓：tableting-punches--tablet-shapes。
+- tableting-punches / 刻字与标识冲模：tableting-punches--engraved。
+- tableting-punches / 多冲尖压片工装：tableting-punches--multi-tip。
+- tableting-punches / 压机专用定制工装：tableting-punches--press-specific。
 - straight-ejector-pins / 直身平端顶针：straight-ejector-pins。
 - straight-ejector-pins / SKD61 / H13 材质方案：文字说明。
 - straight-ejector-pins / 氮化直身顶针：文字说明。
@@ -2834,22 +2688,6 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 - nitrogen-gas-springs / 紧凑型氮气弹簧：nitrogen-gas-springs。
 - nitrogen-gas-springs / 安装附件与固定方式：nitrogen-gas-springs--mount。
 - nitrogen-gas-springs / 按型号替换：nitrogen-gas-springs。
-- sprue-bushings / A 型参考结构：sprue-bushings--nozzle-seat。
-- sprue-bushings / B 型参考结构：sprue-bushings--nozzle-seat。
-- sprue-bushings / C 型参考结构：sprue-bushings--nozzle-seat。
-- sprue-bushings / 冷流道浇口套：sprue-bushings--nozzle-seat。
-- sprue-bushings / 加热浇口套方案：sprue-bushings。
-- sprue-bushings / U 系列与紧凑定制：sprue-bushings。
-- locating-rings / 平面定位圈：locating-rings。
-- locating-rings / 台阶定位圈：locating-rings。
-- mold-date-stamps / 年月与月份标记：mold-date-stamps。
-- mold-date-stamps / 定制识别与批次标记：mold-date-stamps。
-- side-locks / 侧面精定位结构：side-locks。
-- side-locks / 公母配套定位块：side-locks。
-- stopper-bolts / 带肩限位螺栓：stopper-bolts。
-- stopper-bolts / 定制限位行程：stopper-bolts。
-- pull-rods / 螺纹端拉杆：pull-rods。
-- pull-rods / 带肩与限位端拉杆：pull-rods。
 - graphite-bronze-bushings / 圆筒石墨铜套：graphite-bronze-bushings--working-bore。
 - graphite-bronze-bushings / 法兰石墨铜套：graphite-bronze-bushings。
 - graphite-bronze-bushings / 方形与定制石墨导向块：graphite-bronze-bushings。
@@ -2865,9 +2703,3 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 - threaded-dowel-pins / 内螺纹拔出销：threaded-dowel-pins--pull-thread。
 - threaded-dowel-pins / 外螺纹段定位销：threaded-dowel-pins。
 - threaded-dowel-pins / 公英制替换与定制：文字说明。
-- pilot-pins / 圆形导正销：pilot-pins。
-- pilot-pins / 切口与让位导正销：pilot-pins。
-- pilot-pins / 定制引导端：pilot-pins。
-- floating-pins / 圆形浮升销：floating-pins。
-- floating-pins / 成型支撑端浮料销：floating-pins。
-- floating-pins / 弹簧配套与限位结构：floating-pins。

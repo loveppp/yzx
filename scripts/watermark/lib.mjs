@@ -4,6 +4,139 @@ import sharp from 'sharp';
 
 const WATERMARK_VIEWBOX = { w: 200, h: 32 };
 
+/** @typedef {{ r: number; g: number; b: number; alpha?: number }} RgbBackground */
+
+/**
+ * Average RGB from a small corner crop (for matching HTX light-gray plate).
+ * @param {import('sharp').Sharp} image
+ * @param {number} width
+ * @param {number} height
+ * @param {'tl' | 'tr' | 'bl' | 'br'} corner
+ */
+async function cornerMeanRgb(image, width, height, corner) {
+  const size = Math.max(4, Math.min(16, Math.floor(Math.min(width, height) * 0.04)));
+  const left =
+    corner === 'tr' || corner === 'br' ? Math.max(0, width - size) : 0;
+  const top =
+    corner === 'bl' || corner === 'br' ? Math.max(0, height - size) : 0;
+  const { channels } = await image
+    .clone()
+    .extract({ left, top, width: size, height: size })
+    .stats();
+  return {
+    r: Math.round(channels[0]?.mean ?? 245),
+    g: Math.round(channels[1]?.mean ?? 244),
+    b: Math.round(channels[2]?.mean ?? 241),
+  };
+}
+
+/**
+ * Pad to target aspect without scaling content (letterbox / pillarbox).
+ * @param {Buffer} imageBytes
+ * @param {{ ratioWidth?: number; ratioHeight?: number; background?: RgbBackground | 'sample' }} [options]
+ */
+export async function padImageToAspectRatio(imageBytes, options = {}) {
+  const ratioWidth = options.ratioWidth ?? 4;
+  const ratioHeight = options.ratioHeight ?? 3;
+  const image = sharp(imageBytes);
+  const meta = await image.metadata();
+  if (!meta.width || !meta.height) throw new Error('Unable to read image dimensions.');
+
+  const targetRatio = ratioWidth / ratioHeight;
+  const currentRatio = meta.width / meta.height;
+  const epsilon = 0.002;
+  if (Math.abs(currentRatio - targetRatio) < epsilon) return imageBytes;
+
+  /** @type {RgbBackground} */
+  let background =
+    options.background && options.background !== 'sample'
+      ? options.background
+      : { r: 245, g: 244, b: 241, alpha: 1 };
+
+  if (options.background === 'sample') {
+    const corners = await Promise.all([
+      cornerMeanRgb(image, meta.width, meta.height, 'tl'),
+      cornerMeanRgb(image, meta.width, meta.height, 'tr'),
+      cornerMeanRgb(image, meta.width, meta.height, 'bl'),
+      cornerMeanRgb(image, meta.width, meta.height, 'br'),
+    ]);
+    background = {
+      r: Math.round(corners.reduce((s, c) => s + c.r, 0) / corners.length),
+      g: Math.round(corners.reduce((s, c) => s + c.g, 0) / corners.length),
+      b: Math.round(corners.reduce((s, c) => s + c.b, 0) / corners.length),
+      alpha: 1,
+    };
+  }
+
+  let canvasW;
+  let canvasH;
+  let left;
+  let top;
+  if (currentRatio > targetRatio) {
+    canvasW = meta.width;
+    canvasH = Math.round(meta.width / targetRatio);
+    left = 0;
+    top = Math.round((canvasH - meta.height) / 2);
+  } else {
+    canvasH = meta.height;
+    canvasW = Math.round(meta.height * targetRatio);
+    left = Math.round((canvasW - meta.width) / 2);
+    top = 0;
+  }
+
+  const format = meta.format;
+  let pipeline = sharp({
+    create: {
+      width: canvasW,
+      height: canvasH,
+      channels: 4,
+      background,
+    },
+  }).composite([{ input: imageBytes, left, top }]);
+
+  if (format === 'jpeg') pipeline = pipeline.jpeg({ quality: 94, mozjpeg: true });
+  else if (format === 'webp') pipeline = pipeline.webp({ quality: 92 });
+  else pipeline = pipeline.png({ compressionLevel: 6, adaptiveFiltering: true });
+
+  return pipeline.toBuffer();
+}
+
+/**
+ * Uniform scale (same factor for width & height) then center-crop to exact aspect — no stretch.
+ * @param {Buffer} imageBytes
+ * @param {{ ratioWidth?: number; ratioHeight?: number; outWidth?: number; outHeight?: number }} [options]
+ */
+export async function coverImageToAspectRatio(imageBytes, options = {}) {
+  const ratioWidth = options.ratioWidth ?? 4;
+  const ratioHeight = options.ratioHeight ?? 3;
+  const image = sharp(imageBytes);
+  const meta = await image.metadata();
+  if (!meta.width || !meta.height) throw new Error('Unable to read image dimensions.');
+
+  const targetRatio = ratioWidth / ratioHeight;
+  const currentRatio = meta.width / meta.height;
+  const epsilon = 0.002;
+  if (Math.abs(currentRatio - targetRatio) < epsilon && !options.outWidth && !options.outHeight) {
+    return imageBytes;
+  }
+
+  const outHeight = options.outHeight ?? Math.max(meta.height, 900);
+  const outWidth = options.outWidth ?? Math.round(outHeight * targetRatio);
+
+  const format = meta.format;
+  let pipeline = sharp(imageBytes).resize(outWidth, outHeight, {
+    fit: 'cover',
+    position: 'centre',
+    withoutEnlargement: false,
+  });
+
+  if (format === 'jpeg') pipeline = pipeline.jpeg({ quality: 94, mozjpeg: true });
+  else if (format === 'webp') pipeline = pipeline.webp({ quality: 92 });
+  else pipeline = pipeline.png({ compressionLevel: 6, adaptiveFiltering: true });
+
+  return pipeline.toBuffer();
+}
+
 /** @param {Buffer} imageBytes @param {Buffer} watermarkSvgBytes */
 export async function watermarkImageBytes(imageBytes, watermarkSvgBytes) {
   const image = sharp(imageBytes);
@@ -27,7 +160,7 @@ export async function watermarkImageBytes(imageBytes, watermarkSvgBytes) {
   const format = meta.format;
   if (format === 'jpeg') pipeline = pipeline.jpeg({ quality: 92, mozjpeg: true });
   else if (format === 'webp') pipeline = pipeline.webp({ quality: 90 });
-  else if (format === 'png') pipeline = pipeline.png();
+  else if (format === 'png') pipeline = pipeline.png({ compressionLevel: 6, adaptiveFiltering: true });
   else throw new Error(`Unsupported format: ${format}`);
 
   return pipeline.toBuffer();

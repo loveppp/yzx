@@ -15,7 +15,7 @@ const { locale, compact = false, home = false, quoteHref } = Astro.props;
 const homeT = home ? useTranslations(locale) : null;
 const tx = (v: Record<Locale, string>) => punchText(v, locale);
 const ui = catalogUI(locale);
-const photos = ['stepped-punches', 'carbide-punches', 'forming-punches', 'stamping-die-punches'].map(
+const photos = ['stepped-punches', 'carbide-punches', 'tungsten-carbide-punches', 'stamping-die-punches'].map(
   (id) => productById(id)!,
 );
 const homeHeroImage = '/images/home/punch-showcase-hero.png';
@@ -80,8 +80,8 @@ const cardQuoteHref = quoteHref ?? (home ? `/${locale}/#quote` : '#quote');
                       ? 'Chày, kim đột và linh kiện khuôn chính xác'
                       : 'Punches, pins and precision mold components'
                 }
-                width="1024"
-                height="765"
+                width="800"
+                height="600"
                 loading="eager"
                 class="h-full w-full object-contain"
               />
@@ -97,12 +97,12 @@ const cardQuoteHref = quoteHref ?? (home ? `/${locale}/#quote` : '#quote');
                 photos.map((p) => (
                   <article class="product-visual-card flex min-w-0 flex-col overflow-hidden border border-borui-navy/10 bg-borui-paper">
                     <a class="group min-w-0 flex-1 hover:border-borui-brass" href={productPath(p, locale)}>
-                      <div class="product-visual-frame aspect-[4/3] overflow-hidden bg-borui-light">
+                      <div class="product-visual-frame aspect-square overflow-hidden bg-borui-light">
                         <img
                           src={p.image || p.illustration}
                           alt={catalogText(p.name, locale)}
                           width="800"
-                          height="600"
+                          height="800"
                           loading={compact ? 'lazy' : 'eager'}
                           class="h-full w-full object-contain"
                         />

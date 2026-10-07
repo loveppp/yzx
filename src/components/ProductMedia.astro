@@ -3,13 +3,30 @@ import { catalogText, type CatalogProduct } from '@/data/catalog';
 import { catalogUI } from '@/data/catalog-ui';
 import {catalogVisuals} from '@/data/catalog-visuals';
 import type { Locale } from '@/i18n/locales';
-interface Props { product: CatalogProduct; locale: Locale; caption?: boolean; eager?: boolean; visualCaption?: boolean; }
-const {product, locale, caption = false, eager = false, visualCaption = false} = Astro.props;
+interface Props {
+  product: CatalogProduct;
+  locale: Locale;
+  caption?: boolean;
+  eager?: boolean;
+  visualCaption?: boolean;
+  /** 默认 1:1；首页「产品分类」六大类条显式传 4/3（首页 Hero 大图在 PunchShowcase 内单独 4/3） */
+  frame?: '4/3' | '1/1';
+}
+const {product, locale, caption = false, eager = false, visualCaption = false, frame = '1/1'} = Astro.props;
 const ui = catalogUI(locale);
+const square = frame === '1/1';
 ---
 <figure class="min-w-0">
-  <div class="product-visual-frame aspect-[4/3] overflow-hidden bg-borui-light">
-    <img src={product.image || product.illustration} alt={catalogText(product.name,locale)} width="800" height="600" loading={eager ? 'eager' : 'lazy'} class="h-full w-full object-contain" />
+  <div class:list={['product-visual-frame overflow-hidden bg-borui-light', square ? 'aspect-square' : 'aspect-[4/3]']}>
+    <img
+      src={product.image || product.illustration}
+      alt={catalogText(product.name,locale)}
+      width="800"
+      height={square ? 800 : 600}
+      loading={eager ? 'eager' : 'lazy'}
+      decoding="async"
+      class="h-full w-full object-contain"
+    />
   </div>
   {(caption||(visualCaption&&catalogVisuals[product.id]))&&<figcaption class="px-4 py-3 text-xs leading-relaxed text-slate-600">
     {catalogVisuals[product.id]&&<span class="block">{locale==='zh'?'图中：':locale==='vi'?'Trong hình: ':'Shown: '}{catalogText(catalogVisuals[product.id],locale)}</span>}

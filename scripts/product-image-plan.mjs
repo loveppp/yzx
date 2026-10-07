@@ -112,7 +112,7 @@ export function loadCurrentImagePlan(catalog = read('src/data/catalog.json')) {
     return {...c,method:'layout-existing-complete-assets',generationCalls:0,status:c.sourceProductIds.every(id=>jobs.find(j=>j.id===id).status==='published')?'ready-to-compose':'waiting-for-current-sources',layoutRule:'Arrange complete current-revision product tiles; no cutting out, recoloring or regenerating parts. Keep source captions and category links. Responsive layout, no cropped ends.'};
   });
   if (new Set(source.categoryComposites.map(c=>c.group)).size!==catalog.groups.length) throw new Error('Missing category composition');
-  const textOnly = new Set(['straight-ejector-pins/skd61','straight-ejector-pins/nitrided','shoulder-ejector-pins/surface','guide-posts/nitrided','a-type-punches/custom','threaded-dowel-pins/units']);
+  const textOnly = new Set(['straight-ejector-pins/skd61','straight-ejector-pins/nitrided','shoulder-ejector-pins/surface','guide-posts/nitrided','threaded-dowel-pins/units']);
   const configurationCoverage = catalog.products.flatMap(p=>content[p.id].variants.map(v=>{
     const extra = detailJobs.filter(j=>j.productId===p.id && j.configurationIds.includes(v.id));
     return {productId:p.id,configurationId:v.id,name:v.name,mode:textOnly.has(`${p.id}/${v.id}`)?'text-explanation':extra.length?'dedicated-detail':'family-main-reference',imageJobIds:textOnly.has(`${p.id}/${v.id}`)?[]:extra.length?extra.map(j=>j.id):[p.id],note:'Representative image only. Material, treatment and performance options remain text; no implicit depiction of every option.'};

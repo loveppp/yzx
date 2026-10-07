@@ -77,25 +77,6 @@
       }
     },
     {
-      "id": "plastic-mold-components",
-      "coverImage": "/images/products/catalog/sprue-bushings-2026-10-01T08-50-36-912Z.jpg",
-      "name": {
-        "en": "Mold Accessories",
-        "zh": "浇注与模具辅助件",
-        "vi": "Phụ kiện khuôn ép nhựa"
-      },
-      "intro": {
-        "en": "Sprue bushings, locating rings, date stamps and mechanical accessories for injection molds. Define each part by its function and mating interface.",
-        "zh": "注塑模具的浇口套、定位圈、日期章及机械辅助件。根据零件作用与配合接口确定规格。",
-        "vi": "Bạc cuống phun, vòng định vị, dấu ngày và phụ kiện cơ khí cho khuôn ép nhựa. Xác định chức năng và bề mặt lắp ghép."
-      },
-      "selection": {
-        "en": "Mold layout and mating dimensions; operating temperature and movement; reference drawing and quantity",
-        "zh": "模具布局与配合尺寸；工作温度与运动要求；参考图纸与数量",
-        "vi": "Bố trí khuôn và kích thước lắp; nhiệt độ và chuyển động; bản vẽ và số lượng"
-      }
-    },
-    {
       "id": "bronze-components",
       "coverImage": "/images/catalog/bronze-components-cover.png",
       "name": {
@@ -182,11 +163,11 @@
         "https://htxprecision.com/carbide-punch/",
         "https://htxprecision.com/tungsten-carbide-punch/"
       ],
-      "image": "/images/products/catalog/carbide-punches-2026-10-05T09-52-00-000Z.png",
+      "image": "/images/products/catalog/carbide-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/carbide-punches.svg",
-      "imageGenerated": true,
+      "imageGenerated": false,
       "imageCaption": {
-        "zh": "圆形工作端冲头 / 方形工作端冲头 / 六角工作端冲头 / 长圆工作端冲头",
+        "zh": "HTX 品类页主图。",
         "en": "Round working end / Square working end / Hexagonal working end / Obround working end",
         "vi": "Đầu làm việc tròn / Đầu làm việc vuông / Đầu làm việc lục giác / Đầu làm việc dạng thuôn"
       }
@@ -241,11 +222,11 @@
       "sourceUrls": [
         "https://htxprecision.com/hss-punch/"
       ],
-      "image": "/images/products/catalog/hss-punches-2026-09-30T08-02-46-371Z.jpg",
+      "image": "/images/products/catalog/hss-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/hss-punches.svg",
-      "imageGenerated": true,
+      "imageGenerated": false,
       "imageCaption": {
-        "zh": "圆形工作端冲头 / A型圆杆台阶冲针 / 方形工作端冲头 / 矩形工作端冲头",
+        "zh": "HTX 品类页主图。",
         "en": "Round working end / Plain-shank stepped round punch / Square working end / Rectangular working end",
         "vi": "Đầu làm việc tròn / Chày bậc thân tròn / Đầu làm việc vuông / Đầu làm việc chữ nhật"
       }
@@ -299,11 +280,11 @@
       "sourceUrls": [
         "https://htxprecision.com/stepped-punch/"
       ],
-      "image": "/images/products/catalog/stepped-punches-2026-09-30T08-04-04-093Z.jpg",
+      "image": "/images/products/catalog/stepped-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/stepped-punches.svg",
-      "imageGenerated": true,
+      "imageGenerated": false,
       "imageCaption": {
-        "zh": "台阶圆形工作端冲头 / 台阶方形工作端冲头 / 台阶六角工作端冲头 / 台阶长圆工作端冲头",
+        "zh": "HTX 品类页主图。",
         "en": "Stepped punch with round working end / Stepped punch with square working end / Stepped punch with hexagonal working end / Stepped punch with obround working end",
         "vi": "Chày bậc: đầu làm việc tròn / Chày bậc: đầu làm việc vuông / Chày bậc: đầu làm việc lục giác / Chày bậc: đầu làm việc dạng thuôn"
       }
@@ -364,27 +345,27 @@
       "sourceUrls": [
         "https://htxprecision.com/stamping-die-punch/"
       ],
-      "image": "/images/products/catalog/stamping-die-punches-2026-09-30T08-05-17-410Z.jpg",
+      "image": "/images/products/catalog/stamping-die-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/stamping-die-punches.svg",
-      "imageGenerated": true,
+      "imageGenerated": false,
       "imageCaption": {
-        "zh": "圆形工作端冲头 / 方形工作端冲头 / 矩形工作端冲头 / 长圆工作端冲头",
+        "zh": "HTX 品类页主图。",
         "en": "Round working end / Square working end / Rectangular working end / Obround working end",
         "vi": "Đầu làm việc tròn / Đầu làm việc vuông / Đầu làm việc chữ nhật / Đầu làm việc dạng thuôn"
       }
     },
     {
       "group": "punch-components",
-      "id": "forming-punches",
+      "id": "tungsten-carbide-punches",
       "name": {
-        "en": "Forming & Profile Punches",
-        "zh": "异形与成型冲头",
-        "vi": "Chày tạo hình"
+        "en": "Tungsten Carbide Punches",
+        "zh": "钨钢冲头",
+        "vi": "Chày hợp kim cứng (tungsten)"
       },
       "summary": {
-        "en": "Non-round and contoured working ends for shaped openings or forming operations. The working surface is defined from your drawing.",
-        "zh": "用于异形孔及成型工序的非圆、曲面工作端，工作轮廓以图纸为准。",
-        "vi": "Đầu không tròn hoặc có biên dạng để tạo lỗ định hình và tạo hình theo bản vẽ."
+        "en": "High-precision tungsten carbide punches for stamping dies, including straight, stepped, precision and coated series.",
+        "zh": "用于冲压模具的高精度钨钢冲头，含直身、台阶、精密及涂层系列。",
+        "vi": "Chày hợp kim cứng cho khuôn dập, gồm thẳng, bậc, chính xác và có lớp phủ."
       },
       "application": {
         "en": "Hexagonal, square, oblique and other custom profiles; formed features in stamping parts.",
@@ -420,67 +401,16 @@
         }
       ],
       "sourceUrls": [
+        "https://htxprecision.com/tungsten-carbide-punch/",
         "https://htxprecision.com/punch-components/"
       ],
-      "image": "/images/products/catalog/forming-punches-2026-09-29T15-45-09-192Z.webp",
+      "image": "/images/products/catalog/tungsten-carbide-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/forming-punches.svg",
-      "imageGenerated": true
-    },
-    {
-      "group": "punch-components",
-      "id": "a-type-punches",
-      "name": {
-        "zh": "A 型台阶冲针",
-        "en": "Type A Stepped Punches",
-        "vi": "Chày bậc loại A"
-      },
-      "summary": {
-        "zh": "A 型台阶冲针可采用单台阶、多级阶梯或锥肩缩径等结构。按工作端轮廓、支撑方式与安装要求确定具体款式。",
-        "en": "Type A stepped punches include single-step, multi-stage and tapered-shoulder designs. Select the construction by working profile, support and mounting requirements.",
-        "vi": "Chày bậc loại A gồm kiểu một bậc, nhiều bậc và vai côn. Chọn kết cấu theo biên dạng làm việc, cách đỡ và yêu cầu lắp."
-      },
-      "application": {
-        "en": "Standard-series replacement and drawing-based stamping tools.",
-        "zh": "标准系列替换件及来图定制冲压工装。",
-        "vi": "Thay thế theo dòng tiêu chuẩn và khuôn dập theo bản vẽ."
-      },
-      "selection": {
-        "zh": "参考系列、图纸与安装配合；刃径、支撑杆径与工作段长度；台阶圆角、头部尺寸与公差",
-        "en": "Reference series, drawing and mounting fit; tip diameter, shank diameter and working length; shoulder radius, head dimensions and tolerances",
-        "vi": "Dòng tham chiếu, bản vẽ và lắp ghép; đường kính đầu/thân và chiều dài làm việc; bán kính vai, kích thước mũ và dung sai"
-      },
-      "materials": [
-        "SKD11",
-        "SKH51",
-        "DC53"
-      ],
-      "variants": [
-        {
-          "en": "Round profile",
-          "zh": "圆形工作端",
-          "vi": "Đầu tròn"
-        },
-        {
-          "en": "Relieved profile",
-          "zh": "削边工作端",
-          "vi": "Đầu vát cạnh"
-        },
-        {
-          "en": "Custom dimensions",
-          "zh": "定制尺寸",
-          "vi": "Kích thước tùy chỉnh"
-        }
-      ],
-      "sourceUrls": [
-        "https://htxprecision.com/carbide-punch/"
-      ],
-      "image": "/images/products/catalog/a-type-punches-2026-09-30T08-07-22-337Z.jpg",
-      "illustration": "/images/catalog/a-type-punches.svg",
-      "imageGenerated": true,
+      "imageGenerated": false,
       "imageCaption": {
-        "zh": "A型圆杆台阶冲针 / A型削边台阶冲针",
-        "en": "Plain-shank stepped round punch / Stepped round punch with locating flat",
-        "vi": "Chày bậc thân tròn / Chày bậc có mặt phẳng định vị"
+        "zh": "HTX 品类页主图。",
+        "en": "",
+        "vi": ""
       }
     },
     {
@@ -531,9 +461,14 @@
       "sourceUrls": [
         "https://htxprecision.com/dies-and-punches-for-tableting/"
       ],
-      "image": "/images/products/catalog/tableting-punches-2026-09-29T15-52-38-341Z.webp",
+      "image": "/images/products/catalog/tableting-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/tableting-punches.svg",
-      "imageGenerated": true
+      "imageGenerated": false,
+      "imageCaption": {
+        "zh": "HTX 品类页主图。",
+        "en": "",
+        "vi": ""
+      }
     },
     {
       "group": "ejector-components",
@@ -1316,267 +1251,6 @@
       "illustration": "/images/catalog/nitrogen-gas-springs.svg"
     },
     {
-      "group": "plastic-mold-components",
-      "id": "sprue-bushings",
-      "name": {
-        "en": "Sprue Bushings",
-        "zh": "浇口套（唧咀）",
-        "vi": "Bạc cuống phun"
-      },
-      "summary": {
-        "en": "The sprue bushing connects the machine nozzle to the mold runner. Nozzle-seat geometry and the internal taper must suit the injection system.",
-        "zh": "浇口套连接注塑机喷嘴与模具流道，喷嘴接触面及内孔锥度需匹配注塑系统。",
-        "vi": "Bạc nối vòi phun máy với kênh dẫn khuôn; mặt tiếp xúc vòi và độ côn trong phải phù hợp hệ phun."
-      },
-      "application": {
-        "en": "The sprue bushing connects the machine nozzle to the mold runner. Nozzle-seat geometry and the internal taper must suit the injection system.",
-        "zh": "浇口套连接注塑机喷嘴与模具流道，喷嘴接触面及内孔锥度需匹配注塑系统。",
-        "vi": "Bạc nối vòi phun máy với kênh dẫn khuôn; mặt tiếp xúc vòi và độ côn trong phải phù hợp hệ phun."
-      },
-      "selection": {
-        "en": "Nozzle radius and inlet diameter; taper and passage length; flange and mold-plate dimensions",
-        "zh": "喷嘴球面半径与入口孔径；锥度与流道长度；法兰及模板尺寸",
-        "vi": "Bán kính vòi và đường kính vào; độ côn và chiều dài; kích thước bích và tấm khuôn"
-      },
-      "materials": [
-        "Tool steel"
-      ],
-      "variants": [
-        {
-          "en": "A / B / C reference types",
-          "zh": "A / B / C 参考型式",
-          "vi": "Kiểu tham chiếu A / B / C"
-        },
-        {
-          "en": "Custom nozzle seat",
-          "zh": "定制喷嘴接触面",
-          "vi": "Mặt tiếp xúc tùy chỉnh"
-        }
-      ],
-      "sourceUrls": [
-        "https://htxprecision.com/sprue-bushing/"
-      ],
-      "image": "/images/products/catalog/sprue-bushings-2026-10-01T08-50-36-912Z.jpg",
-      "illustration": "/images/catalog/sprue-bushings.svg",
-      "imageGenerated": true,
-      "imageCaption": {
-        "zh": "A 型浇口套 / B 型浇口套",
-        "en": "Type-A sprue bushing / Type-B sprue bushing",
-        "vi": "Bạc cuống loại A / loại B"
-      }
-    },
-    {
-      "group": "plastic-mold-components",
-      "id": "locating-rings",
-      "name": {
-        "en": "Locating Rings",
-        "zh": "定位圈",
-        "vi": "Vòng định vị"
-      },
-      "summary": {
-        "en": "A locating ring aligns the mold with the machine platen opening. Ring diameter and projection are matched to the press interface.",
-        "zh": "定位圈将模具与注塑机模板定位孔对中，外径与伸出高度需匹配机台接口。",
-        "vi": "Vòng định vị căn khuôn với lỗ bàn máy; đường kính và chiều nhô phải khớp giao diện máy."
-      },
-      "application": {
-        "en": "A locating ring aligns the mold with the machine platen opening. Ring diameter and projection are matched to the press interface.",
-        "zh": "定位圈将模具与注塑机模板定位孔对中，外径与伸出高度需匹配机台接口。",
-        "vi": "Vòng định vị căn khuôn với lỗ bàn máy; đường kính và chiều nhô phải khớp giao diện máy."
-      },
-      "selection": {
-        "en": "Machine locating bore; ring outside/inside diameter and height; fixing-hole pattern",
-        "zh": "机台定位孔；定位圈内外径与高度；固定孔位",
-        "vi": "Lỗ định vị máy; đường kính trong/ngoài và chiều cao; bố trí lỗ bắt"
-      },
-      "materials": [
-        "Steel"
-      ],
-      "variants": [
-        {
-          "en": "Flat rings",
-          "zh": "平面型",
-          "vi": "Vòng phẳng"
-        },
-        {
-          "en": "Stepped rings",
-          "zh": "台阶型",
-          "vi": "Vòng bậc"
-        }
-      ],
-      "sourceUrls": [],
-      "image": null,
-      "illustration": "/images/catalog/locating-rings.svg"
-    },
-    {
-      "group": "plastic-mold-components",
-      "id": "mold-date-stamps",
-      "name": {
-        "en": "Mold Date Stamps",
-        "zh": "模具日期章",
-        "vi": "Dấu ngày khuôn"
-      },
-      "summary": {
-        "en": "A replaceable marking insert places date or identification information on molded parts. The marking layout and adjustment method are specified together.",
-        "zh": "可更换标记镶件在制品上形成日期或识别信息，字符布局与调节方式需同时确定。",
-        "vi": "Lõi dấu thay thế tạo thông tin ngày hoặc nhận dạng trên sản phẩm; xác định bố cục ký hiệu và cách chỉnh."
-      },
-      "application": {
-        "en": "A replaceable marking insert places date or identification information on molded parts. The marking layout and adjustment method are specified together.",
-        "zh": "可更换标记镶件在制品上形成日期或识别信息，字符布局与调节方式需同时确定。",
-        "vi": "Lõi dấu thay thế tạo thông tin ngày hoặc nhận dạng trên sản phẩm; xác định bố cục ký hiệu và cách chỉnh."
-      },
-      "selection": {
-        "en": "Marking layout and character size; insert diameter and depth; rotation method and mold temperature",
-        "zh": "标记内容与字号；外径与深度；调节方式与模温",
-        "vi": "Bố cục và cỡ ký tự; đường kính và chiều sâu; cách chỉnh và nhiệt độ khuôn"
-      },
-      "materials": [
-        "Stainless steel",
-        "Tool steel"
-      ],
-      "variants": [
-        {
-          "en": "Month / year",
-          "zh": "月 / 年",
-          "vi": "Tháng / năm"
-        },
-        {
-          "en": "Custom identification",
-          "zh": "定制识别标记",
-          "vi": "Ký hiệu tùy chỉnh"
-        }
-      ],
-      "sourceUrls": [],
-      "image": null,
-      "illustration": "/images/catalog/mold-date-stamps.svg"
-    },
-    {
-      "group": "plastic-mold-components",
-      "id": "side-locks",
-      "name": {
-        "en": "Side Locks & Interlocks",
-        "zh": "侧锁与精定位块",
-        "vi": "Khóa định vị cạnh"
-      },
-      "summary": {
-        "en": "Interlocking mating faces help locate mold halves at closure. Their mounting datums should be coordinated with the main guide system.",
-        "zh": "相互配合的定位面辅助模具闭合定位，安装基准需与主导向系统协调。",
-        "vi": "Các mặt khóa ăn khớp hỗ trợ định vị hai nửa khuôn khi đóng; chuẩn lắp cần đồng bộ với hệ dẫn chính."
-      },
-      "application": {
-        "en": "Interlocking mating faces help locate mold halves at closure. Their mounting datums should be coordinated with the main guide system.",
-        "zh": "相互配合的定位面辅助模具闭合定位，安装基准需与主导向系统协调。",
-        "vi": "Các mặt khóa ăn khớp hỗ trợ định vị hai nửa khuôn khi đóng; chuẩn lắp cần đồng bộ với hệ dẫn chính."
-      },
-      "selection": {
-        "en": "Locking profile and size; mounting datums and screw holes; closure clearance and temperature",
-        "zh": "定位轮廓与尺寸；安装基准与螺孔；闭合间隙与温度",
-        "vi": "Biên dạng và kích thước khóa; chuẩn lắp và lỗ vít; khe hở đóng và nhiệt độ"
-      },
-      "materials": [
-        "Tool steel"
-      ],
-      "variants": [
-        {
-          "en": "Side interlocks",
-          "zh": "侧面精定位",
-          "vi": "Khóa cạnh"
-        },
-        {
-          "en": "Matched male / female",
-          "zh": "公母配套",
-          "vi": "Cặp đực / cái"
-        }
-      ],
-      "sourceUrls": [],
-      "image": null,
-      "illustration": "/images/catalog/side-locks.svg"
-    },
-    {
-      "group": "plastic-mold-components",
-      "id": "stopper-bolts",
-      "name": {
-        "en": "Stopper Bolts",
-        "zh": "限位螺栓",
-        "vi": "Bu lông giới hạn"
-      },
-      "summary": {
-        "en": "A shoulder or stop face limits plate travel in the designed assembly. Strength and engagement must be checked for the actual load.",
-        "zh": "肩部或止挡面在装配结构中限制模板行程，强度与啮合长度需按实际载荷核对。",
-        "vi": "Vai hoặc mặt chặn giới hạn hành trình tấm; cần kiểm tra độ bền và chiều dài ăn ren theo tải."
-      },
-      "application": {
-        "en": "A shoulder or stop face limits plate travel in the designed assembly. Strength and engagement must be checked for the actual load.",
-        "zh": "肩部或止挡面在装配结构中限制模板行程，强度与啮合长度需按实际载荷核对。",
-        "vi": "Vai hoặc mặt chặn giới hạn hành trình tấm; cần kiểm tra độ bền và chiều dài ăn ren theo tải."
-      },
-      "selection": {
-        "en": "Stop length and shoulder diameter; thread size and engagement; load direction and mounting space",
-        "zh": "限位长度与肩径；螺纹尺寸与啮合长度；载荷方向与安装空间",
-        "vi": "Chiều dài chặn và đường kính vai; cỡ ren và độ ăn ren; hướng tải và không gian lắp"
-      },
-      "materials": [
-        "Alloy steel"
-      ],
-      "variants": [
-        {
-          "en": "Shoulder stop bolts",
-          "zh": "带肩限位螺栓",
-          "vi": "Bu lông vai chặn"
-        },
-        {
-          "en": "Custom travel",
-          "zh": "定制限位行程",
-          "vi": "Hành trình tùy chỉnh"
-        }
-      ],
-      "sourceUrls": [],
-      "image": null,
-      "illustration": "/images/catalog/stopper-bolts.svg"
-    },
-    {
-      "group": "plastic-mold-components",
-      "id": "pull-rods",
-      "name": {
-        "en": "Pull Rods",
-        "zh": "拉杆",
-        "vi": "Thanh kéo khuôn"
-      },
-      "summary": {
-        "en": "Pull rods connect or sequence mold plates according to the opening arrangement. End connections and effective travel are defined by the assembly.",
-        "zh": "拉杆根据开模结构连接或带动模板，端部连接与有效行程以装配要求为准。",
-        "vi": "Thanh kéo nối hoặc điều khiển trình tự tấm theo cấu trúc mở khuôn; đầu nối và hành trình theo cụm lắp."
-      },
-      "application": {
-        "en": "Pull rods connect or sequence mold plates according to the opening arrangement. End connections and effective travel are defined by the assembly.",
-        "zh": "拉杆根据开模结构连接或带动模板，端部连接与有效行程以装配要求为准。",
-        "vi": "Thanh kéo nối hoặc điều khiển trình tự tấm theo cấu trúc mở khuôn; đầu nối và hành trình theo cụm lắp."
-      },
-      "selection": {
-        "en": "Effective length and opening travel; end threads or shoulders; plate sequence and load",
-        "zh": "有效长度与开模行程；端部螺纹或肩部；模板动作顺序与载荷",
-        "vi": "Chiều dài hữu ích và hành trình; ren đầu hoặc vai; trình tự tấm và tải"
-      },
-      "materials": [
-        "Alloy steel"
-      ],
-      "variants": [
-        {
-          "en": "Threaded ends",
-          "zh": "螺纹端",
-          "vi": "Đầu ren"
-        },
-        {
-          "en": "Shouldered ends",
-          "zh": "带肩端",
-          "vi": "Đầu vai"
-        }
-      ],
-      "sourceUrls": [],
-      "image": null,
-      "illustration": "/images/catalog/pull-rods.svg"
-    },
-    {
       "group": "bronze-components",
       "id": "graphite-bronze-bushings",
       "name": {
@@ -1874,98 +1548,6 @@
       ],
       "image": null,
       "illustration": "/images/catalog/threaded-dowel-pins.svg"
-    },
-    {
-      "group": "dowel-pins",
-      "id": "pilot-pins",
-      "name": {
-        "en": "Pilot Pins",
-        "zh": "导正销",
-        "vi": "Chốt dẫn định vị phôi"
-      },
-      "summary": {
-        "en": "A shaped lead-in enters a previously pierced hole to locate strip material before the next stamping operation.",
-        "zh": "引导端进入已冲孔位，在后续冲压工序前对条料进行定位。",
-        "vi": "Đầu dẫn vào lỗ đã đột để định vị dải phôi trước công đoạn dập tiếp theo."
-      },
-      "application": {
-        "en": "A shaped lead-in enters a previously pierced hole to locate strip material before the next stamping operation.",
-        "zh": "引导端进入已冲孔位，在后续冲压工序前对条料进行定位。",
-        "vi": "Đầu dẫn vào lỗ đã đột để định vị dải phôi trước công đoạn dập tiếp theo."
-      },
-      "selection": {
-        "en": "Pilot-hole diameter and clearance; nose profile and working length; mounting and strip thickness",
-        "zh": "导正孔径与间隙；引导端形状与工作长度；安装方式与料厚",
-        "vi": "Đường kính lỗ và khe hở; dạng mũi và chiều dài; kiểu lắp và chiều dày phôi"
-      },
-      "materials": [
-        "SKD11",
-        "SKH51",
-        "Tungsten carbide"
-      ],
-      "variants": [
-        {
-          "en": "Round pilots",
-          "zh": "圆形导正销",
-          "vi": "Chốt dẫn tròn"
-        },
-        {
-          "en": "Notched pilots",
-          "zh": "切口导正销",
-          "vi": "Chốt dẫn có khuyết"
-        },
-        {
-          "en": "Custom lead-ins",
-          "zh": "定制引导端",
-          "vi": "Mũi dẫn tùy chỉnh"
-        }
-      ],
-      "sourceUrls": [],
-      "image": null,
-      "illustration": "/images/catalog/pilot-pins.svg"
-    },
-    {
-      "group": "dowel-pins",
-      "id": "floating-pins",
-      "name": {
-        "en": "Floating & Lifter Pins",
-        "zh": "浮升销与浮料销",
-        "vi": "Chốt nâng phôi"
-      },
-      "summary": {
-        "en": "Lifter pins raise or support strip material between stamping operations to provide clearance for feeding.",
-        "zh": "在冲压工序间抬起或支撑条料，为送料提供所需间隙。",
-        "vi": "Chốt nâng đỡ hoặc nâng dải phôi giữa các công đoạn dập để tạo khoảng hở cấp phôi."
-      },
-      "application": {
-        "en": "Lifter pins raise or support strip material between stamping operations to provide clearance for feeding.",
-        "zh": "在冲压工序间抬起或支撑条料，为送料提供所需间隙。",
-        "vi": "Chốt nâng đỡ hoặc nâng dải phôi giữa các công đoạn dập để tạo khoảng hở cấp phôi."
-      },
-      "selection": {
-        "en": "Lift height and strip support profile; body diameter and spring interface; travel and mounting depth",
-        "zh": "抬料高度与支撑轮廓；本体直径与弹簧接口；行程与安装深度",
-        "vi": "Độ nâng và biên dạng đỡ; đường kính và giao diện lò xo; hành trình và chiều sâu lắp"
-      },
-      "materials": [
-        "Cr12MoV",
-        "SKD11"
-      ],
-      "variants": [
-        {
-          "en": "Round lifter pins",
-          "zh": "圆形浮升销",
-          "vi": "Chốt nâng tròn"
-        },
-        {
-          "en": "Profiled strip support",
-          "zh": "成型支撑端",
-          "vi": "Đầu đỡ định hình"
-        }
-      ],
-      "sourceUrls": [],
-      "image": null,
-      "illustration": "/images/catalog/floating-pins.svg"
     }
   ]
 }
