@@ -165,12 +165,7 @@
       ],
       "image": "/images/products/catalog/carbide-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/carbide-punches.svg",
-      "imageGenerated": false,
-      "imageCaption": {
-        "zh": "HTX 品类页主图。",
-        "en": "Round working end / Square working end / Hexagonal working end / Obround working end",
-        "vi": "Đầu làm việc tròn / Đầu làm việc vuông / Đầu làm việc lục giác / Đầu làm việc dạng thuôn"
-      }
+      "imageGenerated": false
     },
     {
       "group": "punch-components",
@@ -224,12 +219,7 @@
       ],
       "image": "/images/products/catalog/hss-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/hss-punches.svg",
-      "imageGenerated": false,
-      "imageCaption": {
-        "zh": "HTX 品类页主图。",
-        "en": "Round working end / Plain-shank stepped round punch / Square working end / Rectangular working end",
-        "vi": "Đầu làm việc tròn / Chày bậc thân tròn / Đầu làm việc vuông / Đầu làm việc chữ nhật"
-      }
+      "imageGenerated": false
     },
     {
       "group": "punch-components",
@@ -282,12 +272,7 @@
       ],
       "image": "/images/products/catalog/stepped-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/stepped-punches.svg",
-      "imageGenerated": false,
-      "imageCaption": {
-        "zh": "HTX 品类页主图。",
-        "en": "Stepped punch with round working end / Stepped punch with square working end / Stepped punch with hexagonal working end / Stepped punch with obround working end",
-        "vi": "Chày bậc: đầu làm việc tròn / Chày bậc: đầu làm việc vuông / Chày bậc: đầu làm việc lục giác / Chày bậc: đầu làm việc dạng thuôn"
-      }
+      "imageGenerated": false
     },
     {
       "group": "punch-components",
@@ -347,12 +332,7 @@
       ],
       "image": "/images/products/catalog/stamping-die-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/stamping-die-punches.svg",
-      "imageGenerated": false,
-      "imageCaption": {
-        "zh": "HTX 品类页主图。",
-        "en": "Round working end / Square working end / Rectangular working end / Obround working end",
-        "vi": "Đầu làm việc tròn / Đầu làm việc vuông / Đầu làm việc chữ nhật / Đầu làm việc dạng thuôn"
-      }
+      "imageGenerated": false
     },
     {
       "group": "punch-components",
@@ -406,12 +386,7 @@
       ],
       "image": "/images/products/catalog/tungsten-carbide-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/forming-punches.svg",
-      "imageGenerated": false,
-      "imageCaption": {
-        "zh": "HTX 品类页主图。",
-        "en": "",
-        "vi": ""
-      }
+      "imageGenerated": false
     },
     {
       "group": "punch-components",
@@ -463,12 +438,7 @@
       ],
       "image": "/images/products/catalog/tableting-punches-2026-10-07T13-17-57-118Z.png",
       "illustration": "/images/catalog/tableting-punches.svg",
-      "imageGenerated": false,
-      "imageCaption": {
-        "zh": "HTX 品类页主图。",
-        "en": "",
-        "vi": ""
-      }
+      "imageGenerated": false
     },
     {
       "group": "ejector-components",
@@ -500,19 +470,19 @@
       ],
       "variants": [
         {
-          "en": "SKD61 / H13 options",
-          "zh": "SKD61 / H13 材质选项",
-          "vi": "Lựa chọn SKD61 / H13"
+          "en": "Imperial straight pin",
+          "zh": "英制直身顶针",
+          "vi": "Ty thẳng hệ inch"
         },
         {
-          "en": "Nitrided surface",
-          "zh": "氮化表面",
-          "vi": "Bề mặt thấm nitơ"
+          "en": "Metric straight pin",
+          "zh": "公制直身顶针",
+          "vi": "Ty thẳng hệ mét"
         },
         {
-          "en": "Metric / inch",
-          "zh": "公制 / 英制",
-          "vi": "Hệ mét / inch"
+          "en": "Custom length",
+          "zh": "定制长度",
+          "vi": "Chiều dài tùy chỉnh"
         }
       ],
       "sourceUrls": [
@@ -521,8 +491,9 @@
         "https://htxprecision.com/nitrided-ejector-pin/",
         "https://htxprecision.com/skd61-ejector-pin/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/straight-ejector-pins.svg"
+      "image": "/images/products/catalog/straight-ejector-pins-2026-10-08T17-21-32-827Z-4x3.jpg",
+      "illustration": "/images/catalog/straight-ejector-pins.svg",
+      "imageGenerated": false
     },
     {
       "group": "ejector-components",
@@ -572,14 +543,9 @@
       "sourceUrls": [
         "https://htxprecision.com/shoulder-ejector-pins/"
       ],
-      "image": "/images/products/catalog/shoulder-ejector-pins-2026-10-01T08-44-29-092Z.jpg",
+      "image": "/images/products/catalog/shoulder-ejector-pins-2026-10-08T17-21-32-827Z-4x3.png",
       "illustration": "/images/catalog/shoulder-ejector-pins.svg",
-      "imageGenerated": true,
-      "imageCaption": {
-        "zh": "平肩托针 / 锥肩托针 / 圆弧肩托针",
-        "en": "Flat-shoulder ejector / Tapered-shoulder ejector / Radiused-shoulder ejector",
-        "vi": "Chốt đẩy vai phẳng / Chốt đẩy vai côn / Chốt đẩy vai bo tròn"
-      }
+      "imageGenerated": false
     },
     {
       "group": "ejector-components",
@@ -629,8 +595,9 @@
       "sourceUrls": [
         "https://htxprecision.com/step-ejector-pin/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/stepped-ejector-pins.svg"
+      "image": "/images/products/catalog/stepped-ejector-pins-2026-10-08T17-21-32-827Z-4x3.jpg",
+      "illustration": "/images/catalog/stepped-ejector-pins.svg",
+      "imageGenerated": false
     },
     {
       "group": "ejector-components",
@@ -679,8 +646,9 @@
       "sourceUrls": [
         "https://htxprecision.com/blade-ejector-pin/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/blade-ejector-pins.svg"
+      "image": "/images/products/catalog/blade-ejector-pins-2026-10-08T17-21-32-827Z-4x3.jpg",
+      "illustration": "/images/catalog/blade-ejector-pins.svg",
+      "imageGenerated": false
     },
     {
       "group": "ejector-components",
@@ -729,8 +697,9 @@
       "sourceUrls": [
         "https://htxprecision.com/square-ejector-pin/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/square-ejector-pins.svg"
+      "image": "/images/products/catalog/square-ejector-pins-2026-10-08T17-21-32-827Z-4x3.jpg",
+      "illustration": "/images/catalog/square-ejector-pins.svg",
+      "imageGenerated": false
     },
     {
       "group": "ejector-components",
@@ -779,8 +748,9 @@
       "sourceUrls": [
         "https://htxprecision.com/ejector-sleeve/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/ejector-sleeves.svg"
+      "image": "/images/products/catalog/ejector-sleeves-2026-10-08T17-21-32-827Z-4x3.png",
+      "illustration": "/images/catalog/ejector-sleeves.svg",
+      "imageGenerated": false
     },
     {
       "group": "ejector-components",
@@ -823,8 +793,9 @@
       "sourceUrls": [
         "https://htxprecision.com/Air-Poppet-Valve/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/air-poppet-valves.svg"
+      "image": "/images/products/catalog/air-poppet-valves-2026-10-08T17-21-32-827Z-4x3.jpg",
+      "illustration": "/images/catalog/air-poppet-valves.svg",
+      "imageGenerated": false
     },
     {
       "group": "guide-components",

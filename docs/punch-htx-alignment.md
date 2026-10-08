@@ -96,3 +96,22 @@
 冲针长内容使用 [`PunchStorySplit.astro`](../src/components/PunchStorySplit.astro)：桌面端左右分栏；区块 **H2 与正文同列**（`FamilyDetailSection` `titlePlacement="inline"`）；应用 `scene`（4:3），材料 `chart`，表面 `chart` + `chartSize="large"`（图列更宽、不压 `max-height`）；文案列含 **立即询价**。材料节不展示「可选材料牌号（按图纸确认）」折叠块。
 
 HTX 长图发布：`node scripts/htx/publish-family-section-images.mjs` → [`catalog-family-figures.json`](../src/data/catalog-family-figures.json)。映射规则见 [`data/catalog/htx-family-figure-rules.json`](../data/catalog/htx-family-figure-rules.json)。
+
+## Phase 1：顶出组件（`ejector-components`）
+
+7 品已接入 HTX 长内容模板（`isHtxFamilyLongformProduct` + `catalog-family-extras.json`）。选型发布：`data/catalog/ejector-htx-selection.json` → `node scripts/htx/publish-punch-from-retouch.mjs --htx --selection data/catalog/ejector-htx-selection.json`。
+
+| 产品 ID | 配置区 | 备注 |
+| --- | --- | --- |
+| `straight-ejector-pins` … `ejector-sleeves` | 显示 | HTX 分类图 → `catalog-detail-media.json` |
+| `air-poppet-valves` | **隐藏** | `hideConfigurations: true` |
+
+验收链接（zh）：
+
+- `/zh/products/ejector-components/straight-ejector-pins/`
+- `/zh/products/ejector-components/shoulder-ejector-pins/`
+- `/zh/products/ejector-components/stepped-ejector-pins/`
+- `/zh/products/ejector-components/blade-ejector-pins/`
+- `/zh/products/ejector-components/square-ejector-pins/`
+- `/zh/products/ejector-components/ejector-sleeves/`
+- `/zh/products/ejector-components/air-poppet-valves/`

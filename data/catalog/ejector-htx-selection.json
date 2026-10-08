@@ -1,0 +1,286 @@
+{
+  "version": 1,
+  "group": "ejector-components",
+  "entries": [
+    {
+      "sourceFile": "output/htx-sources/ejector-components/straight-ejector-pins/source-20-Straight-Ejector-Pins-Manufacturer-1.jpg",
+      "productId": "straight-ejector-pins",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【直身顶针 · 品类主图】HTX 直身顶针页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/straight-ejector-pins/source-21-1-Standard-Straight-Ejector-Pin.jpg",
+      "productId": "straight-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "straight-ejector-pins--plain",
+      "configurationIds": ["plain"],
+      "variantNameZh": "标准直身顶针",
+      "descriptionZh": "【直身顶针 · 标准直身顶针】HTX Standard Straight Ejector Pin。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/straight-ejector-pins/source-22-2-Imperial-Straight-Ejector-Pin.jpg",
+      "productId": "straight-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "straight-ejector-pins--imperial",
+      "configurationIds": ["imperial"],
+      "variantNameZh": "英制直身顶针",
+      "descriptionZh": "【直身顶针 · 英制直身顶针】HTX Imperial Straight Ejector Pin。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/straight-ejector-pins/source-23-3-Metric-Straight-Ejector-Pin.jpg",
+      "productId": "straight-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "straight-ejector-pins--metric",
+      "configurationIds": ["metric"],
+      "variantNameZh": "公制直身顶针",
+      "descriptionZh": "【直身顶针 · 公制直身顶针】HTX Metric Straight Ejector Pin。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/straight-ejector-pins/source-24-4-Custom-Length-Straight-Pin.jpg",
+      "productId": "straight-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "straight-ejector-pins--custom",
+      "configurationIds": ["custom"],
+      "variantNameZh": "定制长度直身顶针",
+      "descriptionZh": "【直身顶针 · 定制长度】HTX Custom Length Straight Pin。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/shoulder-ejector-pins/source-01-Custom-Shoulder-Ejector-Pins-Manufacturer.png",
+      "productId": "shoulder-ejector-pins",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【带肩顶针 · 品类主图】HTX 带肩顶针页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/shoulder-ejector-pins/source-08-Engineer-inspecting-shoulder-ejector-pin-application-inside-precision-mold-syste",
+      "productId": "shoulder-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "shoulder-ejector-pins--locating",
+      "configurationIds": ["locating"],
+      "variantNameZh": "定位肩结构",
+      "descriptionZh": "【带肩顶针 · 定位肩】HTX 带肩顶针应用示意。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/shoulder-ejector-pins/source-09-Engineering-drawing-of-shoulder-ejector-pin-with-custom-shoulder-diameter-height",
+      "productId": "shoulder-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "shoulder-ejector-pins--head",
+      "configurationIds": ["head"],
+      "variantNameZh": "定制头部与止转位",
+      "descriptionZh": "【带肩顶针 · 定制肩位】HTX 工程图示意。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/shoulder-ejector-pins/source-06-Surface-Treatment-Solutions-for-Long-Pin-Life.png",
+      "productId": "shoulder-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "shoulder-ejector-pins--surface",
+      "configurationIds": ["surface"],
+      "variantNameZh": "氮化滑动段",
+      "descriptionZh": "【带肩顶针 · 表面处理】HTX 表面处理方案。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/stepped-ejector-pins/source-01-Step-Ejector-Pins-Manufacturer.jpg",
+      "productId": "stepped-ejector-pins",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【台阶顶针 · 品类主图】HTX 台阶顶针页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/stepped-ejector-pins/source-03-1-Single-Step-Ejector-Pin.jpg",
+      "productId": "stepped-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "stepped-ejector-pins--single",
+      "configurationIds": ["single"],
+      "variantNameZh": "单台阶顶针",
+      "descriptionZh": "【台阶顶针 · 单台阶】HTX 单台阶顶针。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/stepped-ejector-pins/source-04-2-Multi-Step-Ejector-Pin.jpg",
+      "productId": "stepped-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "stepped-ejector-pins--multi",
+      "configurationIds": ["multi"],
+      "variantNameZh": "多台阶顶针",
+      "descriptionZh": "【台阶顶针 · 多台阶】HTX 多台阶顶针。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/stepped-ejector-pins/source-05-3-Custom-Step-Ejector-Pin.jpg",
+      "productId": "stepped-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "stepped-ejector-pins--shaped",
+      "configurationIds": ["shaped"],
+      "variantNameZh": "成型顶出端与氮化选项",
+      "descriptionZh": "【台阶顶针 · 定制台阶】HTX 定制台阶顶针。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/blade-ejector-pins/source-01-Blade-Ejector-Pin-Manufacturer-for-Injection-Molding-1.jpg",
+      "productId": "blade-ejector-pins",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【扁顶针 · 品类主图】HTX 扁顶针页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/blade-ejector-pins/source-10-Standard-Blade-Ejector-Pin.png",
+      "productId": "blade-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "blade-ejector-pins--flat",
+      "configurationIds": ["flat"],
+      "variantNameZh": "平端扁顶针",
+      "descriptionZh": "【扁顶针 · 标准扁顶针】HTX 标准扁顶针。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/blade-ejector-pins/source-03-Custom-solutions.jpg",
+      "productId": "blade-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "blade-ejector-pins--contoured",
+      "configurationIds": ["contoured"],
+      "variantNameZh": "成型端面扁顶针",
+      "descriptionZh": "【扁顶针 · 定制方案】HTX 定制扁顶针。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/blade-ejector-pins/source-04-Material-Options.jpg",
+      "productId": "blade-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "blade-ejector-pins--custom",
+      "configurationIds": ["custom"],
+      "variantNameZh": "非标截面与处理",
+      "descriptionZh": "【扁顶针 · 材料选项】HTX 材料选项示意。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/square-ejector-pins/source-01-Square-Ejector-Pins-Manufacturer-2.jpg",
+      "productId": "square-ejector-pins",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【方顶针 · 品类主图】HTX 方顶针页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/square-ejector-pins/source-02-Standard-Square-Ejector-Pins.jpg",
+      "productId": "square-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "square-ejector-pins--square",
+      "configurationIds": ["square"],
+      "variantNameZh": "方形工作段",
+      "descriptionZh": "【方顶针 · 标准方顶针】HTX 标准方顶针。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/square-ejector-pins/source-03-2-Custom-Square-Ejector-Pins.jpg",
+      "productId": "square-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "square-ejector-pins--transition",
+      "configurationIds": ["transition"],
+      "variantNameZh": "圆杆转方端",
+      "descriptionZh": "【方顶针 · 定制方顶针】HTX 定制方顶针。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/square-ejector-pins/source-05-Lock-Rotation.png",
+      "productId": "square-ejector-pins",
+      "role": "detail",
+      "detailAssetId": "square-ejector-pins--profile",
+      "configurationIds": ["profile"],
+      "variantNameZh": "定制端面与耐磨处理",
+      "descriptionZh": "【方顶针 · 止转顶出】HTX 止转应用示意。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/ejector-sleeves/source-01-Injection-Mold-Ejector-Sleeve-Pin-Manufacturer.png",
+      "productId": "ejector-sleeves",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【司筒 · 品类主图】HTX 司筒页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/ejector-sleeves/source-02-1-Thin-Wall-Ejector-Sleeve.png",
+      "productId": "ejector-sleeves",
+      "role": "detail",
+      "detailAssetId": "ejector-sleeves--thin",
+      "configurationIds": ["thin"],
+      "variantNameZh": "薄壁与微型司筒",
+      "descriptionZh": "【司筒 · 薄壁司筒】HTX 薄壁司筒。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/ejector-sleeves/source-03-2-Long-Ejector-Sleeve.png",
+      "productId": "ejector-sleeves",
+      "role": "detail",
+      "detailAssetId": "ejector-sleeves--long",
+      "configurationIds": ["long"],
+      "variantNameZh": "加长司筒",
+      "descriptionZh": "【司筒 · 加长司筒】HTX 加长司筒。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/ejector-sleeves/source-04-3-Stepped-Ejector-Sleeve.png",
+      "productId": "ejector-sleeves",
+      "role": "detail",
+      "detailAssetId": "ejector-sleeves--stepped",
+      "configurationIds": ["stepped"],
+      "variantNameZh": "台阶与定制司筒",
+      "descriptionZh": "【司筒 · 台阶司筒】HTX 台阶司筒。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/ejector-sleeves/source-08-7-Straight-Ejector-Sleeve.png",
+      "productId": "ejector-sleeves",
+      "role": "detail",
+      "detailAssetId": "ejector-sleeves--straight",
+      "configurationIds": ["straight"],
+      "variantNameZh": "直身精磨司筒",
+      "descriptionZh": "【司筒 · 直身司筒】HTX 直身司筒。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/ejector-sleeves/source-09-8-Integrated-Ejector-Sleeve.png",
+      "productId": "ejector-sleeves",
+      "role": "detail",
+      "detailAssetId": "ejector-sleeves--integrated",
+      "configurationIds": ["integrated"],
+      "variantNameZh": "一体式带头司筒",
+      "descriptionZh": "【司筒 · 一体司筒】HTX 一体式司筒。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/ejector-components/air-poppet-valves/source-01-Custom-injection-mold-air-poppet-valve-manufactured-by-HTX-Precision-for-plastic",
+      "productId": "air-poppet-valves",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【气顶阀 · 品类主图】HTX 气顶阀页主图。",
+      "status": "selected"
+    }
+  ]
+}

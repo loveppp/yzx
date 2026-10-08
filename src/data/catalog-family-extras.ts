@@ -27,6 +27,8 @@ export interface FamilyPageExtras {
   surfaceLead?: LocalizedText;
   gradeOptions?: string[];
   extraFaqs?: FamilyFaqItem[];
+  /** 仅展示 extraFaqs，不拼接站内通用 FAQ */
+  faqOnly?: boolean;
   /** 冲针长内容页不展示「结构与可选配置」区块 */
   hideConfigurations?: boolean;
 }
@@ -37,18 +39,14 @@ export const familyExtrasFor = (productId: string): FamilyPageExtras | undefined
 
 export const familyHidesConfigurations = (productId: string) => Boolean(extras[productId]?.hideConfigurations);
 
-const PUNCH_LONGFORM_IDS = new Set([
-  'carbide-punches',
-  'hss-punches',
-  'stepped-punches',
-  'stamping-die-punches',
-  'tungsten-carbide-punches',
-  'tableting-punches',
-]);
+/** HTX 对齐详情：长内容模板 + 页内锚点（按组逐步启用，需 catalog-family-extras 有条目） */
+const HTX_LONGFORM_GROUPS = new Set(['punch-components', 'ejector-components']);
 
-/** 冲针 6 品：HTX 长内容模板（配置区仍由 CatalogFamilyDetails 渲染） */
-export const isPunchLongformProduct = (productId: string, groupId: string) =>
-  groupId === 'punch-components' && PUNCH_LONGFORM_IDS.has(productId);
+export const isHtxFamilyLongformProduct = (productId: string, groupId: string) =>
+  HTX_LONGFORM_GROUPS.has(groupId) && Boolean(extras[productId]);
+
+/** @deprecated 使用 isHtxFamilyLongformProduct */
+export const isPunchLongformProduct = isHtxFamilyLongformProduct;
 
 export const familyHasSplitApplications = (productId: string) => {
   const e = extras[productId];
@@ -63,9 +61,9 @@ export const familyHasSplitApplications = (productId: string) => {
 export function familySectionAnchors(productId: string, groupId = '') {
   const e = extras[productId];
   const split = familyHasSplitApplications(productId);
-  const punchLongform = isPunchLongformProduct(productId, groupId);
+  const htxLongform = isHtxFamilyLongformProduct(productId, groupId);
 
-  if (punchLongform) {
+  if (htxLongform) {
     const anchors: Array<[string, (typeof detailUI)[keyof typeof detailUI]]> = [];
     if (!e?.hideConfigurations) {
       anchors.push(['configurations', detailUI.range]);

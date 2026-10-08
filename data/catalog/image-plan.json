@@ -14,7 +14,7 @@
     "promptReady": 13,
     "needsVerification": 54,
     "currentGenerated": 6,
-    "currentPublished": 6
+    "currentPublished": 5
   },
   "style": {
     "background": "#f5f6f7",
@@ -1401,8 +1401,8 @@
       },
       "configurationIds": [
         "plain",
-        "skd61",
-        "nitrided",
+        "imperial",
+        "metric",
         "custom"
       ],
       "prompt": "DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.\n\nFamily boundary: Every item belongs to Straight Ejector Pins. Do not import adjacent product families to increase variety.\n\nMaterial scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.\n\nIndividual product styles:\n\n1. A complete headed straight cylindrical ejector pin with a blunt end. No cutting geometry.\n\nDistinct-style rule: 目前参考主要区别为尺寸/热处理，尚缺第二种可核实结构。. Size, finish, pose and color changes do not count as different styles.\n\nDefined styles: 1; physical objects: 1. Each listed style occurs once.\n\nComposition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.\n\nCreate a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.\n\nExclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
@@ -1418,8 +1418,8 @@
       ],
       "promptStatus": "needs-verification",
       "status": "needs-verification",
-      "currentImage": null,
-      "currentImageStatus": "not-present",
+      "currentImage": "/images/products/catalog/straight-ejector-pins-2026-10-08T17-21-32-827Z-4x3.jpg",
+      "currentImageStatus": "legacy-needs-replacement",
       "aspectRatio": "4:3",
       "productPage": "/zh/products/ejector-components/straight-ejector-pins/",
       "publication": "direct-original-on-generation",
@@ -1529,9 +1529,9 @@
       "visualSignature": "3feb64322964fef44b64e5d75370babd837c686ec6082b28c5bcfe93210d3227",
       "blockingReasons": [],
       "promptStatus": "prompt-complete",
-      "status": "published",
-      "currentImage": "/images/products/catalog/shoulder-ejector-pins-2026-10-01T08-44-29-092Z.jpg",
-      "currentImageStatus": "published-current",
+      "status": "generated",
+      "currentImage": "/images/products/catalog/shoulder-ejector-pins-2026-10-08T17-21-32-827Z-4x3.png",
+      "currentImageStatus": "legacy-needs-replacement",
       "aspectRatio": "4:3",
       "productPage": "/zh/products/ejector-components/shoulder-ejector-pins/",
       "publication": "direct-original-on-generation",
@@ -1621,8 +1621,8 @@
       "blockingReasons": [],
       "promptStatus": "prompt-complete",
       "status": "prompt-complete",
-      "currentImage": null,
-      "currentImageStatus": "not-present",
+      "currentImage": "/images/products/catalog/stepped-ejector-pins-2026-10-08T17-21-32-827Z-4x3.jpg",
+      "currentImageStatus": "legacy-needs-replacement",
       "aspectRatio": "4:3",
       "productPage": "/zh/products/ejector-components/stepped-ejector-pins/",
       "publication": "direct-original-on-generation",
@@ -1690,8 +1690,8 @@
       ],
       "promptStatus": "needs-verification",
       "status": "needs-verification",
-      "currentImage": null,
-      "currentImageStatus": "not-present",
+      "currentImage": "/images/products/catalog/blade-ejector-pins-2026-10-08T17-21-32-827Z-4x3.jpg",
+      "currentImageStatus": "legacy-needs-replacement",
       "aspectRatio": "4:3",
       "productPage": "/zh/products/ejector-components/blade-ejector-pins/",
       "publication": "direct-original-on-generation",
@@ -1759,8 +1759,8 @@
       ],
       "promptStatus": "needs-verification",
       "status": "needs-verification",
-      "currentImage": null,
-      "currentImageStatus": "not-present",
+      "currentImage": "/images/products/catalog/square-ejector-pins-2026-10-08T17-21-32-827Z-4x3.jpg",
+      "currentImageStatus": "legacy-needs-replacement",
       "aspectRatio": "4:3",
       "productPage": "/zh/products/ejector-components/square-ejector-pins/",
       "publication": "direct-original-on-generation",
@@ -1852,8 +1852,8 @@
       "blockingReasons": [],
       "promptStatus": "prompt-complete",
       "status": "prompt-complete",
-      "currentImage": null,
-      "currentImageStatus": "not-present",
+      "currentImage": "/images/products/catalog/ejector-sleeves-2026-10-08T17-21-32-827Z-4x3.png",
+      "currentImageStatus": "legacy-needs-replacement",
       "aspectRatio": "4:3",
       "productPage": "/zh/products/ejector-components/ejector-sleeves/",
       "publication": "direct-original-on-generation",
@@ -1920,8 +1920,8 @@
       ],
       "promptStatus": "needs-verification",
       "status": "needs-verification",
-      "currentImage": null,
-      "currentImageStatus": "not-present",
+      "currentImage": "/images/products/catalog/air-poppet-valves-2026-10-08T17-21-32-827Z-4x3.jpg",
+      "currentImageStatus": "legacy-needs-replacement",
       "aspectRatio": "4:3",
       "productPage": "/zh/products/ejector-components/air-poppet-valves/",
       "publication": "direct-original-on-generation",
@@ -6743,9 +6743,9 @@
       "productId": "straight-ejector-pins",
       "configurationId": "plain",
       "name": {
-        "zh": "直身平端顶针",
-        "en": "Straight flat-end pin",
-        "vi": "Ty thẳng đầu phẳng"
+        "zh": "标准直身顶针",
+        "en": "Standard straight ejector pin",
+        "vi": "Ty thẳng tiêu chuẩn"
       },
       "mode": "family-main-reference",
       "imageJobIds": [
@@ -6755,35 +6755,39 @@
     },
     {
       "productId": "straight-ejector-pins",
-      "configurationId": "skd61",
+      "configurationId": "imperial",
       "name": {
-        "zh": "SKD61 / H13 材质方案",
-        "en": "SKD61 / H13 material options",
-        "vi": "Vật liệu SKD61 / H13"
+        "zh": "英制直身顶针",
+        "en": "Imperial straight ejector pin",
+        "vi": "Ty thẳng hệ inch"
       },
-      "mode": "text-explanation",
-      "imageJobIds": [],
+      "mode": "family-main-reference",
+      "imageJobIds": [
+        "straight-ejector-pins"
+      ],
       "note": "Representative image only. Material, treatment and performance options remain text; no implicit depiction of every option."
     },
     {
       "productId": "straight-ejector-pins",
-      "configurationId": "nitrided",
+      "configurationId": "metric",
       "name": {
-        "zh": "氮化直身顶针",
-        "en": "Nitrided straight pin",
-        "vi": "Ty thẳng thấm nitơ"
+        "zh": "公制直身顶针",
+        "en": "Metric straight ejector pin",
+        "vi": "Ty thẳng hệ mét"
       },
-      "mode": "text-explanation",
-      "imageJobIds": [],
+      "mode": "family-main-reference",
+      "imageJobIds": [
+        "straight-ejector-pins"
+      ],
       "note": "Representative image only. Material, treatment and performance options remain text; no implicit depiction of every option."
     },
     {
       "productId": "straight-ejector-pins",
       "configurationId": "custom",
       "name": {
-        "zh": "公英制与成型端部",
-        "en": "Metric, inch and shaped ends",
-        "vi": "Hệ mét, inch và đầu tạo hình"
+        "zh": "定制长度直身顶针",
+        "en": "Custom length straight pin",
+        "vi": "Ty thẳng chiều dài tùy chỉnh"
       },
       "mode": "family-main-reference",
       "imageJobIds": [

@@ -6,7 +6,7 @@ import CatalogCard from '@/components/CatalogCard.astro';
 import CatalogFamilyDetails from '@/components/CatalogFamilyDetails.astro';
 import {detailsFor,detailUI} from '@/data/catalog-details';
 import {familySectionAnchors, familyHidesConfigurations, isPunchLongformProduct, familyExtrasFor} from '@/data/catalog-family-extras';
-import {catalogGroups,catalogProducts,catalogText,materialLabel,productPath,groupPath,legacyProducts,legacyDestination} from '@/data/catalog';
+import {catalogGroups,catalogProducts,catalogText,materialLabel,productPath,groupPath,legacyProducts,legacyDestination,catalogProductMediaFrame} from '@/data/catalog';
 import {catalogUI} from '@/data/catalog-ui';
 import {locales,useTranslations,type Locale} from '@/i18n/utils';
 export function getStaticPaths(){
@@ -48,7 +48,7 @@ const breadcrumb={'@context':'https://schema.org','@type':'BreadcrumbList',itemL
     <nav aria-label="Breadcrumb" class="mb-7 flex flex-wrap gap-x-2 gap-y-1 text-xs leading-relaxed text-slate-600"><a href={`/${locale}/`}>{ui.home}</a><span aria-hidden="true">/</span><a href={`/${locale}/products/`}>{ui.title}</a><span aria-hidden="true">/</span><a href={groupPath(group,locale)}>{catalogText(group.name,locale)}</a><span aria-hidden="true">/</span><span aria-current="page">{name}</span></nav>
     <div class="grid items-start gap-6 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-x-12 lg:gap-y-5">
       <div class="order-2 min-w-0 lg:order-1 lg:row-span-2">
-        <ProductMedia product={product} locale={locale} caption eager />
+        <ProductMedia product={product} locale={locale} caption eager frame={catalogProductMediaFrame(product)} />
         {!hideConfigurations && (
           <div class="mt-4 border-y border-borui-navy/10 py-4">
             <p class="text-xs font-medium text-slate-500">{catalogText(detailUI.range,locale)}</p>

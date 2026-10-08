@@ -235,5 +235,356 @@
         "body": { "zh": "钨钢牌号与涂层按工况选择。", "en": "Carbide grades and coatings for your duty.", "vi": "Mác carbide và phủ theo điều kiện." }
       }
     ]
+  },
+  "straight-ejector-pins": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "台阶顶针与直身顶针的主要区别是什么？",
+          "en": "What is the main difference between a step ejector pin and a straight ejector pin?",
+          "vi": "Khác biệt chính giữa ty bậc và ty thẳng?"
+        },
+        "a": {
+          "zh": "台阶顶针通过台阶结构控制顶出行程；直身顶针没有这种限位功能，行程通常需靠模具其他结构控制。",
+          "en": "A step pin limits stroke via its stepped body; a straight pin has no built-in stroke limit—travel is set by other mold features.",
+          "vi": "Ty bậc giới hạn hành trình nhờ thân bậc; ty thẳng không có giới hạn tích hợp."
+        }
+      },
+      {
+        "q": {
+          "zh": "顶针弯曲或顶出不均常见原因有哪些？",
+          "en": "What causes ejector pin bending or uneven ejection?",
+          "vi": "Nguyên nhân ty cong hoặc đẩy không đều?"
+        },
+        "a": {
+          "zh": "多与产品直线度、热处理稳定性以及导向/配合间隙有关，需结合杆径、长度与导向条件排查。",
+          "en": "Often linked to pin straightness, heat-treat consistency, and guide/clearance—review diameter, length and guidance together.",
+          "vi": "Thường liên quan độ thẳng, nhiệt luyện ổn định và khe hỡ dẫn hướng."
+        }
+      },
+      {
+        "q": {
+          "zh": "顶针频繁断裂或异常磨损可能是什么原因？",
+          "en": "What causes frequent breakage or abnormal wear?",
+          "vi": "Gãy thường xuyên hoặc mòn bất thường do đâu?"
+        },
+        "a": {
+          "zh": "材料纯净度不足、表面处理不当、侧向载荷过大或配合不当都可能导致，应按工况复核材料与表面方案。",
+          "en": "Insufficient material quality, poor surface treatment, lateral load or poor fit can contribute—reassess grade and surface for your duty.",
+          "vi": "Mác kém, xử lý bề mặt, tải ngang hoặc lắp ghép sai có thể gây gãy/mòn."
+        }
+      },
+      {
+        "q": {
+          "zh": "为什么不同批次顶针尺寸会不一致？",
+          "en": "Why are pin dimensions inconsistent across batches?",
+          "vi": "Vì sao kích thước ty khác nhau giữa các lô?"
+        },
+        "a": {
+          "zh": "批量生产中工艺控制与检验标准不统一会导致偏差；订货时应明确公差与检验要求。",
+          "en": "Inconsistent process control in mass production causes drift—define tolerances and inspection in your PO.",
+          "vi": "Kiểm soát quy trình không đồng nhất gây lệch; cần thống nhất dung sai và kiểm tra."
+        }
+      },
+      {
+        "q": {
+          "zh": "定制直身顶针需要哪些资料？",
+          "en": "What is needed to order custom straight pins?",
+          "vi": "Cần gì để đặt ty thẳng tùy chỉnh?"
+        },
+        "a": {
+          "zh": "仅有产品照片通常不足以加工，需提供模具相关尺寸图纸（如直径、长度、公差、材料与端部形式）。",
+          "en": "Photos alone are usually insufficient—supply mold-related drawings with diameter, length, tolerances, material and tip form.",
+          "vi": "Chỉ ảnh thường không đủ—cần bản vẽ khuôn với đường kính, dài, dung sai và vật liệu."
+        }
+      }
+    ],
+    "applicationArea": {
+      "zh": "在注塑模具中，直身顶针结构简单、性能可靠，是多腔模具常规顶出的常用方案，可在无特殊防转要求的多数塑件上满足基本顶出需求；批量与周期化使用时，直身结构也便于保持稳定寿命。",
+      "en": "In injection molds, straight ejector pins are the default choice for conventional ejection in multi-cavity tools—dependable for most parts without anti-rotation needs, and straightforward for batch production and long service life.",
+      "vi": "Trong khuôn nhựa, ty thẳng là lựa chọn phổ biến cho đẩy thường ở khuôn nhiều cavity—phù hợp phần lớn sản phẩm không cần chống xoay, ổn định cho sản xuất lô."
+    },
+    "materialLead": {
+      "zh": "按模温、树脂与顶出力选择 SKD61、SKH51 等热作钢或粉末高速钢；氮化、涂层等表面处理可与材料组合，以图纸与工况为准。",
+      "en": "Select SKD61, SKH51 or powder HSS for temperature, resin and ejection load; nitriding and coatings combine with the base grade per drawing and duty.",
+      "vi": "Chọn SKD61, SKH51 hoặc HSS bột theo nhiệt, nhựa và lực đẩy; thấm nitơ và phủ kết hợp theo bản vẽ."
+    },
+    "surfaceLead": {
+      "zh": "可提供氮化、抛光及按需涂层，改善滑动磨损与脱模稳定性；处理区应避开不允许尺寸变化的安装基准。",
+      "en": "Nitriding, polishing and optional coatings improve sliding wear and demolding; keep mounting datums out of treated zones unless agreed.",
+      "vi": "Thấm nitơ, mài và phủ tùy chọn; tránh xử lý vùng chuẩn lắp nếu không thỏa thuận."
+    }
+  },
+  "shoulder-ejector-pins": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "标准顶针与带肩顶针有什么区别？",
+          "en": "What is the difference between a standard pin and a shoulder ejector pin?",
+          "vi": "Khác biệt ty thường và ty có vai?"
+        },
+        "a": {
+          "zh": "标准顶针主要提供轴向顶出力；带肩顶针在顶出循环中限制行程并改善导向，同时承受一定侧向载荷。",
+          "en": "Standard pins mainly push axially; shouldered pins limit stroke, improve guidance and absorb some lateral load.",
+          "vi": "Ty thường chủ yếu đẩy theo trục; ty vai giới hạn hành trình và chịu tải ngang."
+        }
+      },
+      {
+        "q": {
+          "zh": "带肩顶针能否减少弯曲与偏磨？",
+          "en": "Can shouldered pins reduce bending and misalignment?",
+          "vi": "Ty vai có giảm cong và lệch không?"
+        },
+        "a": {
+          "zh": "在肩位与过渡设计合理、配合间隙正确的前提下，长径比大或偏载顶出工况下带肩结构可显著改善导向与载荷分布。",
+          "en": "With proper shoulder geometry and clearance, shouldered pins improve guidance and load sharing in long or eccentric ejection.",
+          "vi": "Với hình vai và khe hở đúng, ty vai cải thiện dẫn hướng khi ty dài hoặc lệch tải."
+        }
+      },
+      {
+        "q": {
+          "zh": "带肩顶针与台阶顶针是一回事吗？",
+          "en": "Is a shoulder pin the same as a step ejector pin?",
+          "vi": "Ty vai có giống ty bậc không?"
+        },
+        "a": {
+          "zh": "业内常指同一类结构：强调“带肩”侧重头部承载与限位，“台阶”侧重杆身多级直径控制行程。",
+          "en": "They often name the same family—shoulder emphasizes head retention; step emphasizes stepped diameters for stroke control.",
+          "vi": "Thường cùng họ—vai nhấn phần đầu; bậc nhấn đường kính bậc."
+        }
+      },
+      {
+        "q": {
+          "zh": "为什么要定制带肩顶针而不是只用标准件？",
+          "en": "Why customize shoulder pins instead of standard catalog parts?",
+          "vi": "Vì sao nên tùy chỉnh ty vai?"
+        },
+        "a": {
+          "zh": "每套模具的型腔布局、导向、间隙与行程不同，肩高、同轴度与过渡半径需按图纸匹配，否则易出现偏磨或断裂。",
+          "en": "Each mold differs in layout, guidance and stroke—shoulder height, coaxiality and radii must match your drawing.",
+          "vi": "Mỗi khuôn khác nhau—cao vai, đồng trục và bán kính cần theo bản vẽ."
+        }
+      }
+    ],
+    "materialLead": {
+      "zh": "带肩顶针常用 SKD61、SKH51 等，按模温、疲劳与耐磨需求选材；肩位尺寸与杆部材料可分别确认。",
+      "en": "Shoulder pins commonly use SKD61 or SKH51; match thermal fatigue and wear needs. Shoulder and shank grades can be specified separately.",
+      "vi": "Ty vai thường dùng SKD61, SKH51; chọn theo mỏi nhiệt và mòn. Vai và thân có thể chỉ định riêng."
+    },
+    "surfaceLead": {
+      "zh": "滑动段可氮化或抛光，延长配合面寿命；处理范围与成品配合尺寸一并核对。",
+      "en": "Sliding sections may be nitrided or polished; define treated length and verify finished fit.",
+      "vi": "Đoạn trượt có thể thấm nitơ hoặc mài; xác nhận vùng xử lý và lắp ghép cuối."
+    }
+  },
+  "stepped-ejector-pins": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "台阶顶针如何控制顶出行程？",
+          "en": "How does a step ejector pin control ejection stroke?",
+          "vi": "Ty bậc kiểm soát hành trình đẩy thế nào?"
+        },
+        "a": {
+          "zh": "杆身直径变化形成机械限位，台阶高度经精磨后与所需顶出距离对应；多腔模需全组台阶高度一致。",
+          "en": "Diameter steps act as mechanical stops; ground step height sets travel—multi-cavity sets need matched step heights.",
+          "vi": "Bậc đường kính là điểm dừng cơ khí; chiều cao bậc mài chính xác đặt hành trình."
+        }
+      },
+      {
+        "q": {
+          "zh": "订购定制台阶顶针需要哪些信息？",
+          "en": "What information is needed to order a custom step pin?",
+          "vi": "Cần thông tin gì để đặt ty bậc tùy chỉnh?"
+        },
+        "a": {
+          "zh": "需基于模具设计的尺寸图纸（杆径、台阶直径与高度、总长、公差及材料），仅有产品照片通常无法报价加工。",
+          "en": "Mold drawings with shank, step diameters/heights, length, tolerances and material—photos alone are not enough.",
+          "vi": "Cần bản vẽ khuôn đầy đủ; chỉ ảnh sản phẩm thường không đủ."
+        }
+      },
+      {
+        "q": {
+          "zh": "台阶顶针顶出高度不一致常见原因？",
+          "en": "What causes uneven ejection height with step pins?",
+          "vi": "Đẩy không đều với ty bậc?"
+        },
+        "a": {
+          "zh": "台阶公差超差、各腔选用不同尺寸顶针或顶针板偏磨都会导致；应全数检验台阶高度与直径。",
+          "en": "Step tolerance drift, mixed pin sizes per cavity, or worn plates—inspect step height and diameters on the full set.",
+          "vi": "Dung sai bậc, ty khác kích thước hoặc tấm mòn gây lệch cao đẩy."
+        }
+      },
+      {
+        "q": {
+          "zh": "如何选择台阶顶针尺寸？",
+          "en": "How do I choose step ejector pin size?",
+          "vi": "Chọn kích thước ty bậc ra sao?"
+        },
+        "a": {
+          "zh": "台阶高度应满足所需顶出行程并留适当余量；杆径需与顶针板孔型匹配，并与型芯/制品接触条件一并确认。",
+          "en": "Match step height to required stroke plus margin; shank must fit the ejector plate pattern and part contact.",
+          "vi": "Chiều cao bậc theo hành trình + dư; thân khớp lỗ tấm đẩy."
+        }
+      }
+    ],
+    "materialLead": {
+      "zh": "台阶顶针根据细段长度、导向条件与模温选择材料与热处理；多级台阶时各段尺寸与同轴度按图加工。",
+      "en": "Stepped pins are graded for reduced-section length, guidance and mold temperature; multi-step parts need coaxiality per drawing.",
+      "vi": "Ty bậc chọn mác theo chiều dài đoạn nhỏ, dẫn hướng và nhiệt khuôn; nhiều bậc cần đồng trục theo bản vẽ."
+    },
+    "surfaceLead": {
+      "zh": "顶出端与滑动配合面可按工况做氮化、抛光等处理，避免薄杆段因处理变形超差。",
+      "en": "Ejection and sliding surfaces can be nitrided or polished; guard thin sections against distortion from treatment.",
+      "vi": "Mặt đẩy và trượt có thể xử lý; tránh biến dạng đoạn mỏng."
+    }
+  },
+  "blade-ejector-pins": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": { "zh": "扁顶针适用于哪些模具结构？", "en": "Where are blade ejector pins used?", "vi": "Ty dẹt dùng ở đâu?" },
+        "a": {
+          "zh": "窄筋、深槽或空间受限、需要薄端顶出的区域；需确认扁位方向与杆部过渡，避免应力集中。",
+          "en": "Narrow ribs, deep slots or tight spaces needing a thin ejection edge—confirm blade orientation and shank transition.",
+          "vi": "Gân hẹp, khe sâu hoặc không gian chật—xác nhận hướng lưỡi và chuyển tiếp thân."
+        }
+      },
+      {
+        "q": { "zh": "扁顶针如何防止折断？", "en": "How to reduce blade pin breakage?", "vi": "Giảm gãy ty dẹt?" },
+        "a": {
+          "zh": "控制长径比、选用合适材料与热处理，并保证导向与接触面积；薄截面不宜过度氮化导致变形。",
+          "en": "Control aspect ratio, grade and heat treat; ensure guidance and contact area—avoid over-treating thin sections.",
+          "vi": "Kiểm soát tỷ lệ dài/rộng, mác và dẫn hướng; tránh xử lý quá mức mặt mỏng."
+        }
+      },
+      {
+        "q": { "zh": "定制扁顶针要提供什么？", "en": "What to supply for custom blade pins?", "vi": "Đặt ty dẹt cần gì?" },
+        "a": {
+          "zh": "扁宽、厚度、杆径、总长、顶出方向及公差图纸；说明树脂类型与顶出次数有助于选材。",
+          "en": "Drawing with blade width/thickness, shank, length, orientation and tolerances; resin and cycle count help material choice.",
+          "vi": "Bản vẽ rộng/dày lưỡi, thân, dài, hướng và dung sai."
+        }
+      }
+    ],
+    "materialLead": {
+      "zh": "扁顶针在窄筋位服役，材料需兼顾强度与韧性；扁位宽厚与杆径按模具空间与顶出力确认。",
+      "en": "Blade ejectors in narrow ribs need balanced strength and toughness; blade width, thickness and shank follow mold space and force.",
+      "vi": "Ty dẹt cần cân bằng độ bền và dai; rộng, dày và thân theo khuôn và lực đẩy."
+    },
+    "surfaceLead": {
+      "zh": "扁位表面可抛光或氮化，减轻摩擦；薄截面处理需控制变形与直线度。",
+      "en": "Blade faces may be polished or nitrided; thin sections need straightness control after treatment.",
+      "vi": "Mặt dẹt có thể mài hoặc thấm nitơ; kiểm soát độ thẳng sau xử lý."
+    }
+  },
+  "square-ejector-pins": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": { "zh": "方顶针与圆顶针如何选型？", "en": "Square vs round ejector pins?", "vi": "Ty vuông hay tròn?" },
+        "a": {
+          "zh": "需要防转或方形成型顶出时选方顶针；模具导向孔需保持方形配合与方向。",
+          "en": "Choose square pins when anti-rotation or square contact is required; mold guide geometry must maintain orientation.",
+          "vi": "Chọn ty vuông khi cần chống xoay; lỗ dẫn khuôn giữ hướng."
+        }
+      },
+      {
+        "q": { "zh": "方顶针常见失效模式？", "en": "Common square pin failure modes?", "vi": "Hỏng thường gặp ty vuông?" },
+        "a": {
+          "zh": "角部崩刃、导向孔磨损导致旋转失效、或方段与圆杆过渡应力；应核对圆角与配合间隙。",
+          "en": "Corner chipping, worn guides losing orientation, or stress at round-to-square transition—check radii and clearance.",
+          "vi": "Sứt góc, mòn dẫn hướng hoặc ứng suất chuyển tròn–vuông."
+        }
+      },
+      {
+        "q": { "zh": "定制方顶针图纸要点？", "en": "Drawing notes for custom square pins?", "vi": "Bản vẽ ty vuông?" },
+        "a": {
+          "zh": "方边尺寸、有效长度、杆径、方向标记、公差及与孔的配合性质。",
+          "en": "Square size, working length, shank, orientation mark, tolerances and fit with the hole.",
+          "vi": "Cạnh vuông, chiều dài làm việc, thân, hướng và dung sai."
+        }
+      }
+    ],
+    "materialLead": {
+      "zh": "方顶针工作段便于定向顶出，材料与热处理按模温、磨损与冲击选择；圆杆段与方段过渡按图加工。",
+      "en": "Square working sections orient ejection; choose grade and heat treat for temperature, wear and shock. Round-to-square transitions per drawing.",
+      "vi": "Đoạn vuông định hướng đẩy; chọn mác và nhiệt luyện theo nhiệt và mòn. Chuyển tròn–vuông theo bản vẽ."
+    },
+    "surfaceLead": {
+      "zh": "方形配合面与杆部滑动区可按需抛光、氮化，角部留量与孔配合一并确认。",
+      "en": "Square contact and shank sliding zones can be polished or nitrided; confirm corner relief with the mating hole.",
+      "vi": "Mặt vuông và trượt có thể mài hoặc thấm nitơ; xác nhận góc với lỗ ghép."
+    }
+  },
+  "ejector-sleeves": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": { "zh": "司筒与芯针如何一起选型？", "en": "How to select sleeves with core pins?", "vi": "Chọn ống với ty lõi?" },
+        "a": {
+          "zh": "内外径、壁厚、同轴度与长度需与芯针及制品柱位匹配，按系统订货而非单独估尺寸。",
+          "en": "Bore, OD, wall, coaxiality and length must match the core pin and boss—specify as a system.",
+          "vi": "Lỗ, ngoài, thành, đồng trục và dài khớp ty lõi và trụ sản phẩm."
+        }
+      },
+      {
+        "q": { "zh": "司筒粘料或拉伤怎么处理？", "en": "Sleeve sticking or scoring?", "vi": "Ống dính hoặc xước?" },
+        "a": {
+          "zh": "检查内孔粗糙度、材料与涂层、模温及脱模剂；必要时内孔精磨、氮化或更换耐磨材料。",
+          "en": "Review bore finish, material/coating, mold temp and release; consider grinding, nitriding or harder grades.",
+          "vi": "Kiểm tra độ nhám lỗ, mác/phủ, nhiệt khuôn và tách khuôn."
+        }
+      },
+      {
+        "q": { "zh": "长司筒订货注意什么？", "en": "Notes for long ejector sleeves?", "vi": "Ống dài cần lưu ý?" },
+        "a": {
+          "zh": "孔直线度、壁厚均匀性与端面垂直度直接影响同轴与顶出平稳性，图纸应标注全长跳动要求。",
+          "en": "Bore straightness, wall uniformity and square ends affect coaxial ejection—state runout on the drawing.",
+          "vi": "Độ thẳng lỗ và thành đều ảnh hưởng đồng trục—ghi runout trên bản vẽ."
+        }
+      }
+    ],
+    "materialLead": {
+      "zh": "司筒与配套芯针作为系统选型：内外径、壁厚、同轴度与材料耐磨性按塑件与顶出行程确认。",
+      "en": "Sleeves and core pins are a system: bore, OD, wall, coaxiality and wear resistance follow the part and stroke.",
+      "vi": "Ống và ty lõi là một hệ; đường kính, thành, đồng trục và mòn theo sản phẩm và hành trình."
+    },
+    "surfaceLead": {
+      "zh": "内孔与端面可精磨、氮化或涂层，减少粘料与拉伤；长司筒需关注孔直线度与清洁。",
+      "en": "Bore and end faces may be ground, nitrided or coated to reduce sticking; long sleeves need bore straightness and cleanliness.",
+      "vi": "Lỗ và mặt đầu mài, thấm nitơ hoặc phủ; ống dài cần độ thẳng và sạch."
+    }
+  },
+  "air-poppet-valves": {
+    "hideConfigurations": true,
+    "faqOnly": true,
+    "materialLead": {
+      "zh": "气顶阀材质与密封件需耐模温与压缩空气介质；安装螺纹、阀面直径与行程按模具气路布局选型。",
+      "en": "Body and seals must suit mold temperature and air supply; thread, face diameter and travel match your air circuit layout.",
+      "vi": "Vật liệu và seal chịu nhiệt khuôn và khí nén; ren, đường kính mặt và hành trình theo mạch khí."
+    },
+    "surfaceLead": {
+      "zh": "阀芯与密封面加工精度影响漏气与复位；与机械顶出配合使用时，确认开启压力与安装空间。",
+      "en": "Valve face and seal precision affect leakage and return; with mechanical ejection, confirm opening pressure and pocket space.",
+      "vi": "Độ chính xác mặt van và seal ảnh hưởng rò và hồi; với đẩy cơ khí, xác nhận áp mở và không gian lắp."
+    },
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "气顶阀与机械顶针如何配合？",
+          "en": "How do air poppets work with mechanical ejector pins?",
+          "vi": "Van khí phối hợp chốt đẩy cơ khí thế nào?"
+        },
+        "a": {
+          "zh": "气顶阀在开模时引入压缩空气，帮助破坏真空吸附；通常与顶针、司筒等机械顶出同时使用，不能替代顶出结构设计。",
+          "en": "Poppets admit air during opening to break vacuum adhesion; they are used alongside pins and sleeves, not as a substitute for ejection layout.",
+          "vi": "Van đưa khí khi mở khuôn để phá chân không; dùng cùng chốt đẩy, không thay thế bố trí đẩy."
+        }
+      }
+    ]
   }
 }

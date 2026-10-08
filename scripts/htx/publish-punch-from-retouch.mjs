@@ -7,14 +7,19 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import sharp from 'sharp';
 import {readWatermarkSvg, watermarkImageBytes} from '../watermark/lib.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const useRetouch = process.argv.includes('--retouch');
 const catalogMainOnly = process.argv.includes('--catalog-main-only');
-const selection = JSON.parse(
-  await fs.readFile(path.join(root, 'data/catalog/punch-htx-selection.json'), 'utf8'),
-);
+const detailOnly = process.argv.includes('--detail-only');
+const selectionFlag = process.argv.indexOf('--selection');
+const selectionRel =
+  selectionFlag >= 0 && process.argv[selectionFlag + 1]
+    ? process.argv[selectionFlag + 1]
+    : 'data/catalog/punch-htx-selection.json';
+const selection = JSON.parse(await fs.readFile(path.join(root, selectionRel), 'utf8'));
 const catalogPath = path.join(root, 'src/data/catalog.json');
 const mediaPath = path.join(root, 'src/data/catalog-detail-media.json');
 const catalog = JSON.parse(await fs.readFile(catalogPath, 'utf8'));
@@ -48,20 +53,35 @@ if (useRetouch) {
 async function publishTo(publicDir, fileName, relImage) {
   const abs = path.join(root, relImage);
   const bytes = await fs.readFile(abs);
-  const ext = path.extname(abs).slice(1).toLowerCase();
+  let ext = path.extname(abs).slice(1).toLowerCase();
+  if (!ext) {
+    const meta = await sharp(bytes).metadata();
+    ext = meta.format === 'jpeg' ? 'jpg' : meta.format ?? 'jpg';
+  }
   const useExt = ext === 'jpeg' ? 'jpg' : ext;
   const publicPath = `/images/products/${publicDir}/${fileName}-${stamp}.${useExt}`;
   const dest = path.join(root, 'public', publicPath);
   await fs.mkdir(path.dirname(dest), {recursive: true});
-  const watermarked = await watermarkImageBytes(bytes, watermarkSvg);
-  await fs.writeFile(dest, watermarked);
+  let outBytes = bytes;
+  if (useRetouch) {
+    try {
+      outBytes = await watermarkImageBytes(bytes, watermarkSvg);
+    } catch {
+      outBytes = bytes;
+    }
+  }
+  await fs.writeFile(dest, outBytes);
   return publicPath;
 }
 
 const published = [];
 
 const selected = selection.entries.filter((e) => e.status === 'selected' && e.sourceFile);
-const toPublish = catalogMainOnly ? selected.filter((e) => e.role === 'catalog-main') : selected;
+const toPublish = catalogMainOnly
+  ? selected.filter((e) => e.role === 'catalog-main')
+  : detailOnly
+    ? selected.filter((e) => e.role === 'detail')
+    : selected;
 
 for (const entry of toPublish) {
   const relImage = fileBySource.get(entry.sourceFile);
@@ -73,8 +93,7 @@ for (const entry of toPublish) {
     const publicPath = await publishTo('catalog', entry.productId, relImage);
     product.image = publicPath;
     product.imageGenerated = useRetouch;
-    if (!product.imageCaption) product.imageCaption = {zh: '', en: '', vi: ''};
-    product.imageCaption.zh = entry.descriptionZh.replace(/^【[^】]+】/, '').slice(0, 120);
+    delete product.imageCaption;
     published.push({type: 'catalog-main', productId: entry.productId, publicPath, source: relImage});
     continue;
   }

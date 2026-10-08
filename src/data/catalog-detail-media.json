@@ -430,6 +430,279 @@
         "en": "涂层冲头系列",
         "vi": "涂层冲头系列"
       }
+    },
+    {
+      "id": "straight-ejector-pins--plain",
+      "productId": "straight-ejector-pins",
+      "configurationIds": [
+        "plain"
+      ],
+      "image": "/images/products/details/straight-ejector-pins--plain-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "标准直身顶针",
+        "en": "Standard straight ejector pin",
+        "vi": "Ty thẳng tiêu chuẩn"
+      }
+    },
+    {
+      "id": "straight-ejector-pins--imperial",
+      "productId": "straight-ejector-pins",
+      "configurationIds": [
+        "imperial"
+      ],
+      "image": "/images/products/details/straight-ejector-pins--imperial-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "英制直身顶针",
+        "en": "Imperial straight ejector pin",
+        "vi": "Ty thẳng hệ inch"
+      }
+    },
+    {
+      "id": "straight-ejector-pins--metric",
+      "productId": "straight-ejector-pins",
+      "configurationIds": [
+        "metric"
+      ],
+      "image": "/images/products/details/straight-ejector-pins--metric-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "公制直身顶针",
+        "en": "Metric straight ejector pin",
+        "vi": "Ty thẳng hệ mét"
+      }
+    },
+    {
+      "id": "straight-ejector-pins--custom",
+      "productId": "straight-ejector-pins",
+      "configurationIds": [
+        "custom"
+      ],
+      "image": "/images/products/details/straight-ejector-pins--custom-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "定制长度直身顶针",
+        "en": "Custom length straight pin",
+        "vi": "Ty thẳng chiều dài tùy chỉnh"
+      }
+    },
+    {
+      "id": "shoulder-ejector-pins--locating",
+      "productId": "shoulder-ejector-pins",
+      "configurationIds": [
+        "locating"
+      ],
+      "image": "/images/products/details/shoulder-ejector-pins--locating-2026-10-08T17-21-34-502Z.png",
+      "name": {
+        "zh": "定位肩结构",
+        "en": "定位肩结构",
+        "vi": "定位肩结构"
+      }
+    },
+    {
+      "id": "shoulder-ejector-pins--head",
+      "productId": "shoulder-ejector-pins",
+      "configurationIds": [
+        "head"
+      ],
+      "image": "/images/products/details/shoulder-ejector-pins--head-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "定制头部与止转位",
+        "en": "定制头部与止转位",
+        "vi": "定制头部与止转位"
+      }
+    },
+    {
+      "id": "shoulder-ejector-pins--surface",
+      "productId": "shoulder-ejector-pins",
+      "configurationIds": [
+        "surface"
+      ],
+      "image": "/images/products/details/shoulder-ejector-pins--surface-2026-10-08T17-21-34-502Z.png",
+      "name": {
+        "zh": "氮化滑动段",
+        "en": "氮化滑动段",
+        "vi": "氮化滑动段"
+      }
+    },
+    {
+      "id": "stepped-ejector-pins--single",
+      "productId": "stepped-ejector-pins",
+      "configurationIds": [
+        "single"
+      ],
+      "image": "/images/products/details/stepped-ejector-pins--single-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "单台阶顶针",
+        "en": "单台阶顶针",
+        "vi": "单台阶顶针"
+      }
+    },
+    {
+      "id": "stepped-ejector-pins--multi",
+      "productId": "stepped-ejector-pins",
+      "configurationIds": [
+        "multi"
+      ],
+      "image": "/images/products/details/stepped-ejector-pins--multi-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "多台阶顶针",
+        "en": "多台阶顶针",
+        "vi": "多台阶顶针"
+      }
+    },
+    {
+      "id": "stepped-ejector-pins--shaped",
+      "productId": "stepped-ejector-pins",
+      "configurationIds": [
+        "shaped"
+      ],
+      "image": "/images/products/details/stepped-ejector-pins--shaped-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "成型顶出端与氮化选项",
+        "en": "成型顶出端与氮化选项",
+        "vi": "成型顶出端与氮化选项"
+      }
+    },
+    {
+      "id": "blade-ejector-pins--flat",
+      "productId": "blade-ejector-pins",
+      "configurationIds": [
+        "flat"
+      ],
+      "image": "/images/products/details/blade-ejector-pins--flat-2026-10-08T17-21-34-502Z.png",
+      "name": {
+        "zh": "平端扁顶针",
+        "en": "平端扁顶针",
+        "vi": "平端扁顶针"
+      }
+    },
+    {
+      "id": "blade-ejector-pins--contoured",
+      "productId": "blade-ejector-pins",
+      "configurationIds": [
+        "contoured"
+      ],
+      "image": "/images/products/details/blade-ejector-pins--contoured-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "成型端面扁顶针",
+        "en": "成型端面扁顶针",
+        "vi": "成型端面扁顶针"
+      }
+    },
+    {
+      "id": "blade-ejector-pins--custom",
+      "productId": "blade-ejector-pins",
+      "configurationIds": [
+        "custom"
+      ],
+      "image": "/images/products/details/blade-ejector-pins--custom-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "非标截面与处理",
+        "en": "非标截面与处理",
+        "vi": "非标截面与处理"
+      }
+    },
+    {
+      "id": "square-ejector-pins--square",
+      "productId": "square-ejector-pins",
+      "configurationIds": [
+        "square"
+      ],
+      "image": "/images/products/details/square-ejector-pins--square-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "方形工作段",
+        "en": "方形工作段",
+        "vi": "方形工作段"
+      }
+    },
+    {
+      "id": "square-ejector-pins--transition",
+      "productId": "square-ejector-pins",
+      "configurationIds": [
+        "transition"
+      ],
+      "image": "/images/products/details/square-ejector-pins--transition-2026-10-08T17-21-34-502Z.jpg",
+      "name": {
+        "zh": "圆杆转方端",
+        "en": "圆杆转方端",
+        "vi": "圆杆转方端"
+      }
+    },
+    {
+      "id": "square-ejector-pins--profile",
+      "productId": "square-ejector-pins",
+      "configurationIds": [
+        "profile"
+      ],
+      "image": "/images/products/details/square-ejector-pins--profile-2026-10-08T17-21-34-502Z.png",
+      "name": {
+        "zh": "定制端面与耐磨处理",
+        "en": "定制端面与耐磨处理",
+        "vi": "定制端面与耐磨处理"
+      }
+    },
+    {
+      "id": "ejector-sleeves--thin",
+      "productId": "ejector-sleeves",
+      "configurationIds": [
+        "thin"
+      ],
+      "image": "/images/products/details/ejector-sleeves--thin-2026-10-08T17-21-34-502Z.png",
+      "name": {
+        "zh": "薄壁与微型司筒",
+        "en": "薄壁与微型司筒",
+        "vi": "薄壁与微型司筒"
+      }
+    },
+    {
+      "id": "ejector-sleeves--long",
+      "productId": "ejector-sleeves",
+      "configurationIds": [
+        "long"
+      ],
+      "image": "/images/products/details/ejector-sleeves--long-2026-10-08T17-21-34-502Z.png",
+      "name": {
+        "zh": "加长司筒",
+        "en": "加长司筒",
+        "vi": "加长司筒"
+      }
+    },
+    {
+      "id": "ejector-sleeves--stepped",
+      "productId": "ejector-sleeves",
+      "configurationIds": [
+        "stepped"
+      ],
+      "image": "/images/products/details/ejector-sleeves--stepped-2026-10-08T17-21-34-502Z.png",
+      "name": {
+        "zh": "台阶与定制司筒",
+        "en": "台阶与定制司筒",
+        "vi": "台阶与定制司筒"
+      }
+    },
+    {
+      "id": "ejector-sleeves--straight",
+      "productId": "ejector-sleeves",
+      "configurationIds": [
+        "straight"
+      ],
+      "image": "/images/products/details/ejector-sleeves--straight-2026-10-08T17-21-34-502Z.png",
+      "name": {
+        "zh": "直身精磨司筒",
+        "en": "直身精磨司筒",
+        "vi": "直身精磨司筒"
+      }
+    },
+    {
+      "id": "ejector-sleeves--integrated",
+      "productId": "ejector-sleeves",
+      "configurationIds": [
+        "integrated"
+      ],
+      "image": "/images/products/details/ejector-sleeves--integrated-2026-10-08T17-21-34-502Z.png",
+      "name": {
+        "zh": "一体式带头司筒",
+        "en": "一体式带头司筒",
+        "vi": "一体式带头司筒"
+      }
     }
   ]
 }

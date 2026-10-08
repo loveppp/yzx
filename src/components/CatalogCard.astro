@@ -1,18 +1,18 @@
 ---
-import {catalogText, materialLabel, productPath, type CatalogProduct} from '@/data/catalog';
+import {catalogText, materialLabel, productPath, catalogProductMediaFrame, type CatalogProduct} from '@/data/catalog';
 import {detailsFor} from '@/data/catalog-details';
 import {catalogUI} from '@/data/catalog-ui';
 import type {Locale} from '@/i18n/locales';
 import ProductMedia from './ProductMedia.astro';
-interface Props { product: CatalogProduct; locale: Locale; filterable?: boolean; quoteHref?: string; }
-const {product,locale,filterable=false,quoteHref='#quote'}=Astro.props;
+interface Props { product: CatalogProduct; locale: Locale; filterable?: boolean; quoteHref?: string; frame?: '4/3' | '1/1'; }
+const {product,locale,filterable=false,quoteHref='#quote',frame=catalogProductMediaFrame(product)}=Astro.props;
 const ui=catalogUI(locale);
 const detail=detailsFor(product.id);
 const search=[...Object.values(product.name),...Object.values(product.summary),...product.materials,...product.materials.map(m=>materialLabel(m,locale)),...product.variants.flatMap(v=>Object.values(v)),...detail.variants.flatMap(v=>[...Object.values(v.name),...Object.values(v.description)])].join(' ');
 ---
 <article class="catalog-card product-visual-card group flex min-w-0 flex-col overflow-hidden border border-borui-navy/10 bg-white hover:border-borui-brass" data-catalog-card={filterable || undefined} data-group={product.group} data-materials={JSON.stringify(product.materials)} data-search={filterable ? search : undefined}>
   <a href={productPath(product,locale)} class="flex min-w-0 flex-1 flex-col">
-    <ProductMedia product={product} locale={locale} visualCaption />
+    <ProductMedia product={product} locale={locale} visualCaption frame={frame} />
     <div class="flex flex-1 flex-col p-4 md:p-5">
       <h3 class="text-base leading-snug md:text-xl">{catalogText(product.name,locale)}</h3>
       <p class="mt-2 text-xs leading-relaxed text-slate-600">{product.materials.map(m=>materialLabel(m,locale)).join(' · ')}</p>

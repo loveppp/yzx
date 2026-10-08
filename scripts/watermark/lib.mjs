@@ -104,7 +104,7 @@ export async function padImageToAspectRatio(imageBytes, options = {}) {
 /**
  * Uniform scale (same factor for width & height) then center-crop to exact aspect — no stretch.
  * @param {Buffer} imageBytes
- * @param {{ ratioWidth?: number; ratioHeight?: number; outWidth?: number; outHeight?: number }} [options]
+ * @param {{ ratioWidth?: number; ratioHeight?: number; outWidth?: number; outHeight?: number; position?: import('sharp').FitEnum extends never ? string : string }} [options]
  */
 export async function coverImageToAspectRatio(imageBytes, options = {}) {
   const ratioWidth = options.ratioWidth ?? 4;
@@ -126,10 +126,71 @@ export async function coverImageToAspectRatio(imageBytes, options = {}) {
   const format = meta.format;
   let pipeline = sharp(imageBytes).resize(outWidth, outHeight, {
     fit: 'cover',
-    position: 'centre',
+    position: options.position ?? 'centre',
     withoutEnlargement: false,
   });
 
+  if (format === 'jpeg') pipeline = pipeline.jpeg({ quality: 94, mozjpeg: true });
+  else if (format === 'webp') pipeline = pipeline.webp({ quality: 92 });
+  else pipeline = pipeline.png({ compressionLevel: 6, adaptiveFiltering: true });
+
+  return pipeline.toBuffer();
+}
+
+/**
+ * Extract the largest axis-aligned window at target aspect (no stretch), then resize to output size.
+ * For HTX wide banners, `focus: 'right'` keeps the product strip on the right.
+ * @param {Buffer} imageBytes
+ * @param {{ ratioWidth?: number; ratioHeight?: number; outWidth?: number; outHeight?: number; focus?: 'left' | 'centre' | 'right' | 'htx-banner'; bannerCenterX?: number }} [options]
+ */
+export async function cropImageToAspectRatio(imageBytes, options = {}) {
+  const ratioWidth = options.ratioWidth ?? 4;
+  const ratioHeight = options.ratioHeight ?? 3;
+  const focus = options.focus ?? 'centre';
+  const bannerCenterX = options.bannerCenterX ?? 0.68;
+  const image = sharp(imageBytes);
+  const meta = await image.metadata();
+  if (!meta.width || !meta.height) throw new Error('Unable to read image dimensions.');
+
+  const targetRatio = ratioWidth / ratioHeight;
+  const w = meta.width;
+  const h = meta.height;
+  const currentRatio = w / h;
+
+  let pipeline = sharp(imageBytes);
+  if (currentRatio > targetRatio + 0.002) {
+    const cropW = Math.min(w, Math.round(h * targetRatio));
+    let left;
+    if (focus === 'right') {
+      left = w - cropW;
+    } else if (focus === 'htx-banner') {
+      // Wide HTX hero: products sit mid-frame; pure right or high centerX clips the left of the fan.
+      const slack = w - cropW;
+      if (currentRatio > 2 && bannerCenterX <= 0) {
+        const bias = Math.min(0.45, Math.max(0, -bannerCenterX));
+        left = Math.round(slack * bias);
+      } else {
+        const centerX = Math.round(w * bannerCenterX);
+        left = Math.round(centerX - cropW / 2);
+      }
+      left = Math.max(0, Math.min(left, w - cropW));
+    } else if (focus === 'left') {
+      left = 0;
+    } else {
+      left = Math.max(0, Math.round((w - cropW) / 2));
+    }
+    pipeline = pipeline.extract({ left, top: 0, width: cropW, height: h });
+  } else if (currentRatio < targetRatio - 0.002) {
+    const cropH = Math.min(h, Math.round(w / targetRatio));
+    const top = Math.max(0, Math.round((h - cropH) / 2));
+    pipeline = pipeline.extract({ left: 0, top, width: w, height: cropH });
+  }
+
+  const outHeight = options.outHeight ?? 900;
+  const outWidth = options.outWidth ?? Math.round(outHeight * targetRatio);
+  pipeline = pipeline.resize(outWidth, outHeight, { fit: 'fill' });
+
+  const format = meta.format;
   if (format === 'jpeg') pipeline = pipeline.jpeg({ quality: 94, mozjpeg: true });
   else if (format === 'webp') pipeline = pipeline.webp({ quality: 92 });
   else pipeline = pipeline.png({ compressionLevel: 6, adaptiveFiltering: true });

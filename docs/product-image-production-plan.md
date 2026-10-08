@@ -2,7 +2,7 @@
 
 > 本文件由参考款式清单生成。当前阶段只重编提示词，不调用生图接口。旧图在线不表示新版已生成或已通过结构核实。
 
-本清单 67 个任务：13 个提示词完成，54 个待核实；新版已生成 6 个，已接入 6 个。
+本清单 67 个任务：13 个提示词完成，54 个待核实；新版已生成 6 个，已接入 5 个。
 
 ## 规则与分批顺序
 
@@ -434,7 +434,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 直身顶针 · straight-ejector-pins
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/ejector-components/straight-ejector-pins/
 类别共同特征：Every item belongs to Straight Ejector Pins. Do not import adjacent product families to increase variety.
@@ -469,7 +469,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 带肩顶针 · shoulder-ejector-pins
 
-状态：已接入；现有图片：新版已接入。
+状态：已生成；现有图片：旧版保留、待替换。
 目标 3 款；已定义 3 款、3 件。按已核实数量生成。
 位置：/zh/products/ejector-components/shoulder-ejector-pins/
 类别共同特征：Every item belongs to Shoulder Ejector Pins. Do not import adjacent product families to increase variety.
@@ -508,7 +508,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 台阶顶针 · stepped-ejector-pins
 
-状态：提示词完成；现有图片：暂无。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 3 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/ejector-components/stepped-ejector-pins/
 类别共同特征：Every item belongs to Stepped Ejector Pins. Do not import adjacent product families to increase variety.
@@ -543,7 +543,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 扁顶针 · blade-ejector-pins
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/ejector-components/blade-ejector-pins/
 类别共同特征：Every item belongs to Blade Ejector Pins. Do not import adjacent product families to increase variety.
@@ -578,7 +578,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 方顶针 · square-ejector-pins
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/ejector-components/square-ejector-pins/
 类别共同特征：Every item belongs to Square Ejector Pins. Do not import adjacent product families to increase variety.
@@ -613,7 +613,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 司筒与顶出套筒 · ejector-sleeves
 
-状态：提示词完成；现有图片：暂无。
+状态：提示词完成；现有图片：旧版保留、待替换。
 目标 3 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/ejector-components/ejector-sleeves/
 类别共同特征：Every item belongs to Ejector Sleeves. Do not import adjacent product families to increase variety.
@@ -648,7 +648,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 气顶阀 · air-poppet-valves
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/ejector-components/air-poppet-valves/
 类别共同特征：Every item belongs to Air Poppet Valves. Do not import adjacent product families to increase variety.
@@ -2639,10 +2639,10 @@ Exclude: No AI restyle required when HTX source is used.
 - tableting-punches / 刻字与标识冲模：tableting-punches--engraved。
 - tableting-punches / 多冲尖压片工装：tableting-punches--multi-tip。
 - tableting-punches / 压机专用定制工装：tableting-punches--press-specific。
-- straight-ejector-pins / 直身平端顶针：straight-ejector-pins。
-- straight-ejector-pins / SKD61 / H13 材质方案：文字说明。
-- straight-ejector-pins / 氮化直身顶针：文字说明。
-- straight-ejector-pins / 公英制与成型端部：straight-ejector-pins。
+- straight-ejector-pins / 标准直身顶针：straight-ejector-pins。
+- straight-ejector-pins / 英制直身顶针：straight-ejector-pins。
+- straight-ejector-pins / 公制直身顶针：straight-ejector-pins。
+- straight-ejector-pins / 定制长度直身顶针：straight-ejector-pins。
 - shoulder-ejector-pins / 定位肩结构：shoulder-ejector-pins。
 - shoulder-ejector-pins / 定制头部与止转位：shoulder-ejector-pins。
 - shoulder-ejector-pins / 氮化滑动段：文字说明。

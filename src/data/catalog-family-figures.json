@@ -1,92 +1,185 @@
 {
   "carbide-punches": {
     "figures": {
-      "applicationArea": "/images/products/family-sections/carbide-punches--applicationArea-2026-10-08T15-34-55-878Z.jpg",
-      "applicationScenario": "/images/products/family-sections/carbide-punches--applicationScenario-2026-10-08T15-34-55-878Z.jpg",
-      "materialsFigure": "/images/products/family-sections/carbide-punches--materialsFigure-2026-10-08T15-34-55-878Z.jpg",
-      "surfaceFigure": "/images/products/family-sections/carbide-punches--surfaceFigure-2026-10-08T15-34-55-878Z.png"
+      "applicationArea": "/images/products/family-sections/carbide-punches--applicationArea-2026-10-08T17-21-35-017Z.jpg",
+      "applicationScenario": "/images/products/family-sections/carbide-punches--applicationScenario-2026-10-08T17-21-35-017Z.jpg",
+      "materialsFigure": "/images/products/family-sections/carbide-punches--materialsFigure-2026-10-08T17-21-35-017Z.jpg",
+      "surfaceFigure": "/images/products/family-sections/carbide-punches--surfaceFigure-2026-10-08T17-21-35-017Z.jpg"
     },
     "highlightIcons": [
-      "/images/products/family-sections/carbide-punches--icon-1-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/carbide-punches--icon-2-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/carbide-punches--icon-3-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/carbide-punches--icon-4-2026-10-08T15-34-55-878Z.png"
+      "/images/products/family-sections/carbide-punches--icon-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/carbide-punches--icon-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/carbide-punches--icon-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/carbide-punches--icon-4-2026-10-08T17-21-35-017Z.png"
     ],
     "applicationTiles": []
   },
   "hss-punches": {
     "figures": {
-      "applicationsFigure": "/images/products/family-sections/hss-punches--applicationsFigure-2026-10-08T15-34-55-878Z.jpg",
-      "whyBanner": "/images/products/family-sections/hss-punches--whyBanner-2026-10-08T15-34-55-878Z.png",
-      "applicationArea": "/images/products/family-sections/hss-punches--applicationArea-2026-10-08T15-34-55-878Z.jpg"
+      "applicationsFigure": "/images/products/family-sections/hss-punches--applicationsFigure-2026-10-08T17-21-35-017Z.jpg",
+      "whyBanner": "/images/products/family-sections/hss-punches--whyBanner-2026-10-08T17-21-35-017Z.png",
+      "applicationArea": "/images/products/family-sections/hss-punches--applicationArea-2026-10-08T17-21-35-017Z.jpg"
     },
     "highlightIcons": [
-      "/images/products/family-sections/hss-punches--icon-1-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/hss-punches--icon-2-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/hss-punches--icon-3-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/hss-punches--icon-4-2026-10-08T15-34-55-878Z.png"
+      "/images/products/family-sections/hss-punches--icon-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/hss-punches--icon-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/hss-punches--icon-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/hss-punches--icon-4-2026-10-08T17-21-35-017Z.png"
     ],
     "applicationTiles": []
   },
   "stepped-punches": {
     "figures": {
-      "applicationArea": "/images/products/family-sections/stepped-punches--applicationArea-2026-10-08T15-34-55-878Z.",
-      "applicationScenario": "/images/products/family-sections/stepped-punches--applicationScenario-2026-10-08T15-34-55-878Z.png",
-      "applicationsFigure": "/images/products/family-sections/stepped-punches--applicationsFigure-2026-10-08T15-34-55-878Z.png",
-      "whyBanner": "/images/products/family-sections/stepped-punches--whyBanner-2026-10-08T15-34-55-878Z.jpg"
+      "applicationArea": "/images/products/family-sections/stepped-punches--applicationArea-2026-10-08T17-21-35-017Z.png",
+      "applicationScenario": "/images/products/family-sections/stepped-punches--applicationScenario-2026-10-08T17-21-35-017Z.png",
+      "applicationsFigure": "/images/products/family-sections/stepped-punches--applicationsFigure-2026-10-08T17-21-35-017Z.png",
+      "whyBanner": "/images/products/family-sections/stepped-punches--whyBanner-2026-10-08T17-21-35-017Z.jpg"
     },
     "highlightIcons": [
-      "/images/products/family-sections/stepped-punches--icon-1-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/stepped-punches--icon-2-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/stepped-punches--icon-3-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/stepped-punches--icon-4-2026-10-08T15-34-55-878Z.png"
+      "/images/products/family-sections/stepped-punches--icon-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/stepped-punches--icon-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/stepped-punches--icon-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/stepped-punches--icon-4-2026-10-08T17-21-35-017Z.png"
     ],
     "applicationTiles": []
   },
   "stamping-die-punches": {
     "figures": {
-      "materialsFigure": "/images/products/family-sections/stamping-die-punches--materialsFigure-2026-10-08T15-34-55-878Z.jpg",
-      "applicationsFigure": "/images/products/family-sections/stamping-die-punches--applicationsFigure-2026-10-08T15-34-55-878Z.jpg"
+      "materialsFigure": "/images/products/family-sections/stamping-die-punches--materialsFigure-2026-10-08T17-21-35-017Z.jpg",
+      "applicationsFigure": "/images/products/family-sections/stamping-die-punches--applicationsFigure-2026-10-08T17-21-35-017Z.jpg"
     },
     "highlightIcons": [
-      "/images/products/family-sections/stamping-die-punches--icon-1-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/stamping-die-punches--icon-2-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/stamping-die-punches--icon-3-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/stamping-die-punches--icon-4-2026-10-08T15-34-55-878Z.png"
+      "/images/products/family-sections/stamping-die-punches--icon-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/stamping-die-punches--icon-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/stamping-die-punches--icon-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/stamping-die-punches--icon-4-2026-10-08T17-21-35-017Z.png"
     ],
     "applicationTiles": []
   },
   "tableting-punches": {
     "figures": {
-      "applicationsFigure": "/images/products/family-sections/tableting-punches--applicationsFigure-2026-10-08T15-34-55-878Z.png",
-      "applicationArea": "/images/products/family-sections/tableting-punches--applicationArea-2026-10-08T15-34-55-878Z.png",
-      "whyBanner": "/images/products/family-sections/tableting-punches--whyBanner-2026-10-08T15-34-55-878Z.png"
+      "applicationsFigure": "/images/products/family-sections/tableting-punches--applicationsFigure-2026-10-08T17-21-35-017Z.png",
+      "applicationArea": "/images/products/family-sections/tableting-punches--applicationArea-2026-10-08T17-21-35-017Z.png",
+      "whyBanner": "/images/products/family-sections/tableting-punches--whyBanner-2026-10-08T17-21-35-017Z.png"
     },
     "highlightIcons": [
-      "/images/products/family-sections/tableting-punches--icon-1-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/tableting-punches--icon-2-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/tableting-punches--icon-3-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/tableting-punches--icon-4-2026-10-08T15-34-55-878Z.png"
+      "/images/products/family-sections/tableting-punches--icon-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/tableting-punches--icon-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/tableting-punches--icon-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/tableting-punches--icon-4-2026-10-08T17-21-35-017Z.png"
     ],
     "applicationTiles": []
   },
   "tungsten-carbide-punches": {
     "figures": {
-      "applicationArea": "/images/products/family-sections/tungsten-carbide-punches--applicationArea-2026-10-08T15-34-55-878Z.png",
-      "processFigure": "/images/products/family-sections/tungsten-carbide-punches--processFigure-2026-10-08T15-34-55-878Z.",
-      "materialsFigure": "/images/products/family-sections/tungsten-carbide-punches--materialsFigure-2026-10-08T15-34-55-878Z.png"
+      "applicationArea": "/images/products/family-sections/tungsten-carbide-punches--applicationArea-2026-10-08T17-21-35-017Z.png",
+      "processFigure": "/images/products/family-sections/tungsten-carbide-punches--processFigure-2026-10-08T17-21-35-017Z.png",
+      "materialsFigure": "/images/products/family-sections/tungsten-carbide-punches--materialsFigure-2026-10-08T17-21-35-017Z.png"
     },
     "highlightIcons": [
-      "/images/products/family-sections/tungsten-carbide-punches--icon-1-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/tungsten-carbide-punches--icon-2-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/tungsten-carbide-punches--icon-3-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/tungsten-carbide-punches--icon-4-2026-10-08T15-34-55-878Z.png"
+      "/images/products/family-sections/tungsten-carbide-punches--icon-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/tungsten-carbide-punches--icon-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/tungsten-carbide-punches--icon-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/tungsten-carbide-punches--icon-4-2026-10-08T17-21-35-017Z.png"
     ],
     "applicationTiles": [
-      "/images/products/family-sections/tungsten-carbide-punches--app-tile-1-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/tungsten-carbide-punches--app-tile-2-2026-10-08T15-34-55-878Z.",
-      "/images/products/family-sections/tungsten-carbide-punches--app-tile-3-2026-10-08T15-34-55-878Z.png",
-      "/images/products/family-sections/tungsten-carbide-punches--app-tile-4-2026-10-08T15-34-55-878Z.png"
+      "/images/products/family-sections/tungsten-carbide-punches--app-tile-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/tungsten-carbide-punches--app-tile-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/tungsten-carbide-punches--app-tile-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/tungsten-carbide-punches--app-tile-4-2026-10-08T17-21-35-017Z.png"
     ]
+  },
+  "straight-ejector-pins": {
+    "figures": {
+      "applicationsFigure": "/images/products/family-sections/straight-ejector-pins--applicationsFigure-2026-10-08T17-21-35-017Z.jpg",
+      "materialsFigure": "/images/products/family-sections/straight-ejector-pins--materialsFigure-2026-10-08T17-21-35-017Z.jpg",
+      "surfaceFigure": "/images/products/family-sections/straight-ejector-pins--surfaceFigure-2026-10-08T17-21-35-017Z.png"
+    },
+    "highlightIcons": [
+      "/images/products/family-sections/straight-ejector-pins--icon-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/straight-ejector-pins--icon-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/straight-ejector-pins--icon-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/straight-ejector-pins--icon-4-2026-10-08T17-21-35-017Z.png"
+    ],
+    "applicationTiles": []
+  },
+  "shoulder-ejector-pins": {
+    "figures": {
+      "applicationsFigure": "/images/products/family-sections/shoulder-ejector-pins--applicationsFigure-2026-10-08T17-21-35-017Z.png",
+      "materialsFigure": "/images/products/family-sections/shoulder-ejector-pins--materialsFigure-2026-10-08T17-21-35-017Z.png",
+      "surfaceFigure": "/images/products/family-sections/shoulder-ejector-pins--surfaceFigure-2026-10-08T17-21-35-017Z.png"
+    },
+    "highlightIcons": [
+      "/images/products/family-sections/shoulder-ejector-pins--icon-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/shoulder-ejector-pins--icon-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/shoulder-ejector-pins--icon-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/shoulder-ejector-pins--icon-4-2026-10-08T17-21-35-017Z.png"
+    ],
+    "applicationTiles": []
+  },
+  "stepped-ejector-pins": {
+    "figures": {
+      "applicationsFigure": "/images/products/family-sections/stepped-ejector-pins--applicationsFigure-2026-10-08T17-21-35-017Z.png",
+      "materialsFigure": "/images/products/family-sections/stepped-ejector-pins--materialsFigure-2026-10-08T17-21-35-017Z.png"
+    },
+    "highlightIcons": [
+      "/images/products/family-sections/stepped-ejector-pins--icon-1-2026-10-08T17-21-35-017Z.jpg",
+      "/images/products/family-sections/stepped-ejector-pins--icon-2-2026-10-08T17-21-35-017Z.jpg",
+      "/images/products/family-sections/stepped-ejector-pins--icon-3-2026-10-08T17-21-35-017Z.jpg",
+      "/images/products/family-sections/stepped-ejector-pins--icon-4-2026-10-08T17-21-35-017Z.jpg"
+    ],
+    "applicationTiles": []
+  },
+  "blade-ejector-pins": {
+    "figures": {
+      "applicationsFigure": "/images/products/family-sections/blade-ejector-pins--applicationsFigure-2026-10-08T17-21-35-017Z.jpg",
+      "materialsFigure": "/images/products/family-sections/blade-ejector-pins--materialsFigure-2026-10-08T17-21-35-017Z.jpg"
+    },
+    "highlightIcons": [
+      "/images/products/family-sections/blade-ejector-pins--icon-1-2026-10-08T17-21-35-017Z.jpg",
+      "/images/products/family-sections/blade-ejector-pins--icon-2-2026-10-08T17-21-35-017Z.jpg",
+      "/images/products/family-sections/blade-ejector-pins--icon-3-2026-10-08T17-21-35-017Z.jpg",
+      "/images/products/family-sections/blade-ejector-pins--icon-4-2026-10-08T17-21-35-017Z.jpg"
+    ],
+    "applicationTiles": []
+  },
+  "square-ejector-pins": {
+    "figures": {
+      "applicationsFigure": "/images/products/family-sections/square-ejector-pins--applicationsFigure-2026-10-08T17-21-35-017Z.jpg",
+      "materialsFigure": "/images/products/family-sections/square-ejector-pins--materialsFigure-2026-10-08T17-21-35-017Z.jpg"
+    },
+    "highlightIcons": [
+      "/images/products/family-sections/square-ejector-pins--icon-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/square-ejector-pins--icon-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/square-ejector-pins--icon-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/square-ejector-pins--icon-4-2026-10-08T17-21-35-017Z.png"
+    ],
+    "applicationTiles": []
+  },
+  "ejector-sleeves": {
+    "figures": {
+      "applicationsFigure": "/images/products/family-sections/ejector-sleeves--applicationsFigure-2026-10-08T17-21-35-017Z.png",
+      "materialsFigure": "/images/products/family-sections/ejector-sleeves--materialsFigure-2026-10-08T17-21-35-017Z.png"
+    },
+    "highlightIcons": [
+      "/images/products/family-sections/ejector-sleeves--icon-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/ejector-sleeves--icon-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/ejector-sleeves--icon-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/ejector-sleeves--icon-4-2026-10-08T17-21-35-017Z.png"
+    ],
+    "applicationTiles": []
+  },
+  "air-poppet-valves": {
+    "figures": {
+      "applicationsFigure": "/images/products/family-sections/air-poppet-valves--applicationsFigure-2026-10-08T17-21-35-017Z.png",
+      "materialsFigure": "/images/products/family-sections/air-poppet-valves--materialsFigure-2026-10-08T17-21-35-017Z.jpg"
+    },
+    "highlightIcons": [
+      "/images/products/family-sections/air-poppet-valves--icon-1-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/air-poppet-valves--icon-2-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/air-poppet-valves--icon-3-2026-10-08T17-21-35-017Z.png",
+      "/images/products/family-sections/air-poppet-valves--icon-4-2026-10-08T17-21-35-017Z.png"
+    ],
+    "applicationTiles": []
   }
 }

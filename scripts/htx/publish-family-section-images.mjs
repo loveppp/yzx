@@ -37,7 +37,10 @@ async function publishFigure(productId, role, absSource) {
   const meta = await sharp(bytes).metadata();
   const minDim = Math.min(meta.width ?? 0, meta.height ?? 0);
   const skipWatermark = minDim < 360;
-  const ext = path.extname(absSource).slice(1).toLowerCase();
+  let ext = path.extname(absSource).slice(1).toLowerCase();
+  if (!ext) {
+    ext = meta.format === 'jpeg' ? 'jpg' : meta.format ?? 'jpg';
+  }
   const useExt = ext === 'jpeg' ? 'jpg' : ext;
   const publicPath = `/images/products/family-sections/${productId}--${role}-${stamp}.${useExt}`;
   const dest = path.join(root, 'public', publicPath);

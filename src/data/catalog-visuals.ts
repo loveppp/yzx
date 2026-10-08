@@ -15,5 +15,8 @@ const legacyVisuals:Record<string,LocalizedText>={
 export const catalogVisuals:Record<string,LocalizedText> = {...legacyVisuals};
 for (const product of data.products) {
   const caption = (product as typeof product & {imageCaption?:LocalizedText}).imageCaption;
-  if (caption) catalogVisuals[product.id] = caption;
+  if (!caption) continue;
+  const zh = caption.zh?.trim() ?? '';
+  if (/HTX/i.test(zh)) continue;
+  catalogVisuals[product.id] = caption;
 }

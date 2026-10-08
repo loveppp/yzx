@@ -558,73 +558,73 @@
       {
         "id": "plain",
         "name": {
-          "zh": "直身平端顶针",
-          "en": "Straight flat-end pin",
-          "vi": "Ty thẳng đầu phẳng"
+          "zh": "标准直身顶针",
+          "en": "Standard straight ejector pin",
+          "vi": "Ty thẳng tiêu chuẩn"
         },
         "description": {
-          "zh": "等径圆杆用于常规点位顶出。",
-          "en": "A constant-diameter shaft provides local ejection.",
-          "vi": "Thân tròn đều dùng đẩy tại điểm."
+          "zh": "等径圆杆结构，适用于绝大多数常规注塑模具设计，为顶出布局提供稳定基础选项。",
+          "en": "Uniform round shank for conventional injection molds—a stable baseline for ejection layout.",
+          "vi": "Thân tròn đều cho khuôn nhựa thường—lựa chọn nền ổn định cho bố trí đẩy."
         },
         "parameters": {
-          "zh": "直径、长度、头径、顶出位置",
-          "en": "Diameter, length, head size and ejection position",
-          "vi": "Đường kính, dài, cỡ mũ và vị trí đẩy"
+          "zh": "直径、长度、公差、顶出位置",
+          "en": "Diameter, length, tolerances and ejection position",
+          "vi": "Đường kính, dài, dung sai và vị trí đẩy"
         }
       },
       {
-        "id": "skd61",
+        "id": "imperial",
         "name": {
-          "zh": "SKD61 / H13 材质方案",
-          "en": "SKD61 / H13 material options",
-          "vi": "Vật liệu SKD61 / H13"
+          "zh": "英制直身顶针",
+          "en": "Imperial straight ejector pin",
+          "vi": "Ty thẳng hệ inch"
         },
         "description": {
-          "zh": "根据模温与韧性需求选择热作钢，替代牌号需核对对应标准。",
-          "en": "Select hot-work steel for temperature and toughness; verify standards before grade substitution.",
-          "vi": "Chọn thép khuôn nóng theo nhiệt và độ dai; đối chiếu tiêu chuẩn khi thay mác."
+          "zh": "按英制标准尺寸加工，便于与国际模具体系配套与标准化管理。",
+          "en": "Imperial dimensions for international mold systems and standardized spares.",
+          "vi": "Kích thước inch phù hợp hệ khuôn quốc tế và quản lý chuẩn hóa."
         },
         "parameters": {
-          "zh": "材料标准、热处理、工作温度",
-          "en": "Material standard, heat treatment and temperature",
-          "vi": "Tiêu chuẩn vật liệu, nhiệt luyện và nhiệt độ"
+          "zh": "英制直径、长度、配合公差",
+          "en": "Imperial diameter, length and fit tolerances",
+          "vi": "Đường kính inch, dài và dung sai lắp"
         }
       },
       {
-        "id": "nitrided",
+        "id": "metric",
         "name": {
-          "zh": "氮化直身顶针",
-          "en": "Nitrided straight pin",
-          "vi": "Ty thẳng thấm nitơ"
+          "zh": "公制直身顶针",
+          "en": "Metric straight ejector pin",
+          "vi": "Ty thẳng hệ mét"
         },
         "description": {
-          "zh": "表层硬化用于改善滑动磨损，仍需检查配合和润滑。",
-          "en": "Surface hardening addresses sliding wear; fit and lubrication still require review.",
-          "vi": "Cứng hóa bề mặt giảm mài mòn trượt; vẫn cần kiểm tra lắp ghép và bôi trơn."
+          "zh": "公制尺寸便于零件标准化管理与互换，简化采购与库存。",
+          "en": "Metric sizing simplifies standardization, interchange and procurement.",
+          "vi": "Hệ mét thuận tiện chuẩn hóa, thay thế và mua hàng."
         },
         "parameters": {
-          "zh": "层深、处理区、成品直径",
-          "en": "Case depth, treated area and finished diameter",
-          "vi": "Chiều sâu lớp, vùng xử lý và đường kính cuối"
+          "zh": "公制直径、长度、配合公差",
+          "en": "Metric diameter, length and fit tolerances",
+          "vi": "Đường kính mét, dài và dung sai lắp"
         }
       },
       {
         "id": "custom",
         "name": {
-          "zh": "公英制与成型端部",
-          "en": "Metric, inch and shaped ends",
-          "vi": "Hệ mét, inch và đầu tạo hình"
+          "zh": "定制长度直身顶针",
+          "en": "Custom length straight pin",
+          "vi": "Ty thẳng chiều dài tùy chỉnh"
         },
         "description": {
-          "zh": "替换件核对单位体系，非平端按塑件接触面定义。",
-          "en": "Verify units for replacements; define shaped tips by the part contact surface.",
-          "vi": "Kiểm tra hệ đơn vị khi thay; định nghĩa đầu theo mặt tiếp xúc sản phẩm."
+          "zh": "非标准直径与长度可按模具空间与顶出行程定制，适应受限结构。",
+          "en": "Non-standard diameters and lengths for space-limited molds and stroke needs.",
+          "vi": "Đường kính và chiều dài đặc biệt cho khuôn hạn chế không gian và hành trình đẩy."
         },
         "parameters": {
-          "zh": "单位、端面轮廓、防转要求",
-          "en": "Units, end profile and anti-rotation needs",
-          "vi": "Đơn vị, biên dạng đầu và chống xoay"
+          "zh": "定制直径、长度、公差与材料",
+          "en": "Custom diameter, length, tolerances and material",
+          "vi": "Đường kính, dài, dung sai và vật liệu tùy chỉnh"
         }
       }
     ]

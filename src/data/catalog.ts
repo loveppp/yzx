@@ -22,6 +22,7 @@ export interface CatalogProduct {
   variants: LocalizedText[];
   sourceUrls: string[];
   image: string | null;
+  detailImage?: string | null;
   imageGenerated?: boolean;
   imageCaption?: LocalizedText;
   illustration: string;
@@ -39,6 +40,10 @@ export const groupProducts = (group: string) => catalogProducts.filter((p) => p.
 export const productPath = (p: CatalogProduct, locale: Locale) => `/${locale}/products/${p.group}/${p.id}/`;
 export const groupPath = (g: CatalogGroup, locale: Locale) => `/${locale}/products/${g.id}/`;
 export const productById = (id: string) => catalogProducts.find((p) => p.id === id);
+
+/** HTX 顶出横图主图为 4:3；冲针等为 1:1。 */
+export const catalogProductMediaFrame = (product: CatalogProduct): '4/3' | '1/1' =>
+  product.group === 'ejector-components' ? '4/3' : '1/1';
 export function legacyDestination(target: string, locale: Locale) {
   const product = productById(target);
   return product ? productPath(product, locale) : `/${locale}/products/${target}/`;

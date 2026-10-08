@@ -26,21 +26,26 @@ const splitApps = Boolean(
   (extras.applicationArea && extras.applicationScenario) ||
     (figs?.figures.applicationArea && figs?.figures.applicationScenario),
 );
-
-const faqItems: Array<[string, string]> = [
-  [tx(questionFor(product.id)), tx(detail.note)],
-  [
-    locale === 'zh'
-      ? '询价时需要提供哪些尺寸与工况？'
-      : locale === 'vi'
-        ? 'Cần kích thước và điều kiện nào để báo giá?'
-        : 'Which dimensions and operating details are needed for a quote?',
-    tx(product.selection),
-  ],
-];
-if (extras.extraFaqs) {
-  for (const item of extras.extraFaqs) faqItems.push([tx(item.q), tx(item.a)]);
-}
+const faqItems: Array<[string, string]> =
+  extras.faqOnly && extras.extraFaqs?.length
+    ? extras.extraFaqs.map((item) => [tx(item.q), tx(item.a)])
+    : (() => {
+        const items: Array<[string, string]> = [
+          [tx(questionFor(product.id)), tx(detail.note)],
+          [
+            locale === 'zh'
+              ? '询价时需要提供哪些尺寸与工况？'
+              : locale === 'vi'
+                ? 'Cần kích thước và điều kiện nào để báo giá?'
+                : 'Which dimensions and operating details are needed for a quote?',
+            tx(product.selection),
+          ],
+        ];
+        if (extras.extraFaqs) {
+          for (const item of extras.extraFaqs) items.push([tx(item.q), tx(item.a)]);
+        }
+        return items;
+      })();
 
 const materialsPrimary = Boolean(figs?.figures.materialsFigure);
 const surfacePrimary = Boolean(figs?.figures.surfaceFigure);
@@ -132,8 +137,19 @@ const surfaceReverse = splitApps;
           quoteProduct={quoteFor(tx(ui.application))}
           quoteLabel={inquiryLabel}
         >
-          <p class="text-base leading-relaxed text-slate-600">{tx(product.application)}</p>
-          <p class="mt-4 text-base leading-relaxed text-slate-600">{tx(scenarioFor(product.id))}</p>
+          <p class="text-base leading-relaxed text-slate-600">
+            {extras.applicationArea ? tx(extras.applicationArea) : tx(product.application)}
+          </p>
+          {
+            !extras.applicationArea && (
+              <p class="mt-4 text-base leading-relaxed text-slate-600">{tx(scenarioFor(product.id))}</p>
+            )
+          }
+          {
+            extras.applicationScenario && (
+              <p class="mt-4 text-base leading-relaxed text-slate-600">{tx(extras.applicationScenario)}</p>
+            )
+          }
         </PunchStorySplit>
         {
           figs?.applicationTiles && figs.applicationTiles.length > 0 && (

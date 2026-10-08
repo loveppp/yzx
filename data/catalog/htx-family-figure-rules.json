@@ -92,5 +92,98 @@
       "Fast-Turnaround",
       "Durable-Material"
     ]
+  },
+  "straight-ejector-pins": {
+    "sourceDirs": ["output/htx-sources/ejector-components/straight-ejector-pins"],
+    "figures": {
+      "applicationsFigure": "Application-of-The-Straight-Ejector-Pins",
+      "materialsFigure": "The-Surface-Treatment-and-Material",
+      "surfaceFigure": "Nitrided-Ejector-Pins"
+    },
+    "highlightIcons": [
+      "1-High-Straightness-Control",
+      "2-Stable-Heat-Treatment",
+      "3-Consistent-Batch-Quality",
+      "4-Easy-Replacement-Maintenance"
+    ]
+  },
+  "shoulder-ejector-pins": {
+    "sourceDirs": ["output/htx-sources/ejector-components/shoulder-ejector-pins"],
+    "figures": {
+      "applicationsFigure": "Engineering-Applications-of-HTX-Shouldered-Ejector-Pin",
+      "materialsFigure": "Material-options-for-shoulder-ejector-pin",
+      "surfaceFigure": "Surface-Treatment-Solutions-for-Long-Pin-Life"
+    },
+    "highlightIcons": [
+      "automotive-injection-molding",
+      "High-Cycle-Production-Molds",
+      "Precision-Connector-Molds",
+      "4-Dies-Prone-to-Adhesion"
+    ]
+  },
+  "stepped-ejector-pins": {
+    "sourceDirs": ["output/htx-sources/ejector-components/stepped-ejector-pins"],
+    "figures": {
+      "applicationsFigure": "Ejector-Pins-in-Injection-Molding",
+      "materialsFigure": "Materials-and-Manufacturing-Process-for-Ejector-Pins"
+    },
+    "highlightIcons": [
+      "1-Multi-Cavity-Injection-Molds",
+      "2-Precision-Limited-Ejection",
+      "3-Height-Sensitive-Components",
+      "4-Simplified-Mold-Structure"
+    ]
+  },
+  "blade-ejector-pins": {
+    "sourceDirs": ["output/htx-sources/ejector-components/blade-ejector-pins"],
+    "figures": {
+      "applicationsFigure": "Manufacturing-of-The-Blade-Ejector-Pin",
+      "materialsFigure": "Material-Options"
+    },
+    "highlightIcons": [
+      "1-Thin-walled-products",
+      "2-Complex-or-confined-spaces",
+      "3-High-Aesthetic-Requirement",
+      "4-Anti-Rotation-Ejection"
+    ]
+  },
+  "square-ejector-pins": {
+    "sourceDirs": ["output/htx-sources/ejector-components/square-ejector-pins"],
+    "figures": {
+      "applicationsFigure": "The-Advantage-of-The-Square-Ejector-Pins",
+      "materialsFigure": "Diverse-Material-Options"
+    },
+    "highlightIcons": [
+      "Lock-Rotation",
+      "Asymmetrical-Parts",
+      "High_precision",
+      "High-Synchronization"
+    ]
+  },
+  "ejector-sleeves": {
+    "sourceDirs": ["output/htx-sources/ejector-components/ejector-sleeves"],
+    "figures": {
+      "applicationsFigure": "Prevent-the-Ejector-Sleeve-from-Sticking",
+      "materialsFigure": "hardness-wear-resistance-heat-treatment-for-material-comparison"
+    },
+    "highlightIcons": [
+      "1-Consistent-Batch-Quality",
+      "2-Repeatability-Control",
+      "3-Production-to-Specifications",
+      "4-Production-Capacity"
+    ]
+  },
+  "air-poppet-valves": {
+    "sourceDirs": ["output/htx-sources/ejector-components/air-poppet-valves"],
+    "figures": {
+      "applicationsFigure": "Injection-Molding-Process",
+      "materialsFigure": "How-To-Choose-an-Air-Poppet-Valve"
+    },
+    "highlightIcons": [
+      "6-High-Precision-and-Easy-Installation",
+      "7-Space-Saving-Design",
+      "8-Enhanced-Ejection-Performance",
+      "9-High-Temperature-Capability"
+    ]
   }
 }

@@ -11,15 +11,22 @@ interface Props {
   visualCaption?: boolean;
   /** 默认 1:1；首页「产品分类」六大类条显式传 4/3（首页 Hero 大图在 PunchShowcase 内单独 4/3） */
   frame?: '4/3' | '1/1';
+  /** 详情页传 detail；列表与详情均优先 detailImage（顶出 1:1 与冲针列表一致） */
+  imageRole?: 'listing' | 'detail';
 }
-const {product, locale, caption = false, eager = false, visualCaption = false, frame = '1/1'} = Astro.props;
+const {product, locale, caption = false, eager = false, visualCaption = false, frame = '1/1', imageRole = 'listing'} = Astro.props;
 const ui = catalogUI(locale);
 const square = frame === '1/1';
+const src = product.image ?? product.illustration;
+const showVisualCaption =
+  visualCaption &&
+  catalogVisuals[product.id] &&
+  !/HTX/i.test(catalogText(catalogVisuals[product.id], locale));
 ---
 <figure class="min-w-0">
   <div class:list={['product-visual-frame overflow-hidden bg-borui-light', square ? 'aspect-square' : 'aspect-[4/3]']}>
     <img
-      src={product.image || product.illustration}
+      src={src}
       alt={catalogText(product.name,locale)}
       width="800"
       height={square ? 800 : 600}
@@ -28,8 +35,8 @@ const square = frame === '1/1';
       class="h-full w-full object-contain"
     />
   </div>
-  {(caption||(visualCaption&&catalogVisuals[product.id]))&&<figcaption class="px-4 py-3 text-xs leading-relaxed text-slate-600">
-    {catalogVisuals[product.id]&&<span class="block">{locale==='zh'?'图中：':locale==='vi'?'Trong hình: ':'Shown: '}{catalogText(catalogVisuals[product.id],locale)}</span>}
+  {(caption||showVisualCaption)&&<figcaption class="px-4 py-3 text-xs leading-relaxed text-slate-600">
+    {showVisualCaption&&<span class="block">{locale==='zh'?'图中：':locale==='vi'?'Trong hình: ':'Shown: '}{catalogText(catalogVisuals[product.id],locale)}</span>}
     {caption&&<span class="mt-1 block">{product.image ? ui.photo : ui.illustration}</span>}
   </figcaption>}
 </figure>
