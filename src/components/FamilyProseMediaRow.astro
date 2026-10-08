@@ -1,0 +1,50 @@
+---
+import FamilyInfographic from './FamilyInfographic.astro';
+
+interface Props {
+  imageSrc?: string;
+  imageAlt?: string;
+}
+
+const {imageSrc, imageAlt = ''} = Astro.props;
+const hasMedia = Boolean(imageSrc);
+---
+
+<div class:list={['family-prose-media-row', !hasMedia && 'family-prose-media-row--text-only']}>
+  <div class="family-prose-media-row__text">
+    <slot />
+  </div>
+  {
+    hasMedia && (
+      <div class="family-prose-media-row__media">
+        <FamilyInfographic variant="panel" src={imageSrc!} alt={imageAlt} />
+      </div>
+    )
+  }
+</div>
+
+<style>
+  .family-prose-media-row {
+    display: grid;
+    gap: 1.25rem;
+    align-items: center;
+  }
+  @media (min-width: 768px) {
+    .family-prose-media-row:not(.family-prose-media-row--text-only) {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 1.75rem 2.5rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .family-prose-media-row:not(.family-prose-media-row--text-only) {
+      grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+      gap: 2rem 3rem;
+    }
+  }
+  .family-prose-media-row__text {
+    min-width: 0;
+  }
+  .family-prose-media-row__media {
+    min-width: 0;
+  }
+</style>

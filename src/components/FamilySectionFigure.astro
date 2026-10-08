@@ -1,0 +1,53 @@
+---
+interface Props {
+  src: string;
+  alt?: string;
+  variant?: 'default' | 'chart' | 'tile';
+}
+const {src, alt = '', variant = 'default'} = Astro.props;
+---
+
+<figure class:list={['family-section-figure', `family-section-figure--${variant}`]}>
+  <img src={src} alt={alt} width="960" height="540" loading="lazy" class="family-section-figure__img" />
+</figure>
+
+<style>
+  .family-section-figure {
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid rgb(15 23 42 / 0.1);
+    background: var(--color-borui-light, #f4f6f8);
+  }
+  .family-section-figure__img {
+    display: block;
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+  }
+  .family-section-figure--default {
+    max-width: 42rem;
+    margin-inline: auto;
+  }
+  .family-section-figure--chart {
+    width: 100%;
+    max-width: none;
+    border: none;
+    background: transparent;
+  }
+  .family-section-figure--chart .family-section-figure__img {
+    margin-inline: auto;
+    max-width: 56rem;
+  }
+  .family-section-figure--tile {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+  }
+  .family-section-figure--tile .family-section-figure__img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+  }
+</style>

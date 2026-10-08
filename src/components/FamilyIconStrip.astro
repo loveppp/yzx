@@ -1,0 +1,73 @@
+---
+interface Item {
+  icon?: string;
+  label: string;
+}
+
+interface Props {
+  items: Item[];
+}
+
+const {items} = Astro.props;
+---
+
+<ul class="family-icon-strip">
+  {
+    items.map((item) => (
+      <li class="family-icon-strip__item">
+        {item.icon ? (
+          <img src={item.icon} alt="" width="48" height="48" loading="lazy" class="family-icon-strip__icon" />
+        ) : (
+          <span class="family-icon-strip__dot" aria-hidden="true" />
+        )}
+        <span class="family-icon-strip__label">{item.label}</span>
+      </li>
+    ))
+  }
+</ul>
+
+<style>
+  .family-icon-strip {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem 0.75rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: 640px) {
+    .family-icon-strip {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+  @media (min-width: 1024px) {
+    .family-icon-strip {
+      grid-template-columns: repeat(8, minmax(0, 1fr));
+      gap: 1.25rem 0.5rem;
+    }
+  }
+  .family-icon-strip__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+  }
+  .family-icon-strip__icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    object-fit: contain;
+  }
+  .family-icon-strip__dot {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 9999px;
+    background: rgb(15 23 42 / 0.08);
+  }
+  .family-icon-strip__label {
+    font-size: 0.6875rem;
+    line-height: 1.35;
+    font-weight: 600;
+    color: rgb(30 41 59);
+  }
+</style>

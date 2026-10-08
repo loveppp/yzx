@@ -1,0 +1,14 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  caption?: string;
+}
+
+const {src, alt, caption} = Astro.props;
+---
+
+<figure class="punch-chart">
+  <img src={src} alt={alt} width="1200" height="675" loading="lazy" decoding="async" />
+  {caption && <figcaption class="punch-chart__caption">{caption}</figcaption>}
+</figure>

@@ -19,4 +19,10 @@ export const detailUI={
  overview:l('按系列查看具体款式|Explore configurations by family|Xem cấu hình theo dòng'),
  browse:l('查看款式与选型|View configurations and selection|Xem cấu hình và lựa chọn'),
  related:l('配套与关联系列|Mating and related families|Dòng đi kèm và liên quan'),
+ configurationInquiry:l('立即询价|Send inquiry now|Gửi yêu cầu ngay'),
+ relatedMaterials:l('可提供定制生产的冲压材料|Stamping materials for custom production|Vật liệu dập theo đơn'),
+ gradeCatalog:l('可选材料牌号（按图纸确认）|Optional grades (confirmed on drawing)|Mác tùy chọn (theo bản vẽ)'),
+ applicationArea:l('应用领域|Application areas|Lĩnh vực ứng dụng'),
+ applicationScenario:l('应用场景|Application scenarios|Kịch bản sử dụng'),
+ whyHighlights:l('系列优势要点|Family highlights|Điểm mạnh dòng'),
 };

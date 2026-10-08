@@ -1,4 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+
+const QUOTE_PRODUCT_KEY = 'yzx-quote-product';
 
 export interface QuoteFormLabels {
   name: string;
@@ -29,6 +31,29 @@ export default function QuoteForm({ labels, categories, initialCategory = '', pr
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
   const [error, setError] = useState('');
+  const [productLine, setProductLine] = useState(product);
+
+  useEffect(() => {
+    setProductLine(product);
+  }, [product]);
+
+  useEffect(() => {
+    function applyStoredProduct() {
+      try {
+        const stored = sessionStorage.getItem(QUOTE_PRODUCT_KEY);
+        if (stored) {
+          setProductLine(stored);
+          sessionStorage.removeItem(QUOTE_PRODUCT_KEY);
+        }
+      } catch {
+        /* ignore */
+      }
+    }
+
+    applyStoredProduct();
+    window.addEventListener('yzx-quote-product-set', applyStoredProduct);
+    return () => window.removeEventListener('yzx-quote-product-set', applyStoredProduct);
+  }, []);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -57,7 +82,12 @@ export default function QuoteForm({ labels, categories, initialCategory = '', pr
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
       <input name="website" tabIndex={-1} autoComplete="off" className="hidden" aria-hidden="true" />
-      {product && <label className="block"><span className="text-xs uppercase tracking-wider text-slate-600">{labels.product}</span><input readOnly name="product" value={product} className="mt-1 w-full border border-borui-navy/20 bg-borui-light px-3 py-3 text-base" /></label>}
+      {productLine && (
+        <label className="block">
+          <span className="text-xs uppercase tracking-wider text-slate-600">{labels.product}</span>
+          <input readOnly name="product" value={productLine} className="mt-1 w-full border border-borui-navy/20 bg-borui-light px-3 py-3 text-base" />
+        </label>
+      )}
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block">
           <span className="text-xs uppercase tracking-wider text-slate-600">{labels.name}</span>

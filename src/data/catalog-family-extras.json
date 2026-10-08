@@ -1,0 +1,239 @@
+{
+  "carbide-punches": {
+    "relatedMaterials": [
+      {
+        "productId": "hss-punches",
+        "blurb": {
+          "zh": "需要兼顾韧性、抗崩刃与重磨维护的冲裁工位，可评估高速钢牌号与工作端结构。",
+          "en": "For stations that balance toughness, chipping resistance and regrinding, evaluate HSS grades and tip geometry.",
+          "vi": "Trạm cần cân bằng độ dai, chống sứt và mài lại: xét mác HSS và hình đầu."
+        }
+      },
+      {
+        "productId": "tungsten-carbide-punches",
+        "blurb": {
+          "zh": "高耐磨、精密公差或涂层要求的工位，可对照钨钢冲头直身、台阶、精密与涂层系列。",
+          "en": "For wear-critical, tight-tolerance or coated stations, compare straight, stepped, precision and coated tungsten carbide lines.",
+          "vi": "Trạm chịu mòn, dung sai chặt hoặc phủ: so dòng hợp kim thẳng, bậc, chính xác và phủ."
+        }
+      }
+    ],
+    "highlights": [
+      {
+        "title": { "zh": "来图来样", "en": "Drawing-based", "vi": "Theo bản vẽ" },
+        "body": {
+          "zh": "CAD / PDF / STEP 或样品确认结构、材料与公差。",
+          "en": "Confirm geometry, material and tolerances from CAD, PDF, STEP or samples.",
+          "vi": "Xác nhận hình học, vật liệu và dung sai từ CAD, PDF, STEP hoặc mẫu."
+        }
+      },
+      {
+        "title": { "zh": "1 件起订", "en": "MOQ from 1 pc", "vi": "MOQ 1 chiếc" },
+        "body": {
+          "zh": "样品与小批量按确认图纸排产。",
+          "en": "Samples and small batches follow the agreed drawing.",
+          "vi": "Mẫu và lô nhỏ theo bản vẽ thống nhất."
+        }
+      },
+      {
+        "title": { "zh": "公差按图", "en": "Tolerance per drawing", "vi": "Dung sai theo bản vẽ" },
+        "body": {
+          "zh": "关键尺寸与配合以图纸为准，出货前检验。",
+          "en": "Critical fits follow your drawing with pre-shipment inspection.",
+          "vi": "Lắp ghép chính theo bản vẽ, kiểm tra trước giao."
+        }
+      },
+      {
+        "title": { "zh": "材料可选", "en": "Grade options", "vi": "Nhiều mác" },
+        "body": {
+          "zh": "硬质合金、高速钢与工具钢按工况组合评估。",
+          "en": "Carbide, HSS and tool steels assessed for your duty.",
+          "vi": "Carbide, HSS và thép dụng cụ theo điều kiện."
+        }
+      }
+    ],
+    "applicationArea": {
+      "zh": "精密冲压与连续模生产中，当刃口磨损影响批次一致性时，硬质合金冲头常用于冲孔、落料及耐磨工位。汽车、电子连接器与精密五金等行业可按材料厚度与产量评估是否采用硬质合金工作端。",
+      "en": "In precision and progressive stamping, carbide punches are used for piercing, blanking and wear-critical stations when edge wear affects batch consistency. Automotive, connector and precision hardware applications are evaluated against material thickness and volume.",
+      "vi": "Trong dập chính xác và liên hoàn, chày carbide dùng cho đột, cắt và trạm mòn cao khi mòn lưỡi ảnh hưởng đồng nhất lô. Ô tô, đầu nối và cơ khí chính xác được đánh giá theo độ dày và sản lượng."
+    },
+    "applicationScenario": {
+      "zh": "被加工材料硬度较高、连续高速冲压或重磨周期受限时，可优先核对硬质合金牌号、刃口支撑与凹模间隙。制作冲模与修模替换件时，应同时确认安装接口、导向条件与是否需要涂层或精磨方案。",
+      "en": "For hard work materials, high-speed repetitive stamping or limited regrind windows, review carbide grade, edge support and die clearance together. For new or replacement tooling, confirm mounting interfaces, guidance and any grinding or coating requirements.",
+      "vi": "Với phôi cứng, dập tốc độ cao hoặc ít thời gian mài lại, kiểm tra mác carbide, đỡ lưỡi và khe hở cối. Khi làm mới hoặc thay dụng cụ, xác nhận giao diện lắp, dẫn hướng và mài/phủ."
+    },
+    "materialLead": {
+      "zh": "按冲压工况定制冲头材料，兼顾耐磨、硬度、韧性与产量。工程师可协助为不同冲孔应用选型。",
+      "en": "Punch materials are tailored to stamping duty—wear, hardness, toughness and volume—with engineering support for your application.",
+      "vi": "Vật liệu chày theo điều kiện dập—mòn, cứng, dai và sản lượng—có hỗ trợ kỹ thuật chọn mác."
+    },
+    "surfaceLead": {
+      "zh": "按您的要求提供多种表面处理，如热处理、抛光、TiN/TiAlN 涂层、渗氮等，以匹配寿命与脱料需求。",
+      "en": "Surface options include heat treat, polish, TiN/TiAlN, nitriding and more to match life and strip requirements.",
+      "vi": "Xử lý bề mặt gồm nhiệt luyện, đánh bóng, phủ TiN/TiAlN, nitơ hóa… theo tuổi thọ và thoát liệu."
+    },
+    "gradeOptions": [
+      "Tungsten carbide",
+      "SKH51",
+      "M2",
+      "ASP23",
+      "ASP60",
+      "SKD11",
+      "D2",
+      "Cr12MoV",
+      "SKD61",
+      "H13"
+    ],
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "硬质合金冲头最小可加工直径大概多少？",
+          "en": "What minimum punch diameters can be quoted?",
+          "vi": "Đường kính chày tối thiểu có thể báo?"
+        },
+        "a": {
+          "zh": "取决于工作段长度、材料、刃口形式与是否需要导向。请提供直径、总长、料厚及公差要求，我们按图纸评估可制造性。",
+          "en": "It depends on tip length, material, edge form and guidance needs. Share diameter, overall length, stock thickness and tolerances for a feasibility review.",
+          "vi": "Phụ thuộc chiều dài đầu, vật liệu, hình lưỡi và dẫn hướng. Gửi đường kính, tổng dài, dày phôi và dung sai để đánh giá."
+        }
+      },
+      {
+        "q": {
+          "zh": "硬质合金与高速钢冲头如何取舍？",
+          "en": "How do we choose between carbide and HSS punches?",
+          "vi": "Chọn carbide hay HSS thế nào?"
+        },
+        "a": {
+          "zh": "一般从耐磨、抗崩刃、被冲材料、冲击与重磨频率综合比较。高耐磨连续工位常评估硬质合金；需要更高韧性或频繁重磨时评估高速钢牌号。",
+          "en": "Compare wear, chipping resistance, work material, impact and regrind frequency. Wear-heavy continuous stations often lead to carbide; tougher or frequently reground duties may favor HSS grades.",
+          "vi": "So mòn, chống sứt, phôi, va đập và tần suất mài lại. Trạm mòn cao thường xét carbide; cần dai hoặc mài nhiều có thể chọn HSS."
+        }
+      },
+      {
+        "q": {
+          "zh": "能否按现有冲头 1:1 复制？",
+          "en": "Can you replicate an existing punch exactly?",
+          "vi": "Có sao chép chày hiện có 1:1 không?"
+        },
+        "a": {
+          "zh": "可以。提供图纸最准确；仅有样品时可测绘复制，并确认配合间隙、材料与表面处理是否与现用条件一致。",
+          "en": "Yes. Drawings are preferred; from samples we can measure and replicate, confirming clearance, material and surface treatment against your current conditions.",
+          "vi": "Có. Bản vẽ là tốt nhất; từ mẫu có thể đo và sao chép, xác nhận khe hở, vật liệu và xử lý bề mặt."
+        }
+      },
+      {
+        "q": {
+          "zh": "公差如何确认？",
+          "en": "How are tolerances agreed?",
+          "vi": "Dung sai được thống nhất thế nào?"
+        },
+        "a": {
+          "zh": "以确认图纸为准。关键配合尺寸、刃口相关尺寸与形位要求请在询价时标注； tighter 公差会影响工艺路线与交期。",
+          "en": "Tolerances follow the agreed drawing. Mark critical fits, tip-related dimensions and form requirements in your inquiry; tighter limits may change process routing and lead time.",
+          "vi": "Theo bản vẽ thống nhất. Ghi rõ lắp ghép, kích thước liên quan lưỡi và yêu cầu hình dạng; dung sai chặt hơn có thể đổi quy trình và lead time."
+        }
+      }
+    ]
+  },
+  "hss-punches": {
+    "highlights": [
+      {
+        "title": { "zh": "工程售后", "en": "Engineering support", "vi": "Hỗ trợ kỹ thuật" },
+        "body": { "zh": "专业团队协助选型与售后问题跟进。", "en": "Specialist team for selection and after-sales follow-up.", "vi": "Đội ngũ hỗ trợ lựa chọn và hậu mãi." }
+      },
+      {
+        "title": { "zh": "质量责任清晰", "en": "Clear QA ownership", "vi": "Trách nhiệm chất lượng" },
+        "body": { "zh": "质量问题可追溯并有明确处理机制。", "en": "Quality issues are traceable with defined resolution.", "vi": "Vấn đề chất lượng có truy vết và xử lý rõ." }
+      },
+      {
+        "title": { "zh": "快速响应", "en": "Rapid response", "vi": "Phản hồi nhanh" },
+        "body": { "zh": "尽量缩短停线等待时间。", "en": "Aim to reduce downtime waiting on tooling.", "vi": "Giảm thời gian chờ dụng cụ." }
+      },
+      {
+        "title": { "zh": "出货全检", "en": "Pre-shipment inspection", "vi": "Kiểm tra trước giao" },
+        "body": { "zh": "出厂前检验关键尺寸与外观。", "en": "Critical dimensions and appearance checked before dispatch.", "vi": "Kiểm tra kích thước và ngoại quan trước giao." }
+      }
+    ]
+  },
+  "stepped-punches": {
+    "highlights": [
+      {
+        "title": { "zh": "耐磨", "en": "Wear resistance", "vi": "Chống mòn" },
+        "body": { "zh": "台阶结构适配多级缩径与耐磨工位。", "en": "Step profiles for multi-diameter wear-critical stations.", "vi": "Hình bậc cho trạm mòn cao." }
+      },
+      {
+        "title": { "zh": "成本可控", "en": "Cost-effective", "vi": "Hiệu quả chi phí" },
+        "body": { "zh": "按图纸组合材料与结构，避免过度设计。", "en": "Material and geometry matched to drawing without over-spec.", "vi": "Vật liệu và hình học theo bản vẽ." }
+      },
+      {
+        "title": { "zh": "维护周期", "en": "Maintenance", "vi": "Bảo trì" },
+        "body": { "zh": "可评估重磨方案与备用件策略。", "en": "Regrind and spare strategies can be planned.", "vi": "Có thể lập kế hoạch mài và dự phòng." }
+      },
+      {
+        "title": { "zh": "效率", "en": "Efficiency", "vi": "Hiệu suất" },
+        "body": { "zh": "适配连续模与多工位节拍要求。", "en": "Suited to progressive and multi-station cycles.", "vi": "Phù hợp khuôn liên hoàn và đa trạm." }
+      }
+    ]
+  },
+  "stamping-die-punches": {
+    "hideConfigurations": true,
+    "highlights": [
+      {
+        "title": { "zh": "来图定制", "en": "Custom-made", "vi": "Theo bản vẽ" },
+        "body": { "zh": "冲压模冲头按模具结构单独确认。", "en": "Die punches confirmed per tool structure.", "vi": "Chày khuôn dập theo cấu trúc khuôn." }
+      },
+      {
+        "title": { "zh": "长寿命", "en": "Long life", "vi": "Tuổi thọ" },
+        "body": { "zh": "材料与热处理按工况组合评估。", "en": "Material and heat treat matched to duty.", "vi": "Vật liệu và nhiệt luyện theo điều kiện." }
+      },
+      {
+        "title": { "zh": "精度控制", "en": "Precision", "vi": "Độ chính xác" },
+        "body": { "zh": "关键配合尺寸以图纸为准。", "en": "Critical fits follow your drawing.", "vi": "Lắp ghép chính theo bản vẽ." }
+      },
+      {
+        "title": { "zh": "小批量", "en": "Low MOQ", "vi": "MOQ thấp" },
+        "body": { "zh": "样品与修模替换件可小批量排产。", "en": "Samples and replacement inserts in small batches.", "vi": "Mẫu và thay thế lô nhỏ." }
+      }
+    ]
+  },
+  "tableting-punches": {
+    "highlights": [
+      {
+        "title": { "zh": "精密加工", "en": "Precision machining", "vi": "Gia công chính xác" },
+        "body": { "zh": "片形轮廓与冲模配合按标准或图纸。", "en": "Cup profiles and die mates per standard or drawing.", "vi": "Hình viên và cối theo tiêu chuẩn hoặc bản vẽ." }
+      },
+      {
+        "title": { "zh": "耐磨", "en": "Wear resistance", "vi": "Chống mòn" },
+        "body": { "zh": "高产量压片工况评估材料与涂层。", "en": "Grades and coatings for high-volume tableting.", "vi": "Mác và phủ cho ép viên công suất cao." }
+      },
+      {
+        "title": { "zh": "片形多样", "en": "Shape variety", "vi": "Đa dạng hình" },
+        "body": { "zh": "标准片形与定制轮廓均可询价。", "en": "Standard and custom cup shapes on inquiry.", "vi": "Hình viên chuẩn và tùy chỉnh." }
+      },
+      {
+        "title": { "zh": "防粘涂层", "en": "Anti-stick coating", "vi": "Lớp chống dính" },
+        "body": { "zh": "可按粉体特性评估表面处理。", "en": "Surface options assessed for powder behavior.", "vi": "Xử lý bề mặt theo đặc tính bột." }
+      }
+    ]
+  },
+  "tungsten-carbide-punches": {
+    "highlights": [
+      {
+        "title": { "zh": "定制制造", "en": "Custom manufacturing", "vi": "Sản xuất tùy chỉnh" },
+        "body": { "zh": "直身、台阶、精密与涂层系列按图生产。", "en": "Straight, stepped, precision and coated lines to drawing.", "vi": "Thẳng, bậc, chính xác và phủ theo bản vẽ." }
+      },
+      {
+        "title": { "zh": "质量控制", "en": "Quality control", "vi": "Kiểm soát chất lượng" },
+        "body": { "zh": "关键尺寸检验后出货。", "en": "Critical dimensions inspected before dispatch.", "vi": "Kiểm tra kích thước chính trước giao." }
+      },
+      {
+        "title": { "zh": "交期", "en": "Turnaround", "vi": "Lead time" },
+        "body": { "zh": "样品与批量交期按工艺确认。", "en": "Sample and batch lead times confirmed per process.", "vi": "Lead time mẫu và lô theo quy trình." }
+      },
+      {
+        "title": { "zh": "耐用材料", "en": "Durable grades", "vi": "Mác bền" },
+        "body": { "zh": "钨钢牌号与涂层按工况选择。", "en": "Carbide grades and coatings for your duty.", "vi": "Mác carbide và phủ theo điều kiện." }
+      }
+    ]
+  }
+}

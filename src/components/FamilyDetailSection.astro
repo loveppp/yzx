@@ -1,0 +1,36 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  lead?: string;
+  tone?: 'default' | 'soft';
+  dataSection?: string;
+  /** inline：标题由子块（如 PunchStorySplit）与正文同列展示 */
+  titlePlacement?: 'section' | 'inline';
+}
+const {id, title, lead, tone = 'default', dataSection, titlePlacement = 'section'} = Astro.props;
+const titleInline = titlePlacement === 'inline';
+---
+
+<section
+  id={id}
+  class:list={[
+    'punch-section scroll-mt-28',
+    tone === 'soft' && 'punch-section--soft',
+    titleInline && 'punch-section--title-inline',
+  ]}
+  data-family-section={dataSection}
+>
+  {
+    !titleInline && (
+      <header class="punch-section__head">
+        <span class="punch-section__accent" aria-hidden="true" />
+        <h2 class="text-2xl md:text-3xl">{title}</h2>
+        {lead && <p class="mt-3 max-w-3xl text-base leading-relaxed text-slate-600">{lead}</p>}
+      </header>
+    )
+  }
+  <div class="punch-section__body">
+    <slot />
+  </div>
+</section>

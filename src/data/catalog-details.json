@@ -14,9 +14,9 @@
           "vi": "Chày thân trụ loại A"
         },
         "description": {
-          "zh": "较粗支撑杆过渡到较细的圆形工作段，保留明确的缩径台阶。可按安装要求选择圆杆或带定位削边的款式；肩部与削边位置按图纸确认。",
-          "en": "A larger support shank transitions to a smaller round working section with a defined step. Plain-shank and locating-flat styles are selected for the mounting requirements; shoulder and flat positions are confirmed from the drawing.",
-          "vi": "Thân đỡ lớn chuyển sang đầu làm việc tròn nhỏ hơn với bậc rõ ràng. Chọn thân tròn hoặc có mặt phẳng định vị theo yêu cầu lắp; xác nhận vị trí vai và mặt phẳng theo bản vẽ."
+          "zh": "主要用于圆形冲孔，标准规格可按常备库存或图纸定制。",
+          "en": "Primarily used for punching round holes; standard sizes from stock or to your drawing.",
+          "vi": "Chủ yếu đột lỗ tròn; kích thước chuẩn từ kho hoặc theo bản vẽ."
         },
         "parameters": {
           "zh": "刃径、杆径、工作段长度、台阶圆角与头部尺寸",
@@ -32,9 +32,9 @@
           "vi": "Chày thân trụ loại T"
         },
         "description": {
-          "zh": "正常比例的安装头与直身杆部形成一个肩位；杆部至圆形工作端不再缩径。头径、头厚、杆径和长度按安装图纸确认。",
-          "en": "A normally proportioned retaining head forms one shoulder with a straight shank; the shank continues to the round working end without a further diameter reduction. Confirm head diameter, thickness, shank diameter and length against the mounting drawing.",
-          "vi": "Mũ giữ cân đối tạo một vai với thân thẳng; thân kéo dài đến đầu tròn, không giảm đường kính thêm. Xác nhận đường kính mũ, chiều dày, đường kính thân và chiều dài theo bản vẽ lắp."
+          "zh": "主要用于圆形冲孔，带安装头的 T 型结构，尺寸按图纸确认。",
+          "en": "Primarily used for punching round holes with a Type T retaining head; dimensions per drawing.",
+          "vi": "Đột lỗ tròn với mũ giữ loại T; kích thước theo bản vẽ."
         },
         "parameters": {
           "zh": "头径、头厚、安装孔与承靠面",
@@ -50,9 +50,9 @@
           "vi": "Chày thẳng biên dạng tùy chỉnh"
         },
         "description": {
-          "zh": "按目标孔型定义刃口，非圆形工作端同时需要防转定位。",
-          "en": "Define the cutting edge from the required hole; non-round tips also need rotational orientation.",
-          "vi": "Xác định lưỡi theo hình lỗ; đầu không tròn cần định hướng chống xoay."
+          "zh": "按您提供的图纸、材料与工艺要求定制异形直身冲针。",
+          "en": "Custom special-shaped straight punches based on your drawings, materials and process requirements.",
+          "vi": "Chày thẳng biên dạng tùy chỉnh theo bản vẽ, vật liệu và quy trình."
         },
         "parameters": {
           "zh": "轮廓图、内外角 R 与防转基准",
@@ -68,9 +68,9 @@
           "vi": "Chày cắt"
         },
         "description": {
-          "zh": "切断刃与精密小孔分别按受力和尺寸要求定义，不把“精密”当成固定公差承诺。",
-          "en": "Define cut-off edges and precision piercing by load and dimensional requirements; precision is not a fixed tolerance claim.",
-          "vi": "Xác định lưỡi cắt và đột lỗ theo lực và kích thước; độ chính xác không phải cam kết dung sai cố định."
+          "zh": "用于分离或切断材料。",
+          "en": "For separating or cutting the material.",
+          "vi": "Dùng để tách hoặc cắt phôi."
         },
         "parameters": {
           "zh": "料厚、材料、间隙、关键公差",
@@ -86,9 +86,9 @@
           "vi": "Chày chính xác"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Precision punch」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Precision punch”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Precision punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "用于精密外形与较高公差要求的冲孔工位。",
+          "en": "For precision shapes and tight tolerance requirements.",
+          "vi": "Cho hình dạng chính xác và dung sai chặt."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -104,9 +104,9 @@
           "vi": "Chày lục giác"
         },
         "description": {
-          "zh": "用于六角孔型；对边尺寸、角部与刃口长度决定实际工作轮廓。",
-          "en": "For hexagonal holes; across-flats size, corners and tip length define the working geometry.",
-          "vi": "Dùng cho lỗ lục giác; kích thước đối diện, góc và chiều dài đầu quyết định hình học."
+          "zh": "用于六角孔成形。",
+          "en": "Used for hexagonal-shaped holes.",
+          "vi": "Dùng cho lỗ lục giác."
         },
         "parameters": {
           "zh": "对边尺寸、角部 R、有效刃长",
@@ -122,9 +122,9 @@
           "vi": "Chày dẫn / chày pilot"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Guide / pilot punch」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Guide / pilot punch”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Guide / pilot punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "用于最终冲裁前建立导正孔。",
+          "en": "Used to create guide holes before the final stamping.",
+          "vi": "Tạo lỗ dẫn trước công đoạn dập cuối."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -140,9 +140,9 @@
           "vi": "Chày oval"
         },
         "description": {
-          "zh": "椭圆与直边加半圆的长圆不是同一轮廓，需用图纸明确。",
-          "en": "An ellipse differs from a straight-sided obround; define the exact outline in the drawing.",
-          "vi": "Ellipse khác với dạng cạnh thẳng hai đầu bán nguyệt; cần bản vẽ chính xác."
+          "zh": "用于椭圆或长圆孔成形。",
+          "en": "Used for oval or obround hole shapes.",
+          "vi": "Dùng cho lỗ oval hoặc thuôn."
         },
         "parameters": {
           "zh": "长短轴或槽宽、端部半径与方向",
@@ -167,9 +167,9 @@
           "vi": "Chày HSS có đẩy phế"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Ejector HSS punch」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Ejector HSS punch”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Ejector HSS punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "带退料结构的 HSS 冲头，适用于需要顶出废料的冲孔工位。",
+          "en": "HSS ejector punch for stations that need to strip slug or scrap.",
+          "vi": "Chày HSS có đẩy phế cho trạm cần thoát phế liệu."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -185,9 +185,9 @@
           "vi": "Chày HSS dẹt"
         },
         "description": {
-          "zh": "窄槽与矩形孔需兼顾薄刃支撑、长边直线度和安装方向。",
-          "en": "Slots and rectangular holes require blade support, straight long edges and controlled orientation.",
-          "vi": "Rãnh và lỗ chữ nhật cần đỡ lưỡi, cạnh thẳng và hướng lắp."
+          "zh": "扁形工作端的 HSS 冲头，按图纸确认轮廓与安装方式。",
+          "en": "Flat-profile HSS punch; confirm geometry and mounting from your drawing.",
+          "vi": "Chày HSS mặt dẹt; xác nhận hình học và lắp theo bản vẽ."
         },
         "parameters": {
           "zh": "宽度、厚度、角 R、支撑长度",
@@ -203,9 +203,9 @@
           "vi": "Chày HSS vuông"
         },
         "description": {
-          "zh": "四边刃口用于方孔；角部半径需与凹模和产品要求匹配。",
-          "en": "Four cutting edges form square holes; match corner radii to the die and part requirements.",
-          "vi": "Bốn cạnh tạo lỗ vuông; bán kính góc phải khớp cối và chi tiết."
+          "zh": "方形孔冲裁用 HSS 冲头。",
+          "en": "HSS punch for square hole piercing.",
+          "vi": "Chày HSS cho lỗ vuông."
         },
         "parameters": {
           "zh": "边长、角部 R、防转位置",
@@ -221,9 +221,9 @@
           "vi": "Chày HSS chữ nhật"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Rectangular HSS punch」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Rectangular HSS punch”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Rectangular HSS punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "矩形孔冲裁用 HSS 冲头。",
+          "en": "HSS punch for rectangular hole piercing.",
+          "vi": "Chày HSS cho lỗ chữ nhật."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -239,9 +239,9 @@
           "vi": "Chày HSS bậc"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Step HSS punch」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Step HSS punch”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Step HSS punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "台阶结构 HSS 冲头，用于多直径或安装定位需求。",
+          "en": "Stepped HSS punch for multi-diameter or mounting requirements.",
+          "vi": "Chày HSS bậc cho nhiều đường kính hoặc lắp đặt."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -257,9 +257,9 @@
           "vi": "Chày HSS biên dạng đặc biệt"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Special-shaped HSS punch」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Special-shaped HSS punch”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Special-shaped HSS punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "异形 HSS 冲头，按图纸定制。",
+          "en": "Special-shaped HSS punch made to your drawing.",
+          "vi": "Chày HSS biên dạng đặc biệt theo bản vẽ."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -275,9 +275,9 @@
           "vi": "Chày HSS tròn"
         },
         "description": {
-          "zh": "圆孔冲裁可配不同安装头；圆形工作端不自动代表某一种 T 型标准。",
-          "en": "Round-hole piercing with alternative heads; a round tip alone does not establish a T-type standard.",
-          "vi": "Đột lỗ tròn với nhiều kiểu mũ; đầu tròn không tự xác định tiêu chuẩn loại T."
+          "zh": "圆形工作端 HSS 冲头，常用于标准圆孔冲裁。",
+          "en": "Round-tip HSS punch for standard round hole piercing.",
+          "vi": "Chày HSS đầu tròn cho đột lỗ tròn."
         },
         "parameters": {
           "zh": "刃径、刃长、头型",
@@ -293,9 +293,9 @@
           "vi": "Chày HSS dẫn hướng"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Guide HSS punch」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Guide HSS punch”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Guide HSS punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "引导式 HSS 冲头，用于送料或导正相关工位。",
+          "en": "Guide HSS punch for feed or alignment-related stations.",
+          "vi": "Chày HSS dẫn cho trạm cấp liệu hoặc căn chỉnh."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -320,9 +320,9 @@
           "vi": "Chày bậc biên dạng đặc biệt"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Special-shaped stepped punches」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Special-shaped stepped punches”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Special-shaped stepped punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "异形台阶冲头，按图纸确认各段直径与刃口。",
+          "en": "Special-shaped stepped punches per your drawing.",
+          "vi": "Chày bậc biên dạng theo bản vẽ."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -338,9 +338,9 @@
           "vi": "Chày bậc tròn"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Stepped round punches」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Stepped round punches”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Stepped round punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "台阶圆冲，适用于缩径圆孔工位。",
+          "en": "Stepped round punches for stepped round hole applications.",
+          "vi": "Chày bậc tròn cho lỗ bậc tròn."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -356,9 +356,9 @@
           "vi": "Chày bậc vuông"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Stepped square punches」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Stepped square punches”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Stepped square punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "台阶方冲，适用于方孔及台阶安装需求。",
+          "en": "Stepped square punches for square-hole and mounting needs.",
+          "vi": "Chày bậc vuông cho lỗ vuông và lắp đặt."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -374,9 +374,9 @@
           "vi": "Chày bậc nhiều đường kính"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Multi-diameter step punches」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Multi-diameter step punches”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Multi-diameter step punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "多级缩径台阶冲头，按图纸定义各段尺寸。",
+          "en": "Multi-diameter step punches with segments defined on your drawing.",
+          "vi": "Chày bậc nhiều đường kính theo bản vẽ."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -392,9 +392,9 @@
           "vi": "Chày bậc tùy chỉnh theo bản vẽ"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Custom-shaped stepped punches」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Custom-shaped stepped punches”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Custom-shaped stepped punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "来图定制台阶冲头，材料与表面处理按工况确认。",
+          "en": "Custom-shaped stepped punches; material and finish per your duty.",
+          "vi": "Chày bậc tùy chỉnh; vật liệu và xử lý theo điều kiện."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -419,9 +419,9 @@
           "vi": "Chày khuôn dập tùy chỉnh"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Custom stamping die punches」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Custom stamping die punches”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Custom stamping die punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "按冲压工位图纸定制冲头，核对凹模间隙与材料。",
+          "en": "Custom stamping die punches per station drawing; verify clearance and material.",
+          "vi": "Chày khuôn dập tùy chỉnh; kiểm tra khe hở và vật liệu."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -437,9 +437,9 @@
           "vi": "Vật liệu chày khuôn dập"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Materials for stamping die punches」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Materials for stamping die punches”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Materials for stamping die punches”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "冲压模冲头可选材料说明，按工况选择牌号与热处理。",
+          "en": "Material options for stamping die punches selected for your process.",
+          "vi": "Lựa chọn vật liệu chày khuôn dập theo quy trình."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -455,9 +455,9 @@
           "vi": "Dòng chày khuôn dập"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Stamping die punch range」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Stamping die punch range”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Stamping die punch range”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "冲压模冲头系列概览，具体规格来图确认。",
+          "en": "Overview of stamping die punch range; specify details on inquiry.",
+          "vi": "Tổng quan dòng chày khuôn dập; chi tiết khi yêu cầu."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -482,9 +482,9 @@
           "vi": "Hình viên và biên dạng chày tùy chỉnh"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Custom tablet shapes & punch profiles」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Custom tablet shapes & punch profiles”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Custom tablet shapes & punch profiles”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "定制片形与冲模轮廓，按压片机与粉料特性确认。",
+          "en": "Custom tablet shapes and punch profiles for your press and powder.",
+          "vi": "Hình viên và biên dạng chày theo máy và bột."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -500,9 +500,9 @@
           "vi": "Chày cối khắc chữ tùy chỉnh"
         },
         "description": {
-          "zh": "按可加工的字形、深度和脱模方向确认冲面标识。",
-          "en": "Confirm markings by machinable artwork, depth and release direction.",
-          "vi": "Xác nhận dấu theo mẫu gia công được, độ sâu và hướng tháo."
+          "zh": "刻字与标识冲模，确认读向与字符深度。",
+          "en": "Engraved punches and dies; confirm reading direction and depth.",
+          "vi": "Chày cối khắc chữ; xác nhận hướng đọc và độ sâu."
         },
         "parameters": {
           "zh": "矢量图、刻深、线宽与位置",
@@ -518,9 +518,9 @@
           "vi": "Dụng cụ viên đa đầu"
         },
         "description": {
-          "zh": "多冲尖需成组对应中模孔，并验证压机空间、载荷及防转结构。",
-          "en": "Multiple tips need matching die bores and checks on press space, load and orientation.",
-          "vi": "Nhiều đầu cần lỗ cối tương ứng và kiểm tra không gian máy, tải và hướng."
+          "zh": "多冲尖压片工装，按产量与片形布局设计。",
+          "en": "Multi-tip tooling designed for your output and tablet layout.",
+          "vi": "Dụng cụ đa đầu theo năng suất và bố cục viên."
         },
         "parameters": {
           "zh": "压机型号、冲尖数量、孔距、接口",
@@ -536,9 +536,9 @@
           "vi": "Dụng cụ theo máy ép"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Press-specific custom tooling」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Press-specific custom tooling”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Press-specific custom tooling”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "压机专用定制工装，按机型接口与片形要求制造。",
+          "en": "Press-specific tooling built to machine interface and tablet spec.",
+          "vi": "Dụng cụ theo máy ép và quy cách viên."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -1904,9 +1904,9 @@
           "vi": "Chày hợp kim thẳng"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Straight tungsten carbide punch」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Straight tungsten carbide punch”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Straight tungsten carbide punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "直身钨钢冲头，适用于高耐磨圆孔或标准冲裁工位。",
+          "en": "Straight tungsten carbide punch for wear-critical round piercing.",
+          "vi": "Chày hợp kim thẳng cho đột tròn chịu mòn."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -1922,9 +1922,9 @@
           "vi": "Chày hợp kim bậc"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Step tungsten carbide punch」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Step tungsten carbide punch”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Step tungsten carbide punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "台阶钨钢冲头，按图纸定义缩径与刃口。",
+          "en": "Stepped tungsten carbide punch with steps per drawing.",
+          "vi": "Chày hợp kim bậc theo bản vẽ."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -1940,9 +1940,9 @@
           "vi": "Chày hợp kim chính xác"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Precision tungsten carbide punch」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Precision tungsten carbide punch”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Precision tungsten carbide punch”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "精密钨钢冲头，用于公差要求较高的工位。",
+          "en": "Precision tungsten carbide punch for tighter tolerance stations.",
+          "vi": "Chày hợp kim chính xác cho dung sai chặt."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",
@@ -1958,9 +1958,9 @@
           "vi": "Dòng chày có lớp phủ"
         },
         "description": {
-          "zh": "与 HTX 产品分类「Coated punch series」对应，具体尺寸、材料与安装形式以图纸确认。",
-          "en": "Matches the HTX product category “Coated punch series”. Confirm dimensions, material and mounting from your drawing.",
-          "vi": "Tương ứng danh mục HTX “Coated punch series”. Xác nhận kích thước, vật liệu và lắp ghép theo bản vẽ."
+          "zh": "涂层冲头系列，按基体、材料与温度评估 PVD 等方案。",
+          "en": "Coated punch series; evaluate PVD options for substrate and duty.",
+          "vi": "Dòng chày phủ; đánh giá PVD theo nền và điều kiện."
         },
         "parameters": {
           "zh": "工作端轮廓、杆径、总长、公差与材料",

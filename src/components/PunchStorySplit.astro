@@ -1,0 +1,168 @@
+---
+interface Props {
+  imageSrc?: string;
+  imageAlt: string;
+  reverse?: boolean;
+  /** scene = 4:3 场景图；chart = 横向信息图，列宽偏图 */
+  media?: 'scene' | 'chart';
+  /** chart 放大（如表面处理信息图，比材料节略大） */
+  chartSize?: 'default' | 'large';
+  /** 与正文同列的区块标题 */
+  title?: string;
+  /** 预填询价表单：`系列名 · 区块名` */
+  quoteProduct?: string;
+  quoteLabel?: string;
+}
+
+const {
+  imageSrc,
+  imageAlt,
+  reverse = false,
+  media = 'scene',
+  chartSize = 'default',
+  title,
+  quoteProduct,
+  quoteLabel,
+} = Astro.props;
+---
+
+<div
+  class:list={[
+    'punch-split',
+    media === 'scene' ? 'punch-split--scene' : 'punch-split--chart',
+    media === 'chart' && chartSize === 'large' && 'punch-split--chart-lg',
+    reverse && 'punch-split--reverse',
+    !imageSrc && 'punch-split--copy-only',
+  ]}
+>
+  <div class="punch-split__copy">
+    {
+      title && (
+        <>
+          <span class="punch-split__accent" aria-hidden="true" />
+          <h2 class="text-2xl md:text-3xl">{title}</h2>
+        </>
+      )
+    }
+    <slot />
+    {
+      quoteProduct && quoteLabel && (
+        <a
+          href="#quote"
+          data-quote-product={quoteProduct}
+          class="punch-split__inquiry mt-5 inline-flex min-h-11 items-center text-sm font-medium text-borui-navy underline underline-offset-4 hover:text-borui-brass"
+        >
+          {quoteLabel} →
+        </a>
+      )
+    }
+  </div>
+  {
+    imageSrc && (
+      <figure
+        class:list={[
+          'punch-split__figure',
+          media === 'chart' && 'punch-split__figure--chart',
+          media === 'chart' && chartSize === 'large' && 'punch-split__figure--chart-lg',
+        ]}
+      >
+        <img src={imageSrc} alt={imageAlt} width="640" height="512" loading="lazy" decoding="async" />
+      </figure>
+    )
+  }
+</div>
+
+<style is:global>
+  .punch-split {
+    display: grid;
+    gap: 1.5rem;
+    /* 文案列（标题+正文+询价）相对配图列高度垂直居中 */
+    align-items: center;
+  }
+  @media (min-width: 768px) {
+    .punch-split {
+      grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
+      gap: 2rem 2.75rem;
+    }
+    .punch-split--reverse {
+      grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+    }
+    .punch-split--reverse .punch-split__figure {
+      order: -1;
+    }
+    .punch-split--chart {
+      grid-template-columns: minmax(0, 0.88fr) minmax(0, 1.12fr);
+    }
+    .punch-split--chart.punch-split--reverse {
+      grid-template-columns: minmax(0, 1.12fr) minmax(0, 0.88fr);
+    }
+    .punch-split--chart-lg {
+      grid-template-columns: minmax(0, 0.76fr) minmax(0, 1.24fr);
+    }
+    .punch-split--chart-lg.punch-split--reverse {
+      grid-template-columns: minmax(0, 1.24fr) minmax(0, 0.76fr);
+    }
+  }
+
+  .punch-split__accent {
+    display: block;
+    width: 2.25rem;
+    height: 3px;
+    margin-bottom: 0.875rem;
+    background: #b8934a;
+  }
+
+  .punch-split__copy {
+    min-width: 0;
+    max-width: 36rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-self: center;
+  }
+
+  .punch-split__figure {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+  }
+  .punch-split--scene .punch-split__figure {
+    aspect-ratio: 4 / 3;
+  }
+  .punch-split__figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    object-fit: contain;
+    object-position: center;
+  }
+  .punch-split--scene .punch-split__figure img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .punch-split__figure--chart {
+    display: block;
+  }
+  .punch-split__figure--chart img {
+    max-height: min(24rem, 55vh);
+  }
+  .punch-split__figure--chart-lg img {
+    max-height: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .punch-section__follow {
+    margin-top: 2.25rem;
+    padding-top: 2.25rem;
+    border-top: 1px dashed rgb(19 35 51 / 0.1);
+  }
+</style>

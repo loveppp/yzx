@@ -1,0 +1,76 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  variant?: 'wide' | 'tile' | 'panel';
+}
+const {src, alt, variant = 'wide'} = Astro.props;
+---
+
+<figure class:list={['family-infographic', `family-infographic--${variant}`]}>
+  <img src={src} alt={alt} width="1200" height="675" loading="lazy" class="family-infographic__img" />
+</figure>
+
+<style>
+  .family-infographic {
+    margin: 0;
+  }
+  .family-infographic__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .family-infographic--wide {
+    width: 100%;
+  }
+  .family-infographic--panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 10.5rem;
+    margin: 0;
+    padding: 1rem 1.25rem;
+    border: 1px solid rgb(15 23 42 / 0.1);
+    border-radius: 3px;
+    background: linear-gradient(180deg, #f8f9fb 0%, #f0f3f6 100%);
+    box-shadow: 0 1px 0 rgb(255 255 255 / 0.6) inset;
+  }
+  @media (min-width: 768px) {
+    .family-infographic--panel {
+      min-height: 13rem;
+      padding: 1.25rem 1.5rem;
+    }
+  }
+  .family-infographic--panel .family-infographic__img {
+    width: 100%;
+    height: auto;
+    max-height: 14rem;
+    object-fit: contain;
+  }
+  @media (min-width: 768px) {
+    .family-infographic--panel .family-infographic__img {
+      max-height: 17.5rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .family-infographic--panel .family-infographic__img {
+      max-height: 20rem;
+    }
+  }
+  .family-infographic--tile {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem;
+    border: 1px solid rgb(15 23 42 / 0.08);
+    background: #fff;
+  }
+  .family-infographic--tile .family-infographic__img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+  }
+</style>

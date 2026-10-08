@@ -1,0 +1,96 @@
+{
+  "carbide-punches": {
+    "sourceDirs": ["output/htx-sources/punch-components/carbide-punches"],
+    "figures": {
+      "applicationArea": "Application-Areas-for-The-Carbide-Punch",
+      "applicationScenario": "Application-Scenarios-for-The-Carbide-Punch",
+      "materialsFigure": "Materials-You-Can-Choose-for-Your-Carbide-Punch",
+      "surfaceFigure": "Surface-Treatment-for-Carbide-Punch"
+    },
+    "highlightIcons": [
+      "23Years-OEMODM",
+      "1pc-Moq",
+      "2-5-Days-Sample",
+      "3-7-Days-Products"
+    ]
+  },
+  "hss-punches": {
+    "sourceDirs": ["output/htx-sources/punch-components/hss-punches"],
+    "figures": {
+      "applicationsFigure": "Application-for-The-HSS-Punch",
+      "whyBanner": "Why-Choose-HSS-Punch",
+      "applicationArea": "Advantage-of-Our-HSS-Punch"
+    },
+    "highlightIcons": [
+      "Professional-engineering-team",
+      "Clear-accountability-for-quality",
+      "Rapid-response-to-minimize",
+      "100-full-inspection-of-products"
+    ]
+  },
+  "stepped-punches": {
+    "sourceDirs": ["output/htx-sources/punch-components/stepped-punches"],
+    "figures": {
+      "applicationArea": "Stepped-punch-profiles-comparison",
+      "applicationScenario": "Progressive-Die-Stamping",
+      "applicationsFigure": "Metal-Stamping-Precision-Piercing",
+      "whyBanner": "Why-Choose-Our-Stepped-Punch"
+    },
+    "highlightIcons": [
+      "Wear-Resistance",
+      "Cost-Effective",
+      "Reduced-Maintenance",
+      "Enhanced-Efficiency"
+    ]
+  },
+  "stamping-die-punches": {
+    "sourceDirs": ["output/htx-sources/punch-components/stamping-die-punches"],
+    "figures": {
+      "materialsFigure": "Materials-for-Stamping-Die-Punches",
+      "applicationsFigure": "Custom-Stamping-Die-Punches"
+    },
+    "highlightIcons": [
+      "1-Custom-Made",
+      "2-Long-Lifespan",
+      "3-High-Precision-Control",
+      "4-Low-Moq"
+    ]
+  },
+  "tableting-punches": {
+    "sourceDirs": ["output/htx-sources/punch-components/tableting-punches"],
+    "figures": {
+      "applicationsFigure": "pill-punch-dies-tablet-punch-tooling",
+      "applicationArea": "All-Kinds-of-Punch-and-Die",
+      "whyBanner": "Tablet-tooling-Standards-Compatibility"
+    },
+    "highlightIcons": [
+      "Precision-Machining",
+      "Wear-Resistance",
+      "Shape-Variety",
+      "Anti-Adhesion-Coating"
+    ]
+  },
+  "tungsten-carbide-punches": {
+    "sourceDirs": [
+      "output/htx-sources/punch-components/carbide-punches",
+      "output/htx-sources/punch-components/forming-punches"
+    ],
+    "figures": {
+      "applicationArea": "Tungsten-Carbide-Punch-on-Stamping",
+      "processFigure": "Transparent-tungsten-carbide-punch-production-process",
+      "materialsFigure": "Custom-Tungsten-Carbide-Punch-Dies-Manufacturer"
+    },
+    "applicationTiles": [
+      "Application-in-Automotive-Stamping-Parts-for-Tungsten-Carbide-Punch",
+      "Application-in-Electronics-Connectors-Terminals-for-Tungsten-Carbide-Punch",
+      "Application-in-Medical-Precision-Components-for-Tungsten-Carbide-Punch",
+      "Application-in-Hardware-Forming-Fasteners-for-Tungsten-Carbide-Punch"
+    ],
+    "highlightIcons": [
+      "Custom-Manufacturing",
+      "Quality-Control",
+      "Fast-Turnaround",
+      "Durable-Material"
+    ]
+  }
+}

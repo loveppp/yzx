@@ -76,3 +76,23 @@
 | `step` | 台阶钨钢冲头 | `output/htx-sources/punch-components/carbide-punches/source-28-2-Step-punch.png` |
 | `precision` | 精密钨钢冲头 | `output/htx-sources/punch-components/carbide-punches/source-29-3-Precision-punch.png` |
 | `coated` | 涂层冲头系列 | `output/htx-sources/punch-components/carbide-punches/source-30-4-Coated-Punch-Series.png` |
+
+## 冲针详情长内容（IA）
+
+冲针 6 品详情页在「结构与可选配置」（1:1 配置图，不变）之后，由 [`PunchFamilyLongform.astro`](../src/components/PunchFamilyLongform.astro) 按 HTX 阅读顺序渲染：
+
+1. 应用领域 / 应用场景（`PunchStorySplit` 左右分栏 + 交替；文案含立即询价；钨钢含行业 tile）
+2. 材料 / 表面（分栏 + HTX 信息图 `chart`；文案含立即询价）
+3. 品类 FAQ（页内唯一 FAQ；通用 FAQ/选型侧栏在 slug 页对冲针隐藏）
+
+（关联冲压材料、为何选我们两节在冲针长内容模板中已关闭。）
+
+冲针详情 typography：区块 H2 `text-2xl md:text-3xl`；正文统一 `text-base leading-relaxed text-slate-600`；FAQ/牌号标题 `text-base font-medium text-borui-navy`；辅助 `text-xs text-slate-500`。
+
+长内容每段描述末尾：`立即询价`（`configurationInquiry`），`data-quote-product` 为 `系列名 · 区块名`，与配置卡一致写入 `#quote` 表单。
+
+### 长内容版式
+
+冲针长内容使用 [`PunchStorySplit.astro`](../src/components/PunchStorySplit.astro)：桌面端左右分栏；区块 **H2 与正文同列**（`FamilyDetailSection` `titlePlacement="inline"`）；应用 `scene`（4:3），材料 `chart`，表面 `chart` + `chartSize="large"`（图列更宽、不压 `max-height`）；文案列含 **立即询价**。材料节不展示「可选材料牌号（按图纸确认）」折叠块。
+
+HTX 长图发布：`node scripts/htx/publish-family-section-images.mjs` → [`catalog-family-figures.json`](../src/data/catalog-family-figures.json)。映射规则见 [`data/catalog/htx-family-figure-rules.json`](../data/catalog/htx-family-figure-rules.json)。

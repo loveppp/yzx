@@ -1,0 +1,417 @@
+---
+import {catalogText, materialLabel, type CatalogProduct} from '@/data/catalog';
+import {detailUI as ui, type CatalogFamilyDetail} from '@/data/catalog-details';
+import type {FamilyPageExtras} from '@/data/catalog-family-extras';
+import type {FamilyFigures} from '@/data/catalog-family-figures';
+import {materialGuidanceFor, scenarioFor, questionFor, finishesFor} from '@/data/catalog-engineering';
+import type {Locale} from '@/i18n/locales';
+import FamilyDetailSection from './FamilyDetailSection.astro';
+import FamilySectionInquiryLink from './FamilySectionInquiryLink.astro';
+import PunchStorySplit from './PunchStorySplit.astro';
+
+interface Props {
+  product: CatalogProduct;
+  locale: Locale;
+  detail: CatalogFamilyDetail;
+  extras: FamilyPageExtras;
+  figs?: FamilyFigures;
+}
+
+const {product, locale, detail, extras, figs} = Astro.props;
+const tx = (value: Parameters<typeof catalogText>[0]) => catalogText(value, locale);
+const productName = tx(product.name);
+const inquiryLabel = tx(ui.configurationInquiry);
+const quoteFor = (sectionLabel: string) => `${productName} · ${sectionLabel}`;
+const splitApps = Boolean(
+  (extras.applicationArea && extras.applicationScenario) ||
+    (figs?.figures.applicationArea && figs?.figures.applicationScenario),
+);
+
+const faqItems: Array<[string, string]> = [
+  [tx(questionFor(product.id)), tx(detail.note)],
+  [
+    locale === 'zh'
+      ? '询价时需要提供哪些尺寸与工况？'
+      : locale === 'vi'
+        ? 'Cần kích thước và điều kiện nào để báo giá?'
+        : 'Which dimensions and operating details are needed for a quote?',
+    tx(product.selection),
+  ],
+];
+if (extras.extraFaqs) {
+  for (const item of extras.extraFaqs) faqItems.push([tx(item.q), tx(item.a)]);
+}
+
+const materialsPrimary = Boolean(figs?.figures.materialsFigure);
+const surfacePrimary = Boolean(figs?.figures.surfaceFigure);
+
+const appAreaText = extras.applicationArea ? tx(extras.applicationArea) : tx(product.application);
+const appScenarioText = extras.applicationScenario ? tx(extras.applicationScenario) : tx(scenarioFor(product.id));
+const materialText = extras.materialLead ? tx(extras.materialLead) : undefined;
+const surfaceText = extras.surfaceLead ? tx(extras.surfaceLead) : undefined;
+
+const industryLabel = {
+  zh: '典型行业',
+  en: 'Typical industries',
+  vi: 'Ngành điển hình',
+}[locale];
+
+const processSectionLabel =
+  locale === 'zh' ? '制造工艺' : locale === 'vi' ? 'Quy trình sản xuất' : 'Manufacturing process';
+const processBlurb =
+  locale === 'zh' ? '制造工艺示意，具体以确认图纸为准。' : 'Manufacturing overview; final process per agreed drawing.';
+
+/** 与上文图文块交替：双应用节后为 文|图、图|文；单应用节后为 图|文、文|图 */
+const materialsReverse = !splitApps;
+const surfaceReverse = splitApps;
+---
+
+<div class="punch-longform">
+  {
+    splitApps ? (
+      <>
+        <FamilyDetailSection
+          id="application-areas"
+          title={tx(ui.applicationArea)}
+          titlePlacement="inline"
+          dataSection="application-areas"
+        >
+          <PunchStorySplit
+            media="scene"
+            title={tx(ui.applicationArea)}
+            imageSrc={figs?.figures.applicationArea}
+            imageAlt={tx(ui.applicationArea)}
+            quoteProduct={quoteFor(tx(ui.applicationArea))}
+            quoteLabel={inquiryLabel}
+          >
+            <p class="text-base leading-relaxed text-slate-600">{appAreaText}</p>
+          </PunchStorySplit>
+        </FamilyDetailSection>
+        <FamilyDetailSection
+          id="application-scenarios"
+          title={tx(ui.applicationScenario)}
+          titlePlacement="inline"
+          dataSection="application-scenarios"
+        >
+          <PunchStorySplit
+            reverse
+            media="scene"
+            title={tx(ui.applicationScenario)}
+            imageSrc={figs?.figures.applicationScenario ?? figs?.figures.applicationsFigure}
+            imageAlt={tx(ui.applicationScenario)}
+            quoteProduct={quoteFor(tx(ui.applicationScenario))}
+            quoteLabel={inquiryLabel}
+          >
+            <p class="text-base leading-relaxed text-slate-600">{appScenarioText}</p>
+          </PunchStorySplit>
+          {
+            figs?.applicationTiles && figs.applicationTiles.length > 0 && (
+              <div class="punch-industry">
+                <p class="text-xs font-semibold uppercase tracking-wider text-slate-500">{industryLabel}</p>
+                <ul class="punch-industry__grid">
+                  {figs.applicationTiles.map((src) => (
+                    <li>
+                      <figure class="punch-industry__tile">
+                        <img src={src} alt={tx(ui.applicationScenario)} width="320" height="320" loading="lazy" />
+                      </figure>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )
+          }
+        </FamilyDetailSection>
+      </>
+    ) : (
+      <FamilyDetailSection id="applications" title={tx(ui.application)} titlePlacement="inline" dataSection="applications">
+        <PunchStorySplit
+          media="scene"
+          title={tx(ui.application)}
+          imageSrc={figs?.figures.applicationsFigure ?? figs?.figures.applicationArea}
+          imageAlt={tx(ui.application)}
+          quoteProduct={quoteFor(tx(ui.application))}
+          quoteLabel={inquiryLabel}
+        >
+          <p class="text-base leading-relaxed text-slate-600">{tx(product.application)}</p>
+          <p class="mt-4 text-base leading-relaxed text-slate-600">{tx(scenarioFor(product.id))}</p>
+        </PunchStorySplit>
+        {
+          figs?.applicationTiles && figs.applicationTiles.length > 0 && (
+            <div class="punch-industry">
+              <p class="mb-4 text-xs font-semibold uppercase tracking-wider text-slate-500">{industryLabel}</p>
+              <ul class="punch-industry__grid">
+                {figs.applicationTiles.map((src) => (
+                  <li>
+                    <figure class="punch-industry__tile">
+                      <img src={src} alt={tx(ui.application)} width="320" height="320" loading="lazy" />
+                    </figure>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )
+        }
+      </FamilyDetailSection>
+    )
+  }
+
+  <FamilyDetailSection id="material-options" title={tx(ui.material)} titlePlacement="inline" dataSection="materials">
+    {
+      (materialText || figs?.figures.materialsFigure) && (
+        <PunchStorySplit
+          reverse={materialsReverse}
+          media="chart"
+          title={tx(ui.material)}
+          imageSrc={figs?.figures.materialsFigure}
+          imageAlt={tx(ui.material)}
+          quoteProduct={quoteFor(tx(ui.material))}
+          quoteLabel={inquiryLabel}
+        >
+          {materialText && <p class="text-base leading-relaxed text-slate-600">{materialText}</p>}
+        </PunchStorySplit>
+      )
+    }
+    {
+      figs?.figures.processFigure && (
+        <div class="punch-section__follow">
+          <PunchStorySplit
+            reverse={!materialsReverse}
+            media="chart"
+            imageSrc={figs.figures.processFigure}
+            imageAlt={processSectionLabel}
+            quoteProduct={quoteFor(processSectionLabel)}
+            quoteLabel={inquiryLabel}
+          >
+            <p class="text-base leading-relaxed text-slate-600">{processBlurb}</p>
+          </PunchStorySplit>
+        </div>
+      )
+    }
+    {
+      !materialsPrimary && (
+        <>
+          <div class="punch-inline-section-head">
+            <span class="punch-section__accent" aria-hidden="true" />
+            <h2 class="text-2xl md:text-3xl">{tx(ui.material)}</h2>
+          </div>
+          <ul class="punch-mini-cards">
+            {
+              product.materials.map((material) => (
+                <li class="punch-mini-cards__item">
+                  <h3 class="punch-mini-cards__title text-base font-semibold text-borui-navy">{materialLabel(material, locale)}</h3>
+                  <p class="punch-mini-cards__text text-base leading-relaxed text-slate-600">{tx(materialGuidanceFor(product, material))}</p>
+                </li>
+              ))
+            }
+          </ul>
+          <FamilySectionInquiryLink quoteProduct={quoteFor(tx(ui.material))} label={inquiryLabel} />
+        </>
+      )
+    }
+  </FamilyDetailSection>
+
+  <FamilyDetailSection id="surface-options" title={tx(ui.surface)} titlePlacement="inline" dataSection="surface">
+    {
+      (surfaceText || figs?.figures.surfaceFigure) && (
+        <PunchStorySplit
+          reverse={surfaceReverse}
+          media="chart"
+          chartSize="large"
+          title={tx(ui.surface)}
+          imageSrc={figs?.figures.surfaceFigure}
+          imageAlt={tx(ui.surface)}
+          quoteProduct={quoteFor(tx(ui.surface))}
+          quoteLabel={inquiryLabel}
+        >
+          {surfaceText && <p class="text-base leading-relaxed text-slate-600">{surfaceText}</p>}
+        </PunchStorySplit>
+      )
+    }
+    {
+      !surfacePrimary && (
+        <>
+          <div class="punch-inline-section-head">
+            <span class="punch-section__accent" aria-hidden="true" />
+            <h2 class="text-2xl md:text-3xl">{tx(ui.surface)}</h2>
+          </div>
+          <ul class="punch-mini-cards">
+            {
+              finishesFor(product).map((finish) => (
+                <li class="punch-mini-cards__item">
+                  <h3 class="punch-mini-cards__title text-base font-semibold text-borui-navy">{tx(finish.name)}</h3>
+                  <p class="punch-mini-cards__text text-base leading-relaxed text-slate-600">{tx(finish.description)}</p>
+                </li>
+              ))
+            }
+          </ul>
+          <FamilySectionInquiryLink quoteProduct={quoteFor(tx(ui.surface))} label={inquiryLabel} />
+        </>
+      )
+    }
+  </FamilyDetailSection>
+
+  <FamilyDetailSection id="family-faq" title={tx(ui.faq)} tone="soft" dataSection="faq">
+    <div class="punch-faq">
+      {
+        faqItems.map(([q, a]) => (
+          <details class="punch-faq__item">
+            <summary class="text-base font-medium text-borui-navy">{q}</summary>
+            <p class="text-base leading-relaxed text-slate-600">{a}</p>
+          </details>
+        ))
+      }
+    </div>
+  </FamilyDetailSection>
+</div>
+
+<style is:global>
+  .punch-longform {
+    --punch-gap: 3.5rem;
+  }
+  @media (min-width: 768px) {
+    .punch-longform {
+      --punch-gap: 4.5rem;
+    }
+  }
+
+  .punch-section {
+    padding-top: var(--punch-gap);
+    border-top: 1px solid rgb(19 35 51 / 0.08);
+  }
+  .punch-longform > .punch-section:first-child {
+    border-top: none;
+    padding-top: 2.5rem;
+  }
+  .punch-section--soft {
+    margin-top: var(--punch-gap);
+    padding: 2rem 1.25rem 2.25rem;
+    border: 1px solid rgb(19 35 51 / 0.06);
+    border-radius: 4px;
+    background: linear-gradient(180deg, rgb(248 249 251) 0%, rgb(244 246 248) 100%);
+  }
+  @media (min-width: 768px) {
+    .punch-section--soft {
+      padding: 2.5rem 2rem;
+    }
+  }
+
+  .punch-section__accent {
+    display: block;
+    width: 2.25rem;
+    height: 3px;
+    margin-bottom: 0.875rem;
+    background: #b8934a;
+  }
+  .punch-section__body {
+    margin-top: 1.75rem;
+  }
+  .punch-section--title-inline .punch-section__body {
+    margin-top: 0;
+  }
+  @media (min-width: 768px) {
+    .punch-section__body {
+      margin-top: 2rem;
+    }
+    .punch-section--title-inline .punch-section__body {
+      margin-top: 0;
+    }
+  }
+
+  .punch-inline-section-head {
+    max-width: 36rem;
+  }
+  .punch-inline-section-head + .punch-mini-cards {
+    margin-top: 1.25rem;
+  }
+
+  .punch-section__follow {
+    margin-top: 2.25rem;
+    padding-top: 2.25rem;
+    border-top: 1px dashed rgb(19 35 51 / 0.1);
+  }
+
+  .punch-industry {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px dashed rgb(19 35 51 / 0.12);
+  }
+  .punch-industry__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  @media (min-width: 768px) {
+    .punch-industry__grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1rem;
+    }
+  }
+  .punch-industry__tile {
+    margin: 0;
+    aspect-ratio: 1;
+    background: transparent;
+    border: none;
+  }
+  .punch-industry__tile img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 0;
+    background: transparent;
+  }
+
+  .punch-mini-cards {
+    display: grid;
+    gap: 1rem;
+    list-style: none;
+    margin: 1.5rem 0 0;
+    padding: 0;
+  }
+  @media (min-width: 768px) {
+    .punch-mini-cards {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  .punch-mini-cards__item {
+    padding: 1.25rem 1.25rem 1.25rem 1rem;
+    border-left: 3px solid #b8934a;
+    background: #fff;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 1px 0 rgb(19 35 51 / 0.04);
+  }
+  .punch-mini-cards__title {
+    margin: 0;
+    font-family: inherit;
+  }
+  .punch-mini-cards__text {
+    margin: 0.5rem 0 0;
+  }
+
+  .punch-faq {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .punch-faq__item {
+    border-bottom: 1px solid rgb(19 35 51 / 0.08);
+    padding: 0.25rem 0;
+  }
+  .punch-faq__item:first-child {
+    border-top: 1px solid rgb(19 35 51 / 0.08);
+  }
+  .punch-faq__item summary {
+    cursor: pointer;
+    padding: 0.875rem 0;
+    line-height: 1.45;
+  }
+  .punch-faq__item summary::-webkit-details-marker {
+    color: #b8934a;
+  }
+  .punch-faq__item p {
+    margin: 0 0 1rem;
+    max-width: 48rem;
+  }
+</style>

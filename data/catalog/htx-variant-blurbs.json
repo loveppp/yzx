@@ -1,0 +1,174 @@
+{
+  "carbide-punches": {
+    "type-a": {
+      "zh": "主要用于圆形冲孔，标准规格可按常备库存或图纸定制。",
+      "en": "Primarily used for punching round holes; standard sizes from stock or to your drawing.",
+      "vi": "Chủ yếu đột lỗ tròn; kích thước chuẩn từ kho hoặc theo bản vẽ."
+    },
+    "type-t": {
+      "zh": "主要用于圆形冲孔，带安装头的 T 型结构，尺寸按图纸确认。",
+      "en": "Primarily used for punching round holes with a Type T retaining head; dimensions per drawing.",
+      "vi": "Đột lỗ tròn với mũ giữ loại T; kích thước theo bản vẽ."
+    },
+    "profile": {
+      "zh": "按您提供的图纸、材料与工艺要求定制异形直身冲针。",
+      "en": "Custom special-shaped straight punches based on your drawings, materials and process requirements.",
+      "vi": "Chày thẳng biên dạng tùy chỉnh theo bản vẽ, vật liệu và quy trình."
+    },
+    "cutting": {
+      "zh": "用于分离或切断材料。",
+      "en": "For separating or cutting the material.",
+      "vi": "Dùng để tách hoặc cắt phôi."
+    },
+    "precision": {
+      "zh": "用于精密外形与较高公差要求的冲孔工位。",
+      "en": "For precision shapes and tight tolerance requirements.",
+      "vi": "Cho hình dạng chính xác và dung sai chặt."
+    },
+    "hexagonal": {
+      "zh": "用于六角孔成形。",
+      "en": "Used for hexagonal-shaped holes.",
+      "vi": "Dùng cho lỗ lục giác."
+    },
+    "pilot": {
+      "zh": "用于最终冲裁前建立导正孔。",
+      "en": "Used to create guide holes before the final stamping.",
+      "vi": "Tạo lỗ dẫn trước công đoạn dập cuối."
+    },
+    "oval": {
+      "zh": "用于椭圆或长圆孔成形。",
+      "en": "Used for oval or obround hole shapes.",
+      "vi": "Dùng cho lỗ oval hoặc thuôn."
+    }
+  },
+  "hss-punches": {
+    "ejector": {
+      "zh": "带退料结构的 HSS 冲头，适用于需要顶出废料的冲孔工位。",
+      "en": "HSS ejector punch for stations that need to strip slug or scrap.",
+      "vi": "Chày HSS có đẩy phế cho trạm cần thoát phế liệu."
+    },
+    "flat": {
+      "zh": "扁形工作端的 HSS 冲头，按图纸确认轮廓与安装方式。",
+      "en": "Flat-profile HSS punch; confirm geometry and mounting from your drawing.",
+      "vi": "Chày HSS mặt dẹt; xác nhận hình học và lắp theo bản vẽ."
+    },
+    "square": {
+      "zh": "方形孔冲裁用 HSS 冲头。",
+      "en": "HSS punch for square hole piercing.",
+      "vi": "Chày HSS cho lỗ vuông."
+    },
+    "rectangular": {
+      "zh": "矩形孔冲裁用 HSS 冲头。",
+      "en": "HSS punch for rectangular hole piercing.",
+      "vi": "Chày HSS cho lỗ chữ nhật."
+    },
+    "step": {
+      "zh": "台阶结构 HSS 冲头，用于多直径或安装定位需求。",
+      "en": "Stepped HSS punch for multi-diameter or mounting requirements.",
+      "vi": "Chày HSS bậc cho nhiều đường kính hoặc lắp đặt."
+    },
+    "special-shaped": {
+      "zh": "异形 HSS 冲头，按图纸定制。",
+      "en": "Special-shaped HSS punch made to your drawing.",
+      "vi": "Chày HSS biên dạng đặc biệt theo bản vẽ."
+    },
+    "round": {
+      "zh": "圆形工作端 HSS 冲头，常用于标准圆孔冲裁。",
+      "en": "Round-tip HSS punch for standard round hole piercing.",
+      "vi": "Chày HSS đầu tròn cho đột lỗ tròn."
+    },
+    "guide": {
+      "zh": "引导式 HSS 冲头，用于送料或导正相关工位。",
+      "en": "Guide HSS punch for feed or alignment-related stations.",
+      "vi": "Chày HSS dẫn cho trạm cấp liệu hoặc căn chỉnh."
+    }
+  },
+  "stepped-punches": {
+    "special-shaped": {
+      "zh": "异形台阶冲头，按图纸确认各段直径与刃口。",
+      "en": "Special-shaped stepped punches per your drawing.",
+      "vi": "Chày bậc biên dạng theo bản vẽ."
+    },
+    "stepped-round": {
+      "zh": "台阶圆冲，适用于缩径圆孔工位。",
+      "en": "Stepped round punches for stepped round hole applications.",
+      "vi": "Chày bậc tròn cho lỗ bậc tròn."
+    },
+    "stepped-square": {
+      "zh": "台阶方冲，适用于方孔及台阶安装需求。",
+      "en": "Stepped square punches for square-hole and mounting needs.",
+      "vi": "Chày bậc vuông cho lỗ vuông và lắp đặt."
+    },
+    "multi-diameter": {
+      "zh": "多级缩径台阶冲头，按图纸定义各段尺寸。",
+      "en": "Multi-diameter step punches with segments defined on your drawing.",
+      "vi": "Chày bậc nhiều đường kính theo bản vẽ."
+    },
+    "custom-shaped": {
+      "zh": "来图定制台阶冲头，材料与表面处理按工况确认。",
+      "en": "Custom-shaped stepped punches; material and finish per your duty.",
+      "vi": "Chày bậc tùy chỉnh; vật liệu và xử lý theo điều kiện."
+    }
+  },
+  "stamping-die-punches": {
+    "custom-stamping": {
+      "zh": "按冲压工位图纸定制冲头，核对凹模间隙与材料。",
+      "en": "Custom stamping die punches per station drawing; verify clearance and material.",
+      "vi": "Chày khuôn dập tùy chỉnh; kiểm tra khe hở và vật liệu."
+    },
+    "materials": {
+      "zh": "冲压模冲头可选材料说明，按工况选择牌号与热处理。",
+      "en": "Material options for stamping die punches selected for your process.",
+      "vi": "Lựa chọn vật liệu chày khuôn dập theo quy trình."
+    },
+    "manufacturer-range": {
+      "zh": "冲压模冲头系列概览，具体规格来图确认。",
+      "en": "Overview of stamping die punch range; specify details on inquiry.",
+      "vi": "Tổng quan dòng chày khuôn dập; chi tiết khi yêu cầu."
+    }
+  },
+  "tableting-punches": {
+    "tablet-shapes": {
+      "zh": "定制片形与冲模轮廓，按压片机与粉料特性确认。",
+      "en": "Custom tablet shapes and punch profiles for your press and powder.",
+      "vi": "Hình viên và biên dạng chày theo máy và bột."
+    },
+    "engraved": {
+      "zh": "刻字与标识冲模，确认读向与字符深度。",
+      "en": "Engraved punches and dies; confirm reading direction and depth.",
+      "vi": "Chày cối khắc chữ; xác nhận hướng đọc và độ sâu."
+    },
+    "multi-tip": {
+      "zh": "多冲尖压片工装，按产量与片形布局设计。",
+      "en": "Multi-tip tooling designed for your output and tablet layout.",
+      "vi": "Dụng cụ đa đầu theo năng suất và bố cục viên."
+    },
+    "press-specific": {
+      "zh": "压机专用定制工装，按机型接口与片形要求制造。",
+      "en": "Press-specific tooling built to machine interface and tablet spec.",
+      "vi": "Dụng cụ theo máy ép và quy cách viên."
+    }
+  },
+  "tungsten-carbide-punches": {
+    "straight": {
+      "zh": "直身钨钢冲头，适用于高耐磨圆孔或标准冲裁工位。",
+      "en": "Straight tungsten carbide punch for wear-critical round piercing.",
+      "vi": "Chày hợp kim thẳng cho đột tròn chịu mòn."
+    },
+    "step": {
+      "zh": "台阶钨钢冲头，按图纸定义缩径与刃口。",
+      "en": "Stepped tungsten carbide punch with steps per drawing.",
+      "vi": "Chày hợp kim bậc theo bản vẽ."
+    },
+    "precision": {
+      "zh": "精密钨钢冲头，用于公差要求较高的工位。",
+      "en": "Precision tungsten carbide punch for tighter tolerance stations.",
+      "vi": "Chày hợp kim chính xác cho dung sai chặt."
+    },
+    "coated": {
+      "zh": "涂层冲头系列，按基体、材料与温度评估 PVD 等方案。",
+      "en": "Coated punch series; evaluate PVD options for substrate and duty.",
+      "vi": "Dòng chày phủ; đánh giá PVD theo nền và điều kiện."
+    }
+  }
+}
