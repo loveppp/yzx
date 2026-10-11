@@ -1,21 +1,6 @@
 {
   "assets": [
     {
-      "id": "graphite-bronze-bushings--working-bore",
-      "productId": "graphite-bronze-bushings",
-      "configurationIds": [
-        "cylindrical"
-      ],
-      "image": "/images/products/catalog/graphite-bronze-bushings-2026-10-01T08-43-26-693Z.jpg",
-      "name": {
-        "zh": "直筒石墨铜套 / 法兰石墨铜套",
-        "en": "Cylindrical graphite bronze bushing / Flanged graphite bronze bushing",
-        "vi": "Bạc đồng graphite dạng trụ / Bạc đồng graphite có bích"
-      },
-      "promptFingerprint": "2377dfb85d88a7420d6fc3a111925ab011452c8a05a216728e5fbc802bd2edd0",
-      "visualSignature": "5bda62737a2b0bab536412fb604b658e62f6d035cf8b2d8971ae3df38f082846"
-    },
-    {
       "id": "carbide-punches--type-a",
       "productId": "carbide-punches",
       "configurationIds": [
@@ -702,6 +687,539 @@
         "zh": "一体式带头司筒",
         "en": "一体式带头司筒",
         "vi": "一体式带头司筒"
+      }
+    },
+    {
+      "id": "guide-posts--mold",
+      "productId": "guide-posts",
+      "configurationIds": [
+        "mold"
+      ],
+      "image": "/images/products/details/guide-posts--mold-2026-10-08T17-30-24-324Z.jpg",
+      "name": {
+        "zh": "模架与注塑模导柱",
+        "en": "模架与注塑模导柱",
+        "vi": "模架与注塑模导柱"
+      }
+    },
+    {
+      "id": "guide-posts--stripper",
+      "productId": "guide-posts",
+      "configurationIds": [
+        "stripper"
+      ],
+      "image": "/images/products/details/guide-posts--stripper-2026-10-08T17-30-24-324Z.jpg",
+      "name": {
+        "zh": "卸料板导柱",
+        "en": "卸料板导柱",
+        "vi": "卸料板导柱"
+      }
+    },
+    {
+      "id": "guide-posts--rolling",
+      "productId": "guide-posts",
+      "configurationIds": [
+        "rolling"
+      ],
+      "image": "/images/products/details/guide-posts--rolling-2026-10-08T17-30-24-324Z.png",
+      "name": {
+        "zh": "滚珠导向用导柱",
+        "en": "滚珠导向用导柱",
+        "vi": "滚珠导向用导柱"
+      }
+    },
+    {
+      "id": "guide-posts--nitrided",
+      "productId": "guide-posts",
+      "configurationIds": [
+        "nitrided"
+      ],
+      "image": "/images/products/details/guide-posts--nitrided-2026-10-08T17-30-24-324Z.jpg",
+      "name": {
+        "zh": "氮化与表面强化导柱",
+        "en": "氮化与表面强化导柱",
+        "vi": "氮化与表面强化导柱"
+      }
+    },
+    {
+      "id": "guide-bushings--straight",
+      "productId": "guide-bushings",
+      "configurationIds": [
+        "straight"
+      ],
+      "image": "/images/products/details/guide-bushings--straight-2026-10-08T17-30-24-324Z.jpg",
+      "name": {
+        "zh": "直身滑动导套",
+        "en": "直身滑动导套",
+        "vi": "直身滑动导套"
+      }
+    },
+    {
+      "id": "guide-bushings--stripper",
+      "productId": "guide-bushings",
+      "configurationIds": [
+        "stripper"
+      ],
+      "image": "/images/products/details/guide-bushings--stripper-2026-10-08T17-30-24-324Z.jpg",
+      "name": {
+        "zh": "卸料板导套",
+        "en": "卸料板导套",
+        "vi": "卸料板导套"
+      }
+    },
+    {
+      "id": "guide-bushings--ejector",
+      "productId": "guide-bushings",
+      "configurationIds": [
+        "ejector"
+      ],
+      "image": "/images/products/details/guide-bushings--ejector-2026-10-08T17-30-24-324Z.jpg",
+      "name": {
+        "zh": "顶出系统导套",
+        "en": "顶出系统导套",
+        "vi": "顶出系统导套"
+      }
+    },
+    {
+      "id": "flanged-guide-bushings--shoulder",
+      "productId": "flanged-guide-bushings",
+      "configurationIds": [
+        "shoulder"
+      ],
+      "image": "/images/products/details/flanged-guide-bushings--shoulder-2026-10-08T17-30-24-324Z.png",
+      "name": {
+        "zh": "带肩导套",
+        "en": "带肩导套",
+        "vi": "带肩导套"
+      }
+    },
+    {
+      "id": "flanged-guide-bushings--flange",
+      "productId": "flanged-guide-bushings",
+      "configurationIds": [
+        "flange"
+      ],
+      "image": "/images/products/details/flanged-guide-bushings--flange-2026-10-08T17-30-24-324Z.png",
+      "name": {
+        "zh": "法兰固定导套",
+        "en": "法兰固定导套",
+        "vi": "法兰固定导套"
+      }
+    },
+    {
+      "id": "flanged-guide-bushings--custom",
+      "productId": "flanged-guide-bushings",
+      "configurationIds": [
+        "custom"
+      ],
+      "image": "/images/products/details/flanged-guide-bushings--custom-2026-10-08T17-30-24-324Z.png",
+      "name": {
+        "zh": "定制内孔与润滑",
+        "en": "定制内孔与润滑",
+        "vi": "定制内孔与润滑"
+      }
+    },
+    {
+      "id": "guide-sets--sliding",
+      "productId": "guide-sets",
+      "configurationIds": [
+        "sliding"
+      ],
+      "image": "/images/products/details/guide-sets--sliding-2026-10-08T17-30-24-324Z.png",
+      "name": {
+        "zh": "滑动导向组件",
+        "en": "滑动导向组件",
+        "vi": "滑动导向组件"
+      }
+    },
+    {
+      "id": "guide-sets--ball",
+      "productId": "guide-sets",
+      "configurationIds": [
+        "ball"
+      ],
+      "image": "/images/products/details/guide-sets--ball-2026-10-08T17-30-24-324Z.png",
+      "name": {
+        "zh": "滚珠导向组件",
+        "en": "滚珠导向组件",
+        "vi": "滚珠导向组件"
+      }
+    },
+    {
+      "id": "guide-sets--assembly",
+      "productId": "guide-sets",
+      "configurationIds": [
+        "assembly"
+      ],
+      "image": "/images/products/details/guide-sets--assembly-2026-10-08T17-30-24-324Z.png",
+      "name": {
+        "zh": "定制安装总成",
+        "en": "定制安装总成",
+        "vi": "定制安装总成"
+      }
+    },
+    {
+      "id": "ball-cages--brass",
+      "productId": "ball-cages",
+      "configurationIds": [
+        "brass"
+      ],
+      "image": "/images/products/details/ball-cages--brass-2026-10-08T17-30-24-324Z.png",
+      "name": {
+        "zh": "黄铜滚珠保持架",
+        "en": "黄铜滚珠保持架",
+        "vi": "黄铜滚珠保持架"
+      }
+    },
+    {
+      "id": "ball-cages--aluminum",
+      "productId": "ball-cages",
+      "configurationIds": [
+        "aluminum"
+      ],
+      "image": "/images/products/details/ball-cages--aluminum-2026-10-08T17-30-24-324Z.png",
+      "name": {
+        "zh": "铝合金滚珠保持架",
+        "en": "铝合金滚珠保持架",
+        "vi": "铝合金滚珠保持架"
+      }
+    },
+    {
+      "id": "ball-cages--polymer",
+      "productId": "ball-cages",
+      "configurationIds": [
+        "polymer"
+      ],
+      "image": "/images/products/details/ball-cages--polymer-2026-10-08T17-30-24-324Z.png",
+      "name": {
+        "zh": "工程塑料滚珠保持架",
+        "en": "工程塑料滚珠保持架",
+        "vi": "工程塑料滚珠保持架"
+      }
+    },
+    {
+      "id": "ball-bearing-bushings--unit",
+      "productId": "ball-bearing-bushings",
+      "configurationIds": [
+        "unit"
+      ],
+      "image": "/images/products/details/ball-bearing-bushings--unit-2026-10-08T17-30-24-324Z.png",
+      "name": {
+        "zh": "滚动导向单元",
+        "en": "滚动导向单元",
+        "vi": "滚动导向单元"
+      }
+    },
+    {
+      "id": "ball-bearing-bushings--matched",
+      "productId": "ball-bearing-bushings",
+      "configurationIds": [
+        "matched"
+      ],
+      "image": "/images/products/details/ball-bearing-bushings--matched-2026-10-08T17-30-24-324Z.jpg",
+      "name": {
+        "zh": "配套导柱与总成",
+        "en": "配套导柱与总成",
+        "vi": "配套导柱与总成"
+      }
+    },
+    {
+      "id": "rectangular-die-springs--yellow",
+      "productId": "rectangular-die-springs",
+      "configurationIds": [
+        "yellow"
+      ],
+      "image": "/images/products/details/rectangular-die-springs--yellow-2026-10-08T17-30-24-542Z.png",
+      "name": {
+        "zh": "黄色 · 超轻载",
+        "en": "黄色 · 超轻载",
+        "vi": "黄色 · 超轻载"
+      }
+    },
+    {
+      "id": "rectangular-die-springs--blue",
+      "productId": "rectangular-die-springs",
+      "configurationIds": [
+        "blue"
+      ],
+      "image": "/images/products/details/rectangular-die-springs--blue-2026-10-08T17-30-24-542Z.png",
+      "name": {
+        "zh": "蓝色 · 轻载",
+        "en": "蓝色 · 轻载",
+        "vi": "蓝色 · 轻载"
+      }
+    },
+    {
+      "id": "rectangular-die-springs--red",
+      "productId": "rectangular-die-springs",
+      "configurationIds": [
+        "red"
+      ],
+      "image": "/images/products/details/rectangular-die-springs--red-2026-10-08T17-30-24-542Z.png",
+      "name": {
+        "zh": "红色 · 中载",
+        "en": "红色 · 中载",
+        "vi": "红色 · 中载"
+      }
+    },
+    {
+      "id": "rectangular-die-springs--green",
+      "productId": "rectangular-die-springs",
+      "configurationIds": [
+        "green"
+      ],
+      "image": "/images/products/details/rectangular-die-springs--green-2026-10-08T17-30-24-542Z.png",
+      "name": {
+        "zh": "绿色 · 重载",
+        "en": "绿色 · 重载",
+        "vi": "绿色 · 重载"
+      }
+    },
+    {
+      "id": "rectangular-die-springs--brown",
+      "productId": "rectangular-die-springs",
+      "configurationIds": [
+        "brown"
+      ],
+      "image": "/images/products/details/rectangular-die-springs--brown-2026-10-08T17-30-24-542Z.png",
+      "name": {
+        "zh": "棕色 · 超重载",
+        "en": "棕色 · 超重载",
+        "vi": "棕色 · 超重载"
+      }
+    },
+    {
+      "id": "nitrogen-gas-springs--compact",
+      "productId": "nitrogen-gas-springs",
+      "configurationIds": [
+        "compact"
+      ],
+      "image": "/images/products/details/nitrogen-gas-springs--compact-2026-10-08T17-30-24-542Z.png",
+      "name": {
+        "zh": "紧凑型氮气弹簧",
+        "en": "紧凑型氮气弹簧",
+        "vi": "紧凑型氮气弹簧"
+      }
+    },
+    {
+      "id": "nitrogen-gas-springs--mounting",
+      "productId": "nitrogen-gas-springs",
+      "configurationIds": [
+        "mounting"
+      ],
+      "image": "/images/products/details/nitrogen-gas-springs--mounting-2026-10-08T17-30-24-542Z.png",
+      "name": {
+        "zh": "安装附件与固定方式",
+        "en": "安装附件与固定方式",
+        "vi": "安装附件与固定方式"
+      }
+    },
+    {
+      "id": "nitrogen-gas-springs--replacement",
+      "productId": "nitrogen-gas-springs",
+      "configurationIds": [
+        "replacement"
+      ],
+      "image": "/images/products/details/nitrogen-gas-springs--replacement-2026-10-08T17-30-24-542Z.png",
+      "name": {
+        "zh": "按型号替换",
+        "en": "按型号替换",
+        "vi": "按型号替换"
+      }
+    },
+    {
+      "id": "graphite-bronze-bushings--cylindrical",
+      "productId": "graphite-bronze-bushings",
+      "configurationIds": [
+        "cylindrical"
+      ],
+      "image": "/images/products/details/graphite-bronze-bushings--cylindrical-2026-10-08T17-30-24-834Z.jpg",
+      "name": {
+        "zh": "圆筒石墨铜套",
+        "en": "圆筒石墨铜套",
+        "vi": "圆筒石墨铜套"
+      }
+    },
+    {
+      "id": "graphite-bronze-bushings--flange",
+      "productId": "graphite-bronze-bushings",
+      "configurationIds": [
+        "flange"
+      ],
+      "image": "/images/products/details/graphite-bronze-bushings--flange-2026-10-08T17-30-24-834Z.jpg",
+      "name": {
+        "zh": "法兰石墨铜套",
+        "en": "法兰石墨铜套",
+        "vi": "法兰石墨铜套"
+      }
+    },
+    {
+      "id": "graphite-bronze-bushings--square",
+      "productId": "graphite-bronze-bushings",
+      "configurationIds": [
+        "square"
+      ],
+      "image": "/images/products/details/graphite-bronze-bushings--square-2026-10-08T17-30-24-834Z.jpg",
+      "name": {
+        "zh": "方形与定制石墨导向块",
+        "en": "方形与定制石墨导向块",
+        "vi": "方形与定制石墨导向块"
+      }
+    },
+    {
+      "id": "bronze-bushings--plain",
+      "productId": "bronze-bushings",
+      "configurationIds": [
+        "plain"
+      ],
+      "image": "/images/products/details/bronze-bushings--plain-2026-10-08T17-30-24-834Z.png",
+      "name": {
+        "zh": "光孔铜套",
+        "en": "光孔铜套",
+        "vi": "光孔铜套"
+      }
+    },
+    {
+      "id": "bronze-bushings--grooved",
+      "productId": "bronze-bushings",
+      "configurationIds": [
+        "grooved"
+      ],
+      "image": "/images/products/details/bronze-bushings--grooved-2026-10-08T17-30-24-834Z.png",
+      "name": {
+        "zh": "带油槽铜套",
+        "en": "带油槽铜套",
+        "vi": "带油槽铜套"
+      }
+    },
+    {
+      "id": "flanged-bronze-bushings--plain",
+      "productId": "flanged-bronze-bushings",
+      "configurationIds": [
+        "plain"
+      ],
+      "image": "/images/products/details/flanged-bronze-bushings--plain-2026-10-08T17-30-24-834Z.jpg",
+      "name": {
+        "zh": "普通法兰铜套",
+        "en": "普通法兰铜套",
+        "vi": "普通法兰铜套"
+      }
+    },
+    {
+      "id": "flanged-bronze-bushings--plugged",
+      "productId": "flanged-bronze-bushings",
+      "configurationIds": [
+        "plugged"
+      ],
+      "image": "/images/products/details/flanged-bronze-bushings--plugged-2026-10-08T17-30-24-834Z.jpg",
+      "name": {
+        "zh": "镶固体润滑法兰铜套",
+        "en": "镶固体润滑法兰铜套",
+        "vi": "镶固体润滑法兰铜套"
+      }
+    },
+    {
+      "id": "wear-plates--graphite",
+      "productId": "wear-plates",
+      "configurationIds": [
+        "graphite"
+      ],
+      "image": "/images/products/details/wear-plates--graphite-2026-10-08T17-30-24-834Z.jpg",
+      "name": {
+        "zh": "镶石墨耐磨板",
+        "en": "镶石墨耐磨板",
+        "vi": "镶石墨耐磨板"
+      }
+    },
+    {
+      "id": "wear-plates--oil",
+      "productId": "wear-plates",
+      "configurationIds": [
+        "oil"
+      ],
+      "image": "/images/products/details/wear-plates--oil-2026-10-08T17-30-24-834Z.jpg",
+      "name": {
+        "zh": "油槽滑板",
+        "en": "油槽滑板",
+        "vi": "油槽滑板"
+      }
+    },
+    {
+      "id": "precision-dowel-pins--ground",
+      "productId": "precision-dowel-pins",
+      "configurationIds": [
+        "ground"
+      ],
+      "image": "/images/products/details/precision-dowel-pins--ground-2026-10-08T17-30-25-275Z.png",
+      "name": {
+        "zh": "精密磨削圆柱销",
+        "en": "精密磨削圆柱销",
+        "vi": "精密磨削圆柱销"
+      }
+    },
+    {
+      "id": "precision-dowel-pins--hardened",
+      "productId": "precision-dowel-pins",
+      "configurationIds": [
+        "hardened"
+      ],
+      "image": "/images/products/details/precision-dowel-pins--hardened-2026-10-08T17-30-25-275Z.png",
+      "name": {
+        "zh": "淬硬圆柱销",
+        "en": "淬硬圆柱销",
+        "vi": "淬硬圆柱销"
+      }
+    },
+    {
+      "id": "precision-dowel-pins--custom",
+      "productId": "precision-dowel-pins",
+      "configurationIds": [
+        "custom"
+      ],
+      "image": "/images/products/details/precision-dowel-pins--custom-2026-10-08T17-30-25-275Z.png",
+      "name": {
+        "zh": "定制长度与端部",
+        "en": "定制长度与端部",
+        "vi": "定制长度与端部"
+      }
+    },
+    {
+      "id": "threaded-dowel-pins--pull",
+      "productId": "threaded-dowel-pins",
+      "configurationIds": [
+        "pull"
+      ],
+      "image": "/images/products/details/threaded-dowel-pins--pull-2026-10-08T17-30-25-275Z.png",
+      "name": {
+        "zh": "内螺纹拔出销",
+        "en": "内螺纹拔出销",
+        "vi": "内螺纹拔出销"
+      }
+    },
+    {
+      "id": "threaded-dowel-pins--external",
+      "productId": "threaded-dowel-pins",
+      "configurationIds": [
+        "external"
+      ],
+      "image": "/images/products/details/threaded-dowel-pins--external-2026-10-08T17-30-25-275Z.png",
+      "name": {
+        "zh": "外螺纹段定位销",
+        "en": "外螺纹段定位销",
+        "vi": "外螺纹段定位销"
+      }
+    },
+    {
+      "id": "threaded-dowel-pins--units",
+      "productId": "threaded-dowel-pins",
+      "configurationIds": [
+        "units"
+      ],
+      "image": "/images/products/details/threaded-dowel-pins--units-2026-10-08T17-30-25-275Z.png",
+      "name": {
+        "zh": "公英制替换与定制",
+        "en": "公英制替换与定制",
+        "vi": "公英制替换与定制"
       }
     }
   ]

@@ -20,7 +20,11 @@
     ],
     "highlights": [
       {
-        "title": { "zh": "来图来样", "en": "Drawing-based", "vi": "Theo bản vẽ" },
+        "title": {
+          "zh": "来图来样",
+          "en": "Drawing-based",
+          "vi": "Theo bản vẽ"
+        },
         "body": {
           "zh": "CAD / PDF / STEP 或样品确认结构、材料与公差。",
           "en": "Confirm geometry, material and tolerances from CAD, PDF, STEP or samples.",
@@ -28,7 +32,11 @@
         }
       },
       {
-        "title": { "zh": "1 件起订", "en": "MOQ from 1 pc", "vi": "MOQ 1 chiếc" },
+        "title": {
+          "zh": "1 件起订",
+          "en": "MOQ from 1 pc",
+          "vi": "MOQ 1 chiếc"
+        },
         "body": {
           "zh": "样品与小批量按确认图纸排产。",
           "en": "Samples and small batches follow the agreed drawing.",
@@ -36,7 +44,11 @@
         }
       },
       {
-        "title": { "zh": "公差按图", "en": "Tolerance per drawing", "vi": "Dung sai theo bản vẽ" },
+        "title": {
+          "zh": "公差按图",
+          "en": "Tolerance per drawing",
+          "vi": "Dung sai theo bản vẽ"
+        },
         "body": {
           "zh": "关键尺寸与配合以图纸为准，出货前检验。",
           "en": "Critical fits follow your drawing with pre-shipment inspection.",
@@ -44,7 +56,11 @@
         }
       },
       {
-        "title": { "zh": "材料可选", "en": "Grade options", "vi": "Nhiều mác" },
+        "title": {
+          "zh": "材料可选",
+          "en": "Grade options",
+          "vi": "Nhiều mác"
+        },
         "body": {
           "zh": "硬质合金、高速钢与工具钢按工况组合评估。",
           "en": "Carbide, HSS and tool steels assessed for your duty.",
@@ -138,40 +154,104 @@
   "hss-punches": {
     "highlights": [
       {
-        "title": { "zh": "工程售后", "en": "Engineering support", "vi": "Hỗ trợ kỹ thuật" },
-        "body": { "zh": "专业团队协助选型与售后问题跟进。", "en": "Specialist team for selection and after-sales follow-up.", "vi": "Đội ngũ hỗ trợ lựa chọn và hậu mãi." }
+        "title": {
+          "zh": "工程售后",
+          "en": "Engineering support",
+          "vi": "Hỗ trợ kỹ thuật"
+        },
+        "body": {
+          "zh": "专业团队协助选型与售后问题跟进。",
+          "en": "Specialist team for selection and after-sales follow-up.",
+          "vi": "Đội ngũ hỗ trợ lựa chọn và hậu mãi."
+        }
       },
       {
-        "title": { "zh": "质量责任清晰", "en": "Clear QA ownership", "vi": "Trách nhiệm chất lượng" },
-        "body": { "zh": "质量问题可追溯并有明确处理机制。", "en": "Quality issues are traceable with defined resolution.", "vi": "Vấn đề chất lượng có truy vết và xử lý rõ." }
+        "title": {
+          "zh": "质量责任清晰",
+          "en": "Clear QA ownership",
+          "vi": "Trách nhiệm chất lượng"
+        },
+        "body": {
+          "zh": "质量问题可追溯并有明确处理机制。",
+          "en": "Quality issues are traceable with defined resolution.",
+          "vi": "Vấn đề chất lượng có truy vết và xử lý rõ."
+        }
       },
       {
-        "title": { "zh": "快速响应", "en": "Rapid response", "vi": "Phản hồi nhanh" },
-        "body": { "zh": "尽量缩短停线等待时间。", "en": "Aim to reduce downtime waiting on tooling.", "vi": "Giảm thời gian chờ dụng cụ." }
+        "title": {
+          "zh": "快速响应",
+          "en": "Rapid response",
+          "vi": "Phản hồi nhanh"
+        },
+        "body": {
+          "zh": "尽量缩短停线等待时间。",
+          "en": "Aim to reduce downtime waiting on tooling.",
+          "vi": "Giảm thời gian chờ dụng cụ."
+        }
       },
       {
-        "title": { "zh": "出货全检", "en": "Pre-shipment inspection", "vi": "Kiểm tra trước giao" },
-        "body": { "zh": "出厂前检验关键尺寸与外观。", "en": "Critical dimensions and appearance checked before dispatch.", "vi": "Kiểm tra kích thước và ngoại quan trước giao." }
+        "title": {
+          "zh": "出货全检",
+          "en": "Pre-shipment inspection",
+          "vi": "Kiểm tra trước giao"
+        },
+        "body": {
+          "zh": "出厂前检验关键尺寸与外观。",
+          "en": "Critical dimensions and appearance checked before dispatch.",
+          "vi": "Kiểm tra kích thước và ngoại quan trước giao."
+        }
       }
     ]
   },
   "stepped-punches": {
     "highlights": [
       {
-        "title": { "zh": "耐磨", "en": "Wear resistance", "vi": "Chống mòn" },
-        "body": { "zh": "台阶结构适配多级缩径与耐磨工位。", "en": "Step profiles for multi-diameter wear-critical stations.", "vi": "Hình bậc cho trạm mòn cao." }
+        "title": {
+          "zh": "耐磨",
+          "en": "Wear resistance",
+          "vi": "Chống mòn"
+        },
+        "body": {
+          "zh": "台阶结构适配多级缩径与耐磨工位。",
+          "en": "Step profiles for multi-diameter wear-critical stations.",
+          "vi": "Hình bậc cho trạm mòn cao."
+        }
       },
       {
-        "title": { "zh": "成本可控", "en": "Cost-effective", "vi": "Hiệu quả chi phí" },
-        "body": { "zh": "按图纸组合材料与结构，避免过度设计。", "en": "Material and geometry matched to drawing without over-spec.", "vi": "Vật liệu và hình học theo bản vẽ." }
+        "title": {
+          "zh": "成本可控",
+          "en": "Cost-effective",
+          "vi": "Hiệu quả chi phí"
+        },
+        "body": {
+          "zh": "按图纸组合材料与结构，避免过度设计。",
+          "en": "Material and geometry matched to drawing without over-spec.",
+          "vi": "Vật liệu và hình học theo bản vẽ."
+        }
       },
       {
-        "title": { "zh": "维护周期", "en": "Maintenance", "vi": "Bảo trì" },
-        "body": { "zh": "可评估重磨方案与备用件策略。", "en": "Regrind and spare strategies can be planned.", "vi": "Có thể lập kế hoạch mài và dự phòng." }
+        "title": {
+          "zh": "维护周期",
+          "en": "Maintenance",
+          "vi": "Bảo trì"
+        },
+        "body": {
+          "zh": "可评估重磨方案与备用件策略。",
+          "en": "Regrind and spare strategies can be planned.",
+          "vi": "Có thể lập kế hoạch mài và dự phòng."
+        }
       },
       {
-        "title": { "zh": "效率", "en": "Efficiency", "vi": "Hiệu suất" },
-        "body": { "zh": "适配连续模与多工位节拍要求。", "en": "Suited to progressive and multi-station cycles.", "vi": "Phù hợp khuôn liên hoàn và đa trạm." }
+        "title": {
+          "zh": "效率",
+          "en": "Efficiency",
+          "vi": "Hiệu suất"
+        },
+        "body": {
+          "zh": "适配连续模与多工位节拍要求。",
+          "en": "Suited to progressive and multi-station cycles.",
+          "vi": "Phù hợp khuôn liên hoàn và đa trạm."
+        }
       }
     ]
   },
@@ -179,60 +259,156 @@
     "hideConfigurations": true,
     "highlights": [
       {
-        "title": { "zh": "来图定制", "en": "Custom-made", "vi": "Theo bản vẽ" },
-        "body": { "zh": "冲压模冲头按模具结构单独确认。", "en": "Die punches confirmed per tool structure.", "vi": "Chày khuôn dập theo cấu trúc khuôn." }
+        "title": {
+          "zh": "来图定制",
+          "en": "Custom-made",
+          "vi": "Theo bản vẽ"
+        },
+        "body": {
+          "zh": "冲压模冲头按模具结构单独确认。",
+          "en": "Die punches confirmed per tool structure.",
+          "vi": "Chày khuôn dập theo cấu trúc khuôn."
+        }
       },
       {
-        "title": { "zh": "长寿命", "en": "Long life", "vi": "Tuổi thọ" },
-        "body": { "zh": "材料与热处理按工况组合评估。", "en": "Material and heat treat matched to duty.", "vi": "Vật liệu và nhiệt luyện theo điều kiện." }
+        "title": {
+          "zh": "长寿命",
+          "en": "Long life",
+          "vi": "Tuổi thọ"
+        },
+        "body": {
+          "zh": "材料与热处理按工况组合评估。",
+          "en": "Material and heat treat matched to duty.",
+          "vi": "Vật liệu và nhiệt luyện theo điều kiện."
+        }
       },
       {
-        "title": { "zh": "精度控制", "en": "Precision", "vi": "Độ chính xác" },
-        "body": { "zh": "关键配合尺寸以图纸为准。", "en": "Critical fits follow your drawing.", "vi": "Lắp ghép chính theo bản vẽ." }
+        "title": {
+          "zh": "精度控制",
+          "en": "Precision",
+          "vi": "Độ chính xác"
+        },
+        "body": {
+          "zh": "关键配合尺寸以图纸为准。",
+          "en": "Critical fits follow your drawing.",
+          "vi": "Lắp ghép chính theo bản vẽ."
+        }
       },
       {
-        "title": { "zh": "小批量", "en": "Low MOQ", "vi": "MOQ thấp" },
-        "body": { "zh": "样品与修模替换件可小批量排产。", "en": "Samples and replacement inserts in small batches.", "vi": "Mẫu và thay thế lô nhỏ." }
+        "title": {
+          "zh": "小批量",
+          "en": "Low MOQ",
+          "vi": "MOQ thấp"
+        },
+        "body": {
+          "zh": "样品与修模替换件可小批量排产。",
+          "en": "Samples and replacement inserts in small batches.",
+          "vi": "Mẫu và thay thế lô nhỏ."
+        }
       }
     ]
   },
   "tableting-punches": {
     "highlights": [
       {
-        "title": { "zh": "精密加工", "en": "Precision machining", "vi": "Gia công chính xác" },
-        "body": { "zh": "片形轮廓与冲模配合按标准或图纸。", "en": "Cup profiles and die mates per standard or drawing.", "vi": "Hình viên và cối theo tiêu chuẩn hoặc bản vẽ." }
+        "title": {
+          "zh": "精密加工",
+          "en": "Precision machining",
+          "vi": "Gia công chính xác"
+        },
+        "body": {
+          "zh": "片形轮廓与冲模配合按标准或图纸。",
+          "en": "Cup profiles and die mates per standard or drawing.",
+          "vi": "Hình viên và cối theo tiêu chuẩn hoặc bản vẽ."
+        }
       },
       {
-        "title": { "zh": "耐磨", "en": "Wear resistance", "vi": "Chống mòn" },
-        "body": { "zh": "高产量压片工况评估材料与涂层。", "en": "Grades and coatings for high-volume tableting.", "vi": "Mác và phủ cho ép viên công suất cao." }
+        "title": {
+          "zh": "耐磨",
+          "en": "Wear resistance",
+          "vi": "Chống mòn"
+        },
+        "body": {
+          "zh": "高产量压片工况评估材料与涂层。",
+          "en": "Grades and coatings for high-volume tableting.",
+          "vi": "Mác và phủ cho ép viên công suất cao."
+        }
       },
       {
-        "title": { "zh": "片形多样", "en": "Shape variety", "vi": "Đa dạng hình" },
-        "body": { "zh": "标准片形与定制轮廓均可询价。", "en": "Standard and custom cup shapes on inquiry.", "vi": "Hình viên chuẩn và tùy chỉnh." }
+        "title": {
+          "zh": "片形多样",
+          "en": "Shape variety",
+          "vi": "Đa dạng hình"
+        },
+        "body": {
+          "zh": "标准片形与定制轮廓均可询价。",
+          "en": "Standard and custom cup shapes on inquiry.",
+          "vi": "Hình viên chuẩn và tùy chỉnh."
+        }
       },
       {
-        "title": { "zh": "防粘涂层", "en": "Anti-stick coating", "vi": "Lớp chống dính" },
-        "body": { "zh": "可按粉体特性评估表面处理。", "en": "Surface options assessed for powder behavior.", "vi": "Xử lý bề mặt theo đặc tính bột." }
+        "title": {
+          "zh": "防粘涂层",
+          "en": "Anti-stick coating",
+          "vi": "Lớp chống dính"
+        },
+        "body": {
+          "zh": "可按粉体特性评估表面处理。",
+          "en": "Surface options assessed for powder behavior.",
+          "vi": "Xử lý bề mặt theo đặc tính bột."
+        }
       }
     ]
   },
   "tungsten-carbide-punches": {
     "highlights": [
       {
-        "title": { "zh": "定制制造", "en": "Custom manufacturing", "vi": "Sản xuất tùy chỉnh" },
-        "body": { "zh": "直身、台阶、精密与涂层系列按图生产。", "en": "Straight, stepped, precision and coated lines to drawing.", "vi": "Thẳng, bậc, chính xác và phủ theo bản vẽ." }
+        "title": {
+          "zh": "定制制造",
+          "en": "Custom manufacturing",
+          "vi": "Sản xuất tùy chỉnh"
+        },
+        "body": {
+          "zh": "直身、台阶、精密与涂层系列按图生产。",
+          "en": "Straight, stepped, precision and coated lines to drawing.",
+          "vi": "Thẳng, bậc, chính xác và phủ theo bản vẽ."
+        }
       },
       {
-        "title": { "zh": "质量控制", "en": "Quality control", "vi": "Kiểm soát chất lượng" },
-        "body": { "zh": "关键尺寸检验后出货。", "en": "Critical dimensions inspected before dispatch.", "vi": "Kiểm tra kích thước chính trước giao." }
+        "title": {
+          "zh": "质量控制",
+          "en": "Quality control",
+          "vi": "Kiểm soát chất lượng"
+        },
+        "body": {
+          "zh": "关键尺寸检验后出货。",
+          "en": "Critical dimensions inspected before dispatch.",
+          "vi": "Kiểm tra kích thước chính trước giao."
+        }
       },
       {
-        "title": { "zh": "交期", "en": "Turnaround", "vi": "Lead time" },
-        "body": { "zh": "样品与批量交期按工艺确认。", "en": "Sample and batch lead times confirmed per process.", "vi": "Lead time mẫu và lô theo quy trình." }
+        "title": {
+          "zh": "交期",
+          "en": "Turnaround",
+          "vi": "Lead time"
+        },
+        "body": {
+          "zh": "样品与批量交期按工艺确认。",
+          "en": "Sample and batch lead times confirmed per process.",
+          "vi": "Lead time mẫu và lô theo quy trình."
+        }
       },
       {
-        "title": { "zh": "耐用材料", "en": "Durable grades", "vi": "Mác bền" },
-        "body": { "zh": "钨钢牌号与涂层按工况选择。", "en": "Carbide grades and coatings for your duty.", "vi": "Mác carbide và phủ theo điều kiện." }
+        "title": {
+          "zh": "耐用材料",
+          "en": "Durable grades",
+          "vi": "Mác bền"
+        },
+        "body": {
+          "zh": "钨钢牌号与涂层按工况选择。",
+          "en": "Carbide grades and coatings for your duty.",
+          "vi": "Mác carbide và phủ theo điều kiện."
+        }
       }
     ]
   },
@@ -446,7 +622,11 @@
     "faqOnly": true,
     "extraFaqs": [
       {
-        "q": { "zh": "扁顶针适用于哪些模具结构？", "en": "Where are blade ejector pins used?", "vi": "Ty dẹt dùng ở đâu?" },
+        "q": {
+          "zh": "扁顶针适用于哪些模具结构？",
+          "en": "Where are blade ejector pins used?",
+          "vi": "Ty dẹt dùng ở đâu?"
+        },
         "a": {
           "zh": "窄筋、深槽或空间受限、需要薄端顶出的区域；需确认扁位方向与杆部过渡，避免应力集中。",
           "en": "Narrow ribs, deep slots or tight spaces needing a thin ejection edge—confirm blade orientation and shank transition.",
@@ -454,7 +634,11 @@
         }
       },
       {
-        "q": { "zh": "扁顶针如何防止折断？", "en": "How to reduce blade pin breakage?", "vi": "Giảm gãy ty dẹt?" },
+        "q": {
+          "zh": "扁顶针如何防止折断？",
+          "en": "How to reduce blade pin breakage?",
+          "vi": "Giảm gãy ty dẹt?"
+        },
         "a": {
           "zh": "控制长径比、选用合适材料与热处理，并保证导向与接触面积；薄截面不宜过度氮化导致变形。",
           "en": "Control aspect ratio, grade and heat treat; ensure guidance and contact area—avoid over-treating thin sections.",
@@ -462,7 +646,11 @@
         }
       },
       {
-        "q": { "zh": "定制扁顶针要提供什么？", "en": "What to supply for custom blade pins?", "vi": "Đặt ty dẹt cần gì?" },
+        "q": {
+          "zh": "定制扁顶针要提供什么？",
+          "en": "What to supply for custom blade pins?",
+          "vi": "Đặt ty dẹt cần gì?"
+        },
         "a": {
           "zh": "扁宽、厚度、杆径、总长、顶出方向及公差图纸；说明树脂类型与顶出次数有助于选材。",
           "en": "Drawing with blade width/thickness, shank, length, orientation and tolerances; resin and cycle count help material choice.",
@@ -485,7 +673,11 @@
     "faqOnly": true,
     "extraFaqs": [
       {
-        "q": { "zh": "方顶针与圆顶针如何选型？", "en": "Square vs round ejector pins?", "vi": "Ty vuông hay tròn?" },
+        "q": {
+          "zh": "方顶针与圆顶针如何选型？",
+          "en": "Square vs round ejector pins?",
+          "vi": "Ty vuông hay tròn?"
+        },
         "a": {
           "zh": "需要防转或方形成型顶出时选方顶针；模具导向孔需保持方形配合与方向。",
           "en": "Choose square pins when anti-rotation or square contact is required; mold guide geometry must maintain orientation.",
@@ -493,7 +685,11 @@
         }
       },
       {
-        "q": { "zh": "方顶针常见失效模式？", "en": "Common square pin failure modes?", "vi": "Hỏng thường gặp ty vuông?" },
+        "q": {
+          "zh": "方顶针常见失效模式？",
+          "en": "Common square pin failure modes?",
+          "vi": "Hỏng thường gặp ty vuông?"
+        },
         "a": {
           "zh": "角部崩刃、导向孔磨损导致旋转失效、或方段与圆杆过渡应力；应核对圆角与配合间隙。",
           "en": "Corner chipping, worn guides losing orientation, or stress at round-to-square transition—check radii and clearance.",
@@ -501,7 +697,11 @@
         }
       },
       {
-        "q": { "zh": "定制方顶针图纸要点？", "en": "Drawing notes for custom square pins?", "vi": "Bản vẽ ty vuông?" },
+        "q": {
+          "zh": "定制方顶针图纸要点？",
+          "en": "Drawing notes for custom square pins?",
+          "vi": "Bản vẽ ty vuông?"
+        },
         "a": {
           "zh": "方边尺寸、有效长度、杆径、方向标记、公差及与孔的配合性质。",
           "en": "Square size, working length, shank, orientation mark, tolerances and fit with the hole.",
@@ -524,7 +724,11 @@
     "faqOnly": true,
     "extraFaqs": [
       {
-        "q": { "zh": "司筒与芯针如何一起选型？", "en": "How to select sleeves with core pins?", "vi": "Chọn ống với ty lõi?" },
+        "q": {
+          "zh": "司筒与芯针如何一起选型？",
+          "en": "How to select sleeves with core pins?",
+          "vi": "Chọn ống với ty lõi?"
+        },
         "a": {
           "zh": "内外径、壁厚、同轴度与长度需与芯针及制品柱位匹配，按系统订货而非单独估尺寸。",
           "en": "Bore, OD, wall, coaxiality and length must match the core pin and boss—specify as a system.",
@@ -532,7 +736,11 @@
         }
       },
       {
-        "q": { "zh": "司筒粘料或拉伤怎么处理？", "en": "Sleeve sticking or scoring?", "vi": "Ống dính hoặc xước?" },
+        "q": {
+          "zh": "司筒粘料或拉伤怎么处理？",
+          "en": "Sleeve sticking or scoring?",
+          "vi": "Ống dính hoặc xước?"
+        },
         "a": {
           "zh": "检查内孔粗糙度、材料与涂层、模温及脱模剂；必要时内孔精磨、氮化或更换耐磨材料。",
           "en": "Review bore finish, material/coating, mold temp and release; consider grinding, nitriding or harder grades.",
@@ -540,7 +748,11 @@
         }
       },
       {
-        "q": { "zh": "长司筒订货注意什么？", "en": "Notes for long ejector sleeves?", "vi": "Ống dài cần lưu ý?" },
+        "q": {
+          "zh": "长司筒订货注意什么？",
+          "en": "Notes for long ejector sleeves?",
+          "vi": "Ống dài cần lưu ý?"
+        },
         "a": {
           "zh": "孔直线度、壁厚均匀性与端面垂直度直接影响同轴与顶出平稳性，图纸应标注全长跳动要求。",
           "en": "Bore straightness, wall uniformity and square ends affect coaxial ejection—state runout on the drawing.",
@@ -583,6 +795,261 @@
           "zh": "气顶阀在开模时引入压缩空气，帮助破坏真空吸附；通常与顶针、司筒等机械顶出同时使用，不能替代顶出结构设计。",
           "en": "Poppets admit air during opening to break vacuum adhesion; they are used alongside pins and sleeves, not as a substitute for ejection layout.",
           "vi": "Van đưa khí khi mở khuôn để phá chân không; dùng cùng chốt đẩy, không thay thế bố trí đẩy."
+        }
+      }
+    ]
+  },
+  "guide-posts": {
+    "faqOnly": true,
+    "materialLead": {
+      "zh": "导柱材料与表面（如 SUJ2、轴承钢及氮化）需与导套、模温及载荷匹配；安装段与导向段公差应成套确认。",
+      "en": "Post grade and surface (e.g. SUJ2, bearing steel, nitriding) must match bushings, mold temperature and load; mounting and guide sections are specified as a set.",
+      "vi": "Mác trụ và bề mặt phải khớp bạc, nhiệt khuôn và tải; đoạn lắp và dẫn quy định theo bộ."
+    },
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "滑动导向与滚珠导向导柱能否互换？",
+          "en": "Can sliding and ball guide posts be swapped?",
+          "vi": "Trụ trượt và trụ bi có thay được không?"
+        },
+        "a": {
+          "zh": "不能仅凭外径互换。滚珠系统需配套保持架、导套及预压/行程参数，滑动副的间隙与润滑另有一套要求。",
+          "en": "Not by outside diameter alone. Ball systems need matched cages, bushings, preload and travel; plain sliding pairs use different clearance and lubrication.",
+          "vi": "Không chỉ theo đường kính ngoài. Hệ bi cần lồng, bạc, tải trước và hành trình; hệ trượt có khe hở và bôi trơn riêng."
+        }
+      },
+      {
+        "q": {
+          "zh": "定制导柱需要哪些图纸信息？",
+          "en": "What drawings are needed for custom guide posts?",
+          "vi": "Cần bản vẽ gì cho trụ tùy chỉnh?"
+        },
+        "a": {
+          "zh": "需明确安装径、导向径、总长、配合公差、材料/表面处理及与导套的配套关系；仅有参考照片通常不足以加工。",
+          "en": "Specify mounting and guide diameters, overall length, fits, material/surface and mating bushing; reference photos alone are usually insufficient.",
+          "vi": "Nêu đường kính lắp/dẫn, tổng dài, lắp ghép, vật liệu/bề mặt và bạc đi kèm; chỉ ảnh thường không đủ."
+        }
+      }
+    ]
+  },
+  "guide-bushings": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "滑动导套与滚珠导套如何区分选型？",
+          "en": "Plain vs ball bushings?",
+          "vi": "Bạc trượt và bạc bi?"
+        },
+        "a": {
+          "zh": "滑动导套靠内孔与导柱直接接触；滚珠导向需选滚珠导套/保持架系统。不能按外径直接替换。",
+          "en": "Plain types guide by sliding bore contact; rolling guidance needs ball bushings/cages—not interchangeable by OD.",
+          "vi": "Bạc trượt tiếp xúc trượt; dẫn bi cần hệ lăn—không đổi theo OD."
+        }
+      }
+    ]
+  },
+  "flanged-guide-bushings": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "法兰导套与带肩导套有何区别？",
+          "en": "Flange vs shoulder bushings?",
+          "vi": "Bích và vai khác gì?"
+        },
+        "a": {
+          "zh": "带肩导套靠肩部承靠板面定深；法兰导套通过法兰孔固定。两者解决轴向定位/固定，内孔导向要求相同。",
+          "en": "Shouldered types seat on the plate; flanged types bolt/clamp. Both locate axially; bore guidance requirements remain.",
+          "vi": "Vai tựa tấm; bích bắt vít. Cùng cần lỗ dẫn đúng trụ."
+        }
+      }
+    ]
+  },
+  "guide-sets": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "订购导柱导套组件应确认哪些参数？",
+          "en": "What to specify for guide sets?",
+          "vi": "Đặt bộ trụ-bạc cần gì?"
+        },
+        "a": {
+          "zh": "需成套给出安装孔距、闭合高度、有效行程、系列代号（滑动/滚珠）及润滑/预压要求。",
+          "en": "Provide hole spacing, closed height, travel, series (plain/ball) and lubrication/preload as a set.",
+          "vi": "Khoảng lỗ, cao đóng, hành trình, dòng trượt/bi và bôi trơn/tải trước theo bộ."
+        }
+      }
+    ]
+  },
+  "ball-cages": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "滚珠保持架能否代替普通导套？",
+          "en": "Can a ball cage replace a plain bushing?",
+          "vi": "Lồng bi thay bạc trượt được không?"
+        },
+        "a": {
+          "zh": "不能。保持架只定位滚珠，必须处于导柱与滚珠导套之间，与普通滑动导套功能不同。",
+          "en": "No. Cages retain balls between post and ball bushing; they are not plain sliding sleeves.",
+          "vi": "Không. Lồng giữ bi giữa trụ và bạc bi, không phải bạc trượt."
+        }
+      }
+    ]
+  },
+  "ball-bearing-bushings": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "滚珠导套订货是否包含导柱与保持架？",
+          "en": "Does a ball bushing order include post and cage?",
+          "vi": "Bạc bi có kèm trụ và lồng không?"
+        },
+        "a": {
+          "zh": "需按供货范围确认：有的订单仅含导套本体，保持架与导柱可能需另配同系列规格。",
+          "en": "Confirm scope: some lines supply the bushing body only; cage and post may be separate matched items.",
+          "vi": "Xác nhận phạm vi cung cấp; trụ và lồng có thể đặt riêng theo dòng."
+        }
+      }
+    ]
+  },
+  "rectangular-die-springs": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "模具弹簧能否只按颜色选载荷？",
+          "en": "Can die springs be chosen by color only?",
+          "vi": "Chọn lò xo chỉ theo màu được không?"
+        },
+        "a": {
+          "zh": "不能。颜色对应特定系列的习惯标识，必须先锁定系列与规格，再按力—行程曲线和允许压缩量选型。",
+          "en": "No. Colors map to a series convention—select by force–travel curve and allowable compression for the specified size.",
+          "vi": "Không. Màu theo dòng; chọn theo đường lực–hành trình và độ nén cho phép."
+        }
+      }
+    ]
+  },
+  "nitrogen-gas-springs": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "氮气弹簧与矩形模具弹簧有何不同？",
+          "en": "Gas vs rectangular die springs?",
+          "vi": "Lò xo khí và lò xo chữ nhật khác gì?"
+        },
+        "a": {
+          "zh": "氮气弹簧靠密封气体产生力，需按型号、初始力、行程与安装高度选型；矩形弹簧为机械压缩簧，选型逻辑不同。",
+          "en": "Gas units use sealed nitrogen force by model, initial force and stroke; rectangular springs are mechanical—different selection logic.",
+          "vi": "Khí theo model và lực/hành trình; lò xo chữ nhật là nén cơ khí—logic chọn khác."
+        }
+      }
+    ]
+  },
+  "graphite-bronze-bushings": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "石墨铜套与含油烧结轴套是否相同？",
+          "en": "Graphite bronze vs oil-impregnated bushings?",
+          "vi": "Graphite đồng và bạc ngậm dầu giống nhau?"
+        },
+        "a": {
+          "zh": "不同。石墨铜套靠嵌入固体润滑块；含油轴套依赖孔隙储油。工况、速度及维护方式需分别评估。",
+          "en": "Different mechanisms—solid plugs vs pore oil storage. Evaluate duty, speed and maintenance separately.",
+          "vi": "Khác cơ chế—nút rắn so với dầu trong lỗ. Đánh giá riêng."
+        }
+      }
+    ]
+  },
+  "bronze-bushings": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "普通铜套是否自润滑？",
+          "en": "Are plain bronze bushings self-lubricating?",
+          "vi": "Bạc đồng trơn có tự bôi trơn không?"
+        },
+        "a": {
+          "zh": "不一定。普通铜套需明确润滑方式（油槽、定期供油等）；自润滑通常指镶固体润滑结构或专门材料方案。",
+          "en": "Not automatically—define oil grooves or periodic lubrication; self-lubrication usually means solid plugs or a dedicated material system.",
+          "vi": "Không tự động—cần quy định bôi trơn; tự bôi thường là nút rắn hoặc giải pháp riêng."
+        }
+      }
+    ]
+  },
+  "flanged-bronze-bushings": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "法兰铜套如何同时满足径向与轴向需求？",
+          "en": "How do flanged bronze bushings handle radial and axial loads?",
+          "vi": "Bạc đồng bích chịu tải kính và dọc trục?"
+        },
+        "a": {
+          "zh": "内孔承担径向导向/载荷，法兰面可用于定位或承受轴向力；需分别说明两类工况及润滑面。",
+          "en": "The bore carries radial duty; the flange may locate or take thrust—specify both and lubricated faces.",
+          "vi": "Lỗ chịu tải kính; bích định vị hoặc chịu lực dọc—nêu riêng và mặt bôi trơn."
+        }
+      }
+    ]
+  },
+  "wear-plates": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "耐磨板与石墨铜套选型有何不同？",
+          "en": "Wear plates vs graphite bushings?",
+          "vi": "Tấm mòn và bạc graphite khác gì?"
+        },
+        "a": {
+          "zh": "耐磨板以平面滑动为主，关注接触面积、固定孔与滑板行程；铜套以孔轴配合为主。两者润滑布点方式不同。",
+          "en": "Plates serve flat sliding with bearing area and fasteners; bushings are bore/shaft pairs—lubrication layout differs.",
+          "vi": "Tấm trượt phẳng; bạc là cặp lỗ/trụ—bố trí bôi trơn khác."
+        }
+      }
+    ]
+  },
+  "precision-dowel-pins": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "圆柱销与紧固螺钉有何分工？",
+          "en": "Dowel pins vs fasteners?",
+          "vi": "Chốt trụ và bulong khác vai trò gì?"
+        },
+        "a": {
+          "zh": "圆柱销提供重复定位；夹紧力仍由螺栓/螺钉等紧固件承担。定位配合与紧固应分别定义。",
+          "en": "Pins locate for repeat assembly; clamping comes from bolts/screws. Define fit and fastening separately.",
+          "vi": "Chốt định vị lặp; lực kẹp do bulong. Lắp và kẹp quy định riêng."
+        }
+      }
+    ]
+  },
+  "threaded-dowel-pins": {
+    "faqOnly": true,
+    "extraFaqs": [
+      {
+        "q": {
+          "zh": "螺纹定位销的螺纹是否参与定位？",
+          "en": "Do threads on dowel pins locate the part?",
+          "vi": "Ren trên chốt có định vị không?"
+        },
+        "a": {
+          "zh": "定位通常由磨削圆柱段与孔配合保证；螺纹用于安装、拔出或保持，不应替代主要定位面。",
+          "en": "Location comes from the ground cylindrical fit; threads are for install, extraction or retention—not the primary datum.",
+          "vi": "Định vị bởi đoạn trụ mài; ren để lắp/rút, không thay mặt chuẩn chính."
         }
       }
     ]

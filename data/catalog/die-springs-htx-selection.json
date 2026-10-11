@@ -1,0 +1,106 @@
+{
+  "version": 1,
+  "group": "die-springs",
+  "entries": [
+    {
+      "sourceFile": "output/htx-sources/die-springs/rectangular-die-springs/source-01-Die-Springs-Mold-Springs-for-Stamping-Injection-Molds.png",
+      "productId": "rectangular-die-springs",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【矩形弹簧 · 品类主图】HTX 模具弹簧页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/die-springs/rectangular-die-springs/source-03-Yellow-Die-Springs-_E2_80_94-Extra-Light-Load.png",
+      "productId": "rectangular-die-springs",
+      "role": "detail",
+      "detailAssetId": "rectangular-die-springs--yellow",
+      "configurationIds": ["yellow"],
+      "variantNameZh": "黄色 · 超轻载",
+      "descriptionZh": "【矩形弹簧 · 黄色】HTX Yellow Die Springs。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/die-springs/rectangular-die-springs/source-04-Blue-Die-Springs-_E2_80_94-Light-Load.png",
+      "productId": "rectangular-die-springs",
+      "role": "detail",
+      "detailAssetId": "rectangular-die-springs--blue",
+      "configurationIds": ["blue"],
+      "variantNameZh": "蓝色 · 轻载",
+      "descriptionZh": "【矩形弹簧 · 蓝色】HTX Blue Die Springs。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/die-springs/rectangular-die-springs/source-05-Red-Die-Springs-_E2_80_94-Medium-Load.png",
+      "productId": "rectangular-die-springs",
+      "role": "detail",
+      "detailAssetId": "rectangular-die-springs--red",
+      "configurationIds": ["red"],
+      "variantNameZh": "红色 · 中载",
+      "descriptionZh": "【矩形弹簧 · 红色】HTX Red Die Springs。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/die-springs/rectangular-die-springs/source-06-Green-Die-Springs-_E2_80_94-Heavy-Load.png",
+      "productId": "rectangular-die-springs",
+      "role": "detail",
+      "detailAssetId": "rectangular-die-springs--green",
+      "configurationIds": ["green"],
+      "variantNameZh": "绿色 · 重载",
+      "descriptionZh": "【矩形弹簧 · 绿色】HTX Green Die Springs。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/die-springs/rectangular-die-springs/source-07-Brown-Die-Springs-_E2_80_94-Ultra-Heavy-Load.png",
+      "productId": "rectangular-die-springs",
+      "role": "detail",
+      "detailAssetId": "rectangular-die-springs--brown",
+      "configurationIds": ["brown"],
+      "variantNameZh": "棕色 · 超重载",
+      "descriptionZh": "【矩形弹簧 · 棕色】HTX Brown Die Springs。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/die-springs/nitrogen-gas-springs/source-08-Nitrogen-Gas-Springs.png",
+      "productId": "nitrogen-gas-springs",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【氮气弹簧 · 品类主图】HTX 氮气弹簧主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/die-springs/nitrogen-gas-springs/source-08-Nitrogen-Gas-Springs.png",
+      "productId": "nitrogen-gas-springs",
+      "role": "detail",
+      "detailAssetId": "nitrogen-gas-springs--compact",
+      "configurationIds": ["compact"],
+      "variantNameZh": "紧凑型氮气弹簧",
+      "descriptionZh": "【氮气弹簧 · 紧凑】HTX Nitrogen Gas Springs。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/die-springs/nitrogen-gas-springs/source-02-Mold-springs-die-springs-rectangular-springs.png",
+      "productId": "nitrogen-gas-springs",
+      "role": "detail",
+      "detailAssetId": "nitrogen-gas-springs--mounting",
+      "configurationIds": ["mounting"],
+      "variantNameZh": "安装附件与固定方式",
+      "descriptionZh": "【氮气弹簧 · 安装】HTX 弹簧系统安装示意。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/die-springs/nitrogen-gas-springs/source-13-How-to-Choose-a-Die-Spring_EF_BC_9F.png",
+      "productId": "nitrogen-gas-springs",
+      "role": "detail",
+      "detailAssetId": "nitrogen-gas-springs--replacement",
+      "configurationIds": ["replacement"],
+      "variantNameZh": "按型号替换",
+      "descriptionZh": "【氮气弹簧 · 选型】HTX 弹簧选型/替换说明。",
+      "status": "selected"
+    }
+  ]
+}

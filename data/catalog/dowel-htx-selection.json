@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "group": "dowel-pins",
+  "entries": [
+    {
+      "sourceFile": "output/htx-sources/dowel-pins/precision-dowel-pins/source-01-Dowel-Pins-Manufacturer-for-Precision-Positioning-and-Alignment.png",
+      "productId": "precision-dowel-pins",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【圆柱销 · 品类主图】HTX 圆柱销页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/dowel-pins/precision-dowel-pins/source-03-Precision-Dowel-Pins.png",
+      "productId": "precision-dowel-pins",
+      "role": "detail",
+      "detailAssetId": "precision-dowel-pins--ground",
+      "configurationIds": ["ground"],
+      "variantNameZh": "精密磨削圆柱销",
+      "descriptionZh": "【圆柱销 · 精密】HTX Precision Dowel Pins。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/dowel-pins/precision-dowel-pins/source-04-Hardened-Dowel-Pins.png",
+      "productId": "precision-dowel-pins",
+      "role": "detail",
+      "detailAssetId": "precision-dowel-pins--hardened",
+      "configurationIds": ["hardened"],
+      "variantNameZh": "淬硬圆柱销",
+      "descriptionZh": "【圆柱销 · 淬硬】HTX Hardened Dowel Pins。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/dowel-pins/precision-dowel-pins/source-07-Custom-Dowel-Pins.png",
+      "productId": "precision-dowel-pins",
+      "role": "detail",
+      "detailAssetId": "precision-dowel-pins--custom",
+      "configurationIds": ["custom"],
+      "variantNameZh": "定制长度与端部",
+      "descriptionZh": "【圆柱销 · 定制】HTX Custom Dowel Pins。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/dowel-pins/threaded-dowel-pins/source-01-Threaded-Dowel-Pins-Manufacturer-for-Precision-Positioning.png",
+      "productId": "threaded-dowel-pins",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【螺纹定位销 · 品类主图】HTX 螺纹销页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/dowel-pins/precision-dowel-pins/source-06-Pull-Dowel-Pins.png",
+      "productId": "threaded-dowel-pins",
+      "role": "detail",
+      "detailAssetId": "threaded-dowel-pins--pull",
+      "configurationIds": ["pull"],
+      "variantNameZh": "内螺纹拔出销",
+      "descriptionZh": "【螺纹销 · 拔出】HTX Pull Dowel Pins。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/dowel-pins/precision-dowel-pins/source-05-Threaded-Dowel-Pins.png",
+      "productId": "threaded-dowel-pins",
+      "role": "detail",
+      "detailAssetId": "threaded-dowel-pins--external",
+      "configurationIds": ["external"],
+      "variantNameZh": "外螺纹段定位销",
+      "descriptionZh": "【螺纹销 · 外螺纹】HTX Threaded Dowel Pins。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/dowel-pins/threaded-dowel-pins/source-04-Threaded-Dowel-Pin-Detail.png",
+      "productId": "threaded-dowel-pins",
+      "role": "detail",
+      "detailAssetId": "threaded-dowel-pins--units",
+      "configurationIds": ["units"],
+      "variantNameZh": "公英制替换与定制",
+      "descriptionZh": "【螺纹销 · 规格】HTX Threaded Dowel Pin Detail。",
+      "status": "selected"
+    }
+  ]
+}

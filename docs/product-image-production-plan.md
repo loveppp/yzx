@@ -2,7 +2,7 @@
 
 > 本文件由参考款式清单生成。当前阶段只重编提示词，不调用生图接口。旧图在线不表示新版已生成或已通过结构核实。
 
-本清单 67 个任务：13 个提示词完成，54 个待核实；新版已生成 6 个，已接入 5 个。
+本清单 67 个任务：13 个提示词完成，54 个待核实；新版已生成 6 个，已接入 0 个。
 
 ## 规则与分批顺序
 
@@ -683,7 +683,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 导柱 · guide-posts
 
-状态：已接入；现有图片：新版已接入。
+状态：已生成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/guide-components/guide-posts/
 类别共同特征：Every item belongs to Guide Posts & Pillars. Do not import adjacent product families to increase variety.
@@ -718,7 +718,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 滑动导套与钢导套 · guide-bushings
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/guide-components/guide-bushings/
 类别共同特征：Every item belongs to Plain & Steel Guide Bushings. Do not import adjacent product families to increase variety.
@@ -753,7 +753,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 法兰导套 · flanged-guide-bushings
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/guide-components/flanged-guide-bushings/
 类别共同特征：Every item belongs to Flanged Guide Bushings. Do not import adjacent product families to increase variety.
@@ -788,7 +788,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 导柱导套组件 · guide-sets
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、5 件（按完整套装分组）。当前仅为草稿，不可调用接口。
 位置：/zh/products/guide-components/guide-sets/
 类别共同特征：Every item belongs to Guide Post & Bushing Sets. Do not import adjacent product families to increase variety.
@@ -829,7 +829,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 滚珠保持架 · ball-cages
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/guide-components/ball-cages/
 类别共同特征：Every item belongs to Ball Cages & Retainers. Do not import adjacent product families to increase variety.
@@ -864,7 +864,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 滚珠导套 · ball-bearing-bushings
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/guide-components/ball-bearing-bushings/
 类别共同特征：Every item belongs to Ball Bearing Bushings. Do not import adjacent product families to increase variety.
@@ -899,7 +899,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 矩形模具弹簧 · rectangular-die-springs
 
-状态：已接入；现有图片：新版已接入。
+状态：已生成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/die-springs/rectangular-die-springs/
 类别共同特征：Every item belongs to Rectangular Die Springs. Do not import adjacent product families to increase variety.
@@ -934,7 +934,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 氮气弹簧 · nitrogen-gas-springs
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/die-springs/nitrogen-gas-springs/
 类别共同特征：Every item belongs to Nitrogen Gas Springs. Do not import adjacent product families to increase variety.
@@ -969,7 +969,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 石墨铜套 · graphite-bronze-bushings
 
-状态：已接入；现有图片：新版已接入。
+状态：已生成；现有图片：旧版保留、待替换。
 目标 3 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/bronze-components/graphite-bronze-bushings/
 类别共同特征：Every item belongs to Graphite Bronze Bushings. Do not import adjacent product families to increase variety.
@@ -1004,7 +1004,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 普通铜套 · bronze-bushings
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/bronze-components/bronze-bushings/
 类别共同特征：Every item belongs to Plain Bronze Bushings. Do not import adjacent product families to increase variety.
@@ -1039,7 +1039,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 法兰铜套 · flanged-bronze-bushings
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/bronze-components/flanged-bronze-bushings/
 类别共同特征：Every item belongs to Flanged Bronze Bushings. Do not import adjacent product families to increase variety.
@@ -1074,7 +1074,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 耐磨板与滑板 · wear-plates
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/bronze-components/wear-plates/
 类别共同特征：Every item belongs to Wear & Slide Plates. Do not import adjacent product families to increase variety.
@@ -1109,7 +1109,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 精密圆柱销 · precision-dowel-pins
 
-状态：已接入；现有图片：新版已接入。
+状态：已生成；现有图片：旧版保留、待替换。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/dowel-pins/precision-dowel-pins/
 类别共同特征：Every item belongs to Precision Dowel Pins. Do not import adjacent product families to increase variety.
@@ -1144,7 +1144,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 螺纹与拔出式定位销 · threaded-dowel-pins
 
-状态：待核实；现有图片：暂无。
+状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 2 款、2 件。当前仅为草稿，不可调用接口。
 位置：/zh/products/dowel-pins/threaded-dowel-pins/
 类别共同特征：Every item belongs to Threaded & Pull Dowel Pins. Do not import adjacent product families to increase variety.
@@ -1407,7 +1407,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 ### 直筒与法兰石墨铜套内孔 · graphite-bronze-bushings--working-bore
 
-状态：已接入；现有图片：新版已接入。
+状态：已生成；现有图片：暂无。
 目标 2 款；已定义 2 款、2 件。按已核实数量生成。
 位置：/zh/products/bronze-components/graphite-bronze-bushings/#configuration-cylindrical
 类别共同特征：Every item belongs to Graphite Bronze Bushings. Do not import adjacent product families to increase variety.

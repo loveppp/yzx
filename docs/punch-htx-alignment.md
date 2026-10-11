@@ -115,3 +115,25 @@ HTX 长图发布：`node scripts/htx/publish-family-section-images.mjs` → [`ca
 - `/zh/products/ejector-components/square-ejector-pins/`
 - `/zh/products/ejector-components/ejector-sleeves/`
 - `/zh/products/ejector-components/air-poppet-valves/`
+
+## Phase 2：导向 / 弹簧 / 轴套 / 定位销（14 品）
+
+与顶出相同流程：**HTX 源图 → selection JSON → detail 发布 → `crop-catalog-main-4x3.mjs`（4:3 主图）→ `htx-family-figure-rules.json` + `publish-family-section-images.mjs`**。列表/分组主图 **4:3**（`catalogProductMediaFrame`）；配置区仍为 **1:1**。
+
+| 分组 | selection 文件 | 品数 |
+| --- | --- | --- |
+| `guide-components` | `data/catalog/guide-htx-selection.json` | 6 |
+| `die-springs` | `data/catalog/die-springs-htx-selection.json` | 2 |
+| `bronze-components` | `data/catalog/bronze-htx-selection.json` | 4 |
+| `dowel-pins` | `data/catalog/dowel-htx-selection.json` | 2 |
+
+重跑示例：
+
+```bash
+node scripts/htx/publish-punch-from-retouch.mjs --htx --detail-only --selection data/catalog/guide-htx-selection.json
+node scripts/htx/crop-catalog-main-4x3.mjs --group guide-components --selection data/catalog/guide-htx-selection.json
+node scripts/htx/publish-family-section-images.mjs
+node scripts/prepare-catalog.mjs && node scripts/check-catalog.mjs
+```
+
+说明：`bronze-bushings` 无独立 HTX 品类页，主图/配置取自导向组件页中的青铜导套示意；`nitrogen-gas-springs` 配置图部分为 HTX 汇总页选型示意（无单独子页图时）。

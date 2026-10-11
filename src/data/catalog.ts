@@ -41,9 +41,17 @@ export const productPath = (p: CatalogProduct, locale: Locale) => `/${locale}/pr
 export const groupPath = (g: CatalogGroup, locale: Locale) => `/${locale}/products/${g.id}/`;
 export const productById = (id: string) => catalogProducts.find((p) => p.id === id);
 
-/** HTX 顶出横图主图为 4:3；冲针等为 1:1。 */
+const HTX_CATALOG_MAIN_4X3_GROUPS = new Set([
+  'ejector-components',
+  'guide-components',
+  'die-springs',
+  'bronze-components',
+  'dowel-pins',
+]);
+
+/** HTX 横 banner 主图为 4:3；冲针等为 1:1。 */
 export const catalogProductMediaFrame = (product: CatalogProduct): '4/3' | '1/1' =>
-  product.group === 'ejector-components' ? '4/3' : '1/1';
+  HTX_CATALOG_MAIN_4X3_GROUPS.has(product.group) ? '4/3' : '1/1';
 export function legacyDestination(target: string, locale: Locale) {
   const product = productById(target);
   return product ? productPath(product, locale) : `/${locale}/products/${target}/`;

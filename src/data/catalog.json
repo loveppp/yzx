@@ -845,14 +845,9 @@
       "sourceUrls": [
         "https://htxprecision.com/guide-pin/"
       ],
-      "image": "/images/products/catalog/guide-posts-2026-10-01T08-46-34-839Z.jpg",
+      "image": "/images/products/catalog/guide-posts-2026-10-08T17-30-30-331Z-4x3.jpg",
       "illustration": "/images/catalog/guide-posts.svg",
-      "imageGenerated": true,
-      "imageCaption": {
-        "zh": "注塑/冲压用直身导柱 / 卸料板用带肩导柱",
-        "en": "Straight mold guide post / Shouldered stripper guide pin",
-        "vi": "Trụ dẫn thẳng / Trụ dẫn vai tấm đẩy"
-      }
+      "imageGenerated": false
     },
     {
       "group": "guide-components",
@@ -901,8 +896,9 @@
       "sourceUrls": [
         "https://htxprecision.com/guide-bushing/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/guide-bushings.svg"
+      "image": "/images/products/catalog/guide-bushings-2026-10-08T17-30-30-331Z-4x3.jpg",
+      "illustration": "/images/catalog/guide-bushings.svg",
+      "imageGenerated": false
     },
     {
       "group": "guide-components",
@@ -946,8 +942,9 @@
       "sourceUrls": [
         "https://htxprecision.com/guide-pillar-and-guide-bush/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/flanged-guide-bushings.svg"
+      "image": "/images/products/catalog/flanged-guide-bushings-2026-10-08T17-30-30-331Z-4x3.png",
+      "illustration": "/images/catalog/flanged-guide-bushings.svg",
+      "imageGenerated": false
     },
     {
       "group": "guide-components",
@@ -996,8 +993,9 @@
       "sourceUrls": [
         "https://htxprecision.com/guide-pillar-and-guide-bush/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/guide-sets.svg"
+      "image": "/images/products/catalog/guide-sets-2026-10-08T17-30-30-331Z-4x3.png",
+      "illustration": "/images/catalog/guide-sets.svg",
+      "imageGenerated": false
     },
     {
       "group": "guide-components",
@@ -1050,8 +1048,9 @@
         "https://htxprecision.com/aluminum-ball-cage/",
         "https://htxprecision.com/plastic-ball-cage/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/ball-cages.svg"
+      "image": "/images/products/catalog/ball-cages-2026-10-08T17-30-30-331Z-4x3.jpg",
+      "illustration": "/images/catalog/ball-cages.svg",
+      "imageGenerated": false
     },
     {
       "group": "guide-components",
@@ -1094,8 +1093,9 @@
       "sourceUrls": [
         "https://htxprecision.com/Ball-bearing-bushing/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/ball-bearing-bushings.svg"
+      "image": "/images/products/catalog/ball-bearing-bushings-2026-10-08T17-30-30-331Z-4x3.png",
+      "illustration": "/images/catalog/ball-bearing-bushings.svg",
+      "imageGenerated": false
     },
     {
       "group": "die-springs",
@@ -1158,19 +1158,14 @@
         "https://htxprecision.com/yellow-die-spring/",
         "https://htxprecision.com/brown-die-spring/"
       ],
-      "image": "/images/products/catalog/rectangular-die-springs-2026-10-01T08-48-34-499Z.jpg",
+      "image": "/images/products/catalog/rectangular-die-springs-2026-10-08T17-30-31-805Z-4x3.png",
       "illustration": "/images/catalog/rectangular-die-springs.svg",
       "note": {
         "en": "*Color/load pairing shown for the referenced Japanese-style series. ISO and other series can use different colors; confirm the supplier load chart.",
         "zh": "*此处颜色与负荷对应参考日系系列；ISO 等其他系列的颜色定义可能不同，须以确认的系列及负荷表为准。",
         "vi": "*Màu và tải tham khảo dòng kiểu Nhật. ISO và dòng khác có thể dùng mã màu khác; cần xác nhận bảng tải."
       },
-      "imageGenerated": true,
-      "imageCaption": {
-        "zh": "矩形截面压缩弹簧 / 带磨平端头矩形弹簧",
-        "en": "Rectangular-wire die spring / Rectangular spring with ground ends",
-        "vi": "Lò xo dập tiết diện chữ nhật / Lò xo có mài đầu"
-      }
+      "imageGenerated": false
     },
     {
       "group": "die-springs",
@@ -1218,8 +1213,9 @@
       "sourceUrls": [
         "https://htxprecision.com/die-springs-mold-springs/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/nitrogen-gas-springs.svg"
+      "image": "/images/products/catalog/nitrogen-gas-springs-2026-10-08T17-30-31-805Z-4x3.png",
+      "illustration": "/images/catalog/nitrogen-gas-springs.svg",
+      "imageGenerated": false
     },
     {
       "group": "bronze-components",
@@ -1267,14 +1263,9 @@
       "sourceUrls": [
         "https://htxprecision.com/graphite-bronze-bushings/"
       ],
-      "image": "/images/products/catalog/graphite-bronze-bushings-2026-10-01T08-43-26-693Z.jpg",
+      "image": "/images/products/catalog/graphite-bronze-bushings-2026-10-08T17-30-32-955Z-4x3.jpg",
       "illustration": "/images/catalog/graphite-bronze-bushings.svg",
-      "imageGenerated": true,
-      "imageCaption": {
-        "zh": "直筒石墨铜套 / 法兰石墨铜套",
-        "en": "Cylindrical graphite bronze bushing / Flanged graphite bronze bushing",
-        "vi": "Bạc đồng graphite dạng trụ / Bạc đồng graphite có bích"
-      }
+      "imageGenerated": false
     },
     {
       "group": "bronze-components",
@@ -1318,8 +1309,9 @@
       "sourceUrls": [
         "https://htxprecision.com/guide-pillar-and-guide-bush/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/bronze-bushings.svg"
+      "image": "/images/products/catalog/bronze-bushings-2026-10-08T17-30-32-955Z-4x3.png",
+      "illustration": "/images/catalog/bronze-bushings.svg",
+      "imageGenerated": false
     },
     {
       "group": "bronze-components",
@@ -1363,8 +1355,9 @@
       "sourceUrls": [
         "https://htxprecision.com/graphite-bronze-bushings/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/flanged-bronze-bushings.svg"
+      "image": "/images/products/catalog/flanged-bronze-bushings-2026-10-08T17-30-32-955Z-4x3.jpg",
+      "illustration": "/images/catalog/flanged-bronze-bushings.svg",
+      "imageGenerated": false
     },
     {
       "group": "bronze-components",
@@ -1408,8 +1401,9 @@
       "sourceUrls": [
         "https://htxprecision.com/graphite-bronze-bushings/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/wear-plates.svg"
+      "image": "/images/products/catalog/wear-plates-2026-10-08T17-30-32-955Z-4x3.jpg",
+      "illustration": "/images/catalog/wear-plates.svg",
+      "imageGenerated": false
     },
     {
       "group": "dowel-pins",
@@ -1459,14 +1453,9 @@
       "sourceUrls": [
         "https://htxprecision.com/dowel-pins/"
       ],
-      "image": "/images/products/catalog/precision-dowel-pins-2026-10-01T08-52-38-277Z.jpg",
+      "image": "/images/products/catalog/precision-dowel-pins-2026-10-08T17-30-35-327Z-4x3.png",
       "illustration": "/images/catalog/precision-dowel-pins.svg",
-      "imageGenerated": true,
-      "imageCaption": {
-        "zh": "双倒角圆柱销 / 单端倒角定位销",
-        "en": "Double-chamfer dowel / Single-chamfer locating pin",
-        "vi": "Chốt trụ hai vát / Chốt trụ một vát"
-      }
+      "imageGenerated": false
     },
     {
       "group": "dowel-pins",
@@ -1517,8 +1506,9 @@
         "https://htxprecision.com/threaded-dowel-pins/",
         "https://htxprecision.com/dowel-pins/"
       ],
-      "image": null,
-      "illustration": "/images/catalog/threaded-dowel-pins.svg"
+      "image": "/images/products/catalog/threaded-dowel-pins-2026-10-08T17-30-35-327Z-4x3.png",
+      "illustration": "/images/catalog/threaded-dowel-pins.svg",
+      "imageGenerated": false
     }
   ]
 }

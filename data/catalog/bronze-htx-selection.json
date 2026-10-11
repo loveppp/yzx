@@ -1,0 +1,136 @@
+{
+  "version": 1,
+  "group": "bronze-components",
+  "entries": [
+    {
+      "sourceFile": "output/htx-sources/bronze-components/graphite-bronze-bushings/source-01-Graphite-Bronze-Bushings-Manufacturer-1.jpg",
+      "productId": "graphite-bronze-bushings",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【石墨铜套 · 品类主图】HTX 石墨铜套页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/graphite-bronze-bushings/source-02-1-Cylindrical-Graphite-Bronze-Bushings.jpg",
+      "productId": "graphite-bronze-bushings",
+      "role": "detail",
+      "detailAssetId": "graphite-bronze-bushings--cylindrical",
+      "configurationIds": ["cylindrical"],
+      "variantNameZh": "圆筒石墨铜套",
+      "descriptionZh": "【石墨铜套 · 圆筒】HTX Cylindrical Graphite Bronze Bushings。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/graphite-bronze-bushings/source-03-2-Flanged-Graphite-Bronze-Bushings.jpg",
+      "productId": "graphite-bronze-bushings",
+      "role": "detail",
+      "detailAssetId": "graphite-bronze-bushings--flange",
+      "configurationIds": ["flange"],
+      "variantNameZh": "法兰石墨铜套",
+      "descriptionZh": "【石墨铜套 · 法兰】HTX Flanged Graphite Bronze Bushings。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/graphite-bronze-bushings/source-04-3-Square-Graphite-Bronze-Bushings.jpg",
+      "productId": "graphite-bronze-bushings",
+      "role": "detail",
+      "detailAssetId": "graphite-bronze-bushings--square",
+      "configurationIds": ["square"],
+      "variantNameZh": "方形与定制石墨导向块",
+      "descriptionZh": "【石墨铜套 · 方形】HTX Square Graphite Bronze Bushings。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/bronze-bushings/source-03-2-Bronze-Guide-Bushings.png",
+      "productId": "bronze-bushings",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【普通铜套 · 品类主图】HTX 青铜导套示意。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/bronze-bushings/source-04-3-Precision-Guide-Bushings.png",
+      "productId": "bronze-bushings",
+      "role": "detail",
+      "detailAssetId": "bronze-bushings--plain",
+      "configurationIds": ["plain"],
+      "variantNameZh": "光孔铜套",
+      "descriptionZh": "【普通铜套 · 光孔】HTX Precision Guide Bushings（滑动铜套）。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/bronze-bushings/source-03-2-Bronze-Guide-Bushings.png",
+      "productId": "bronze-bushings",
+      "role": "detail",
+      "detailAssetId": "bronze-bushings--grooved",
+      "configurationIds": ["grooved"],
+      "variantNameZh": "带油槽铜套",
+      "descriptionZh": "【普通铜套 · 油槽】HTX Bronze Guide Bushings。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/flanged-bronze-bushings/source-03-2-Flanged-Graphite-Bronze-Bushings.jpg",
+      "productId": "flanged-bronze-bushings",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【法兰铜套 · 品类主图】HTX 法兰石墨铜套主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/flanged-bronze-bushings/source-03-2-Flanged-Graphite-Bronze-Bushings.jpg",
+      "productId": "flanged-bronze-bushings",
+      "role": "detail",
+      "detailAssetId": "flanged-bronze-bushings--plain",
+      "configurationIds": ["plain"],
+      "variantNameZh": "普通法兰铜套",
+      "descriptionZh": "【法兰铜套 · 法兰】HTX Flanged Graphite Bronze Bushings。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/flanged-bronze-bushings/source-02-1-Cylindrical-Graphite-Bronze-Bushings.jpg",
+      "productId": "flanged-bronze-bushings",
+      "role": "detail",
+      "detailAssetId": "flanged-bronze-bushings--plugged",
+      "configurationIds": ["plugged"],
+      "variantNameZh": "镶固体润滑法兰铜套",
+      "descriptionZh": "【法兰铜套 · 固体润滑】HTX Cylindrical Graphite Bronze Bushings。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/wear-plates/source-05-4-Graphite-Bronze-Wear-Plates-Slide-Plates.jpg",
+      "productId": "wear-plates",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【耐磨板 · 品类主图】HTX 石墨耐磨板主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/wear-plates/source-05-4-Graphite-Bronze-Wear-Plates-Slide-Plates.jpg",
+      "productId": "wear-plates",
+      "role": "detail",
+      "detailAssetId": "wear-plates--graphite",
+      "configurationIds": ["graphite"],
+      "variantNameZh": "镶石墨耐磨板",
+      "descriptionZh": "【耐磨板 · 石墨】HTX Graphite Wear Plates。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/bronze-components/wear-plates/source-04-3-Square-Graphite-Bronze-Bushings.jpg",
+      "productId": "wear-plates",
+      "role": "detail",
+      "detailAssetId": "wear-plates--oil",
+      "configurationIds": ["oil"],
+      "variantNameZh": "油槽滑板",
+      "descriptionZh": "【耐磨板 · 滑板】HTX 方形石墨块/滑板示意。",
+      "status": "selected"
+    }
+  ]
+}

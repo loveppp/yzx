@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "group": "guide-components",
+  "entries": [
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-posts/source-01-Guide-Pins-Manufacturer-1.jpg",
+      "productId": "guide-posts",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【导柱 · 品类主图】HTX 导柱页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-posts/source-03-2-Guide-Pins-Injection-Molding.jpg",
+      "productId": "guide-posts",
+      "role": "detail",
+      "detailAssetId": "guide-posts--mold",
+      "configurationIds": ["mold"],
+      "variantNameZh": "模架与注塑模导柱",
+      "descriptionZh": "【导柱 · 注塑模导柱】HTX Injection Molding Guide Pins。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-posts/source-02-1-Stripper-Guide-Pin.jpg",
+      "productId": "guide-posts",
+      "role": "detail",
+      "detailAssetId": "guide-posts--stripper",
+      "configurationIds": ["stripper"],
+      "variantNameZh": "卸料板导柱",
+      "descriptionZh": "【导柱 · 卸料板导柱】HTX Stripper Guide Pin。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-sets/source-02-1-Ball-Guide-Posts.png",
+      "productId": "guide-posts",
+      "role": "detail",
+      "detailAssetId": "guide-posts--rolling",
+      "configurationIds": ["rolling"],
+      "variantNameZh": "滚珠导向用导柱",
+      "descriptionZh": "【导柱 · 滚珠导向】HTX Ball Guide Posts。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-posts/source-09-Materials-Surface-Treatment-of-HTX-Guide-Pins-1.jpg",
+      "productId": "guide-posts",
+      "role": "detail",
+      "detailAssetId": "guide-posts--nitrided",
+      "configurationIds": ["nitrided"],
+      "variantNameZh": "氮化与表面强化导柱",
+      "descriptionZh": "【导柱 · 材料与表面处理】HTX 导柱材料/氮化选项示意。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-bushings/source-01-Guide-Bushings-Manufacturer-1.jpg",
+      "productId": "guide-bushings",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【导套 · 品类主图】HTX 导套页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-bushings/source-02-1-Standard-Guide-Bushings.jpg",
+      "productId": "guide-bushings",
+      "role": "detail",
+      "detailAssetId": "guide-bushings--straight",
+      "configurationIds": ["straight"],
+      "variantNameZh": "直身滑动导套",
+      "descriptionZh": "【导套 · 标准导套】HTX Standard Guide Bushings。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-bushings/source-03-2-Stripper-Guide-Bushings.jpg",
+      "productId": "guide-bushings",
+      "role": "detail",
+      "detailAssetId": "guide-bushings--stripper",
+      "configurationIds": ["stripper"],
+      "variantNameZh": "卸料板导套",
+      "descriptionZh": "【导套 · 卸料板导套】HTX Stripper Guide Bushings。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-bushings/source-05-4-Guided-Ejector-Bushings.jpg",
+      "productId": "guide-bushings",
+      "role": "detail",
+      "detailAssetId": "guide-bushings--ejector",
+      "configurationIds": ["ejector"],
+      "variantNameZh": "顶出系统导套",
+      "descriptionZh": "【导套 · 顶出导向导套】HTX Guided Ejector Bushings。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/flanged-guide-bushings/source-01-High-Precision-Guide-Pillar-And-Guide-Bush-Manufacturer.png",
+      "productId": "flanged-guide-bushings",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【法兰导套 · 品类主图】HTX 导柱导套组件页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/flanged-guide-bushings/source-05-4-Shouldered-Guide-Posts.png",
+      "productId": "flanged-guide-bushings",
+      "role": "detail",
+      "detailAssetId": "flanged-guide-bushings--shoulder",
+      "configurationIds": ["shoulder"],
+      "variantNameZh": "带肩导套",
+      "descriptionZh": "【法兰导套 · 带肩】HTX Shouldered Guide Posts。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/flanged-guide-bushings/source-04-3-Precision-Guide-Bushings.png",
+      "productId": "flanged-guide-bushings",
+      "role": "detail",
+      "detailAssetId": "flanged-guide-bushings--flange",
+      "configurationIds": ["flange"],
+      "variantNameZh": "法兰固定导套",
+      "descriptionZh": "【法兰导套 · 精密导套】HTX Precision Guide Bushings。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/flanged-guide-bushings/source-06-5-Custom-Guide-Post-Assemblies.png",
+      "productId": "flanged-guide-bushings",
+      "role": "detail",
+      "detailAssetId": "flanged-guide-bushings--custom",
+      "configurationIds": ["custom"],
+      "variantNameZh": "定制内孔与润滑",
+      "descriptionZh": "【法兰导套 · 定制】HTX Custom Guide Post Assemblies。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-sets/source-01-High-Precision-Guide-Pillar-And-Guide-Bush-Manufacturer.png",
+      "productId": "guide-sets",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【导柱导套组件 · 品类主图】HTX 组件页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-sets/source-24-SRP-Guide-Post-Guide-Bush.png",
+      "productId": "guide-sets",
+      "role": "detail",
+      "detailAssetId": "guide-sets--sliding",
+      "configurationIds": ["sliding"],
+      "variantNameZh": "滑动导向组件",
+      "descriptionZh": "【组件 · 滑动】HTX SRP 滑动导向系列。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-sets/source-22-TRP-Guide-Post-Guide-Bush.png",
+      "productId": "guide-sets",
+      "role": "detail",
+      "detailAssetId": "guide-sets--ball",
+      "configurationIds": ["ball"],
+      "variantNameZh": "滚珠导向组件",
+      "descriptionZh": "【组件 · 滚珠】HTX TRP 滚珠导向系列。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/guide-sets/source-06-5-Custom-Guide-Post-Assemblies.png",
+      "productId": "guide-sets",
+      "role": "detail",
+      "detailAssetId": "guide-sets--assembly",
+      "configurationIds": ["assembly"],
+      "variantNameZh": "定制安装总成",
+      "descriptionZh": "【组件 · 定制总成】HTX Custom Guide Post Assemblies。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/ball-cages/source-01-Precision-ball-cage-installed-between-guide-pillar-and-guide-bushings-for-mold-g",
+      "productId": "ball-cages",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【滚珠保持架 · 品类主图】HTX 保持架页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/ball-cages/source-02-Brass-Ball-Cage.png",
+      "productId": "ball-cages",
+      "role": "detail",
+      "detailAssetId": "ball-cages--brass",
+      "configurationIds": ["brass"],
+      "variantNameZh": "黄铜滚珠保持架",
+      "descriptionZh": "【保持架 · 黄铜】HTX Brass Ball Cage。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/ball-cages/source-03-Aluminum-Ball-Cage.png",
+      "productId": "ball-cages",
+      "role": "detail",
+      "detailAssetId": "ball-cages--aluminum",
+      "configurationIds": ["aluminum"],
+      "variantNameZh": "铝合金滚珠保持架",
+      "descriptionZh": "【保持架 · 铝】HTX Aluminum Ball Cage。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/ball-cages/source-04-Plastic-Ball-Cage.png",
+      "productId": "ball-cages",
+      "role": "detail",
+      "detailAssetId": "ball-cages--polymer",
+      "configurationIds": ["polymer"],
+      "variantNameZh": "工程塑料滚珠保持架",
+      "descriptionZh": "【保持架 · 塑料】HTX Plastic Ball Cage。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/ball-bearing-bushings/source-01-Ball-Bearing-Bushing-Manufacturer-for-Precision-Mold-Guide-Systems.png",
+      "productId": "ball-bearing-bushings",
+      "role": "catalog-main",
+      "detailAssetId": null,
+      "configurationIds": [],
+      "variantNameZh": "品类主图",
+      "descriptionZh": "【滚珠导套 · 品类主图】HTX 滚珠导套页主图。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/ball-bearing-bushings/source-02-Guide-Post-Enters-the-Bushing.png",
+      "productId": "ball-bearing-bushings",
+      "role": "detail",
+      "detailAssetId": "ball-bearing-bushings--unit",
+      "configurationIds": ["unit"],
+      "variantNameZh": "滚动导向单元",
+      "descriptionZh": "【滚珠导套 · 单元】HTX 滚珠导套工作原理示意。",
+      "status": "selected"
+    },
+    {
+      "sourceFile": "output/htx-sources/guide-components/ball-bearing-bushings/source-18-Guide-Pillar-and-Bushing-1.jpg",
+      "productId": "ball-bearing-bushings",
+      "role": "detail",
+      "detailAssetId": "ball-bearing-bushings--matched",
+      "configurationIds": ["matched"],
+      "variantNameZh": "配套导柱与总成",
+      "descriptionZh": "【滚珠导套 · 配套】HTX 导柱导套配套。",
+      "status": "selected"
+    }
+  ]
+}

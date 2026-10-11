@@ -40,7 +40,14 @@ export const familyExtrasFor = (productId: string): FamilyPageExtras | undefined
 export const familyHidesConfigurations = (productId: string) => Boolean(extras[productId]?.hideConfigurations);
 
 /** HTX 对齐详情：长内容模板 + 页内锚点（按组逐步启用，需 catalog-family-extras 有条目） */
-const HTX_LONGFORM_GROUPS = new Set(['punch-components', 'ejector-components']);
+const HTX_LONGFORM_GROUPS = new Set([
+  'punch-components',
+  'ejector-components',
+  'guide-components',
+  'die-springs',
+  'bronze-components',
+  'dowel-pins',
+]);
 
 export const isHtxFamilyLongformProduct = (productId: string, groupId: string) =>
   HTX_LONGFORM_GROUPS.has(groupId) && Boolean(extras[productId]);
