@@ -51,9 +51,7 @@ const tx = (value: Parameters<typeof catalogText>[0]) => catalogText(value, loca
                             loading="lazy"
                             class="h-full w-full"
                             objectFit="contain"
-                            watermark={shouldShowDisplayWatermark(asset.image, {
-                              catalogGroupId: product.group,
-                            })}
+                            watermark={shouldShowDisplayWatermark(asset.image)}
                           />
                         </div>
                       </figure>

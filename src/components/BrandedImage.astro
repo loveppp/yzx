@@ -39,9 +39,29 @@ const {
       <img
         src="/images/brand/logo-watermark.svg"
         alt=""
-        class="pointer-events-none absolute bottom-[2.5%] right-[2.5%] h-auto w-[22%] max-w-[10.5rem] min-w-[4.5rem] opacity-[0.65]"
+        class="branded-image__wm pointer-events-none absolute bottom-[2.5%] right-[2.5%] h-auto min-w-0 opacity-[0.68]"
         aria-hidden="true"
       />
     )
   }
 </div>
+
+<style>
+  /* Smaller on narrow viewports; % is of frame, capped so detail pages stay subtle */
+  .branded-image__wm {
+    width: 18%;
+    max-width: 4.25rem;
+  }
+  @media (min-width: 640px) {
+    .branded-image__wm {
+      width: 20%;
+      max-width: 5.25rem;
+    }
+  }
+  @media (min-width: 768px) {
+    .branded-image__wm {
+      width: 22%;
+      max-width: 6.5rem;
+    }
+  }
+</style>

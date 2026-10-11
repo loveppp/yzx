@@ -33,7 +33,12 @@ const customExamples = [
 ].map(item=>{
   const asset=detailMedia.assets.find(a=>a.id===item.assetId);
   const product=productById(asset?.productId??item.fallback)!;
-  return {image:asset?.image??product.image??product.illustration,name:catalogText(asset?.name??product.name,locale),href:productPath(product,locale)+(asset?`#configuration-${asset.configurationIds[0]}`:'')};
+  return {
+    image: asset?.image ?? product.image ?? product.illustration,
+    name: catalogText(asset?.name ?? product.name, locale),
+    href: productPath(product, locale) + (asset ? `#configuration-${asset.configurationIds[0]}` : ''),
+    catalogGroupId: product.group,
+  };
 });
 ---
 

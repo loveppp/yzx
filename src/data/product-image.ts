@@ -3,39 +3,29 @@ export function isRasterPublicImage(src: string): boolean {
   return /\.(jpe?g|png|webp)$/i.test(src.split('?')[0] ?? '');
 }
 
-/** Files already watermarked by publish scripts (see scripts/watermark/lib.mjs). */
-const BAKED_WATERMARK_PREFIXES = [
-  '/images/home/',
-  '/images/products/family-sections/',
-] as const;
-
-function isPunchPublishedProductImage(path: string): boolean {
-  return (
-    path.startsWith('/images/products/catalog/') ||
-    path.startsWith('/images/products/details/')
-  );
-}
-
-export function hasBakedProductWatermark(
-  src: string,
-  options?: { catalogGroupId?: string },
-): boolean {
+/** Infer catalog product id from public filename (catalog + details paths). */
+export function productIdFromPublicImagePath(src: string): string | null {
   const path = src.split('?')[0] ?? '';
-  if (BAKED_WATERMARK_PREFIXES.some((prefix) => path.startsWith(prefix))) return true;
-  // Punch retouch publish bakes watermark into catalog + configuration images.
-  if (
-    options?.catalogGroupId === 'punch-components' &&
-    isPunchPublishedProductImage(path)
-  ) {
-    return true;
+  const name = path.split('/').pop() ?? '';
+  if (path.includes('/products/details/')) {
+    const m = name.match(/^([a-z0-9]+(?:-[a-z0-9]+)*)--/);
+    return m?.[1] ?? null;
   }
-  return false;
+  if (path.includes('/products/catalog/')) {
+    const m = name.match(/^([a-z0-9]+(?:-[a-z0-9]+)*)-20\d{2}-/);
+    return m?.[1] ?? null;
+  }
+  return null;
 }
 
-/** CSS overlay only where the file on disk has no baked watermark. */
-export function shouldShowDisplayWatermark(
-  src: string,
-  options?: { catalogGroupId?: string },
-): boolean {
-  return isRasterPublicImage(src) && !hasBakedProductWatermark(src, options);
+/**
+ * Site-wide display watermark (BrandedImage). Product files stay clean — no baked logo in PNG/JPG.
+ */
+export function shouldShowDisplayWatermark(src: string): boolean {
+  return isRasterPublicImage(src);
+}
+
+/** @deprecated All rasters use CSS overlay; kept for callers passing options. */
+export function hasBakedProductWatermark(_src: string): boolean {
+  return false;
 }

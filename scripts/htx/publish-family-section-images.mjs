@@ -1,5 +1,5 @@
 /**
- * Publish HTX long-form detail section images (application, materials, icons) with watermark.
+ * Publish HTX long-form detail section images (application, materials, icons); site CSS watermark.
  *
  *   node scripts/htx/publish-family-section-images.mjs
  */
@@ -7,13 +7,10 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import sharp from 'sharp';
-import {readWatermarkSvg, watermarkImageBytes} from '../watermark/lib.mjs';
-
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const rulesPath = path.join(root, 'data/catalog/htx-family-figure-rules.json');
 const outJsonPath = path.join(root, 'src/data/catalog-family-figures.json');
 const rules = JSON.parse(await fs.readFile(rulesPath, 'utf8'));
-const watermarkSvg = await readWatermarkSvg(root);
 const stamp = new Date().toISOString().replace(/[:.]/g, '-');
 
 /** @param {string[]} dirs @param {string} needle */
@@ -35,8 +32,6 @@ async function findSourceFile(dirs, needle) {
 async function publishFigure(productId, role, absSource) {
   const bytes = await fs.readFile(absSource);
   const meta = await sharp(bytes).metadata();
-  const minDim = Math.min(meta.width ?? 0, meta.height ?? 0);
-  const skipWatermark = minDim < 360;
   let ext = path.extname(absSource).slice(1).toLowerCase();
   if (!ext) {
     ext = meta.format === 'jpeg' ? 'jpg' : meta.format ?? 'jpg';
@@ -45,15 +40,7 @@ async function publishFigure(productId, role, absSource) {
   const publicPath = `/images/products/family-sections/${productId}--${role}-${stamp}.${useExt}`;
   const dest = path.join(root, 'public', publicPath);
   await fs.mkdir(path.dirname(dest), {recursive: true});
-  let outBytes = bytes;
-  if (!skipWatermark) {
-    try {
-      outBytes = await watermarkImageBytes(bytes, watermarkSvg);
-    } catch {
-      outBytes = bytes;
-    }
-  }
-  await fs.writeFile(dest, outBytes);
+  await fs.writeFile(dest, bytes);
   return publicPath;
 }
 

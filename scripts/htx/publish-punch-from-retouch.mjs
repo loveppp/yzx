@@ -1,5 +1,5 @@
 /**
- * Publish punch selection images to catalog.json + catalog-detail-media.json (with watermark).
+ * Publish punch selection images to catalog.json + catalog-detail-media.json (clean files; site CSS watermark).
  *
  *   node scripts/htx/publish-punch-from-retouch.mjs --htx      # HTX source files (default)
  *   node scripts/htx/publish-punch-from-retouch.mjs --retouch  # Terrakinc retouched files
@@ -8,8 +8,6 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import sharp from 'sharp';
-import {readWatermarkSvg, watermarkImageBytes} from '../watermark/lib.mjs';
-
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const useRetouch = process.argv.includes('--retouch');
 const catalogMainOnly = process.argv.includes('--catalog-main-only');
@@ -24,7 +22,6 @@ const catalogPath = path.join(root, 'src/data/catalog.json');
 const mediaPath = path.join(root, 'src/data/catalog-detail-media.json');
 const catalog = JSON.parse(await fs.readFile(catalogPath, 'utf8'));
 const media = JSON.parse(await fs.readFile(mediaPath, 'utf8'));
-const watermarkSvg = await readWatermarkSvg(root);
 const stamp = new Date().toISOString().replace(/[:.]/g, '-');
 
 /** @type {Map<string, string>} sourceFile -> relative path to image bytes */
@@ -62,15 +59,7 @@ async function publishTo(publicDir, fileName, relImage) {
   const publicPath = `/images/products/${publicDir}/${fileName}-${stamp}.${useExt}`;
   const dest = path.join(root, 'public', publicPath);
   await fs.mkdir(path.dirname(dest), {recursive: true});
-  let outBytes = bytes;
-  if (useRetouch) {
-    try {
-      outBytes = await watermarkImageBytes(bytes, watermarkSvg);
-    } catch {
-      outBytes = bytes;
-    }
-  }
-  await fs.writeFile(dest, outBytes);
+  await fs.writeFile(dest, bytes);
   return publicPath;
 }
 
