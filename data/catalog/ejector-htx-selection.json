@@ -143,13 +143,13 @@
       "status": "selected"
     },
     {
-      "sourceFile": "output/htx-sources/ejector-components/blade-ejector-pins/source-10-Standard-Blade-Ejector-Pin.png",
+      "sourceFile": "output/htx-sources/ejector-components/blade-ejector-pins/source-02-Standard-solutions.jpg",
       "productId": "blade-ejector-pins",
       "role": "detail",
       "detailAssetId": "blade-ejector-pins--flat",
       "configurationIds": ["flat"],
-      "variantNameZh": "平端扁顶针",
-      "descriptionZh": "【扁顶针 · 标准扁顶针】HTX 标准扁顶针。",
+      "variantNameZh": "标准方案",
+      "descriptionZh": "【扁顶针 · 标准方案】HTX Standard Solutions。",
       "status": "selected"
     },
     {
@@ -158,8 +158,8 @@
       "role": "detail",
       "detailAssetId": "blade-ejector-pins--contoured",
       "configurationIds": ["contoured"],
-      "variantNameZh": "成型端面扁顶针",
-      "descriptionZh": "【扁顶针 · 定制方案】HTX 定制扁顶针。",
+      "variantNameZh": "定制方案",
+      "descriptionZh": "【扁顶针 · 定制方案】HTX Custom Solutions。",
       "status": "selected"
     },
     {
@@ -168,8 +168,8 @@
       "role": "detail",
       "detailAssetId": "blade-ejector-pins--custom",
       "configurationIds": ["custom"],
-      "variantNameZh": "非标截面与处理",
-      "descriptionZh": "【扁顶针 · 材料选项】HTX 材料选项示意。",
+      "variantNameZh": "材料选项",
+      "descriptionZh": "【扁顶针 · 材料选项】HTX Material Options。",
       "status": "selected"
     },
     {
@@ -186,30 +186,30 @@
       "sourceFile": "output/htx-sources/ejector-components/square-ejector-pins/source-02-Standard-Square-Ejector-Pins.jpg",
       "productId": "square-ejector-pins",
       "role": "detail",
-      "detailAssetId": "square-ejector-pins--square",
-      "configurationIds": ["square"],
-      "variantNameZh": "方形工作段",
-      "descriptionZh": "【方顶针 · 标准方顶针】HTX 标准方顶针。",
+      "detailAssetId": "square-ejector-pins--standard",
+      "configurationIds": ["standard"],
+      "variantNameZh": "标准方顶针",
+      "descriptionZh": "【方顶针 · 标准】HTX Standard Square Ejector Pins。",
       "status": "selected"
     },
     {
       "sourceFile": "output/htx-sources/ejector-components/square-ejector-pins/source-03-2-Custom-Square-Ejector-Pins.jpg",
       "productId": "square-ejector-pins",
       "role": "detail",
-      "detailAssetId": "square-ejector-pins--transition",
-      "configurationIds": ["transition"],
-      "variantNameZh": "圆杆转方端",
-      "descriptionZh": "【方顶针 · 定制方顶针】HTX 定制方顶针。",
+      "detailAssetId": "square-ejector-pins--custom",
+      "configurationIds": ["custom"],
+      "variantNameZh": "定制方顶针",
+      "descriptionZh": "【方顶针 · 定制】HTX Custom Square Ejector Pins。",
       "status": "selected"
     },
     {
-      "sourceFile": "output/htx-sources/ejector-components/square-ejector-pins/source-05-Lock-Rotation.png",
+      "sourceFile": "output/htx-sources/ejector-components/square-ejector-pins/source-04-Diverse-Material-Options.jpg",
       "productId": "square-ejector-pins",
       "role": "detail",
-      "detailAssetId": "square-ejector-pins--profile",
-      "configurationIds": ["profile"],
-      "variantNameZh": "定制端面与耐磨处理",
-      "descriptionZh": "【方顶针 · 止转顶出】HTX 止转应用示意。",
+      "detailAssetId": "square-ejector-pins--material",
+      "configurationIds": ["material"],
+      "variantNameZh": "材料选项",
+      "descriptionZh": "【方顶针 · 材料】HTX Diverse Material Options。",
       "status": "selected"
     },
     {

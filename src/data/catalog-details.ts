@@ -25,4 +25,5 @@ export const detailUI={
  applicationArea:l('应用领域|Application areas|Lĩnh vực ứng dụng'),
  applicationScenario:l('应用场景|Application scenarios|Kịch bản sử dụng'),
  whyHighlights:l('系列优势要点|Family highlights|Điểm mạnh dòng'),
+ familyAdvantage:l('系列优势|Advantages|Ưu điểm'),
 };

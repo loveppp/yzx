@@ -9,6 +9,8 @@ export interface FamilyFigures {
     surfaceFigure: string;
     whyBanner: string;
     processFigure: string;
+    /** HTX「优势」图文块侧栏图（如方顶针圆针/方针对比） */
+    advantagesFigure: string;
   }>;
   highlightIcons: string[];
   applicationTiles: string[];

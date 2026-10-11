@@ -13,16 +13,6 @@
       "status": "selected"
     },
     {
-      "sourceFile": "output/htx-sources/guide-components/guide-posts/source-03-2-Guide-Pins-Injection-Molding.jpg",
-      "productId": "guide-posts",
-      "role": "detail",
-      "detailAssetId": "guide-posts--mold",
-      "configurationIds": ["mold"],
-      "variantNameZh": "模架与注塑模导柱",
-      "descriptionZh": "【导柱 · 注塑模导柱】HTX Injection Molding Guide Pins。",
-      "status": "selected"
-    },
-    {
       "sourceFile": "output/htx-sources/guide-components/guide-posts/source-02-1-Stripper-Guide-Pin.jpg",
       "productId": "guide-posts",
       "role": "detail",
@@ -33,23 +23,23 @@
       "status": "selected"
     },
     {
-      "sourceFile": "output/htx-sources/guide-components/guide-sets/source-02-1-Ball-Guide-Posts.png",
+      "sourceFile": "output/htx-sources/guide-components/guide-posts/source-03-2-Guide-Pins-Injection-Molding.jpg",
       "productId": "guide-posts",
       "role": "detail",
-      "detailAssetId": "guide-posts--rolling",
-      "configurationIds": ["rolling"],
-      "variantNameZh": "滚珠导向用导柱",
-      "descriptionZh": "【导柱 · 滚珠导向】HTX Ball Guide Posts。",
+      "detailAssetId": "guide-posts--injection",
+      "configurationIds": ["injection"],
+      "variantNameZh": "注塑模导柱",
+      "descriptionZh": "【导柱 · 注塑模导柱】HTX Guide Pins Injection Molding。",
       "status": "selected"
     },
     {
-      "sourceFile": "output/htx-sources/guide-components/guide-posts/source-09-Materials-Surface-Treatment-of-HTX-Guide-Pins-1.jpg",
+      "sourceFile": "output/htx-sources/guide-components/guide-posts/source-04-3-Mold-Guide-Pins.jpg",
       "productId": "guide-posts",
       "role": "detail",
-      "detailAssetId": "guide-posts--nitrided",
-      "configurationIds": ["nitrided"],
-      "variantNameZh": "氮化与表面强化导柱",
-      "descriptionZh": "【导柱 · 材料与表面处理】HTX 导柱材料/氮化选项示意。",
+      "detailAssetId": "guide-posts--mold",
+      "configurationIds": ["mold"],
+      "variantNameZh": "模具导柱",
+      "descriptionZh": "【导柱 · 模具导柱】HTX Mold Guide Pins。",
       "status": "selected"
     },
     {

@@ -103,7 +103,9 @@ HTX 长图发布：`node scripts/htx/publish-family-section-images.mjs` → [`ca
 
 | 产品 ID | 配置区 | 备注 |
 | --- | --- | --- |
-| `straight-ejector-pins` … `ejector-sleeves` | 显示 | HTX 分类图 → `catalog-detail-media.json` |
+| `straight-ejector-pins`、`square-ejector-pins`、`blade-ejector-pins` 等（HTX 有 Design/Types 三卡） | 显示 | 标准 / 定制 / 材料选项 → `catalog-detail-media.json` |
+| `stepped-ejector-pins` 等 | 显示 | 按各 HTX 页 Types 对照 |
+| `shoulder-ejector-pins` | **隐藏** | HTX 无「三种子型号」；页内为工程应用 / 表面处理 / 定制能力（几何·材料）→ `hideConfigurations: true` |
 | `air-poppet-valves` | **隐藏** | `hideConfigurations: true` |
 
 验收链接（zh）：
@@ -123,9 +125,24 @@ HTX 长图发布：`node scripts/htx/publish-family-section-images.mjs` → [`ca
 | 分组 | selection 文件 | 品数 |
 | --- | --- | --- |
 | `guide-components` | `data/catalog/guide-htx-selection.json` | 6 |
+
+`flanged-guide-bushings`、`guide-sets` 共用 [HTX Guide Pillar And Guide Bush](https://htxprecision.com/guide-pillar-and-guide-bush/)（**无**单独「组件套装」URL；`reference-coverage.json` 一站拆多品）。材料节对齐 **Heat Treatment / Precision & Surface**（非「Custom Solutions」营销图）；`hideApplicationSections` + `hideSurfaceSection`。配置三卡：`guide-htx-selection.json` → SRP 滑动 / TRP 滚珠 / 定制总成。
+
+`ball-bearing-bushings` 对齐 [HTX Ball Bearing Bushing](https://htxprecision.com/Ball-bearing-bushing/)：`hideConfigurations`；`hideMaterialSurfaceSections`（长内容材料/选型块在 HTX 源图发布可靠前不展示，避免错图）；应用四宫格 + FAQ。参考页无独立「滚动导向单元」SKU。
+
+`guide-posts` 对齐 [HTX Guide Pins](https://htxprecision.com/guide-pin/)：**3 配置**（卸料板 / 注塑模 / 模具导柱）→ 对应 HTX Types 三卡；`hideApplicationSections`；材料节 `materialsFigure` + 选型 `processFigure`；`hideSurfaceSection`；**不展示** HTX 优势四图标长内容节；FAQ 三问与 HTX 一致。滚珠导向见 `guide-sets` / `ball-cages`，勿作第四配置卡。
 | `die-springs` | `data/catalog/die-springs-htx-selection.json` | 2 |
+
+`rectangular-die-springs` 对齐 [HTX Die Springs / Mold Springs](https://htxprecision.com/die-springs-mold-springs/)（与 `nitrogen-gas-springs` 共用汇总页；矩形簧五色卡对应 HTX Types 前五项）。长内容：**应用**三宫格（注塑/冲压/工装）；**材料块**配 `source-02`「What Are Die Springs」矩形簧示意 + 载荷色标文案；**如何选型**配 `source-13` 四因素（勿把选型图挂在应用节）。配置区保留黄—棕五卡。
 | `bronze-components` | `data/catalog/bronze-htx-selection.json` | 4 |
+
+**青铜组件**（[Graphite Bronze Bushings](https://htxprecision.com/graphite-bronze-bushings/) 一页拆三品 + 导向页拆普通铜套）：
+
+- `graphite-bronze-bushings` / `flanged-bronze-bushings` / `wear-plates`：应用 **五宫格**（注塑/压铸/冲压/重机/工程机械）；材料 `Material-Options-Performance`；**工作原理** `How-Graphite-Bronze-Bushings-Work`（勿把原理图当应用大图；耐磨板勿用 Custom Manufacturing 当材料图）。
+- `bronze-bushings`：无独立 HTX 页，摘自 [Guide Pillar And Guide Bush](https://htxprecision.com/guide-pillar-and-guide-bush/) 青铜导套示意；`hideApplicationSections` + `hideMaterialSurfaceSections`（避免导柱页误配图标/营销图）；保留光孔/油槽两配置卡。
 | `dowel-pins` | `data/catalog/dowel-htx-selection.json` | 2 |
+
+**定位销**：`precision-dowel-pins` 对齐 [HTX Dowel Pins](https://htxprecision.com/dowel-pins/)：`hideMaterialSurfaceSections`；应用四宫格 + 精密/淬硬/定制三卡 + FAQ。`threaded-dowel-pins` 对齐 [Threaded Dowel Pins](https://htxprecision.com/threaded-dowel-pins/)：`hideConfigurations` + `hideMaterialSurfaceSections`（无 HTX 三卡 Types；勿把 Pull Dowel 与内/外螺纹/公英制三卡当子页）；应用四宫格 + FAQ 与 HTX 一致。HTX 菜单 **Pull Dowel Pins** 为独立品类，本站未单独建 slug。
 
 重跑示例：
 

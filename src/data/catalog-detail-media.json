@@ -552,11 +552,11 @@
       "configurationIds": [
         "flat"
       ],
-      "image": "/images/products/details/blade-ejector-pins--flat-2026-10-08T17-21-34-502Z.png",
+      "image": "/images/products/details/blade-ejector-pins--flat-2026-10-11T05-30-00-000Z.jpg",
       "name": {
-        "zh": "平端扁顶针",
-        "en": "平端扁顶针",
-        "vi": "平端扁顶针"
+        "zh": "标准方案",
+        "en": "Standard solutions",
+        "vi": "Giải pháp tiêu chuẩn"
       }
     },
     {
@@ -565,11 +565,11 @@
       "configurationIds": [
         "contoured"
       ],
-      "image": "/images/products/details/blade-ejector-pins--contoured-2026-10-08T17-21-34-502Z.jpg",
+      "image": "/images/products/details/blade-ejector-pins--contoured-2026-10-11T05-30-00-000Z.jpg",
       "name": {
-        "zh": "成型端面扁顶针",
-        "en": "成型端面扁顶针",
-        "vi": "成型端面扁顶针"
+        "zh": "定制方案",
+        "en": "Custom solutions",
+        "vi": "Giải pháp tùy chỉnh"
       }
     },
     {
@@ -578,50 +578,50 @@
       "configurationIds": [
         "custom"
       ],
-      "image": "/images/products/details/blade-ejector-pins--custom-2026-10-08T17-21-34-502Z.jpg",
+      "image": "/images/products/details/blade-ejector-pins--custom-2026-10-11T05-30-00-000Z.jpg",
       "name": {
-        "zh": "非标截面与处理",
-        "en": "非标截面与处理",
-        "vi": "非标截面与处理"
+        "zh": "材料选项",
+        "en": "Material options",
+        "vi": "Lựa chọn vật liệu"
       }
     },
     {
-      "id": "square-ejector-pins--square",
+      "id": "square-ejector-pins--standard",
       "productId": "square-ejector-pins",
       "configurationIds": [
-        "square"
+        "standard"
       ],
-      "image": "/images/products/details/square-ejector-pins--square-2026-10-08T17-21-34-502Z.jpg",
+      "image": "/images/products/details/square-ejector-pins--standard-2026-10-11T06-15-00-000Z.jpg",
       "name": {
-        "zh": "方形工作段",
-        "en": "方形工作段",
-        "vi": "方形工作段"
+        "zh": "标准方顶针",
+        "en": "Standard square ejector pins",
+        "vi": "Ty vuông tiêu chuẩn"
       }
     },
     {
-      "id": "square-ejector-pins--transition",
+      "id": "square-ejector-pins--custom",
       "productId": "square-ejector-pins",
       "configurationIds": [
-        "transition"
+        "custom"
       ],
-      "image": "/images/products/details/square-ejector-pins--transition-2026-10-08T17-21-34-502Z.jpg",
+      "image": "/images/products/details/square-ejector-pins--custom-2026-10-11T06-15-00-000Z.jpg",
       "name": {
-        "zh": "圆杆转方端",
-        "en": "圆杆转方端",
-        "vi": "圆杆转方端"
+        "zh": "定制方顶针",
+        "en": "Custom square ejector pins",
+        "vi": "Ty vuông tùy chỉnh"
       }
     },
     {
-      "id": "square-ejector-pins--profile",
+      "id": "square-ejector-pins--material",
       "productId": "square-ejector-pins",
       "configurationIds": [
-        "profile"
+        "material"
       ],
-      "image": "/images/products/details/square-ejector-pins--profile-2026-10-08T17-21-34-502Z.png",
+      "image": "/images/products/details/square-ejector-pins--material-2026-10-11T06-15-00-000Z.jpg",
       "name": {
-        "zh": "定制端面与耐磨处理",
-        "en": "定制端面与耐磨处理",
-        "vi": "定制端面与耐磨处理"
+        "zh": "材料选项",
+        "en": "Material options",
+        "vi": "Lựa chọn vật liệu"
       }
     },
     {
@@ -690,55 +690,42 @@
       }
     },
     {
-      "id": "guide-posts--mold",
-      "productId": "guide-posts",
-      "configurationIds": [
-        "mold"
-      ],
-      "image": "/images/products/details/guide-posts--mold-2026-10-08T17-30-24-324Z.jpg",
-      "name": {
-        "zh": "模架与注塑模导柱",
-        "en": "模架与注塑模导柱",
-        "vi": "模架与注塑模导柱"
-      }
-    },
-    {
       "id": "guide-posts--stripper",
       "productId": "guide-posts",
       "configurationIds": [
         "stripper"
       ],
-      "image": "/images/products/details/guide-posts--stripper-2026-10-08T17-30-24-324Z.jpg",
+      "image": "/images/products/details/guide-posts--stripper-2026-10-11T09-00-00-000Z.jpg",
       "name": {
         "zh": "卸料板导柱",
-        "en": "卸料板导柱",
-        "vi": "卸料板导柱"
+        "en": "Stripper guide pins",
+        "vi": "Trụ dẫn tấm gạt"
       }
     },
     {
-      "id": "guide-posts--rolling",
+      "id": "guide-posts--injection",
       "productId": "guide-posts",
       "configurationIds": [
-        "rolling"
+        "injection"
       ],
-      "image": "/images/products/details/guide-posts--rolling-2026-10-08T17-30-24-324Z.png",
+      "image": "/images/products/details/guide-posts--injection-2026-10-11T09-00-00-000Z.jpg",
       "name": {
-        "zh": "滚珠导向用导柱",
-        "en": "滚珠导向用导柱",
-        "vi": "滚珠导向用导柱"
+        "zh": "注塑模导柱",
+        "en": "Injection molding guide pins",
+        "vi": "Trụ dẫn khuôn nhựa"
       }
     },
     {
-      "id": "guide-posts--nitrided",
+      "id": "guide-posts--mold",
       "productId": "guide-posts",
       "configurationIds": [
-        "nitrided"
+        "mold"
       ],
-      "image": "/images/products/details/guide-posts--nitrided-2026-10-08T17-30-24-324Z.jpg",
+      "image": "/images/products/details/guide-posts--mold-2026-10-11T09-00-00-000Z.jpg",
       "name": {
-        "zh": "氮化与表面强化导柱",
-        "en": "氮化与表面强化导柱",
-        "vi": "氮化与表面强化导柱"
+        "zh": "模具导柱",
+        "en": "Mold guide pins",
+        "vi": "Trụ dẫn khuôn"
       }
     },
     {
@@ -905,9 +892,9 @@
       ],
       "image": "/images/products/details/ball-bearing-bushings--unit-2026-10-08T17-30-24-324Z.png",
       "name": {
-        "zh": "滚动导向单元",
-        "en": "滚动导向单元",
-        "vi": "滚动导向单元"
+        "zh": "滚珠导套本体",
+        "en": "Ball bearing bushing body",
+        "vi": "Thân bạc bi"
       }
     },
     {
@@ -918,9 +905,9 @@
       ],
       "image": "/images/products/details/ball-bearing-bushings--matched-2026-10-08T17-30-24-324Z.jpg",
       "name": {
-        "zh": "配套导柱与总成",
-        "en": "配套导柱与总成",
-        "vi": "配套导柱与总成"
+        "zh": "按图定制",
+        "en": "Drawing-based custom",
+        "vi": "Theo bản vẽ tùy chỉnh"
       }
     },
     {

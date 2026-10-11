@@ -414,6 +414,7 @@
   },
   "straight-ejector-pins": {
     "faqOnly": true,
+    "hideMaterialSurfaceSections": true,
     "extraFaqs": [
       {
         "q": {
@@ -494,6 +495,7 @@
   },
   "shoulder-ejector-pins": {
     "faqOnly": true,
+    "hideConfigurations": true,
     "extraFaqs": [
       {
         "q": {
@@ -620,6 +622,33 @@
   },
   "blade-ejector-pins": {
     "faqOnly": true,
+    "applicationArea": {
+      "zh": "扁截面顶针增大接触面积、分散顶出力，适合薄壁、窄槽或复杂结构等圆顶针难以布置的场景，并有助于减轻顶白、变形与划伤；非圆截面还可限制顶出时旋转。",
+      "en": "The flat blade increases contact area to spread ejection force—suited to thin walls, narrow slots and complex areas where round pins cannot fit, helping reduce ejector marks, deformation and scratches; the non-round section can also resist rotation during ejection.",
+      "vi": "Lưỡi dẹt tăng diện tiếp xúc để phân bố lực đẩy—phù hợp thành mỏng, khe hẹp và vùng phức tạp; tiết diện không tròn có thể hạn chế xoay khi đẩy."
+    },
+    "applicationTileCaptions": [
+      {
+        "zh": "薄壁塑胶件",
+        "en": "Thin-walled products",
+        "vi": "Sản phẩm thành mỏng"
+      },
+      {
+        "zh": "复杂或受限空间",
+        "en": "Complex or confined spaces",
+        "vi": "Không gian phức tạp hoặc chật"
+      },
+      {
+        "zh": "高外观要求",
+        "en": "High aesthetic requirement",
+        "vi": "Yêu cầu thẩm mỹ cao"
+      },
+      {
+        "zh": "防旋转顶出",
+        "en": "Anti-rotation ejection",
+        "vi": "Đẩy chống xoay"
+      }
+    ],
     "extraFaqs": [
       {
         "q": {
@@ -671,54 +700,58 @@
   },
   "square-ejector-pins": {
     "faqOnly": true,
+    "hideMaterialSurfaceSections": true,
+    "hideApplicationSections": true,
+    "advantageSection": {
+      "title": {
+        "zh": "方形顶针的优势",
+        "en": "Advantages of square ejector pins",
+        "vi": "Ưu điểm ty đẩy vuông"
+      },
+      "body": {
+        "zh": "方形顶针独特结构使其性能优于圆形顶针，有效防止旋转并保证顶出位置与方向的一致性。特别适用于存在受力不均和侧向顶出情况，可在多腔模具中保持顶出同步性。",
+        "en": "The square cross-section outperforms round pins by resisting rotation and keeping ejection position and direction consistent—ideal for uneven loads, side ejection and synchronized multi-cavity molds.",
+        "vi": "Tiết diện vuông chống xoay và giữ vị trí/hướng đẩy ổn định hơn ty tròn—phù hợp tải không đều, đẩy ngang và khuôn nhiều cavity đồng bộ."
+      }
+    },
     "extraFaqs": [
       {
         "q": {
-          "zh": "方顶针与圆顶针如何选型？",
-          "en": "Square vs round ejector pins?",
-          "vi": "Ty vuông hay tròn?"
+          "zh": "哪些模具更适合使用方顶针？",
+          "en": "Which molds suit square ejector pins?",
+          "vi": "Khuôn nào phù hợp ty vuông?"
         },
         "a": {
-          "zh": "需要防转或方形成型顶出时选方顶针；模具导向孔需保持方形配合与方向。",
-          "en": "Choose square pins when anti-rotation or square contact is required; mold guide geometry must maintain orientation.",
-          "vi": "Chọn ty vuông khi cần chống xoay; lỗ dẫn khuôn giữ hướng."
+          "zh": "需要侧向顶出，或对精度与重复定位要求较高的模具。",
+          "en": "Molds needing side ejection or high precision and repeatability.",
+          "vi": "Khuôn cần đẩy ngang hoặc độ chính xác và lặp lại cao."
         }
       },
       {
         "q": {
-          "zh": "方顶针常见失效模式？",
-          "en": "Common square pin failure modes?",
-          "vi": "Hỏng thường gặp ty vuông?"
+          "zh": "是否支持公制方顶针？",
+          "en": "Do you support metric square ejector pins?",
+          "vi": "Có hỗ trợ ty vuông hệ mét không?"
         },
         "a": {
-          "zh": "角部崩刃、导向孔磨损导致旋转失效、或方段与圆杆过渡应力；应核对圆角与配合间隙。",
-          "en": "Corner chipping, worn guides losing orientation, or stress at round-to-square transition—check radii and clearance.",
-          "vi": "Sứt góc, mòn dẫn hướng hoặc ứng suất chuyển tròn–vuông."
+          "zh": "支持公制系列，也可按需求生产公制或英制尺寸。",
+          "en": "Yes—metric series and both metric and imperial sizes on request.",
+          "vi": "Có—dòng mét và cả mét/inch theo yêu cầu."
         }
       },
       {
         "q": {
-          "zh": "定制方顶针图纸要点？",
-          "en": "Drawing notes for custom square pins?",
-          "vi": "Bản vẽ ty vuông?"
+          "zh": "如何延长方顶针使用寿命？",
+          "en": "How to extend square pin service life?",
+          "vi": "Kéo dài tuổi thọ ty vuông?"
         },
         "a": {
-          "zh": "方边尺寸、有效长度、杆径、方向标记、公差及与孔的配合性质。",
-          "en": "Square size, working length, shank, orientation mark, tolerances and fit with the hole.",
-          "vi": "Cạnh vuông, chiều dài làm việc, thân, hướng và dung sai."
+          "zh": "可通过氮化等表面处理提高耐磨性；精磨工艺有助于降低顶出摩擦、延长寿命。",
+          "en": "Nitriding and similar treatments improve wear resistance; precision grinding reduces ejection friction and extends life.",
+          "vi": "Thấm nitơ tăng chống mòn; mài chính xác giảm ma sát khi đẩy."
         }
       }
-    ],
-    "materialLead": {
-      "zh": "方顶针工作段便于定向顶出，材料与热处理按模温、磨损与冲击选择；圆杆段与方段过渡按图加工。",
-      "en": "Square working sections orient ejection; choose grade and heat treat for temperature, wear and shock. Round-to-square transitions per drawing.",
-      "vi": "Đoạn vuông định hướng đẩy; chọn mác và nhiệt luyện theo nhiệt và mòn. Chuyển tròn–vuông theo bản vẽ."
-    },
-    "surfaceLead": {
-      "zh": "方形配合面与杆部滑动区可按需抛光、氮化，角部留量与孔配合一并确认。",
-      "en": "Square contact and shank sliding zones can be polished or nitrided; confirm corner relief with the mating hole.",
-      "vi": "Mặt vuông và trượt có thể mài hoặc thấm nitơ; xác nhận góc với lỗ ghép."
-    }
+    ]
   },
   "ejector-sleeves": {
     "faqOnly": true,
@@ -774,6 +807,33 @@
   "air-poppet-valves": {
     "hideConfigurations": true,
     "faqOnly": true,
+    "applicationArea": {
+      "zh": "气顶阀通过控制进气释放脱模真空，适用于深腔、薄壁、大面积贴模等易吸附工况；不同行业对安装空间、外观与节拍要求略有差异，可按模具结构选型与布置。",
+      "en": "Air poppets control air release to break vacuum during demolding—used in deep cavities, thin walls and large contact areas; requirements vary by industry, so size and placement follow your mold layout.",
+      "vi": "Van khí điều khiển xả khí phá chân không khi tháo khuôn—dùng cho lòng sâu, thành mỏng và tiếp xúc lớn; bố trí theo khuôn từng ngành."
+    },
+    "applicationTileCaptions": [
+      {
+        "zh": "汽车塑料件",
+        "en": "Automotive plastic parts",
+        "vi": "Nhựa ô tô"
+      },
+      {
+        "zh": "电子塑料件",
+        "en": "Electronic plastic parts",
+        "vi": "Nhựa điện tử"
+      },
+      {
+        "zh": "家电塑料件",
+        "en": "Home appliance parts",
+        "vi": "Nhựa gia dụng"
+      },
+      {
+        "zh": "工业注塑应用",
+        "en": "Industrial injection molding",
+        "vi": "Ép nhựa công nghiệp"
+      }
+    ],
     "materialLead": {
       "zh": "气顶阀材质与密封件需耐模温与压缩空气介质；安装螺纹、阀面直径与行程按模具气路布局选型。",
       "en": "Body and seals must suit mold temperature and air supply; thread, face diameter and travel match your air circuit layout.",
@@ -801,34 +861,53 @@
   },
   "guide-posts": {
     "faqOnly": true,
+    "hideApplicationSections": true,
+    "hideSurfaceSection": true,
     "materialLead": {
-      "zh": "导柱材料与表面（如 SUJ2、轴承钢及氮化）需与导套、模温及载荷匹配；安装段与导向段公差应成套确认。",
-      "en": "Post grade and surface (e.g. SUJ2, bearing steel, nitriding) must match bushings, mold temperature and load; mounting and guide sections are specified as a set.",
-      "vi": "Mác trụ và bề mặt phải khớp bạc, nhiệt khuôn và tải; đoạn lắp và dẫn quy định theo bộ."
+      "zh": "导柱通常采用优质合金钢制造，经热处理与表面处理以获得耐磨性与表面硬度。可按工况选择标准硬化导柱、高精度研磨版本或加强表面涂层，以延长模具寿命并提供稳定导向。",
+      "en": "Guide pins are made from quality alloy steel with heat treatment and surface processing for wear resistance and hardness—options from standard hardened shafts to precision-ground and coated versions per your mold duty.",
+      "vi": "Trụ dẫn bằng thép hợp kim chất lượng, nhiệt luyện và xử lý bề mặt chống mòn—từ thân cứng tiêu chuẩn đến mài chính xác và phủ theo công việc khuôn."
+    },
+    "processLead": {
+      "zh": "选型应结合功能需求，而不只看尺寸：考虑模具类型（冲压或注塑）、定位精度、工作循环与载荷，以及配套导套形式。合适的选择有助于提高配合精度、延长寿命并保持生产稳定。",
+      "en": "Selection should follow functional requirements—not size alone. Consider mold type, positioning accuracy, cycle, load and mating bushing style for fit life and stable production.",
+      "vi": "Chọn theo chức năng, không chỉ kích thước: loại khuôn, độ chính xác, chu kỳ, tải và kiểu bạc ghép."
     },
     "extraFaqs": [
       {
         "q": {
-          "zh": "滑动导向与滚珠导向导柱能否互换？",
-          "en": "Can sliding and ball guide posts be swapped?",
-          "vi": "Trụ trượt và trụ bi có thay được không?"
+          "zh": "导柱与定位销有何区别？",
+          "en": "What is the difference between guide pins and locating pins?",
+          "vi": "Trụ dẫn khác ty định vị thế nào?"
         },
         "a": {
-          "zh": "不能仅凭外径互换。滚珠系统需配套保持架、导套及预压/行程参数，滑动副的间隙与润滑另有一套要求。",
-          "en": "Not by outside diameter alone. Ball systems need matched cages, bushings, preload and travel; plain sliding pairs use different clearance and lubrication.",
-          "vi": "Không chỉ theo đường kính ngoài. Hệ bi cần lồng, bạc, tải trước và hành trình; hệ trượt có khe hở và bôi trơn riêng."
+          "zh": "导柱用于开合模循环中的连续对中与导向；定位销多用于初始定位，不承担反复导向功能。",
+          "en": "Guide pins provide continuous alignment through repeated cycles; locating pins mainly set initial position.",
+          "vi": "Trụ dẫn căn liên tục qua chu kỳ đóng mở; ty định vị chủ yếu đặt vị trí ban đầu."
         }
       },
       {
         "q": {
-          "zh": "定制导柱需要哪些图纸信息？",
-          "en": "What drawings are needed for custom guide posts?",
-          "vi": "Cần bản vẽ gì cho trụ tùy chỉnh?"
+          "zh": "导柱能否不配套导套使用？",
+          "en": "Can guide pins be used without guide bushings?",
+          "vi": "Trụ dẫn có dùng không cần bạc không?"
         },
         "a": {
-          "zh": "需明确安装径、导向径、总长、配合公差、材料/表面处理及与导套的配套关系；仅有参考照片通常不足以加工。",
-          "en": "Specify mounting and guide diameters, overall length, fits, material/surface and mating bushing; reference photos alone are usually insufficient.",
-          "vi": "Nêu đường kính lắp/dẫn, tổng dài, lắp ghép, vật liệu/bề mặt và bạc đi kèm; chỉ ảnh thường không đủ."
+          "zh": "多数模具应用中导柱需与导套配合，以保证精度并降低磨损。",
+          "en": "In most mold applications, pins work with bushings to maintain precision and reduce wear.",
+          "vi": "Hầu hết ứng dụng cần ghép bạc để giữ độ chính xác và giảm mòn."
+        }
+      },
+      {
+        "q": {
+          "zh": "哪些因素影响导柱寿命？",
+          "en": "What factors affect guide pin service life?",
+          "vi": "Yếu tố nào ảnh hưởng tuổi thọ trụ dẫn?"
+        },
+        "a": {
+          "zh": "材料质量、表面处理、润滑方式，以及与导套的配合公差都会影响使用寿命。",
+          "en": "Material quality, surface treatment, lubrication and fit with the mating bushing all affect service life.",
+          "vi": "Mác, xử lý bề mặt, bôi trơn và lắp ghép với bạc đều ảnh hưởng tuổi thọ."
         }
       }
     ]
@@ -852,6 +931,23 @@
   },
   "flanged-guide-bushings": {
     "faqOnly": true,
+    "hideApplicationSections": true,
+    "hideSurfaceSection": true,
+    "materialLead": {
+      "zh": "导柱、导套硬度与耐磨不仅取决于材料，也依赖热处理：真空热处理可稳定达到约 HRC 58–62（按材料调整），减少脱碳与变色，硬度均匀并降低变形风险；可选深冷处理以提升尺寸稳定性与寿命。",
+      "en": "Hardness and wear depend on material and heat treatment—vacuum processing targets about HRC 58–62 with minimal decarburization and distortion; optional cryogenic treatment improves stability and life.",
+      "vi": "Độ cứng và chống mòn phụ thuộc vật liệu và nhiệt luyện—chân không ~ HRC 58–62, ít mất carbon; tùy chọn lạnh sâu tăng ổn định."
+    },
+    "processSectionTitle": {
+      "zh": "精加工与表面光洁度",
+      "en": "Precision machining and surface finish",
+      "vi": "Gia công chính xác và độ nhám bề mặt"
+    },
+    "processLead": {
+      "zh": "导柱外径与导套内孔经无心磨、内圆磨等精加工，同轴度可控制在 ≤0.005 mm；表面粗糙度可达 Ra ≤0.2 μm 级，配合间隙更均匀、运动更顺畅，有助于避免拉伤与咬死。",
+      "en": "Posts and bores are centerless- and internal-ground for concentricity ≤0.005 mm and Ra ≤0.2 μm-class finishes—smoother motion and less galling risk.",
+      "vi": "Mài ngoài và mài trong, đồng trục ≤0.005 mm, Ra ≤0.2 μm—vận hành mượt, giảm bám dính."
+    },
     "extraFaqs": [
       {
         "q": {
@@ -869,6 +965,23 @@
   },
   "guide-sets": {
     "faqOnly": true,
+    "hideApplicationSections": true,
+    "hideSurfaceSection": true,
+    "materialLead": {
+      "zh": "成套导柱、导套硬度与耐磨不仅取决于材料，也依赖热处理：真空热处理可稳定达到约 HRC 58–62（按材料调整），减少脱碳与变色，硬度均匀并降低变形风险；可选深冷处理以提升尺寸稳定性与寿命。",
+      "en": "Set hardness and wear depend on material and heat treatment—vacuum processing targets about HRC 58–62 with minimal decarburization and distortion; optional cryogenic treatment improves stability and life.",
+      "vi": "Độ cứng bộ trụ-bạc phụ thuộc vật liệu và nhiệt luyện—chân không ~ HRC 58–62, ít mất carbon; tùy chọn lạnh sâu tăng ổn định."
+    },
+    "processSectionTitle": {
+      "zh": "精加工与表面光洁度",
+      "en": "Precision machining and surface finish",
+      "vi": "Gia công chính xác và độ nhám bề mặt"
+    },
+    "processLead": {
+      "zh": "导柱外径与导套内孔经无心磨、内圆磨等精加工，同轴度可控制在 ≤0.005 mm；表面粗糙度可达 Ra ≤0.2 μm 级，配合间隙更均匀、运动更顺畅，有助于避免拉伤与咬死。",
+      "en": "Posts and bores are centerless- and internal-ground for concentricity ≤0.005 mm and Ra ≤0.2 μm-class finishes—smoother motion and less galling risk.",
+      "vi": "Mài ngoài và mài trong, đồng trục ≤0.005 mm, Ra ≤0.2 μm—vận hành mượt, giảm bám dính."
+    },
     "extraFaqs": [
       {
         "q": {
@@ -902,7 +1015,36 @@
     ]
   },
   "ball-bearing-bushings": {
+    "hideConfigurations": true,
+    "hideMaterialSurfaceSections": true,
     "faqOnly": true,
+    "applicationArea": {
+      "zh": "滚珠导套用于需要反复、精确直线导向的模具与工装：冲压、注塑、精密工装及高节拍导向系统均要求导柱导套在每一行程中保持对中与低摩擦滚动接触。",
+      "en": "Ball bearing bushings serve molds and tools that need repeatable linear guidance—stamping, injection, precision tooling and high-cycle systems all rely on aligned, low-friction rolling contact stroke after stroke.",
+      "vi": "Bạc bi dùng cho khuôn và đồ gá cần dẫn tuyến lặp lại—dập, ép nhựa, gia công chính xác và hệ dẫn chu kỳ cao đều cần tiếp xúc lăn, ít ma sát."
+    },
+    "applicationTileCaptions": [
+      {
+        "zh": "冲压模",
+        "en": "Stamping dies",
+        "vi": "Khuôn dập"
+      },
+      {
+        "zh": "注塑模",
+        "en": "Injection molds",
+        "vi": "Khuôn ép nhựa"
+      },
+      {
+        "zh": "精密工装",
+        "en": "Precision tooling",
+        "vi": "Đồ gá chính xác"
+      },
+      {
+        "zh": "高节拍导向系统",
+        "en": "High-cycle guide systems",
+        "vi": "Hệ dẫn chu kỳ cao"
+      }
+    ],
     "extraFaqs": [
       {
         "q": {
@@ -915,11 +1057,73 @@
           "en": "Confirm scope: some lines supply the bushing body only; cage and post may be separate matched items.",
           "vi": "Xác nhận phạm vi cung cấp; trụ và lồng có thể đặt riêng theo dòng."
         }
+      },
+      {
+        "q": {
+          "zh": "滚珠导套与普通滑动导套有何区别？",
+          "en": "How does a ball bushing differ from a plain bushing?",
+          "vi": "Bạc bi khác bạc trượt thế nào?"
+        },
+        "a": {
+          "zh": "滚珠导套为滚动接触，摩擦与发热通常更低；滑动导套为面接触滑动，结构更简单。不能仅凭外径互换，须按整套导向系统选型。",
+          "en": "Ball types use rolling contact—generally lower friction and heat; plain types slide on surfaces and can be simpler. They are not interchangeable by OD alone; match the whole guide system.",
+          "vi": "Bạc bi tiếp xúc lăn—thường ít ma sát hơn; bạc trượt trượt bề mặt. Không thay chỉ theo OD ngoài; chọn theo cả hệ dẫn."
+        }
+      },
+      {
+        "q": {
+          "zh": "滚珠导套适用于注塑模还是冲压模？",
+          "en": "Are ball bushings for injection or stamping molds?",
+          "vi": "Bạc bi dùng cho khuôn ép hay dập?"
+        },
+        "a": {
+          "zh": "两者均可，只要存在反复开合或往复导向且需要低摩擦与稳定对中；关键是规格与载荷、速度、导柱系统与工况匹配。",
+          "en": "Both when repeated opening/closing or reciprocating guidance needs low friction and alignment—the critical part is matching size, load, speed and the guide system to the tool.",
+          "vi": "Cả ép và dập khi cần dẫn lặp với ma sát thấp—quan trọng là khớp cỡ, tải, tốc độ và hệ dẫn với khuôn."
+        }
       }
     ]
   },
   "rectangular-die-springs": {
     "faqOnly": true,
+    "applicationArea": {
+      "zh": "模具弹簧（die spring / mold spring）用于需要高载荷、短行程且反复压缩的场合：注塑模顶出与复位、冲压模卸料板与压料、工装夹具的高载荷复位等。",
+      "en": "Die springs (mold springs) serve high-load, short-stroke, repeated compression—injection ejection and return, stamping strippers and pressure pads, and high-load return in fixtures.",
+      "vi": "Lò xo khuôn phục vụ tải cao, hành trình ngắn, nén lặp—đẩy/hồi ép nhựa, tấm gạt/dập phôi, hồi tải cao trên đồ gá."
+    },
+    "applicationTileCaptions": [
+      {
+        "zh": "注塑模",
+        "en": "Injection molds",
+        "vi": "Khuôn ép nhựa"
+      },
+      {
+        "zh": "冲压模",
+        "en": "Stamping dies",
+        "vi": "Khuôn dập"
+      },
+      {
+        "zh": "精密工装",
+        "en": "Tooling & fixtures",
+        "vi": "Đồ gá"
+      }
+    ],
+    "materialLead": {
+      "zh": "矩形截面线材压缩簧在相同空间内可输出更高力，适用于顶出、复位与压料；黄/蓝/红/绿/棕为常用载荷等级色标（日系习惯），选型须以力—行程曲线与 ISO 10243 / JIS 系列为准，颜色只是辅助识别。",
+      "en": "Rectangular wire packs more force in compact mold space—for ejection, return and holding. Yellow through brown are common load color codes (Japanese-style convention); select from force–travel data per ISO 10243 / JIS—color guides, not replaces, the load spec.",
+      "vi": "Dây tiết diện chữ nhật cho lực cao trong không gian gọn—đẩy, hồi, ép. Màu vàng→nâu là mã tải (quy ước kiểu Nhật); chọn theo đường lực–hành trình ISO 10243 / JIS, màu chỉ hỗ trợ nhận dạng."
+    },
+    "processSectionTitle": {
+      "zh": "如何选型",
+      "en": "How to choose",
+      "vi": "Cách chọn"
+    },
+    "processLead": {
+      "zh": "按 HTX 选型顺序：① 先算模具所需载荷（不要只看颜色）；② 自由长度匹配安装空间与所需行程；③ 孔径/导杆直径须与模座安装位一致；④ 相对自由长度载荷越高，寿命越需权衡。确认系列后再对照五色配置卡。",
+      "en": "Follow load first (not color alone), free length for space and stroke, hole/rod diameter for the mold base, then balance cycle life against load—confirm the series, then use the five color configuration cards.",
+      "vi": "Tải trước (không chỉ màu), chiều dài tự do, đường kính lỗ/trụ, cân bằng tuổi thọ—xác nhận dòng rồi dùng năm thẻ màu."
+    },
+    "hideSurfaceSection": true,
     "extraFaqs": [
       {
         "q": {
@@ -931,6 +1135,30 @@
           "zh": "不能。颜色对应特定系列的习惯标识，必须先锁定系列与规格，再按力—行程曲线和允许压缩量选型。",
           "en": "No. Colors map to a series convention—select by force–travel curve and allowable compression for the specified size.",
           "vi": "Không. Màu theo dòng; chọn theo đường lực–hành trình và độ nén cho phép."
+        }
+      },
+      {
+        "q": {
+          "zh": "模具弹簧能否定制？",
+          "en": "Can die springs be customized?",
+          "vi": "Lò xo khuôn tùy chỉnh được không?"
+        },
+        "a": {
+          "zh": "可以。特殊尺寸与载荷需求可按图纸或样品确认后制造；仍须明确系列标准与安装尺寸。",
+          "en": "Yes—custom sizes and loads can be built from your drawing or sample, with the applicable standard and mounting dimensions confirmed.",
+          "vi": "Có—theo bản vẽ/mẫu, xác nhận tiêu chuẩn và kích thước lắp."
+        }
+      },
+      {
+        "q": {
+          "zh": "矩形模具弹簧与氮气弹簧有何不同？",
+          "en": "Rectangular die springs vs nitrogen gas springs?",
+          "vi": "Lò xo chữ nhật và lò xo khí?"
+        },
+        "a": {
+          "zh": "矩形弹簧靠线材弹性压缩出力，五色区分载荷等级；氮气弹簧靠密封气体产生力，适合更高频次、可控力与更长行程的复位，选型逻辑不同。",
+          "en": "Rectangular springs are wire compression with color-coded load levels; gas springs use sealed nitrogen for controlled high force and longer stroke—different selection logic.",
+          "vi": "Lò xo dây nén, mã màu tải; lò xo khí dùng khí ni-tơ, lực/hành trình khác—logic chọn khác."
         }
       }
     ]
@@ -954,6 +1182,34 @@
   },
   "graphite-bronze-bushings": {
     "faqOnly": true,
+    "applicationArea": {
+      "zh": "石墨铜套常用于润滑维护受限的滑动导向：注塑模导柱/顶板/滑块、压铸模导向与抽芯、冲压模导柱与卸料板，以及工程机械关节等低速重载部位。",
+      "en": "Graphite bronze bushings suit sliding guides where lubrication is limited—injection mold guides and slides, die-casting guidance, stamping die pillars and strippers, and low-speed heavy joints in machinery.",
+      "vi": "Bạc graphite đồng cho dẫn trượt khi khó bôi trơn—dẫn khuôn ép, dẫn khuôn đúc, trụ dẫn dập và khớp nối tải thấp/tải nặng."
+    },
+    "applicationTileCaptions": [
+      {"zh": "注塑模系统", "en": "Injection mold systems", "vi": "Hệ khuôn ép nhựa"},
+      {"zh": "压铸模", "en": "Die-casting molds", "vi": "Khuôn đúc"},
+      {"zh": "冲压模", "en": "Stamping dies", "vi": "Khuôn dập"},
+      {"zh": "重型机械运动件", "en": "Heavy machinery moving parts", "vi": "Chi tiết chuyển động máy nặng"},
+      {"zh": "工程机械", "en": "Construction machinery", "vi": "Máy xây dựng"}
+    ],
+    "materialLead": {
+      "zh": "基体常用高力黄铜，亦可选铝青铜（更高载荷）或磷青铜（耐磨与尺寸稳定性）；固体石墨润滑块布局影响承载与释润滑膜能力，须结合载荷、速度与温度确认牌号。",
+      "en": "Bodies are often high-tensile brass, with aluminum bronze for higher load and phosphor bronze for wear and stability—graphite plug layout and alloy choice follow load, speed and temperature.",
+      "vi": "Thân thường là đồng thau cường lực cao, đồng nhôm cho tải cao, đồng phốt pho cho mòn và ổn định—bố trí graphite theo tải, tốc độ và nhiệt."
+    },
+    "processSectionTitle": {
+      "zh": "工作原理",
+      "en": "How they work",
+      "vi": "Nguyên lý hoạt động"
+    },
+    "processLead": {
+      "zh": "高强度铜基体中均匀嵌入石墨，轴与套相对滑动时石墨转移并在配合面形成固体润滑膜，降低摩擦与磨损；适合难以持续加油、空间受限、低速重载及要求高稳定性的结构。",
+      "en": "Graphite embedded in the copper matrix transfers to the mating surface during sliding, forming a solid lubrication film—suited to limited maintenance access, low-speed heavy loads and stable guidance.",
+      "vi": "Graphite nhúng trong đồng chuyển sang mặt ghép khi trượt, tạo màng bôi trơn rắn—phù hợp bảo trì khó, tải nặng tốc thấp."
+    },
+    "hideSurfaceSection": true,
     "extraFaqs": [
       {
         "q": {
@@ -970,6 +1226,8 @@
     ]
   },
   "bronze-bushings": {
+    "hideApplicationSections": true,
+    "hideMaterialSurfaceSections": true,
     "faqOnly": true,
     "extraFaqs": [
       {
@@ -988,6 +1246,34 @@
   },
   "flanged-bronze-bushings": {
     "faqOnly": true,
+    "applicationArea": {
+      "zh": "法兰石墨铜套在孔轴导向之外以法兰限制轴向位移或提供安装定位，适用于模具滑块、顶板及需要径向与轴向一并确认的场合。",
+      "en": "Flanged graphite bronze bushings add a flange for axial location or thrust while the bore guides radially—common on mold slides and plates where both duties must be specified.",
+      "vi": "Bạc graphite có bích định vị/hỗ trợ lực dọc trục trong khi lỗ dẫn hướng kính—dùng trên con trượt và tấm khuôn."
+    },
+    "applicationTileCaptions": [
+      {"zh": "注塑模系统", "en": "Injection mold systems", "vi": "Hệ khuôn ép nhựa"},
+      {"zh": "压铸模", "en": "Die-casting molds", "vi": "Khuôn đúc"},
+      {"zh": "冲压模", "en": "Stamping dies", "vi": "Khuôn dập"},
+      {"zh": "重型机械运动件", "en": "Heavy machinery moving parts", "vi": "Chi tiết chuyển động máy nặng"},
+      {"zh": "工程机械", "en": "Construction machinery", "vi": "Máy xây dựng"}
+    ],
+    "materialLead": {
+      "zh": "与 HTX 石墨铜套相同：高力黄铜、铝青铜或磷青铜基体配固体石墨块；法兰厚度与外径影响轴向承载与固定方式，选型时一并给出。",
+      "en": "Same alloy options as HTX graphite bronze—brass, aluminum bronze or phosphor bronze with graphite plugs; specify flange OD/thickness for axial duty and mounting.",
+      "vi": "Cùng lựa chọn hợp kim như bạc graphite HTX; nêu OD/dày bích cho tải dọc trục và lắp."
+    },
+    "processSectionTitle": {
+      "zh": "工作原理",
+      "en": "How they work",
+      "vi": "Nguyên lý hoạt động"
+    },
+    "processLead": {
+      "zh": "滑动时石墨自铜基体释出并形成润滑膜，实现自润滑；法兰结构便于限位与安装，内孔仍承担径向导向或载荷。",
+      "en": "Graphite releases from the copper body during sliding for self-lubrication; the flange locates axially while the bore handles radial guidance or load.",
+      "vi": "Graphite tự bôi khi trượt; bích định vị dọc trục, lỗ chịu dẫn/tải kính."
+    },
+    "hideSurfaceSection": true,
     "extraFaqs": [
       {
         "q": {
@@ -1005,6 +1291,34 @@
   },
   "wear-plates": {
     "faqOnly": true,
+    "applicationArea": {
+      "zh": "石墨青铜耐磨板/滑板用于平面重载滑动，常见于注塑模、压铸模的滑块导向面；关注接触面积、固定孔位与行程，而非孔轴配合。",
+      "en": "Graphite bronze wear and slide plates serve flat heavy-duty sliding—often on mold slide ways; specify contact area, fasteners and travel rather than a bore/shaft pair.",
+      "vi": "Tấm trượt graphite đồng cho trượt phẳng tải nặng—thường trên con trượt khuôn; nêu diện tích tiếp xúc, lỗ cố định và hành trình."
+    },
+    "applicationTileCaptions": [
+      {"zh": "注塑模系统", "en": "Injection mold systems", "vi": "Hệ khuôn ép nhựa"},
+      {"zh": "压铸模", "en": "Die-casting molds", "vi": "Khuôn đúc"},
+      {"zh": "冲压模", "en": "Stamping dies", "vi": "Khuôn dập"},
+      {"zh": "重型机械运动件", "en": "Heavy machinery moving parts", "vi": "Chi tiết chuyển động máy nặng"},
+      {"zh": "工程机械", "en": "Construction machinery", "vi": "Máy xây dựng"}
+    ],
+    "materialLead": {
+      "zh": "耐磨板基体材料与石墨布点方式决定平面承载与润滑持续性；高力黄铜、铝青铜、磷青铜选型逻辑与 HTX 石墨铜套材料节一致，按工况确认。",
+      "en": "Plate alloy and graphite layout define flat load capacity and lubrication—same brass / aluminum bronze / phosphor bronze logic as HTX graphite bushings, confirmed for your duty.",
+      "vi": "Hợp kim tấm và bố trí graphite quyết định tải phẳng và bôi trơn—cùng logic vật liệu HTX."
+    },
+    "processSectionTitle": {
+      "zh": "工作原理",
+      "en": "How they work",
+      "vi": "Nguyên lý hoạt động"
+    },
+    "processLead": {
+      "zh": "平面滑动时嵌入石墨持续释润滑膜，减少板面与对磨件之间的干摩擦；适合润滑难以到达的滑板与导向面。",
+      "en": "Embedded graphite releases a film during flat sliding to cut dry friction between plate and counterface—suited to slide ways that are hard to oil regularly.",
+      "vi": "Graphite nhúng tạo màng khi trượt phẳng, giảm ma sát khô giữa tấm và mặt đối."
+    },
+    "hideSurfaceSection": true,
     "extraFaqs": [
       {
         "q": {
@@ -1021,7 +1335,19 @@
     ]
   },
   "precision-dowel-pins": {
+    "hideMaterialSurfaceSections": true,
     "faqOnly": true,
+    "applicationArea": {
+      "zh": "圆柱销用于模具、冲模、工装与机械装配中的重复定位与对中：定位由销与孔配合完成，夹紧力仍由螺栓等紧固件承担。",
+      "en": "Dowel pins give repeatable location in molds, dies, fixtures and machinery—the pin and hole locate; bolts and screws clamp.",
+      "vi": "Chốt trụ định vị lặp trong khuôn, dập, đồ gá và máy—chốt và lỗ định vị; bulong kẹp."
+    },
+    "applicationTileCaptions": [
+      {"zh": "注塑模", "en": "Injection molds", "vi": "Khuôn ép nhựa"},
+      {"zh": "冲压模", "en": "Stamping dies", "vi": "Khuôn dập"},
+      {"zh": "精密工装", "en": "Precision tooling", "vi": "Đồ gá chính xác"},
+      {"zh": "工业装配", "en": "Industrial machinery", "vi": "Lắp máy công nghiệp"}
+    ],
     "extraFaqs": [
       {
         "q": {
@@ -1038,7 +1364,20 @@
     ]
   },
   "threaded-dowel-pins": {
+    "hideConfigurations": true,
+    "hideMaterialSurfaceSections": true,
     "faqOnly": true,
+    "applicationArea": {
+      "zh": "螺纹定位销用磨削圆柱段定位，螺纹用于安装、保持或维护时可控拆卸（不提高定位精度）。HTX 典型场景：需定期拆装的工装、需螺纹安装/保持的结构、盲孔或难触及位置；以盲孔拔出为主时应选 HTX 菜单中的 Pull Dowel Pins，而非本页螺纹销型录。",
+      "en": "Threaded dowel pins locate on the ground cylinder; threads install, retain or extract without improving accuracy. HTX uses them for maintained tooling, threaded retention and blind or hard-to-reach installs—choose Pull Dowel Pins from HTX when blind-hole extraction is the main need.",
+      "vi": "Chốt ren định vị bằng đoạn trụ mài; ren để lắp/giữ/tháo, không tăng độ chính xác. HTX dùng cho đồ gá cần bảo trì; nếu ưu tiên rút lỗ mù, xem Pull Dowel Pins trên HTX."
+    },
+    "applicationTileCaptions": [
+      {"zh": "注塑模", "en": "Injection molds", "vi": "Khuôn ép nhựa"},
+      {"zh": "冲压模", "en": "Stamping dies", "vi": "Khuôn dập"},
+      {"zh": "精密工装", "en": "Precision tooling", "vi": "Đồ gá chính xác"},
+      {"zh": "工业装配", "en": "Industrial assemblies", "vi": "Lắp công nghiệp"}
+    ],
     "extraFaqs": [
       {
         "q": {
@@ -1047,9 +1386,45 @@
           "vi": "Ren trên chốt có định vị không?"
         },
         "a": {
-          "zh": "定位通常由磨削圆柱段与孔配合保证；螺纹用于安装、拔出或保持，不应替代主要定位面。",
-          "en": "Location comes from the ground cylindrical fit; threads are for install, extraction or retention—not the primary datum.",
-          "vi": "Định vị bởi đoạn trụ mài; ren để lắp/rút, không thay mặt chuẩn chính."
+          "zh": "不参与。定位由圆柱定位段与孔配合保证；螺纹用于安装、保持或可控拆卸。",
+          "en": "No. Location comes from the cylindrical fit; threads are for install, retention or controlled removal.",
+          "vi": "Không. Định vị bởi đoạn trụ; ren để lắp, giữ hoặc tháo."
+        }
+      },
+      {
+        "q": {
+          "zh": "螺纹定位销是否比普通圆柱销更准？",
+          "en": "Are threaded dowel pins more accurate than plain pins?",
+          "vi": "Chốt ren có chính xác hơn chốt trơn không?"
+        },
+        "a": {
+          "zh": "不会。精度取决于圆柱定位段与孔的配合；螺纹只影响装拆与保持方式。",
+          "en": "No. Accuracy depends on the cylindrical fit with the hole; threads affect installation and removal, not positioning precision.",
+          "vi": "Không. Độ chính xác phụ thuộc lắp trụ–lỗ; ren ảnh hưởng lắp/tháo."
+        }
+      },
+      {
+        "q": {
+          "zh": "如何选定位直径与螺纹规格？",
+          "en": "How to choose locating diameter and thread size?",
+          "vi": "Chọn đường kính định vị và cỡ ren?"
+        },
+        "a": {
+          "zh": "定位直径按孔与所需定位精度；螺纹规格按安装、保持或拆卸方式及预期轴向载荷确认。",
+          "en": "Size the locating diameter from the hole and accuracy need; size the thread from install, retention or removal method and expected axial load.",
+          "vi": "Đường kính định vị theo lỗ và độ chính xác; ren theo cách lắp/giữ/tháo và tải dọc trục."
+        }
+      },
+      {
+        "q": {
+          "zh": "何时应选拔出销（Pull Dowel）而非螺纹定位销？",
+          "en": "When use a pull dowel instead of a threaded dowel pin?",
+          "vi": "Khi nào dùng chốt rút thay chốt ren?"
+        },
+        "a": {
+          "zh": "当以盲孔内便于拔出为主、且结构为拔出销形式时，应对照 HTX 的 Pull Dowel Pins 系列；螺纹定位销侧重螺纹安装/保持/维护拆卸，两者选型逻辑不同。",
+          "en": "When blind-hole extraction is the primary need with a pull feature, use HTX Pull Dowel Pins; threaded pins focus on threaded install, retention and serviced removal.",
+          "vi": "Khi ưu tiên rút lỗ mù, dùng Pull Dowel Pins trên HTX; chốt ren cho lắp/giữ bằng ren."
         }
       }
     ]

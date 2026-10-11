@@ -65,6 +65,17 @@ const processSectionLabel =
   locale === 'zh' ? '制造工艺' : locale === 'vi' ? 'Quy trình sản xuất' : 'Manufacturing process';
 const processBlurb =
   locale === 'zh' ? '制造工艺示意，具体以确认图纸为准。' : 'Manufacturing overview; final process per agreed drawing.';
+const processChooseLabel = {
+  zh: '如何选型',
+  en: 'How to choose',
+  vi: 'Cách chọn',
+}[locale];
+const processBlockLabel = extras.processSectionTitle
+  ? tx(extras.processSectionTitle)
+  : extras.processLead
+    ? processChooseLabel
+    : processSectionLabel;
+const processText = extras.processLead ? tx(extras.processLead) : processBlurb;
 
 /** 与上文图文块交替：双应用节后为 文|图、图|文；单应用节后为 图|文、文|图 */
 const materialsReverse = !splitApps;
@@ -73,7 +84,8 @@ const surfaceReverse = splitApps;
 
 <div class="punch-longform">
   {
-    splitApps ? (
+    !extras.hideApplicationSections &&
+    (splitApps ? (
       <>
         <FamilyDetailSection
           id="application-areas"
@@ -114,13 +126,20 @@ const surfaceReverse = splitApps;
               <div class="punch-industry">
                 <p class="text-xs font-semibold uppercase tracking-wider text-slate-500">{industryLabel}</p>
                 <ul class="punch-industry__grid">
-                  {figs.applicationTiles.map((src) => (
-                    <li>
-                      <figure class="punch-industry__tile">
-                        <img src={src} alt={tx(ui.applicationScenario)} width="320" height="320" loading="lazy" />
-                      </figure>
-                    </li>
-                  ))}
+                  {figs.applicationTiles.map((src, i) => {
+                    const tileCaption = extras.applicationTileCaptions?.[i];
+                    const tileAlt = tileCaption ? tx(tileCaption) : tx(ui.applicationScenario);
+                    return (
+                      <li>
+                        <figure class="punch-industry__tile">
+                          <img src={src} alt={tileAlt} width="320" height="320" loading="lazy" />
+                          {tileCaption && (
+                            <figcaption class="punch-industry__caption">{tileAlt}</figcaption>
+                          )}
+                        </figure>
+                      </li>
+                    );
+                  })}
                 </ul>
               </div>
             )
@@ -132,7 +151,11 @@ const surfaceReverse = splitApps;
         <PunchStorySplit
           media="scene"
           title={tx(ui.application)}
-          imageSrc={figs?.figures.applicationsFigure ?? figs?.figures.applicationArea}
+          imageSrc={
+            figs?.applicationTiles && figs.applicationTiles.length > 0
+              ? undefined
+              : (figs?.figures.applicationsFigure ?? figs?.figures.applicationArea)
+          }
           imageAlt={tx(ui.application)}
           quoteProduct={quoteFor(tx(ui.application))}
           quoteLabel={inquiryLabel}
@@ -156,21 +179,30 @@ const surfaceReverse = splitApps;
             <div class="punch-industry">
               <p class="mb-4 text-xs font-semibold uppercase tracking-wider text-slate-500">{industryLabel}</p>
               <ul class="punch-industry__grid">
-                {figs.applicationTiles.map((src) => (
-                  <li>
-                    <figure class="punch-industry__tile">
-                      <img src={src} alt={tx(ui.application)} width="320" height="320" loading="lazy" />
-                    </figure>
-                  </li>
-                ))}
+                {figs.applicationTiles.map((src, i) => {
+                  const tileCaption = extras.applicationTileCaptions?.[i];
+                  const tileAlt = tileCaption ? tx(tileCaption) : tx(ui.application);
+                  return (
+                    <li>
+                      <figure class="punch-industry__tile">
+                        <img src={src} alt={tileAlt} width="320" height="320" loading="lazy" />
+                        {tileCaption && (
+                          <figcaption class="punch-industry__caption">{tileAlt}</figcaption>
+                        )}
+                      </figure>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           )
         }
       </FamilyDetailSection>
-    )
+    ))
   }
 
+  {
+    !extras.hideMaterialSurfaceSections && (
   <FamilyDetailSection id="material-options" title={tx(ui.material)} titlePlacement="inline" dataSection="materials">
     {
       (materialText || figs?.figures.materialsFigure) && (
@@ -193,12 +225,13 @@ const surfaceReverse = splitApps;
           <PunchStorySplit
             reverse={!materialsReverse}
             media="chart"
+            title={extras.processLead ? processBlockLabel : undefined}
             imageSrc={figs.figures.processFigure}
-            imageAlt={processSectionLabel}
-            quoteProduct={quoteFor(processSectionLabel)}
+            imageAlt={processBlockLabel}
+            quoteProduct={quoteFor(processBlockLabel)}
             quoteLabel={inquiryLabel}
           >
-            <p class="text-base leading-relaxed text-slate-600">{processBlurb}</p>
+            <p class="text-base leading-relaxed text-slate-600">{processText}</p>
           </PunchStorySplit>
         </div>
       )
@@ -206,10 +239,14 @@ const surfaceReverse = splitApps;
     {
       !materialsPrimary && (
         <>
-          <div class="punch-inline-section-head">
-            <span class="punch-section__accent" aria-hidden="true" />
-            <h2 class="text-2xl md:text-3xl">{tx(ui.material)}</h2>
-          </div>
+          {
+            !materialText && (
+              <div class="punch-inline-section-head">
+                <span class="punch-section__accent" aria-hidden="true" />
+                <h2 class="text-2xl md:text-3xl">{tx(ui.material)}</h2>
+              </div>
+            )
+          }
           <ul class="punch-mini-cards">
             {
               product.materials.map((material) => (
@@ -225,7 +262,11 @@ const surfaceReverse = splitApps;
       )
     }
   </FamilyDetailSection>
+    )
+  }
 
+  {
+    !extras.hideMaterialSurfaceSections && !extras.hideSurfaceSection && (
   <FamilyDetailSection id="surface-options" title={tx(ui.surface)} titlePlacement="inline" dataSection="surface">
     {
       (surfaceText || figs?.figures.surfaceFigure) && (
@@ -265,6 +306,66 @@ const surfaceReverse = splitApps;
       )
     }
   </FamilyDetailSection>
+    )
+  }
+
+  {
+    extras.advantageSection &&
+      (figs?.figures.advantagesFigure ||
+        (figs?.highlightIcons?.length && extras.advantageTileCaptions?.length)) && (
+      <FamilyDetailSection
+        id="family-advantage"
+        title={tx(extras.advantageSection.title)}
+        titlePlacement="inline"
+        dataSection="advantage"
+      >
+        {
+          figs?.figures.advantagesFigure ? (
+            <PunchStorySplit
+              media="scene"
+              title={tx(extras.advantageSection.title)}
+              imageSrc={figs.figures.advantagesFigure}
+              imageAlt={tx(extras.advantageSection.title)}
+              quoteProduct={quoteFor(tx(extras.advantageSection.title))}
+              quoteLabel={inquiryLabel}
+            >
+              <p class="text-base leading-relaxed text-slate-600">{tx(extras.advantageSection.body)}</p>
+            </PunchStorySplit>
+          ) : (
+            <>
+              <div class="punch-inline-section-head">
+                <span class="punch-section__accent" aria-hidden="true" />
+                <h2 class="text-2xl md:text-3xl">{tx(extras.advantageSection.title)}</h2>
+              </div>
+              <p class="mt-4 max-w-3xl text-base leading-relaxed text-slate-600">{tx(extras.advantageSection.body)}</p>
+              {
+                figs?.highlightIcons && figs.highlightIcons.length > 0 && (
+                  <ul class="punch-industry__grid mt-8">
+                    {figs.highlightIcons.map((src, i) => {
+                      const cap = extras.advantageTileCaptions?.[i];
+                      const alt = cap ? tx(cap) : tx(extras.advantageSection!.title);
+                      return (
+                        <li>
+                          <figure class="punch-industry__tile">
+                            <img src={src} alt={alt} width="320" height="320" loading="lazy" />
+                            {cap && <figcaption class="punch-industry__caption">{alt}</figcaption>}
+                          </figure>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                )
+              }
+              <FamilySectionInquiryLink
+                quoteProduct={quoteFor(tx(extras.advantageSection.title))}
+                label={inquiryLabel}
+              />
+            </>
+          )
+        }
+      </FamilyDetailSection>
+    )
+  }
 
   <FamilyDetailSection id="family-faq" title={tx(ui.faq)} tone="soft" dataSection="faq">
     <div class="punch-faq">
@@ -370,6 +471,13 @@ const surfaceReverse = splitApps;
     aspect-ratio: 1;
     background: transparent;
     border: none;
+  }
+  .punch-industry__caption {
+    margin-top: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1.35;
+    color: rgb(71 85 105);
   }
   .punch-industry__tile img {
     width: 100%;

@@ -1080,14 +1080,14 @@
       ],
       "variants": [
         {
-          "en": "Rolling guide units",
-          "zh": "滚动导向单元",
-          "vi": "Cụm dẫn lăn"
+          "en": "Standard sizes",
+          "zh": "标准规格",
+          "vi": "Kích thước tiêu chuẩn"
         },
         {
-          "en": "Matched assemblies",
-          "zh": "配套总成",
-          "vi": "Cụm đồng bộ"
+          "en": "Drawing-based custom",
+          "zh": "按图定制",
+          "vi": "Theo bản vẽ"
         }
       ],
       "sourceUrls": [
@@ -1461,24 +1461,24 @@
       "group": "dowel-pins",
       "id": "threaded-dowel-pins",
       "name": {
-        "en": "Threaded & Pull Dowel Pins",
-        "zh": "螺纹与拔出式定位销",
-        "vi": "Chốt ren & chốt rút"
+        "en": "Threaded Dowel Pins",
+        "zh": "螺纹定位销",
+        "vi": "Chốt trụ ren"
       },
       "summary": {
-        "en": "A cylindrical locating surface is combined with a thread for fitting or extraction. The thread supports handling; the ground diameter controls positioning.",
-        "zh": "定位圆柱面结合安装或拔出螺纹，螺纹服务于装拆，定位精度仍取决于磨削直径与孔的配合。",
-        "vi": "Mặt trụ định vị kết hợp ren để lắp hoặc rút. Ren hỗ trợ thao tác; đường kính mài quyết định định vị."
+        "en": "Ground cylindrical locating section plus a thread for install, retention or controlled removal—positioning accuracy comes from the cylinder fit, not the thread.",
+        "zh": "磨削圆柱定位段配合螺纹，用于安装、保持或维护拆卸；定位精度由圆柱段与孔配合决定，螺纹不提高精度。",
+        "vi": "Đoạn trụ mài định vị kèm ren để lắp, giữ hoặc tháo; độ chính xác do lắp trụ–lỗ, ren không tăng độ chính xác."
       },
       "application": {
-        "en": "A cylindrical locating surface is combined with a thread for fitting or extraction. The thread supports handling; the ground diameter controls positioning.",
-        "zh": "定位圆柱面结合安装或拔出螺纹，螺纹服务于装拆，定位精度仍取决于磨削直径与孔的配合。",
-        "vi": "Mặt trụ định vị kết hợp ren để lắp hoặc rút. Ren hỗ trợ thao tác; đường kính mài quyết định định vị."
+        "en": "Ground cylindrical locating section plus a thread for install, retention or controlled removal—positioning accuracy comes from the cylinder fit, not the thread.",
+        "zh": "磨削圆柱定位段配合螺纹，用于安装、保持或维护拆卸；定位精度由圆柱段与孔配合决定，螺纹不提高精度。",
+        "vi": "Đoạn trụ mài định vị kèm ren để lắp, giữ hoặc tháo; độ chính xác do lắp trụ–lỗ, ren không tăng độ chính xác."
       },
       "selection": {
-        "en": "Locating diameter and length; internal/external thread and depth; extraction clearance and end form",
-        "zh": "定位直径与长度；内 / 外螺纹及深度；拔出空间与端部形式",
-        "vi": "Đường kính và dài định vị; ren trong/ngoài và sâu; khoảng rút và dạng đầu"
+        "en": "Locating diameter and hole fit; thread size and engagement; overall and locating length per drawing",
+        "zh": "定位直径与孔配合；螺纹规格与旋合长度；总长与定位长度按图纸",
+        "vi": "Đường kính định vị và lỗ; cỡ ren và chiều dài ăn ren; chiều dài theo bản vẽ"
       },
       "materials": [
         "Alloy steel",
@@ -1487,24 +1487,18 @@
       ],
       "variants": [
         {
-          "en": "Internal extraction thread",
-          "zh": "内螺纹拔出",
-          "vi": "Ren trong để rút"
+          "en": "Standard threaded dowel pins",
+          "zh": "标准螺纹定位销",
+          "vi": "Chốt ren tiêu chuẩn"
         },
         {
-          "en": "External threaded section",
-          "zh": "外螺纹段",
-          "vi": "Đoạn ren ngoài"
-        },
-        {
-          "en": "Metric / inch",
-          "zh": "公制 / 英制",
-          "vi": "Hệ mét / inch"
+          "en": "Custom per drawing",
+          "zh": "按图定制",
+          "vi": "Theo bản vẽ"
         }
       ],
       "sourceUrls": [
-        "https://htxprecision.com/threaded-dowel-pins/",
-        "https://htxprecision.com/dowel-pins/"
+        "https://htxprecision.com/threaded-dowel-pins/"
       ],
       "image": "/images/products/catalog/threaded-dowel-pins-2026-10-08T17-30-35-327Z-4x3.png",
       "illustration": "/images/catalog/threaded-dowel-pins.svg",

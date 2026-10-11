@@ -96,9 +96,7 @@
   "straight-ejector-pins": {
     "sourceDirs": ["output/htx-sources/ejector-components/straight-ejector-pins"],
     "figures": {
-      "applicationsFigure": "Application-of-The-Straight-Ejector-Pins",
-      "materialsFigure": "The-Surface-Treatment-and-Material",
-      "surfaceFigure": "Nitrided-Ejector-Pins"
+      "applicationsFigure": "Application-of-The-Straight-Ejector-Pins"
     },
     "highlightIcons": [
       "1-High-Straightness-Control",
@@ -137,10 +135,9 @@
   "blade-ejector-pins": {
     "sourceDirs": ["output/htx-sources/ejector-components/blade-ejector-pins"],
     "figures": {
-      "applicationsFigure": "Manufacturing-of-The-Blade-Ejector-Pin",
-      "materialsFigure": "Material-Options"
+      "processFigure": "Manufacturing-of-The-Blade-Ejector-Pin"
     },
-    "highlightIcons": [
+    "applicationTiles": [
       "1-Thin-walled-products",
       "2-Complex-or-confined-spaces",
       "3-High-Aesthetic-Requirement",
@@ -150,15 +147,9 @@
   "square-ejector-pins": {
     "sourceDirs": ["output/htx-sources/ejector-components/square-ejector-pins"],
     "figures": {
-      "applicationsFigure": "The-Advantage-of-The-Square-Ejector-Pins",
-      "materialsFigure": "Diverse-Material-Options"
+      "advantagesFigure": "The-Advantage-of-The-Square-Ejector-Pins"
     },
-    "highlightIcons": [
-      "Lock-Rotation",
-      "Asymmetrical-Parts",
-      "High_precision",
-      "High-Synchronization"
-    ]
+    "applicationTiles": []
   },
   "ejector-sleeves": {
     "sourceDirs": ["output/htx-sources/ejector-components/ejector-sleeves"],
@@ -176,28 +167,30 @@
   "air-poppet-valves": {
     "sourceDirs": ["output/htx-sources/ejector-components/air-poppet-valves"],
     "figures": {
-      "applicationsFigure": "Injection-Molding-Process",
-      "materialsFigure": "How-To-Choose-an-Air-Poppet-Valve"
+      "materialsFigure": "Structure-of-HTX-Injection-Mold-Air-Poppet-Valve",
+      "processFigure": "How-To-Choose-an-Air-Poppet-Valve"
     },
     "highlightIcons": [
       "6-High-Precision-and-Easy-Installation",
       "7-Space-Saving-Design",
       "8-Enhanced-Ejection-Performance",
       "9-High-Temperature-Capability"
+    ],
+    "applicationTiles": [
+      "Automotive-Plastic-Components",
+      "Electronic-Plastic-Parts",
+      "Home-Appliance-Components",
+      "Industrial-Injection-Mold-Applications"
     ]
   },
   "guide-posts": {
     "sourceDirs": ["output/htx-sources/guide-components/guide-posts"],
     "figures": {
-      "applicationsFigure": "How-to-Choose-the-Right-Guide-Pins",
-      "materialsFigure": "Materials-Surface-Treatment-of-HTX-Guide-Pins"
+      "materialsFigure": "Materials-Surface-Treatment-of-HTX-Guide-Pins",
+      "processFigure": "How-to-Choose-the-Right-Guide-Pins"
     },
-    "highlightIcons": [
-      "High-Precision-Surface-Grinding",
-      "Exceptional-Wear-Resistance",
-      "Stable-Alignment-Under-Load",
-      "Custom-Dimensions-Available"
-    ]
+    "highlightIcons": [],
+    "applicationTiles": []
   },
   "guide-bushings": {
     "sourceDirs": ["output/htx-sources/guide-components/guide-bushings"],
@@ -215,21 +208,17 @@
   "flanged-guide-bushings": {
     "sourceDirs": ["output/htx-sources/guide-components/flanged-guide-bushings"],
     "figures": {
-      "applicationsFigure": "3-Injection-Molds-Applications",
-      "materialsFigure": "Custom-Guide-Pillar-And-Guide-Bush-Solutions"
+      "materialsFigure": "Vacuum-heat-treatment-furnace",
+      "processFigure": "Mirror-finished-guide-post-with-surface-roughness"
     },
-    "highlightIcons": [
-      "1-Prevents-Die-Misalignment",
-      "2-Long-Service-Life",
-      "3-Prevents-Scuffing-and-Seizing",
-      "4-Consistent-Product-Quality"
-    ]
+    "highlightIcons": [],
+    "applicationTiles": []
   },
   "guide-sets": {
     "sourceDirs": ["output/htx-sources/guide-components/guide-sets"],
     "figures": {
-      "applicationsFigure": "2-Precision-Progressive-Dies",
-      "materialsFigure": "Custom-Guide-Pillar-And-Guide-Bush-Solutions"
+      "materialsFigure": "Vacuum-heat-treatment-furnace",
+      "processFigure": "Mirror-finished-guide-post-with-surface-roughness"
     },
     "highlightIcons": [
       "1-Prevents-Die-Misalignment",
@@ -253,23 +242,26 @@
   },
   "ball-bearing-bushings": {
     "sourceDirs": ["output/htx-sources/guide-components/ball-bearing-bushings"],
-    "figures": {
-      "applicationsFigure": "Stamping-Dies-Applications",
-      "materialsFigure": "Ball-Bearing-Bushing-Design-Performance-Features"
-    },
-    "highlightIcons": [
-      "Hardened-Steel-Balls",
-      "Controlled-Ball-Arrangement",
-      "Precision-Bore-Manufacturing",
-      "Controlled-Concentricity"
-    ]
+    "figures": {},
+    "applicationTiles": [
+      "Stamping-Dies-Applications",
+      "Injection-Molds-Applications",
+      "Precision-Tooling-Applications",
+      "High-Cycle-Mold-Guide-Systems"
+    ],
+    "highlightIcons": []
   },
   "rectangular-die-springs": {
     "sourceDirs": ["output/htx-sources/die-springs/rectangular-die-springs"],
     "figures": {
-      "applicationsFigure": "How-to-Choose-a-Die-Spring",
-      "materialsFigure": "Mold-springs-die-springs-rectangular-springs"
+      "materialsFigure": "Mold-springs-die-springs-rectangular-springs",
+      "processFigure": "How-to-Choose-a-Die-Spring"
     },
+    "applicationTiles": [
+      "Injection-Molds-Applications",
+      "Stamping-Dies-Applications",
+      "Precision-Tooling-Applications"
+    ],
     "highlightIcons": [
       "1-Complete-Load-Coverage",
       "2-Color-Coding",
@@ -293,79 +285,73 @@
   "graphite-bronze-bushings": {
     "sourceDirs": ["output/htx-sources/bronze-components/graphite-bronze-bushings"],
     "figures": {
-      "applicationsFigure": "How-Graphite-Bronze-Bushings-Work",
-      "materialsFigure": "Material-Options-Performance"
+      "materialsFigure": "Material-Options-Performance",
+      "processFigure": "How-Graphite-Bronze-Bushings-Work"
     },
-    "highlightIcons": [
+    "applicationTiles": [
       "1-Injection-Mold-Systems",
       "2-Die-Casting-Molds",
       "3-Stamping-Dies",
-      "4-Heavy-Machinery-Moving-Parts"
-    ]
+      "4-Heavy-Machinery-Moving-Parts",
+      "5-Construction-Machinery-Equipment"
+    ],
+    "highlightIcons": []
   },
   "bronze-bushings": {
     "sourceDirs": ["output/htx-sources/bronze-components/bronze-bushings"],
-    "figures": {
-      "applicationsFigure": "3-Injection-Molds-Applications",
-      "materialsFigure": "Custom-Guide-Pillar-And-Guide-Bush-Solutions"
-    },
-    "highlightIcons": [
-      "1-Prevents-Die-Misalignment",
-      "2-Long-Service-Life",
-      "3-Prevents-Scuffing-and-Seizing",
-      "4-Consistent-Product-Quality"
-    ]
+    "figures": {},
+    "highlightIcons": []
   },
   "flanged-bronze-bushings": {
     "sourceDirs": ["output/htx-sources/bronze-components/flanged-bronze-bushings"],
     "figures": {
-      "applicationsFigure": "How-Graphite-Bronze-Bushings-Work",
-      "materialsFigure": "Material-Options-Performance"
+      "materialsFigure": "Material-Options-Performance",
+      "processFigure": "How-Graphite-Bronze-Bushings-Work"
     },
-    "highlightIcons": [
+    "applicationTiles": [
       "1-Injection-Mold-Systems",
       "2-Die-Casting-Molds",
       "3-Stamping-Dies",
-      "4-Heavy-Machinery-Moving-Parts"
-    ]
+      "4-Heavy-Machinery-Moving-Parts",
+      "5-Construction-Machinery-Equipment"
+    ],
+    "highlightIcons": []
   },
   "wear-plates": {
     "sourceDirs": ["output/htx-sources/bronze-components/wear-plates"],
     "figures": {
-      "applicationsFigure": "How-Graphite-Bronze-Bushings-Work",
-      "materialsFigure": "Custom-Manufacturing-Capabilities-at-HTX"
+      "materialsFigure": "Material-Options-Performance",
+      "processFigure": "How-Graphite-Bronze-Bushings-Work"
     },
-    "highlightIcons": [
+    "applicationTiles": [
       "1-Injection-Mold-Systems",
       "2-Die-Casting-Molds",
       "3-Stamping-Dies",
-      "4-Heavy-Machinery-Moving-Parts"
-    ]
+      "4-Heavy-Machinery-Moving-Parts",
+      "5-Construction-Machinery-Equipment"
+    ],
+    "highlightIcons": []
   },
   "precision-dowel-pins": {
     "sourceDirs": ["output/htx-sources/dowel-pins/precision-dowel-pins"],
-    "figures": {
-      "applicationsFigure": "Injection-Molds-Applications",
-      "materialsFigure": "Precision-grinding-of-dowel-pin-in-HTX-manufacturing-facility"
-    },
-    "highlightIcons": [
-      "Positioning",
-      "Alignment",
-      "Repeatable-Assembly",
-      "Shear-Resistance"
-    ]
+    "figures": {},
+    "applicationTiles": [
+      "Injection-Molds-Applications",
+      "Stamping-Dies-Applications",
+      "Precision-Tooling-Applications",
+      "Industrial-Machinery-Application"
+    ],
+    "highlightIcons": []
   },
   "threaded-dowel-pins": {
     "sourceDirs": ["output/htx-sources/dowel-pins/threaded-dowel-pins"],
-    "figures": {
-      "applicationsFigure": "When-to-Use-Threaded-Dowel-Pins",
-      "materialsFigure": "The-Specifications-for-Threaded-Dowel-Pins"
-    },
-    "highlightIcons": [
-      "Locating-Diameter",
-      "Thread-Size",
-      "Pin-Length",
-      "Material-Selection"
-    ]
+    "figures": {},
+    "applicationTiles": [
+      "Injection-Molds-Applications",
+      "Stamping-Dies-Applications",
+      "Precision-Tooling-Applications",
+      "Industrial-Assemblies-Application"
+    ],
+    "highlightIcons": []
   }
 }
