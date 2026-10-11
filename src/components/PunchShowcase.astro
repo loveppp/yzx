@@ -70,7 +70,7 @@ const cardQuoteHref = quoteHref ?? (home ? `/${locale}/#quote` : '#quote');
             href={punchHubHref}
             class="product-visual-card group block overflow-hidden border border-borui-navy/10 bg-borui-paper hover:border-borui-brass"
           >
-            <div class="product-visual-frame aspect-[4/3] overflow-hidden bg-borui-light">
+            <div class="product-visual-frame aspect-[4/3] overflow-hidden bg-white">
               <img
                 src={homeHeroImage}
                 alt={
@@ -97,7 +97,7 @@ const cardQuoteHref = quoteHref ?? (home ? `/${locale}/#quote` : '#quote');
                 photos.map((p) => (
                   <article class="product-visual-card flex min-w-0 flex-col overflow-hidden border border-borui-navy/10 bg-borui-paper">
                     <a class="group min-w-0 flex-1 hover:border-borui-brass" href={productPath(p, locale)}>
-                      <div class="product-visual-frame aspect-square overflow-hidden bg-borui-light">
+                      <div class="product-visual-frame aspect-square overflow-hidden bg-white">
                         <img
                           src={p.image || p.illustration}
                           alt={catalogText(p.name, locale)}

@@ -14,7 +14,7 @@ const { locale, currentPath } = Astro.props;
   <label class="sr-only" for="lang-select">Language</label>
   <select
     id="lang-select"
-    class="min-h-11 w-[7rem] sm:w-auto sm:max-w-[7.5rem] cursor-pointer border border-borui-navy/20 bg-transparent py-1 pl-2 pr-6 text-xs font-medium text-borui-navy focus:border-borui-brass focus:outline-none"
+    class="form-select min-h-11 w-[7.25rem] cursor-pointer border border-borui-navy/20 bg-white py-2 pl-2.5 text-xs font-medium text-borui-navy focus:border-borui-brass focus:outline-none sm:w-auto sm:max-w-[8rem]"
     onchange="window.location.href=this.value"
   >
     {

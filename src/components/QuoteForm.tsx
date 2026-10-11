@@ -136,7 +136,7 @@ export default function QuoteForm({ labels, categories, initialCategory = '', pr
           <select
             name="category"
             defaultValue={initialCategory}
-            className="mt-1 w-full border border-borui-navy/20 bg-white px-3 py-3 text-base focus:border-borui-brass focus:outline-none"
+            className="form-select mt-1 w-full border border-borui-navy/20 bg-white py-3 pl-3 text-base focus:border-borui-brass focus:outline-none"
           >
             <option value="">{labels.selectCategory}</option>
             {categories.map((c) => (

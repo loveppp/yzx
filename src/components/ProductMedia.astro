@@ -11,12 +11,14 @@ interface Props {
   caption?: boolean;
   eager?: boolean;
   visualCaption?: boolean;
-  /** 默认 1:1；首页「产品分类」六大类条显式传 4/3（首页 Hero 大图在 PunchShowcase 内单独 4/3） */
+  /** 默认 1:1。仅首页「产品分类」六大类封面（ProductStrip / group coverImage）用 4/3。 */
   frame?: '4/3' | '1/1';
+  /** contain 保全貌（列表/详情）；cover 铺满方格（工厂页等小缩略图，可轻微裁切） */
+  objectFit?: 'contain' | 'cover';
   /** 详情页传 detail；列表与详情均优先 detailImage（顶出 1:1 与冲针列表一致） */
   imageRole?: 'listing' | 'detail';
 }
-const {product, locale, caption = false, eager = false, visualCaption = false, frame = '1/1', imageRole = 'listing'} = Astro.props;
+const {product, locale, caption = false, eager = false, visualCaption = false, frame = '1/1', objectFit = 'contain', imageRole = 'listing'} = Astro.props;
 const ui = catalogUI(locale);
 const square = frame === '1/1';
 const src = product.image ?? product.illustration;
@@ -26,7 +28,7 @@ const showVisualCaption =
   !/HTX/i.test(catalogText(catalogVisuals[product.id], locale));
 ---
 <figure class="min-w-0">
-  <div class:list={['product-visual-frame overflow-hidden bg-borui-light', square ? 'aspect-square' : 'aspect-[4/3]']}>
+  <div class:list={['product-visual-frame overflow-hidden bg-white', square ? 'aspect-square' : 'aspect-[4/3]']}>
     <BrandedImage
       src={src}
       alt={catalogText(product.name, locale)}
@@ -35,7 +37,7 @@ const showVisualCaption =
       loading={eager ? 'eager' : 'lazy'}
       decoding="async"
       class="h-full w-full"
-      objectFit="contain"
+      objectFit={objectFit}
       watermark={shouldShowDisplayWatermark(src)}
     />
   </div>

@@ -59,7 +59,18 @@
 
 /* Shared catalog controls and mobile reading/interaction defaults. */
 @layer components {
-  .catalog-control { @apply block min-h-12 w-full min-w-0 border border-borui-navy/20 bg-white px-3 py-3 text-base text-borui-navy; }
+  .form-select {
+    appearance: none;
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 0.65rem;
+    padding-right: 2.25rem;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none'%3E%3Cpath d='M4 6l4 4 4-4' stroke='%23172333' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' opacity='0.65'/%3E%3C/svg%3E");
+  }
+  .catalog-control {
+    @apply form-select block min-h-12 w-full min-w-0 border border-borui-navy/20 bg-white py-3 pl-3 pr-9 text-base text-borui-navy;
+  }
 }
 [hidden] { display: none !important; }
 :focus-visible { outline: 2px solid #755719; outline-offset: 4px; }

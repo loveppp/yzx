@@ -41,8 +41,7 @@ npm run image-gen -- 帮助  # 产品图 CLI（可选）
 | 导航、联系、表单文案 | `src/i18n/messages/*.json` |
 | 旧链接跳转 | `src/data/catalog-legacy.json`（构建写入 `public/_redirects`） |
 
-## 部署（Cloudflare Pages）
+## 部署
 
-- Build command: `npm run build`
-- Output directory: `dist`
-- 询价邮件环境变量见 [docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md)
+- **腾讯云 CVM**：`root@159.75.252.43` → `/var/www/yzx`，http://159.75.252.43/zh/ — 构建与上传命令见 [docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md)
+- **Cloudflare Pages**（可选，含询价 API）：`npm run build`，输出 `dist/`

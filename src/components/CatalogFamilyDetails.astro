@@ -42,7 +42,7 @@ const tx = (value: Parameters<typeof catalogText>[0]) => catalogText(value, loca
                     .filter((asset) => asset.configurationIds.includes(variant.id))
                     .map((asset) => (
                       <figure class="mb-0">
-                        <div class="product-visual-frame aspect-square overflow-hidden bg-borui-light">
+                        <div class="product-visual-frame aspect-square overflow-hidden bg-white">
                           <BrandedImage
                             src={asset.image}
                             alt={tx(asset.name)}

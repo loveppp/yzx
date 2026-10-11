@@ -37,7 +37,7 @@ const title = t.factory.about.recommendedTitle;
                 href={productPath(product, locale)}
                 class="product-visual-card flex h-full flex-col overflow-hidden border border-borui-navy/10 bg-white hover:border-borui-brass"
               >
-                <ProductMedia product={product} locale={locale} />
+                <ProductMedia product={product} locale={locale} objectFit="cover" />
                 <p class="flex flex-1 items-center p-3 text-sm leading-snug text-borui-navy">
                   {catalogText(product.name, locale)}
                 </p>
