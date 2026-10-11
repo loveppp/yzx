@@ -4,6 +4,7 @@ interface Props {
   alt: string;
   class?: string;
   loading?: 'lazy' | 'eager';
+  decoding?: 'async' | 'auto' | 'sync';
   width?: number;
   height?: number;
   watermark?: boolean;
@@ -15,6 +16,7 @@ const {
   alt,
   class: className = '',
   loading = 'lazy',
+  decoding,
   width,
   height,
   watermark = true,
@@ -22,12 +24,13 @@ const {
 } = Astro.props;
 ---
 
-<div class:list={['relative overflow-hidden', className]}>
+<div class:list={['branded-image relative overflow-hidden', className]}>
   <img
     src={src}
     alt={alt}
     class:list={['h-full w-full', objectFit === 'contain' ? 'object-contain bg-borui-light' : 'object-cover']}
     loading={loading}
+    decoding={decoding}
     width={width}
     height={height}
   />
@@ -36,7 +39,7 @@ const {
       <img
         src="/images/brand/logo-watermark.svg"
         alt=""
-        class="pointer-events-none absolute bottom-3 right-3 h-6 w-auto opacity-70 md:bottom-4 md:right-4 md:h-8"
+        class="pointer-events-none absolute bottom-[2.5%] right-[2.5%] h-auto w-[22%] max-w-[10.5rem] min-w-[4.5rem] opacity-[0.65]"
         aria-hidden="true"
       />
     )

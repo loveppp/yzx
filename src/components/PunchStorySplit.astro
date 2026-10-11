@@ -1,4 +1,7 @@
 ---
+import { shouldShowDisplayWatermark } from '@/data/product-image';
+import BrandedImage from './BrandedImage.astro';
+
 interface Props {
   imageSrc?: string;
   imageAlt: string;
@@ -66,7 +69,17 @@ const {
           media === 'chart' && chartSize === 'large' && 'punch-split__figure--chart-lg',
         ]}
       >
-        <img src={imageSrc} alt={imageAlt} width="640" height="512" loading="lazy" decoding="async" />
+        <BrandedImage
+          src={imageSrc}
+          alt={imageAlt}
+          width={640}
+          height={512}
+          loading="lazy"
+          decoding="async"
+          class:list={[media === 'scene' && 'h-full w-full']}
+          objectFit="contain"
+          watermark={shouldShowDisplayWatermark(imageSrc)}
+        />
       </figure>
     )
   }
@@ -132,7 +145,7 @@ const {
   .punch-split--scene .punch-split__figure {
     aspect-ratio: 4 / 3;
   }
-  .punch-split__figure img {
+  .punch-split__figure .branded-image > img {
     display: block;
     width: 100%;
     height: auto;
@@ -143,7 +156,11 @@ const {
     object-fit: contain;
     object-position: center;
   }
-  .punch-split--scene .punch-split__figure img {
+  .punch-split--scene .punch-split__figure .branded-image {
+    width: 100%;
+    height: 100%;
+  }
+  .punch-split--scene .punch-split__figure .branded-image > img {
     width: 100%;
     height: 100%;
   }
@@ -151,10 +168,10 @@ const {
   .punch-split__figure--chart {
     display: block;
   }
-  .punch-split__figure--chart img {
+  .punch-split__figure--chart .branded-image > img {
     max-height: min(24rem, 55vh);
   }
-  .punch-split__figure--chart-lg img {
+  .punch-split__figure--chart-lg .branded-image > img {
     max-height: none;
     width: 100%;
     height: auto;

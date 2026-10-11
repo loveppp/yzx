@@ -2,7 +2,9 @@
 import { catalogText, type CatalogProduct } from '@/data/catalog';
 import { catalogUI } from '@/data/catalog-ui';
 import {catalogVisuals} from '@/data/catalog-visuals';
+import { shouldShowDisplayWatermark } from '@/data/product-image';
 import type { Locale } from '@/i18n/locales';
+import BrandedImage from './BrandedImage.astro';
 interface Props {
   product: CatalogProduct;
   locale: Locale;
@@ -25,14 +27,16 @@ const showVisualCaption =
 ---
 <figure class="min-w-0">
   <div class:list={['product-visual-frame overflow-hidden bg-borui-light', square ? 'aspect-square' : 'aspect-[4/3]']}>
-    <img
+    <BrandedImage
       src={src}
-      alt={catalogText(product.name,locale)}
-      width="800"
+      alt={catalogText(product.name, locale)}
+      width={800}
       height={square ? 800 : 600}
       loading={eager ? 'eager' : 'lazy'}
       decoding="async"
-      class="h-full w-full object-contain"
+      class="h-full w-full"
+      objectFit="contain"
+      watermark={shouldShowDisplayWatermark(src, { catalogGroupId: product.group })}
     />
   </div>
   {(caption||showVisualCaption)&&<figcaption class="px-4 py-3 text-xs leading-relaxed text-slate-600">

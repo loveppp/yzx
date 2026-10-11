@@ -1,21 +1,41 @@
 ---
+import { shouldShowDisplayWatermark } from '@/data/product-image';
+import BrandedImage from './BrandedImage.astro';
+
 interface Props {
   src: string;
   alt: string;
   variant?: 'wide' | 'tile' | 'panel';
 }
 const {src, alt, variant = 'wide'} = Astro.props;
+const showWatermark = variant !== 'tile' && shouldShowDisplayWatermark(src);
 ---
 
 <figure class:list={['family-infographic', `family-infographic--${variant}`]}>
-  <img src={src} alt={alt} width="1200" height="675" loading="lazy" class="family-infographic__img" />
+  {
+    showWatermark ? (
+      <BrandedImage
+        src={src}
+        alt={alt}
+        width={1200}
+        height={675}
+        loading="lazy"
+        class="family-infographic__branded w-full"
+        objectFit="contain"
+        watermark
+      />
+    ) : (
+      <img src={src} alt={alt} width="1200" height="675" loading="lazy" class="family-infographic__img" />
+    )
+  }
 </figure>
 
 <style>
   .family-infographic {
     margin: 0;
   }
-  .family-infographic__img {
+  .family-infographic__img,
+  .family-infographic__branded > img {
     display: block;
     width: 100%;
     height: auto;
@@ -43,19 +63,22 @@ const {src, alt, variant = 'wide'} = Astro.props;
       padding: 1.25rem 1.5rem;
     }
   }
-  .family-infographic--panel .family-infographic__img {
+  .family-infographic--panel .family-infographic__img,
+  .family-infographic--panel .family-infographic__branded > img {
     width: 100%;
     height: auto;
     max-height: 14rem;
     object-fit: contain;
   }
   @media (min-width: 768px) {
-    .family-infographic--panel .family-infographic__img {
+    .family-infographic--panel .family-infographic__img,
+    .family-infographic--panel .family-infographic__branded > img {
       max-height: 17.5rem;
     }
   }
   @media (min-width: 1024px) {
-    .family-infographic--panel .family-infographic__img {
+    .family-infographic--panel .family-infographic__img,
+    .family-infographic--panel .family-infographic__branded > img {
       max-height: 20rem;
     }
   }

@@ -5,6 +5,8 @@ import {familyExtrasFor, familyHidesConfigurations, isPunchLongformProduct} from
 import {familyFiguresFor} from '@/data/catalog-family-figures';
 import type {Locale} from '@/i18n/locales';
 import detailMedia from '@/data/catalog-detail-media.json';
+import { shouldShowDisplayWatermark } from '@/data/product-image';
+import BrandedImage from './BrandedImage.astro';
 import CatalogFamilyGenericLongform from './CatalogFamilyGenericLongform.astro';
 import PunchFamilyLongform from './PunchFamilyLongform.astro';
 
@@ -41,7 +43,18 @@ const tx = (value: Parameters<typeof catalogText>[0]) => catalogText(value, loca
                     .map((asset) => (
                       <figure class="mb-0">
                         <div class="product-visual-frame aspect-square overflow-hidden bg-borui-light">
-                          <img src={asset.image} alt={tx(asset.name)} width="800" height="800" loading="lazy" class="h-full w-full object-contain" />
+                          <BrandedImage
+                            src={asset.image}
+                            alt={tx(asset.name)}
+                            width={800}
+                            height={800}
+                            loading="lazy"
+                            class="h-full w-full"
+                            objectFit="contain"
+                            watermark={shouldShowDisplayWatermark(asset.image, {
+                              catalogGroupId: product.group,
+                            })}
+                          />
                         </div>
                       </figure>
                     ))

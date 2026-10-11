@@ -7,7 +7,9 @@ import CustomTimeline from '@/components/CustomTimeline.astro';
 import SpecTable from '@/components/SpecTable.astro';
 import FAQ from '@/components/FAQ.astro';
 import QuoteSection from '@/components/QuoteSection.astro';
+import BrandedImage from '@/components/BrandedImage.astro';
 import {productById, productPath, catalogText} from '@/data/catalog';
+import { shouldShowDisplayWatermark } from '@/data/product-image';
 import detailMedia from '@/data/catalog-detail-media.json';
 import { catalogUI } from '@/data/catalog-ui';
 import { locales, useTranslations, type Locale } from '@/i18n/utils';
@@ -52,13 +54,15 @@ const customExamples = [
               <article class="product-visual-card flex min-w-0 flex-col overflow-hidden border border-borui-navy/10 bg-white">
                 <a href={example.href} class="min-w-0 flex-1 hover:border-borui-brass">
                   <div class="product-visual-frame aspect-square overflow-hidden bg-borui-light">
-                    <img
+                    <BrandedImage
                       src={example.image}
                       alt={example.name}
-                      class="h-full w-full object-contain"
+                      class="h-full w-full"
+                      objectFit="contain"
                       loading="lazy"
-                      width="800"
-                      height="800"
+                      width={800}
+                      height={800}
+                      watermark={shouldShowDisplayWatermark(example.image)}
                     />
                   </div>
                   <p class="p-3 text-sm leading-relaxed">{example.name} <span aria-hidden="true">↗</span></p>
