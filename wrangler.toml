@@ -2,7 +2,8 @@ name = "yzx"
 compatibility_date = "2026-09-27"
 pages_build_output_dir = "dist"
 
-assets = { directory = "./dist" }
+[assets]
+directory = "./dist"
 
 [vars]
 # Set these in Cloudflare Pages project settings, not in Git:
