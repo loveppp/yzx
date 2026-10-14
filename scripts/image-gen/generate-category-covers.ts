@@ -93,7 +93,7 @@ async function main() {
       await sleep(PAUSE_MS);
     }
     const plan = loadCurrentImagePlan();
-    const entry = plan.jobs.find((j) => j.id === job.id);
+    const entry = plan.jobs.find((j: { id: string }) => j.id === job.id);
     if (!entry?.generationReady) {
       throw new Error(`${job.id} not generationReady: ${entry?.blockingReasons?.join('; ')}`);
     }

@@ -5,7 +5,7 @@
   "referencePolicy": "References establish visible product geometry only, not specifications, performance or stock. Names, sizes, colors and material options alone never establish different structural styles. Unverified jobs are blocked.",
   "totals": {
     "productFamilies": 27,
-    "configurationOptions": 96,
+    "configurationOptions": 94,
     "productMainImages": 27,
     "detailExtras": 40,
     "categoryComposites": 6,
@@ -1742,9 +1742,9 @@
         "vi": "Chốt đẩy vuông"
       },
       "configurationIds": [
-        "square",
-        "transition",
-        "profile"
+        "standard",
+        "custom",
+        "material"
       ],
       "prompt": "DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.\n\nFamily boundary: Every item belongs to Square Ejector Pins. Do not import adjacent product families to increase variety.\n\nMaterial scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.\n\nIndividual product styles:\n\n1. A complete ejector pin with a square blunt ejection section. Transition and mounting details require confirmation.\n\nDistinct-style rule: 方形顶出段，不能用两种尺寸当两款。. Size, finish, pose and color changes do not count as different styles.\n\nDefined styles: 1; physical objects: 1. Each listed style occurs once.\n\nComposition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.\n\nCreate a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.\n\nExclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
       "promptFingerprint": "df6119b8b92bbbcb382cdae2e764dd8bc8d95d22ae5a32366660e28ba2a64570",
@@ -2001,10 +2001,9 @@
         "vi": "Trụ dẫn hướng"
       },
       "configurationIds": [
-        "mold",
         "stripper",
-        "rolling",
-        "nitrided"
+        "injection",
+        "mold"
       ],
       "prompt": "Family boundary: Every item belongs to Guide Posts & Pillars. Do not import adjacent product families to increase variety.\n\nMaterial scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.\n\nIndividual product styles:\n\n1. A complete straight cylindrical mold guide post with precision ground outer diameter, flat mounting head and lead-in chamfer. No cutting geometry.\n\n2. A complete stripper-plate guide pin: larger diameter head or collar above a slender guided shank for stripper plate alignment. Blunt tip.\n\nDistinct-style rule: 整体圆柱导柱，无卸料板肩台。 / 带头部/肩台，用于卸料板导向。. Size, finish, pose and color changes do not count as different styles.\n\nDefined styles: 2; physical objects: 2. Each listed style occurs once.\n\nComposition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.\n\nCreate a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.\n\nExclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
       "promptFingerprint": "a795b68505086b6817a349688ee6f41339548dba015a777d06388f7a3d94741f",
@@ -3008,14 +3007,13 @@
       "group": "dowel-pins",
       "kind": "main",
       "name": {
-        "en": "Threaded & Pull Dowel Pins",
-        "zh": "螺纹与拔出式定位销",
-        "vi": "Chốt ren & chốt rút"
+        "en": "Threaded Dowel Pins",
+        "zh": "螺纹定位销",
+        "vi": "Chốt trụ ren"
       },
       "configurationIds": [
-        "pull",
-        "external",
-        "units"
+        "standard",
+        "custom"
       ],
       "prompt": "DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.\n\nFamily boundary: Every item belongs to Threaded & Pull Dowel Pins. Do not import adjacent product families to increase variety.\n\nMaterial scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.\n\nIndividual product styles:\n\n1. Ground locating pin with an axial internal extraction thread; confirm bore and end details.\n\n2. Ground locating pin with a reduced external threaded connection; confirm the actual model.\n\nDistinct-style rule: 内螺纹位于端面，须核实出处。 / 外螺纹连接端与内螺纹孔不同，尚未核实具体产品。. Size, finish, pose and color changes do not count as different styles.\n\nDefined styles: 2; physical objects: 2. Each listed style occurs once.\n\nComposition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.\n\nCreate a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.\n\nExclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
       "promptFingerprint": "a85830836849f2dd7e4b3f70be2aa63b1df4ff420d7187a07cbe61d4875ccd76",
@@ -3086,8 +3084,8 @@
       "kind": "detail",
       "name": {
         "zh": "扁顶针过渡款式",
-        "en": "Flat-ended blade ejector / Custom section and treatment",
-        "vi": "Ty dẹt đầu phẳng / Tiết diện và xử lý tùy chỉnh"
+        "en": "Standard solutions / Material options",
+        "vi": "Giải pháp tiêu chuẩn / Lựa chọn vật liệu"
       },
       "prompt": "DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.\n\nFamily boundary: Every item belongs to Blade Ejector Pins. Do not import adjacent product families to increase variety.\n\nMaterial scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.\n\nIndividual product styles:\n\n1. A complete ejector pin with a supported flat blade ejection section. Root and anti-rotation structure require confirmation.\n\nDistinct-style rule: 扁平顶出段，第二种结构未明确。. Size, finish, pose and color changes do not count as different styles.\n\nDefined styles: 1; physical objects: 1. Each listed style occurs once.\n\nComposition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.\n\nCreate a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.\n\nExclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
       "promptFingerprint": "9f1aed6bccf1626f760e5664d9d5314a39906aefafdfbdf6cf060ce6d11978f7",
@@ -3113,8 +3111,8 @@
       "id": "square-ejector-pins--square-tip",
       "productId": "square-ejector-pins",
       "configurationIds": [
-        "square",
-        "transition"
+        "standard",
+        "custom"
       ],
       "composition": "series",
       "targetVariantCount": 2,
@@ -3155,11 +3153,11 @@
       "kind": "detail",
       "name": {
         "zh": "方顶针圆方过渡款式",
-        "en": "Square working section / Round-to-square transition",
-        "vi": "Đoạn làm việc vuông / Chuyển thân tròn sang đầu vuông"
+        "en": "Standard square ejector pins / Custom square ejector pins",
+        "vi": "Ty vuông tiêu chuẩn / Ty vuông tùy chỉnh"
       },
       "prompt": "DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.\n\nFamily boundary: Every item belongs to Square Ejector Pins. Do not import adjacent product families to increase variety.\n\nMaterial scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.\n\nIndividual product styles:\n\n1. A complete ejector pin with a square blunt ejection section. Transition and mounting details require confirmation.\n\nDistinct-style rule: 方形顶出段，不能用两种尺寸当两款。. Size, finish, pose and color changes do not count as different styles.\n\nDefined styles: 1; physical objects: 1. Each listed style occurs once.\n\nComposition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.\n\nCreate a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.\n\nExclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "promptFingerprint": "3a4c8f400cc64a26977ea1dc455f84d98c5104c6147e93c685036ca316baeff1",
+      "promptFingerprint": "daebeb2d3c894c7b7c5d9e1a76c18ef1629a9744f7461503c7995e885baea6ab",
       "visualSignature": "6c7e34b9d143687c620a0f2311fa5a8d58011708053eb2014979b18b9b3c9ca6",
       "blockingReasons": [
         "未明确核定为可生成",
@@ -3671,7 +3669,7 @@
       "id": "threaded-dowel-pins--pull-thread",
       "productId": "threaded-dowel-pins",
       "configurationIds": [
-        "pull"
+        "standard"
       ],
       "composition": "series",
       "targetVariantCount": 2,
@@ -3712,11 +3710,11 @@
       "kind": "detail",
       "name": {
         "zh": "内螺纹拔出式定位销款式",
-        "en": "Internally threaded pull dowel",
-        "vi": "Chốt rút ren trong"
+        "en": "Standard threaded dowel pin",
+        "vi": "Chốt ren tiêu chuẩn"
       },
       "prompt": "DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.\n\nFamily boundary: Every item belongs to Threaded & Pull Dowel Pins. Do not import adjacent product families to increase variety. Every member must have an internal extraction thread, never an external threaded stud.\n\nMaterial scope: steel. Neutral machined finish appropriate to the material class; never color-code grades or imply invisible treatments.\n\nIndividual product styles:\n\n1. Ground locating pin with an axial internal extraction thread; confirm bore and end details.\n\nDistinct-style rule: 内螺纹位于端面，须核实出处。. Size, finish, pose and color changes do not count as different styles.\n\nDefined styles: 1; physical objects: 1. Each listed style occurs once.\n\nComposition: Separated same-family styles in a shallow staggered row, full silhouettes, working ends facing the viewer, no overlap. Show distinguishing flats and shoulders.\n\nCreate a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.\n\nExclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.",
-      "promptFingerprint": "f2612591e5588540fc1a4412e0cf461dab6e1ff1286ba0821a7e8b322fb4e146",
+      "promptFingerprint": "79548b0bddde8659be1e82ebddd548850d0aba7f654dcf588a8ae80d5138bae8",
       "visualSignature": "7500ad0469afe608026b01fb1f6be314fc3550996234471fb9df5615558ef851",
       "blockingReasons": [
         "未明确核定为可生成",
@@ -6881,9 +6879,9 @@
       "productId": "blade-ejector-pins",
       "configurationId": "flat",
       "name": {
-        "zh": "平端扁顶针",
-        "en": "Flat-ended blade ejector",
-        "vi": "Ty dẹt đầu phẳng"
+        "zh": "标准方案",
+        "en": "Standard solutions",
+        "vi": "Giải pháp tiêu chuẩn"
       },
       "mode": "dedicated-detail",
       "imageJobIds": [
@@ -6895,9 +6893,9 @@
       "productId": "blade-ejector-pins",
       "configurationId": "contoured",
       "name": {
-        "zh": "成型端面扁顶针",
-        "en": "Contoured blade end",
-        "vi": "Đầu dẹt theo biên dạng"
+        "zh": "定制方案",
+        "en": "Custom solutions",
+        "vi": "Giải pháp tùy chỉnh"
       },
       "mode": "family-main-reference",
       "imageJobIds": [
@@ -6909,9 +6907,9 @@
       "productId": "blade-ejector-pins",
       "configurationId": "custom",
       "name": {
-        "zh": "非标截面与处理",
-        "en": "Custom section and treatment",
-        "vi": "Tiết diện và xử lý tùy chỉnh"
+        "zh": "材料选项",
+        "en": "Material options",
+        "vi": "Lựa chọn vật liệu"
       },
       "mode": "dedicated-detail",
       "imageJobIds": [
@@ -6921,11 +6919,11 @@
     },
     {
       "productId": "square-ejector-pins",
-      "configurationId": "square",
+      "configurationId": "standard",
       "name": {
-        "zh": "方形工作段",
-        "en": "Square working section",
-        "vi": "Đoạn làm việc vuông"
+        "zh": "标准方顶针",
+        "en": "Standard square ejector pins",
+        "vi": "Ty vuông tiêu chuẩn"
       },
       "mode": "dedicated-detail",
       "imageJobIds": [
@@ -6935,11 +6933,11 @@
     },
     {
       "productId": "square-ejector-pins",
-      "configurationId": "transition",
+      "configurationId": "custom",
       "name": {
-        "zh": "圆杆转方端",
-        "en": "Round-to-square transition",
-        "vi": "Chuyển thân tròn sang đầu vuông"
+        "zh": "定制方顶针",
+        "en": "Custom square ejector pins",
+        "vi": "Ty vuông tùy chỉnh"
       },
       "mode": "dedicated-detail",
       "imageJobIds": [
@@ -6949,11 +6947,11 @@
     },
     {
       "productId": "square-ejector-pins",
-      "configurationId": "profile",
+      "configurationId": "material",
       "name": {
-        "zh": "定制端面与耐磨处理",
-        "en": "Custom face and wear treatment",
-        "vi": "Mặt tùy chỉnh và chống mòn"
+        "zh": "材料选项",
+        "en": "Material options",
+        "vi": "Lựa chọn vật liệu"
       },
       "mode": "family-main-reference",
       "imageJobIds": [
@@ -7061,24 +7059,10 @@
     },
     {
       "productId": "guide-posts",
-      "configurationId": "mold",
-      "name": {
-        "zh": "模架与注塑模导柱",
-        "en": "Mold-base guide posts",
-        "vi": "Trụ dẫn đế khuôn"
-      },
-      "mode": "family-main-reference",
-      "imageJobIds": [
-        "guide-posts"
-      ],
-      "note": "Representative image only. Material, treatment and performance options remain text; no implicit depiction of every option."
-    },
-    {
-      "productId": "guide-posts",
       "configurationId": "stripper",
       "name": {
         "zh": "卸料板导柱",
-        "en": "Stripper guide posts",
+        "en": "Stripper guide pins",
         "vi": "Trụ dẫn tấm gạt"
       },
       "mode": "family-main-reference",
@@ -7089,11 +7073,11 @@
     },
     {
       "productId": "guide-posts",
-      "configurationId": "rolling",
+      "configurationId": "injection",
       "name": {
-        "zh": "滚珠导向用导柱",
-        "en": "Posts for ball guidance",
-        "vi": "Trụ cho dẫn hướng bi"
+        "zh": "注塑模导柱",
+        "en": "Injection molding guide pins",
+        "vi": "Trụ dẫn khuôn nhựa"
       },
       "mode": "family-main-reference",
       "imageJobIds": [
@@ -7103,14 +7087,16 @@
     },
     {
       "productId": "guide-posts",
-      "configurationId": "nitrided",
+      "configurationId": "mold",
       "name": {
-        "zh": "氮化与表面强化导柱",
-        "en": "Nitrided and surface-hardened posts",
-        "vi": "Trụ thấm nitơ và cứng bề mặt"
+        "zh": "模具导柱",
+        "en": "Mold guide pins",
+        "vi": "Trụ dẫn khuôn"
       },
-      "mode": "text-explanation",
-      "imageJobIds": [],
+      "mode": "family-main-reference",
+      "imageJobIds": [
+        "guide-posts"
+      ],
       "note": "Representative image only. Material, treatment and performance options remain text; no implicit depiction of every option."
     },
     {
@@ -7285,9 +7271,9 @@
       "productId": "ball-bearing-bushings",
       "configurationId": "unit",
       "name": {
-        "zh": "滚动导向单元",
-        "en": "Rolling guide unit",
-        "vi": "Đơn vị dẫn lăn"
+        "zh": "滚珠导套本体",
+        "en": "Ball bearing bushing body",
+        "vi": "Thân bạc bi"
       },
       "mode": "family-main-reference",
       "imageJobIds": [
@@ -7299,9 +7285,9 @@
       "productId": "ball-bearing-bushings",
       "configurationId": "matched",
       "name": {
-        "zh": "配套导柱与总成",
-        "en": "Matched post and assembly",
-        "vi": "Trụ và cụm đồng bộ"
+        "zh": "按图定制",
+        "en": "Drawing-based custom",
+        "vi": "Theo bản vẽ tùy chỉnh"
       },
       "mode": "family-main-reference",
       "imageJobIds": [
@@ -7591,11 +7577,11 @@
     },
     {
       "productId": "threaded-dowel-pins",
-      "configurationId": "pull",
+      "configurationId": "standard",
       "name": {
-        "zh": "内螺纹拔出销",
-        "en": "Internally threaded pull dowel",
-        "vi": "Chốt rút ren trong"
+        "zh": "标准螺纹定位销",
+        "en": "Standard threaded dowel pin",
+        "vi": "Chốt ren tiêu chuẩn"
       },
       "mode": "dedicated-detail",
       "imageJobIds": [
@@ -7605,28 +7591,16 @@
     },
     {
       "productId": "threaded-dowel-pins",
-      "configurationId": "external",
+      "configurationId": "custom",
       "name": {
-        "zh": "外螺纹段定位销",
-        "en": "Externally threaded dowel",
-        "vi": "Chốt có đoạn ren ngoài"
+        "zh": "按图定制",
+        "en": "Custom per drawing",
+        "vi": "Theo bản vẽ tùy chỉnh"
       },
       "mode": "family-main-reference",
       "imageJobIds": [
         "threaded-dowel-pins"
       ],
-      "note": "Representative image only. Material, treatment and performance options remain text; no implicit depiction of every option."
-    },
-    {
-      "productId": "threaded-dowel-pins",
-      "configurationId": "units",
-      "name": {
-        "zh": "公英制替换与定制",
-        "en": "Metric, inch and custom replacements",
-        "vi": "Thay hệ mét, inch và tùy chỉnh"
-      },
-      "mode": "text-explanation",
-      "imageJobIds": [],
       "note": "Representative image only. Material, treatment and performance options remain text; no implicit depiction of every option."
     }
   ]

@@ -30,7 +30,7 @@
 - **普通铜套**（bronze-bushings）：不能凭想象添加油槽；需核实第二种普通铜套结构。
 - **法兰铜套**（flanged-bronze-bushings）：不能借石墨法兰套资料证明普通法兰套款式。
 - **耐磨板与滑板**（wear-plates）：需第二种板体/润滑结构出处。
-- **螺纹与拔出式定位销**（threaded-dowel-pins）：内外螺纹候选需具体产品图支撑。
+- **螺纹定位销**（threaded-dowel-pins）：内外螺纹候选需具体产品图支撑。
 - **扁顶针过渡款式**（blade-ejector-pins--transition）：需两种不同根部过渡；不能同款旋转展示当两款。
 - **方顶针圆方过渡款式**（square-ejector-pins--square-tip）：需两种方形顶出端的支撑/过渡结构。
 - **法兰导套安装款式**（flanged-guide-bushings--mount）：需两种法兰安装结构，不编造孔数。
@@ -1142,7 +1142,7 @@ Create a realistic studio product illustration. Seamless neutral light-gray back
 Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
 ```
 
-### 螺纹与拔出式定位销 · threaded-dowel-pins
+### 螺纹定位销 · threaded-dowel-pins
 
 状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 2 款、2 件。当前仅为草稿，不可调用接口。
@@ -1220,7 +1220,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 状态：待核实；现有图片：暂无。
 目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/ejector-components/square-ejector-pins/#configuration-square
+位置：/zh/products/ejector-components/square-ejector-pins/#configuration-standard
 类别共同特征：Every item belongs to Square Ejector Pins. Do not import adjacent product families to increase variety.
 材料范围：steel；相同几何但材料不同不得直接复用。
 
@@ -1444,7 +1444,7 @@ Exclude: No scaled duplicates, size ladders, color-only variants, invented shoul
 
 状态：待核实；现有图片：暂无。
 目标 2 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
-位置：/zh/products/dowel-pins/threaded-dowel-pins/#configuration-pull
+位置：/zh/products/dowel-pins/threaded-dowel-pins/#configuration-standard
 类别共同特征：Every item belongs to Threaded & Pull Dowel Pins. Do not import adjacent product families to increase variety. Every member must have an internal extraction thread, never an external threaded stud.
 材料范围：steel；相同几何但材料不同不得直接复用。
 
@@ -2649,12 +2649,12 @@ Exclude: No AI restyle required when HTX source is used.
 - stepped-ejector-pins / 单台阶顶针：stepped-ejector-pins。
 - stepped-ejector-pins / 多台阶顶针：stepped-ejector-pins。
 - stepped-ejector-pins / 成型顶出端与氮化选项：stepped-ejector-pins。
-- blade-ejector-pins / 平端扁顶针：blade-ejector-pins--transition。
-- blade-ejector-pins / 成型端面扁顶针：blade-ejector-pins。
-- blade-ejector-pins / 非标截面与处理：blade-ejector-pins--transition。
-- square-ejector-pins / 方形工作段：square-ejector-pins--square-tip。
-- square-ejector-pins / 圆杆转方端：square-ejector-pins--square-tip。
-- square-ejector-pins / 定制端面与耐磨处理：square-ejector-pins。
+- blade-ejector-pins / 标准方案：blade-ejector-pins--transition。
+- blade-ejector-pins / 定制方案：blade-ejector-pins。
+- blade-ejector-pins / 材料选项：blade-ejector-pins--transition。
+- square-ejector-pins / 标准方顶针：square-ejector-pins--square-tip。
+- square-ejector-pins / 定制方顶针：square-ejector-pins--square-tip。
+- square-ejector-pins / 材料选项：square-ejector-pins。
 - ejector-sleeves / 薄壁与微型司筒：ejector-sleeves--core-pair。
 - ejector-sleeves / 加长司筒：ejector-sleeves--core-pair。
 - ejector-sleeves / 台阶与定制司筒：ejector-sleeves。
@@ -2662,10 +2662,9 @@ Exclude: No AI restyle required when HTX source is used.
 - ejector-sleeves / 一体式带头司筒：ejector-sleeves。
 - air-poppet-valves / 弹簧复位气顶阀：air-poppet-valves。
 - air-poppet-valves / 定制安装与气路接口：air-poppet-valves。
-- guide-posts / 模架与注塑模导柱：guide-posts。
 - guide-posts / 卸料板导柱：guide-posts。
-- guide-posts / 滚珠导向用导柱：guide-posts。
-- guide-posts / 氮化与表面强化导柱：文字说明。
+- guide-posts / 注塑模导柱：guide-posts。
+- guide-posts / 模具导柱：guide-posts。
 - guide-bushings / 直身滑动导套：guide-bushings。
 - guide-bushings / 卸料板导套：guide-bushings。
 - guide-bushings / 顶出系统导套：guide-bushings。
@@ -2678,8 +2677,8 @@ Exclude: No AI restyle required when HTX source is used.
 - ball-cages / 黄铜滚珠保持架：ball-cages。
 - ball-cages / 铝合金滚珠保持架：ball-cages。
 - ball-cages / 工程塑料滚珠保持架：ball-cages。
-- ball-bearing-bushings / 滚动导向单元：ball-bearing-bushings。
-- ball-bearing-bushings / 配套导柱与总成：ball-bearing-bushings。
+- ball-bearing-bushings / 滚珠导套本体：ball-bearing-bushings。
+- ball-bearing-bushings / 按图定制：ball-bearing-bushings。
 - rectangular-die-springs / 黄色 · 超轻载：rectangular-die-springs。
 - rectangular-die-springs / 蓝色 · 轻载：rectangular-die-springs。
 - rectangular-die-springs / 红色 · 中载：rectangular-die-springs。
@@ -2700,6 +2699,5 @@ Exclude: No AI restyle required when HTX source is used.
 - precision-dowel-pins / 精密磨削圆柱销：precision-dowel-pins。
 - precision-dowel-pins / 淬硬圆柱销：precision-dowel-pins。
 - precision-dowel-pins / 定制长度与端部：precision-dowel-pins。
-- threaded-dowel-pins / 内螺纹拔出销：threaded-dowel-pins--pull-thread。
-- threaded-dowel-pins / 外螺纹段定位销：threaded-dowel-pins。
-- threaded-dowel-pins / 公英制替换与定制：文字说明。
+- threaded-dowel-pins / 标准螺纹定位销：threaded-dowel-pins--pull-thread。
+- threaded-dowel-pins / 按图定制：threaded-dowel-pins。

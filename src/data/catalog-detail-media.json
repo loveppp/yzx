@@ -1174,7 +1174,7 @@
       "id": "threaded-dowel-pins--pull",
       "productId": "threaded-dowel-pins",
       "configurationIds": [
-        "pull"
+        "standard"
       ],
       "image": "/images/products/details/threaded-dowel-pins--pull-2026-10-08T17-30-25-275Z.png",
       "name": {
@@ -1187,7 +1187,7 @@
       "id": "threaded-dowel-pins--external",
       "productId": "threaded-dowel-pins",
       "configurationIds": [
-        "external"
+        "custom"
       ],
       "image": "/images/products/details/threaded-dowel-pins--external-2026-10-08T17-30-25-275Z.png",
       "name": {
@@ -1200,7 +1200,7 @@
       "id": "threaded-dowel-pins--units",
       "productId": "threaded-dowel-pins",
       "configurationIds": [
-        "units"
+        "custom"
       ],
       "image": "/images/products/details/threaded-dowel-pins--units-2026-10-08T17-30-25-275Z.png",
       "name": {

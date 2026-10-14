@@ -49,8 +49,8 @@
       "id": "square-ejector-pins--square-tip",
       "productId": "square-ejector-pins",
       "configurationIds": [
-        "square",
-        "transition"
+        "standard",
+        "custom"
       ],
       "composition": "series",
       "targetVariantCount": 2,
@@ -463,7 +463,7 @@
       "id": "threaded-dowel-pins--pull-thread",
       "productId": "threaded-dowel-pins",
       "configurationIds": [
-        "pull"
+        "standard"
       ],
       "composition": "series",
       "targetVariantCount": 2,

@@ -114,7 +114,7 @@ export function familySectionAnchors(productId: string, groupId = '') {
       e?.advantageSection &&
       (fig?.figures.advantagesFigure ||
         (fig?.highlightIcons?.length && e.advantageTileCaptions?.length));
-    if (showAdvantage) {
+    if (showAdvantage && e?.advantageSection) {
       anchors.push(['family-advantage', e.advantageSection.title]);
     }
     anchors.push(['family-faq', detailUI.faq]);
