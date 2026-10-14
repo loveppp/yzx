@@ -32,6 +32,16 @@ export default function QuoteForm({ labels, categories, initialCategory = '', pr
   const [sending, setSending] = useState(false);
   const [error, setError] = useState('');
   const [productLine, setProductLine] = useState(product);
+  const [selectedFileName, setSelectedFileName] = useState('');
+
+  const isZh = labels.submit.includes('提交');
+  const isVi = labels.submit.includes('Gửi');
+  const browseLabel = isZh ? '选择图纸' : isVi ? 'Chọn tệp' : 'Browse file';
+  const noFileLabel = isZh
+    ? '未选择文件（支持 PDF / CAD / STEP 等）'
+    : isVi
+    ? 'Chưa chọn tệp (PDF, CAD, STEP...)'
+    : 'No file chosen (PDF, DWG, STEP, etc.)';
 
   useEffect(() => {
     setProductLine(product);
@@ -156,15 +166,31 @@ export default function QuoteForm({ labels, categories, initialCategory = '', pr
           className="mt-1 w-full border border-borui-navy/20 bg-white px-3 py-3 text-base focus:border-borui-brass focus:outline-none"
         />
       </label>
-      <label className="block">
-        <span className="text-xs uppercase tracking-wider text-slate-600">{labels.file}</span>
-        <input
-          name="file"
-          type="file"
-          accept=".pdf,.dwg,.dxf,.step,.stp,.iges,.igs,.jpg,.jpeg,.png"
-          className="mt-1 w-full text-sm text-slate-600 file:mr-4 file:border-0 file:bg-borui-navy file:px-4 file:py-2 file:text-xs file:uppercase file:tracking-wider file:text-white"
-        />
-      </label>
+      <div>
+        <span className="block text-xs uppercase tracking-wider text-slate-600 mb-1">{labels.file}</span>
+        <label className="flex items-center gap-3 border border-dashed border-borui-navy/30 bg-white px-3 py-2.5 hover:border-borui-brass cursor-pointer transition">
+          <input
+            name="file"
+            type="file"
+            accept=".pdf,.dwg,.dxf,.step,.stp,.iges,.igs,.jpg,.jpeg,.png"
+            className="sr-only"
+            onChange={(e) => {
+              const file = e.target.files?.[0];
+              setSelectedFileName(file ? file.name : '');
+            }}
+          />
+          <span className="shrink-0 bg-borui-navy px-3 py-1.5 text-xs uppercase tracking-wider text-white font-medium">
+            {browseLabel}
+          </span>
+          <span className="text-sm truncate">
+            {selectedFileName ? (
+              <span className="font-medium text-borui-navy">{selectedFileName}</span>
+            ) : (
+              <span className="text-slate-400">{noFileLabel}</span>
+            )}
+          </span>
+        </label>
+      </div>
       {error && <p className="text-sm text-red-700" role="alert">{error}</p>}
       <button type="submit" disabled={sending} className="btn-primary w-full sm:w-auto disabled:cursor-wait disabled:opacity-60">
         {sending ? labels.sending : labels.submit}
