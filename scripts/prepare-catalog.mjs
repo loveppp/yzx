@@ -6,7 +6,7 @@ const locales=['en','zh','vi'];
 const groupIds=new Set(catalog.groups.map(g=>g.id));
 const products=new Map(catalog.products.map(p=>[p.id,p]));
 const destination=(id,locale)=>{const p=products.get(id);return p?`/${locale}/products/${p.group}/${p.id}/`:`/${locale}/products/${id}/`;};
-const rules=[];
+const rules=['/ /en/ 302'];
 for(const locale of locales){
   for(const [old,target] of Object.entries(legacy.categories)){
     if(!groupIds.has(old))rules.push(`/${locale}/products/${old}/ ${destination(target,locale)} 301`);
