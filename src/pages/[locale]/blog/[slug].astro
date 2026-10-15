@@ -27,23 +27,92 @@ const description = locale === 'zh' ? entry.data.description_zh : entry.data.des
 const body = locale === 'zh' ? entry.data.body_zh : entry.data.body_en;
 const path = `/${locale}/blog/${slug}/`;
 const pageTitle = `${title} | ${t.siteNameFull}`;
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  description: description,
+  datePublished: entry.data.pubDate.toISOString(),
+  dateModified: entry.data.pubDate.toISOString(),
+  image: entry.data.heroImage ? new URL(entry.data.heroImage, Astro.site ?? 'https://yzxprecision.com').href : undefined,
+  author: {
+    '@type': 'Organization',
+    name: locale === 'zh' ? '源智信精密' : 'YZX Precision',
+    url: 'https://yzxprecision.com',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'YZX Precision',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://yzxprecision.com/images/brand/logo.svg',
+    },
+  },
+};
 ---
 
 <Layout title={pageTitle} description={description} path={path}>
+  <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
   <article class="section-padding">
     <div class="content-wrap max-w-3xl">
-      <time class="text-xs text-borui-steel" datetime={entry.data.pubDate.toISOString()}>
-        {entry.data.pubDate.toLocaleDateString(locale === 'zh' ? 'zh-CN' : 'en-US')}
+      <nav class="mb-6">
+        <a
+          href={localizedPath('/blog/', locale)}
+          class="inline-flex items-center gap-1.5 text-sm font-medium text-borui-brass hover:underline"
+        >
+          <span aria-hidden="true">&larr;</span>
+          {locale === 'zh' ? '返回技术文章列表' : locale === 'vi' ? 'Quay lại danh sách bài viết' : 'Back to technical articles'}
+        </a>
+      </nav>
+
+      <time class="text-xs font-semibold uppercase tracking-wider text-borui-steel" datetime={entry.data.pubDate.toISOString()}>
+        {entry.data.pubDate.toLocaleDateString(locale === 'zh' ? 'zh-CN' : 'en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
       </time>
-      <h1 class="mt-4 text-3xl text-borui-navy md:text-4xl">{title}</h1>
+      <h1 class="mt-3 text-3xl font-serif text-borui-navy md:text-4xl leading-tight">{title}</h1>
+      <p class="mt-4 text-base leading-relaxed text-slate-600 border-l-2 border-borui-brass pl-4 italic">
+        {description}
+      </p>
+
       {
         entry.data.heroImage && (
-          <img src={entry.data.heroImage} alt="" class="mt-8 aspect-video w-full object-cover" />
+          <div class="mt-8 overflow-hidden rounded-sm border border-borui-navy/10 bg-borui-light shadow-sm">
+            <img
+              src={entry.data.heroImage}
+              alt={title}
+              class="aspect-video w-full object-cover"
+              loading="eager"
+            />
+          </div>
         )
       }
-      <div class="prose prose-neutral mt-8 max-w-none whitespace-pre-line">
-        {body}
-      </div>
+
+      <div class="prose prose-neutral mt-8 max-w-none text-slate-700 leading-relaxed text-base" set:html={body} />
+
+      <!-- Call to Action Banner -->
+      <section class="mt-14 rounded-lg border-2 border-borui-brass/40 bg-borui-light p-8 text-center shadow-sm">
+        <p class="text-xs font-semibold uppercase tracking-[.14em] text-borui-brass">
+          {locale === 'zh' ? '非标图纸定制 · 极速核算' : locale === 'vi' ? 'GIA CÔNG THEO BẢN VẼ · BÁO GIÁ NHANH' : 'CUSTOM DRAWING FABRICATION · FAST RFQ'}
+        </p>
+        <h3 class="mt-2 text-2xl font-serif text-borui-navy md:text-3xl">
+          {locale === 'zh' ? '有模具冲针或高精密配件加工需求？' : locale === 'vi' ? 'Bạn có bản vẽ linh kiện khuôn cần gia công báo giá?' : 'Need a Precise Quote for Custom Mold Components?'}
+        </h3>
+        <p class="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-slate-600">
+          {locale === 'zh'
+            ? '源智信精密专注高精度冲针、顶针、导柱导套生产，公差可达 ±0.002mm。支持 STEP、CAD、PDF 图纸快速核算，工作时间内最快 2 小时出具专业报价与加工交期。'
+            : locale === 'vi'
+            ? 'YZX Precision chuyên sản xuất chốt đục, chốt đẩy, trụ dẫn hướng chính xác cao, dung sai đến ±0.002mm. Nhận bản vẽ STEP, CAD, PDF và báo giá trong vòng 2 giờ.'
+            : 'YZX Precision specializes in tight-tolerance punches, ejector pins, and guide sets holding ±0.002mm. Upload your STEP, DWG, or PDF drawing for a rapid quotation within 2 business hours.'}
+        </p>
+        <div class="mt-6 flex flex-wrap justify-center gap-4">
+          <a href={localizedPath('/contact/', locale)} class="btn-primary">
+            {locale === 'zh' ? '上传图纸获取报价' : locale === 'vi' ? 'Gửi bản vẽ lấy báo giá' : 'Upload Drawing for Quote'}
+          </a>
+          <a href={localizedPath('/products/', locale)} class="btn-outline">
+            {locale === 'zh' ? '浏览全部产品目录' : locale === 'vi' ? 'Xem danh mục sản phẩm' : 'Browse Product Catalog'}
+          </a>
+        </div>
+      </section>
     </div>
   </article>
 </Layout>

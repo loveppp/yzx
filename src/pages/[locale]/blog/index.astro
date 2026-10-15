@@ -27,12 +27,14 @@ const posts = (await getCollection('blog')).sort(
             <article class="grid gap-4 py-8 md:grid-cols-[1fr_2fr]">
               {
                 post.data.heroImage && (
-                  <img
-                    src={post.data.heroImage}
-                    alt=""
-                    class="aspect-video w-full object-cover md:aspect-[4/3]"
-                    loading="lazy"
-                  />
+                  <a href={localizedPath(`/blog/${post.slug}/`, locale)} class="block overflow-hidden rounded-sm border border-borui-navy/10 bg-borui-light">
+                    <img
+                      src={post.data.heroImage}
+                      alt={locale === 'zh' ? post.data.title_zh : post.data.title_en}
+                      class="aspect-video w-full object-cover transition-transform duration-300 hover:scale-105 md:aspect-[4/3]"
+                      loading="lazy"
+                    />
+                  </a>
                 )
               }
               <div>
