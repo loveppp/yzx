@@ -24,5 +24,7 @@ export function parseYoutubeVideoId(input: string | undefined): string | null {
 }
 
 export function factoryYoutubeVideoId(): string | null {
-  return parseYoutubeVideoId(import.meta.env.PUBLIC_FACTORY_YOUTUBE_URL);
+  return parseYoutubeVideoId(
+    import.meta.env.PUBLIC_FACTORY_YOUTUBE_URL || 'https://www.youtube.com/watch?v=UEfZsKnCsBg'
+  );
 }
