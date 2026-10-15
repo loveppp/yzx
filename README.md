@@ -2,6 +2,8 @@
 
 模具配件 B2B 外贸独立站 — **Astro 5** + Tailwind + **英 / 中 / 越** 三语。
 
+> 📌 **核心项目长久档案与运维备忘录：[docs/PROJECT_FULL_RECORD.md](./docs/PROJECT_FULL_RECORD.md)**（包含账号配置、询盘全链路、DNS、SEO收录及日常运营SOP）。
+
 **快速熟悉项目（怎么跑、目录、改哪）：[docs/项目快速入门.md](./docs/项目快速入门.md)**  
 **完整说明与日常用法见：[docs/项目说明与使用指南.md](./docs/项目说明与使用指南.md)**
 
