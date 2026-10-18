@@ -259,9 +259,9 @@
       "group": "punch-components",
       "kind": "main",
       "name": {
-        "en": "Carbide Punches",
-        "zh": "硬质合金冲头（钨钢）",
-        "vi": "Chày hợp kim cứng"
+        "en": "Carbide Punches & Pilot Punches",
+        "zh": "硬质合金冲头与导正冲（钨钢）",
+        "vi": "Chày hợp kim cứng & chày dẫn hướng"
       },
       "configurationIds": [
         "type-a",
@@ -1395,9 +1395,9 @@
       "group": "ejector-components",
       "kind": "main",
       "name": {
-        "en": "Straight Ejector Pins",
-        "zh": "直身顶针",
-        "vi": "Chốt đẩy thẳng"
+        "en": "Straight Ejector Pins & Core Pins",
+        "zh": "直身顶针与模具型芯针",
+        "vi": "Chốt đẩy thẳng & chốt lõi khuôn"
       },
       "configurationIds": [
         "plain",
@@ -1606,9 +1606,9 @@
       "group": "ejector-components",
       "kind": "main",
       "name": {
-        "en": "Stepped Ejector Pins",
-        "zh": "台阶顶针",
-        "vi": "Chốt đẩy bậc"
+        "en": "Stepped Ejector Pins & Stepped Pins",
+        "zh": "台阶顶针与阶梯镶针（托针）",
+        "vi": "Chốt đẩy bậc & chốt bậc định vị"
       },
       "configurationIds": [
         "single",
@@ -3938,8 +3938,8 @@
       "kind": "detail",
       "name": {
         "zh": "定制异形直身冲针",
-        "en": "Custom special shaped straight punches",
-        "vi": "Chày thẳng biên dạng tùy chỉnh"
+        "en": "Key flat shank & shaped punches",
+        "vi": "Chày thẳng biên dạng vát phẳng chống xoay"
       },
       "prompt": "DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.\n\nFamily boundary: HTX punch-components category; image published from HTX reference grid.\n\nMaterial scope: carbide. As photographed on HTX reference.\n\nIndividual product styles:\n\n1. Representative Custom special shaped straight punches per HTX product page category tile.\n\nDistinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.\n\nDefined styles: 1; physical objects: 1. Each listed style occurs once.\n\nComposition: Single product photo as on HTX category grid.\n\nCreate a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.\n\nExclude: No AI restyle required when HTX source is used.",
       "promptFingerprint": "0d855bf9e22b32cfc7424d1294c970c290a40a3ec821c3774f6a29a6a302b42d",
@@ -4242,8 +4242,8 @@
       "kind": "detail",
       "name": {
         "zh": "引导冲头 / 导正冲",
-        "en": "Guide / pilot punch",
-        "vi": "Chày dẫn / chày pilot"
+        "en": "Precision carbide pilot punches with bullet lead-in",
+        "vi": "Chày dẫn hướng chính xác bằng carbide mũi đạn"
       },
       "prompt": "DRAFT ONLY — DO NOT SEND TO A GENERATION API. Unverified or missing styles must never be invented.\n\nFamily boundary: HTX punch-components category; image published from HTX reference grid.\n\nMaterial scope: carbide. As photographed on HTX reference.\n\nIndividual product styles:\n\n1. Representative Guide / pilot punch per HTX product page category tile.\n\nDistinct-style rule: 与 HTX 站该分类展示图一致，不以 AI 臆造结构。. Size, finish, pose and color changes do not count as different styles.\n\nDefined styles: 1; physical objects: 1. Each listed style occurs once.\n\nComposition: Single product photo as on HTX category grid.\n\nCreate a realistic studio product illustration. Seamless neutral light-gray background (#f5f6f7), soft upper-left light, restrained lower-right contact shadows, neutral white balance. Mildly elevated three-quarter product view, no wide-angle distortion. Landscape 4:3 with at least 8% margin; complete heads, tips and openings visible. Fine machining texture, restrained metal highlights. Style reference controls only background and light, never geometry, count or material. No text, logo, watermark, dimensions or material-grade markings. Do not imply dimensional accuracy, certified performance or actual stock photography.\n\nExclude: No AI restyle required when HTX source is used.",
       "promptFingerprint": "663fc451681c66a85c31b1938349fb17a107cc89131e61433879486104f3be32",
@@ -6321,9 +6321,9 @@
       "productId": "carbide-punches",
       "configurationId": "profile",
       "name": {
-        "en": "Custom special shaped straight punches",
-        "zh": "定制异形直身冲针",
-        "vi": "Chày thẳng biên dạng tùy chỉnh"
+        "en": "Key flat shank & shaped punches",
+        "zh": "削平止动防转与异形直身冲针",
+        "vi": "Chày thẳng biên dạng vát phẳng chống xoay"
       },
       "mode": "dedicated-detail",
       "imageJobIds": [
@@ -6377,9 +6377,9 @@
       "productId": "carbide-punches",
       "configurationId": "pilot",
       "name": {
-        "en": "Guide / pilot punch",
-        "zh": "引导冲头 / 导正冲",
-        "vi": "Chày dẫn / chày pilot"
+        "en": "Precision carbide pilot punches with bullet lead-in",
+        "zh": "精密钨钢导正冲头 / 引导冲针",
+        "vi": "Chày dẫn hướng chính xác bằng carbide mũi đạn"
       },
       "mode": "dedicated-detail",
       "imageJobIds": [
@@ -6741,9 +6741,9 @@
       "productId": "straight-ejector-pins",
       "configurationId": "plain",
       "name": {
-        "zh": "标准直身顶针",
-        "en": "Standard straight ejector pin",
-        "vi": "Ty thẳng tiêu chuẩn"
+        "zh": "标准直身顶针与型芯针",
+        "en": "Straight ejector pins & straight core pins",
+        "vi": "Ty đẩy thẳng & ty lõi khuôn tiêu chuẩn"
       },
       "mode": "family-main-reference",
       "imageJobIds": [
@@ -6837,9 +6837,9 @@
       "productId": "stepped-ejector-pins",
       "configurationId": "single",
       "name": {
-        "zh": "单台阶顶针",
-        "en": "Single-step ejector",
-        "vi": "Ty đẩy một bậc"
+        "zh": "单台阶顶针与阶梯型芯销",
+        "en": "Single-step ejector pins & stepped pins",
+        "vi": "Ty đẩy một bậc & chốt bậc định vị"
       },
       "mode": "family-main-reference",
       "imageJobIds": [

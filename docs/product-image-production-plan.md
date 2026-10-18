@@ -17,7 +17,7 @@
 
 - **钨钢冲头**（tungsten-carbide-punches）：当前组合仅覆盖异形冲裁轮廓，不代表曲面成型结构；曲面款另行核实。
 - **压片冲模**（tableting-punches）：核对两种完整套装的各配合件。
-- **直身顶针**（straight-ejector-pins）：缺少第二种直身顶针结构；热处理和公英制不计入。
+- **直身顶针与模具型芯针**（straight-ejector-pins）：缺少第二种直身顶针结构；热处理和公英制不计入。
 - **扁顶针**（blade-ejector-pins）：缺少不同过渡/定位结构的两款扁顶针依据。
 - **方顶针**（square-ejector-pins）：缺少两款方顶针结构依据。
 - **气顶阀**（air-poppet-valves）：JMT-A1现有资料只有尺寸变化，缺第二种结构。
@@ -72,7 +72,7 @@
 
 ## 逐图款式、出处与完整提示词
 
-### 硬质合金冲头（钨钢） · carbide-punches
+### 硬质合金冲头与导正冲（钨钢） · carbide-punches
 
 状态：提示词完成；现有图片：旧版保留、待替换。
 目标 10 款；已定义 10 款、10 件。按已核实数量生成。
@@ -432,7 +432,7 @@ Create a realistic studio product illustration. Seamless neutral light-gray back
 Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
 ```
 
-### 直身顶针 · straight-ejector-pins
+### 直身顶针与模具型芯针 · straight-ejector-pins
 
 状态：待核实；现有图片：旧版保留、待替换。
 目标 3 款；已定义 1 款、1 件。当前仅为草稿，不可调用接口。
@@ -506,7 +506,7 @@ Create a realistic studio product illustration. Seamless neutral light-gray back
 Exclude: No scaled duplicates, size ladders, color-only variants, invented shoulders, extra flanges, decorative grooves, unverified bolt holes, mixed families, fused parts, cropped ends, text, logos, dimensions or grade markings.
 ```
 
-### 台阶顶针 · stepped-ejector-pins
+### 台阶顶针与阶梯镶针（托针） · stepped-ejector-pins
 
 状态：提示词完成；现有图片：旧版保留、待替换。
 目标 3 款；已定义 2 款、2 件。按已核实数量生成。
@@ -2609,11 +2609,11 @@ Exclude: No AI restyle required when HTX source is used.
 
 - carbide-punches / A 型圆柱直身冲针：carbide-punches--type-a。
 - carbide-punches / T 型圆柱直身冲针：carbide-punches--type-t。
-- carbide-punches / 定制异形直身冲针：carbide-punches--profile。
+- carbide-punches / 削平止动防转与异形直身冲针：carbide-punches--profile。
 - carbide-punches / 切断冲头：carbide-punches--cutting。
 - carbide-punches / 精密冲头：carbide-punches--precision。
 - carbide-punches / 六角冲头：carbide-punches--hexagonal。
-- carbide-punches / 引导冲头 / 导正冲：carbide-punches--pilot。
+- carbide-punches / 精密钨钢导正冲头 / 引导冲针：carbide-punches--pilot。
 - carbide-punches / 椭圆冲头：carbide-punches--oval。
 - hss-punches / 带退料 HSS 冲头：hss-punches--ejector。
 - hss-punches / 扁形 HSS 冲头：hss-punches--flat。
@@ -2639,14 +2639,14 @@ Exclude: No AI restyle required when HTX source is used.
 - tableting-punches / 刻字与标识冲模：tableting-punches--engraved。
 - tableting-punches / 多冲尖压片工装：tableting-punches--multi-tip。
 - tableting-punches / 压机专用定制工装：tableting-punches--press-specific。
-- straight-ejector-pins / 标准直身顶针：straight-ejector-pins。
+- straight-ejector-pins / 标准直身顶针与型芯针：straight-ejector-pins。
 - straight-ejector-pins / 英制直身顶针：straight-ejector-pins。
 - straight-ejector-pins / 公制直身顶针：straight-ejector-pins。
 - straight-ejector-pins / 定制长度直身顶针：straight-ejector-pins。
 - shoulder-ejector-pins / 定位肩结构：shoulder-ejector-pins。
 - shoulder-ejector-pins / 定制头部与止转位：shoulder-ejector-pins。
 - shoulder-ejector-pins / 氮化滑动段：文字说明。
-- stepped-ejector-pins / 单台阶顶针：stepped-ejector-pins。
+- stepped-ejector-pins / 单台阶顶针与阶梯型芯销：stepped-ejector-pins。
 - stepped-ejector-pins / 多台阶顶针：stepped-ejector-pins。
 - stepped-ejector-pins / 成型顶出端与氮化选项：stepped-ejector-pins。
 - blade-ejector-pins / 标准方案：blade-ejector-pins--transition。

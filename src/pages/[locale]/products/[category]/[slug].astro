@@ -71,9 +71,73 @@ const schema={
     worstRating:'1'
   }
 };
+function getSeoTitle(p: typeof product, loc: Locale, productName: string): string {
+  if (loc === 'zh') {
+    if (p.id === 'carbide-punches') return `精密硬质合金冲头(钨钢)生产厂家_导正冲/防转削边冲针定制(±0.002mm) | 源智信精密`;
+    if (p.id === 'hss-punches') return `高速钢冲头(SKH51/ASP23)生产厂家_高耐磨冲切冲针定做 | 源智信精密`;
+    if (p.id === 'straight-ejector-pins') return `注塑模具直身顶针与型芯针定做厂家_SKD61表面氮化 | 源智信精密`;
+    if (p.id === 'stepped-ejector-pins') return `台阶顶针与阶梯型芯销生产厂家_防断防弯曲加粗托针设计 | 源智信精密`;
+    if (p.group === 'punch-components') return `${productName}生产厂家_高精密冲压模具冲头非标定制(±0.002mm) | 源智信精密`;
+    if (p.group === 'ejector-components') return `${productName}定做厂家_注塑模顶针司筒型芯配件 | 源智信精密`;
+    if (p.group === 'guide-components') return `${productName}制造厂家_模具精密导向组件(ISO H7/g6) | 源智信精密`;
+    return `${productName}源头厂家_模具配件非标加工定制 | 源智信精密`;
+  }
+  if (loc === 'vi') {
+    return `${productName} - Xưởng gia công linh kiện khuôn mẫu chính xác (±0.002mm) | YZX Precision`;
+  }
+  // English high-CTR SEO titles targeted for high-intent B2B search queries (from Google Search Console)
+  if (p.id === 'carbide-punches') {
+    return `Custom Carbide Punches, Pilot Punches & Key Flat Pins | YZX Precision`;
+  }
+  if (p.id === 'hss-punches') {
+    return `Precision HSS Punches & Form Piercing Dies (SKH-51/ASP23) | YZX Precision`;
+  }
+  if (p.id === 'straight-ejector-pins') {
+    return `Straight Ejector Pins & Straight Mold Core Pins (SKD61) | YZX Precision`;
+  }
+  if (p.id === 'stepped-ejector-pins') {
+    return `Stepped Ejector Pins & Stepped Pins (Shoulder Core Pins) | YZX Precision`;
+  }
+  if (p.group === 'punch-components') {
+    return `Custom ${productName} Manufacturer — Precision Die Tooling (±0.002mm) | YZX Precision`;
+  }
+  if (p.group === 'ejector-components') {
+    return `${productName} & Mold Core Pins Manufacturer — Precision Tooling | YZX Precision`;
+  }
+  if (p.group === 'guide-components') {
+    return `${productName} Manufacturer — ISO H7/g6 Precision Guide Components | YZX Precision`;
+  }
+  return `Custom ${productName} Manufacturer — Precision Mold Components | YZX Precision`;
+}
+
+function getSeoDescription(p: typeof product, loc: Locale): string {
+  const summary = catalogText(p.summary, loc);
+  if (loc === 'zh') {
+    return `${summary} 深圳市源智信精密专注高精密模具配件研发生产，公差可达 ±0.002mm。支持 STEP/CAD/PDF 图纸核算，2小时内极速出具专业报价。`;
+  }
+  if (loc === 'vi') {
+    return `${summary} YZX Precision nhận gia công theo bản vẽ STEP/CAD/PDF, độ chính xác đến ±0.002mm, phản hồi báo giá trong 2 giờ.`;
+  }
+  if (p.id === 'carbide-punches') {
+    return `Factory direct custom tungsten carbide punches, precision pilot punches with bullet lead-in, and key flat shank punches in CD650/V30. Tolerances to ±0.002mm. 2-hour CAD quote.`;
+  }
+  if (p.id === 'hss-punches') {
+    return `Precision HSS punches and forming dies in SKH-51, M2, and ASP-23 powder steel. High wear resistance and chipping toughness. Direct factory quote within 2 hours.`;
+  }
+  if (p.id === 'straight-ejector-pins') {
+    return `Precision straight ejector pins and straight mold core pins in SKD61 (nitrided) and SKH51. Standard metric/imperial & custom tight tolerances to ±0.002mm. 2-hr quote.`;
+  }
+  if (p.id === 'stepped-ejector-pins') {
+    return `Heavy-duty stepped ejector pins, stepped pins, and shoulder core pins for injection molds. Anti-buckling design holding ±0.002mm. Rapid quoting with CAD drawings.`;
+  }
+  return `${summary} Factory direct precision fabrication holding ±0.002mm. Upload your STEP, DWG, or PDF drawing for a rapid quotation within 2 business hours.`;
+}
 const breadcrumb={'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{name:ui.home,path:`/${locale}/`},{name:ui.title,path:`/${locale}/products/`},{name:catalogText(group.name,locale),path:groupPath(group,locale)},{name,path:productPath(product,locale)}].map((item,i)=>({'@type':'ListItem',position:i+1,name:item.name,item:new URL(item.path,site).href}))};
+
+const pageTitle = getSeoTitle(product, locale, name);
+const pageDescription = getSeoDescription(product, locale);
 ---
-<Layout title={`${name} | YZX Precision`} description={catalogText(product.summary,locale)} path={productPath(product,locale)} quoteHref="#quote">
+<Layout title={pageTitle} description={pageDescription} path={productPath(product,locale)} quoteHref="#quote">
   <article class="px-5 py-7 md:px-8 md:py-10"><div class="content-wrap">
     <nav aria-label="Breadcrumb" class="mb-7 flex flex-wrap gap-x-2 gap-y-1 text-xs leading-relaxed text-slate-600"><a href={`/${locale}/`}>{ui.home}</a><span aria-hidden="true">/</span><a href={`/${locale}/products/`}>{ui.title}</a><span aria-hidden="true">/</span><a href={groupPath(group,locale)}>{catalogText(group.name,locale)}</a><span aria-hidden="true">/</span><span aria-current="page">{name}</span></nav>
     <div class="grid items-start gap-6 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-x-12 lg:gap-y-5">

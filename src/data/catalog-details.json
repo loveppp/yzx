@@ -1,9 +1,9 @@
 {
   "carbide-punches": {
     "note": {
-      "zh": "硬质合金与钨钢是本系列的两种常用名称。先确定整体或镶合金结构，再选择刃口和安装形式；耐磨性、抗崩刃与导向条件需要一起评估。",
-      "en": "Carbide and tungsten carbide refer to this same family. Choose solid or tipped construction, then the cutting profile and mounting interface; balance wear, chipping resistance and guidance.",
-      "vi": "Carbide và hợp kim cứng thuộc cùng một dòng. Chọn kết cấu nguyên khối hoặc gắn đầu, sau đó chọn biên dạng và kiểu lắp; cân nhắc mài mòn, sứt cạnh và dẫn hướng."
+      "zh": "硬质合金与钨钢是本系列的常用名称。提供整体钨钢与镶合金结构，支持圆柱杆身或单/双削平止动防转面（Key flat shank）；兼顾极高耐磨性、抗崩刃与高精度导正定位。",
+      "en": "Tungsten carbide punches and pilot pins in solid or tipped construction. Available with standard cylindrical shanks or custom key flat shanks (anti-rotation flats / D-cut). Engineered for extreme wear resistance, tight guidance, and precision stamping.",
+      "vi": "Chày hợp kim vonfram và chày dẫn hướng nguyên khối hoặc gắn đầu. Có sẵn thân tròn hoặc vát chống xoay (key flat shank) tùy chỉnh; cân đối độ chịu mòn và độ chính xác dẫn hướng."
     },
     "variants": [
       {
@@ -45,19 +45,19 @@
       {
         "id": "profile",
         "name": {
-          "en": "Custom special shaped straight punches",
-          "zh": "定制异形直身冲针",
-          "vi": "Chày thẳng biên dạng tùy chỉnh"
+          "en": "Key flat shank & shaped punches",
+          "zh": "削平止动防转与异形直身冲针",
+          "vi": "Chày thẳng biên dạng vát phẳng chống xoay"
         },
         "description": {
-          "zh": "按您提供的图纸、材料与工艺要求定制异形直身冲针。",
-          "en": "Custom special-shaped straight punches based on your drawings, materials and process requirements.",
-          "vi": "Chày thẳng biên dạng tùy chỉnh theo bản vẽ, vật liệu và quy trình."
+          "zh": "按图纸定制带单边/双边削平止动防转面（Key flat shank）的直身冲头及多边形、椭圆异形刃口。",
+          "en": "Custom tungsten carbide punches with key flat shank (anti-rotation flats / D-cut) or complex profile contours per CAD drawings.",
+          "vi": "Chày thẳng hợp kim có vát phẳng chống xoay (key flat shank) hoặc biên dạng phức tạp theo bản vẽ CAD."
         },
         "parameters": {
-          "zh": "轮廓图、内外角 R 与防转基准",
-          "en": "Profile drawing, corner radii and orientation datum",
-          "vi": "Bản vẽ biên dạng, bán kính góc và chuẩn hướng"
+          "zh": "削平防转基准、轮廓图、内外角 R 与公差",
+          "en": "Key flat shank dimensions, profile drawing, corner radii R and orientation datum",
+          "vi": "Kích thước vát chống xoay, bản vẽ biên dạng, bán kính góc R và chuẩn hướng"
         }
       },
       {
@@ -117,19 +117,19 @@
       {
         "id": "pilot",
         "name": {
-          "en": "Guide / pilot punch",
-          "zh": "引导冲头 / 导正冲",
-          "vi": "Chày dẫn / chày pilot"
+          "en": "Precision carbide pilot punches with bullet lead-in",
+          "zh": "精密钨钢导正冲头 / 引导冲针",
+          "vi": "Chày dẫn hướng chính xác bằng carbide mũi đạn"
         },
         "description": {
-          "zh": "用于最终冲裁前建立导正孔。",
-          "en": "Used to create guide holes before the final stamping.",
-          "vi": "Tạo lỗ dẫn trước công đoạn dập cuối."
+          "zh": "精密级钨钢导正冲头，前端具备平滑圆弧或子弹头导正过渡，用于级进模冲裁前的精准孔位定位。",
+          "en": "Precision pilot punches with parabolic or bullet lead-in tips to guide and locate strip material accurately before final progressive die stamping.",
+          "vi": "Chày dẫn hướng chính xác bằng carbide có mũi vát cong dạng đạn giúp định vị phôi chính xác trước khi dập."
         },
         "parameters": {
-          "zh": "工作端轮廓、杆径、总长、公差与材料",
-          "en": "Working profile, shank, overall length, tolerances and material",
-          "vi": "Biên dạng, thân, chiều dài, dung sai và vật liệu"
+          "zh": "导正端直径、引导锥度/R角、杆径、总长、公差与合金牌号",
+          "en": "Pilot tip diameter, lead-in radius/angle, shank diameter, overall length, tolerances and carbide grade",
+          "vi": "Đường kính đầu dẫn, bán kính/góc dẫn, đường kính thân, chiều dài, dung sai và mác hợp kim"
         }
       },
       {
@@ -550,27 +550,27 @@
   },
   "straight-ejector-pins": {
     "note": {
-      "zh": "直身是结构，SKD61 / H13 是材料选项，氮化是表面处理；三者可以组合。顶出端接触塑件，不作为冲裁刃口。",
-      "en": "Straight describes geometry, SKD61 / H13 describes material options, and nitriding is a treatment; these choices can be combined. The tip ejects the part rather than cutting it.",
-      "vi": "Thân thẳng là kết cấu, SKD61 / H13 là vật liệu, thấm nitơ là xử lý; có thể kết hợp. Đầu dùng đẩy sản phẩm, không cắt."
+      "zh": "直身顶针与模具型芯针（模芯镶针）采用优质 SKD61、H13 或 SKH51 制造，可配合表面氮化工艺，兼具耐高温耐磨损与模腔排气成型要求。",
+      "en": "Straight ejector pins and mold core pins fabricated from premium SKD61, H13, or SKH51. Available with surface nitriding for wear resistance, tight cavity forming, and mold gas venting.",
+      "vi": "Chốt đẩy thẳng và chốt lõi khuôn chế tạo từ SKD61, H13 hoặc SKH51. Kết hợp thấm nitơ chống mòn, tạo hình lòng khuôn và thoát khí hiệu quả."
     },
     "variants": [
       {
         "id": "plain",
         "name": {
-          "zh": "标准直身顶针",
-          "en": "Standard straight ejector pin",
-          "vi": "Ty thẳng tiêu chuẩn"
+          "zh": "标准直身顶针与型芯针",
+          "en": "Straight ejector pins & straight core pins",
+          "vi": "Ty đẩy thẳng & ty lõi khuôn tiêu chuẩn"
         },
         "description": {
-          "zh": "等径圆杆结构，适用于绝大多数常规注塑模具设计，为顶出布局提供稳定基础选项。",
-          "en": "Uniform round shank for conventional injection molds—a stable baseline for ejection layout.",
-          "vi": "Thân tròn đều cho khuôn nhựa thường—lựa chọn nền ổn định cho bố trí đẩy."
+          "zh": "等径精密圆杆结构，广泛用于注塑模顶出或作为型芯镶针使用，保证模腔成型精度与可靠脱模。",
+          "en": "Uniform cylindrical pins serving as precision ejector pins or straight mold core pins for cavity forming and mold venting.",
+          "vi": "Thân tròn đều dùng làm ty đẩy hoặc ty lõi khuôn chính xác cho tạo hình lòng khuôn và thoát khí."
         },
         "parameters": {
-          "zh": "直径、长度、公差、顶出位置",
-          "en": "Diameter, length, tolerances and ejection position",
-          "vi": "Đường kính, dài, dung sai và vị trí đẩy"
+          "zh": "直径（公制/英制）、工作长度、型芯配合公差与表面光洁度",
+          "en": "Pin diameter (metric/inch), working length, core pin fit tolerances and surface finish",
+          "vi": "Đường kính (mét/inch), chiều dài làm việc, dung sai lắp và độ bóng bề mặt"
         }
       },
       {
@@ -694,27 +694,27 @@
   },
   "stepped-ejector-pins": {
     "note": {
-      "zh": "台阶顶针以粗杆支撑较细顶出端。有效细段越长，越需要核对导向与侧向受力，不能仅因带台阶就认定承载更高。",
-      "en": "A stepped pin supports a small ejection tip with a larger body. Long reduced sections need guidance and side-load checks; a step alone does not establish load capacity.",
-      "vi": "Ty bậc dùng thân lớn đỡ đầu nhỏ. Đoạn nhỏ dài cần kiểm tra dẫn hướng và tải ngang; có bậc không tự bảo đảm tải cao."
+      "zh": "台阶顶针与阶梯镶针（阶梯型芯销）以粗杆支撑微细端部，大幅增强结构刚性，防止在高压注塑与脱模冲击下发生失稳弯曲或断裂。",
+      "en": "Stepped ejector pins and stepped pins (shoulder core pins) support small contact diameters with an enlarged body to prevent buckling and pin deflection under high molding pressure.",
+      "vi": "Chốt đẩy bậc và chốt bậc định vị dùng thân lớn đỡ đầu nhỏ giúp tăng cứng cáp, chống cong uốn và gãy dưới áp lực ép phun lớn."
     },
     "variants": [
       {
         "id": "single",
         "name": {
-          "zh": "单台阶顶针",
-          "en": "Single-step ejector",
-          "vi": "Ty đẩy một bậc"
+          "zh": "单台阶顶针与阶梯型芯销",
+          "en": "Single-step ejector pins & stepped pins",
+          "vi": "Ty đẩy một bậc & chốt bậc định vị"
         },
         "description": {
-          "zh": "适合较小顶出接触点，同时保留粗支撑杆。",
-          "en": "A small contact tip is supported by a larger shaft.",
-          "vi": "Đầu tiếp xúc nhỏ được thân lớn đỡ."
+          "zh": "加粗杆身支撑微细顶出端，大幅提升抗弯刚性，适合深骨位筋条顶出、浇口销及防弯折模具型芯镶针。",
+          "en": "Heavy-duty stepped pins with a reinforced body and reduced tip for deep rib ejection, gate pins, and anti-buckling core pin applications.",
+          "vi": "Chốt bậc chịu lực có thân tăng cường và đầu nhỏ cho đẩy gân sâu, chốt cuống phun và lõi chống cong gãy."
         },
         "parameters": {
-          "zh": "细段直径、长度、过渡 R",
-          "en": "Reduced diameter, length and transition radius",
-          "vi": "Đường kính đoạn nhỏ, dài và bán kính chuyển"
+          "zh": "细端直径、阶梯长度、粗杆直径、过渡圆角 R 与同轴度",
+          "en": "Reduced tip diameter, step length, body shank diameter, transition radius R and concentricity",
+          "vi": "Đường kính đoạn nhỏ, chiều dài bậc, đường kính thân, bán kính chuyển R và độ đồng tâm"
         }
       },
       {

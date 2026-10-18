@@ -120,24 +120,24 @@
       "group": "punch-components",
       "id": "carbide-punches",
       "name": {
-        "en": "Carbide Punches",
-        "zh": "硬质合金冲头（钨钢）",
-        "vi": "Chày hợp kim cứng"
+        "en": "Carbide Punches & Pilot Punches",
+        "zh": "硬质合金冲头与导正冲（钨钢）",
+        "vi": "Chày hợp kim cứng & chày dẫn hướng"
       },
       "summary": {
-        "en": "Wear-resistant punches with round or profiled working ends for repeat stamping. Carbide grade and edge geometry are selected together.",
-        "zh": "适用于重复冲裁的耐磨冲头，可采用圆形或异形工作端。硬质合金牌号应与刃口结构配合选择。",
-        "vi": "Chày chịu mòn với đầu tròn hoặc biên dạng cho dập lặp lại. Chọn mác hợp kim cùng hình học lưỡi cắt."
+        "en": "Custom precision tungsten carbide punches, pilot punches, and key flat shank punches in CD650/V30. Engineered for extreme wear resistance and tight tolerances to ±0.002mm.",
+        "zh": "精密钨钢冲头、导正冲针与削平止动防转冲针定制加工（CD650/V30）。超高耐磨损与抗崩刃性能，公差可达 ±0.002mm。",
+        "vi": "Chày hợp kim vonfram, chày dẫn hướng và chày vát chống xoay chính xác (CD650/V30). Chịu mòn cực cao, dung sai đạt ±0.002mm."
       },
       "application": {
-        "en": "Precision blanking and piercing, including abrasive sheet materials where wear is a key concern.",
-        "zh": "精密冲孔与落料，适用于重点关注刃口磨损的板材加工。",
-        "vi": "Đột lỗ và cắt chính xác, đặc biệt khi độ mòn lưỡi cắt là yếu tố chính."
+        "en": "Precision blanking, pilot locating, and piercing, including abrasive sheet materials where wear is a key concern.",
+        "zh": "精密冲孔、导正定位与落料，适用于重点关注刃口磨损的板材冲压工况。",
+        "vi": "Đột lỗ, định vị dẫn hướng và cắt chính xác, đặc biệt khi độ mòn lưỡi cắt là yếu tố chính."
       },
       "selection": {
-        "en": "Sheet grade and thickness; tip profile and edge support; shank diameter and retention",
-        "zh": "板材牌号与厚度；刃口轮廓与支撑；杆径与固定方式",
-        "vi": "Mác và chiều dày tấm; biên dạng đầu và độ đỡ; đường kính thân và cách giữ"
+        "en": "Sheet grade and thickness; tip profile and edge support; shank diameter and key flat retention",
+        "zh": "板材牌号与厚度；刃口轮廓与支撑；杆径与削平止动方式",
+        "vi": "Mác và chiều dày tấm; biên dạng đầu và độ đỡ; đường kính thân và cách giữ vát chống xoay"
       },
       "materials": [
         "Tungsten carbide"
@@ -442,24 +442,24 @@
       "group": "ejector-components",
       "id": "straight-ejector-pins",
       "name": {
-        "en": "Straight Ejector Pins",
-        "zh": "直身顶针",
-        "vi": "Chốt đẩy thẳng"
+        "en": "Straight Ejector Pins & Core Pins",
+        "zh": "直身顶针与模具型芯针",
+        "vi": "Chốt đẩy thẳng & chốt lõi khuôn"
       },
       "summary": {
-        "en": "Round pins transfer ejector-plate movement to the molded part. SKD61 and nitrided configurations are options within this family, not different functions.",
-        "zh": "圆形顶针将顶针板运动传递至制品。SKD61 属于材质选项，氮化属于表面处理，可按实际工况组合。",
-        "vi": "Chốt tròn truyền chuyển động tấm đẩy tới sản phẩm. SKD61 là lựa chọn vật liệu, thấm nitơ là xử lý bề mặt."
+        "en": "Precision straight ejector pins and straight mold core pins in SKD61 (nitrided), H13, and SKH51. Standard metric/inch and custom made-to-order dimensions holding ±0.002mm.",
+        "zh": "优质 SKD61 氮化、H13 及 SKH51 精密直身顶针与模具型芯镶针。支持公英制标准件与非标定制，公差保证 ±0.002mm。",
+        "vi": "Chốt đẩy thẳng và chốt lõi khuôn chính xác bằng SKD61 thấm nitơ, H13 và SKH51. Kích thước hệ mét/inch và gia công theo bản vẽ đạt ±0.002mm."
       },
       "application": {
-        "en": "Round pins transfer ejector-plate movement to the molded part. SKD61 and nitrided configurations are options within this family, not different functions.",
-        "zh": "圆形顶针将顶针板运动传递至制品。SKD61 属于材质选项，氮化属于表面处理，可按实际工况组合。",
-        "vi": "Chốt tròn truyền chuyển động tấm đẩy tới sản phẩm. SKD61 là lựa chọn vật liệu, thấm nitơ là xử lý bề mặt."
+        "en": "Precision mold ejection, deep cavity forming, and mold core venting in plastics and die casting tooling.",
+        "zh": "注塑与压铸模具精密顶出脱模、型腔深部成型镶针及模具间隙排气。",
+        "vi": "Đẩy khuôn chính xác, tạo hình lòng khuôn sâu và thoát khí lõi khuôn trong ép phun và đúc áp lực."
       },
       "selection": {
-        "en": "Tip diameter and total length; head dimensions and fit; mold temperature and nitriding requirement",
-        "zh": "工作直径与总长；头部尺寸与配合；模温与氮化要求",
-        "vi": "Đường kính và tổng chiều dài; kích thước đầu và độ lắp; nhiệt độ khuôn và yêu cầu thấm nitơ"
+        "en": "Pin diameter and working length; head style and core fit tolerance; thermal environment and nitriding depth",
+        "zh": "工作直径与有效长度；头部形式与型芯配合公差；工作温度与表面氮化要求",
+        "vi": "Đường kính và chiều dài làm việc; kiểu đầu và dung sai lắp lõi; nhiệt độ khuôn và chiều sâu thấm nitơ"
       },
       "materials": [
         "SKD61",
@@ -549,24 +549,24 @@
       "group": "ejector-components",
       "id": "stepped-ejector-pins",
       "name": {
-        "en": "Stepped Ejector Pins",
-        "zh": "台阶顶针",
-        "vi": "Chốt đẩy bậc"
+        "en": "Stepped Ejector Pins & Stepped Pins",
+        "zh": "台阶顶针与阶梯镶针（托针）",
+        "vi": "Chốt đẩy bậc & chốt bậc định vị"
       },
       "summary": {
-        "en": "A reduced ejection tip joins a larger support shaft. Step dimensions are selected to suit the available contact area and mold support.",
-        "zh": "较细顶出端连接较粗支撑杆，按制品接触面积及模具支撑条件确定台阶尺寸。",
-        "vi": "Đầu đẩy nhỏ nối với thân đỡ lớn; kích thước bậc theo diện tích tiếp xúc và độ đỡ trong khuôn."
+        "en": "Stepped ejector pins and heavy-duty stepped pins (shoulder core pins) with reinforced shank to prevent buckling and deflection under high injection molding pressures.",
+        "zh": "精密台阶顶针与加粗阶梯型芯镶针（托针）。加粗杆身增强抗弯曲刚性，防止高压注塑顶出变形与断针，公差达 ±0.002mm。",
+        "vi": "Chốt đẩy bậc và chốt bậc chịu lực có thân tăng cường chống cong uốn dưới áp lực ép phun cao, dung sai ±0.002mm."
       },
       "application": {
-        "en": "A reduced ejection tip joins a larger support shaft. Step dimensions are selected to suit the available contact area and mold support.",
-        "zh": "较细顶出端连接较粗支撑杆，按制品接触面积及模具支撑条件确定台阶尺寸。",
-        "vi": "Đầu đẩy nhỏ nối với thân đỡ lớn; kích thước bậc theo diện tích tiếp xúc và độ đỡ trong khuôn."
+        "en": "Deep rib ejection, narrow boss molding, and core pin support where standard straight pins risk buckling.",
+        "zh": "深筋骨位脱模顶出、狭窄柱位成型及普通直身顶针易受压弯曲的模芯镶针支撑工位。",
+        "vi": "Đẩy gân sâu, tạo hình vấu hẹp và đỡ chốt lõi nơi chốt thẳng thông thường dễ bị uốn cong."
       },
       "selection": {
-        "en": "Tip and support diameters; step length and radius; total length and mating fit",
-        "zh": "顶端与支撑段直径；台阶长度与圆角；总长与配合",
-        "vi": "Đường kính đầu và thân; chiều dài bậc và bán kính; tổng chiều dài và độ lắp"
+        "en": "Tip diameter and step length; body shank diameter and shoulder radius; total length and mating fit",
+        "zh": "顶端细端直径与台阶长度；加粗杆径与过渡圆角；总长与滑配配合公差",
+        "vi": "Đường kính đầu và chiều dài bậc; đường kính thân và bán kính vai; tổng chiều dài và độ lắp trượt"
       },
       "materials": [
         "SKD61",
