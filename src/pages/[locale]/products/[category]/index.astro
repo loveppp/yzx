@@ -27,10 +27,47 @@ const t = useTranslations(locale);
 const products = groupProducts(group.id);
 const tx = (v: Record<Locale, string>) => punchText(v, locale);
 const selectionItems = catalogText(group.selection, locale).split(/[;；]/);
+const groupName = catalogText(group.name, locale);
+const groupIntro = catalogText(group.intro, locale);
+
+function getCategorySeoTitle(gid: string, gName: string, loc: Locale): string {
+  if (loc === 'zh') {
+    if (gid === 'punch-components') return `冲压模具配件生产厂家_冲针/冲头/凹模衬套非标定制 | 深圳源智信`;
+    if (gid === 'ejector-components') return `注塑模具顶出配件制造厂家_顶针/司筒/型芯针定做 | 深圳源智信`;
+    if (gid === 'guide-components') return `模具精密导向组件厂家_导柱导套/滚珠套/独立导柱组 | 深圳源智信`;
+    return `${gName}生产厂家_高精密模具配件来图加工 | 深圳源智信`;
+  }
+  if (loc === 'vi') {
+    return `${gName} - Xưởng sản xuất linh kiện khuôn mẫu Thâm Quyến | YZX Precision`;
+  }
+  if (gid === 'punch-components') {
+    return `Custom Punch Components & Tooling Dies — China Manufacturer | YZX Precision`;
+  }
+  if (gid === 'ejector-components') {
+    return `Precision Ejector Pins & Mold Core Parts — China Supplier | YZX Precision`;
+  }
+  if (gid === 'guide-components') {
+    return `Precision Guide Posts & Bushings — China Mold Components Manufacturer | YZX Precision`;
+  }
+  return `Custom ${gName} — China Precision Tooling Manufacturer | YZX Precision`;
+}
+
+function getCategorySeoDescription(intro: string, loc: Locale): string {
+  if (loc === 'zh') {
+    return `${intro} 深圳源智信精密扎根深莞模具制造产业带，高精度磨削与慢走丝加工公差保证 ±0.002mm。支持 CAD/STEP 图纸核算，2小时出具工厂直销报价。`;
+  }
+  if (loc === 'vi') {
+    return `${intro} Nhà máy sản xuất linh kiện khuôn chính xác tại Thâm Quyến (Trung Quốc) gia công theo bản vẽ STEP/CAD/PDF, độ chính xác ±0.002mm.`;
+  }
+  return `${intro} Direct China manufacturer located in Shenzhen-Dongguan tooling hub. Holding ±0.002mm tolerances for stamping and injection moldmakers worldwide. Fast 2-hour CAD quote.`;
+}
+
+const categoryTitle = getCategorySeoTitle(group.id, groupName, locale);
+const categoryDesc = getCategorySeoDescription(groupIntro, locale);
 ---
 <Layout
-  title={`${catalogText(group.name, locale)} | YZX Precision`}
-  description={catalogText(group.intro, locale)}
+  title={categoryTitle}
+  description={categoryDesc}
   path={`/${locale}/products/${group.id}/`}
 >
   <section class="border-b border-borui-navy/10 px-5 py-9 md:px-8 md:py-14">

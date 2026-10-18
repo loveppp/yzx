@@ -19,6 +19,24 @@ const orgName =
     : locale === 'vi'
       ? 'Công ty TNHH Linh kiện Khuôn Yuanzhixin Thâm Quyến'
       : 'YZX Precision';
+const addressSchema =
+  locale === 'zh'
+    ? {
+        '@type': 'PostalAddress',
+        streetAddress: '龙岗街道新生社区低山龙山五路2号101',
+        addressLocality: '深圳市',
+        addressRegion: '广东省',
+        postalCode: '518116',
+        addressCountry: 'CN',
+      }
+    : {
+        '@type': 'PostalAddress',
+        streetAddress: 'Room 101, No. 2 Dishan Longshan 5th Road, Xinsheng, Longgang',
+        addressLocality: 'Shenzhen',
+        addressRegion: 'Guangdong',
+        postalCode: '518116',
+        addressCountry: 'CN',
+      };
 ---
 
 <meta charset="UTF-8" />
@@ -27,6 +45,10 @@ const orgName =
 <title>{title}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonical} />
+<meta name="geo.region" content="CN-GD" />
+<meta name="geo.placename" content="Shenzhen, Guangdong, China" />
+<meta name="geo.position" content="22.7215;114.2543" />
+<meta name="ICBM" content="22.7215, 114.2543" />
 {
   locales.map((code) => {
     const altPath = path.replace(`/${locale}/`, `/${code}/`);
@@ -57,4 +79,12 @@ const orgName =
   url: site,
   description,
   logo: new URL('/images/brand/logo.svg', site).href,
+  address: addressSchema,
+  areaServed: ['Worldwide', 'US', 'DE', 'JP', 'VN', 'CN'],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'inquiry@yzxprecision.com',
+    contactType: 'sales',
+    availableLanguage: ['English', 'Chinese', 'Vietnamese'],
+  },
 })} />
