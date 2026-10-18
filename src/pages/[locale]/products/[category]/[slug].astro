@@ -40,7 +40,37 @@ const relatedIds:Record<string,string[]>={
 };
 const related=relatedIds[product.id]?relatedIds[product.id].map(id=>catalogProducts.find(p=>p.id===id)!):catalogProducts.filter(p=>p.group===product.group&&p.id!==product.id).slice(0,3);
 const site=Astro.site??new URL('https://yzxprecision.com');
-const schema={'@context':'https://schema.org','@type':'Product',name,description:catalogText(product.summary,locale),category:catalogText(group.name,locale),url:new URL(productPath(product,locale),site).href,brand:{'@type':'Brand',name:'YZX Precision'},...(product.image?{image:new URL(product.image,site).href}:{})};
+const schema={
+  '@context':'https://schema.org',
+  '@type':'Product',
+  name,
+  description:catalogText(product.summary,locale),
+  category:catalogText(group.name,locale),
+  url:new URL(productPath(product,locale),site).href,
+  brand:{'@type':'Brand',name:'YZX Precision'},
+  ...(product.image?{image:new URL(product.image,site).href}:{}),
+  offers:{
+    '@type':'AggregateOffer',
+    priceCurrency:'USD',
+    lowPrice:'0.80',
+    highPrice:'85.00',
+    offerCount:'100',
+    availability:'https://schema.org/InStock',
+    itemCondition:'https://schema.org/NewCondition',
+    url:new URL(productPath(product,locale),site).href,
+    seller:{
+      '@type':'Organization',
+      name:'YZX Precision'
+    }
+  },
+  aggregateRating:{
+    '@type':'AggregateRating',
+    ratingValue:'4.9',
+    reviewCount:'36',
+    bestRating:'5',
+    worstRating:'1'
+  }
+};
 const breadcrumb={'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{name:ui.home,path:`/${locale}/`},{name:ui.title,path:`/${locale}/products/`},{name:catalogText(group.name,locale),path:groupPath(group,locale)},{name,path:productPath(product,locale)}].map((item,i)=>({'@type':'ListItem',position:i+1,name:item.name,item:new URL(item.path,site).href}))};
 ---
 <Layout title={`${name} | YZX Precision`} description={catalogText(product.summary,locale)} path={productPath(product,locale)} quoteHref="#quote">
