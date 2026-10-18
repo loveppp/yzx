@@ -1,6 +1,6 @@
 ---
-title_en: Preventing Punch Tip Galling & Adhesive Wear: Root Causes, PVD Coating Selection, and Clearance Engineering
-title_zh: 冲压冲针头部咬死与拉伤预防全指南：冷焊机理、PVD涂层选型、微锥度避空与维护对策
+title_en: "Preventing Punch Tip Galling & Adhesive Wear: Root Causes, PVD Coating Selection, and Clearance Engineering"
+title_zh: "冲压冲针头部咬死与拉伤预防全指南：冷焊机理、PVD涂层选型、微锥度避空与维护对策"
 description_en: Comprehensive engineering guide to eliminating punch tip galling and adhesive wear when stamping stainless steel, AHSS, and aluminum. Covers microwelding mechanics, PVD coatings (AlCrN vs TiCN vs DLC), axial polishing, and back taper clearances.
 description_zh: 针对不锈钢、高强钢与铝合金冲压中冲头头部咬死（Galling）、拉伤及冷焊粘模问题的深度工程指南。系统解析微观冷焊机理、PVD 纳米涂层（AlCrN/TiCN/DLC）选型矩阵、轴向镜面研磨与微锥度避空优化。
 pubDate: 2026-10-16
