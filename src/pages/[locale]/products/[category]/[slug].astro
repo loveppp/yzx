@@ -6,7 +6,7 @@ import CatalogCard from '@/components/CatalogCard.astro';
 import CatalogFamilyDetails from '@/components/CatalogFamilyDetails.astro';
 import {detailsFor,detailUI} from '@/data/catalog-details';
 import {familySectionAnchors, familyHidesConfigurations, isPunchLongformProduct, familyExtrasFor} from '@/data/catalog-family-extras';
-import {catalogGroups,catalogProducts,catalogText,materialLabel,productPath,groupPath,legacyProducts,legacyDestination,catalogProductMediaFrame} from '@/data/catalog';
+import {catalogGroups,catalogProducts,catalogText,materialLabel,productPath,groupPath,legacyProducts,legacyDestination,catalogProductMediaFrame,type CatalogProduct} from '@/data/catalog';
 import {catalogUI} from '@/data/catalog-ui';
 import {locales,useTranslations,type Locale} from '@/i18n/utils';
 export function getStaticPaths(){
@@ -71,7 +71,7 @@ const schema={
     worstRating:'1'
   }
 };
-function getSeoTitle(p: typeof product, loc: Locale, productName: string): string {
+function getSeoTitle(p: CatalogProduct, loc: Locale, productName: string): string {
   if (loc === 'zh') {
     if (p.id === 'carbide-punches') return `精密硬质合金冲头(钨钢)生产厂家_导正冲/防转削边冲针定制(±0.002mm) | 源智信精密`;
     if (p.id === 'hss-punches') return `高速钢冲头(SKH51/ASP23)生产厂家_高耐磨冲切冲针定做 | 源智信精密`;
@@ -110,7 +110,7 @@ function getSeoTitle(p: typeof product, loc: Locale, productName: string): strin
   return `Custom ${productName} Manufacturer — Precision Mold Components | YZX Precision`;
 }
 
-function getSeoDescription(p: typeof product, loc: Locale): string {
+function getSeoDescription(p: CatalogProduct, loc: Locale): string {
   const summary = catalogText(p.summary, loc);
   if (loc === 'zh') {
     return `${summary} 深圳市源智信精密专注高精密模具配件研发生产，公差可达 ±0.002mm。支持 STEP/CAD/PDF 图纸核算，2小时内极速出具专业报价。`;
@@ -134,8 +134,8 @@ function getSeoDescription(p: typeof product, loc: Locale): string {
 }
 const breadcrumb={'@context':'https://schema.org','@type':'BreadcrumbList',itemListElement:[{name:ui.home,path:`/${locale}/`},{name:ui.title,path:`/${locale}/products/`},{name:catalogText(group.name,locale),path:groupPath(group,locale)},{name,path:productPath(product,locale)}].map((item,i)=>({'@type':'ListItem',position:i+1,name:item.name,item:new URL(item.path,site).href}))};
 
-const pageTitle = getSeoTitle(product, locale, name);
-const pageDescription = getSeoDescription(product, locale);
+const pageTitle = getSeoTitle(product!, locale, name);
+const pageDescription = getSeoDescription(product!, locale);
 ---
 <Layout title={pageTitle} description={pageDescription} path={productPath(product,locale)} quoteHref="#quote">
   <article class="px-5 py-7 md:px-8 md:py-10"><div class="content-wrap">
