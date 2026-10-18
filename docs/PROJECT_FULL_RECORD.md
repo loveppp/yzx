@@ -72,7 +72,7 @@ Cloudflare Pages（全球免费边缘分发 / SSL自动续期）
   * 中文页面（42 个）
   * 越南语页面（42 个）
   * 涵盖：首页、产品大类、产品细类落地页、工厂介绍、非标定制、博客深度指南等。
-* **核心 SEO 标签规范**：全站配备 `canonical`、`hreflang`（en/zh/vi 多语言定向）、OpenGraph 以及 Schema.org `Organization` 和 `BlogPosting` 结构化数据。
+* **核心 SEO 标签规范**：全站配备 `canonical`、`hreflang`（en/zh/vi 多语言定向）、OpenGraph 以及 Schema.org `Organization`、`BlogPosting` 和 `Product`（含 `AggregateOffer` 与 `AggregateRating`）结构化数据，确保 GSC 0 错误并激活谷歌商品富媒体（Rich Snippets）展示。
 
 ---
 
