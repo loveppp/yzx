@@ -26,6 +26,7 @@ export default defineConfig({
     sitemap({
       filter: (page) => {
         const segments = new URL(page).pathname.split('/').filter(Boolean);
+        if (segments.length === 0) return false;
         if (segments[1] !== 'products') return true;
         return canonicalCatalogPaths.has(segments.slice(1).join('/'));
       },
