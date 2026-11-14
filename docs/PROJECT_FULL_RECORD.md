@@ -72,7 +72,10 @@ Cloudflare Pages（全球免费边缘分发 / SSL自动续期）
   * 中文页面（42 个）
   * 越南语页面（42 个）
   * 涵盖：首页、产品大类、产品细类落地页、工厂介绍、非标定制、博客深度指南等。
-* **核心 SEO 标签规范**：全站配备 `canonical`、`hreflang`（en/zh/vi 多语言定向）、OpenGraph 以及 Schema.org `Organization`、`BlogPosting` 和 `Product`（含 `AggregateOffer` 与 `AggregateRating`）结构化数据，确保 GSC 0 错误并激活谷歌商品富媒体（Rich Snippets）展示。
+* **核心 SEO 标签规范**：全站配备 `canonical`、`hreflang`（en/zh/vi 多语言定向）、OpenGraph 以及 Schema.org `Organization`、`BlogPosting` 和 `Product`（含 `AggregateOffer`）结构化数据，确保 GSC 0 错误并激活谷歌商品富媒体（Rich Snippets）展示。
+* **⚠️ 已移除 `AggregateRating`（2026-11-14）**：此前产品页硬编码 `ratingValue: 4.9 / reviewCount: 36`，属虚构评分。Google 明确禁止 Product 标记中的 self-serving reviews（商家自评），且 GSC「搜索结果呈现」显示该评价摘要已获得 168 次展示，是真实的处罚风险。现已从 `src/pages/[locale]/products/[category]/[slug].astro` 删除；商品富媒体资格由 `offers` 继续维持，不影响产品摘要展示。
+  * **GSC 若再次提示「缺少字段 aggregateRating」属正常**：该字段对 Product 富媒体是**可选**（`offers` / `review` / `aggregateRating` 三选一即可）。为消除可选字段提示而补虚构数据，方向是反的。将来只有接入真实第三方评价（Google Business Profile / 阿里国际站）才可恢复。
+* **www → 裸域 301**：由 `functions/_middleware.ts`（Cloudflare Pages Functions）实现，把 `www.yzxprecision.com/*` 301 到 `https://yzxprecision.com/*`，消除双主机名重复内容。
 
 ---
 

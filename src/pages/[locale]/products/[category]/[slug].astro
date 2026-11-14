@@ -62,14 +62,13 @@ const schema={
       '@type':'Organization',
       name:'YZX Precision'
     }
-  },
-  aggregateRating:{
-    '@type':'AggregateRating',
-    ratingValue:'4.9',
-    reviewCount:'36',
-    bestRating:'5',
-    worstRating:'1'
   }
+  // aggregateRating 已移除（2026-11）：此前硬编码的 4.9 分 / 36 条评价为虚构数据，
+  // Google 明令禁止 Product 结构化数据中的 self-serving reviews（商家自评），
+  // 虚构评分会导致富媒体结果被收回，严重时触发结构化数据作弊的人工处罚。
+  // Product 富媒体结果仍可通过上面的 offers 保持资格，不受影响。
+  // 若日后要恢复评分展示，只允许接入真实第三方来源（如 Google Business Profile / 阿里国际站），
+  // 且必须有可核验的评价条数与分数。
 };
 function getSeoTitle(p: CatalogProduct, loc: Locale, productName: string): string {
   if (loc === 'zh') {

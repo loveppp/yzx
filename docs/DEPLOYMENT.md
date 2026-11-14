@@ -92,3 +92,19 @@ Add these encrypted environment variables in the Cloudflare Pages project:
 The form endpoint is `functions/api/quote.ts`. It sends enquiry text and an optional drawing attachment through Resend. Attachments are restricted to approved drawing/image formats and 8 MB.
 
 Before production, replace `noreply@yzxprecision.com` in the function with a domain verified in Resend. Do not commit API keys. Add Cloudflare Turnstile after the domain is connected if spam becomes a problem.
+
+### www → 裸域 301（`functions/_middleware.ts`）
+
+Cloudflare Pages 会把 `www.yzxprecision.com` 和 `yzxprecision.com` 都解析到同一个项目并各自返回 200，形成同一内容的两个主机名（GSC 里已出现 `www.*` 被收录）。仓库根目录的 `functions/_middleware.ts` 负责把 www 永久重定向到裸域。
+
+```bash
+# 部署后验证（应返回 301，Location 指向裸域）
+curl -sI https://www.yzxprecision.com/en/ | head -4
+```
+
+说明：
+
+- 中间件只匹配 `www.yzxprecision.com`，预览域名 `*.yzx.pages.dev` 等一律放行。
+- 它拦截**每一个**请求（含静态资源），因此不要在里面加业务逻辑。
+- 如果日后改为纯静态托管（无 Functions），需要改用 Cloudflare 面板的 Redirect Rule
+  或 Nginx `return 301 https://yzxprecision.com$request_uri;`。
