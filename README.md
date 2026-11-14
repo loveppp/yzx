@@ -103,3 +103,5 @@ npm run image-gen -- 帮助  # 产品图 CLI（可选）
 
 - **腾讯云 CVM**：`root@159.75.252.43` → `/var/www/yzx`，http://159.75.252.43/zh/ — 构建与上传命令见 [docs/DEPLOYMENT.md](./docs/DEPLOYMENT.md)
 - **Cloudflare Pages**（可选，含询价 API）：`npm run build`，输出 `dist/`
+
+superagent 连通性测试
