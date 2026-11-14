@@ -1,0 +1,6 @@
+这是一个测试用的 a.txt 文件。
+
+内容随便写一点，用于验证文件创建流程是否正常。
+创建日期：2026-11-14
+
+Hello, YZX! This is only a test file.
